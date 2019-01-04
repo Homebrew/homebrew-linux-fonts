@@ -11,7 +11,7 @@ Fonts are available through homebrew and linuxbrew, which is an “external comm
 ## Let’s try it!
 
 ```bash
-$ brew tap asciian/fonts                  # you only have to do this once!
+$ brew tap ta2gch/fonts                 # you only have to do this once!
 $ brew install font-inconsolata --HEAD
 ```
 
