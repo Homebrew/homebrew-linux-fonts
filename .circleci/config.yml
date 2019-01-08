@@ -42,7 +42,7 @@ jobs:
       - run:
           name: Import casks from upstream
           command: |
-            git submodule update --remote
+            git submodule update --init --remote
             bundle exec rake
       - run:
           name: Push new formulae to origin/master
