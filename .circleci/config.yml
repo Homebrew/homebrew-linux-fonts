@@ -1,0 +1,68 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/ruby:2.6.0
+    working_directory: ~/repo
+    step:
+      - checkout
+      - restore_cache:
+          keys:
+          - v1-dependencies-{{ checksum "Gemfile.lock" }}
+          - v1-dependencies-
+      - run:
+          name: install dependencies
+          command: bundle install --jobs=4 --retry=3 --path vendor/bundle
+      - save_cache:
+          paths:
+            - ./vendor/bundle
+          key: v1-dependencies-{{ checksum "Gemfile.lock" }}
+      - run:
+          name: Import casks from upstream
+          command: |
+            git submodule update --remote
+            bundle exec rake
+  deploy:
+    docker:
+      - image: circleci/ruby:2.6.0
+    working_directory: ~/repo
+    step:
+      - checkout
+      - restore_cache:
+          keys:
+          - v1-dependencies-{{ checksum "Gemfile.lock" }}
+          - v1-dependencies-
+      - run:
+          name: install dependencies
+          command: bundle install --jobs=4 --retry=3 --path vendor/bundle
+      - save_cache:
+          paths:
+            - ./vendor/bundle
+          key: v1-dependencies-{{ checksum "Gemfile.lock" }}
+      - run:
+          name: Import casks from upstream
+          command: |
+            git submodule update --remote
+            bundle exec rake
+      - run:
+          name: Push new formulae to origin/master
+          command: |
+            git config user.email 'ta2gch+circleci@users.noreply.github.com'
+            git config user.name 'TANIGUCHI Masaya'
+            (git commit -am 'Update submodule' && git push git@github.com:ta2gch/homebrew-fonts) || :
+
+workflows:
+  version: 2
+  commit-workflow:
+    jobs:
+      - build
+  scheduled-workflow:
+    triggers:
+      - schedule:
+          cron: "0 3 * * *"
+          filters:
+            branches:
+              only:
+                - master
+    jobs:
+      - deply
