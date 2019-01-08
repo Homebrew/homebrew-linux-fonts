@@ -1,0 +1,11 @@
+class FontWakor < Formula
+  version "4.0.7"
+  sha256 "65bee72a3b3433492de20360532b35f17421b601d1cde52b116e666cd6924504"
+  url "https://www.evertype.com/fonts/vai/wakorfont.zip"
+  desc "Wakor"
+  homepage "https://www.evertype.com/fonts/vai/"
+  def install
+    
+  test do
+  end
+end
