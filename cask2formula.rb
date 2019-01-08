@@ -114,9 +114,29 @@ class CaskTransform < Parslet::Transform
 end
 
 class CaskConverter
-    def convert(input)
-        CaskTransform.new.apply(CaskParser.new.parse(input))
+    def convert
+      transform = CaskTransform.new
+      parser = CaskParser.new
+      Dir.glob('./homebrew-cask-fonts/Casks/*.rb').each do |cask|
+        recipe = File.read(cask)
+        recipe = transform.apply(parser.parse(recipe))
+        formula = cask.sub(%r{homebrew-cask-fonts/Casks}, 'Formula')
+        File.write(formula, recipe)
+        p "#{cask} -> #{formula}"
+      end
+    end
+
+    def commit
+      `git diff --name-only; git ls-files --others --exclude-standard`.split(/\s+/).each do |file|
+          remote_source = "https://github.com/homebrew/#{file.sub(/Formula/, "homebrew-cask-fonts/blob/master")}"
+          commit_id = `git -C homebrew-cask-fonts log -n 1 --pretty=format:%H -- #{file.sub(/Formula/, 'Casks')}`
+          system 'git', 'add', file
+          system 'git', 'commit', '-m', "import #{remote_source} from #{commit_id}"
+      end
     end
 end
 
-puts CaskConverter.new.convert(STDIN.read)
+converter = CaskConverter.new
+converter.convert
+converter.commit
+
