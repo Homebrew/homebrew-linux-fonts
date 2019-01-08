@@ -72,7 +72,9 @@ class CaskTransform < Parslet::Transform
         <<~EOS
         class #{camelcase} < Formula
           #{commands1.join("\n  ")}
-          #{"def install\n    #{fonts.join("\n    ")}\n  end"}
+          def install
+            #{fonts.join("\n    ")}
+          end
           #{commands2.join("\n  ")}
         end
         EOS
