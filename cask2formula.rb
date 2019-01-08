@@ -117,9 +117,9 @@ end
 
 class CaskConverter
     def convert
+      transform = CaskTransform.new
+      parser = CaskParser.new
       Dir.glob('./homebrew-cask-fonts/Casks/*.rb').select{|file| file !~ /font-lisutzimu/}.each do |cask|
-        transform = CaskTransform.new
-        parser = CaskParser.new
         recipe = File.read(cask)
         recipe = transform.apply(parser.parse(recipe))
         formula = cask.sub(%r{homebrew-cask-fonts/Casks}, 'Formula')
