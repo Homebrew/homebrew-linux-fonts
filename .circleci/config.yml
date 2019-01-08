@@ -26,8 +26,7 @@ jobs:
             bundle exec rake
       - run:
           name: Push new formulae to origin/master
-          command: |
-            (git commit -am 'Update submodule' && git push git@github.com:ta2gch/homebrew-fonts) || :
+          command: git push git@github.com:ta2gch/homebrew-fonts
 workflows:
   version: 2
   commit-workflow:
