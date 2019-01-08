@@ -1,0 +1,10 @@
+class FontImFellDwPica < Formula
+  head "https://github.com/google/fonts/trunk/ofl/imfelldwpica", using: :svn, revision: "50", trust_cert: true
+  desc "IM Fell DW Pica"
+  homepage "https://www.google.com/fonts/specimen/IM%20Fell%20DW%20Pica"
+  depends_on macos: ">= :sierra"
+  def install
+    
+  test do
+  end
+end
