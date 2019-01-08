@@ -6,7 +6,7 @@ rule %r{^Formula/.*\.rb$} => '%{Formula,homebrew-cask-fonts/Casks}p' do |t|
   sh 'mkdir', '-p', 'Formula'
   sh "bundle exec ruby cask2formula.rb < #{t.source} > #{t.name}"
   sh 'git', 'add', t.name
-  sh 'git', 'commit', '-m', "import #{remote_source} from #{commit_id}"
+  sh "git commit -m 'import #{remote_source} from #{commit_id}' || :"
 end
 
 task default: FileList['homebrew-cask-fonts/Casks/*.rb'].sub(%r{homebrew-cask-fonts/Casks}, 'Formula').select{|file| file !~ /font-lisutzimu/}
