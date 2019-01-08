@@ -4,7 +4,7 @@ jobs:
     docker:
       - image: circleci/ruby:2.6.0
     working_directory: ~/repo
-    step:
+    steps:
       - checkout
       - restore_cache:
           keys:
@@ -26,7 +26,7 @@ jobs:
     docker:
       - image: circleci/ruby:2.6.0
     working_directory: ~/repo
-    step:
+    steps:
       - checkout
       - restore_cache:
           keys:
