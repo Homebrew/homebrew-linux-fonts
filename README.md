@@ -1,4 +1,4 @@
-# Linuxbrew-fonts [![Build Status](https://travis-ci.org/asciian/homebrew-fonts.svg?branch=master)](https://travis-ci.org/asciian/homebrew-fonts)
+# Linuxbrew-fonts [![CircleCI](https://circleci.com/gh/ta2gch/homebrew-fonts.svg?style=svg)](https://circleci.com/gh/ta2gch/homebrew-fonts)
 
 Linuxbrew-fonts is a fork of [Caskroom-fonts](https://github.com/Caskroom/homebrew-fonts/).
 
