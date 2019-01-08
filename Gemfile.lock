@@ -2,14 +2,12 @@ GEM
   remote: https://rubygems.org/
   specs:
     parslet (1.8.2)
-    rake (12.3.2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   parslet
-  rake
 
 BUNDLED WITH
    1.17.2
