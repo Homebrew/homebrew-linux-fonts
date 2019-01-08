@@ -1,0 +1,38 @@
+class FontIosevkaSlab < Formula
+  version "2.0.2"
+  sha256 "f6f16f1d9615e95cce1b04f4ce9833b252badaca605d97fde22884bfcec088dd"
+  url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/ttc-iosevka-slab-#{version}.zip"
+  desc "Iosevka Slab"
+  homepage "https://github.com/be5invis/Iosevka/"
+  def install
+    (share/"fonts").install "iosevka-slab-bold.ttc"
+    (share/"fonts").install "iosevka-slab-bolditalic.ttc"
+    (share/"fonts").install "iosevka-slab-boldoblique.ttc"
+    (share/"fonts").install "iosevka-slab-extrabold.ttc"
+    (share/"fonts").install "iosevka-slab-extrabolditalic.ttc"
+    (share/"fonts").install "iosevka-slab-extraboldoblique.ttc"
+    (share/"fonts").install "iosevka-slab-extralight.ttc"
+    (share/"fonts").install "iosevka-slab-extralightitalic.ttc"
+    (share/"fonts").install "iosevka-slab-extralightoblique.ttc"
+    (share/"fonts").install "iosevka-slab-heavy.ttc"
+    (share/"fonts").install "iosevka-slab-heavyitalic.ttc"
+    (share/"fonts").install "iosevka-slab-heavyoblique.ttc"
+    (share/"fonts").install "iosevka-slab-italic.ttc"
+    (share/"fonts").install "iosevka-slab-light.ttc"
+    (share/"fonts").install "iosevka-slab-lightitalic.ttc"
+    (share/"fonts").install "iosevka-slab-lightoblique.ttc"
+    (share/"fonts").install "iosevka-slab-medium.ttc"
+    (share/"fonts").install "iosevka-slab-mediumitalic.ttc"
+    (share/"fonts").install "iosevka-slab-mediumoblique.ttc"
+    (share/"fonts").install "iosevka-slab-oblique.ttc"
+    (share/"fonts").install "iosevka-slab-regular.ttc"
+    (share/"fonts").install "iosevka-slab-semibold.ttc"
+    (share/"fonts").install "iosevka-slab-semibolditalic.ttc"
+    (share/"fonts").install "iosevka-slab-semiboldoblique.ttc"
+    (share/"fonts").install "iosevka-slab-thin.ttc"
+    (share/"fonts").install "iosevka-slab-thinitalic.ttc"
+    (share/"fonts").install "iosevka-slab-thinoblique.ttc"
+  end
+  test do
+  end
+end
