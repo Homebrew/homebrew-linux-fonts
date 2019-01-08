@@ -1,3 +1,0 @@
-language: ruby
-os: osx
-script: make test
