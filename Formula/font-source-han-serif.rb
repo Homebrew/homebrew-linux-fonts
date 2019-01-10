@@ -4,7 +4,6 @@ class FontSourceHanSerif < Formula
   url "https://github.com/adobe-fonts/source-han-serif/releases/download/1.001R/SourceHanSerif.ttc"
   desc "Source Han Serif"
   homepage "https://github.com/adobe-fonts/source-han-serif"
-  depends_on macos: ">= :mountain_lion"
   def install
     (share/"fonts").install "SourceHanSerif.ttc"
   end
