@@ -88,7 +88,9 @@ class CaskTransform < Parslet::Transform
         elsif command == "name" then
             "desc #{arguments.join(", ")}"
         elsif command == "depends_on" then
-            "depends_on #{arguments.join(",").gsub("formula: ","")}"
+            # Delete depends_on macos ...
+            # "depends_on #{arguments.join(",").gsub("formula: ","")}"
+            ""
         elsif command == "appcast" || command == "container" then #TODO: "container type:""
             ""
         elsif command == "sha256" && arguments.join(", ") == ":no_check" then
