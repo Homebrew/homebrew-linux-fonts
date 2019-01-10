@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 require "parslet"
 
 class CaskParser < Parslet::Parser

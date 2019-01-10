@@ -23,7 +23,7 @@ jobs:
             git config user.email 'ta2gch+circleci@users.noreply.github.com'
             git config user.name 'TANIGUCHI Masaya'
             git submodule update --init --remote
-            bundle exec ruby cask2formula.rb
+            bundle exec ruby cask2formula
       - run:
           name: Push new formulae to origin/master
           command: git push git@github.com:ta2gch/homebrew-fonts
