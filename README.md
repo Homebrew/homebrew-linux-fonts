@@ -1,4 +1,4 @@
-# Linuxbrew-fonts [![CircleCI](https://circleci.com/gh/ta2gch/homebrew-fonts.svg?style=svg)](https://circleci.com/gh/linuxbrew/homebrew-fonts)
+# Linuxbrew-fonts [![CircleCI](https://circleci.com/gh/Linuxbrew/homebrew-fonts.svg?style=svg)](https://circleci.com/gh/Linuxbrew/homebrew-fonts)
 
 Linuxbrew-fonts is a fork of [homebrew-cask-fonts](https://github.com/Caskroom/homebrew-fonts/).
 
@@ -6,7 +6,7 @@ Linuxbrew-fonts is a Homebrew Tap which allows you to use the same friendly Home
 
 ## Prerequisites
 
-Fonts are available through homebrew and linuxbrew. So, first you must install [Homebrew](http://brew.sh) or [Linuxbrew](http://linuxbrew.sh). However this repository is **NOT** an "external command” of Homebrew, it is a different from the upstream repository, homebrew/homebrew-cask-fonts. Please caught ot that.
+Fonts are available through homebrew and linuxbrew. So, first you must install [Homebrew](http://brew.sh) or [Linuxbrew](http://linuxbrew.sh). However this repository is **NOT** an "external command” of Homebrew, it is a different from the upstream repository, homebrew/homebrew-cask-fonts. Please caught of that.
 
 **Since Homebrew 1.9 or later supports the both platform, you can use this repository with homebrew in Linux too**
 
