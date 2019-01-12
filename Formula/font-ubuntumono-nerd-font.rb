@@ -6,6 +6,9 @@ class FontUbuntumonoNerdFont < Formula
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
     (share/"fonts").install "Ubuntu Mono Nerd Font Complete.ttf"
+    (share/"fonts").install "Ubuntu Mono Italic Nerd Font Complete.ttf"
+    (share/"fonts").install "Ubuntu Mono Bold Nerd Font Complete.ttf"
+    (share/"fonts").install "Ubuntu Mono Bold Italic Nerd Font Complete.ttf"
   end
   test do
   end
