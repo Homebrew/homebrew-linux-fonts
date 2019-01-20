@@ -5,9 +5,9 @@ class FontSourceHanSerifSbH < Formula
   desc "Source Han Serif SB-H"
   homepage "https://github.com/adobe-fonts/source-han-serif"
   def install
-    (share/"fonts").install "SourceHanSerifOTC_SB-H/SourceHanSerif-SemiBold.ttc"
-    (share/"fonts").install "SourceHanSerifOTC_SB-H/SourceHanSerif-Bold.ttc"
-    (share/"fonts").install "SourceHanSerifOTC_SB-H/SourceHanSerif-Heavy.ttc"
+    (share/"fonts").install "../SourceHanSerifOTC_SB-H/SourceHanSerif-SemiBold.ttc"
+    (share/"fonts").install "../SourceHanSerifOTC_SB-H/SourceHanSerif-Bold.ttc"
+    (share/"fonts").install "../SourceHanSerifOTC_SB-H/SourceHanSerif-Heavy.ttc"
   end
   def creavat; <<~EOS
     #{token} only installs the SemiBold, Bold, and Heavy weights.
