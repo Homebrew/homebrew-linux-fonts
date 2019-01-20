@@ -5,8 +5,8 @@ class FontMigu2m < Formula
   desc "Migu 2M"
   homepage "http://mix-mplus-ipa.osdn.jp/migu/#migu2m"
   def install
-    (share/"fonts").install "migu-2m-#{version}/migu-2m-bold.ttf"
-    (share/"fonts").install "migu-2m-#{version}/migu-2m-regular.ttf"
+    (share/"fonts").install "../migu-2m-#{version}/migu-2m-bold.ttf"
+    (share/"fonts").install "../migu-2m-#{version}/migu-2m-regular.ttf"
   end
   test do
   end
