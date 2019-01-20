@@ -22,7 +22,7 @@ $ brew install font-inconsolata --HEAD
 If you're using major distributions, just type;
 
 ```
-$ ln -s /home/linuxbrew/.linuxbrew/share/fonts ~/.fonts
+$ ln -s /home/linuxbrew/.linuxbrew/share/fonts ~/.local/share/fonts
 $ fc-cache -fv
 ```
 
