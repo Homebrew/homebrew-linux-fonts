@@ -5,7 +5,7 @@ class FontTibetanMachineUni < Formula
   desc "Tibetan Machine Uni"
   homepage "https://www.thlib.org/tools/scripts/wiki/tibetan%20machine%20uni.html"
   def install
-    (share/"fonts").install "TibetanMachineUnicodeFont/TibMachUni-#{version}b.ttf"
+    (share/"fonts").install "../TibetanMachineUnicodeFont/TibMachUni-#{version}b.ttf"
   end
   test do
   end
