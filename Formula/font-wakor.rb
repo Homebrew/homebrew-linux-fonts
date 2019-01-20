@@ -5,8 +5,8 @@ class FontWakor < Formula
   desc "Wakor"
   homepage "https://www.evertype.com/fonts/vai/"
   def install
-    (share/"fonts").install "Wakor-#{version}/Wakor.ttf"
-    (share/"fonts").install "Wakor-#{version}/WakorOblique.ttf"
+    (share/"fonts").install "../Wakor-#{version}/Wakor.ttf"
+    (share/"fonts").install "../Wakor-#{version}/WakorOblique.ttf"
   end
   test do
   end
