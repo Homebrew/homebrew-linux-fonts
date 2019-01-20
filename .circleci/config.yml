@@ -26,7 +26,7 @@ jobs:
             bundle exec ruby cask2formula
       - run:
           name: Push new formulae to origin/master
-          command: git push git@github.com:ta2gch/homebrew-fonts
+          command: git push git@github.com:${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}
 workflows:
   version: 2
   commit-workflow:
