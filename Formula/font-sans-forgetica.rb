@@ -3,7 +3,7 @@ class FontSansForgetica < Formula
   desc "Sans Forgetica"
   homepage "http://sansforgetica.rmit/"
   def install
-    (share/"fonts").install "Sans Forgetica/SansForgetica-Regular.otf"
+    (share/"fonts").install "../Sans Forgetica/SansForgetica-Regular.otf"
   end
   test do
   end
