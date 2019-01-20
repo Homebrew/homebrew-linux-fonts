@@ -5,8 +5,8 @@ class FontDukor < Formula
   desc "Dukor"
   homepage "https://www.evertype.com/fonts/vai/"
   def install
-    (share/"fonts").install "Dukor-#{version}/Dukor.ttf"
-    (share/"fonts").install "Dukor-#{version}/DukorItalic.ttf"
+    (share/"fonts").install "../Dukor-#{version}/Dukor.ttf"
+    (share/"fonts").install "../Dukor-#{version}/DukorItalic.ttf"
   end
   test do
   end
