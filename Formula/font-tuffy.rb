@@ -5,10 +5,10 @@ class FontTuffy < Formula
   desc "Tuffy"
   homepage "http://tulrich.com/fonts/"
   def install
-    (share/"fonts").install "tuffy-#{version}/Tuffy.otf"
-    (share/"fonts").install "tuffy-#{version}/Tuffy_Bold.otf"
-    (share/"fonts").install "tuffy-#{version}/Tuffy_Bold_Italic.otf"
-    (share/"fonts").install "tuffy-#{version}/Tuffy_Italic.otf"
+    (share/"fonts").install "../tuffy-#{version}/Tuffy.otf"
+    (share/"fonts").install "../tuffy-#{version}/Tuffy_Bold.otf"
+    (share/"fonts").install "../tuffy-#{version}/Tuffy_Bold_Italic.otf"
+    (share/"fonts").install "../tuffy-#{version}/Tuffy_Italic.otf"
   end
   test do
   end
