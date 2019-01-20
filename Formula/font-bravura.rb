@@ -5,8 +5,8 @@ class FontBravura < Formula
   desc "Bravura"
   homepage "https://www.smufl.org/fonts/"
   def install
-    (share/"fonts").install "otf/Bravura.otf"
-    (share/"fonts").install "otf/BravuraText.otf"
+    (share/"fonts").install "../otf/Bravura.otf"
+    (share/"fonts").install "../otf/BravuraText.otf"
   end
   test do
   end
