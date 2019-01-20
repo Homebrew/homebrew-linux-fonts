@@ -5,10 +5,10 @@ class FontNewAthenaUnicode < Formula
   desc "New Athena Unicode"
   homepage "https://apagreekkeys.org/NAUdownload.html"
   def install
-    (share/"fonts").install "NAU#{version}styles/newathu#{version}.ttf"
-    (share/"fonts").install "NAU#{version}styles/newathuBold#{version}.ttf"
-    (share/"fonts").install "NAU#{version}styles/newathuBoldItalic#{version}.ttf"
-    (share/"fonts").install "NAU#{version}styles/newathuItalic#{version}.ttf"
+    (share/"fonts").install "../NAU#{version}styles/newathu#{version}.ttf"
+    (share/"fonts").install "../NAU#{version}styles/newathuBold#{version}.ttf"
+    (share/"fonts").install "../NAU#{version}styles/newathuBoldItalic#{version}.ttf"
+    (share/"fonts").install "../NAU#{version}styles/newathuItalic#{version}.ttf"
   end
   test do
   end
