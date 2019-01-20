@@ -5,7 +5,7 @@ class FontWenquanyiMicroHeiLite < Formula
   desc "WenQuanYi Micro Hei Lite"
   homepage "https://wenq.org/wqy2/index.cgi?MicroHei"
   def install
-    (share/"fonts").install "wqy-microhei-lite/wqy-microhei-lite.ttc"
+    (share/"fonts").install "../wqy-microhei-lite/wqy-microhei-lite.ttc"
   end
   test do
   end
