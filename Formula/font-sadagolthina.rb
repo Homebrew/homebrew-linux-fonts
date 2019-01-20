@@ -5,7 +5,7 @@ class FontSadagolthina < Formula
   desc "Sadagolthina"
   homepage "https://www.evertype.com/fonts/gothic/"
   def install
-    (share/"fonts").install "sadagolthina-#{version}/Sadagolthina.ttf"
+    (share/"fonts").install "../sadagolthina-#{version}/Sadagolthina.ttf"
   end
   test do
   end
