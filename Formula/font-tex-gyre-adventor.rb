@@ -5,10 +5,10 @@ class FontTexGyreAdventor < Formula
   desc "TeX Gyre Adventor"
   homepage "http://www.gust.org.pl/projects/e-foundry/tex-gyre/adventor"
   def install
-    (share/"fonts").install "qag#{version.dots_to_underscores}otf/texgyreadventor-bold.otf"
-    (share/"fonts").install "qag#{version.dots_to_underscores}otf/texgyreadventor-bolditalic.otf"
-    (share/"fonts").install "qag#{version.dots_to_underscores}otf/texgyreadventor-italic.otf"
-    (share/"fonts").install "qag#{version.dots_to_underscores}otf/texgyreadventor-regular.otf"
+    (share/"fonts").install "../qag#{version.dots_to_underscores}otf/texgyreadventor-bold.otf"
+    (share/"fonts").install "../qag#{version.dots_to_underscores}otf/texgyreadventor-bolditalic.otf"
+    (share/"fonts").install "../qag#{version.dots_to_underscores}otf/texgyreadventor-italic.otf"
+    (share/"fonts").install "../qag#{version.dots_to_underscores}otf/texgyreadventor-regular.otf"
   end
   test do
   end

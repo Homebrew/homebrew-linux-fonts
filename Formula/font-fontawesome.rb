@@ -5,9 +5,9 @@ class FontFontawesome < Formula
   desc "Font Awesome"
   homepage "http://fontawesome.io/"
   def install
-    (share/"fonts").install "fontawesome-free-#{version}-desktop/otfs/Font Awesome #{version.major} Brands-Regular-400.otf"
-    (share/"fonts").install "fontawesome-free-#{version}-desktop/otfs/Font Awesome #{version.major} Free-Regular-400.otf"
-    (share/"fonts").install "fontawesome-free-#{version}-desktop/otfs/Font Awesome #{version.major} Free-Solid-900.otf"
+    (share/"fonts").install "../fontawesome-free-#{version}-desktop/otfs/Font Awesome #{version.major} Brands-Regular-400.otf"
+    (share/"fonts").install "../fontawesome-free-#{version}-desktop/otfs/Font Awesome #{version.major} Free-Regular-400.otf"
+    (share/"fonts").install "../fontawesome-free-#{version}-desktop/otfs/Font Awesome #{version.major} Free-Solid-900.otf"
   end
   test do
   end

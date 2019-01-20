@@ -5,7 +5,7 @@ class FontNamdhinggoSil < Formula
   desc "Namdhinggo SIL"
   homepage "https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=NamdhinggoSIL"
   def install
-    (share/"fonts").install "NamdhinggoSIL/NamdhinggoSIL-R.ttf"
+    (share/"fonts").install "../NamdhinggoSIL/NamdhinggoSIL-R.ttf"
   end
   test do
   end

@@ -3,7 +3,7 @@ class FontKeepCalm < Formula
   desc "Keep Calm"
   homepage "https://www.1001fonts.com/keep-calm-font.html"
   def install
-    (share/"fonts").install "Keep Calm Medium – Personal Use/KeepCalm-Medium.ttf"
+    (share/"fonts").install "../Keep Calm Medium – Personal Use/KeepCalm-Medium.ttf"
   end
   test do
   end

@@ -5,10 +5,10 @@ class FontRupakara < Formula
   desc "Rupakara"
   homepage "https://www.evertype.com/fonts/rupakara/"
   def install
-    (share/"fonts").install "rupakara-#{version}/Rupakara-Bold.ttf"
-    (share/"fonts").install "rupakara-#{version}/Rupakara-BoldOblique.ttf"
-    (share/"fonts").install "rupakara-#{version}/Rupakara-Oblique.ttf"
-    (share/"fonts").install "rupakara-#{version}/Rupakara.ttf"
+    (share/"fonts").install "../rupakara-#{version}/Rupakara-Bold.ttf"
+    (share/"fonts").install "../rupakara-#{version}/Rupakara-BoldOblique.ttf"
+    (share/"fonts").install "../rupakara-#{version}/Rupakara-Oblique.ttf"
+    (share/"fonts").install "../rupakara-#{version}/Rupakara.ttf"
   end
   test do
   end

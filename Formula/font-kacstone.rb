@@ -5,8 +5,8 @@ class FontKacstone < Formula
   desc "KacstOne"
   homepage "https://www.arabeyes.org/"
   def install
-    (share/"fonts").install "kacst_one_#{version}/KacstOne.ttf"
-    (share/"fonts").install "kacst_one_#{version}/KacstOne-Bold.ttf"
+    (share/"fonts").install "../kacst_one_#{version}/KacstOne.ttf"
+    (share/"fonts").install "../kacst_one_#{version}/KacstOne-Bold.ttf"
   end
   test do
   end

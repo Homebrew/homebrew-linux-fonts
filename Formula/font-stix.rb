@@ -5,11 +5,11 @@ class FontStix < Formula
   desc "STIX"
   homepage "https://stixfonts.org/"
   def install
-    (share/"fonts").install "stixfonts-#{version}/OTF/STIX2Math.otf"
-    (share/"fonts").install "stixfonts-#{version}/OTF/STIX2Text-Bold.otf"
-    (share/"fonts").install "stixfonts-#{version}/OTF/STIX2Text-BoldItalic.otf"
-    (share/"fonts").install "stixfonts-#{version}/OTF/STIX2Text-Italic.otf"
-    (share/"fonts").install "stixfonts-#{version}/OTF/STIX2Text-Regular.otf"
+    (share/"fonts").install "../stixfonts-#{version}/OTF/STIX2Math.otf"
+    (share/"fonts").install "../stixfonts-#{version}/OTF/STIX2Text-Bold.otf"
+    (share/"fonts").install "../stixfonts-#{version}/OTF/STIX2Text-BoldItalic.otf"
+    (share/"fonts").install "../stixfonts-#{version}/OTF/STIX2Text-Italic.otf"
+    (share/"fonts").install "../stixfonts-#{version}/OTF/STIX2Text-Regular.otf"
   end
   test do
   end

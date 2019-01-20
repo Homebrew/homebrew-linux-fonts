@@ -5,8 +5,8 @@ class FontSilentLips < Formula
   desc "Silent Lips"
   homepage "https://www.behance.net/gallery/18281129/Silent-Lips-Experimental-Free-Font"
   def install
-    (share/"fonts").install "Silent Lips/Silent Lips.ttf"
-    (share/"fonts").install "Silent Lips/Silent_Lips-Bold.ttf"
+    (share/"fonts").install "../Silent Lips/Silent Lips.ttf"
+    (share/"fonts").install "../Silent Lips/Silent_Lips-Bold.ttf"
   end
   test do
   end

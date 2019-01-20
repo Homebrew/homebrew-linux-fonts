@@ -5,10 +5,10 @@ class FontTexGyrePagella < Formula
   desc "TeX Gyre Pagella"
   homepage "http://www.gust.org.pl/projects/e-foundry/tex-gyre/pagella"
   def install
-    (share/"fonts").install "qpl#{version.dots_to_underscores}otf/texgyrepagella-bold.otf"
-    (share/"fonts").install "qpl#{version.dots_to_underscores}otf/texgyrepagella-bolditalic.otf"
-    (share/"fonts").install "qpl#{version.dots_to_underscores}otf/texgyrepagella-italic.otf"
-    (share/"fonts").install "qpl#{version.dots_to_underscores}otf/texgyrepagella-regular.otf"
+    (share/"fonts").install "../qpl#{version.dots_to_underscores}otf/texgyrepagella-bold.otf"
+    (share/"fonts").install "../qpl#{version.dots_to_underscores}otf/texgyrepagella-bolditalic.otf"
+    (share/"fonts").install "../qpl#{version.dots_to_underscores}otf/texgyrepagella-italic.otf"
+    (share/"fonts").install "../qpl#{version.dots_to_underscores}otf/texgyrepagella-regular.otf"
   end
   test do
   end

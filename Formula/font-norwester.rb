@@ -5,7 +5,7 @@ class FontNorwester < Formula
   desc "Norwester"
   homepage "https://jamiewilson.io/norwester/"
   def install
-    (share/"fonts").install "norwester-v#{version}/norwester.otf"
+    (share/"fonts").install "../norwester-v#{version}/norwester.otf"
   end
   test do
   end

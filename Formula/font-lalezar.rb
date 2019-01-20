@@ -5,7 +5,7 @@ class FontLalezar < Formula
   desc "Lalezar"
   homepage "https://github.com/BornaIz/Lalezar"
   def install
-    (share/"fonts").install "Lalezar-#{version}/Font files/Lalezar-Regular.otf"
+    (share/"fonts").install "../Lalezar-#{version}/Font files/Lalezar-Regular.otf"
   end
   test do
   end

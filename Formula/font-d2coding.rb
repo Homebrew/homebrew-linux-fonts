@@ -5,7 +5,7 @@ class FontD2coding < Formula
   desc "D2 Coding"
   homepage "https://github.com/naver/d2codingfont"
   def install
-    (share/"fonts").install "D2Coding/D2Coding-Ver#{version.before_comma}-#{version.after_comma}.ttc"
+    (share/"fonts").install "../D2Coding/D2Coding-Ver#{version.before_comma}-#{version.after_comma}.ttc"
   end
   test do
   end

@@ -5,8 +5,8 @@ class FontParastoo < Formula
   desc "Parastoo"
   homepage "https://rastikerdar.github.io/parastoo-font"
   def install
-    (share/"fonts").install "web/Parastoo.ttf"
-    (share/"fonts").install "web/Parastoo-Bold.ttf"
+    (share/"fonts").install "../web/Parastoo.ttf"
+    (share/"fonts").install "../web/Parastoo-Bold.ttf"
   end
   test do
   end

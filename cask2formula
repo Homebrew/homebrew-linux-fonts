@@ -62,7 +62,7 @@ class CaskTransform < Parslet::Transform
         left + " " + right
     }
     rule(:font   => simple(:font)) {
-        "(share/\"fonts\").install #{font}"
+      "(share/\"fonts\").install #{font.sub(/"(.*\/)/, '"../\1')}"
     }
     rule(:name   => simple(:name),
          :before => sequence(:before),

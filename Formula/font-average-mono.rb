@@ -3,10 +3,10 @@ class FontAverageMono < Formula
   desc "Average Mono"
   homepage "https://fontlibrary.org/en/font/average-mono"
   def install
-    (share/"fonts").install "AverageMono/AverageMono.otf"
-    (share/"fonts").install "AverageMono/AverageMonoBold.otf"
-    (share/"fonts").install "AverageMono/AverageMonoItalic.otf"
-    (share/"fonts").install "AverageMono/AverageMonoBoldItalic.otf"
+    (share/"fonts").install "../AverageMono/AverageMono.otf"
+    (share/"fonts").install "../AverageMono/AverageMonoBold.otf"
+    (share/"fonts").install "../AverageMono/AverageMonoItalic.otf"
+    (share/"fonts").install "../AverageMono/AverageMonoBoldItalic.otf"
   end
   test do
   end

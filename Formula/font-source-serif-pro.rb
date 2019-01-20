@@ -5,17 +5,17 @@ class FontSourceSerifPro < Formula
   desc "Source Serif Pro"
   homepage "https://adobe-fonts.github.io/source-serif-pro/"
   def install
-    (share/"fonts").install "source-serif-pro-2.007R-ro-1.007R-it/OTF/SourceSerifPro-Black.otf"
-    (share/"fonts").install "source-serif-pro-2.007R-ro-1.007R-it/OTF/SourceSerifPro-BlackIt.otf"
-    (share/"fonts").install "source-serif-pro-2.007R-ro-1.007R-it/OTF/SourceSerifPro-Bold.otf"
-    (share/"fonts").install "source-serif-pro-2.007R-ro-1.007R-it/OTF/SourceSerifPro-BoldIt.otf"
-    (share/"fonts").install "source-serif-pro-2.007R-ro-1.007R-it/OTF/SourceSerifPro-ExtraLight.otf"
-    (share/"fonts").install "source-serif-pro-2.007R-ro-1.007R-it/OTF/SourceSerifPro-ExtraLightIt.otf"
-    (share/"fonts").install "source-serif-pro-2.007R-ro-1.007R-it/OTF/SourceSerifPro-It.otf"
-    (share/"fonts").install "source-serif-pro-2.007R-ro-1.007R-it/OTF/SourceSerifPro-Light.otf"
-    (share/"fonts").install "source-serif-pro-2.007R-ro-1.007R-it/OTF/SourceSerifPro-LightIt.otf"
-    (share/"fonts").install "source-serif-pro-2.007R-ro-1.007R-it/OTF/SourceSerifPro-Regular.otf"
-    (share/"fonts").install "source-serif-pro-2.007R-ro-1.007R-it/OTF/SourceSerifPro-Semibold.otf"
+    (share/"fonts").install "../source-serif-pro-2.007R-ro-1.007R-it/OTF/SourceSerifPro-Black.otf"
+    (share/"fonts").install "../source-serif-pro-2.007R-ro-1.007R-it/OTF/SourceSerifPro-BlackIt.otf"
+    (share/"fonts").install "../source-serif-pro-2.007R-ro-1.007R-it/OTF/SourceSerifPro-Bold.otf"
+    (share/"fonts").install "../source-serif-pro-2.007R-ro-1.007R-it/OTF/SourceSerifPro-BoldIt.otf"
+    (share/"fonts").install "../source-serif-pro-2.007R-ro-1.007R-it/OTF/SourceSerifPro-ExtraLight.otf"
+    (share/"fonts").install "../source-serif-pro-2.007R-ro-1.007R-it/OTF/SourceSerifPro-ExtraLightIt.otf"
+    (share/"fonts").install "../source-serif-pro-2.007R-ro-1.007R-it/OTF/SourceSerifPro-It.otf"
+    (share/"fonts").install "../source-serif-pro-2.007R-ro-1.007R-it/OTF/SourceSerifPro-Light.otf"
+    (share/"fonts").install "../source-serif-pro-2.007R-ro-1.007R-it/OTF/SourceSerifPro-LightIt.otf"
+    (share/"fonts").install "../source-serif-pro-2.007R-ro-1.007R-it/OTF/SourceSerifPro-Regular.otf"
+    (share/"fonts").install "../source-serif-pro-2.007R-ro-1.007R-it/OTF/SourceSerifPro-Semibold.otf"
   end
   test do
   end

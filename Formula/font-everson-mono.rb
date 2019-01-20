@@ -5,10 +5,10 @@ class FontEversonMono < Formula
   desc "Everson Mono"
   homepage "https://www.evertype.com/emono/"
   def install
-    (share/"fonts").install "evermono-#{version}/Everson Mono.ttf"
-    (share/"fonts").install "evermono-#{version}/Everson Mono Bold.ttf"
-    (share/"fonts").install "evermono-#{version}/Everson Mono Bold Oblique.ttf"
-    (share/"fonts").install "evermono-#{version}/Everson Mono Oblique.ttf"
+    (share/"fonts").install "../evermono-#{version}/Everson Mono.ttf"
+    (share/"fonts").install "../evermono-#{version}/Everson Mono Bold.ttf"
+    (share/"fonts").install "../evermono-#{version}/Everson Mono Bold Oblique.ttf"
+    (share/"fonts").install "../evermono-#{version}/Everson Mono Oblique.ttf"
   end
   test do
   end

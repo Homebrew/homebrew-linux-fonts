@@ -5,9 +5,9 @@ class FontFiraMono < Formula
   desc "Fira Mono"
   homepage "https://mozilla.github.io/Fira/"
   def install
-    (share/"fonts").install "Fira-#{version.after_comma}/otf/FiraMono-Bold.otf"
-    (share/"fonts").install "Fira-#{version.after_comma}/otf/FiraMono-Medium.otf"
-    (share/"fonts").install "Fira-#{version.after_comma}/otf/FiraMono-Regular.otf"
+    (share/"fonts").install "../Fira-#{version.after_comma}/otf/FiraMono-Bold.otf"
+    (share/"fonts").install "../Fira-#{version.after_comma}/otf/FiraMono-Medium.otf"
+    (share/"fonts").install "../Fira-#{version.after_comma}/otf/FiraMono-Regular.otf"
   end
   test do
   end

@@ -5,16 +5,16 @@ class FontBaloo < Formula
   desc "Baloo"
   homepage "https://github.com/EkType/Baloo"
   def install
-    (share/"fonts").install "Fonts/Baloo-Regular.ttf"
-    (share/"fonts").install "Fonts/BalooBhai-Regular.ttf"
-    (share/"fonts").install "Fonts/BalooBhaijaan-Regular.ttf"
-    (share/"fonts").install "Fonts/BalooBhaina-Regular.ttf"
-    (share/"fonts").install "Fonts/BalooChettan-Regular.ttf"
-    (share/"fonts").install "Fonts/BalooDa-Regular.ttf"
-    (share/"fonts").install "Fonts/BalooPaaji-Regular.ttf"
-    (share/"fonts").install "Fonts/BalooTamma-Regular.ttf"
-    (share/"fonts").install "Fonts/BalooTammudu-Regular.ttf"
-    (share/"fonts").install "Fonts/BalooThambi-Regular.ttf"
+    (share/"fonts").install "../Fonts/Baloo-Regular.ttf"
+    (share/"fonts").install "../Fonts/BalooBhai-Regular.ttf"
+    (share/"fonts").install "../Fonts/BalooBhaijaan-Regular.ttf"
+    (share/"fonts").install "../Fonts/BalooBhaina-Regular.ttf"
+    (share/"fonts").install "../Fonts/BalooChettan-Regular.ttf"
+    (share/"fonts").install "../Fonts/BalooDa-Regular.ttf"
+    (share/"fonts").install "../Fonts/BalooPaaji-Regular.ttf"
+    (share/"fonts").install "../Fonts/BalooTamma-Regular.ttf"
+    (share/"fonts").install "../Fonts/BalooTammudu-Regular.ttf"
+    (share/"fonts").install "../Fonts/BalooThambi-Regular.ttf"
   end
   test do
   end

@@ -5,7 +5,7 @@ class FontBlockzone < Formula
   desc "BlockZone"
   homepage "https://github.com/ansilove/BlockZone"
   def install
-    (share/"fonts").install "BlockZone-#{version}/BlockZone.ttf"
+    (share/"fonts").install "../BlockZone-#{version}/BlockZone.ttf"
   end
   test do
   end

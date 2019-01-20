@@ -5,7 +5,7 @@ class FontAhuramzda < Formula
   desc "Ahuramzda"
   homepage "http://openfontlibrary.org/font/ahuramazda/"
   def install
-    (share/"fonts").install "Ahuramazda-Avestan-Font-1.0/ahuramazda.ttf"
+    (share/"fonts").install "../Ahuramazda-Avestan-Font-1.0/ahuramazda.ttf"
   end
   test do
   end
