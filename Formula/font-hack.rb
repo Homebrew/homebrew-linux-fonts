@@ -5,10 +5,10 @@ class FontHack < Formula
   desc "Hack"
   homepage "https://sourcefoundry.org/hack/"
   def install
-    (share/"fonts").install "ttf/Hack-Regular.ttf"
-    (share/"fonts").install "ttf/Hack-Italic.ttf"
-    (share/"fonts").install "ttf/Hack-Bold.ttf"
-    (share/"fonts").install "ttf/Hack-BoldItalic.ttf"
+    (share/"fonts").install "../ttf/Hack-Regular.ttf"
+    (share/"fonts").install "../ttf/Hack-Italic.ttf"
+    (share/"fonts").install "../ttf/Hack-Bold.ttf"
+    (share/"fonts").install "../ttf/Hack-BoldItalic.ttf"
   end
   test do
   end
