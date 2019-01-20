@@ -5,10 +5,10 @@ class FontPalemonas < Formula
   desc "Palemonas"
   homepage "http://www.vlkk.lt/palemonas"
   def install
-    (share/"fonts").install "Palemonas-#{version}/Palem#{version}-nm.ttf"
-    (share/"fonts").install "Palemonas-#{version}/Palem#{version}-bd.ttf"
-    (share/"fonts").install "Palemonas-#{version}/Palem#{version}-it.ttf"
-    (share/"fonts").install "Palemonas-#{version}/Palem#{version}-bi.ttf"
+    (share/"fonts").install "../Palemonas-#{version}/Palem#{version}-nm.ttf"
+    (share/"fonts").install "../Palemonas-#{version}/Palem#{version}-bd.ttf"
+    (share/"fonts").install "../Palemonas-#{version}/Palem#{version}-it.ttf"
+    (share/"fonts").install "../Palemonas-#{version}/Palem#{version}-bi.ttf"
   end
   test do
   end
