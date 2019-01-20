@@ -5,7 +5,7 @@ class FontNika < Formula
   desc "Nika"
   homepage "https://github.com/font-store/font-nika"
   def install
-    (share/"fonts").install "fonts/Nika-Regular.otf"
+    (share/"fonts").install "../fonts/Nika-Regular.otf"
   end
   test do
   end
