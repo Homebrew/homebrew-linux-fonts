@@ -5,12 +5,12 @@ class FontAleo < Formula
   desc "Aleo"
   homepage "https://fontfabric.com/aleo-free-font/"
   def install
-    (share/"fonts").install "Aleo_font_v1.2.2/Desktop OTF/Aleo-Bold.otf"
-    (share/"fonts").install "Aleo_font_v1.2.2/Desktop OTF/Aleo-BoldItalic.otf"
-    (share/"fonts").install "Aleo_font_v1.2.2/Desktop OTF/Aleo-Italic.otf"
-    (share/"fonts").install "Aleo_font_v1.2.2/Desktop OTF/Aleo-Light.otf"
-    (share/"fonts").install "Aleo_font_v1.2.2/Desktop OTF/Aleo-LightItalic.otf"
-    (share/"fonts").install "Aleo_font_v1.2.2/Desktop OTF/Aleo-Regular.otf"
+    (share/"fonts").install "../Aleo_font_v1.2.2/Desktop OTF/Aleo-Bold.otf"
+    (share/"fonts").install "../Aleo_font_v1.2.2/Desktop OTF/Aleo-BoldItalic.otf"
+    (share/"fonts").install "../Aleo_font_v1.2.2/Desktop OTF/Aleo-Italic.otf"
+    (share/"fonts").install "../Aleo_font_v1.2.2/Desktop OTF/Aleo-Light.otf"
+    (share/"fonts").install "../Aleo_font_v1.2.2/Desktop OTF/Aleo-LightItalic.otf"
+    (share/"fonts").install "../Aleo_font_v1.2.2/Desktop OTF/Aleo-Regular.otf"
   end
   test do
   end
