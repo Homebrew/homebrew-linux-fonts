@@ -5,7 +5,7 @@ class FontDoulosSil < Formula
   desc "Doulos SIL"
   homepage "https://software.sil.org/doulos/"
   def install
-    (share/"fonts").install "DoulosSIL-#{version}/DoulosSIL-R.ttf"
+    (share/"fonts").install "../DoulosSIL-#{version}/DoulosSIL-R.ttf"
   end
   test do
   end
