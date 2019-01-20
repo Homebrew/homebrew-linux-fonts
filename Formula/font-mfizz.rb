@@ -5,7 +5,7 @@ class FontMfizz < Formula
   desc "Font Mfizz"
   homepage "http://fizzed.com/oss/font-mfizz"
   def install
-    (share/"fonts").install "font-mfizz-#{version}/font-mfizz.ttf"
+    (share/"fonts").install "../font-mfizz-#{version}/font-mfizz.ttf"
   end
   test do
   end
