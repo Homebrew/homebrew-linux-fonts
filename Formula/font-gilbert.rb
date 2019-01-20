@@ -5,8 +5,8 @@ class FontGilbert < Formula
   desc "Gilbert"
   homepage "https://typewithpride.com/"
   def install
-    (share/"fonts").install "Gilbert_#{version.before_comma}_#{version.after_comma}/Gilbert Bold-Preview_#{version.before_comma.no_dots}.otf"
-    (share/"fonts").install "Gilbert_#{version.before_comma}_#{version.after_comma}/Gilbert-Color Bold-Preview_#{version.before_comma.no_dots}.otf"
+    (share/"fonts").install "../Gilbert_#{version.before_comma}_#{version.after_comma}/Gilbert Bold-Preview_#{version.before_comma.no_dots}.otf"
+    (share/"fonts").install "../Gilbert_#{version.before_comma}_#{version.after_comma}/Gilbert-Color Bold-Preview_#{version.before_comma.no_dots}.otf"
   end
   test do
   end
