@@ -5,7 +5,7 @@ class FontMyricam < Formula
   desc "MyricaM"
   homepage "https://myrica.estable.jp/"
   def install
-    (share/"fonts").install "Myrica-#{version}/MyricaM.TTC"
+    (share/"fonts").install "../Myrica-#{version}/MyricaM.TTC"
   end
   test do
   end
