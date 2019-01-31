@@ -1,6 +1,6 @@
 class FontIaWriterQuattro < Formula
   head "https://codeload.github.com/iaolo/iA-Fonts/zip/master"
-  desc "iA Writer Duospace"
+  desc "iA Writer Quattro"
   homepage "https://github.com/iaolo/iA-Fonts"
   def install
     (share/"fonts").install "../iA-Fonts-master/iA Writer Quattro/Static/iAWriterQuattroS-Bold.ttf"
