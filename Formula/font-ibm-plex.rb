@@ -1,10 +1,18 @@
 class FontIbmPlex < Formula
-  version "1.1.6"
-  sha256 "f9514ba1cecb0a862296ce7f7c9d754e7b40fb64b55af66cf2e80b0c1bb3c596"
+  version "1.2.3"
+  sha256 "223720801bbc9247c3a8ec11a1c63466bcdce90e8337aef94cc930e2374bdbba"
   url "https://github.com/IBM/plex/releases/download/v#{version}/OpenType.zip"
   desc "IBM Plex"
   homepage "https://github.com/IBM/plex"
   def install
+    (share/"fonts").install "../OpenType/IBM-Plex-Devanagari/IBMPlexDevanagari-Bold.otf"
+    (share/"fonts").install "../OpenType/IBM-Plex-Devanagari/IBMPlexDevanagari-ExtraLight.otf"
+    (share/"fonts").install "../OpenType/IBM-Plex-Devanagari/IBMPlexDevanagari-Light.otf"
+    (share/"fonts").install "../OpenType/IBM-Plex-Devanagari/IBMPlexDevanagari-Medium.otf"
+    (share/"fonts").install "../OpenType/IBM-Plex-Devanagari/IBMPlexDevanagari-Regular.otf"
+    (share/"fonts").install "../OpenType/IBM-Plex-Devanagari/IBMPlexDevanagari-SemiBold.otf"
+    (share/"fonts").install "../OpenType/IBM-Plex-Devanagari/IBMPlexDevanagari-Text.otf"
+    (share/"fonts").install "../OpenType/IBM-Plex-Devanagari/IBMPlexDevanagari-Thin.otf"
     (share/"fonts").install "../OpenType/IBM-Plex-Mono/IBMPlexMono-Bold.otf"
     (share/"fonts").install "../OpenType/IBM-Plex-Mono/IBMPlexMono-BoldItalic.otf"
     (share/"fonts").install "../OpenType/IBM-Plex-Mono/IBMPlexMono-ExtraLight.otf"
@@ -77,6 +85,14 @@ class FontIbmPlex < Formula
     (share/"fonts").install "../OpenType/IBM-Plex-Serif/IBMPlexSerif-TextItalic.otf"
     (share/"fonts").install "../OpenType/IBM-Plex-Serif/IBMPlexSerif-Thin.otf"
     (share/"fonts").install "../OpenType/IBM-Plex-Serif/IBMPlexSerif-ThinItalic.otf"
+    (share/"fonts").install "../OpenType/IBM-Plex-Thai/IBMPlexThai-Bold.otf"
+    (share/"fonts").install "../OpenType/IBM-Plex-Thai/IBMPlexThai-ExtraLight.otf"
+    (share/"fonts").install "../OpenType/IBM-Plex-Thai/IBMPlexThai-Light.otf"
+    (share/"fonts").install "../OpenType/IBM-Plex-Thai/IBMPlexThai-Medium.otf"
+    (share/"fonts").install "../OpenType/IBM-Plex-Thai/IBMPlexThai-Regular.otf"
+    (share/"fonts").install "../OpenType/IBM-Plex-Thai/IBMPlexThai-SemiBold.otf"
+    (share/"fonts").install "../OpenType/IBM-Plex-Thai/IBMPlexThai-Text.otf"
+    (share/"fonts").install "../OpenType/IBM-Plex-Thai/IBMPlexThai-Thin.otf"
   end
   test do
   end
