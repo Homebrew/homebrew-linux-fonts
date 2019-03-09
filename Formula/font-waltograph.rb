@@ -5,7 +5,7 @@ class FontWaltograph < Formula
   desc "Waltograph"
   homepage "https://mickeyavenue.com/fonts/waltograph/"
   def install
-    (share/"fonts").install "../Waltograph/waltograph#{version.no_dots}.otf"
+    (share/"fonts").install "../Waltograph/waltograph#{version.to_s.gsub(".", "")}.otf"
   end
   test do
   end
