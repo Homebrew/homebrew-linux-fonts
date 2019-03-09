@@ -5,10 +5,10 @@ class FontIpafont < Formula
   desc "IPA Fonts"
   homepage "https://ipafont.ipa.go.jp/"
   def install
-    (share/"fonts").install "../IPAfont#{version.no_dots}/ipag.ttf"
-    (share/"fonts").install "../IPAfont#{version.no_dots}/ipagp.ttf"
-    (share/"fonts").install "../IPAfont#{version.no_dots}/ipam.ttf"
-    (share/"fonts").install "../IPAfont#{version.no_dots}/ipamp.ttf"
+    (share/"fonts").install "../IPAfont#{version.to_s.gsub(".", "")}/ipag.ttf"
+    (share/"fonts").install "../IPAfont#{version.to_s.gsub(".", "")}/ipagp.ttf"
+    (share/"fonts").install "../IPAfont#{version.to_s.gsub(".", "")}/ipam.ttf"
+    (share/"fonts").install "../IPAfont#{version.to_s.gsub(".", "")}/ipamp.ttf"
   end
   test do
   end
