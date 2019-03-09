@@ -5,7 +5,7 @@ class FontQataban < Formula
   desc "Qataban"
   homepage "http://www.alanwood.net/downloads/index.html"
   def install
-    (share/"fonts").install "Qataban #{version.dots_to_underscores}.ttf"
+    (share/"fonts").install "Qataban #{version.to_s.gsub(".", "_")}.ttf"
   end
   test do
   end
