@@ -2,6 +2,18 @@
 
 require "parslet"
 
+def replace_cask_version_properties(input_string)
+    input_string
+      .gsub(".no_dots", '.gsub(".", "")')
+      .gsub(".dots_to_underscores", '.gsub(".", "_")')
+      .gsub(".dots_to_slashes", '.gsub(".", "/")')
+      .gsub(".dots_to_hyphens", '.gsub(".", "-")')
+      .gsub(".major", '.sub(/\\..*/, "")')
+      .gsub(".before_comma", '.sub(/,.*/, "")')
+      .gsub(".after_comma", '.sub(/.*,/, "")')
+      .gsub("version.", "version.to_s.")
+end
+
 class CaskParser < Parslet::Parser
     rule(:space) { 
         match("[ \t\n]").repeat
@@ -62,7 +74,7 @@ class CaskTransform < Parslet::Transform
         left + " " + right
     }
     rule(:font   => simple(:font)) {
-      "(share/\"fonts\").install #{font.sub(/"(.*\/)/, '"../\1')}"
+      "(share/\"fonts\").install #{replace_cask_version_properties(font.sub(/"(.*\/)/, '"../\1'))}"
     }
     rule(:name   => simple(:name),
          :before => sequence(:before),
@@ -106,15 +118,7 @@ class CaskTransform < Parslet::Transform
             @@no_check = false
             "head #{arguments.join(", ")}"
         else
-            command + " " + arguments.join(", ").to_s
-            .gsub(".no_dots", '.gsub(".", "")')
-            .gsub(".dots_to_underscores", '.gsub(".", "_")')
-            .gsub(".dots_to_slashes", '.gsub(".", "/")')
-            .gsub(".dots_to_hyphens", '.gsub(".", "-")')
-            .gsub(".major", '.sub(/\\..*/, "")')
-            .gsub(".before_comma", '.sub(/,.*/, "")')
-            .gsub(".after_comma", '.sub(/.*,/, "")')
-            .gsub("version.", "version.to_s.")
+            command + " " + replace_cask_version_properties(arguments.join(", ").to_s)
         end
     }
 end
