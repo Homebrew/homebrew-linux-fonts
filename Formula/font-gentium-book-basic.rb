@@ -5,10 +5,10 @@ class FontGentiumBookBasic < Formula
   desc "Gentium Book Basic"
   homepage "https://software.sil.org/gentium/"
   def install
-    (share/"fonts").install "../GentiumBasic_#{version.no_dots}/GenBkBasB.ttf"
-    (share/"fonts").install "../GentiumBasic_#{version.no_dots}/GenBkBasBI.ttf"
-    (share/"fonts").install "../GentiumBasic_#{version.no_dots}/GenBkBasI.ttf"
-    (share/"fonts").install "../GentiumBasic_#{version.no_dots}/GenBkBasR.ttf"
+    (share/"fonts").install "../GentiumBasic_#{version.to_s.gsub(".", "")}/GenBkBasB.ttf"
+    (share/"fonts").install "../GentiumBasic_#{version.to_s.gsub(".", "")}/GenBkBasBI.ttf"
+    (share/"fonts").install "../GentiumBasic_#{version.to_s.gsub(".", "")}/GenBkBasI.ttf"
+    (share/"fonts").install "../GentiumBasic_#{version.to_s.gsub(".", "")}/GenBkBasR.ttf"
   end
   test do
   end
