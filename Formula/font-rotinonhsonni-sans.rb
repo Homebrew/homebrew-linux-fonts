@@ -5,10 +5,10 @@ class FontRotinonhsonniSans < Formula
   desc "Rotinohnsonni Sans"
   homepage "http://www.languagegeek.com/font/fontdownload.html"
   def install
-    (share/"fonts").install "rotinonhsans#{version.dots_to_underscores}.ttf"
-    (share/"fonts").install "rotinonhsansbi#{version.dots_to_underscores}.ttf"
-    (share/"fonts").install "rotinonsanshb#{version.dots_to_underscores}.ttf"
-    (share/"fonts").install "rotinonsanshi#{version.dots_to_underscores}.ttf"
+    (share/"fonts").install "rotinonhsans#{version.to_s.gsub(".", "_")}.ttf"
+    (share/"fonts").install "rotinonhsansbi#{version.to_s.gsub(".", "_")}.ttf"
+    (share/"fonts").install "rotinonsanshb#{version.to_s.gsub(".", "_")}.ttf"
+    (share/"fonts").install "rotinonsanshi#{version.to_s.gsub(".", "_")}.ttf"
   end
   test do
   end
