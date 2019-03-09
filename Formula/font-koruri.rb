@@ -5,11 +5,11 @@ class FontKoruri < Formula
   desc "Koruri"
   homepage "http://koruri.lindwurm.biz/"
   def install
-    (share/"fonts").install "../Koruri-#{version.before_comma}/Koruri-Bold.ttf"
-    (share/"fonts").install "../Koruri-#{version.before_comma}/Koruri-Extrabold.ttf"
-    (share/"fonts").install "../Koruri-#{version.before_comma}/Koruri-Light.ttf"
-    (share/"fonts").install "../Koruri-#{version.before_comma}/Koruri-Regular.ttf"
-    (share/"fonts").install "../Koruri-#{version.before_comma}/Koruri-Semibold.ttf"
+    (share/"fonts").install "../Koruri-#{version.to_s.sub(/,.*/, "")}/Koruri-Bold.ttf"
+    (share/"fonts").install "../Koruri-#{version.to_s.sub(/,.*/, "")}/Koruri-Extrabold.ttf"
+    (share/"fonts").install "../Koruri-#{version.to_s.sub(/,.*/, "")}/Koruri-Light.ttf"
+    (share/"fonts").install "../Koruri-#{version.to_s.sub(/,.*/, "")}/Koruri-Regular.ttf"
+    (share/"fonts").install "../Koruri-#{version.to_s.sub(/,.*/, "")}/Koruri-Semibold.ttf"
   end
   test do
   end
