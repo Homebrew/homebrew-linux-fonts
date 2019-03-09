@@ -5,7 +5,7 @@ class FontDigohweli < Formula
   desc "Digohweli"
   homepage "http://www.languagegeek.com/font/fontdownload.html"
   def install
-    (share/"fonts").install "Digohweli_#{version.dots_to_underscores}.ttf"
+    (share/"fonts").install "Digohweli_#{version.to_s.gsub(".", "_")}.ttf"
   end
   test do
   end
