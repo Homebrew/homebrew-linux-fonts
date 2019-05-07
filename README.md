@@ -28,10 +28,18 @@ $ fc-cache -fv
 
 Then you can use the new font installed by `brew`.
 
-## Submitting a Font Cask and Bugs
+## Development
+
+### Submitting a Font Cask and Bugs
 
 When you change file in [the upstream repository](https://github.com/homebrew/homebrew-cask-fonts/),
 I follow your changes, because this repository automatically imports new casks from the repository with a bot program.
+
+### Skipping translations by `.caskignore`
+
+Some casks incompatible with formula-way.
+Then `cask2formula` will skip translation by `.caskignore`.
+`.caskignore` is written in Ruby's [`fnmatch` syntax](https://docs.ruby-lang.org/en/2.6.0/File.html#method-c-fnmatch).
 
 ## Font Licenses
 
