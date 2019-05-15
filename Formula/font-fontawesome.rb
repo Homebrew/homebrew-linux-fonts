@@ -1,6 +1,6 @@
 class FontFontawesome < Formula
-  version "5.8.1"
-  sha256 "888f7ff14cfbd31d4ae1e59a65f1037ed0c5460ba2a9480cda1d7d454ed31e16"
+  version "5.8.2"
+  sha256 "e0ae4ab1084b76eea25a75ddd6239f9f277ad8eb85b1d4c011e396e460ed5109"
   url "https://github.com/FortAwesome/Font-Awesome/releases/download/#{version}/fontawesome-free-#{version}-desktop.zip"
   desc "Font Awesome"
   homepage "http://fontawesome.io/"
