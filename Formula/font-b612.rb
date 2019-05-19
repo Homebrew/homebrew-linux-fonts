@@ -1,16 +1,16 @@
 class FontB612 < Formula
-  head "https://git.polarsys.org/c/b612/b612.git/snapshot/b612-master.zip"
+  head "https://github.com/polarsys/b612/archive/master.zip"
   desc "B612"
-  homepage "http://b612-font.com/"
+  homepage "https://b612-font.com/"
   def install
-    (share/"fonts").install "../b612-master/TTF/B612-Bold.ttf"
-    (share/"fonts").install "../b612-master/TTF/B612-BoldItalic.ttf"
-    (share/"fonts").install "../b612-master/TTF/B612-Italic.ttf"
-    (share/"fonts").install "../b612-master/TTF/B612-Regular.ttf"
-    (share/"fonts").install "../b612-master/TTF/B612 Mono-Bold.ttf"
-    (share/"fonts").install "../b612-master/TTF/B612 Mono-BoldItalic.ttf"
-    (share/"fonts").install "../b612-master/TTF/B612 Mono-Italic.ttf"
-    (share/"fonts").install "../b612-master/TTF/B612 Mono-Regular.ttf"
+    (share/"fonts").install "../b612-master/fonts/ttf/B612-Bold.ttf"
+    (share/"fonts").install "../b612-master/fonts/ttf/B612-BoldItalic.ttf"
+    (share/"fonts").install "../b612-master/fonts/ttf/B612-Italic.ttf"
+    (share/"fonts").install "../b612-master/fonts/ttf/B612-Regular.ttf"
+    (share/"fonts").install "../b612-master/fonts/ttf/B612Mono-Bold.ttf"
+    (share/"fonts").install "../b612-master/fonts/ttf/B612Mono-BoldItalic.ttf"
+    (share/"fonts").install "../b612-master/fonts/ttf/B612Mono-Italic.ttf"
+    (share/"fonts").install "../b612-master/fonts/ttf/B612Mono-Regular.ttf"
   end
   test do
   end
