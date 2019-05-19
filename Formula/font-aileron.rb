@@ -1,7 +1,7 @@
 class FontAileron < Formula
-  head "http://dotcolon.net/DL/font/aileron.zip"
+  head "https://dotcolon.net/DL/font/aileron.zip"
   desc "Aileron"
-  homepage "http://dotcolon.net/font/aileron/"
+  homepage "https://dotcolon.net/font/aileron/"
   def install
     (share/"fonts").install "Aileron-Black.otf"
     (share/"fonts").install "Aileron-BlackItalic.otf"
