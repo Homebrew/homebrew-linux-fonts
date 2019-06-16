@@ -1,5 +1,5 @@
 class FontCourierPrimeSans < Formula
-  head "https://quoteunquoteapps.com/downloads/courier-sans.zip"
+  head "https://quoteunquoteapps.com/courierprime/downloads/courier-prime-sans.zip"
   desc "Courier Prime Sans"
   homepage "https://quoteunquoteapps.com/courierprime/#code-sans"
   def install
