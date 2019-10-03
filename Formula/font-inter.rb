@@ -1,6 +1,6 @@
 class FontInter < Formula
-  version "3.7"
-  sha256 "0eb097467954991e109d179e22f06b11ef462e632dac5ce65633aa6e7262fa40"
+  version "3.10"
+  sha256 "53c4a2fce40bf79ee08d279c1993e9d918425a74f2ed9455350127e6047d7754"
   url "https://github.com/rsms/inter/releases/download/v#{version}/Inter-#{version}.zip"
   desc "Inter"
   homepage "https://rsms.me/inter/"

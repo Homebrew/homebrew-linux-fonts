@@ -1,6 +1,6 @@
 class FontIosevka < Formula
-  version "2.2.1"
-  sha256 "65cec2bc3672f8aa3cc427effa62a8aa9e26386db983ce0ff4a876e85bf77e5f"
+  version "2.3.1"
+  sha256 "a733215823b509d9ffc9a366962c11c06299f6bb4792a332b15f84a0f8fce17e"
   url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/ttc-iosevka-#{version}.zip"
   desc "Iosevka"
   homepage "https://github.com/be5invis/Iosevka/"
