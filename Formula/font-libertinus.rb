@@ -1,9 +1,9 @@
 class FontLibertinus < Formula
-  version "6.6"
-  sha256 "ad772e5272f53a6f548ce1472651f4215eac0064e586fe7259001c634bdf0fb0"
-  url "https://github.com/libertinus-fonts/libertinus/archive/v#{version}.tar.gz"
+  version "6.10"
+  sha256 "b6126a98d8b0729fc64433f4e9d5344f76b9c1ea5b2e79c6ead31cd0cc77761c"
+  url "https://github.com/alif-type/libertinus/archive/v#{version}.tar.gz"
   desc "Libertinus"
-  homepage "https://github.com/libertinus-fonts/libertinus"
+  homepage "https://github.com/alif-type/libertinus"
   def install
     (share/"fonts").install "../libertinus-#{version}/libertinuskeyboard-regular.otf"
     (share/"fonts").install "../libertinus-#{version}/libertinusmath-regular.otf"
