@@ -74,7 +74,7 @@ class CaskTransform < Parslet::Transform
         left + " " + right
     }
     rule(:font   => simple(:font)) {
-      "(share/\"fonts\").install #{replace_cask_version_properties(font.sub(/"(.*\/)/, '"../\1'))}"
+      "(share/\"fonts\").install #{replace_cask_version_properties(font.sub(/"((?:(?!otf).)+\/)/i, '"../\1'))}"
     }
     rule(:name   => simple(:name),
          :before => sequence(:before),
