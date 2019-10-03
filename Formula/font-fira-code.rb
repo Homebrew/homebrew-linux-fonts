@@ -5,11 +5,11 @@ class FontFiraCode < Formula
   desc "Fira Code"
   homepage "https://github.com/tonsky/FiraCode"
   def install
-    (share/"fonts").install "../otf/FiraCode-Bold.otf"
-    (share/"fonts").install "../otf/FiraCode-Light.otf"
-    (share/"fonts").install "../otf/FiraCode-Medium.otf"
-    (share/"fonts").install "../otf/FiraCode-Regular.otf"
-    (share/"fonts").install "../otf/FiraCode-Retina.otf"
+    (share/"fonts").install "otf/FiraCode-Bold.otf"
+    (share/"fonts").install "otf/FiraCode-Light.otf"
+    (share/"fonts").install "otf/FiraCode-Medium.otf"
+    (share/"fonts").install "otf/FiraCode-Regular.otf"
+    (share/"fonts").install "otf/FiraCode-Retina.otf"
   end
   test do
   end
