@@ -5,8 +5,8 @@ class FontMigmix2m < Formula
   desc "MigMix 2M"
   homepage "https://mix-mplus-ipa.osdn.jp/migmix/#migmix2m"
   def install
-    (share/"fonts").install "../migmix-2m-#{version}migmix-2m-bold.ttf"
-    (share/"fonts").install "../migmix-2m-#{version}migmix-2m-regular.ttf"
+    (share/"fonts").install "../migmix-2m-#{version}/migmix-2m-bold.ttf"
+    (share/"fonts").install "../migmix-2m-#{version}/migmix-2m-regular.ttf"
   end
   test do
   end
