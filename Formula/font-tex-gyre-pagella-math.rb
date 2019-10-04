@@ -5,7 +5,7 @@ class FontTexGyrePagellaMath < Formula
   desc "Pagella Math"
   homepage "http://www.gust.org.pl/projects/e-foundry/tg-math"
   def install
-    (share/"fonts").install "../texgyrepagella-math-1632/opentype/texgyrepagella-math.otf"
+    (share/"fonts").install "../texgyrepagella-math-1632/opentypetexgyrepagella-math.otf"
   end
   test do
   end
