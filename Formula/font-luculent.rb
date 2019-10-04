@@ -3,10 +3,10 @@ class FontLuculent < Formula
   desc "Luculent"
   homepage "http://eastfarthing.com/luculent/"
   def install
-    (share/"fonts").install "../luculent/luculent.ttf"
-    (share/"fonts").install "../luculent/luculentb.ttf"
-    (share/"fonts").install "../luculent/luculentbi.ttf"
-    (share/"fonts").install "../luculent/luculenti.ttf"
+    (share/"fonts").install "../luculentluculent.ttf"
+    (share/"fonts").install "../luculentluculentb.ttf"
+    (share/"fonts").install "../luculentluculentbi.ttf"
+    (share/"fonts").install "../luculentluculenti.ttf"
   end
   test do
   end
