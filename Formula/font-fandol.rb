@@ -5,14 +5,14 @@ class FontFandol < Formula
   desc "Fandol"
   homepage "https://ctan.org/pkg/fandol"
   def install
-    (share/"fonts").install "../fandolFandolBraille-Display.otf"
-    (share/"fonts").install "../fandolFandolBraille-Regular.otf"
-    (share/"fonts").install "../fandolFandolFang-Regular.otf"
-    (share/"fonts").install "../fandolFandolHei-Bold.otf"
-    (share/"fonts").install "../fandolFandolHei-Regular.otf"
-    (share/"fonts").install "../fandolFandolKai-Regular.otf"
-    (share/"fonts").install "../fandolFandolSong-Bold.otf"
-    (share/"fonts").install "../fandolFandolSong-Regular.otf"
+    (share/"fonts").install "../fandol/FandolBraille-Display.otf"
+    (share/"fonts").install "../fandol/FandolBraille-Regular.otf"
+    (share/"fonts").install "../fandol/FandolFang-Regular.otf"
+    (share/"fonts").install "../fandol/FandolHei-Bold.otf"
+    (share/"fonts").install "../fandol/FandolHei-Regular.otf"
+    (share/"fonts").install "../fandol/FandolKai-Regular.otf"
+    (share/"fonts").install "../fandol/FandolSong-Bold.otf"
+    (share/"fonts").install "../fandol/FandolSong-Regular.otf"
   end
   test do
   end
