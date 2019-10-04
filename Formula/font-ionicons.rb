@@ -5,7 +5,7 @@ class FontIonicons < Formula
   desc "Ionicons"
   homepage "https://github.com/ionic-team/ionicons"
   def install
-    (share/"fonts").install "../ionicons-#{version}/fonts/ionicons.ttf"
+    (share/"fonts").install "../ionicons-#{version}/fontsionicons.ttf"
   end
   test do
   end
