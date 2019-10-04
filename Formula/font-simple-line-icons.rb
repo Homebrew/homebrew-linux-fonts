@@ -5,7 +5,7 @@ class FontSimpleLineIcons < Formula
   desc "Simple Line Icons"
   homepage "http://simplelineicons.com/"
   def install
-    (share/"fonts").install "../simple-line-icons-#{version}/fonts/Simple-Line-Icons.ttf"
+    (share/"fonts").install "../simple-line-icons-#{version}/fontsSimple-Line-Icons.ttf"
   end
   test do
   end
