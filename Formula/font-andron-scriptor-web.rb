@@ -5,7 +5,7 @@ class FontAndronScriptorWeb < Formula
   desc "Andron Scriptor Web"
   homepage "https://folk.uib.no/hnooh/mufi/fonts/"
   def install
-    (share/"fonts").install "../AND_SCR_WEB_#{version}Andron Scriptor Web.ttf"
+    (share/"fonts").install "../AND_SCR_WEB_#{version}/Andron Scriptor Web.ttf"
   end
   test do
   end
