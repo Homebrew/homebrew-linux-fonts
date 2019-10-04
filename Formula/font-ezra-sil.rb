@@ -5,8 +5,8 @@ class FontEzraSil < Formula
   desc "Ezra SIL"
   homepage "https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=EzraSIL_Home"
   def install
-    (share/"fonts").install "../EzraSIL#{version}SILEOT.ttf"
-    (share/"fonts").install "../EzraSIL#{version}SILEOTSR.ttf"
+    (share/"fonts").install "../EzraSIL#{version}/SILEOT.ttf"
+    (share/"fonts").install "../EzraSIL#{version}/SILEOTSR.ttf"
   end
   test do
   end
