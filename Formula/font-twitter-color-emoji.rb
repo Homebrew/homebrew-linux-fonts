@@ -5,7 +5,7 @@ class FontTwitterColorEmoji < Formula
   desc "Twitter Color Emoji"
   homepage "https://github.com/eosrei/twemoji-color-font/"
   def install
-    (share/"fonts").install "../TwitterColorEmoji-SVGinOT-#{version}TwitterColorEmoji-SVGinOT.ttf"
+    (share/"fonts").install "../TwitterColorEmoji-SVGinOT-#{version}/TwitterColorEmoji-SVGinOT.ttf"
   end
   test do
   end
