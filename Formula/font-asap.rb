@@ -3,14 +3,14 @@ class FontAsap < Formula
   desc "Asap"
   homepage "https://www.omnibus-type.com/fonts/asap/"
   def install
-    (share/"fonts").install "../Asap/Asap-Bold.ttf"
-    (share/"fonts").install "../Asap/Asap-BoldItalic.ttf"
-    (share/"fonts").install "../Asap/Asap-Italic.ttf"
-    (share/"fonts").install "../Asap/Asap-Medium.ttf"
-    (share/"fonts").install "../Asap/Asap-MediumItalic.ttf"
-    (share/"fonts").install "../Asap/Asap-Regular.ttf"
-    (share/"fonts").install "../Asap/Asap-SemiBold.ttf"
-    (share/"fonts").install "../Asap/Asap-SemiBoldItalic.ttf"
+    (share/"fonts").install "../AsapAsap-Bold.ttf"
+    (share/"fonts").install "../AsapAsap-BoldItalic.ttf"
+    (share/"fonts").install "../AsapAsap-Italic.ttf"
+    (share/"fonts").install "../AsapAsap-Medium.ttf"
+    (share/"fonts").install "../AsapAsap-MediumItalic.ttf"
+    (share/"fonts").install "../AsapAsap-Regular.ttf"
+    (share/"fonts").install "../AsapAsap-SemiBold.ttf"
+    (share/"fonts").install "../AsapAsap-SemiBoldItalic.ttf"
   end
   test do
   end
