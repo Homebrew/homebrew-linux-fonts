@@ -5,10 +5,10 @@ class FontTexGyrePagella < Formula
   desc "TeX Gyre Pagella"
   homepage "http://www.gust.org.pl/projects/e-foundry/tex-gyre/pagella"
   def install
-    (share/"fonts").install "../qpl#{version.to_s.gsub(".", "_")}otftexgyrepagella-bold.otf"
-    (share/"fonts").install "../qpl#{version.to_s.gsub(".", "_")}otftexgyrepagella-bolditalic.otf"
-    (share/"fonts").install "../qpl#{version.to_s.gsub(".", "_")}otftexgyrepagella-italic.otf"
-    (share/"fonts").install "../qpl#{version.to_s.gsub(".", "_")}otftexgyrepagella-regular.otf"
+    (share/"fonts").install "../qpl#{version.to_s.gsub(".", "_")}otf/texgyrepagella-bold.otf"
+    (share/"fonts").install "../qpl#{version.to_s.gsub(".", "_")}otf/texgyrepagella-bolditalic.otf"
+    (share/"fonts").install "../qpl#{version.to_s.gsub(".", "_")}otf/texgyrepagella-italic.otf"
+    (share/"fonts").install "../qpl#{version.to_s.gsub(".", "_")}otf/texgyrepagella-regular.otf"
   end
   test do
   end
