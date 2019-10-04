@@ -5,7 +5,7 @@ class FontDevicons < Formula
   desc "Devicons"
   homepage "https://vorillaz.github.io/devicons/"
   def install
-    (share/"fonts").install "../devicons-#{version}/fonts/devicons.ttf"
+    (share/"fonts").install "../devicons-#{version}/fontsdevicons.ttf"
   end
   test do
   end
