@@ -5,9 +5,9 @@ class FontKawkabMono < Formula
   desc "Kawkab Mono"
   homepage "https://makkuk.com/kawkab-mono"
   def install
-    (share/"fonts").install "../kawkab-mono-#{version}KawkabMono-Bold.otf"
-    (share/"fonts").install "../kawkab-mono-#{version}KawkabMono-Light.otf"
-    (share/"fonts").install "../kawkab-mono-#{version}KawkabMono-Regular.otf"
+    (share/"fonts").install "../kawkab-mono-#{version}/KawkabMono-Bold.otf"
+    (share/"fonts").install "../kawkab-mono-#{version}/KawkabMono-Light.otf"
+    (share/"fonts").install "../kawkab-mono-#{version}/KawkabMono-Regular.otf"
   end
   test do
   end
