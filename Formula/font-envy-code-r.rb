@@ -5,9 +5,9 @@ class FontEnvyCodeR < Formula
   desc "Envy Code R"
   homepage "https://damieng.com/blog/tag/envy-code/"
   def install
-    (share/"fonts").install "../Envy Code R PR7/Envy Code R Bold.ttf"
-    (share/"fonts").install "../Envy Code R PR7/Envy Code R Italic.ttf"
-    (share/"fonts").install "../Envy Code R PR7/Envy Code R.ttf"
+    (share/"fonts").install "../Envy Code R PR7Envy Code R Bold.ttf"
+    (share/"fonts").install "../Envy Code R PR7Envy Code R Italic.ttf"
+    (share/"fonts").install "../Envy Code R PR7Envy Code R.ttf"
   end
   test do
   end
