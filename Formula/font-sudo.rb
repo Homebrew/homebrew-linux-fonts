@@ -5,7 +5,7 @@ class FontSudo < Formula
   desc "Sudo"
   homepage "https://github.com/jenskutilek/sudo-font/"
   def install
-    (share/"fonts").install "../sudoSudoVariable.ttf"
+    (share/"fonts").install "../sudo/SudoVariable.ttf"
   end
   test do
   end
