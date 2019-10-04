@@ -5,7 +5,7 @@ class FontLeagueSpartan < Formula
   desc "League Spartan"
   homepage "https://www.theleagueofmoveabletype.com/league-spartan"
   def install
-    (share/"fonts").install "../league-spartan-master/LeagueSpartan-Bold.otf"
+    (share/"fonts").install "../league-spartan-masterLeagueSpartan-Bold.otf"
   end
   test do
   end
