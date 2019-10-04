@@ -5,8 +5,8 @@ class FontGilbert < Formula
   desc "Gilbert"
   homepage "https://typewithpride.com/"
   def install
-    (share/"fonts").install "../Gilbert_#{version.to_s.sub(/,.*/, "")}_#{version.to_s.sub(/.*,/, "")}Gilbert Bold-Preview_#{version.to_s.sub(/,.*/, "").gsub(".", "")}.otf"
-    (share/"fonts").install "../Gilbert_#{version.to_s.sub(/,.*/, "")}_#{version.to_s.sub(/.*,/, "")}Gilbert-Color Bold-Preview_#{version.to_s.sub(/,.*/, "").gsub(".", "")}.otf"
+    (share/"fonts").install "../Gilbert_#{version.to_s.sub(/,.*/, "")}_#{version.to_s.sub(/.*,/, "")}/Gilbert Bold-Preview_#{version.to_s.sub(/,.*/, "").gsub(".", "")}.otf"
+    (share/"fonts").install "../Gilbert_#{version.to_s.sub(/,.*/, "")}_#{version.to_s.sub(/.*,/, "")}/Gilbert-Color Bold-Preview_#{version.to_s.sub(/,.*/, "").gsub(".", "")}.otf"
   end
   test do
   end
