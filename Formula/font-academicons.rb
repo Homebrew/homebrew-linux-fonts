@@ -5,7 +5,7 @@ class FontAcademicons < Formula
   desc "Academicons"
   homepage "https://github.com/jpswalsh/academicons"
   def install
-    (share/"fonts").install "../academicons-#{version}/fonts/academicons.ttf"
+    (share/"fonts").install "../academicons-#{version}/fontsacademicons.ttf"
   end
   test do
   end
