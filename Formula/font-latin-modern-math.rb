@@ -3,7 +3,7 @@ class FontLatinModernMath < Formula
   desc "Latin Modern Math"
   homepage "http://www.gust.org.pl/projects/e-foundry/lm-math"
   def install
-    (share/"fonts").install "../latinmodern-math-1959/otf/latinmodern-math.otf"
+    (share/"fonts").install "../latinmodern-math-1959/otflatinmodern-math.otf"
   end
   test do
   end
