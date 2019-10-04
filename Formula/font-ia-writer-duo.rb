@@ -3,10 +3,10 @@ class FontIaWriterDuo < Formula
   desc "iA Writer Duo"
   homepage "https://github.com/iaolo/iA-Fonts"
   def install
-    (share/"fonts").install "../iA-Fonts-master/iA Writer Duo/StaticiAWriterDuoS-Bold.ttf"
-    (share/"fonts").install "../iA-Fonts-master/iA Writer Duo/StaticiAWriterDuoS-BoldItalic.ttf"
-    (share/"fonts").install "../iA-Fonts-master/iA Writer Duo/StaticiAWriterDuoS-Italic.ttf"
-    (share/"fonts").install "../iA-Fonts-master/iA Writer Duo/StaticiAWriterDuoS-Regular.ttf"
+    (share/"fonts").install "../iA-Fonts-master/iA Writer Duo/Static/iAWriterDuoS-Bold.ttf"
+    (share/"fonts").install "../iA-Fonts-master/iA Writer Duo/Static/iAWriterDuoS-BoldItalic.ttf"
+    (share/"fonts").install "../iA-Fonts-master/iA Writer Duo/Static/iAWriterDuoS-Italic.ttf"
+    (share/"fonts").install "../iA-Fonts-master/iA Writer Duo/Static/iAWriterDuoS-Regular.ttf"
   end
   test do
   end
