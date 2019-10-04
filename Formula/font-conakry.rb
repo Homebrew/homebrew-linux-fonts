@@ -3,7 +3,7 @@ class FontConakry < Formula
   desc "Conakry"
   homepage "https://www.evertype.com/fonts/nko/"
   def install
-    (share/"fonts").install "../ConakryFont/Conakry.ttf"
+    (share/"fonts").install "../ConakryFontConakry.ttf"
   end
   test do
   end
