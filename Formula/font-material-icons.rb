@@ -5,7 +5,7 @@ class FontMaterialIcons < Formula
   desc "Material Icons"
   homepage "https://google.github.io/material-design-icons/"
   def install
-    (share/"fonts").install "../material-design-icons-#{version}/iconfont/MaterialIcons-Regular.ttf"
+    (share/"fonts").install "../material-design-icons-#{version}/iconfontMaterialIcons-Regular.ttf"
   end
   test do
   end
