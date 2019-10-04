@@ -5,7 +5,7 @@ class FontScheherazade < Formula
   desc "Scheherazade "
   homepage "https://scripts.sil.org/Scheherazade"
   def install
-    (share/"fonts").install "../Scheherazade-#{version}/Scheherazade-R.ttf"
+    (share/"fonts").install "../Scheherazade-#{version}Scheherazade-R.ttf"
   end
   test do
   end
