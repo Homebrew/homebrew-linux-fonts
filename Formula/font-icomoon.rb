@@ -3,7 +3,7 @@ class FontIcomoon < Formula
   desc "IcoMoon"
   homepage "https://icomoon.io/"
   def install
-    (share/"fonts").install "../IcoMoon-Free-master/FontIcoMoon-Free.ttf"
+    (share/"fonts").install "../IcoMoon-Free-master/Font/IcoMoon-Free.ttf"
   end
   test do
   end
