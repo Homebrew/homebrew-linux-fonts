@@ -5,7 +5,7 @@ class FontTexGyreBonumMath < Formula
   desc "Bonum Math"
   homepage "http://www.gust.org.pl/projects/e-foundry/tg-math"
   def install
-    (share/"fonts").install "../texgyrebonum-math-1005/opentypetexgyrebonum-math.otf"
+    (share/"fonts").install "../texgyrebonum-math-1005/opentype/texgyrebonum-math.otf"
   end
   test do
   end
