@@ -5,16 +5,16 @@ class FontProzaLibre < Formula
   desc "Proza Libre"
   homepage "https://github.com/jasperdewaard/Proza-Libre"
   def install
-    (share/"fonts").install "../Proza-Libre-#{version}/FontsProzaLibre-Bold.ttf"
-    (share/"fonts").install "../Proza-Libre-#{version}/FontsProzaLibre-BoldItalic.ttf"
-    (share/"fonts").install "../Proza-Libre-#{version}/FontsProzaLibre-ExtraBold.ttf"
-    (share/"fonts").install "../Proza-Libre-#{version}/FontsProzaLibre-ExtraBoldItalic.ttf"
-    (share/"fonts").install "../Proza-Libre-#{version}/FontsProzaLibre-Italic.ttf"
-    (share/"fonts").install "../Proza-Libre-#{version}/FontsProzaLibre-Medium.ttf"
-    (share/"fonts").install "../Proza-Libre-#{version}/FontsProzaLibre-MediumItalic.ttf"
-    (share/"fonts").install "../Proza-Libre-#{version}/FontsProzaLibre-Regular.ttf"
-    (share/"fonts").install "../Proza-Libre-#{version}/FontsProzaLibre-SemiBold.ttf"
-    (share/"fonts").install "../Proza-Libre-#{version}/FontsProzaLibre-SemiBoldItalic.ttf"
+    (share/"fonts").install "../Proza-Libre-#{version}/Fonts/ProzaLibre-Bold.ttf"
+    (share/"fonts").install "../Proza-Libre-#{version}/Fonts/ProzaLibre-BoldItalic.ttf"
+    (share/"fonts").install "../Proza-Libre-#{version}/Fonts/ProzaLibre-ExtraBold.ttf"
+    (share/"fonts").install "../Proza-Libre-#{version}/Fonts/ProzaLibre-ExtraBoldItalic.ttf"
+    (share/"fonts").install "../Proza-Libre-#{version}/Fonts/ProzaLibre-Italic.ttf"
+    (share/"fonts").install "../Proza-Libre-#{version}/Fonts/ProzaLibre-Medium.ttf"
+    (share/"fonts").install "../Proza-Libre-#{version}/Fonts/ProzaLibre-MediumItalic.ttf"
+    (share/"fonts").install "../Proza-Libre-#{version}/Fonts/ProzaLibre-Regular.ttf"
+    (share/"fonts").install "../Proza-Libre-#{version}/Fonts/ProzaLibre-SemiBold.ttf"
+    (share/"fonts").install "../Proza-Libre-#{version}/Fonts/ProzaLibre-SemiBoldItalic.ttf"
   end
   test do
   end
