@@ -5,8 +5,8 @@ class FontGentiumPlus < Formula
   desc "Gentium"
   homepage "https://software.sil.org/gentium/"
   def install
-    (share/"fonts").install "../GentiumPlus-5.000GentiumPlus-I.ttf"
-    (share/"fonts").install "../GentiumPlus-5.000GentiumPlus-R.ttf"
+    (share/"fonts").install "../GentiumPlus-5.000/GentiumPlus-I.ttf"
+    (share/"fonts").install "../GentiumPlus-5.000/GentiumPlus-R.ttf"
   end
   test do
   end
