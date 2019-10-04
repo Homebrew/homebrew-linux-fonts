@@ -3,7 +3,7 @@ class FontProfontx < Formula
   desc "ProFontX"
   homepage "http://faisal.com/software/profontx/"
   def install
-    (share/"fonts").install "../ProFontXProFontX"
+    (share/"fonts").install "../ProFontX/ProFontX"
   end
   test do
   end
