@@ -5,7 +5,7 @@ class FontOpenIconic < Formula
   desc "Open Iconic"
   homepage "https://useiconic.com/open/"
   def install
-    (share/"fonts").install "../open-iconic-#{version}/font/fonts/open-iconic.ttf"
+    (share/"fonts").install "../open-iconic-#{version}/font/fontsopen-iconic.ttf"
   end
   test do
   end
