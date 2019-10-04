@@ -5,7 +5,7 @@ class FontTexGyreScholaMath < Formula
   desc "Schola Math"
   homepage "http://www.gust.org.pl/projects/e-foundry/tg-math"
   def install
-    (share/"fonts").install "../texgyreschola-math-1533/opentype/texgyreschola-math.otf"
+    (share/"fonts").install "../texgyreschola-math-1533/opentypetexgyreschola-math.otf"
   end
   test do
   end
