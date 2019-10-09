@@ -1,4 +1,4 @@
-# Linuxbrew-fonts [![CircleCI](https://circleci.com/gh/Linuxbrew/homebrew-fonts.svg?style=svg)](https://circleci.com/gh/Linuxbrew/homebrew-fonts)
+# Linuxbrew-fonts
 
 Linuxbrew-fonts is a fork of [homebrew-cask-fonts](https://github.com/Caskroom/homebrew-fonts/).
 
