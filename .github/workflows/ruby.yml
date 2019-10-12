@@ -23,7 +23,7 @@ jobs:
         bundle exec ruby cask2formula
     - name: Publish to GitHub
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         git push https://fgborges:${TOKEN}@github.com/Linuxbrew/homebrew-fonts
   
