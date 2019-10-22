@@ -25,5 +25,5 @@ jobs:
       env:
         TOKEN: ${{ secrets.PUSH_TOKEN }}
       run: |
-        git push https://fgborges:${TOKEN}@github.com/Linuxbrew/homebrew-fonts
+        git push https://fgborges:${TOKEN}@github.com/Linuxbrew/homebrew-fonts HEAD:master
   
