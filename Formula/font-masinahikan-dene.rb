@@ -1,7 +1,7 @@
 class FontMasinahikanDene < Formula
-  head "http://www.languagegeek.com/font/MasinahikanDene.zip"
+  head "https://www.languagegeek.com/font/MasinahikanDene.zip"
   desc "Masinahikan Dene"
-  homepage "http://www.languagegeek.com/font/fontdownload.html"
+  homepage "https://www.languagegeek.com/font/fontdownload.html"
   def install
     (share/"fonts").install "MasinahikanDene_h.ttf"
     (share/"fonts").install "MasinahikanDene_h_Bold.ttf"

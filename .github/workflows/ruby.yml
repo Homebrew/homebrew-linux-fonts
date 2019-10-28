@@ -1,0 +1,29 @@
+name: Ruby
+on:
+  schedule:
+    - cron: 0 0 * * *
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Set up Ruby 2.6
+      uses: actions/setup-ruby@v1
+      with:
+        ruby-version: 2.6.x
+    - name: Configure git
+      run: |
+        git config user.email 'fgborges@pm.me'
+        git config user.name 'Fernando Garcia Borges'
+    - name: Build and test with Rake
+      run: |
+        git submodule update --init --remote
+        gem install bundler
+        bundle install --jobs 4 --retry 3
+        bundle exec ruby cask2formula
+    - name: Publish to GitHub
+      env:
+        TOKEN: ${{ secrets.PUSH_TOKEN }}
+      run: |
+        git push https://fgborges:${TOKEN}@github.com/Linuxbrew/homebrew-fonts HEAD:master
+  

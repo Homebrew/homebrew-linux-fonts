@@ -1,7 +1,7 @@
 class FontAboriginalSans < Formula
-  head "http://www.languagegeek.com/font/AboriginalSans.zip"
+  head "https://www.languagegeek.com/font/AboriginalSans.zip"
   desc "LanguageGeek Aboriginal Sans Serif"
-  homepage "http://www.languagegeek.com/font/fontdownload.html"
+  homepage "https://www.languagegeek.com/font/fontdownload.html"
   def install
     (share/"fonts").install "AboriginalSansREGULAR.ttf"
     (share/"fonts").install "AboriginalSansBOLD.ttf"
