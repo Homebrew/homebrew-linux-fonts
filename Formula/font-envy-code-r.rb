@@ -5,9 +5,10 @@ class FontEnvyCodeR < Formula
   desc "Envy Code R"
   homepage "https://damieng.com/blog/tag/envy-code/"
   def install
-    (share/"fonts").install "../Envy Code R PR7/Envy Code R Bold.ttf"
-    (share/"fonts").install "../Envy Code R PR7/Envy Code R Italic.ttf"
-    (share/"fonts").install "../Envy Code R PR7/Envy Code R.ttf"
+    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    (share/"fonts").install "#{parent}Envy Code R PR7/Envy Code R Bold.ttf"
+    (share/"fonts").install "#{parent}Envy Code R PR7/Envy Code R Italic.ttf"
+    (share/"fonts").install "#{parent}Envy Code R PR7/Envy Code R.ttf"
   end
   test do
   end
