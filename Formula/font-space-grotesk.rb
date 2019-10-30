@@ -5,11 +5,12 @@ class FontSpaceGrotesk < Formula
   desc "Space Grotesk"
   homepage "https://github.com/floriankarsten/space-grotesk"
   def install
-    (share/"fonts").install "../SpaceGrotesk-v#{version}/otf/SpaceGrotesk-Bold.otf"
-    (share/"fonts").install "../SpaceGrotesk-v#{version}/otf/SpaceGrotesk-Light.otf"
-    (share/"fonts").install "../SpaceGrotesk-v#{version}/otf/SpaceGrotesk-Medium.otf"
-    (share/"fonts").install "../SpaceGrotesk-v#{version}/otf/SpaceGrotesk-Regular.otf"
-    (share/"fonts").install "../SpaceGrotesk-v#{version}/otf/SpaceGrotesk-SemiBold.otf"
+    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    (share/"fonts").install "#{parent}SpaceGrotesk-v#{version}/otf/SpaceGrotesk-Bold.otf"
+    (share/"fonts").install "#{parent}SpaceGrotesk-v#{version}/otf/SpaceGrotesk-Light.otf"
+    (share/"fonts").install "#{parent}SpaceGrotesk-v#{version}/otf/SpaceGrotesk-Medium.otf"
+    (share/"fonts").install "#{parent}SpaceGrotesk-v#{version}/otf/SpaceGrotesk-Regular.otf"
+    (share/"fonts").install "#{parent}SpaceGrotesk-v#{version}/otf/SpaceGrotesk-SemiBold.otf"
   end
   test do
   end
