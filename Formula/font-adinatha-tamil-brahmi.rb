@@ -3,7 +3,8 @@ class FontAdinathaTamilBrahmi < Formula
   desc "Adinatha Tamil Brahmi"
   homepage "http://www.virtualvinodh.com/wp/tamil-brahmi-font/"
   def install
-    (share/"fonts").install "../Adinatha-Tamil-Brahmi/Adinatha-Tamil-Brahmi.otf"
+    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    (share/"fonts").install "#{parent}Adinatha-Tamil-Brahmi/Adinatha-Tamil-Brahmi.otf"
   end
   test do
   end
