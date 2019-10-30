@@ -3,7 +3,8 @@ class FontLigatureSymbols < Formula
   desc "Ligature Symbols"
   homepage "https://kudakurage.com/ligature_symbols/"
   def install
-    (share/"fonts").install "../LigatureSymbols/LigatureSymbols-2.11.otf"
+    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    (share/"fonts").install "#{parent}LigatureSymbols/LigatureSymbols-2.11.otf"
   end
   test do
   end
