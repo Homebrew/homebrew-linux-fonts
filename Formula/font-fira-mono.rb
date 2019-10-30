@@ -5,9 +5,10 @@ class FontFiraMono < Formula
   desc "Fira Mono"
   homepage "https://mozilla.github.io/Fira/"
   def install
-    (share/"fonts").install "../Fira-#{version.to_s.sub(/.*,/, "")}/otf/FiraMono-Bold.otf"
-    (share/"fonts").install "../Fira-#{version.to_s.sub(/.*,/, "")}/otf/FiraMono-Medium.otf"
-    (share/"fonts").install "../Fira-#{version.to_s.sub(/.*,/, "")}/otf/FiraMono-Regular.otf"
+    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    (share/"fonts").install "#{parent}Fira-#{version.to_s.sub(/.*,/, "")}/otf/FiraMono-Bold.otf"
+    (share/"fonts").install "#{parent}Fira-#{version.to_s.sub(/.*,/, "")}/otf/FiraMono-Medium.otf"
+    (share/"fonts").install "#{parent}Fira-#{version.to_s.sub(/.*,/, "")}/otf/FiraMono-Regular.otf"
   end
   test do
   end
