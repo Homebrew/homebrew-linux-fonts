@@ -5,7 +5,8 @@ class FontMaterialIcons < Formula
   desc "Material Icons"
   homepage "https://google.github.io/material-design-icons/"
   def install
-    (share/"fonts").install "../material-design-icons-#{version}/iconfont/MaterialIcons-Regular.ttf"
+    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    (share/"fonts").install "#{parent}material-design-icons-#{version}/iconfont/MaterialIcons-Regular.ttf"
   end
   test do
   end
