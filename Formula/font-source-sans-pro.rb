@@ -5,18 +5,19 @@ class FontSourceSansPro < Formula
   desc "Source Sans Pro"
   homepage "https://adobe-fonts.github.io/source-sans-pro/"
   def install
-    (share/"fonts").install "../source-sans-pro-#{version}/OTF/SourceSansPro-Black.otf"
-    (share/"fonts").install "../source-sans-pro-#{version}/OTF/SourceSansPro-BlackIt.otf"
-    (share/"fonts").install "../source-sans-pro-#{version}/OTF/SourceSansPro-Bold.otf"
-    (share/"fonts").install "../source-sans-pro-#{version}/OTF/SourceSansPro-BoldIt.otf"
-    (share/"fonts").install "../source-sans-pro-#{version}/OTF/SourceSansPro-ExtraLight.otf"
-    (share/"fonts").install "../source-sans-pro-#{version}/OTF/SourceSansPro-ExtraLightIt.otf"
-    (share/"fonts").install "../source-sans-pro-#{version}/OTF/SourceSansPro-It.otf"
-    (share/"fonts").install "../source-sans-pro-#{version}/OTF/SourceSansPro-Light.otf"
-    (share/"fonts").install "../source-sans-pro-#{version}/OTF/SourceSansPro-LightIt.otf"
-    (share/"fonts").install "../source-sans-pro-#{version}/OTF/SourceSansPro-Regular.otf"
-    (share/"fonts").install "../source-sans-pro-#{version}/OTF/SourceSansPro-Semibold.otf"
-    (share/"fonts").install "../source-sans-pro-#{version}/OTF/SourceSansPro-SemiboldIt.otf"
+    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    (share/"fonts").install "#{parent}source-sans-pro-#{version}/OTF/SourceSansPro-Black.otf"
+    (share/"fonts").install "#{parent}source-sans-pro-#{version}/OTF/SourceSansPro-BlackIt.otf"
+    (share/"fonts").install "#{parent}source-sans-pro-#{version}/OTF/SourceSansPro-Bold.otf"
+    (share/"fonts").install "#{parent}source-sans-pro-#{version}/OTF/SourceSansPro-BoldIt.otf"
+    (share/"fonts").install "#{parent}source-sans-pro-#{version}/OTF/SourceSansPro-ExtraLight.otf"
+    (share/"fonts").install "#{parent}source-sans-pro-#{version}/OTF/SourceSansPro-ExtraLightIt.otf"
+    (share/"fonts").install "#{parent}source-sans-pro-#{version}/OTF/SourceSansPro-It.otf"
+    (share/"fonts").install "#{parent}source-sans-pro-#{version}/OTF/SourceSansPro-Light.otf"
+    (share/"fonts").install "#{parent}source-sans-pro-#{version}/OTF/SourceSansPro-LightIt.otf"
+    (share/"fonts").install "#{parent}source-sans-pro-#{version}/OTF/SourceSansPro-Regular.otf"
+    (share/"fonts").install "#{parent}source-sans-pro-#{version}/OTF/SourceSansPro-Semibold.otf"
+    (share/"fonts").install "#{parent}source-sans-pro-#{version}/OTF/SourceSansPro-SemiboldIt.otf"
   end
   test do
   end
