@@ -3,10 +3,11 @@ class FontCharter < Formula
   desc "Charter"
   homepage "https://practicaltypography.com/charter.html"
   def install
-    (share/"fonts").install "../charter/otf/Charter Bold Italic.otf"
-    (share/"fonts").install "../charter/otf/Charter Bold.otf"
-    (share/"fonts").install "../charter/otf/Charter Italic.otf"
-    (share/"fonts").install "../charter/otf/Charter Regular.otf"
+    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    (share/"fonts").install "#{parent}charter/otf/Charter Bold Italic.otf"
+    (share/"fonts").install "#{parent}charter/otf/Charter Bold.otf"
+    (share/"fonts").install "#{parent}charter/otf/Charter Italic.otf"
+    (share/"fonts").install "#{parent}charter/otf/Charter Regular.otf"
   end
   test do
   end
