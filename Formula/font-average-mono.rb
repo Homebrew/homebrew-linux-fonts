@@ -3,10 +3,11 @@ class FontAverageMono < Formula
   desc "Average Mono"
   homepage "https://fontlibrary.org/en/font/average-mono"
   def install
-    (share/"fonts").install "../AverageMono/AverageMono.otf"
-    (share/"fonts").install "../AverageMono/AverageMonoBold.otf"
-    (share/"fonts").install "../AverageMono/AverageMonoItalic.otf"
-    (share/"fonts").install "../AverageMono/AverageMonoBoldItalic.otf"
+    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    (share/"fonts").install "#{parent}AverageMono/AverageMono.otf"
+    (share/"fonts").install "#{parent}AverageMono/AverageMonoBold.otf"
+    (share/"fonts").install "#{parent}AverageMono/AverageMonoItalic.otf"
+    (share/"fonts").install "#{parent}AverageMono/AverageMonoBoldItalic.otf"
   end
   test do
   end
