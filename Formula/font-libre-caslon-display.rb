@@ -3,7 +3,8 @@ class FontLibreCaslonDisplay < Formula
   desc "Libre Caslon Display"
   homepage "http://www.impallari.com/projects/overview/libre-caslon-display-and-text"
   def install
-    (share/"fonts").install "../Libre-Caslon-Display-master/fonts/OTF/LibreCaslonDisplay-Regular.otf"
+    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    (share/"fonts").install "#{parent}Libre-Caslon-Display-master/fonts/OTF/LibreCaslonDisplay-Regular.otf"
   end
   test do
   end
