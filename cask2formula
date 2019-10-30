@@ -88,7 +88,7 @@ class CaskTransform < Parslet::Transform
         class #{camelcase} < Formula
           #{commands1.join("\n  ")}
           def install
-            #{parent if "#{fonts}".match(/\#{parent}/)}#{fonts.join("\n    ")}
+            #{parent if fonts.to_s.include? "\#{parent}"}#{fonts.join("\n    ")}
           end
           #{commands2.join("\n  ")}
         end
