@@ -3,10 +3,11 @@ class FontLuculent < Formula
   desc "Luculent"
   homepage "http://eastfarthing.com/luculent/"
   def install
-    (share/"fonts").install "../luculent/luculent.ttf"
-    (share/"fonts").install "../luculent/luculentb.ttf"
-    (share/"fonts").install "../luculent/luculentbi.ttf"
-    (share/"fonts").install "../luculent/luculenti.ttf"
+    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    (share/"fonts").install "#{parent}luculent/luculent.ttf"
+    (share/"fonts").install "#{parent}luculent/luculentb.ttf"
+    (share/"fonts").install "#{parent}luculent/luculentbi.ttf"
+    (share/"fonts").install "#{parent}luculent/luculenti.ttf"
   end
   test do
   end
