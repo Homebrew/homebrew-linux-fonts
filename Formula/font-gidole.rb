@@ -3,8 +3,9 @@ class FontGidole < Formula
   desc "Gidole"
   homepage "https://gidole.github.io/"
   def install
-    (share/"fonts").install "../GidoleFont/Gidole-Regular.ttf"
-    (share/"fonts").install "../GidoleFont/Gidolinya-Regular.otf"
+    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    (share/"fonts").install "#{parent}GidoleFont/Gidole-Regular.ttf"
+    (share/"fonts").install "#{parent}GidoleFont/Gidolinya-Regular.otf"
   end
   test do
   end
