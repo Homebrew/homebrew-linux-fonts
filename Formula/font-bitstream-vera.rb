@@ -5,16 +5,17 @@ class FontBitstreamVera < Formula
   desc "Bitstream Vera"
   homepage "https://www.gnome.org/fonts/"
   def install
-    (share/"fonts").install "../ttf-bitstream-vera-1.10/Vera.ttf"
-    (share/"fonts").install "../ttf-bitstream-vera-1.10/VeraBI.ttf"
-    (share/"fonts").install "../ttf-bitstream-vera-1.10/VeraBd.ttf"
-    (share/"fonts").install "../ttf-bitstream-vera-1.10/VeraIt.ttf"
-    (share/"fonts").install "../ttf-bitstream-vera-1.10/VeraMoBI.ttf"
-    (share/"fonts").install "../ttf-bitstream-vera-1.10/VeraMoBd.ttf"
-    (share/"fonts").install "../ttf-bitstream-vera-1.10/VeraMoIt.ttf"
-    (share/"fonts").install "../ttf-bitstream-vera-1.10/VeraMono.ttf"
-    (share/"fonts").install "../ttf-bitstream-vera-1.10/VeraSe.ttf"
-    (share/"fonts").install "../ttf-bitstream-vera-1.10/VeraSeBd.ttf"
+    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    (share/"fonts").install "#{parent}ttf-bitstream-vera-1.10/Vera.ttf"
+    (share/"fonts").install "#{parent}ttf-bitstream-vera-1.10/VeraBI.ttf"
+    (share/"fonts").install "#{parent}ttf-bitstream-vera-1.10/VeraBd.ttf"
+    (share/"fonts").install "#{parent}ttf-bitstream-vera-1.10/VeraIt.ttf"
+    (share/"fonts").install "#{parent}ttf-bitstream-vera-1.10/VeraMoBI.ttf"
+    (share/"fonts").install "#{parent}ttf-bitstream-vera-1.10/VeraMoBd.ttf"
+    (share/"fonts").install "#{parent}ttf-bitstream-vera-1.10/VeraMoIt.ttf"
+    (share/"fonts").install "#{parent}ttf-bitstream-vera-1.10/VeraMono.ttf"
+    (share/"fonts").install "#{parent}ttf-bitstream-vera-1.10/VeraSe.ttf"
+    (share/"fonts").install "#{parent}ttf-bitstream-vera-1.10/VeraSeBd.ttf"
   end
   test do
   end
