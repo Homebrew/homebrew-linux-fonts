@@ -5,8 +5,9 @@ class FontIpaexfont < Formula
   desc "IPAex Fonts"
   homepage "https://ipafont.ipa.go.jp/"
   def install
-    (share/"fonts").install "../IPAexfont#{version.to_s.gsub(".", "")}/ipaexg.ttf"
-    (share/"fonts").install "../IPAexfont#{version.to_s.gsub(".", "")}/ipaexm.ttf"
+    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    (share/"fonts").install "#{parent}IPAexfont#{version.to_s.gsub(".", "")}/ipaexg.ttf"
+    (share/"fonts").install "#{parent}IPAexfont#{version.to_s.gsub(".", "")}/ipaexm.ttf"
   end
   test do
   end
