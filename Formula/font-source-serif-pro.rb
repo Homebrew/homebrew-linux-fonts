@@ -5,18 +5,19 @@ class FontSourceSerifPro < Formula
   desc "Source Serif Pro"
   homepage "https://adobe-fonts.github.io/source-serif-pro/"
   def install
-    (share/"fonts").install "../OTF/SourceSerifPro-Black.otf"
-    (share/"fonts").install "../OTF/SourceSerifPro-BlackIt.otf"
-    (share/"fonts").install "../OTF/SourceSerifPro-Bold.otf"
-    (share/"fonts").install "../OTF/SourceSerifPro-BoldIt.otf"
-    (share/"fonts").install "../OTF/SourceSerifPro-ExtraLight.otf"
-    (share/"fonts").install "../OTF/SourceSerifPro-ExtraLightIt.otf"
-    (share/"fonts").install "../OTF/SourceSerifPro-It.otf"
-    (share/"fonts").install "../OTF/SourceSerifPro-Light.otf"
-    (share/"fonts").install "../OTF/SourceSerifPro-LightIt.otf"
-    (share/"fonts").install "../OTF/SourceSerifPro-Regular.otf"
-    (share/"fonts").install "../OTF/SourceSerifPro-Semibold.otf"
-    (share/"fonts").install "../OTF/SourceSerifPro-SemiboldIt.otf"
+    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    (share/"fonts").install "#{parent}OTF/SourceSerifPro-Black.otf"
+    (share/"fonts").install "#{parent}OTF/SourceSerifPro-BlackIt.otf"
+    (share/"fonts").install "#{parent}OTF/SourceSerifPro-Bold.otf"
+    (share/"fonts").install "#{parent}OTF/SourceSerifPro-BoldIt.otf"
+    (share/"fonts").install "#{parent}OTF/SourceSerifPro-ExtraLight.otf"
+    (share/"fonts").install "#{parent}OTF/SourceSerifPro-ExtraLightIt.otf"
+    (share/"fonts").install "#{parent}OTF/SourceSerifPro-It.otf"
+    (share/"fonts").install "#{parent}OTF/SourceSerifPro-Light.otf"
+    (share/"fonts").install "#{parent}OTF/SourceSerifPro-LightIt.otf"
+    (share/"fonts").install "#{parent}OTF/SourceSerifPro-Regular.otf"
+    (share/"fonts").install "#{parent}OTF/SourceSerifPro-Semibold.otf"
+    (share/"fonts").install "#{parent}OTF/SourceSerifPro-SemiboldIt.otf"
   end
   test do
   end
