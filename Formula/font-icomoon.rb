@@ -3,7 +3,8 @@ class FontIcomoon < Formula
   desc "IcoMoon"
   homepage "https://icomoon.io/"
   def install
-    (share/"fonts").install "../IcoMoon-Free-master/Font/IcoMoon-Free.ttf"
+    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    (share/"fonts").install "#{parent}IcoMoon-Free-master/Font/IcoMoon-Free.ttf"
   end
   test do
   end
