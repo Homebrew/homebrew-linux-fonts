@@ -5,10 +5,11 @@ class FontFantasqueSansMono < Formula
   desc "Fantasque Sans Mono"
   homepage "https://github.com/belluzj/fantasque-sans"
   def install
-    (share/"fonts").install "../OTF/FantasqueSansMono-Bold.otf"
-    (share/"fonts").install "../OTF/FantasqueSansMono-BoldItalic.otf"
-    (share/"fonts").install "../OTF/FantasqueSansMono-Italic.otf"
-    (share/"fonts").install "../OTF/FantasqueSansMono-Regular.otf"
+    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    (share/"fonts").install "#{parent}OTF/FantasqueSansMono-Bold.otf"
+    (share/"fonts").install "#{parent}OTF/FantasqueSansMono-BoldItalic.otf"
+    (share/"fonts").install "#{parent}OTF/FantasqueSansMono-Italic.otf"
+    (share/"fonts").install "#{parent}OTF/FantasqueSansMono-Regular.otf"
   end
   test do
   end
