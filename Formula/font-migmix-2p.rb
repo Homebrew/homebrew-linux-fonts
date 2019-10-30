@@ -5,8 +5,9 @@ class FontMigmix2p < Formula
   desc "MigMix 2P"
   homepage "https://mix-mplus-ipa.osdn.jp/migmix/#migmix2p"
   def install
-    (share/"fonts").install "../migmix-2p-#{version}/migmix-2p-bold.ttf"
-    (share/"fonts").install "../migmix-2p-#{version}/migmix-2p-regular.ttf"
+    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    (share/"fonts").install "#{parent}migmix-2p-#{version}/migmix-2p-bold.ttf"
+    (share/"fonts").install "#{parent}migmix-2p-#{version}/migmix-2p-regular.ttf"
   end
   test do
   end
