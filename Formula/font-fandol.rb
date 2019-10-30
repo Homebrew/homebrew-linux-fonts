@@ -5,14 +5,15 @@ class FontFandol < Formula
   desc "Fandol"
   homepage "https://ctan.org/pkg/fandol"
   def install
-    (share/"fonts").install "../fandol/FandolBraille-Display.otf"
-    (share/"fonts").install "../fandol/FandolBraille-Regular.otf"
-    (share/"fonts").install "../fandol/FandolFang-Regular.otf"
-    (share/"fonts").install "../fandol/FandolHei-Bold.otf"
-    (share/"fonts").install "../fandol/FandolHei-Regular.otf"
-    (share/"fonts").install "../fandol/FandolKai-Regular.otf"
-    (share/"fonts").install "../fandol/FandolSong-Bold.otf"
-    (share/"fonts").install "../fandol/FandolSong-Regular.otf"
+    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    (share/"fonts").install "#{parent}fandol/FandolBraille-Display.otf"
+    (share/"fonts").install "#{parent}fandol/FandolBraille-Regular.otf"
+    (share/"fonts").install "#{parent}fandol/FandolFang-Regular.otf"
+    (share/"fonts").install "#{parent}fandol/FandolHei-Bold.otf"
+    (share/"fonts").install "#{parent}fandol/FandolHei-Regular.otf"
+    (share/"fonts").install "#{parent}fandol/FandolKai-Regular.otf"
+    (share/"fonts").install "#{parent}fandol/FandolSong-Bold.otf"
+    (share/"fonts").install "#{parent}fandol/FandolSong-Regular.otf"
   end
   test do
   end
