@@ -5,7 +5,8 @@ class FontIonicons < Formula
   desc "Ionicons"
   homepage "https://github.com/ionic-team/ionicons"
   def install
-    (share/"fonts").install "../ionicons-#{version}/fonts/ionicons.ttf"
+    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    (share/"fonts").install "#{parent}ionicons-#{version}/fonts/ionicons.ttf"
   end
   test do
   end
