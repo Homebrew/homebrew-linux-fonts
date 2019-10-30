@@ -5,12 +5,13 @@ class FontMesloForPowerline < Formula
   desc "Meslo for Powerline"
   homepage "https://github.com/powerline/fonts"
   def install
-    (share/"fonts").install "../fonts-#{version}/Meslo/Meslo LG L DZ Regular for Powerline.otf"
-    (share/"fonts").install "../fonts-#{version}/Meslo/Meslo LG L Regular for Powerline.otf"
-    (share/"fonts").install "../fonts-#{version}/Meslo/Meslo LG M DZ Regular for Powerline.otf"
-    (share/"fonts").install "../fonts-#{version}/Meslo/Meslo LG M Regular for Powerline.otf"
-    (share/"fonts").install "../fonts-#{version}/Meslo/Meslo LG S DZ Regular for Powerline.otf"
-    (share/"fonts").install "../fonts-#{version}/Meslo/Meslo LG S Regular for Powerline.otf"
+    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    (share/"fonts").install "#{parent}fonts-#{version}/Meslo/Meslo LG L DZ Regular for Powerline.otf"
+    (share/"fonts").install "#{parent}fonts-#{version}/Meslo/Meslo LG L Regular for Powerline.otf"
+    (share/"fonts").install "#{parent}fonts-#{version}/Meslo/Meslo LG M DZ Regular for Powerline.otf"
+    (share/"fonts").install "#{parent}fonts-#{version}/Meslo/Meslo LG M Regular for Powerline.otf"
+    (share/"fonts").install "#{parent}fonts-#{version}/Meslo/Meslo LG S DZ Regular for Powerline.otf"
+    (share/"fonts").install "#{parent}fonts-#{version}/Meslo/Meslo LG S Regular for Powerline.otf"
   end
   test do
   end
