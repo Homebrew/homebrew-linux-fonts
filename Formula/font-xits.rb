@@ -5,12 +5,13 @@ class FontXits < Formula
   desc "XITS"
   homepage "https://github.com/khaledhosny/xits"
   def install
-    (share/"fonts").install "../xits-#{version}/xits-bold.otf"
-    (share/"fonts").install "../xits-#{version}/xits-bolditalic.otf"
-    (share/"fonts").install "../xits-#{version}/xits-italic.otf"
-    (share/"fonts").install "../xits-#{version}/xits-regular.otf"
-    (share/"fonts").install "../xits-#{version}/xitsmath-bold.otf"
-    (share/"fonts").install "../xits-#{version}/xitsmath-regular.otf"
+    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    (share/"fonts").install "#{parent}xits-#{version}/xits-bold.otf"
+    (share/"fonts").install "#{parent}xits-#{version}/xits-bolditalic.otf"
+    (share/"fonts").install "#{parent}xits-#{version}/xits-italic.otf"
+    (share/"fonts").install "#{parent}xits-#{version}/xits-regular.otf"
+    (share/"fonts").install "#{parent}xits-#{version}/xitsmath-bold.otf"
+    (share/"fonts").install "#{parent}xits-#{version}/xitsmath-regular.otf"
   end
   test do
   end
