@@ -5,10 +5,11 @@ class FontHack < Formula
   desc "Hack"
   homepage "https://sourcefoundry.org/hack/"
   def install
-    (share/"fonts").install "../ttf/Hack-Regular.ttf"
-    (share/"fonts").install "../ttf/Hack-Italic.ttf"
-    (share/"fonts").install "../ttf/Hack-Bold.ttf"
-    (share/"fonts").install "../ttf/Hack-BoldItalic.ttf"
+    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    (share/"fonts").install "#{parent}ttf/Hack-Regular.ttf"
+    (share/"fonts").install "#{parent}ttf/Hack-Italic.ttf"
+    (share/"fonts").install "#{parent}ttf/Hack-Bold.ttf"
+    (share/"fonts").install "#{parent}ttf/Hack-BoldItalic.ttf"
   end
   test do
   end
