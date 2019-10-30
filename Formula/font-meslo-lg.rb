@@ -5,18 +5,19 @@ class FontMesloLg < Formula
   desc "Meslo LG"
   homepage "https://github.com/andreberg/Meslo-Font"
   def install
-    (share/"fonts").install "../Meslo LG v#{version}/MesloLGL-Bold.ttf"
-    (share/"fonts").install "../Meslo LG v#{version}/MesloLGL-BoldItalic.ttf"
-    (share/"fonts").install "../Meslo LG v#{version}/MesloLGL-Italic.ttf"
-    (share/"fonts").install "../Meslo LG v#{version}/MesloLGL-Regular.ttf"
-    (share/"fonts").install "../Meslo LG v#{version}/MesloLGM-Bold.ttf"
-    (share/"fonts").install "../Meslo LG v#{version}/MesloLGM-BoldItalic.ttf"
-    (share/"fonts").install "../Meslo LG v#{version}/MesloLGM-Italic.ttf"
-    (share/"fonts").install "../Meslo LG v#{version}/MesloLGM-Regular.ttf"
-    (share/"fonts").install "../Meslo LG v#{version}/MesloLGS-Bold.ttf"
-    (share/"fonts").install "../Meslo LG v#{version}/MesloLGS-BoldItalic.ttf"
-    (share/"fonts").install "../Meslo LG v#{version}/MesloLGS-Italic.ttf"
-    (share/"fonts").install "../Meslo LG v#{version}/MesloLGS-Regular.ttf"
+    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    (share/"fonts").install "#{parent}Meslo LG v#{version}/MesloLGL-Bold.ttf"
+    (share/"fonts").install "#{parent}Meslo LG v#{version}/MesloLGL-BoldItalic.ttf"
+    (share/"fonts").install "#{parent}Meslo LG v#{version}/MesloLGL-Italic.ttf"
+    (share/"fonts").install "#{parent}Meslo LG v#{version}/MesloLGL-Regular.ttf"
+    (share/"fonts").install "#{parent}Meslo LG v#{version}/MesloLGM-Bold.ttf"
+    (share/"fonts").install "#{parent}Meslo LG v#{version}/MesloLGM-BoldItalic.ttf"
+    (share/"fonts").install "#{parent}Meslo LG v#{version}/MesloLGM-Italic.ttf"
+    (share/"fonts").install "#{parent}Meslo LG v#{version}/MesloLGM-Regular.ttf"
+    (share/"fonts").install "#{parent}Meslo LG v#{version}/MesloLGS-Bold.ttf"
+    (share/"fonts").install "#{parent}Meslo LG v#{version}/MesloLGS-BoldItalic.ttf"
+    (share/"fonts").install "#{parent}Meslo LG v#{version}/MesloLGS-Italic.ttf"
+    (share/"fonts").install "#{parent}Meslo LG v#{version}/MesloLGS-Regular.ttf"
   end
   test do
   end
