@@ -5,8 +5,9 @@ class FontGentiumPlus < Formula
   desc "Gentium"
   homepage "https://software.sil.org/gentium/"
   def install
-    (share/"fonts").install "../GentiumPlus-5.000/GentiumPlus-I.ttf"
-    (share/"fonts").install "../GentiumPlus-5.000/GentiumPlus-R.ttf"
+    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    (share/"fonts").install "#{parent}GentiumPlus-5.000/GentiumPlus-I.ttf"
+    (share/"fonts").install "#{parent}GentiumPlus-5.000/GentiumPlus-R.ttf"
   end
   test do
   end
