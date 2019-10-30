@@ -3,8 +3,9 @@ class FontCourierPrimeCode < Formula
   desc "Courier Prime Code"
   homepage "https://quoteunquoteapps.com/courierprime/#code-sans"
   def install
-    (share/"fonts").install "../ttf/Courier Prime Code Italic.ttf"
-    (share/"fonts").install "../ttf/Courier Prime Code.ttf"
+    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    (share/"fonts").install "#{parent}ttf/Courier Prime Code Italic.ttf"
+    (share/"fonts").install "#{parent}ttf/Courier Prime Code.ttf"
   end
   test do
   end
