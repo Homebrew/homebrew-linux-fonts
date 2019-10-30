@@ -5,10 +5,11 @@ class FontGentiumBasic < Formula
   desc "Gentium Basic"
   homepage "https://software.sil.org/gentium/"
   def install
-    (share/"fonts").install "../GentiumBasic_#{version.to_s.gsub(".", "")}/GenBasB.ttf"
-    (share/"fonts").install "../GentiumBasic_#{version.to_s.gsub(".", "")}/GenBasBI.ttf"
-    (share/"fonts").install "../GentiumBasic_#{version.to_s.gsub(".", "")}/GenBasI.ttf"
-    (share/"fonts").install "../GentiumBasic_#{version.to_s.gsub(".", "")}/GenBasR.ttf"
+    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    (share/"fonts").install "#{parent}GentiumBasic_#{version.to_s.gsub(".", "")}/GenBasB.ttf"
+    (share/"fonts").install "#{parent}GentiumBasic_#{version.to_s.gsub(".", "")}/GenBasBI.ttf"
+    (share/"fonts").install "#{parent}GentiumBasic_#{version.to_s.gsub(".", "")}/GenBasI.ttf"
+    (share/"fonts").install "#{parent}GentiumBasic_#{version.to_s.gsub(".", "")}/GenBasR.ttf"
   end
   test do
   end
