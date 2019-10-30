@@ -5,7 +5,8 @@ class FontDevicons < Formula
   desc "Devicons"
   homepage "https://vorillaz.github.io/devicons/"
   def install
-    (share/"fonts").install "../devicons-#{version}/fonts/devicons.ttf"
+    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    (share/"fonts").install "#{parent}devicons-#{version}/fonts/devicons.ttf"
   end
   test do
   end
