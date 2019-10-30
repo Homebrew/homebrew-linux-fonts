@@ -5,15 +5,16 @@ class FontOpendyslexic < Formula
   desc "OpenDyslexic"
   homepage "https://github.com/antijingoist/open-dyslexic"
   def install
-    (share/"fonts").install "../open-dyslexic-#{version}/otf/OpenDyslexic-Bold.otf"
-    (share/"fonts").install "../open-dyslexic-#{version}/otf/OpenDyslexic-BoldItalic.otf"
-    (share/"fonts").install "../open-dyslexic-#{version}/otf/OpenDyslexic-Italic.otf"
-    (share/"fonts").install "../open-dyslexic-#{version}/otf/OpenDyslexic-Regular.otf"
-    (share/"fonts").install "../open-dyslexic-#{version}/otf/OpenDyslexicAlta-Bold.otf"
-    (share/"fonts").install "../open-dyslexic-#{version}/otf/OpenDyslexicAlta-BoldItalic.otf"
-    (share/"fonts").install "../open-dyslexic-#{version}/otf/OpenDyslexicAlta-Italic.otf"
-    (share/"fonts").install "../open-dyslexic-#{version}/otf/OpenDyslexicAlta-Regular.otf"
-    (share/"fonts").install "../open-dyslexic-#{version}/otf/OpenDyslexicMono-Regular.otf"
+    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    (share/"fonts").install "#{parent}open-dyslexic-#{version}/otf/OpenDyslexic-Bold.otf"
+    (share/"fonts").install "#{parent}open-dyslexic-#{version}/otf/OpenDyslexic-BoldItalic.otf"
+    (share/"fonts").install "#{parent}open-dyslexic-#{version}/otf/OpenDyslexic-Italic.otf"
+    (share/"fonts").install "#{parent}open-dyslexic-#{version}/otf/OpenDyslexic-Regular.otf"
+    (share/"fonts").install "#{parent}open-dyslexic-#{version}/otf/OpenDyslexicAlta-Bold.otf"
+    (share/"fonts").install "#{parent}open-dyslexic-#{version}/otf/OpenDyslexicAlta-BoldItalic.otf"
+    (share/"fonts").install "#{parent}open-dyslexic-#{version}/otf/OpenDyslexicAlta-Italic.otf"
+    (share/"fonts").install "#{parent}open-dyslexic-#{version}/otf/OpenDyslexicAlta-Regular.otf"
+    (share/"fonts").install "#{parent}open-dyslexic-#{version}/otf/OpenDyslexicMono-Regular.otf"
   end
   test do
   end
