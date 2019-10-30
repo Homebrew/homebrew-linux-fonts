@@ -5,7 +5,8 @@ class FontSudo < Formula
   desc "Sudo"
   homepage "https://github.com/jenskutilek/sudo-font/"
   def install
-    (share/"fonts").install "../sudo/SudoVariable.ttf"
+    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    (share/"fonts").install "#{parent}sudo/SudoVariable.ttf"
   end
   test do
   end
