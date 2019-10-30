@@ -5,7 +5,8 @@ class FontOpenIconic < Formula
   desc "Open Iconic"
   homepage "https://useiconic.com/open/"
   def install
-    (share/"fonts").install "../open-iconic-#{version}/font/fonts/open-iconic.ttf"
+    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    (share/"fonts").install "#{parent}open-iconic-#{version}/font/fonts/open-iconic.ttf"
   end
   test do
   end
