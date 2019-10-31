@@ -5,7 +5,7 @@ class FontYsabeau < Formula
   desc "Ysabeau"
   homepage "https://github.com/CatharsisFonts/EauDeGaramond/"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}Ysabeau_Install_v#{version}/Ysabeau-Black.ttf"
     (share/"fonts").install "#{parent}Ysabeau_Install_v#{version}/Ysabeau-Bold.ttf"
     (share/"fonts").install "#{parent}Ysabeau_Install_v#{version}/Ysabeau-BoldItalic.ttf"
