@@ -5,7 +5,7 @@ class FontXits < Formula
   desc "XITS"
   homepage "https://github.com/khaledhosny/xits"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}xits-#{version}/xits-bold.otf"
     (share/"fonts").install "#{parent}xits-#{version}/xits-bolditalic.otf"
     (share/"fonts").install "#{parent}xits-#{version}/xits-italic.otf"
