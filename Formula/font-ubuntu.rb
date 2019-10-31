@@ -5,7 +5,7 @@ class FontUbuntu < Formula
   desc "Ubuntu"
   homepage "http://font.ubuntu.com/"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}ubuntu-font-family-#{version.to_s.sub(/,.*/, "")}/Ubuntu-B.ttf"
     (share/"fonts").install "#{parent}ubuntu-font-family-#{version.to_s.sub(/,.*/, "")}/Ubuntu-BI.ttf"
     (share/"fonts").install "#{parent}ubuntu-font-family-#{version.to_s.sub(/,.*/, "")}/Ubuntu-C.ttf"
