@@ -5,7 +5,7 @@ class FontTerminus < Formula
   desc "Terminus TTF"
   homepage "https://files.ax86.net/terminus-ttf/"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}terminus-ttf-#{version}/TerminusTTF-#{version}.ttf"
     (share/"fonts").install "#{parent}terminus-ttf-#{version}/TerminusTTF-Bold-#{version}.ttf"
     (share/"fonts").install "#{parent}terminus-ttf-#{version}/TerminusTTF-Italic-#{version}.ttf"
