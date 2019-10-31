@@ -5,7 +5,7 @@ class FontD2coding < Formula
   desc "D2 Coding"
   homepage "https://github.com/naver/d2codingfont"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}D2Coding/D2Coding-Ver#{version.to_s.sub(/,.*/, "")}-#{version.to_s.sub(/.*,/, "")}.ttc"
   end
   test do
