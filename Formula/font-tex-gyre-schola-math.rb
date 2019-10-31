@@ -5,7 +5,7 @@ class FontTexGyreScholaMath < Formula
   desc "Schola Math"
   homepage "http://www.gust.org.pl/projects/e-foundry/tg-math"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}texgyreschola-math-1533/opentype/texgyreschola-math.otf"
   end
   test do
