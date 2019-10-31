@@ -3,7 +3,7 @@ class FontSansForgetica < Formula
   desc "Sans Forgetica"
   homepage "https://sansforgetica.rmit/"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}Sans Forgetica/SansForgetica-Regular.otf"
   end
   test do
