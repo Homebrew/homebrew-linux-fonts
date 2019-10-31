@@ -5,7 +5,7 @@ class FontEversonMono < Formula
   desc "Everson Mono"
   homepage "https://www.evertype.com/emono/"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}evermono-#{version}/Everson Mono.ttf"
     (share/"fonts").install "#{parent}evermono-#{version}/Everson Mono Bold.ttf"
     (share/"fonts").install "#{parent}evermono-#{version}/Everson Mono Bold Oblique.ttf"
