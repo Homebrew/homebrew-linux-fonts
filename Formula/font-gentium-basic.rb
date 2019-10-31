@@ -5,7 +5,7 @@ class FontGentiumBasic < Formula
   desc "Gentium Basic"
   homepage "https://software.sil.org/gentium/"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}GentiumBasic_#{version.to_s.gsub(".", "")}/GenBasB.ttf"
     (share/"fonts").install "#{parent}GentiumBasic_#{version.to_s.gsub(".", "")}/GenBasBI.ttf"
     (share/"fonts").install "#{parent}GentiumBasic_#{version.to_s.gsub(".", "")}/GenBasI.ttf"
