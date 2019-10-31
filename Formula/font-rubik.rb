@@ -3,7 +3,7 @@ class FontRubik < Formula
   desc "Rubik"
   homepage "https://www.google.com/fonts/specimen/Rubik"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}rubik-master/fonts/ttf/Rubik-Black.ttf"
     (share/"fonts").install "#{parent}rubik-master/fonts/ttf/Rubik-BlackItalic.ttf"
     (share/"fonts").install "#{parent}rubik-master/fonts/ttf/Rubik-Bold.ttf"
