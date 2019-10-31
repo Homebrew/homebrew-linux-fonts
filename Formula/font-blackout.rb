@@ -3,7 +3,7 @@ class FontBlackout < Formula
   desc "Blackout"
   homepage "https://www.theleagueofmoveabletype.com/blackout"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}blackout-master/Blackout 2 AM.ttf"
     (share/"fonts").install "#{parent}blackout-master/Blackout Midnight.ttf"
     (share/"fonts").install "#{parent}blackout-master/Blackout Sunrise.ttf"
