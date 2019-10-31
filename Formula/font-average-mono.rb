@@ -3,7 +3,7 @@ class FontAverageMono < Formula
   desc "Average Mono"
   homepage "https://fontlibrary.org/en/font/average-mono"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}AverageMono/AverageMono.otf"
     (share/"fonts").install "#{parent}AverageMono/AverageMonoBold.otf"
     (share/"fonts").install "#{parent}AverageMono/AverageMonoItalic.otf"
