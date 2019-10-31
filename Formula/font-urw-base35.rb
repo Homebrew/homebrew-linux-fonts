@@ -5,7 +5,7 @@ class FontUrwBase35 < Formula
   desc "URW++ base 35"
   homepage "https://github.com/ArtifexSoftware/urw-base35-fonts"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}urw-base35-fonts-#{version}/fonts/C059-BdIta.otf"
     (share/"fonts").install "#{parent}urw-base35-fonts-#{version}/fonts/C059-Bold.otf"
     (share/"fonts").install "#{parent}urw-base35-fonts-#{version}/fonts/C059-Italic.otf"
