@@ -5,7 +5,7 @@ class FontEbGaramond < Formula
   desc "EB Garamond"
   homepage "https://github.com/georgd/EB-Garamond"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}EBGaramond-#{version}/otf/EBGaramond-Initials.otf"
     (share/"fonts").install "#{parent}EBGaramond-#{version}/otf/EBGaramond-InitialsF1.otf"
     (share/"fonts").install "#{parent}EBGaramond-#{version}/otf/EBGaramond-InitialsF2.otf"
