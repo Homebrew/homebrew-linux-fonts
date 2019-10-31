@@ -5,7 +5,7 @@ class FontGrenze < Formula
   desc "Grenze"
   homepage "https://www.omnibus-type.com/fonts/Grenze/"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}Grenze/otf/Grenze-Black.otf"
     (share/"fonts").install "#{parent}Grenze/otf/Grenze-BlackItalic.otf"
     (share/"fonts").install "#{parent}Grenze/otf/Grenze-Bold.otf"
