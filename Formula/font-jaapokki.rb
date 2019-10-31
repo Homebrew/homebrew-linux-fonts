@@ -5,7 +5,7 @@ class FontJaapokki < Formula
   desc "Jaapokki"
   homepage "https://mikkonuuttila.com/jaapokki/"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}Jaapokki-font-package-#{version}/Regular/Jaapokki-Regular.otf"
     (share/"fonts").install "#{parent}Jaapokki-font-package-#{version}/enchance/Jaapokkienchance-Regular.otf"
     (share/"fonts").install "#{parent}Jaapokki-font-package-#{version}/subtract/Jaapokkisubtract-Regular.otf"
