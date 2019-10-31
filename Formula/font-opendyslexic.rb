@@ -5,7 +5,7 @@ class FontOpendyslexic < Formula
   desc "OpenDyslexic"
   homepage "https://github.com/antijingoist/open-dyslexic"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}open-dyslexic-#{version}/otf/OpenDyslexic-Bold.otf"
     (share/"fonts").install "#{parent}open-dyslexic-#{version}/otf/OpenDyslexic-BoldItalic.otf"
     (share/"fonts").install "#{parent}open-dyslexic-#{version}/otf/OpenDyslexic-Italic.otf"
