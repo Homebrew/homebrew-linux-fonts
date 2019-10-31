@@ -5,7 +5,7 @@ class FontVollkorn < Formula
   desc "Vollkorn"
   homepage "http://vollkorn-typeface.com/"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}PS-OTF/Vollkorn-Black.otf"
     (share/"fonts").install "#{parent}PS-OTF/Vollkorn-BlackItalic.otf"
     (share/"fonts").install "#{parent}PS-OTF/Vollkorn-Bold.otf"
