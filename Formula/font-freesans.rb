@@ -5,7 +5,7 @@ class FontFreesans < Formula
   desc "FreeSans"
   homepage "https://ftp.gnu.org/gnu/freefont/"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}freefont-#{version}/FreeMono.otf"
     (share/"fonts").install "#{parent}freefont-#{version}/FreeMonoBold.otf"
     (share/"fonts").install "#{parent}freefont-#{version}/FreeMonoBoldOblique.otf"
