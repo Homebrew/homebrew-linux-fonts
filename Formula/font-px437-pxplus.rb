@@ -7,7 +7,7 @@ class FontPx437Pxplus < Formula
   desc "Ultimate Oldschool PC Font Pack"
   homepage "https://int10h.org/oldschool-pc-fonts/"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}Px437 (TrueType - DOS charset)/Px437_AMI_BIOS-2y.ttf"
     (share/"fonts").install "#{parent}Px437 (TrueType - DOS charset)/Px437_AMI_BIOS.ttf"
     (share/"fonts").install "#{parent}Px437 (TrueType - DOS charset)/Px437_ATI_8x14.ttf"
