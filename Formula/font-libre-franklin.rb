@@ -3,7 +3,7 @@ class FontLibreFranklin < Formula
   desc "Libre Franklin"
   homepage "https://github.com/impallari/Libre-Franklin"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}Libre-Franklin-master/fonts/OTF/LibreFranklin-Black.otf"
     (share/"fonts").install "#{parent}Libre-Franklin-master/fonts/OTF/LibreFranklin-BlackItalic.otf"
     (share/"fonts").install "#{parent}Libre-Franklin-master/fonts/OTF/LibreFranklin-Bold.otf"
