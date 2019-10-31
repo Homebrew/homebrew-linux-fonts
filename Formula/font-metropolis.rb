@@ -5,7 +5,7 @@ class FontMetropolis < Formula
   desc "Metropolis"
   homepage "https://github.com/chrismsimpson/Metropolis"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}Metropolis-r#{version}/Metropolis-Black.otf"
     (share/"fonts").install "#{parent}Metropolis-r#{version}/Metropolis-BlackItalic.otf"
     (share/"fonts").install "#{parent}Metropolis-r#{version}/Metropolis-Bold.otf"
