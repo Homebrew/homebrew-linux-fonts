@@ -3,7 +3,7 @@ class FontGidole < Formula
   desc "Gidole"
   homepage "https://gidole.github.io/"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}GidoleFont/Gidole-Regular.ttf"
     (share/"fonts").install "#{parent}GidoleFont/Gidolinya-Regular.otf"
   end
