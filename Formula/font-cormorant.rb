@@ -5,7 +5,7 @@ class FontCormorant < Formula
   desc "Cormorant"
   homepage "https://github.com/CatharsisFonts/Cormorant/"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}Cormorant_Install_v#{version}/1. TrueType Font Files/Cormorant-Bold.ttf"
     (share/"fonts").install "#{parent}Cormorant_Install_v#{version}/1. TrueType Font Files/Cormorant-BoldItalic.ttf"
     (share/"fonts").install "#{parent}Cormorant_Install_v#{version}/1. TrueType Font Files/Cormorant-Italic.ttf"
