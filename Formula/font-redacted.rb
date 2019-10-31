@@ -3,7 +3,7 @@ class FontRedacted < Formula
   desc "Redacted"
   homepage "https://github.com/christiannaths/Redacted-Font"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}Redacted-Font-old-sources/fonts/redacted-regular.ttf"
     (share/"fonts").install "#{parent}Redacted-Font-old-sources/fonts/redacted-script-bold.ttf"
     (share/"fonts").install "#{parent}Redacted-Font-old-sources/fonts/redacted-script-light.ttf"
