@@ -3,7 +3,7 @@ class FontCourierPrimeSans < Formula
   desc "Courier Prime Sans"
   homepage "https://quoteunquoteapps.com/courierprime/#code-sans"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}CourierPrimeSans-master/ttf/Courier Prime Sans Bold Italic.ttf"
     (share/"fonts").install "#{parent}CourierPrimeSans-master/ttf/Courier Prime Sans Bold.ttf"
     (share/"fonts").install "#{parent}CourierPrimeSans-master/ttf/Courier Prime Sans Italic.ttf"
