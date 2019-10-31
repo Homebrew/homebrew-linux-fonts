@@ -5,7 +5,7 @@ class FontAhuramzda < Formula
   desc "Ahuramzda"
   homepage "https://fontlibrary.org/font/ahuramazda/"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}Ahuramazda-Avestan-Font-1.0/ahuramazda.ttf"
   end
   test do
