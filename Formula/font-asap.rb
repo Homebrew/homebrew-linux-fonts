@@ -3,7 +3,7 @@ class FontAsap < Formula
   desc "Asap"
   homepage "https://www.omnibus-type.com/fonts/asap/"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}Asap/Asap-Bold.ttf"
     (share/"fonts").install "#{parent}Asap/Asap-BoldItalic.ttf"
     (share/"fonts").install "#{parent}Asap/Asap-Italic.ttf"
