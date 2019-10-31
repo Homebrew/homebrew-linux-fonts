@@ -5,7 +5,7 @@ class FontRedhat < Formula
   desc "Red Hat"
   homepage "https://github.com/RedHatOfficial/RedHatFont/"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}RedHatFont-#{version}/OTF/RedHatDisplay-Black.otf"
     (share/"fonts").install "#{parent}RedHatFont-#{version}/OTF/RedHatDisplay-BlackItalic.otf"
     (share/"fonts").install "#{parent}RedHatFont-#{version}/OTF/RedHatDisplay-Bold.otf"
