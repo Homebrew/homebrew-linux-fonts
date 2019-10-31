@@ -3,7 +3,7 @@ class FontAlef < Formula
   desc "Alef"
   homepage "http://alef.hagilda.com/"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}TTF/Alef-Bold.ttf"
     (share/"fonts").install "#{parent}TTF/Alef-Regular.ttf"
   end
