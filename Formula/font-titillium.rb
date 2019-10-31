@@ -5,7 +5,7 @@ class FontTitillium < Formula
   desc "Titillium"
   homepage "http://nta.accademiadiurbino.it/titillium.html"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}Titillium_roman_upright_italic_2_0_OT/Titillium-Black.otf"
     (share/"fonts").install "#{parent}Titillium_roman_upright_italic_2_0_OT/Titillium-Bold.otf"
     (share/"fonts").install "#{parent}Titillium_roman_upright_italic_2_0_OT/Titillium-BoldItalic.otf"
