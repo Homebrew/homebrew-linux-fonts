@@ -5,7 +5,7 @@ class FontCharisSil < Formula
   desc "Charis SIL"
   homepage "https://software.sil.org/charis/download/"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}CharisSIL-#{version}/CharisSIL-R.ttf"
     (share/"fonts").install "#{parent}CharisSIL-#{version}/CharisSIL-B.ttf"
     (share/"fonts").install "#{parent}CharisSIL-#{version}/CharisSIL-BI.ttf"
