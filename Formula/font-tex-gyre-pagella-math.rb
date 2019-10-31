@@ -5,7 +5,7 @@ class FontTexGyrePagellaMath < Formula
   desc "Pagella Math"
   homepage "http://www.gust.org.pl/projects/e-foundry/tg-math"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}texgyrepagella-math-1632/opentype/texgyrepagella-math.otf"
   end
   test do
