@@ -5,7 +5,7 @@ class FontTexGyreAdventor < Formula
   desc "TeX Gyre Adventor"
   homepage "http://www.gust.org.pl/projects/e-foundry/tex-gyre/adventor"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}qag#{version.to_s.gsub(".", "_")}otf/texgyreadventor-bold.otf"
     (share/"fonts").install "#{parent}qag#{version.to_s.gsub(".", "_")}otf/texgyreadventor-bolditalic.otf"
     (share/"fonts").install "#{parent}qag#{version.to_s.gsub(".", "_")}otf/texgyreadventor-italic.otf"
