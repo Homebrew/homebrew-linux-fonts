@@ -5,7 +5,7 @@ class FontSimpleLineIcons < Formula
   desc "Simple Line Icons"
   homepage "http://simplelineicons.com/"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}simple-line-icons-#{version}/fonts/Simple-Line-Icons.ttf"
   end
   test do
