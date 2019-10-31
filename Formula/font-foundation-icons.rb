@@ -3,7 +3,7 @@ class FontFoundationIcons < Formula
   desc "Foundation Icons"
   homepage "https://zurb.com/playground/foundation-icon-fonts-3"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}foundation-icons/foundation-icons.ttf"
   end
   test do
