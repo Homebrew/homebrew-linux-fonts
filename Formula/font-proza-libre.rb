@@ -5,7 +5,7 @@ class FontProzaLibre < Formula
   desc "Proza Libre"
   homepage "https://github.com/jasperdewaard/Proza-Libre"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}Proza-Libre-#{version}/Fonts/ProzaLibre-Bold.ttf"
     (share/"fonts").install "#{parent}Proza-Libre-#{version}/Fonts/ProzaLibre-BoldItalic.ttf"
     (share/"fonts").install "#{parent}Proza-Libre-#{version}/Fonts/ProzaLibre-ExtraBold.ttf"
