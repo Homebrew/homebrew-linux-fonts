@@ -5,7 +5,7 @@ class FontMesloLg < Formula
   desc "Meslo LG"
   homepage "https://github.com/andreberg/Meslo-Font"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}Meslo LG v#{version}/MesloLGL-Bold.ttf"
     (share/"fonts").install "#{parent}Meslo LG v#{version}/MesloLGL-BoldItalic.ttf"
     (share/"fonts").install "#{parent}Meslo LG v#{version}/MesloLGL-Italic.ttf"
