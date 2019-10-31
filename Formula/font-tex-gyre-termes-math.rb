@@ -5,7 +5,7 @@ class FontTexGyreTermesMath < Formula
   desc "Termes Math"
   homepage "http://www.gust.org.pl/projects/e-foundry/tg-math"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}texgyretermes-math-1543/opentype/texgyretermes-math.otf"
   end
   test do
