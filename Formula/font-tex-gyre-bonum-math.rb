@@ -5,7 +5,7 @@ class FontTexGyreBonumMath < Formula
   desc "Bonum Math"
   homepage "http://www.gust.org.pl/projects/e-foundry/tg-math"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}texgyrebonum-math-1005/opentype/texgyrebonum-math.otf"
   end
   test do
