@@ -5,7 +5,7 @@ class FontOverpass < Formula
   desc "Overpass"
   homepage "https://overpassfont.org/"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}overpass/overpass-bold-italic.otf"
     (share/"fonts").install "#{parent}overpass/overpass-bold.otf"
     (share/"fonts").install "#{parent}overpass/overpass-extrabold-italic.otf"
