@@ -3,7 +3,7 @@ class FontConakry < Formula
   desc "Conakry"
   homepage "https://www.evertype.com/fonts/nko/"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}ConakryFont/Conakry.ttf"
   end
   test do
