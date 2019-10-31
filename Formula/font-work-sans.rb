@@ -5,7 +5,7 @@ class FontWorkSans < Formula
   desc "Work Sans"
   homepage "https://weiweihuanghuang.github.io/Work-Sans/"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}Work-Sans-#{version}/fonts/desktop/WorkSans-Black.otf"
     (share/"fonts").install "#{parent}Work-Sans-#{version}/fonts/desktop/WorkSans-Bold.otf"
     (share/"fonts").install "#{parent}Work-Sans-#{version}/fonts/desktop/WorkSans-ExtraBold.otf"
