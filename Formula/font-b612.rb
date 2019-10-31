@@ -3,7 +3,7 @@ class FontB612 < Formula
   desc "B612"
   homepage "https://b612-font.com/"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}b612-master/fonts/ttf/B612-Bold.ttf"
     (share/"fonts").install "#{parent}b612-master/fonts/ttf/B612-BoldItalic.ttf"
     (share/"fonts").install "#{parent}b612-master/fonts/ttf/B612-Italic.ttf"
