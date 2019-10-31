@@ -5,7 +5,7 @@ class FontZillaSlab < Formula
   desc "Zilla Slab"
   homepage "https://github.com/mozilla/zilla-slab"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}zilla-slab/otf/ZillaSlab-Bold.otf"
     (share/"fonts").install "#{parent}zilla-slab/otf/ZillaSlab-BoldItalic.otf"
     (share/"fonts").install "#{parent}zilla-slab/otf/ZillaSlab-Italic.otf"
