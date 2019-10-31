@@ -3,7 +3,7 @@ class FontOstrichSans < Formula
   desc "Ostrich Sans"
   homepage "https://www.theleagueofmoveabletype.com/ostrich-sans"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}ostrich-sans-master/OstrichSans-Black.otf"
     (share/"fonts").install "#{parent}ostrich-sans-master/OstrichSans-Bold.otf"
     (share/"fonts").install "#{parent}ostrich-sans-master/OstrichSans-Heavy.otf"
