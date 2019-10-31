@@ -5,7 +5,7 @@ class FontStix < Formula
   desc "STIX"
   homepage "https://stixfonts.org/"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}stixfonts-#{version}/OTF/STIX2Math.otf"
     (share/"fonts").install "#{parent}stixfonts-#{version}/OTF/STIX2Text-Bold.otf"
     (share/"fonts").install "#{parent}stixfonts-#{version}/OTF/STIX2Text-BoldItalic.otf"
