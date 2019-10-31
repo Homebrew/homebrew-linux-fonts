@@ -5,7 +5,7 @@ class FontFantasqueSansMono < Formula
   desc "Fantasque Sans Mono"
   homepage "https://github.com/belluzj/fantasque-sans"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}OTF/FantasqueSansMono-Bold.otf"
     (share/"fonts").install "#{parent}OTF/FantasqueSansMono-BoldItalic.otf"
     (share/"fonts").install "#{parent}OTF/FantasqueSansMono-Italic.otf"
