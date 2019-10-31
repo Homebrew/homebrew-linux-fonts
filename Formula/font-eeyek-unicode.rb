@@ -3,7 +3,7 @@ class FontEeyekUnicode < Formula
   desc "Eeyek Unicode"
   homepage "http://tabish.freeshell.org/eeyek/download.html"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}Eeyek_Unicode/Eeyek.ttf"
   end
   test do
