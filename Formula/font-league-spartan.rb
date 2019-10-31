@@ -5,7 +5,7 @@ class FontLeagueSpartan < Formula
   desc "League Spartan"
   homepage "https://www.theleagueofmoveabletype.com/league-spartan"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}league-spartan-master/LeagueSpartan-Bold.otf"
   end
   test do
