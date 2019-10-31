@@ -5,7 +5,7 @@ class FontSourceHanSerifSbH < Formula
   desc "Source Han Serif SB-H"
   homepage "https://github.com/adobe-fonts/source-han-serif"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}SourceHanSerifOTC_SB-H/SourceHanSerif-SemiBold.ttc"
     (share/"fonts").install "#{parent}SourceHanSerifOTC_SB-H/SourceHanSerif-Bold.ttc"
     (share/"fonts").install "#{parent}SourceHanSerifOTC_SB-H/SourceHanSerif-Heavy.ttc"
