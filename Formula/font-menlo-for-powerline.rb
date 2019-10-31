@@ -3,7 +3,7 @@ class FontMenloForPowerline < Formula
   desc "Menlo for Powerline"
   homepage "https://github.com/abertsch/Menlo-for-Powerline"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}Menlo-for-Powerline-master/Menlo for Powerline.ttf"
     (share/"fonts").install "#{parent}Menlo-for-Powerline-master/Menlo Bold for Powerline.ttf"
     (share/"fonts").install "#{parent}Menlo-for-Powerline-master/Menlo Italic for Powerline.ttf"
