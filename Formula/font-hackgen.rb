@@ -5,7 +5,7 @@ class FontHackgen < Formula
   desc "HackGen"
   homepage "https://github.com/yuru7/HackGen"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}HackGen_v#{version}/HackGen-Bold.ttf"
     (share/"fonts").install "#{parent}HackGen_v#{version}/HackGen-Regular.ttf"
     (share/"fonts").install "#{parent}HackGen_v#{version}/HackGen35-Bold.ttf"
