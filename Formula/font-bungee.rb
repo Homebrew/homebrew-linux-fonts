@@ -5,7 +5,7 @@ class FontBungee < Formula
   desc "Bungee"
   homepage "https://djr.com/bungee/"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}fonts/Bungee_Color_Fonts/BungeeColor-Regular_sbix_MacOS.ttf"
     (share/"fonts").install "#{parent}fonts/Bungee_Color_Fonts/BungeeColor-Regular_svg.ttf"
     (share/"fonts").install "#{parent}fonts/Bungee_Desktop/Bungee/Bungee-Hairline.otf"
