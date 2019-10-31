@@ -3,7 +3,7 @@ class FontCooperHewitt < Formula
   desc "Cooper Hewitt"
   homepage "https://www.cooperhewitt.org/open-source-at-cooper-hewitt/cooper-hewitt-the-typeface-by-chester-jenkins/"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}CooperHewitt-OTF-public/CooperHewitt-Bold.otf"
     (share/"fonts").install "#{parent}CooperHewitt-OTF-public/CooperHewitt-BoldItalic.otf"
     (share/"fonts").install "#{parent}CooperHewitt-OTF-public/CooperHewitt-Book.otf"
