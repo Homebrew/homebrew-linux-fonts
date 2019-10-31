@@ -5,7 +5,7 @@ class FontAlegreyaSans < Formula
   desc "Alegreya-Sans"
   homepage "https://github.com/huertatipografica/Alegreya-Sans"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}Alegreya-Sans-#{version}/fonts/otf/AlegreyaSans-Black.otf"
     (share/"fonts").install "#{parent}Alegreya-Sans-#{version}/fonts/otf/AlegreyaSans-BlackItalic.otf"
     (share/"fonts").install "#{parent}Alegreya-Sans-#{version}/fonts/otf/AlegreyaSans-Bold.otf"
