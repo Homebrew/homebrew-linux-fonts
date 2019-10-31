@@ -5,7 +5,7 @@ class FontBrill < Formula
   desc "Brill"
   homepage "https://brill.com/page/BrillFont/"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}Brill_Typeface_#{version}/Brill Bold #{version} 051.ttf"
     (share/"fonts").install "#{parent}Brill_Typeface_#{version}/Brill Bold Italic #{version} 051.ttf"
     (share/"fonts").install "#{parent}Brill_Typeface_#{version}/Brill Italic #{version} 051.ttf"
