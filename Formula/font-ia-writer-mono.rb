@@ -3,7 +3,7 @@ class FontIaWriterMono < Formula
   desc "iA Writer Mono"
   homepage "https://github.com/iaolo/iA-Fonts"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Mono/Static/iAWriterMonoS-Bold.ttf"
     (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Mono/Static/iAWriterMonoS-BoldItalic.ttf"
     (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Mono/Static/iAWriterMonoS-Italic.ttf"
