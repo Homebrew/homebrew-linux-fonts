@@ -5,7 +5,7 @@ class FontMigu2m < Formula
   desc "Migu 2M"
   homepage "https://mix-mplus-ipa.osdn.jp/migu/#migu2m"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}migu-2m-#{version}/migu-2m-bold.ttf"
     (share/"fonts").install "#{parent}migu-2m-#{version}/migu-2m-regular.ttf"
   end
