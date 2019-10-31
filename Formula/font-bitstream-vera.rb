@@ -5,7 +5,7 @@ class FontBitstreamVera < Formula
   desc "Bitstream Vera"
   homepage "https://www.gnome.org/fonts/"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}ttf-bitstream-vera-1.10/Vera.ttf"
     (share/"fonts").install "#{parent}ttf-bitstream-vera-1.10/VeraBI.ttf"
     (share/"fonts").install "#{parent}ttf-bitstream-vera-1.10/VeraBd.ttf"
