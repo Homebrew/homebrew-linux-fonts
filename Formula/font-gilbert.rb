@@ -5,7 +5,7 @@ class FontGilbert < Formula
   desc "Gilbert"
   homepage "https://typewithpride.com/"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}Gilbert_#{version.to_s.sub(/,.*/, "")}_#{version.to_s.sub(/.*,/, "")}/Gilbert Bold-Preview_#{version.to_s.sub(/,.*/, "").gsub(".", "")}.otf"
     (share/"fonts").install "#{parent}Gilbert_#{version.to_s.sub(/,.*/, "")}_#{version.to_s.sub(/.*,/, "")}/Gilbert-Color Bold-Preview_#{version.to_s.sub(/,.*/, "").gsub(".", "")}.otf"
   end
