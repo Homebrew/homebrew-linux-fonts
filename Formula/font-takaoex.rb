@@ -5,7 +5,7 @@ class FontTakaoex < Formula
   desc "TakaoEx"
   homepage "https://launchpad.net/takao-fonts"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}TakaoExFonts_#{version}/TakaoExGothic.ttf"
     (share/"fonts").install "#{parent}TakaoExFonts_#{version}/TakaoExMincho.ttf"
   end
