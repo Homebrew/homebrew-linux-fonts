@@ -83,7 +83,7 @@ class CaskTransform < Parslet::Transform
         commands1 = before.select{|c| c != ""}
         camelcase = name.to_s.gsub('"', "").gsub(/(^|-)(\w)/) { $2.upcase }
         commands2 = after.select{|c| c != ""}+["test do\n  end"]
-        parent = "parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )\n    "
+        parent = "parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''\n    "
         <<~EOS
         class #{camelcase} < Formula
           #{commands1.join("\n  ")}
