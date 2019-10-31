@@ -5,7 +5,7 @@ class FontTexGyrePagella < Formula
   desc "TeX Gyre Pagella"
   homepage "http://www.gust.org.pl/projects/e-foundry/tex-gyre/pagella"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}qpl#{version.to_s.gsub(".", "_")}otf/texgyrepagella-bold.otf"
     (share/"fonts").install "#{parent}qpl#{version.to_s.gsub(".", "_")}otf/texgyrepagella-bolditalic.otf"
     (share/"fonts").install "#{parent}qpl#{version.to_s.gsub(".", "_")}otf/texgyrepagella-italic.otf"
