@@ -3,7 +3,7 @@ class FontAwesomeTerminalFonts < Formula
   desc "Awesome Terminal Fonts"
   homepage "https://github.com/gabrielelana/awesome-terminal-fonts"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}awesome-terminal-fonts-patching-strategy/patched/Droid+Sans+Mono+Awesome.ttf"
     (share/"fonts").install "#{parent}awesome-terminal-fonts-patching-strategy/patched/Inconsolata+Awesome.ttf"
     (share/"fonts").install "#{parent}awesome-terminal-fonts-patching-strategy/patched/SourceCodePro+Powerline+Awesome+Regular.ttf"
