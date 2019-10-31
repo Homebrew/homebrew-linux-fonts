@@ -5,7 +5,7 @@ class FontOcr < Formula
   desc "OCR"
   homepage "https://ansuz.sooke.bc.ca/page/fonts#ocra"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}ocr-#{version}/OCRA.otf"
     (share/"fonts").install "#{parent}ocr-#{version}/OCRB.otf"
     (share/"fonts").install "#{parent}ocr-#{version}/OCRBE.otf"
