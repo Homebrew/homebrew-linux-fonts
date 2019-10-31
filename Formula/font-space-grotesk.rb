@@ -5,7 +5,7 @@ class FontSpaceGrotesk < Formula
   desc "Space Grotesk"
   homepage "https://github.com/floriankarsten/space-grotesk"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}SpaceGrotesk-v#{version}/otf/SpaceGrotesk-Bold.otf"
     (share/"fonts").install "#{parent}SpaceGrotesk-v#{version}/otf/SpaceGrotesk-Light.otf"
     (share/"fonts").install "#{parent}SpaceGrotesk-v#{version}/otf/SpaceGrotesk-Medium.otf"
