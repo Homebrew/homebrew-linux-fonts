@@ -5,7 +5,7 @@ class FontIbmPlex < Formula
   desc "IBM Plex"
   homepage "https://github.com/IBM/plex"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}OpenType/IBM-Plex-Arabic/IBMPlexArabic-Bold.otf"
     (share/"fonts").install "#{parent}OpenType/IBM-Plex-Arabic/IBMPlexArabic-ExtraLight.otf"
     (share/"fonts").install "#{parent}OpenType/IBM-Plex-Arabic/IBMPlexArabic-Light.otf"
