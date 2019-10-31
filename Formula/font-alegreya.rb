@@ -5,7 +5,7 @@ class FontAlegreya < Formula
   desc "Alegreya"
   homepage "https://github.com/huertatipografica/Alegreya"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}Alegreya-#{version}/fonts/otf/Alegreya-Black.otf"
     (share/"fonts").install "#{parent}Alegreya-#{version}/fonts/otf/Alegreya-BlackItalic.otf"
     (share/"fonts").install "#{parent}Alegreya-#{version}/fonts/otf/Alegreya-Bold.otf"
