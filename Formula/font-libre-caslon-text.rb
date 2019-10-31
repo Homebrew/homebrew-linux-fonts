@@ -3,7 +3,7 @@ class FontLibreCaslonText < Formula
   desc "Libre Caslon Text"
   homepage "http://www.impallari.com/projects/overview/libre-caslon-display-and-text"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}Libre-Caslon-Text-master/fonts/OTF/LibreCaslonText-Bold.otf"
     (share/"fonts").install "#{parent}Libre-Caslon-Text-master/fonts/OTF/LibreCaslonText-Italic.otf"
     (share/"fonts").install "#{parent}Libre-Caslon-Text-master/fonts/OTF/LibreCaslonText-Regular.otf"
