@@ -5,7 +5,7 @@ class FontSourceCodePro < Formula
   desc "Source Code Pro"
   homepage "https://adobe-fonts.github.io/source-code-pro/"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}source-code-pro-#{version}/OTF/SourceCodePro-Black.otf"
     (share/"fonts").install "#{parent}source-code-pro-#{version}/OTF/SourceCodePro-BlackIt.otf"
     (share/"fonts").install "#{parent}source-code-pro-#{version}/OTF/SourceCodePro-Bold.otf"
