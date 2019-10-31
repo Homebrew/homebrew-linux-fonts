@@ -5,7 +5,7 @@ class FontSourceHanSerifElM < Formula
   desc "Source Han Serif EL-M"
   homepage "https://github.com/adobe-fonts/source-han-serif"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}SourceHanSerifOTC_EL-M/SourceHanSerif-ExtraLight.ttc"
     (share/"fonts").install "#{parent}SourceHanSerifOTC_EL-M/SourceHanSerif-Light.ttc"
     (share/"fonts").install "#{parent}SourceHanSerifOTC_EL-M/SourceHanSerif-Medium.ttc"
