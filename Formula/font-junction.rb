@@ -3,7 +3,7 @@ class FontJunction < Formula
   desc "Junction"
   homepage "https://www.theleagueofmoveabletype.com/junction"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}junction-master/Junction-bold.otf"
     (share/"fonts").install "#{parent}junction-master/Junction-light.otf"
     (share/"fonts").install "#{parent}junction-master/Junction-regular.otf"
