@@ -5,7 +5,7 @@ class FontAndronScriptorWeb < Formula
   desc "Andron Scriptor Web"
   homepage "https://folk.uib.no/hnooh/mufi/fonts/"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}AND_SCR_WEB_#{version}/Andron Scriptor Web.ttf"
   end
   test do
