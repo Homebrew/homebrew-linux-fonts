@@ -5,7 +5,7 @@ class FontMigmix1p < Formula
   desc "MigMix 1P"
   homepage "https://mix-mplus-ipa.osdn.jp/migmix/#migmix1p"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}migmix-1p-#{version}/migmix-1p-bold.ttf"
     (share/"fonts").install "#{parent}migmix-1p-#{version}/migmix-1p-regular.ttf"
   end
