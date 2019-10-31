@@ -3,7 +3,7 @@ class FontMuli < Formula
   desc "Muli"
   homepage "https://www.google.com/fonts/specimen/Muli"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}static/Muli-Black.ttf"
     (share/"fonts").install "#{parent}static/Muli-BlackItalic.ttf"
     (share/"fonts").install "#{parent}static/Muli-Bold.ttf"
