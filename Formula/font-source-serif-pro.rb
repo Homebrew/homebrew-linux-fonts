@@ -5,7 +5,7 @@ class FontSourceSerifPro < Formula
   desc "Source Serif Pro"
   homepage "https://adobe-fonts.github.io/source-serif-pro/"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}OTF/SourceSerifPro-Black.otf"
     (share/"fonts").install "#{parent}OTF/SourceSerifPro-BlackIt.otf"
     (share/"fonts").install "#{parent}OTF/SourceSerifPro-Bold.otf"
