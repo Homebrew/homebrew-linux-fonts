@@ -5,7 +5,7 @@ class FontAnonymousPro < Formula
   desc "Anonymous Pro"
   homepage "https://www.marksimonson.com/fonts/view/anonymous-pro"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}AnonymousPro-#{version}.001/Anonymous Pro B.ttf"
     (share/"fonts").install "#{parent}AnonymousPro-#{version}.001/Anonymous Pro BI.ttf"
     (share/"fonts").install "#{parent}AnonymousPro-#{version}.001/Anonymous Pro I.ttf"
