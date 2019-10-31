@@ -5,7 +5,7 @@ class FontBaloo < Formula
   desc "Baloo"
   homepage "https://github.com/EkType/Baloo"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}Fonts/Baloo-Regular.ttf"
     (share/"fonts").install "#{parent}Fonts/BalooBhai-Regular.ttf"
     (share/"fonts").install "#{parent}Fonts/BalooBhaijaan-Regular.ttf"
