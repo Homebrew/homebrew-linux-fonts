@@ -5,7 +5,7 @@ class FontFandol < Formula
   desc "Fandol"
   homepage "https://ctan.org/pkg/fandol"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}fandol/FandolBraille-Display.otf"
     (share/"fonts").install "#{parent}fandol/FandolBraille-Regular.otf"
     (share/"fonts").install "#{parent}fandol/FandolFang-Regular.otf"
