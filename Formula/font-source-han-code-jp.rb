@@ -5,7 +5,7 @@ class FontSourceHanCodeJp < Formula
   desc "Source Han Code JP"
   homepage "https://github.com/adobe-fonts/source-han-code-jp"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}source-han-code-jp-#{version}R/OTF/SourceHanCodeJP-Bold.otf"
     (share/"fonts").install "#{parent}source-han-code-jp-#{version}R/OTF/SourceHanCodeJP-BoldIt.otf"
     (share/"fonts").install "#{parent}source-han-code-jp-#{version}R/OTF/SourceHanCodeJP-ExtraLight.otf"
