@@ -5,7 +5,7 @@ class FontMyrica < Formula
   desc "Myrica"
   homepage "https://myrica.estable.jp/"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}Myrica-#{version}/Myrica.TTC"
   end
   test do
