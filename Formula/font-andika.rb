@@ -5,7 +5,7 @@ class FontAndika < Formula
   desc "Andika"
   homepage "https://software.sil.org/andika/"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}Andika-#{version}/Andika-R.ttf"
   end
   test do
