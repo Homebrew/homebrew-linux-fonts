@@ -5,7 +5,7 @@ class FontComputerModern < Formula
   desc "Computer Modern"
   homepage "https://cm-unicode.sourceforge.io/"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}cm-unicode-#{version}/cmunbbx.ttf"
     (share/"fonts").install "#{parent}cm-unicode-#{version}/cmunbi.ttf"
     (share/"fonts").install "#{parent}cm-unicode-#{version}/cmunbl.ttf"
