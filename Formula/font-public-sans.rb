@@ -5,7 +5,7 @@ class FontPublicSans < Formula
   desc "Public Sans"
   homepage "https://public-sans.digital.gov/"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}fonts/otf/PublicSans-Black.otf"
     (share/"fonts").install "#{parent}fonts/otf/PublicSans-BlackItalic.otf"
     (share/"fonts").install "#{parent}fonts/otf/PublicSans-Bold.otf"
