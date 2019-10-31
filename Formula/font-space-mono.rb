@@ -3,7 +3,7 @@ class FontSpaceMono < Formula
   desc "Space Mono"
   homepage "https://github.com/googlefonts/spacemono"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}spacemono-master/fonts/SpaceMono-Bold.ttf"
     (share/"fonts").install "#{parent}spacemono-master/fonts/SpaceMono-BoldItalic.ttf"
     (share/"fonts").install "#{parent}spacemono-master/fonts/SpaceMono-Italic.ttf"
