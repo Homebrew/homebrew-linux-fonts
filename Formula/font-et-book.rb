@@ -4,7 +4,7 @@ class FontEtBook < Formula
   desc "Edward Tufte Book"
   homepage "https://edwardtufte.github.io/et-book/"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}et-book-gh-pages/et-book/et-book-bold-line-figures/et-book-bold-line-figures.ttf"
     (share/"fonts").install "#{parent}et-book-gh-pages/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.ttf"
     (share/"fonts").install "#{parent}et-book-gh-pages/et-book/et-book-roman-line-figures/et-book-roman-line-figures.ttf"
