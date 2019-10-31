@@ -3,7 +3,7 @@ class FontLato < Formula
   desc "Lato"
   homepage "https://www.latofonts.com/"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}Lato2OFL/Lato-Black.ttf"
     (share/"fonts").install "#{parent}Lato2OFL/Lato-BlackItalic.ttf"
     (share/"fonts").install "#{parent}Lato2OFL/Lato-Bold.ttf"
