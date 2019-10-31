@@ -3,7 +3,7 @@ class FontInput < Formula
   desc "Input"
   homepage "https://input.fontbureau.com/"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}Input_Fonts/InputMono/InputMono/InputMono-Black.ttf"
     (share/"fonts").install "#{parent}Input_Fonts/InputMono/InputMono/InputMono-BlackItalic.ttf"
     (share/"fonts").install "#{parent}Input_Fonts/InputMono/InputMono/InputMono-Bold.ttf"
