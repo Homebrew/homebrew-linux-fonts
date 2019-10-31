@@ -5,7 +5,7 @@ class FontComicNeue < Formula
   desc "Comic Neue"
   homepage "http://comicneue.com/"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}comic-neue-#{version}/OTF/ComicNeue-Angular-Regular.otf"
     (share/"fonts").install "#{parent}comic-neue-#{version}/OTF/ComicNeue-Angular_Bold.otf"
     (share/"fonts").install "#{parent}comic-neue-#{version}/OTF/ComicNeue-Angular_Bold_Oblique.otf"
