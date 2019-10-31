@@ -5,7 +5,7 @@ class FontLiberationSans < Formula
   desc "Liberation Sans"
   homepage "https://pagure.io/liberation-fonts/"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}liberation-fonts-ttf-#{version}/LiberationMono-Bold.ttf"
     (share/"fonts").install "#{parent}liberation-fonts-ttf-#{version}/LiberationMono-BoldItalic.ttf"
     (share/"fonts").install "#{parent}liberation-fonts-ttf-#{version}/LiberationMono-Italic.ttf"
