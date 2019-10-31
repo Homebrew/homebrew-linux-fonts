@@ -5,7 +5,7 @@ class FontDejavuSans < Formula
   desc "DejaVu"
   homepage "https://sourceforge.net/projects/dejavu/"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}dejavu-fonts-ttf-#{version}/ttf/DejaVuMathTeXGyre.ttf"
     (share/"fonts").install "#{parent}dejavu-fonts-ttf-#{version}/ttf/DejaVuSans-Bold.ttf"
     (share/"fonts").install "#{parent}dejavu-fonts-ttf-#{version}/ttf/DejaVuSans-BoldOblique.ttf"
