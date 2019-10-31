@@ -5,7 +5,7 @@ class FontKawkabMono < Formula
   desc "Kawkab Mono"
   homepage "https://makkuk.com/kawkab-mono"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}kawkab-mono-#{version}/KawkabMono-Bold.otf"
     (share/"fonts").install "#{parent}kawkab-mono-#{version}/KawkabMono-Light.otf"
     (share/"fonts").install "#{parent}kawkab-mono-#{version}/KawkabMono-Regular.otf"
