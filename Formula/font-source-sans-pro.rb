@@ -5,7 +5,7 @@ class FontSourceSansPro < Formula
   desc "Source Sans Pro"
   homepage "https://adobe-fonts.github.io/source-sans-pro/"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}source-sans-pro-#{version}/OTF/SourceSansPro-Black.otf"
     (share/"fonts").install "#{parent}source-sans-pro-#{version}/OTF/SourceSansPro-BlackIt.otf"
     (share/"fonts").install "#{parent}source-sans-pro-#{version}/OTF/SourceSansPro-Bold.otf"
