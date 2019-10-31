@@ -3,7 +3,7 @@ class FontInria < Formula
   desc "Inria"
   homepage "https://black-foundry.com/blog/inria-serif-and-inria/"
   def install
-    parent = %x( [ ${PWD%/*} != ${HOMEBREW_TEMP=-/tmp} ] && echo -n '../' )
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}InriaFonts-master/fonts/InriaSans/OTF/InriaSans-Bold.otf"
     (share/"fonts").install "#{parent}InriaFonts-master/fonts/InriaSans/OTF/InriaSans-BoldItalic.otf"
     (share/"fonts").install "#{parent}InriaFonts-master/fonts/InriaSans/OTF/InriaSans-Italic.otf"
