@@ -21,6 +21,9 @@ jobs:
         gem install bundler
         bundle install --jobs 4 --retry 3
         bundle exec ruby cask2formula
+    - name: Clean Formula directory
+      run: |
+        comm -23 --nocheck-order <(ls -1 Formula) <(ls -1 homebrew-cask-fonts/Casks) | xargs -I{} rm ./Formula/{}
     - name: Publish to GitHub
       env:
         TOKEN: ${{ secrets.PUSH_TOKEN }}

@@ -1,6 +1,6 @@
 class FontIbmPlex < Formula
-  version "2.0.0"
-  sha256 "682586e0c08722b52dfd34e924717839a90abee7c5a9660617f0618bc72f66d3"
+  version "3.0.0"
+  sha256 "c132692663519407813f6fc8011abbdd9f0e766889d6b9f7db498d849d674738"
   url "https://github.com/IBM/plex/releases/download/v#{version}/OpenType.zip"
   desc "IBM Plex"
   homepage "https://github.com/IBM/plex"
