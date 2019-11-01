@@ -5,10 +5,11 @@ class FontIpafont < Formula
   desc "IPA Fonts"
   homepage "https://ipafont.ipa.go.jp/"
   def install
-    (share/"fonts").install "../IPAfont#{version.to_s.gsub(".", "")}/ipag.ttf"
-    (share/"fonts").install "../IPAfont#{version.to_s.gsub(".", "")}/ipagp.ttf"
-    (share/"fonts").install "../IPAfont#{version.to_s.gsub(".", "")}/ipam.ttf"
-    (share/"fonts").install "../IPAfont#{version.to_s.gsub(".", "")}/ipamp.ttf"
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
+    (share/"fonts").install "#{parent}IPAfont#{version.to_s.gsub(".", "")}/ipag.ttf"
+    (share/"fonts").install "#{parent}IPAfont#{version.to_s.gsub(".", "")}/ipagp.ttf"
+    (share/"fonts").install "#{parent}IPAfont#{version.to_s.gsub(".", "")}/ipam.ttf"
+    (share/"fonts").install "#{parent}IPAfont#{version.to_s.gsub(".", "")}/ipamp.ttf"
   end
   test do
   end

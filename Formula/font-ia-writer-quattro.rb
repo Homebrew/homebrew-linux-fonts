@@ -3,10 +3,11 @@ class FontIaWriterQuattro < Formula
   desc "iA Writer Quattro"
   homepage "https://github.com/iaolo/iA-Fonts"
   def install
-    (share/"fonts").install "../iA-Fonts-master/iA Writer Quattro/Static/iAWriterQuattroS-Bold.ttf"
-    (share/"fonts").install "../iA-Fonts-master/iA Writer Quattro/Static/iAWriterQuattroS-BoldItalic.ttf"
-    (share/"fonts").install "../iA-Fonts-master/iA Writer Quattro/Static/iAWriterQuattroS-Italic.ttf"
-    (share/"fonts").install "../iA-Fonts-master/iA Writer Quattro/Static/iAWriterQuattroS-Regular.ttf"
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
+    (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Quattro/Static/iAWriterQuattroS-Bold.ttf"
+    (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Quattro/Static/iAWriterQuattroS-BoldItalic.ttf"
+    (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Quattro/Static/iAWriterQuattroS-Italic.ttf"
+    (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Quattro/Static/iAWriterQuattroS-Regular.ttf"
   end
   test do
   end

@@ -5,14 +5,15 @@ class FontClearSans < Formula
   desc "Clear Sans"
   homepage "https://01.org/clear-sans"
   def install
-    (share/"fonts").install "../TTF/ClearSans-Bold.ttf"
-    (share/"fonts").install "../TTF/ClearSans-BoldItalic.ttf"
-    (share/"fonts").install "../TTF/ClearSans-Italic.ttf"
-    (share/"fonts").install "../TTF/ClearSans-Light.ttf"
-    (share/"fonts").install "../TTF/ClearSans-Medium.ttf"
-    (share/"fonts").install "../TTF/ClearSans-MediumItalic.ttf"
-    (share/"fonts").install "../TTF/ClearSans-Regular.ttf"
-    (share/"fonts").install "../TTF/ClearSans-Thin.ttf"
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
+    (share/"fonts").install "#{parent}TTF/ClearSans-Bold.ttf"
+    (share/"fonts").install "#{parent}TTF/ClearSans-BoldItalic.ttf"
+    (share/"fonts").install "#{parent}TTF/ClearSans-Italic.ttf"
+    (share/"fonts").install "#{parent}TTF/ClearSans-Light.ttf"
+    (share/"fonts").install "#{parent}TTF/ClearSans-Medium.ttf"
+    (share/"fonts").install "#{parent}TTF/ClearSans-MediumItalic.ttf"
+    (share/"fonts").install "#{parent}TTF/ClearSans-Regular.ttf"
+    (share/"fonts").install "#{parent}TTF/ClearSans-Thin.ttf"
   end
   test do
   end

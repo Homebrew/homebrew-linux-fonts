@@ -5,13 +5,14 @@ class FontOcr < Formula
   desc "OCR"
   homepage "https://ansuz.sooke.bc.ca/page/fonts#ocra"
   def install
-    (share/"fonts").install "../ocr-#{version}/OCRA.otf"
-    (share/"fonts").install "../ocr-#{version}/OCRB.otf"
-    (share/"fonts").install "../ocr-#{version}/OCRBE.otf"
-    (share/"fonts").install "../ocr-#{version}/OCRBF.otf"
-    (share/"fonts").install "../ocr-#{version}/OCRBL.otf"
-    (share/"fonts").install "../ocr-#{version}/OCRBS.otf"
-    (share/"fonts").install "../ocr-#{version}/OCRBX.otf"
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
+    (share/"fonts").install "#{parent}ocr-#{version}/OCRA.otf"
+    (share/"fonts").install "#{parent}ocr-#{version}/OCRB.otf"
+    (share/"fonts").install "#{parent}ocr-#{version}/OCRBE.otf"
+    (share/"fonts").install "#{parent}ocr-#{version}/OCRBF.otf"
+    (share/"fonts").install "#{parent}ocr-#{version}/OCRBL.otf"
+    (share/"fonts").install "#{parent}ocr-#{version}/OCRBS.otf"
+    (share/"fonts").install "#{parent}ocr-#{version}/OCRBX.otf"
   end
   test do
   end

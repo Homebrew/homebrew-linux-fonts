@@ -5,7 +5,8 @@ class FontDoulosSil < Formula
   desc "Doulos SIL"
   homepage "https://software.sil.org/doulos/"
   def install
-    (share/"fonts").install "../DoulosSIL-#{version}/DoulosSIL-R.ttf"
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
+    (share/"fonts").install "#{parent}DoulosSIL-#{version}/DoulosSIL-R.ttf"
   end
   test do
   end

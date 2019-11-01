@@ -5,10 +5,11 @@ class FontTexGyreAdventor < Formula
   desc "TeX Gyre Adventor"
   homepage "http://www.gust.org.pl/projects/e-foundry/tex-gyre/adventor"
   def install
-    (share/"fonts").install "../qag#{version.to_s.gsub(".", "_")}otf/texgyreadventor-bold.otf"
-    (share/"fonts").install "../qag#{version.to_s.gsub(".", "_")}otf/texgyreadventor-bolditalic.otf"
-    (share/"fonts").install "../qag#{version.to_s.gsub(".", "_")}otf/texgyreadventor-italic.otf"
-    (share/"fonts").install "../qag#{version.to_s.gsub(".", "_")}otf/texgyreadventor-regular.otf"
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
+    (share/"fonts").install "#{parent}qag#{version.to_s.gsub(".", "_")}otf/texgyreadventor-bold.otf"
+    (share/"fonts").install "#{parent}qag#{version.to_s.gsub(".", "_")}otf/texgyreadventor-bolditalic.otf"
+    (share/"fonts").install "#{parent}qag#{version.to_s.gsub(".", "_")}otf/texgyreadventor-italic.otf"
+    (share/"fonts").install "#{parent}qag#{version.to_s.gsub(".", "_")}otf/texgyreadventor-regular.otf"
   end
   test do
   end

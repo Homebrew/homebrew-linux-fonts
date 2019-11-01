@@ -5,7 +5,8 @@ class FontWenquanyiMicroHei < Formula
   desc "WenQuanYi Micro Hei"
   homepage "https://wenq.org/wqy2/index.cgi?MicroHei"
   def install
-    (share/"fonts").install "../wqy-microhei/wqy-microhei.ttc"
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
+    (share/"fonts").install "#{parent}wqy-microhei/wqy-microhei.ttc"
   end
   test do
   end

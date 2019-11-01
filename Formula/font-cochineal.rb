@@ -3,10 +3,11 @@ class FontCochineal < Formula
   desc "Cochineal"
   homepage "https://ctan.org/pkg/cochineal"
   def install
-    (share/"fonts").install "../cochineal/opentype/Cochineal-Bold.otf"
-    (share/"fonts").install "../cochineal/opentype/Cochineal-BoldItalic.otf"
-    (share/"fonts").install "../cochineal/opentype/Cochineal-Italic.otf"
-    (share/"fonts").install "../cochineal/opentype/Cochineal-Roman.otf"
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
+    (share/"fonts").install "#{parent}cochineal/opentype/Cochineal-Bold.otf"
+    (share/"fonts").install "#{parent}cochineal/opentype/Cochineal-BoldItalic.otf"
+    (share/"fonts").install "#{parent}cochineal/opentype/Cochineal-Italic.otf"
+    (share/"fonts").install "#{parent}cochineal/opentype/Cochineal-Roman.otf"
   end
   test do
   end

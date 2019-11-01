@@ -3,7 +3,8 @@ class FontLibreCaslonDisplay < Formula
   desc "Libre Caslon Display"
   homepage "http://www.impallari.com/projects/overview/libre-caslon-display-and-text"
   def install
-    (share/"fonts").install "../Libre-Caslon-Display-master/fonts/OTF/LibreCaslonDisplay-Regular.otf"
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
+    (share/"fonts").install "#{parent}Libre-Caslon-Display-master/fonts/OTF/LibreCaslonDisplay-Regular.otf"
   end
   test do
   end

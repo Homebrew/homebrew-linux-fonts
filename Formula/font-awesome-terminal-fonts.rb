@@ -3,9 +3,10 @@ class FontAwesomeTerminalFonts < Formula
   desc "Awesome Terminal Fonts"
   homepage "https://github.com/gabrielelana/awesome-terminal-fonts"
   def install
-    (share/"fonts").install "../awesome-terminal-fonts-patching-strategy/patched/Droid+Sans+Mono+Awesome.ttf"
-    (share/"fonts").install "../awesome-terminal-fonts-patching-strategy/patched/Inconsolata+Awesome.ttf"
-    (share/"fonts").install "../awesome-terminal-fonts-patching-strategy/patched/SourceCodePro+Powerline+Awesome+Regular.ttf"
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
+    (share/"fonts").install "#{parent}awesome-terminal-fonts-patching-strategy/patched/Droid+Sans+Mono+Awesome.ttf"
+    (share/"fonts").install "#{parent}awesome-terminal-fonts-patching-strategy/patched/Inconsolata+Awesome.ttf"
+    (share/"fonts").install "#{parent}awesome-terminal-fonts-patching-strategy/patched/SourceCodePro+Powerline+Awesome+Regular.ttf"
   end
   test do
   end

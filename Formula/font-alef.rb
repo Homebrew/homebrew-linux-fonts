@@ -3,8 +3,9 @@ class FontAlef < Formula
   desc "Alef"
   homepage "http://alef.hagilda.com/"
   def install
-    (share/"fonts").install "../TTF/Alef-Bold.ttf"
-    (share/"fonts").install "../TTF/Alef-Regular.ttf"
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
+    (share/"fonts").install "#{parent}TTF/Alef-Bold.ttf"
+    (share/"fonts").install "#{parent}TTF/Alef-Regular.ttf"
   end
   test do
   end

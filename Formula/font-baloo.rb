@@ -5,16 +5,17 @@ class FontBaloo < Formula
   desc "Baloo"
   homepage "https://github.com/EkType/Baloo"
   def install
-    (share/"fonts").install "../Fonts/Baloo-Regular.ttf"
-    (share/"fonts").install "../Fonts/BalooBhai-Regular.ttf"
-    (share/"fonts").install "../Fonts/BalooBhaijaan-Regular.ttf"
-    (share/"fonts").install "../Fonts/BalooBhaina-Regular.ttf"
-    (share/"fonts").install "../Fonts/BalooChettan-Regular.ttf"
-    (share/"fonts").install "../Fonts/BalooDa-Regular.ttf"
-    (share/"fonts").install "../Fonts/BalooPaaji-Regular.ttf"
-    (share/"fonts").install "../Fonts/BalooTamma-Regular.ttf"
-    (share/"fonts").install "../Fonts/BalooTammudu-Regular.ttf"
-    (share/"fonts").install "../Fonts/BalooThambi-Regular.ttf"
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
+    (share/"fonts").install "#{parent}Fonts/Baloo-Regular.ttf"
+    (share/"fonts").install "#{parent}Fonts/BalooBhai-Regular.ttf"
+    (share/"fonts").install "#{parent}Fonts/BalooBhaijaan-Regular.ttf"
+    (share/"fonts").install "#{parent}Fonts/BalooBhaina-Regular.ttf"
+    (share/"fonts").install "#{parent}Fonts/BalooChettan-Regular.ttf"
+    (share/"fonts").install "#{parent}Fonts/BalooDa-Regular.ttf"
+    (share/"fonts").install "#{parent}Fonts/BalooPaaji-Regular.ttf"
+    (share/"fonts").install "#{parent}Fonts/BalooTamma-Regular.ttf"
+    (share/"fonts").install "#{parent}Fonts/BalooTammudu-Regular.ttf"
+    (share/"fonts").install "#{parent}Fonts/BalooThambi-Regular.ttf"
   end
   test do
   end

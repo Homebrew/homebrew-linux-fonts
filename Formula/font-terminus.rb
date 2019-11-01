@@ -5,10 +5,11 @@ class FontTerminus < Formula
   desc "Terminus TTF"
   homepage "https://files.ax86.net/terminus-ttf/"
   def install
-    (share/"fonts").install "../terminus-ttf-#{version}/TerminusTTF-#{version}.ttf"
-    (share/"fonts").install "../terminus-ttf-#{version}/TerminusTTF-Bold-#{version}.ttf"
-    (share/"fonts").install "../terminus-ttf-#{version}/TerminusTTF-Italic-#{version}.ttf"
-    (share/"fonts").install "../terminus-ttf-#{version}/TerminusTTF-Bold Italic-#{version}.ttf"
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
+    (share/"fonts").install "#{parent}terminus-ttf-#{version}/TerminusTTF-#{version}.ttf"
+    (share/"fonts").install "#{parent}terminus-ttf-#{version}/TerminusTTF-Bold-#{version}.ttf"
+    (share/"fonts").install "#{parent}terminus-ttf-#{version}/TerminusTTF-Italic-#{version}.ttf"
+    (share/"fonts").install "#{parent}terminus-ttf-#{version}/TerminusTTF-Bold Italic-#{version}.ttf"
   end
   test do
   end

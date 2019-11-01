@@ -5,12 +5,13 @@ class FontAmiri < Formula
   desc "Amiri"
   homepage "https://www.amirifont.org/"
   def install
-    (share/"fonts").install "../Amiri-#{version}/Amiri-Bold.ttf"
-    (share/"fonts").install "../Amiri-#{version}/Amiri-BoldSlanted.ttf"
-    (share/"fonts").install "../Amiri-#{version}/Amiri-Regular.ttf"
-    (share/"fonts").install "../Amiri-#{version}/Amiri-Slanted.ttf"
-    (share/"fonts").install "../Amiri-#{version}/AmiriQuran.ttf"
-    (share/"fonts").install "../Amiri-#{version}/AmiriQuranColored.ttf"
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
+    (share/"fonts").install "#{parent}Amiri-#{version}/Amiri-Bold.ttf"
+    (share/"fonts").install "#{parent}Amiri-#{version}/Amiri-BoldSlanted.ttf"
+    (share/"fonts").install "#{parent}Amiri-#{version}/Amiri-Regular.ttf"
+    (share/"fonts").install "#{parent}Amiri-#{version}/Amiri-Slanted.ttf"
+    (share/"fonts").install "#{parent}Amiri-#{version}/AmiriQuran.ttf"
+    (share/"fonts").install "#{parent}Amiri-#{version}/AmiriQuranColored.ttf"
   end
   test do
   end

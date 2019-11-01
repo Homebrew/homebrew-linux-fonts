@@ -5,18 +5,19 @@ class FontFreesans < Formula
   desc "FreeSans"
   homepage "https://ftp.gnu.org/gnu/freefont/"
   def install
-    (share/"fonts").install "../freefont-#{version}/FreeMono.otf"
-    (share/"fonts").install "../freefont-#{version}/FreeMonoBold.otf"
-    (share/"fonts").install "../freefont-#{version}/FreeMonoBoldOblique.otf"
-    (share/"fonts").install "../freefont-#{version}/FreeMonoOblique.otf"
-    (share/"fonts").install "../freefont-#{version}/FreeSans.otf"
-    (share/"fonts").install "../freefont-#{version}/FreeSansBold.otf"
-    (share/"fonts").install "../freefont-#{version}/FreeSansBoldOblique.otf"
-    (share/"fonts").install "../freefont-#{version}/FreeSansOblique.otf"
-    (share/"fonts").install "../freefont-#{version}/FreeSerif.otf"
-    (share/"fonts").install "../freefont-#{version}/FreeSerifBold.otf"
-    (share/"fonts").install "../freefont-#{version}/FreeSerifBoldItalic.otf"
-    (share/"fonts").install "../freefont-#{version}/FreeSerifItalic.otf"
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
+    (share/"fonts").install "#{parent}freefont-#{version}/FreeMono.otf"
+    (share/"fonts").install "#{parent}freefont-#{version}/FreeMonoBold.otf"
+    (share/"fonts").install "#{parent}freefont-#{version}/FreeMonoBoldOblique.otf"
+    (share/"fonts").install "#{parent}freefont-#{version}/FreeMonoOblique.otf"
+    (share/"fonts").install "#{parent}freefont-#{version}/FreeSans.otf"
+    (share/"fonts").install "#{parent}freefont-#{version}/FreeSansBold.otf"
+    (share/"fonts").install "#{parent}freefont-#{version}/FreeSansBoldOblique.otf"
+    (share/"fonts").install "#{parent}freefont-#{version}/FreeSansOblique.otf"
+    (share/"fonts").install "#{parent}freefont-#{version}/FreeSerif.otf"
+    (share/"fonts").install "#{parent}freefont-#{version}/FreeSerifBold.otf"
+    (share/"fonts").install "#{parent}freefont-#{version}/FreeSerifBoldItalic.otf"
+    (share/"fonts").install "#{parent}freefont-#{version}/FreeSerifItalic.otf"
   end
   test do
   end

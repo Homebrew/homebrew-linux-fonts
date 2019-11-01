@@ -5,8 +5,9 @@ class FontMigu1c < Formula
   desc "Migu 1C"
   homepage "https://mix-mplus-ipa.osdn.jp/migu/#migu1c"
   def install
-    (share/"fonts").install "../migu-1c-#{version}/migu-1c-bold.ttf"
-    (share/"fonts").install "../migu-1c-#{version}/migu-1c-regular.ttf"
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
+    (share/"fonts").install "#{parent}migu-1c-#{version}/migu-1c-bold.ttf"
+    (share/"fonts").install "#{parent}migu-1c-#{version}/migu-1c-regular.ttf"
   end
   test do
   end

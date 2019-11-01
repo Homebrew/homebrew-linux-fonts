@@ -5,7 +5,8 @@ class FontSpleen < Formula
   desc "Spleen"
   homepage "https://github.com/fcambus/spleen"
   def install
-    (share/"fonts").install "../spleen-#{version}/spleen-32x64.dfont"
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
+    (share/"fonts").install "#{parent}spleen-#{version}/spleen-32x64.dfont"
   end
   test do
   end

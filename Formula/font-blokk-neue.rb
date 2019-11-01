@@ -3,7 +3,8 @@ class FontBlokkNeue < Formula
   desc "BLOKK Neue"
   homepage "http://blokkfont.com/"
   def install
-    (share/"fonts").install "../BLOKKNeue-Regular/BLOKKNeue-Regular.otf"
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
+    (share/"fonts").install "#{parent}BLOKKNeue-Regular/BLOKKNeue-Regular.otf"
   end
   test do
   end

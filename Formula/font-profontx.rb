@@ -3,7 +3,8 @@ class FontProfontx < Formula
   desc "ProFontX"
   homepage "http://faisal.com/software/profontx/"
   def install
-    (share/"fonts").install "../ProFontX/ProFontX"
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
+    (share/"fonts").install "#{parent}ProFontX/ProFontX"
   end
   test do
   end

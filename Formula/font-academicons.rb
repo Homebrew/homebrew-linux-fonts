@@ -5,7 +5,8 @@ class FontAcademicons < Formula
   desc "Academicons"
   homepage "https://github.com/jpswalsh/academicons"
   def install
-    (share/"fonts").install "../academicons-#{version}/fonts/academicons.ttf"
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
+    (share/"fonts").install "#{parent}academicons-#{version}/fonts/academicons.ttf"
   end
   test do
   end

@@ -3,9 +3,10 @@ class FontJunction < Formula
   desc "Junction"
   homepage "https://www.theleagueofmoveabletype.com/junction"
   def install
-    (share/"fonts").install "../junction-master/Junction-bold.otf"
-    (share/"fonts").install "../junction-master/Junction-light.otf"
-    (share/"fonts").install "../junction-master/Junction-regular.otf"
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
+    (share/"fonts").install "#{parent}junction-master/Junction-bold.otf"
+    (share/"fonts").install "#{parent}junction-master/Junction-light.otf"
+    (share/"fonts").install "#{parent}junction-master/Junction-regular.otf"
   end
   test do
   end

@@ -5,7 +5,8 @@ class FontLeagueSpartan < Formula
   desc "League Spartan"
   homepage "https://www.theleagueofmoveabletype.com/league-spartan"
   def install
-    (share/"fonts").install "../league-spartan-master/LeagueSpartan-Bold.otf"
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
+    (share/"fonts").install "#{parent}league-spartan-master/LeagueSpartan-Bold.otf"
   end
   test do
   end

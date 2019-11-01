@@ -5,7 +5,8 @@ class FontWenquanyiZenHei < Formula
   desc "WenQuanYi Zen Hei"
   homepage "https://wenq.org/wqy2/index.cgi?ZenHei"
   def install
-    (share/"fonts").install "../wqy-zenhei/wqy-zenhei.ttc"
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
+    (share/"fonts").install "#{parent}wqy-zenhei/wqy-zenhei.ttc"
   end
   test do
   end

@@ -5,9 +5,10 @@ class FontJaapokki < Formula
   desc "Jaapokki"
   homepage "https://mikkonuuttila.com/jaapokki/"
   def install
-    (share/"fonts").install "../Jaapokki-font-package-#{version}/Regular/Jaapokki-Regular.otf"
-    (share/"fonts").install "../Jaapokki-font-package-#{version}/enchance/Jaapokkienchance-Regular.otf"
-    (share/"fonts").install "../Jaapokki-font-package-#{version}/subtract/Jaapokkisubtract-Regular.otf"
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
+    (share/"fonts").install "#{parent}Jaapokki-font-package-#{version}/Regular/Jaapokki-Regular.otf"
+    (share/"fonts").install "#{parent}Jaapokki-font-package-#{version}/enchance/Jaapokkienchance-Regular.otf"
+    (share/"fonts").install "#{parent}Jaapokki-font-package-#{version}/subtract/Jaapokkisubtract-Regular.otf"
   end
   test do
   end

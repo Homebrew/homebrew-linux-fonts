@@ -5,10 +5,11 @@ class FontAnonymousPro < Formula
   desc "Anonymous Pro"
   homepage "https://www.marksimonson.com/fonts/view/anonymous-pro"
   def install
-    (share/"fonts").install "../AnonymousPro-#{version}.001/Anonymous Pro B.ttf"
-    (share/"fonts").install "../AnonymousPro-#{version}.001/Anonymous Pro BI.ttf"
-    (share/"fonts").install "../AnonymousPro-#{version}.001/Anonymous Pro I.ttf"
-    (share/"fonts").install "../AnonymousPro-#{version}.001/Anonymous Pro.ttf"
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
+    (share/"fonts").install "#{parent}AnonymousPro-#{version}.001/Anonymous Pro B.ttf"
+    (share/"fonts").install "#{parent}AnonymousPro-#{version}.001/Anonymous Pro BI.ttf"
+    (share/"fonts").install "#{parent}AnonymousPro-#{version}.001/Anonymous Pro I.ttf"
+    (share/"fonts").install "#{parent}AnonymousPro-#{version}.001/Anonymous Pro.ttf"
   end
   test do
   end
