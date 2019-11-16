@@ -5,8 +5,9 @@ class FontAntinoou < Formula
   desc "Antinoou"
   homepage "https://www.evertype.com/fonts/coptic/"
   def install
-    (share/"fonts").install "../AntinoouFont-#{version}/Antinoou.ttf"
-    (share/"fonts").install "../AntinoouFont-#{version}/AntinoouItalic.ttf"
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
+    (share/"fonts").install "#{parent}AntinoouFont-#{version}/Antinoou.ttf"
+    (share/"fonts").install "#{parent}AntinoouFont-#{version}/AntinoouItalic.ttf"
   end
   test do
   end
