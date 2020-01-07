@@ -3,10 +3,11 @@ class FontRobotoSlab < Formula
   desc "Roboto Slab"
   homepage "https://www.google.com/fonts/specimen/Roboto%20Slab"
   def install
-    (share/"fonts").install "RobotoSlab-Bold.ttf"
-    (share/"fonts").install "RobotoSlab-Light.ttf"
-    (share/"fonts").install "RobotoSlab-Regular.ttf"
-    (share/"fonts").install "RobotoSlab-Thin.ttf"
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
+    (share/"fonts").install "#{parent}static/RobotoSlab-Bold.ttf"
+    (share/"fonts").install "#{parent}static/RobotoSlab-Light.ttf"
+    (share/"fonts").install "#{parent}static/RobotoSlab-Regular.ttf"
+    (share/"fonts").install "#{parent}static/RobotoSlab-Thin.ttf"
   end
   test do
   end
