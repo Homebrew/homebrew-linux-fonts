@@ -1,15 +1,15 @@
 class FontFiracodeNerdFont < Formula
-  version "2.0.0"
-  sha256 "09894d24bf3d61493dba052187a9200497135a4b885cb837bcb637ad2e62070f"
+  version "2.1.0"
+  sha256 "21de9aa0edaa3fd2dc1d87fb9ecec0b67c9b3b18bd1998a19904158067fea7e7"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/FiraCode.zip"
-  desc "FuraCode Nerd Font (FiraCode)"
-  homepage "https://github.com/ryanoasis/nerd-fonts"
+  desc "FiraCode Nerd Font (FiraCode)"
+  homepage "https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode"
   def install
-    (share/"fonts").install "Fura Code Bold Nerd Font Complete.otf"
-    (share/"fonts").install "Fura Code Medium Nerd Font Complete.otf"
-    (share/"fonts").install "Fura Code Retina Nerd Font Complete.otf"
-    (share/"fonts").install "Fura Code Regular Nerd Font Complete.otf"
-    (share/"fonts").install "Fura Code Light Nerd Font Complete.otf"
+    (share/"fonts").install "Fira Code Bold Nerd Font Complete.otf"
+    (share/"fonts").install "Fira Code Medium Nerd Font Complete.otf"
+    (share/"fonts").install "Fira Code Retina Nerd Font Complete.otf"
+    (share/"fonts").install "Fira Code Regular Nerd Font Complete.otf"
+    (share/"fonts").install "Fira Code Light Nerd Font Complete.otf"
   end
   test do
   end
