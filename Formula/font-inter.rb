@@ -1,6 +1,6 @@
 class FontInter < Formula
-  version "3.11"
-  sha256 "45495b2c2c0a64a5de1a87a6cee3226b92b09039cc144534b56247be9b8b0689"
+  version "3.12"
+  sha256 "ad18dc095e23301ce1e83f7b078e50855d110eea46697656d72eb0ef6dc2e6f1"
   url "https://github.com/rsms/inter/releases/download/v#{version}/Inter-#{version}.zip"
   desc "Inter"
   homepage "https://rsms.me/inter/"
@@ -12,18 +12,18 @@ class FontInter < Formula
     (share/"fonts").install "#{parent}Inter/Inter-BoldItalic.otf"
     (share/"fonts").install "#{parent}Inter/Inter-ExtraBold.otf"
     (share/"fonts").install "#{parent}Inter/Inter-ExtraBoldItalic.otf"
-    (share/"fonts").install "#{parent}Inter/Inter-ExtraLight-BETA.otf"
-    (share/"fonts").install "#{parent}Inter/Inter-ExtraLightItalic-BETA.otf"
+    (share/"fonts").install "#{parent}Inter/Inter-ExtraLight.otf"
+    (share/"fonts").install "#{parent}Inter/Inter-ExtraLightItalic.otf"
     (share/"fonts").install "#{parent}Inter/Inter-Italic.otf"
-    (share/"fonts").install "#{parent}Inter/Inter-Light-BETA.otf"
-    (share/"fonts").install "#{parent}Inter/Inter-LightItalic-BETA.otf"
+    (share/"fonts").install "#{parent}Inter/Inter-Light.otf"
+    (share/"fonts").install "#{parent}Inter/Inter-LightItalic.otf"
     (share/"fonts").install "#{parent}Inter/Inter-Medium.otf"
     (share/"fonts").install "#{parent}Inter/Inter-MediumItalic.otf"
     (share/"fonts").install "#{parent}Inter/Inter-Regular.otf"
     (share/"fonts").install "#{parent}Inter/Inter-SemiBold.otf"
     (share/"fonts").install "#{parent}Inter/Inter-SemiBoldItalic.otf"
-    (share/"fonts").install "#{parent}Inter/Inter-Thin-BETA.otf"
-    (share/"fonts").install "#{parent}Inter/Inter-ThinItalic-BETA.otf"
+    (share/"fonts").install "#{parent}Inter/Inter-Thin.otf"
+    (share/"fonts").install "#{parent}Inter/Inter-ThinItalic.otf"
   end
   test do
   end
