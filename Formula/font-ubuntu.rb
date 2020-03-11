@@ -3,7 +3,7 @@ class FontUbuntu < Formula
   sha256 "456d7d42797febd0d7d4cf1b782a2e03680bb4a5ee43cc9d06bda172bac05b42"
   url "https://assets.ubuntu.com/v1/#{version.to_s.sub(/.*,/, "")}-ubuntu-font-family-#{version.to_s.sub(/,.*/, "")}.zip"
   desc "Ubuntu"
-  homepage "http://font.ubuntu.com/"
+  homepage "https://design.ubuntu.com/font/"
   def install
     parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}ubuntu-font-family-#{version.to_s.sub(/,.*/, "")}/Ubuntu-B.ttf"
