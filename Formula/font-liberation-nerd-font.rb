@@ -1,0 +1,35 @@
+class FontLiberationNerdFont < Formula
+  version "2.1.0"
+  sha256 "30b0e02385c43c92a9556689eda6c83731525c431f6eba9dad556b3512aa77a5"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/LiberationMono.zip"
+  desc "Literation Nerd Font families (Liberation)"
+  homepage "https://github.com/ryanoasis/nerd-fonts"
+  def install
+    (share/"fonts").install "Literation Mono Nerd Font Complete Mono.ttf"
+    (share/"fonts").install "Literation Serif Bold Italic Nerd Font Complete.ttf"
+    (share/"fonts").install "Literation Sans Bold Italic Nerd Font Complete Mono.ttf"
+    (share/"fonts").install "Literation Mono Italic Nerd Font Complete Mono.ttf"
+    (share/"fonts").install "Literation Sans Nerd Font Complete Mono.ttf"
+    (share/"fonts").install "Literation Mono Bold Nerd Font Complete.ttf"
+    (share/"fonts").install "Literation Serif Nerd Font Complete.ttf"
+    (share/"fonts").install "Literation Serif Nerd Font Complete Mono.ttf"
+    (share/"fonts").install "Literation Sans Bold Nerd Font Complete.ttf"
+    (share/"fonts").install "Literation Mono Italic Nerd Font Complete.ttf"
+    (share/"fonts").install "Literation Serif Bold Italic Nerd Font Complete Mono.ttf"
+    (share/"fonts").install "Literation Mono Bold Nerd Font Complete Mono.ttf"
+    (share/"fonts").install "Literation Serif Italic Nerd Font Complete.ttf"
+    (share/"fonts").install "Literation Serif Bold Nerd Font Complete Mono.ttf"
+    (share/"fonts").install "Literation Sans Bold Nerd Font Complete Mono.ttf"
+    (share/"fonts").install "Literation Serif Italic Nerd Font Complete Mono.ttf"
+    (share/"fonts").install "Literation Mono Bold Italic Nerd Font Complete.ttf"
+    (share/"fonts").install "Literation Sans Italic Nerd Font Complete.ttf"
+    (share/"fonts").install "Literation Sans Bold Italic Nerd Font Complete.ttf"
+    (share/"fonts").install "Literation Sans Nerd Font Complete.ttf"
+    (share/"fonts").install "Literation Sans Italic Nerd Font Complete Mono.ttf"
+    (share/"fonts").install "Literation Mono Nerd Font Complete.ttf"
+    (share/"fonts").install "Literation Serif Bold Nerd Font Complete.ttf"
+    (share/"fonts").install "Literation Mono Bold Italic Nerd Font Complete Mono.ttf"
+  end
+  test do
+  end
+end
