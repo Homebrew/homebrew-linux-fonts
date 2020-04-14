@@ -1,14 +1,18 @@
 class FontMononokiNerdFont < Formula
-  version "2.0.0"
-  sha256 "715813f9bdeddfa35a39681dedf4a61cf1b6cfe8e06b9b3ca19c391cb308a589"
+  version "2.1.0"
+  sha256 "bc88f1350e2040cb30404e5d52daab24635f0a5b05924833bbc008eab6dd8a1c"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Mononoki.zip"
-  desc "mononoki Nerd Font (Mononoki)"
+  desc "Mononoki Nerd Font (Mononoki)"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
     (share/"fonts").install "mononoki Bold Italic Nerd Font Complete.ttf"
     (share/"fonts").install "mononoki Italic Nerd Font Complete.ttf"
     (share/"fonts").install "mononoki Bold Nerd Font Complete.ttf"
     (share/"fonts").install "mononoki-Regular Nerd Font Complete.ttf"
+    (share/"fonts").install "mononoki Bold Italic Nerd Font Complete Mono.ttf"
+    (share/"fonts").install "mononoki Italic Nerd Font Complete Mono.ttf"
+    (share/"fonts").install "mononoki Bold Nerd Font Complete Mono.ttf"
+    (share/"fonts").install "mononoki-Regular Nerd Font Complete Mono.ttf"
   end
   test do
   end
