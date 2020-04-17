@@ -3,8 +3,7 @@ class FontInconsolata < Formula
   desc "Inconsolata"
   homepage "https://levien.com/type/myfonts/inconsolata.html"
   def install
-    (share/"fonts").install "Inconsolata-Regular.ttf"
-    (share/"fonts").install "Inconsolata-Bold.ttf"
+    (share/"fonts").install "Inconsolata[wdth,wght].ttf"
   end
   test do
   end
