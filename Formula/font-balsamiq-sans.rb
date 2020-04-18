@@ -4,10 +4,10 @@ class FontBalsamiqSans < Formula
   homepage "https://balsamiq.com/givingback/opensource/font/"
   def install
     parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}balsamiqsans-master/fonts/ttf/BalsamiqSansBold.ttf"
-    (share/"fonts").install "#{parent}balsamiqsans-master/fonts/ttf/BalsamiqSansBoldItalic.ttf"
-    (share/"fonts").install "#{parent}balsamiqsans-master/fonts/ttf/BalsamiqSansItalic.ttf"
-    (share/"fonts").install "#{parent}balsamiqsans-master/fonts/ttf/BalsamiqSansRegular.ttf"
+    (share/"fonts").install "#{parent}balsamiqsans-master/fonts/ttf/BalsamiqSans-Bold.ttf"
+    (share/"fonts").install "#{parent}balsamiqsans-master/fonts/ttf/BalsamiqSans-BoldItalic.ttf"
+    (share/"fonts").install "#{parent}balsamiqsans-master/fonts/ttf/BalsamiqSans-Italic.ttf"
+    (share/"fonts").install "#{parent}balsamiqsans-master/fonts/ttf/BalsamiqSans-Regular.ttf"
   end
   test do
   end
