@@ -1,5 +1,5 @@
 class FontRobotoCondensed < Formula
-  head "https://github.com/google/fonts/trunk/apache/robotocondensed", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/roboto/static", using: :svn, trust_cert: true
   desc "Roboto Condensed"
   homepage "https://www.google.com/fonts/specimen/Roboto%20Condensed"
   def install
