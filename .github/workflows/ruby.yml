@@ -13,8 +13,8 @@ jobs:
         ruby-version: 2.6.x
     - name: Configure git
       run: |
-        git config user.email 'fgborges@pm.me'
-        git config user.name 'Fernando Garcia Borges'
+        git config user.email 'mew@cat.ovh'
+        git config user.name 'TANIGUCHI Masaya'
     - name: Build and test with Rake
       run: |
         git submodule update --init --remote
