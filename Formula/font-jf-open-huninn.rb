@@ -1,12 +1,13 @@
 class FontJfOpenHuninn < Formula
-  version "1.0"
-  sha256 "20b18c056608ec078d22f1677b52fd1b616def1512f17be5d37831f09f517d5d"
-  url "https://raw.githubusercontent.com/justfont/open-huninn-font/master/font/jf-openhuninn-#{version}.ttf"
+  version "1.1"
+  sha256 "1b5a8d0204f5763408609d5e8182455d23a2ebc7450730aed19cc13c619bca37"
+  url "https://github.com/justfont/open-huninn-font/releases/download/v#{version}/jf-openhuninn-#{version}.zip"
   desc "jf open huninn"
   desc "jf open 粉圓"
   homepage "https://justfont.com/huninn/"
   def install
-    (share/"fonts").install "jf-openhuninn-#{version}.ttf"
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
+    (share/"fonts").install "#{parent}jf-openhuninn-#{version}/jf-openhuninn-#{version}.ttf"
   end
   test do
   end
