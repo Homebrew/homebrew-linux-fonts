@@ -3,7 +3,7 @@ class FontJunicode < Formula
   sha256 "c199d96c8424be60fcab8d00d2eee39ea8ae632cfd5e710cbbd70626d6a729e7"
   url "https://downloads.sourceforge.net/junicode/junicode-#{version}.zip"
   desc "Junicode"
-  homepage "http://junicode.sourceforge.net/"
+  homepage "https://junicode.sourceforge.io/"
   def install
     (share/"fonts").install "FoulisGreek.ttf"
     (share/"fonts").install "Junicode-Bold.ttf"
