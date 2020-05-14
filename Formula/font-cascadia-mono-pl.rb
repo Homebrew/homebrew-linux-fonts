@@ -1,11 +1,12 @@
 class FontCascadiaMonoPl < Formula
-  version "1911.21"
-  sha256 "e39856b0547b2df704520260778ba94bde5fc38c4385fbac3cc9362f2a6ab877"
-  url "https://github.com/microsoft/cascadia-code/releases/download/v#{version}/CascadiaMonoPL.ttf"
+  version "2004.30"
+  sha256 "e240fcf61260bd3d6bc95f75336717fa5312a7bff312edbcb4dfc377825e7faf"
+  url "https://github.com/microsoft/cascadia-code/releases/download/v#{version}/CascadiaCode_#{version}.zip"
   desc "Cascadia Mono PL"
   homepage "https://github.com/microsoft/cascadia-code"
   def install
-    (share/"fonts").install "CascadiaMonoPL.ttf"
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
+    (share/"fonts").install "#{parent}otf/CascadiaMonoPL.otf"
   end
   test do
   end
