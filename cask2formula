@@ -133,11 +133,12 @@ class CaskConverter
       Dir.glob('./homebrew-cask-fonts/Casks/*.rb').select{|file|
         ignores.all? { |ignore| !File.fnmatch(ignore, file) }
       }.each{|cask|
+        p "< #{cask}"
         recipe = File.read(cask)
         recipe = transform.apply(parser.parse(recipe))
         formula = cask.sub(%r{homebrew-cask-fonts/Casks}, 'Formula')
         File.write(formula, recipe)
-        p "#{cask} -> #{formula}"
+        p "> #{formula}"
       }
     end
 
@@ -154,4 +155,3 @@ end
 converter = CaskConverter.new
 converter.convert
 converter.commit
-
