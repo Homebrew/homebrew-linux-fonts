@@ -1,17 +1,17 @@
 class FontFiraCode < Formula
-  version "4"
-  sha256 "46ed45d1a793a56e13d31ed10fb7e09f5277731953a0d9522915644fc59086d8"
+  version "5"
+  sha256 "a095333b5e24d57f6536efb62d5425d3325243808dca410c6755d0cf7c5bd8da"
   url "https://github.com/tonsky/FiraCode/releases/download/#{version}/Fira_Code_v#{version}.zip"
   desc "Fira Code"
   homepage "https://github.com/tonsky/FiraCode"
   def install
     parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}otf/FiraCode-Bold.otf"
-    (share/"fonts").install "#{parent}otf/FiraCode-Light.otf"
-    (share/"fonts").install "#{parent}otf/FiraCode-Medium.otf"
-    (share/"fonts").install "#{parent}otf/FiraCode-Regular.otf"
-    (share/"fonts").install "#{parent}otf/FiraCode-Retina.otf"
-    (share/"fonts").install "#{parent}otf/FiraCode-SemiBold.otf"
+    (share/"fonts").install "#{parent}ttf/FiraCode-Bold.ttf"
+    (share/"fonts").install "#{parent}ttf/FiraCode-Light.ttf"
+    (share/"fonts").install "#{parent}ttf/FiraCode-Medium.ttf"
+    (share/"fonts").install "#{parent}ttf/FiraCode-Regular.ttf"
+    (share/"fonts").install "#{parent}ttf/FiraCode-Retina.ttf"
+    (share/"fonts").install "#{parent}ttf/FiraCode-SemiBold.ttf"
   end
   test do
   end
