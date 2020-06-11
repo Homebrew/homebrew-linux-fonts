@@ -6,18 +6,18 @@ class FontLiberation < Formula
   homepage "https://github.com/liberationfonts/liberation-fonts"
   def install
     parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}liberation-fonts-ttf-#{version}/LiberationMono-Bold.ttf"
-    (share/"fonts").install "#{parent}liberation-fonts-ttf-#{version}/LiberationMono-BoldItalic.ttf"
-    (share/"fonts").install "#{parent}liberation-fonts-ttf-#{version}/LiberationMono-Italic.ttf"
-    (share/"fonts").install "#{parent}liberation-fonts-ttf-#{version}/LiberationMono-Regular.ttf"
-    (share/"fonts").install "#{parent}liberation-fonts-ttf-#{version}/LiberationSans-Bold.ttf"
-    (share/"fonts").install "#{parent}liberation-fonts-ttf-#{version}/LiberationSans-BoldItalic.ttf"
-    (share/"fonts").install "#{parent}liberation-fonts-ttf-#{version}/LiberationSans-Italic.ttf"
-    (share/"fonts").install "#{parent}liberation-fonts-ttf-#{version}/LiberationSans-Regular.ttf"
-    (share/"fonts").install "#{parent}liberation-fonts-ttf-#{version}/LiberationSerif-Bold.ttf"
-    (share/"fonts").install "#{parent}liberation-fonts-ttf-#{version}/LiberationSerif-BoldItalic.ttf"
-    (share/"fonts").install "#{parent}liberation-fonts-ttf-#{version}/LiberationSerif-Italic.ttf"
-    (share/"fonts").install "#{parent}liberation-fonts-ttf-#{version}/LiberationSerif-Regular.ttf"
+    (share/"fonts").install "#{parent}liberation-fonts-ttf-#{version.to_s.sub(/,.*/, "")}/LiberationMono-Bold.ttf"
+    (share/"fonts").install "#{parent}liberation-fonts-ttf-#{version.to_s.sub(/,.*/, "")}/LiberationMono-BoldItalic.ttf"
+    (share/"fonts").install "#{parent}liberation-fonts-ttf-#{version.to_s.sub(/,.*/, "")}/LiberationMono-Italic.ttf"
+    (share/"fonts").install "#{parent}liberation-fonts-ttf-#{version.to_s.sub(/,.*/, "")}/LiberationMono-Regular.ttf"
+    (share/"fonts").install "#{parent}liberation-fonts-ttf-#{version.to_s.sub(/,.*/, "")}/LiberationSans-Bold.ttf"
+    (share/"fonts").install "#{parent}liberation-fonts-ttf-#{version.to_s.sub(/,.*/, "")}/LiberationSans-BoldItalic.ttf"
+    (share/"fonts").install "#{parent}liberation-fonts-ttf-#{version.to_s.sub(/,.*/, "")}/LiberationSans-Italic.ttf"
+    (share/"fonts").install "#{parent}liberation-fonts-ttf-#{version.to_s.sub(/,.*/, "")}/LiberationSans-Regular.ttf"
+    (share/"fonts").install "#{parent}liberation-fonts-ttf-#{version.to_s.sub(/,.*/, "")}/LiberationSerif-Bold.ttf"
+    (share/"fonts").install "#{parent}liberation-fonts-ttf-#{version.to_s.sub(/,.*/, "")}/LiberationSerif-BoldItalic.ttf"
+    (share/"fonts").install "#{parent}liberation-fonts-ttf-#{version.to_s.sub(/,.*/, "")}/LiberationSerif-Italic.ttf"
+    (share/"fonts").install "#{parent}liberation-fonts-ttf-#{version.to_s.sub(/,.*/, "")}/LiberationSerif-Regular.ttf"
   end
   test do
   end
