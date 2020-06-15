@@ -1,7 +1,7 @@
 class FontLedger < Formula
   head "https://github.com/google/fonts/raw/master/ofl/ledger/Ledger-Regular.ttf"
   desc "Ledger"
-  homepage "https://www.google.com/fonts/specimen/Ledger"
+  homepage "https://fonts.google.com/specimen/Ledger"
   def install
     (share/"fonts").install "Ledger-Regular.ttf"
   end
