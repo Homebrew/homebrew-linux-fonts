@@ -1,10 +1,10 @@
 class FontHanuman < Formula
-  head "https://github.com/google/fonts/trunk/ofl/hanuman", using: :svn, revision: "50", trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/hanuman", using: :svn, trust_cert: true
   desc "Hanuman"
-  homepage "https://www.google.com/fonts/specimen/Hanuman"
+  homepage "https://fonts.google.com/specimen/Hanuman"
   def install
-    (share/"fonts").install "Hanuman.ttf"
-    (share/"fonts").install "Hanumanb.ttf"
+    (share/"fonts").install "Hanuman-Bold.ttf"
+    (share/"fonts").install "Hanuman-Regular.ttf"
   end
   test do
   end
