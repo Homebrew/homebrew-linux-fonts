@@ -1,7 +1,7 @@
 class FontOverlock < Formula
-  head "https://github.com/google/fonts/trunk/ofl/overlock", using: :svn, revision: "50", trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/overlock", using: :svn, trust_cert: true
   desc "Overlock"
-  homepage "https://www.google.com/fonts/specimen/Overlock"
+  homepage "https://fonts.google.com/specimen/Overlock"
   def install
     (share/"fonts").install "Overlock-Black.ttf"
     (share/"fonts").install "Overlock-BlackItalic.ttf"
