@@ -1,7 +1,7 @@
 class FontContent < Formula
-  head "https://github.com/google/fonts/trunk/ofl/content", using: :svn, revision: "50", trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/content", using: :svn, trust_cert: true
   desc "Content"
-  homepage "https://www.google.com/fonts/specimen/Content"
+  homepage "https://fonts.google.com/specimen/Content"
   def install
     (share/"fonts").install "Content-Bold.ttf"
     (share/"fonts").install "Content-Regular.ttf"
