@@ -1,7 +1,7 @@
 class FontMontserratSubrayada < Formula
-  head "https://github.com/google/fonts/trunk/ofl/montserratsubrayada", using: :svn, revision: "50", trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/montserratsubrayada", using: :svn, trust_cert: true
   desc "Montserrat Subrayada"
-  homepage "https://www.google.com/fonts/specimen/Montserrat%20Subrayada"
+  homepage "https://fonts.google.com/specimen/Montserrat+Subrayada"
   def install
     (share/"fonts").install "MontserratSubrayada-Bold.ttf"
     (share/"fonts").install "MontserratSubrayada-Regular.ttf"
