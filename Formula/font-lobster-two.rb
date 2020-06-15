@@ -1,7 +1,7 @@
 class FontLobsterTwo < Formula
-  head "https://github.com/google/fonts/trunk/ofl/lobstertwo", using: :svn, revision: "50", trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/lobstertwo", using: :svn, trust_cert: true
   desc "Lobster Two"
-  homepage "https://www.google.com/fonts/specimen/Lobster%20Two"
+  homepage "https://fonts.google.com/specimen/Lobster+Two"
   def install
     (share/"fonts").install "LobsterTwo-Bold.ttf"
     (share/"fonts").install "LobsterTwo-BoldItalic.ttf"
