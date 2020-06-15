@@ -1,7 +1,7 @@
 class FontMate < Formula
-  head "https://github.com/google/fonts/trunk/ofl/mate", using: :svn, revision: "50", trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/mate", using: :svn, trust_cert: true
   desc "Mate"
-  homepage "https://www.google.com/fonts/specimen/Mate"
+  homepage "https://fonts.google.com/specimen/Mate"
   def install
     (share/"fonts").install "Mate-Italic.ttf"
     (share/"fonts").install "Mate-Regular.ttf"
