@@ -1,7 +1,7 @@
 class FontNeuton < Formula
-  head "https://github.com/google/fonts/trunk/ofl/neuton", using: :svn, revision: "50", trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/neuton", using: :svn, trust_cert: true
   desc "Neuton"
-  homepage "https://www.google.com/fonts/specimen/Neuton"
+  homepage "https://fonts.google.com/specimen/Neuton"
   def install
     (share/"fonts").install "Neuton-Bold.ttf"
     (share/"fonts").install "Neuton-ExtraBold.ttf"
