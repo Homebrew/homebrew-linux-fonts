@@ -1,7 +1,7 @@
 class FontAllan < Formula
-  head "https://github.com/google/fonts/trunk/ofl/allan", using: :svn, revision: "50", trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/allan", using: :svn, trust_cert: true
   desc "Allan"
-  homepage "https://www.google.com/fonts/specimen/Allan"
+  homepage "https://fonts.google.com/specimen/Allan"
   def install
     (share/"fonts").install "Allan-Bold.ttf"
     (share/"fonts").install "Allan-Regular.ttf"
