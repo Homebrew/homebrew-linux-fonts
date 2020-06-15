@@ -1,11 +1,9 @@
 class FontComfortaa < Formula
-  head "https://github.com/google/fonts/trunk/ofl/comfortaa", using: :svn, revision: "50", trust_cert: true
+  head "https://github.com/google/fonts/raw/master/ofl/comfortaa/Comfortaa%5Bwght%5D.ttf"
   desc "Comfortaa"
-  homepage "https://www.google.com/fonts/specimen/Comfortaa"
+  homepage "https://fonts.google.com/specimen/Comfortaa"
   def install
-    (share/"fonts").install "Comfortaa-Bold.ttf"
-    (share/"fonts").install "Comfortaa-Light.ttf"
-    (share/"fonts").install "Comfortaa-Regular.ttf"
+    (share/"fonts").install "Comfortaa[wght].ttf"
   end
   test do
   end
