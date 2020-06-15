@@ -1,7 +1,7 @@
 class FontArvo < Formula
-  head "https://github.com/google/fonts/trunk/ofl/arvo", using: :svn, revision: "50", trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/arvo", using: :svn, trust_cert: true
   desc "Arvo"
-  homepage "https://www.google.com/fonts/specimen/Arvo"
+  homepage "https://fonts.google.com/specimen/Arvo"
   def install
     (share/"fonts").install "Arvo-Bold.ttf"
     (share/"fonts").install "Arvo-BoldItalic.ttf"
