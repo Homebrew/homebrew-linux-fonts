@@ -1,7 +1,7 @@
 class FontCoustard < Formula
-  head "https://github.com/google/fonts/trunk/ofl/coustard", using: :svn, revision: "50", trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/coustard", using: :svn, trust_cert: true
   desc "Coustard"
-  homepage "https://www.google.com/fonts/specimen/Coustard"
+  homepage "https://fonts.google.com/specimen/Coustard"
   def install
     (share/"fonts").install "Coustard-Black.ttf"
     (share/"fonts").install "Coustard-Regular.ttf"
