@@ -1,12 +1,9 @@
 class FontMavenPro < Formula
-  head "https://github.com/google/fonts/trunk/ofl/mavenpro", using: :svn, revision: "50", trust_cert: true
+  head "https://github.com/google/fonts/raw/master/ofl/mavenpro/MavenPro%5Bwght%5D.ttf"
   desc "Maven Pro"
-  homepage "https://www.google.com/fonts/specimen/Maven%20Pro"
+  homepage "https://fonts.google.com/specimen/Maven+Pro"
   def install
-    (share/"fonts").install "MavenPro-Black.ttf"
-    (share/"fonts").install "MavenPro-Bold.ttf"
-    (share/"fonts").install "MavenPro-Medium.ttf"
-    (share/"fonts").install "MavenPro-Regular.ttf"
+    (share/"fonts").install "MavenPro[wght].ttf"
   end
   test do
   end
