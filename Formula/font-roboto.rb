@@ -1,20 +1,10 @@
 class FontRoboto < Formula
-  head "https://github.com/google/fonts/trunk/ofl/roboto/static", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/roboto", using: :svn, trust_cert: true
   desc "Roboto"
-  homepage "https://www.google.com/fonts/specimen/Roboto"
+  homepage "https://fonts.google.com/specimen/Roboto"
   def install
-    (share/"fonts").install "Roboto-Black.ttf"
-    (share/"fonts").install "Roboto-BlackItalic.ttf"
-    (share/"fonts").install "Roboto-Bold.ttf"
-    (share/"fonts").install "Roboto-BoldItalic.ttf"
-    (share/"fonts").install "Roboto-Italic.ttf"
-    (share/"fonts").install "Roboto-Light.ttf"
-    (share/"fonts").install "Roboto-LightItalic.ttf"
-    (share/"fonts").install "Roboto-Medium.ttf"
-    (share/"fonts").install "Roboto-MediumItalic.ttf"
-    (share/"fonts").install "Roboto-Regular.ttf"
-    (share/"fonts").install "Roboto-Thin.ttf"
-    (share/"fonts").install "Roboto-ThinItalic.ttf"
+    (share/"fonts").install "Roboto-Italic[wdth,wght].ttf"
+    (share/"fonts").install "Roboto[wdth,wght].ttf"
   end
   test do
   end
