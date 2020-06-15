@@ -1,7 +1,7 @@
 class FontNobile < Formula
-  head "https://github.com/google/fonts/trunk/ofl/nobile", using: :svn, revision: "50", trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/nobile", using: :svn, trust_cert: true
   desc "Nobile"
-  homepage "https://www.google.com/fonts/specimen/Nobile"
+  homepage "https://fonts.google.com/specimen/Nobile"
   def install
     (share/"fonts").install "Nobile-Bold.ttf"
     (share/"fonts").install "Nobile-BoldItalic.ttf"
