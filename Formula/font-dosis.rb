@@ -1,15 +1,9 @@
 class FontDosis < Formula
-  head "https://github.com/google/fonts/trunk/ofl/dosis", using: :svn, revision: "50", trust_cert: true
+  head "https://github.com/google/fonts/raw/master/ofl/dosis/Dosis%5Bwght%5D.ttf"
   desc "Dosis"
-  homepage "https://www.google.com/fonts/specimen/Dosis"
+  homepage "https://fonts.google.com/specimen/Dosis"
   def install
-    (share/"fonts").install "Dosis-Bold.ttf"
-    (share/"fonts").install "Dosis-ExtraBold.ttf"
-    (share/"fonts").install "Dosis-ExtraLight.ttf"
-    (share/"fonts").install "Dosis-Light.ttf"
-    (share/"fonts").install "Dosis-Medium.ttf"
-    (share/"fonts").install "Dosis-Regular.ttf"
-    (share/"fonts").install "Dosis-SemiBold.ttf"
+    (share/"fonts").install "Dosis[wght].ttf"
   end
   test do
   end
