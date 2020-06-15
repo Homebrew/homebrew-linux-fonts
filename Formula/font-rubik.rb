@@ -1,19 +1,18 @@
 class FontRubik < Formula
-  head "https://github.com/googlefonts/rubik/archive/master.zip"
+  head "https://github.com/google/fonts/trunk/ofl/rubik", using: :svn, trust_cert: true
   desc "Rubik"
-  homepage "https://www.google.com/fonts/specimen/Rubik"
+  homepage "https://fonts.google.com/specimen/Rubik"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}rubik-master/fonts/ttf/Rubik-Black.ttf"
-    (share/"fonts").install "#{parent}rubik-master/fonts/ttf/Rubik-BlackItalic.ttf"
-    (share/"fonts").install "#{parent}rubik-master/fonts/ttf/Rubik-Bold.ttf"
-    (share/"fonts").install "#{parent}rubik-master/fonts/ttf/Rubik-BoldItalic.ttf"
-    (share/"fonts").install "#{parent}rubik-master/fonts/ttf/Rubik-Italic.ttf"
-    (share/"fonts").install "#{parent}rubik-master/fonts/ttf/Rubik-Light.ttf"
-    (share/"fonts").install "#{parent}rubik-master/fonts/ttf/Rubik-LightItalic.ttf"
-    (share/"fonts").install "#{parent}rubik-master/fonts/ttf/Rubik-Medium.ttf"
-    (share/"fonts").install "#{parent}rubik-master/fonts/ttf/Rubik-MediumItalic.ttf"
-    (share/"fonts").install "#{parent}rubik-master/fonts/ttf/Rubik-Regular.ttf"
+    (share/"fonts").install "Rubik-Black.ttf"
+    (share/"fonts").install "Rubik-BlackItalic.ttf"
+    (share/"fonts").install "Rubik-Bold.ttf"
+    (share/"fonts").install "Rubik-BoldItalic.ttf"
+    (share/"fonts").install "Rubik-Italic.ttf"
+    (share/"fonts").install "Rubik-Light.ttf"
+    (share/"fonts").install "Rubik-LightItalic.ttf"
+    (share/"fonts").install "Rubik-Medium.ttf"
+    (share/"fonts").install "Rubik-MediumItalic.ttf"
+    (share/"fonts").install "Rubik-Regular.ttf"
   end
   test do
   end
