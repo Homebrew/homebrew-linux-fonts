@@ -1,11 +1,9 @@
 class FontKreon < Formula
-  head "https://github.com/google/fonts/trunk/ofl/kreon", using: :svn, revision: "50", trust_cert: true
+  head "https://github.com/google/fonts/raw/master/ofl/kreon/Kreon%5Bwght%5D.ttf"
   desc "Kreon"
-  homepage "https://www.google.com/fonts/specimen/Kreon"
+  homepage "https://fonts.google.com/specimen/Kreon"
   def install
-    (share/"fonts").install "Kreon-Bold.ttf"
-    (share/"fonts").install "Kreon-Light.ttf"
-    (share/"fonts").install "Kreon-Regular.ttf"
+    (share/"fonts").install "Kreon[wght].ttf"
   end
   test do
   end
