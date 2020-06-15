@@ -1,10 +1,9 @@
 class FontDancingScript < Formula
-  head "https://github.com/google/fonts/trunk/ofl/dancingscript", using: :svn, revision: "50", trust_cert: true
+  head "https://github.com/google/fonts/raw/master/ofl/dancingscript/DancingScript%5Bwght%5D.ttf"
   desc "Dancing Script"
-  homepage "https://www.google.com/fonts/specimen/Dancing%20Script"
+  homepage "https://fonts.google.com/specimen/Dancing+Script"
   def install
-    (share/"fonts").install "DancingScript-Bold.ttf"
-    (share/"fonts").install "DancingScript-Regular.ttf"
+    (share/"fonts").install "DancingScript[wght].ttf"
   end
   test do
   end
