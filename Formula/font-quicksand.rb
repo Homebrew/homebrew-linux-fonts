@@ -1,14 +1,9 @@
 class FontQuicksand < Formula
-  head "https://github.com/google/fonts/trunk/ofl/quicksand", using: :svn, revision: "50", trust_cert: true
+  head "https://github.com/google/fonts/raw/master/ofl/quicksand/Quicksand%5Bwght%5D.ttf"
   desc "Quicksand"
-  homepage "https://www.google.com/fonts/specimen/Quicksand"
+  homepage "https://fonts.google.com/specimen/Quicksand"
   def install
-    (share/"fonts").install "Quicksand-Bold.ttf"
-    (share/"fonts").install "Quicksand-BoldItalic.ttf"
-    (share/"fonts").install "Quicksand-Italic.ttf"
-    (share/"fonts").install "Quicksand-Light.ttf"
-    (share/"fonts").install "Quicksand-LightItalic.ttf"
-    (share/"fonts").install "Quicksand-Regular.ttf"
+    (share/"fonts").install "Quicksand[wght].ttf"
   end
   test do
   end
