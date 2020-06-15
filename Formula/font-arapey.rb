@@ -1,7 +1,7 @@
 class FontArapey < Formula
-  head "https://github.com/google/fonts/trunk/ofl/arapey", using: :svn, revision: "50", trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/arapey", using: :svn, trust_cert: true
   desc "Arapey"
-  homepage "https://www.google.com/fonts/specimen/Arapey"
+  homepage "https://fonts.google.com/specimen/Arapey"
   def install
     (share/"fonts").install "Arapey-Italic.ttf"
     (share/"fonts").install "Arapey-Regular.ttf"
