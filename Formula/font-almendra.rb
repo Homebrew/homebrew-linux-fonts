@@ -1,7 +1,7 @@
 class FontAlmendra < Formula
-  head "https://github.com/google/fonts/trunk/ofl/almendra", using: :svn, revision: "50", trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/almendra", using: :svn, trust_cert: true
   desc "Almendra"
-  homepage "https://www.google.com/fonts/specimen/Almendra"
+  homepage "https://fonts.google.com/specimen/Almendra"
   def install
     (share/"fonts").install "Almendra-Bold.ttf"
     (share/"fonts").install "Almendra-BoldItalic.ttf"
