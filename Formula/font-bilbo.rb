@@ -1,7 +1,7 @@
 class FontBilbo < Formula
   head "https://github.com/google/fonts/raw/master/ofl/bilbo/Bilbo-Regular.ttf"
   desc "Bilbo"
-  homepage "https://www.google.com/fonts/specimen/Bilbo"
+  homepage "https://fonts.google.com/specimen/Bilbo"
   def install
     (share/"fonts").install "Bilbo-Regular.ttf"
   end
