@@ -1,7 +1,7 @@
 class FontAveriaSerifLibre < Formula
-  head "https://github.com/google/fonts/trunk/ofl/averiaseriflibre", using: :svn, revision: "50", trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/averiaseriflibre", using: :svn, trust_cert: true
   desc "Averia Serif Libre"
-  homepage "https://www.google.com/fonts/specimen/Averia%20Serif%20Libre"
+  homepage "https://fonts.google.com/specimen/Averia+Serif+Libre"
   def install
     (share/"fonts").install "AveriaSerifLibre-Bold.ttf"
     (share/"fonts").install "AveriaSerifLibre-BoldItalic.ttf"
