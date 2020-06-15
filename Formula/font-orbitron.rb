@@ -1,12 +1,9 @@
 class FontOrbitron < Formula
-  head "https://github.com/google/fonts/trunk/ofl/orbitron", using: :svn, revision: "50", trust_cert: true
+  head "https://github.com/google/fonts/raw/master/ofl/orbitron/Orbitron%5Bwght%5D.ttf"
   desc "Orbitron"
-  homepage "https://www.google.com/fonts/specimen/Orbitron"
+  homepage "https://fonts.google.com/specimen/Orbitron"
   def install
-    (share/"fonts").install "Orbitron-Black.ttf"
-    (share/"fonts").install "Orbitron-Bold.ttf"
-    (share/"fonts").install "Orbitron-Medium.ttf"
-    (share/"fonts").install "Orbitron-Regular.ttf"
+    (share/"fonts").install "Orbitron[wght].ttf"
   end
   test do
   end
