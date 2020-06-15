@@ -1,12 +1,10 @@
 class FontKarla < Formula
-  head "https://github.com/google/fonts/trunk/ofl/karla", using: :svn, revision: "50", trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/karla", using: :svn, trust_cert: true
   desc "Karla"
-  homepage "https://www.google.com/fonts/specimen/Karla"
+  homepage "https://fonts.google.com/specimen/Karla"
   def install
-    (share/"fonts").install "Karla-Bold.ttf"
-    (share/"fonts").install "Karla-BoldItalic.ttf"
-    (share/"fonts").install "Karla-Italic.ttf"
-    (share/"fonts").install "Karla-Regular.ttf"
+    (share/"fonts").install "Karla-Italic[wght].ttf"
+    (share/"fonts").install "Karla[wght].ttf"
   end
   test do
   end
