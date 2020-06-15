@@ -1,10 +1,9 @@
 class FontDomine < Formula
-  head "https://github.com/google/fonts/trunk/ofl/domine", using: :svn, revision: "50", trust_cert: true
+  head "https://github.com/google/fonts/raw/master/ofl/domine/Domine%5Bwght%5D.ttf"
   desc "Domine"
-  homepage "https://www.google.com/fonts/specimen/Domine"
+  homepage "https://fonts.google.com/specimen/Domine"
   def install
-    (share/"fonts").install "Domine-Bold.ttf"
-    (share/"fonts").install "Domine-Regular.ttf"
+    (share/"fonts").install "Domine[wght].ttf"
   end
   test do
   end
