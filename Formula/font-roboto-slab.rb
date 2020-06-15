@@ -1,12 +1,9 @@
 class FontRobotoSlab < Formula
-  head "https://github.com/google/fonts/trunk/apache/robotoslab/static", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/raw/master/apache/robotoslab/RobotoSlab%5Bwght%5D.ttf"
   desc "Roboto Slab"
-  homepage "https://www.google.com/fonts/specimen/Roboto%20Slab"
+  homepage "https://fonts.google.com/specimen/Roboto+Slab"
   def install
-    (share/"fonts").install "RobotoSlab-Bold.ttf"
-    (share/"fonts").install "RobotoSlab-Light.ttf"
-    (share/"fonts").install "RobotoSlab-Regular.ttf"
-    (share/"fonts").install "RobotoSlab-Thin.ttf"
+    (share/"fonts").install "RobotoSlab[wght].ttf"
   end
   test do
   end
