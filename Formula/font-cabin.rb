@@ -1,7 +1,7 @@
 class FontCabin < Formula
-  head "https://github.com/google/fonts/trunk/ofl/cabin", using: :svn, revision: "50", trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/cabin", using: :svn, trust_cert: true
   desc "Cabin"
-  homepage "https://www.google.com/fonts/specimen/Cabin"
+  homepage "https://fonts.google.com/specimen/Cabin"
   def install
     (share/"fonts").install "Cabin-Bold.ttf"
     (share/"fonts").install "Cabin-BoldItalic.ttf"
