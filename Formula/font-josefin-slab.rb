@@ -1,7 +1,7 @@
 class FontJosefinSlab < Formula
-  head "https://github.com/google/fonts/trunk/ofl/josefinslab", using: :svn, revision: "50", trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/josefinslab", using: :svn, trust_cert: true
   desc "Josefin Slab"
-  homepage "https://www.google.com/fonts/specimen/Josefin%20Slab"
+  homepage "https://fonts.google.com/specimen/Josefin+Slab"
   def install
     (share/"fonts").install "JosefinSlab-Bold.ttf"
     (share/"fonts").install "JosefinSlab-BoldItalic.ttf"
