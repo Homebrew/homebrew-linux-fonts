@@ -1,7 +1,7 @@
 class FontPassionOne < Formula
-  head "https://github.com/google/fonts/trunk/ofl/passionone", using: :svn, revision: "50", trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/passionone", using: :svn, trust_cert: true
   desc "Passion One"
-  homepage "https://www.google.com/fonts/specimen/Passion%20One"
+  homepage "https://fonts.google.com/specimen/Passion+One"
   def install
     (share/"fonts").install "PassionOne-Black.ttf"
     (share/"fonts").install "PassionOne-Bold.ttf"
