@@ -1,14 +1,9 @@
 class FontOswald < Formula
-  head "https://github.com/google/fonts/trunk/ofl/oswald", using: :svn, revision: "1208", trust_cert: true
+  head "https://github.com/google/fonts/raw/master/ofl/oswald/Oswald%5Bwght%5D.ttf"
   desc "Oswald"
-  homepage "https://www.google.com/fonts/specimen/Oswald"
+  homepage "https://fonts.google.com/specimen/Oswald"
   def install
-    (share/"fonts").install "Oswald-Bold.ttf"
-    (share/"fonts").install "Oswald-ExtraLight.ttf"
-    (share/"fonts").install "Oswald-Light.ttf"
-    (share/"fonts").install "Oswald-Medium.ttf"
-    (share/"fonts").install "Oswald-Regular.ttf"
-    (share/"fonts").install "Oswald-SemiBold.ttf"
+    (share/"fonts").install "Oswald[wght].ttf"
   end
   test do
   end
