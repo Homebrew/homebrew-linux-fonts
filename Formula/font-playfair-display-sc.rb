@@ -1,7 +1,7 @@
 class FontPlayfairDisplaySc < Formula
-  head "https://github.com/google/fonts/trunk/ofl/playfairdisplaysc", using: :svn, revision: "50", trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/playfairdisplaysc", using: :svn, trust_cert: true
   desc "Playfair Display SC"
-  homepage "https://www.google.com/fonts/specimen/Playfair%20Display%20SC"
+  homepage "https://fonts.google.com/specimen/Playfair+Display+SC"
   def install
     (share/"fonts").install "PlayfairDisplaySC-Black.ttf"
     (share/"fonts").install "PlayfairDisplaySC-BlackItalic.ttf"
