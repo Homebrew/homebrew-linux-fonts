@@ -1,11 +1,8 @@
 class FontAndada < Formula
-  head "https://github.com/google/fonts/trunk/ofl/andada", using: :svn, revision: "50", trust_cert: true
+  head "https://github.com/google/fonts/raw/master/ofl/andada/Andada-Regular.ttf"
   desc "Andada"
-  homepage "https://www.google.com/fonts/specimen/Andada"
+  homepage "https://fonts.google.com/specimen/Andada"
   def install
-    (share/"fonts").install "Andada-Bold.ttf"
-    (share/"fonts").install "Andada-BoldItalic.ttf"
-    (share/"fonts").install "Andada-Italic.ttf"
     (share/"fonts").install "Andada-Regular.ttf"
   end
   test do
