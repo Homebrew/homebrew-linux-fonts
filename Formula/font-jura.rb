@@ -1,12 +1,9 @@
 class FontJura < Formula
-  head "https://github.com/google/fonts/trunk/ofl/jura", using: :svn, revision: "50", trust_cert: true
+  head "https://github.com/google/fonts/raw/master/ofl/jura/Jura%5Bwght%5D.ttf"
   desc "Jura"
-  homepage "https://www.google.com/fonts/specimen/Jura"
+  homepage "https://fonts.google.com/specimen/Jura"
   def install
-    (share/"fonts").install "Jura-DemiBold.ttf"
-    (share/"fonts").install "Jura-Light.ttf"
-    (share/"fonts").install "Jura-Medium.ttf"
-    (share/"fonts").install "Jura-Regular.ttf"
+    (share/"fonts").install "Jura[wght].ttf"
   end
   test do
   end
