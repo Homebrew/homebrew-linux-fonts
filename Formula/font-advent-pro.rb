@@ -1,7 +1,7 @@
 class FontAdventPro < Formula
-  head "https://github.com/google/fonts/trunk/ofl/adventpro", using: :svn, revision: "50", trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/adventpro", using: :svn, trust_cert: true
   desc "Advent Pro"
-  homepage "https://www.google.com/fonts/specimen/Advent%20Pro"
+  homepage "https://fonts.google.com/specimen/Advent+Pro"
   def install
     (share/"fonts").install "AdventPro-Bold.ttf"
     (share/"fonts").install "AdventPro-ExtraLight.ttf"
