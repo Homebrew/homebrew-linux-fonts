@@ -6,14 +6,6 @@ class FontLeagueSpartan < Formula
   homepage "https://www.theleagueofmoveabletype.com/league-spartan"
   def install
     parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}league-spartan-#{version}/fonts/static/otf/LeagueSpartan-Black.otf"
-    (share/"fonts").install "#{parent}league-spartan-#{version}/fonts/static/otf/LeagueSpartan-Bold.otf"
-    (share/"fonts").install "#{parent}league-spartan-#{version}/fonts/static/otf/LeagueSpartan-Extrabold.otf"
-    (share/"fonts").install "#{parent}league-spartan-#{version}/fonts/static/otf/LeagueSpartan-Extralight.otf"
-    (share/"fonts").install "#{parent}league-spartan-#{version}/fonts/static/otf/LeagueSpartan-Light.otf"
-    (share/"fonts").install "#{parent}league-spartan-#{version}/fonts/static/otf/LeagueSpartan-Medium.otf"
-    (share/"fonts").install "#{parent}league-spartan-#{version}/fonts/static/otf/LeagueSpartan-Regular.otf"
-    (share/"fonts").install "#{parent}league-spartan-#{version}/fonts/static/otf/LeagueSpartan-Semibold.otf"
     (share/"fonts").install "#{parent}league-spartan-#{version}/fonts/variable/LeagueSpartanVariable.ttf"
   end
   test do
