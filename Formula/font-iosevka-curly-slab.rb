@@ -1,6 +1,6 @@
 class FontIosevkaCurlySlab < Formula
-  version "3.2.0"
-  sha256 "803b7b2f1c4d80231c683b989b4369b584852e9fd2d05b4138a55debc5f1512d"
+  version "3.2.2"
+  sha256 "f8a474d6c35996dd8cd4f2883c3a713daf8da5ec601e01efe7fd4c3ba82c59c8"
   url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/ttc-iosevka-curly-slab-#{version}.zip"
   desc "Iosevka Curly Slab"
   homepage "https://github.com/be5invis/Iosevka/"
