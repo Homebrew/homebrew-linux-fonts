@@ -1,6 +1,6 @@
 class FontIosevkaSparkle < Formula
-  version "3.2.0"
-  sha256 "1f6ffb668f8136668223abbae181949d5ab875ebf45533fb2c4bb1904dd98fa0"
+  version "3.2.2"
+  sha256 "0360dc0922f501013072520433ba2c7ad90084e880e2095a2516fa878d4c3ab0"
   url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/ttc-iosevka-sparkle-#{version}.zip"
   desc "Iosevka Sparkle"
   homepage "https://github.com/be5invis/Iosevka/"
