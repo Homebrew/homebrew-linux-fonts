@@ -1,6 +1,6 @@
 class FontIosevkaAile < Formula
-  version "3.1.1"
-  sha256 "5b23389ff2aafa8c0791fe9434e4a08451aa5c50c78c26743acb5a4fa1427f96"
+  version "3.2.2"
+  sha256 "a57d54dda7e1ff5e87d6bfb030225bc37a1b6df223b92f91457c38f6887de0fd"
   url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/ttc-iosevka-aile-#{version}.zip"
   desc "Iosevka Aile"
   homepage "https://github.com/be5invis/Iosevka/"
