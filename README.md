@@ -19,11 +19,18 @@ $ brew install font-inconsolata --HEAD
 
 ## Working with fontconfig
 
-If you're using major distributions, just type;
+If you're using major distributions, in single-user installation just type;
 
 ```
 $ ln -s /home/linuxbrew/.linuxbrew/share/fonts ~/.local/share/fonts
 $ fc-cache -fv
+```
+
+For multi-user installation (requires sudo) type;
+
+```
+$ sudo ln -s /home/linuxbrew/.linuxbrew/share/fonts /usr/local/share/fonts/
+$ sudo fc-cache -fv
 ```
 
 Then you can use the new font installed by `brew`.
