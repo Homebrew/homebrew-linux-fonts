@@ -1,12 +1,10 @@
 class FontSignika < Formula
-  head "https://github.com/google/fonts/trunk/ofl/signika", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/raw/master/ofl/signika/Signika%5Bwght%5D.ttf"
   desc "Signika"
+  desc "Sans-serif signage typeface with a gentle character"
   homepage "https://fonts.google.com/specimen/Signika"
   def install
-    (share/"fonts").install "Signika-Bold.ttf"
-    (share/"fonts").install "Signika-Light.ttf"
-    (share/"fonts").install "Signika-Regular.ttf"
-    (share/"fonts").install "Signika-SemiBold.ttf"
+    (share/"fonts").install "Signika[wght].ttf"
   end
   test do
   end
