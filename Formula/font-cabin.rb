@@ -3,14 +3,8 @@ class FontCabin < Formula
   desc "Cabin"
   homepage "https://fonts.google.com/specimen/Cabin"
   def install
-    (share/"fonts").install "Cabin-Bold.ttf"
-    (share/"fonts").install "Cabin-BoldItalic.ttf"
-    (share/"fonts").install "Cabin-Italic.ttf"
-    (share/"fonts").install "Cabin-Medium.ttf"
-    (share/"fonts").install "Cabin-MediumItalic.ttf"
-    (share/"fonts").install "Cabin-Regular.ttf"
-    (share/"fonts").install "Cabin-SemiBold.ttf"
-    (share/"fonts").install "Cabin-SemiBoldItalic.ttf"
+    (share/"fonts").install "Cabin-Italic[wdth,wght].ttf"
+    (share/"fonts").install "Cabin[wdth,wght].ttf"
   end
   test do
   end
