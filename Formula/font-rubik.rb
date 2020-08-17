@@ -3,16 +3,8 @@ class FontRubik < Formula
   desc "Rubik"
   homepage "https://fonts.google.com/specimen/Rubik"
   def install
-    (share/"fonts").install "Rubik-Black.ttf"
-    (share/"fonts").install "Rubik-BlackItalic.ttf"
-    (share/"fonts").install "Rubik-Bold.ttf"
-    (share/"fonts").install "Rubik-BoldItalic.ttf"
-    (share/"fonts").install "Rubik-Italic.ttf"
-    (share/"fonts").install "Rubik-Light.ttf"
-    (share/"fonts").install "Rubik-LightItalic.ttf"
-    (share/"fonts").install "Rubik-Medium.ttf"
-    (share/"fonts").install "Rubik-MediumItalic.ttf"
-    (share/"fonts").install "Rubik-Regular.ttf"
+    (share/"fonts").install "Rubik-Italic[wght].ttf"
+    (share/"fonts").install "Rubik[wght].ttf"
   end
   test do
   end
