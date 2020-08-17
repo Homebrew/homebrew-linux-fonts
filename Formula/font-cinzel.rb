@@ -1,11 +1,9 @@
 class FontCinzel < Formula
-  head "https://github.com/google/fonts/trunk/ofl/cinzel", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/raw/master/ofl/cinzel/Cinzel%5Bwght%5D.ttf"
   desc "Cinzel"
   homepage "https://fonts.google.com/specimen/Cinzel"
   def install
-    (share/"fonts").install "Cinzel-Black.ttf"
-    (share/"fonts").install "Cinzel-Bold.ttf"
-    (share/"fonts").install "Cinzel-Regular.ttf"
+    (share/"fonts").install "Cinzel[wght].ttf"
   end
   test do
   end
