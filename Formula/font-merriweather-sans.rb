@@ -3,14 +3,8 @@ class FontMerriweatherSans < Formula
   desc "Merriweather Sans"
   homepage "https://fonts.google.com/specimen/Merriweather+Sans"
   def install
-    (share/"fonts").install "MerriweatherSans-Bold.ttf"
-    (share/"fonts").install "MerriweatherSans-BoldItalic.ttf"
-    (share/"fonts").install "MerriweatherSans-ExtraBold.ttf"
-    (share/"fonts").install "MerriweatherSans-ExtraBoldItalic.ttf"
-    (share/"fonts").install "MerriweatherSans-Italic.ttf"
-    (share/"fonts").install "MerriweatherSans-Light.ttf"
-    (share/"fonts").install "MerriweatherSans-LightItalic.ttf"
-    (share/"fonts").install "MerriweatherSans-Regular.ttf"
+    (share/"fonts").install "MerriweatherSans-Italic[wght].ttf"
+    (share/"fonts").install "MerriweatherSans[wght].ttf"
   end
   test do
   end
