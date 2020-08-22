@@ -1,5 +1,5 @@
 class FontRoboto < Formula
-  head "https://github.com/google/fonts/trunk/ofl/roboto", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/apache/roboto", using: :svn, trust_cert: true
   desc "Roboto"
   homepage "https://fonts.google.com/specimen/Roboto"
   def install
