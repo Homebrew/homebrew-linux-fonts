@@ -3,7 +3,7 @@ class FontGnuUnifont < Formula
   sha256 "071e2ca005d97d72e79b8cb68df886f1f730cb5f0e7739a4c6e8d068ded28212"
   url "https://ftpmirror.gnu.org/unifont/unifont-#{version}/unifont-#{version}.tar.gz"
   desc "GNU Unifont"
-  homepage "http://unifoundry.com/unifont.html"
+  homepage "https://unifoundry.com/unifont.html"
   def install
     parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}unifont-#{version}/font/precompiled/unifont-#{version}.ttf"
