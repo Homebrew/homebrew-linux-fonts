@@ -1,6 +1,6 @@
 class FontCascadiaCode < Formula
-  version "2009.21"
-  sha256 "caf14bc8bba076d6c2c593dc70239f646e7f2e02702e5dca80e35607f7aa839b"
+  version "2009.14"
+  sha256 "7a08523d2d68ef3c6efdd5336dd49aa2698dd348fa4734463a17719632bbc3c8"
   url "https://github.com/microsoft/cascadia-code/releases/download/v#{version}/CascadiaCode-#{version}.zip"
   desc "Cascadia Code"
   desc "Monospaced font that includes programming ligatures"
