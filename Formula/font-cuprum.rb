@@ -3,10 +3,8 @@ class FontCuprum < Formula
   desc "Cuprum"
   homepage "https://fonts.google.com/specimen/Cuprum"
   def install
-    (share/"fonts").install "Cuprum-Bold.ttf"
-    (share/"fonts").install "Cuprum-BoldItalic.ttf"
-    (share/"fonts").install "Cuprum-Italic.ttf"
-    (share/"fonts").install "Cuprum-Regular.ttf"
+    (share/"fonts").install "Cuprum-Italic[wght].ttf"
+    (share/"fonts").install "Cuprum[wght].ttf"
   end
   test do
   end
