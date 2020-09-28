@@ -1,7 +1,7 @@
 class FontSansForgetica < Formula
-  head "https://sansforgetica.rmit/Common/Zips/Sans%20Forgetica.zip"
+  head "https://sansforgetica.rmit.edu.au/Common/Zips/Sans%20Forgetica.zip"
   desc "Sans Forgetica"
-  homepage "https://sansforgetica.rmit/"
+  homepage "https://sansforgetica.rmit.edu.au/"
   def install
     parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}Sans Forgetica/SansForgetica-Regular.otf"
