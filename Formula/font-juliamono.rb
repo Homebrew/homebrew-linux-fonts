@@ -1,6 +1,6 @@
 class FontJuliamono < Formula
-  version "0.015"
-  sha256 "e43f70405db03ba430df3ab47a1987cd29277c7168a2af665595f1661ed8de6a"
+  version "0.017"
+  sha256 "924d3bb8858c42a1934ff9869d479d51e3392806fd96eb3d908c5e23c42a0b49"
   url "https://github.com/cormullion/juliamono/releases/download/v#{version}/JuliaMono.tar.gz"
   desc "JuliaMono"
   desc "Monospaced typeface designed for programming in Julia"
