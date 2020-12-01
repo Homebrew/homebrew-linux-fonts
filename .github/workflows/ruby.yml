@@ -13,7 +13,7 @@ jobs:
         ruby-version: 2.6.x
     - name: Configure git
       run: |
-        git config user.email 'mew@cat.ovh'
+        git config user.email 'm@docs.casa'
         git config user.name 'TANIGUCHI Masaya'
     - name: Build and test with Rake
       run: |
