@@ -3,12 +3,8 @@ class FontIbarraRealNova < Formula
   desc "Ibarra Real Nova"
   homepage "https://fonts.google.com/specimen/Ibarra+Real+Nova"
   def install
-    (share/"fonts").install "IbarraRealNova-Bold.ttf"
-    (share/"fonts").install "IbarraRealNova-BoldItalic.ttf"
-    (share/"fonts").install "IbarraRealNova-Italic.ttf"
-    (share/"fonts").install "IbarraRealNova-Regular.ttf"
-    (share/"fonts").install "IbarraRealNova-SemiBold.ttf"
-    (share/"fonts").install "IbarraRealNova-SemiBoldItalic.ttf"
+    (share/"fonts").install "IbarraRealNova-Italic[wght].ttf"
+    (share/"fonts").install "IbarraRealNova[wght].ttf"
   end
   test do
   end
