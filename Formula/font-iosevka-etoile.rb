@@ -1,6 +1,6 @@
 class FontIosevkaEtoile < Formula
-  version "3.7.1"
-  sha256 "6e4b9e5d043af9685d2610dccd78734ab2b66b1aaef79e352fdb2b695b9499a0"
+  version "4.0.0"
+  sha256 "5c634c862aa47ae29b018c559c8cb392a130058606227577246a4a6c4747db2f"
   url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/ttc-iosevka-etoile-#{version}.zip"
   desc "Iosevka Etoile"
   homepage "https://github.com/be5invis/Iosevka/"
