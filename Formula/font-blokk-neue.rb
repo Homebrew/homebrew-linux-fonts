@@ -1,10 +1,9 @@
 class FontBlokkNeue < Formula
-  head "http://www.blokkfont.com/cdn/v2/BLOKKNeue-Regular.zip"
+  head "https://github.com/los-gordos/BLOKK/blob/master/BLOKKNeue-Regular.otf"
   desc "BLOKK Neue"
-  homepage "http://blokkfont.com/"
+  homepage "https://github.com/los-gordos/BLOKK"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}BLOKKNeue-Regular/BLOKKNeue-Regular.otf"
+    (share/"fonts").install "BLOKKNeue-Regular.otf"
   end
   test do
   end
