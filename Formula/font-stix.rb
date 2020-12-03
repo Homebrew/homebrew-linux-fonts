@@ -1,8 +1,9 @@
 class FontStix < Formula
-  version "2.0.0"
-  sha256 "667e3187a22cc63ba0de7083fc69c7920737cd44a44ff5eb2921cbd188531aa9"
-  url "https://github.com/stipub/stixfonts/archive/#{version}.tar.gz"
+  version "2.0.2"
+  sha256 "b8eb0e63739e839ad620c82db1f6f38d8927f7fd30abcc8f147700ba3bc71918"
+  url "https://github.com/stipub/stixfonts/archive/v#{version}.tar.gz"
   desc "STIX"
+  desc "Unicode fonts for scientific, technical, and mathematical texts"
   homepage "https://stixfonts.org/"
   def install
     parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
