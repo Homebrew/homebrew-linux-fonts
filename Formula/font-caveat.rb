@@ -1,10 +1,9 @@
 class FontCaveat < Formula
-  head "https://github.com/google/fonts/trunk/ofl/caveat", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/raw/master/ofl/caveat/Caveat%5Bwght%5D.ttf"
   desc "Caveat"
   homepage "https://fonts.google.com/specimen/Caveat"
   def install
-    (share/"fonts").install "Caveat-Bold.ttf"
-    (share/"fonts").install "Caveat-Regular.ttf"
+    (share/"fonts").install "Caveat[wght].ttf"
   end
   test do
   end
