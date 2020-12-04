@@ -14,7 +14,7 @@ class FontSourceHanSerifSbH < Formula
     #{token} only installs the SemiBold, Bold, and Heavy weights.
     To install ExtraLight, Light, Regular, and Medium:
 
-      brew cask install font-source-han-serif-el-m
+      brew install font-source-han-serif-el-m
   EOS
   end
   test do
