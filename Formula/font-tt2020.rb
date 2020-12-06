@@ -15,9 +15,7 @@ class FontTt2020 < Formula
     (share/"fonts").install "#{parent}TT2020-#{version}/dist/TT2020StyleD-Regular.ttf"
     (share/"fonts").install "#{parent}TT2020-#{version}/dist/TT2020StyleE-Italic.ttf"
     (share/"fonts").install "#{parent}TT2020-#{version}/dist/TT2020StyleE-Regular.ttf"
-    (share/"fonts").install "#{parent}TT2020-#{version}/dist/TT2020StyleF-Regular-ASCII.ttf"
     (share/"fonts").install "#{parent}TT2020-#{version}/dist/TT2020StyleF-Regular.ttf"
-    (share/"fonts").install "#{parent}TT2020-#{version}/dist/TT2020StyleG-Regular-ASCII.ttf"
     (share/"fonts").install "#{parent}TT2020-#{version}/dist/TT2020StyleG-Regular.ttf"
   end
   test do
