@@ -1,8 +1,9 @@
 class FontIosevkaSparkle < Formula
-  version "4.0.1"
-  sha256 "b52f7079c9cee0cdd1b33573dae7e3caee52b3392610cf98a599ce1d83a3474b"
+  version "4.0.2"
+  sha256 "1318a53467becfbb278fd9cbed2a6aed9f75faa6dabec217c9b885ff574ccf59"
   url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/ttc-iosevka-sparkle-#{version}.zip"
   desc "Iosevka Sparkle"
+  desc "Sans-serif, slab-serif, monospace and quasi‑proportional typeface family"
   homepage "https://github.com/be5invis/Iosevka/"
   def install
     (share/"fonts").install "iosevka-sparkle-bold.ttc"
