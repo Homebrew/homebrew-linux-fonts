@@ -1,8 +1,9 @@
 class FontIosevkaSs11 < Formula
-  version "4.0.1"
-  sha256 "ed67c29733578d5c82cb5aaa59b51a705ba1fd264497cf58e418163f301a17f8"
+  version "4.0.2"
+  sha256 "d6fe67144c4d7ae21138b3770dc8489d4ec1e3f39f9c23f67b8c66bc2eb98f4d"
   url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/ttc-iosevka-ss11-#{version}.zip"
   desc "Iosevka SS11"
+  desc "Sans-serif, slab-serif, monospace and quasi‑proportional typeface family"
   homepage "https://github.com/be5invis/Iosevka/"
   def install
     (share/"fonts").install "iosevka-ss11-bold.ttc"
