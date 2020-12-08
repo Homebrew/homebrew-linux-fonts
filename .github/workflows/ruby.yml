@@ -20,7 +20,8 @@ jobs:
         git submodule update --init --remote
         gem install bundler
         bundle install --jobs 4 --retry 3
-        bundle exec ruby cask2formula
+        bundle exec ruby cask2formula convert
+        bundle exec ruby cask2formula commit
     - name: Clean Formula directory
       run: |
         comm -23 --nocheck-order <(ls -1 Formula) <(ls -1 homebrew-cask-fonts/Casks) | xargs -I{} sh -c 'git rm ./Formula/{} && git commit -m "Remove {}"'
