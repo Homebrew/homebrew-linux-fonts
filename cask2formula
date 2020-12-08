@@ -16,17 +16,17 @@ def replace_cask_version_properties(input_string)
 end
 
 class CaskParser < Parslet::Parser
-    rule(:space) { 
+    rule(:space) {
         match("[ \t\n]").repeat
     }
-    rule(:string) { 
-        ((str('"') >> (str('"').absent? >> any).repeat >> str('"')) |
+    rule(:string) {
+      ((str('"') >> ((str('#{') >> (str('}').absent? >> any).repeat >> str('}'))|(str('"').absent? >> any)).repeat >> str('"')) |
         (str("'") >> (str("'").absent? >> any).repeat >> str("'"))).as(:string)
     }
     rule(:word) {
         match("[0-9a-zA-Z_]").repeat(1)
     }
-    rule(:keyword) { 
+    rule(:keyword) {
         (str(":") >> word).as(:keyword)
     }
     rule(:pair) {
