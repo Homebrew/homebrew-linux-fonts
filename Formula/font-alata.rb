@@ -1,5 +1,5 @@
 class FontAlata < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/alata/Alata-Regular.ttf"
+  head "https://github.com/google/fonts/raw/master/ofl/alata/Alata-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Alata"
   homepage "https://fonts.google.com/specimen/Alata"
   def install
