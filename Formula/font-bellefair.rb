@@ -1,5 +1,5 @@
 class FontBellefair < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/bellefair/Bellefair-Regular.ttf"
+  head "https://github.com/google/fonts/raw/master/ofl/bellefair/Bellefair-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Bellefair"
   homepage "https://fonts.google.com/specimen/Bellefair"
   def install
