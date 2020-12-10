@@ -1,5 +1,5 @@
 class FontBhavuka < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/bhavuka/Bhavuka-Regular.ttf"
+  head "https://github.com/google/fonts/raw/master/ofl/bhavuka/Bhavuka-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Bhavuka"
   homepage "https://fonts.google.com/specimen/Bhavuka"
   def install
