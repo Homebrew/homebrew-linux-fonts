@@ -1,5 +1,5 @@
 class FontAndadaSc < Formula
-  head "https://github.com/google/fonts/trunk/ofl/andadasc", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/andadasc", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
   desc "Andada SC"
   homepage "https://fonts.google.com/specimen/Andada+SC"
   def install
