@@ -1,5 +1,5 @@
 class FontB612 < Formula
-  head "https://github.com/polarsys/b612/archive/master.zip"
+  head "https://github.com/polarsys/b612/archive/master.zip", verified: "github.com/polarsys/b612/"
   desc "B612"
   homepage "https://b612-font.com/"
   def install
