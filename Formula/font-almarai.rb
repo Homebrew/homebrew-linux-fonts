@@ -1,5 +1,5 @@
 class FontAlmarai < Formula
-  head "https://github.com/google/fonts/trunk/ofl/almarai", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/almarai", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
   desc "Almarai"
   homepage "https://fonts.google.com/specimen/Almarai"
   def install
