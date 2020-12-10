@@ -1,5 +1,5 @@
 class FontAmethysta < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/amethysta/Amethysta-Regular.ttf"
+  head "https://github.com/google/fonts/raw/master/ofl/amethysta/Amethysta-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Amethysta"
   homepage "https://fonts.google.com/specimen/Amethysta"
   def install
