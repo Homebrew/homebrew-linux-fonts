@@ -1,5 +1,5 @@
 class FontAdventPro < Formula
-  head "https://github.com/google/fonts/trunk/ofl/adventpro", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/adventpro", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
   desc "Advent Pro"
   homepage "https://fonts.google.com/specimen/Advent+Pro"
   def install
