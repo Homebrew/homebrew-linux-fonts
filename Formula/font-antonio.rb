@@ -1,5 +1,5 @@
 class FontAntonio < Formula
-  head "https://github.com/google/fonts/trunk/ofl/antonio", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/antonio", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
   desc "Antonio"
   homepage "https://fonts.google.com/specimen/Antonio"
   def install
