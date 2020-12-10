@@ -1,5 +1,5 @@
 class FontAsap < Formula
-  head "https://github.com/google/fonts/trunk/ofl/asap", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/asap", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
   desc "Asap"
   homepage "https://fonts.google.com/specimen/Asap"
   def install
