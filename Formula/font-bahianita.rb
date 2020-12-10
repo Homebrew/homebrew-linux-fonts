@@ -1,5 +1,5 @@
 class FontBahianita < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/bahianita/Bahianita-Regular.ttf"
+  head "https://github.com/google/fonts/raw/master/ofl/bahianita/Bahianita-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Bahianita"
   homepage "https://fonts.google.com/specimen/Bahianita"
   def install
