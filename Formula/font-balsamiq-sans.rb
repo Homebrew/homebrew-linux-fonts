@@ -1,5 +1,5 @@
 class FontBalsamiqSans < Formula
-  head "https://github.com/balsamiq/balsamiqsans/archive/master.zip"
+  head "https://github.com/balsamiq/balsamiqsans/archive/master.zip", verified: "github.com/balsamiq/balsamiqsans/"
   desc "Balsamiq Sans"
   homepage "https://balsamiq.com/givingback/opensource/font/"
   def install
