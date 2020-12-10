@@ -1,5 +1,5 @@
 class FontBayon < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/bayon/Bayon-Regular.ttf"
+  head "https://github.com/google/fonts/raw/master/ofl/bayon/Bayon-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Bayon"
   homepage "https://fonts.google.com/specimen/Bayon"
   def install
