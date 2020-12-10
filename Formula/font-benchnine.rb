@@ -1,5 +1,5 @@
 class FontBenchnine < Formula
-  head "https://github.com/google/fonts/trunk/ofl/benchnine", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/benchnine", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
   desc "BenchNine"
   homepage "https://fonts.google.com/specimen/BenchNine"
   def install
