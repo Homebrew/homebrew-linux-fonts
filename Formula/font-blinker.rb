@@ -1,5 +1,5 @@
 class FontBlinker < Formula
-  head "https://github.com/google/fonts/trunk/ofl/blinker", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/blinker", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
   desc "Blinker"
   homepage "https://fonts.google.com/specimen/Blinker"
   def install
