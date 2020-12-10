@@ -1,5 +1,5 @@
 class FontAnnieUseYourTelescope < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/annieuseyourtelescope/AnnieUseYourTelescope-Regular.ttf"
+  head "https://github.com/google/fonts/raw/master/ofl/annieuseyourtelescope/AnnieUseYourTelescope-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Annie Use Your Telescope"
   homepage "https://fonts.google.com/specimen/Annie+Use+Your+Telescope"
   def install
