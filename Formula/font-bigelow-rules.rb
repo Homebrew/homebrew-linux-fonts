@@ -1,5 +1,5 @@
 class FontBigelowRules < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/bigelowrules/BigelowRules-Regular.ttf"
+  head "https://github.com/google/fonts/raw/master/ofl/bigelowrules/BigelowRules-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Bigelow Rules"
   homepage "https://fonts.google.com/specimen/Bigelow+Rules"
   def install
