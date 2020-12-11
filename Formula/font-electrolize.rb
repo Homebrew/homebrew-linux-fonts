@@ -1,5 +1,5 @@
 class FontElectrolize < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/electrolize/Electrolize-Regular.ttf"
+  head "https://github.com/google/fonts/raw/master/ofl/electrolize/Electrolize-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Electrolize"
   homepage "https://fonts.google.com/specimen/Electrolize"
   def install
