@@ -1,5 +1,5 @@
 class FontGlegoo < Formula
-  head "https://github.com/google/fonts/trunk/ofl/glegoo", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/glegoo", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
   desc "Glegoo"
   homepage "https://fonts.google.com/specimen/Glegoo"
   def install
