@@ -1,5 +1,5 @@
 class FontEricaOne < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/ericaone/EricaOne-Regular.ttf"
+  head "https://github.com/google/fonts/raw/master/ofl/ericaone/EricaOne-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Erica One"
   homepage "https://fonts.google.com/specimen/Erica+One"
   def install
