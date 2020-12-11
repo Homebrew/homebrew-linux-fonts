@@ -1,5 +1,5 @@
 class FontGfsNeohellenic < Formula
-  head "https://github.com/google/fonts/trunk/ofl/gfsneohellenic", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/gfsneohellenic", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
   desc "GFS Neohellenic"
   homepage "https://fonts.google.com/specimen/GFS+Neohellenic"
   def install
