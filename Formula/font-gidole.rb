@@ -1,5 +1,5 @@
 class FontGidole < Formula
-  head "https://github.com/gidole/Gidole-Typefaces/raw/master/gidole.zip"
+  head "https://github.com/gidole/Gidole-Typefaces/raw/master/gidole.zip", verified: "github.com/gidole/"
   desc "Gidole"
   homepage "https://gidole.github.io/"
   def install
