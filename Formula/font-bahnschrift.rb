@@ -1,6 +1,5 @@
 class FontBahnschrift < Formula
   version "1.00"
-  sha256 "feca741ad5c3a8e27aacc25a083c3e0746d8f00473f329a8c83f3600bdc2bf7e"
   url "https://www.cufonfonts.com/download/font/bahnschrift"
   desc "Bahnschrift"
   homepage "https://www.cufonfonts.com/font/bahnschrift"
