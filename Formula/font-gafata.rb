@@ -1,5 +1,5 @@
 class FontGafata < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/gafata/Gafata-Regular.ttf"
+  head "https://github.com/google/fonts/raw/master/ofl/gafata/Gafata-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Gafata"
   homepage "https://fonts.google.com/specimen/Gafata"
   def install
