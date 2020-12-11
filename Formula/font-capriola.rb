@@ -1,5 +1,5 @@
 class FontCapriola < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/capriola/Capriola-Regular.ttf"
+  head "https://github.com/google/fonts/raw/master/ofl/capriola/Capriola-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Capriola"
   homepage "https://fonts.google.com/specimen/Capriola"
   def install
