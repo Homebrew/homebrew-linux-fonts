@@ -1,5 +1,5 @@
 class FontEtBook < Formula
-  head "https://github.com/edwardtufte/et-book/archive/gh-pages.zip"
+  head "https://github.com/edwardtufte/et-book/archive/gh-pages.zip", verified: "github.com/edwardtufte/et-book/"
   desc "ET Book"
   desc "Edward Tufte Book"
   homepage "https://edwardtufte.github.io/et-book/"
