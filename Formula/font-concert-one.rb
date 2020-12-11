@@ -1,5 +1,5 @@
 class FontConcertOne < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/concertone/ConcertOne-Regular.ttf"
+  head "https://github.com/google/fonts/raw/master/ofl/concertone/ConcertOne-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Concert One"
   homepage "https://fonts.google.com/specimen/Concert+One"
   def install
