@@ -1,5 +1,5 @@
 class FontCutiveMono < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/cutivemono/CutiveMono-Regular.ttf"
+  head "https://github.com/google/fonts/raw/master/ofl/cutivemono/CutiveMono-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Cutive Mono"
   homepage "https://fonts.google.com/specimen/Cutive+Mono"
   def install
