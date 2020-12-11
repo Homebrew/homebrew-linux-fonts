@@ -1,5 +1,5 @@
 class FontCorben < Formula
-  head "https://github.com/google/fonts/trunk/ofl/corben", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/corben", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
   desc "Corben"
   homepage "https://fonts.google.com/specimen/Corben"
   def install
