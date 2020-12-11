@@ -1,7 +1,7 @@
 class FontFirago < Formula
   version "1.000"
   sha256 "b2f97f1ee02921ca1776903fa0e6f1358b017bf854c0e8776b6b8512e3c9d4a1"
-  url "https://github.com/bBoxType/FiraGO/archive/#{version}.tar.gz"
+  url "https://github.com/bBoxType/FiraGO/archive/#{version}.tar.gz", verified: "github.com/bBoxType/FiraGO/"
   desc "FiraGO"
   homepage "https://bboxtype.com/typefaces/FiraGO/"
   def install
