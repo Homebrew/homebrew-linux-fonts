@@ -1,6 +1,5 @@
 class FontFandol < Formula
   version "0.3"
-  sha256 "9278f01b417ded5766d98c3937192a1a6a2c73a5e94a3493fdfc932b2a55005a"
   url "http://mirrors.ctan.org/fonts/fandol.zip"
   desc "Fandol"
   homepage "https://ctan.org/pkg/fandol"
