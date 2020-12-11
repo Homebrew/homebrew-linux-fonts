@@ -1,5 +1,5 @@
 class FontCormorantUpright < Formula
-  head "https://github.com/google/fonts/trunk/ofl/cormorantupright", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/cormorantupright", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
   desc "Cormorant Upright"
   homepage "https://fonts.google.com/specimen/Cormorant+Upright"
   def install
