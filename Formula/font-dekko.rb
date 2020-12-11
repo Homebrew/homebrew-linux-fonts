@@ -1,5 +1,5 @@
 class FontDekko < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/dekko/Dekko-Regular.ttf"
+  head "https://github.com/google/fonts/raw/master/ofl/dekko/Dekko-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Dekko"
   homepage "https://fonts.google.com/specimen/Dekko"
   def install
