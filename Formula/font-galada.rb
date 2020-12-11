@@ -1,5 +1,5 @@
 class FontGalada < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/galada/Galada-Regular.ttf"
+  head "https://github.com/google/fonts/raw/master/ofl/galada/Galada-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Galada"
   homepage "https://fonts.google.com/specimen/Galada"
   def install
