@@ -1,6 +1,5 @@
 class FontFaune < Formula
   version "1.000"
-  sha256 "416ef022cc944628c0907d16d26fab849bc783332d660e57016be19b85fea3b9"
   url "http://www.cnap.graphismeenfrance.fr/faune/Faune_Fonts.zip"
   desc "Faune"
   homepage "http://www.cnap.graphismeenfrance.fr/faune/en.html"
