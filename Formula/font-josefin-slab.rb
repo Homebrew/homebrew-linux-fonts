@@ -1,5 +1,5 @@
 class FontJosefinSlab < Formula
-  head "https://github.com/google/fonts/trunk/ofl/josefinslab", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/josefinslab", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
   desc "Josefin Slab"
   homepage "https://fonts.google.com/specimen/Josefin+Slab"
   def install
