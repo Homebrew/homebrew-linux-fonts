@@ -1,5 +1,5 @@
 class FontJsmathCmex10 < Formula
-  head "https://github.com/google/fonts/raw/master/apache/jsmathcmex10/jsMath-cmex10.ttf"
+  head "https://github.com/google/fonts/raw/master/apache/jsmathcmex10/jsMath-cmex10.ttf", verified: "github.com/google/fonts/"
   desc "jsMath cmex10"
   homepage "https://fonts.google.com/specimen/jsMath+cmex10"
   def install
