@@ -1,5 +1,5 @@
 class FontSatisfy < Formula
-  head "https://github.com/google/fonts/raw/master/apache/satisfy/Satisfy-Regular.ttf"
+  head "https://github.com/google/fonts/raw/master/apache/satisfy/Satisfy-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Satisfy"
   homepage "https://fonts.google.com/specimen/Satisfy"
   def install
