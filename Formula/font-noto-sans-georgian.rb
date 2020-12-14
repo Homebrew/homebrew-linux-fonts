@@ -1,5 +1,5 @@
 class FontNotoSansGeorgian < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansGeorgian-unhinted.zip"
+  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansGeorgian-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
   desc "Noto Sans Georgian"
   homepage "https://www.google.com/get/noto/#sans-geor"
   def install
