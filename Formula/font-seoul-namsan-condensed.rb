@@ -1,5 +1,5 @@
 class FontSeoulNamsanCondensed < Formula
-  head "https://github.com/google/fonts/trunk/ofl/seoulnamsancondensed", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/seoulnamsancondensed", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
   desc "Seoul Namsan Condensed"
   homepage "https://fonts.google.com/specimen/Seoul+Namsan+Condensed"
   def install
