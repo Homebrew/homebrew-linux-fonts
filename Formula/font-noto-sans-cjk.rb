@@ -1,5 +1,5 @@
 class FontNotoSansCjk < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansCJK.ttc.zip"
+  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansCJK.ttc.zip", verified: "noto-website-2.storage.googleapis.com/"
   desc "Noto Sans CJK"
   homepage "https://www.google.com/get/noto/help/cjk/"
   def install
