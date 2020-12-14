@@ -1,5 +1,5 @@
 class FontJomolhari < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/jomolhari/Jomolhari-Regular.ttf"
+  head "https://github.com/google/fonts/raw/master/ofl/jomolhari/Jomolhari-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Jomolhari"
   homepage "https://fonts.google.com/specimen/Jomolhari"
   def install
