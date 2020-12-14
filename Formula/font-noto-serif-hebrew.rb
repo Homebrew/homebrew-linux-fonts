@@ -1,5 +1,5 @@
 class FontNotoSerifHebrew < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSerifHebrew-unhinted.zip"
+  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSerifHebrew-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
   desc "Noto Serif Hebrew"
   homepage "https://www.google.com/get/noto/#serif-hebr"
   def install
