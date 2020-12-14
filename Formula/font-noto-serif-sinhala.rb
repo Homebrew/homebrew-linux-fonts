@@ -1,5 +1,5 @@
 class FontNotoSerifSinhala < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSerifSinhala-unhinted.zip"
+  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSerifSinhala-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
   desc "Noto Serif Sinhala"
   homepage "https://www.google.com/get/noto/#serif-sinh"
   def install
