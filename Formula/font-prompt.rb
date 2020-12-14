@@ -1,5 +1,5 @@
 class FontPrompt < Formula
-  head "https://github.com/google/fonts/trunk/ofl/prompt", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/prompt", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
   desc "Prompt"
   homepage "https://fonts.google.com/specimen/Prompt"
   def install
