@@ -1,5 +1,5 @@
 class FontSairaCondensed < Formula
-  head "https://github.com/google/fonts/trunk/ofl/sairacondensed", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/sairacondensed", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
   desc "Saira Condensed"
   homepage "https://fonts.google.com/specimen/Saira+Condensed"
   def install
