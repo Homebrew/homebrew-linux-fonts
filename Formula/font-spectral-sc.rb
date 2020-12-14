@@ -1,5 +1,5 @@
 class FontSpectralSc < Formula
-  head "https://github.com/google/fonts/trunk/ofl/spectralsc", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/spectralsc", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
   desc "Spectral SC"
   homepage "https://fonts.google.com/specimen/Spectral+SC"
   def install
