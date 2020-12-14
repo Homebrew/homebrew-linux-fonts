@@ -1,5 +1,5 @@
 class FontLemonada < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/lemonada/Lemonada%5Bwght%5D.ttf"
+  head "https://github.com/google/fonts/raw/master/ofl/lemonada/Lemonada%5Bwght%5D.ttf", verified: "github.com/google/fonts/"
   desc "Lemonada"
   homepage "https://fonts.google.com/specimen/Lemonada"
   def install
