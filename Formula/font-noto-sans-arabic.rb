@@ -1,5 +1,5 @@
 class FontNotoSansArabic < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansArabic-unhinted.zip"
+  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansArabic-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
   desc "Noto Sans Arabic"
   homepage "https://www.google.com/get/noto/#sans-arab"
   def install
