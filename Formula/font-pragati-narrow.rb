@@ -1,5 +1,5 @@
 class FontPragatiNarrow < Formula
-  head "https://github.com/google/fonts/trunk/ofl/pragatinarrow", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/pragatinarrow", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
   desc "Pragati Narrow"
   homepage "https://fonts.google.com/specimen/Pragati+Narrow"
   def install
