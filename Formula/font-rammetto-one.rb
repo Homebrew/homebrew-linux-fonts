@@ -1,5 +1,5 @@
 class FontRammettoOne < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/rammettoone/RammettoOne-Regular.ttf"
+  head "https://github.com/google/fonts/raw/master/ofl/rammettoone/RammettoOne-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Rammetto One"
   homepage "https://fonts.google.com/specimen/Rammetto+One"
   def install
