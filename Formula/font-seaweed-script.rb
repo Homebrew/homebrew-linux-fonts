@@ -1,5 +1,5 @@
 class FontSeaweedScript < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/seaweedscript/SeaweedScript-Regular.ttf"
+  head "https://github.com/google/fonts/raw/master/ofl/seaweedscript/SeaweedScript-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Seaweed Script"
   homepage "https://fonts.google.com/specimen/Seaweed+Script"
   def install
