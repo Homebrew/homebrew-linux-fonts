@@ -1,5 +1,5 @@
 class FontJacquesFrancoisShadow < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/jacquesfrancoisshadow/JacquesFrancoisShadow-Regular.ttf"
+  head "https://github.com/google/fonts/raw/master/ofl/jacquesfrancoisshadow/JacquesFrancoisShadow-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Jacques Francois Shadow"
   homepage "https://fonts.google.com/specimen/Jacques+Francois+Shadow"
   def install
