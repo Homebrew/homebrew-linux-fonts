@@ -1,5 +1,5 @@
 class FontSouliyo < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/souliyo/Souliyo-Regular.ttf"
+  head "https://github.com/google/fonts/raw/master/ofl/souliyo/Souliyo-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Souliyo"
   homepage "https://fonts.google.com/earlyaccess"
   def install
