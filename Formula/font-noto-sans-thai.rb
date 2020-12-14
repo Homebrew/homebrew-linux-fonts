@@ -1,5 +1,5 @@
 class FontNotoSansThai < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansThai-unhinted.zip"
+  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansThai-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
   desc "Noto Sans Thai"
   homepage "https://www.google.com/get/noto/#sans-thai"
   def install
