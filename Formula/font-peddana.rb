@@ -1,5 +1,5 @@
 class FontPeddana < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/peddana/Peddana-Regular.ttf"
+  head "https://github.com/google/fonts/raw/master/ofl/peddana/Peddana-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Peddana"
   homepage "https://fonts.google.com/specimen/Peddana"
   def install
