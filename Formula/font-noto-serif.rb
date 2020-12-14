@@ -1,5 +1,5 @@
 class FontNotoSerif < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSerif-unhinted.zip"
+  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSerif-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
   desc "Noto Serif"
   homepage "https://www.google.com/get/noto/#serif-lgc"
   def install
