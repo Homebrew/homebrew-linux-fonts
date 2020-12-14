@@ -1,5 +1,5 @@
 class FontOffside < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/offside/Offside-Regular.ttf"
+  head "https://github.com/google/fonts/raw/master/ofl/offside/Offside-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Offside"
   homepage "https://fonts.google.com/specimen/Offside"
   def install
