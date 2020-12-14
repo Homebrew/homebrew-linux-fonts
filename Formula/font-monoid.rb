@@ -1,6 +1,6 @@
 class FontMonoid < Formula
   version "0.61"
-  url "https://github.com/larsenwork/monoid/blob/release/Monoid.zip?raw=true"
+  url "https://github.com/larsenwork/monoid/blob/release/Monoid.zip?raw=true", verified: "github.com/larsenwork/monoid/"
   desc "Monoid"
   homepage "https://larsenwork.com/monoid/"
   def install
