@@ -1,5 +1,5 @@
 class FontPrata < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/prata/Prata-Regular.ttf"
+  head "https://github.com/google/fonts/raw/master/ofl/prata/Prata-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Prata"
   homepage "https://fonts.google.com/specimen/Prata"
   def install
