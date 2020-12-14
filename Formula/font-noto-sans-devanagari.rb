@@ -1,5 +1,5 @@
 class FontNotoSansDevanagari < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansDevanagari-unhinted.zip"
+  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansDevanagari-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
   desc "Noto Sans Devanagari"
   homepage "https://www.google.com/get/noto/#sans-deva"
   def install
