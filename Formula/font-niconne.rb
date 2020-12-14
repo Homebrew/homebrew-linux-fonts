@@ -1,5 +1,5 @@
 class FontNiconne < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/niconne/Niconne-Regular.ttf"
+  head "https://github.com/google/fonts/raw/master/ofl/niconne/Niconne-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Niconne"
   homepage "https://fonts.google.com/specimen/Niconne"
   def install
