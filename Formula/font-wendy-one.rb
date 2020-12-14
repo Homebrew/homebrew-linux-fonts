@@ -1,5 +1,5 @@
 class FontWendyOne < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/wendyone/WendyOne-Regular.ttf"
+  head "https://github.com/google/fonts/raw/master/ofl/wendyone/WendyOne-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Wendy One"
   homepage "https://fonts.google.com/specimen/Wendy+One"
   def install
