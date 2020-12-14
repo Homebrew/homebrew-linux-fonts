@@ -1,5 +1,5 @@
 class FontNeuton < Formula
-  head "https://github.com/google/fonts/trunk/ofl/neuton", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/neuton", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
   desc "Neuton"
   homepage "https://fonts.google.com/specimen/Neuton"
   def install
