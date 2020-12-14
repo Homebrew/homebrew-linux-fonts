@@ -1,5 +1,5 @@
 class FontMartel < Formula
-  head "https://github.com/google/fonts/trunk/ofl/martel", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/martel", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
   desc "Martel"
   homepage "https://fonts.google.com/specimen/Martel"
   def install
