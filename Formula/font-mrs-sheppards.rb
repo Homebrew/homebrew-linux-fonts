@@ -1,5 +1,5 @@
 class FontMrsSheppards < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/mrssheppards/MrsSheppards-Regular.ttf"
+  head "https://github.com/google/fonts/raw/master/ofl/mrssheppards/MrsSheppards-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Mrs Sheppards"
   homepage "https://fonts.google.com/specimen/Mrs+Sheppards"
   def install
