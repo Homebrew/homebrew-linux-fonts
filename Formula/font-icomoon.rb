@@ -1,5 +1,5 @@
 class FontIcomoon < Formula
-  head "https://github.com/Keyamoon/IcoMoon-Free/archive/master.zip"
+  head "https://github.com/Keyamoon/IcoMoon-Free/archive/master.zip", verified: "github.com/Keyamoon/IcoMoon-Free/"
   desc "IcoMoon"
   homepage "https://icomoon.io/"
   def install
