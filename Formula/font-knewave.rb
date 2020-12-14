@@ -1,5 +1,5 @@
 class FontKnewave < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/knewave/Knewave-Regular.ttf"
+  head "https://github.com/google/fonts/raw/master/ofl/knewave/Knewave-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Knewave"
   homepage "https://fonts.google.com/specimen/Knewave"
   def install
