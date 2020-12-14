@@ -1,5 +1,5 @@
 class FontNotoSansKannada < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansKannada-unhinted.zip"
+  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansKannada-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
   desc "Noto Sans Kannada"
   homepage "https://www.google.com/get/noto/#sans-knda"
   def install
