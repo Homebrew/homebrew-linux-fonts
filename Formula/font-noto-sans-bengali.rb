@@ -1,5 +1,5 @@
 class FontNotoSansBengali < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansBengali-unhinted.zip"
+  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansBengali-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
   desc "Noto Sans Bengali"
   homepage "https://www.google.com/get/noto/#sans-beng"
   def install
