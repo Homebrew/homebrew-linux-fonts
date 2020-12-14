@@ -1,5 +1,5 @@
 class FontNotoSansLao < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansLao-unhinted.zip"
+  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansLao-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
   desc "Noto Sans Lao"
   homepage "https://www.google.com/get/noto/#sans-laoo"
   def install
