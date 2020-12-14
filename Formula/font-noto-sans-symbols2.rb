@@ -1,5 +1,5 @@
 class FontNotoSansSymbols2 < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansSymbols2-unhinted.zip"
+  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansSymbols2-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
   desc "Noto Sans Symbols2"
   homepage "https://www.google.com/get/noto/#sans-sym2"
   def install
