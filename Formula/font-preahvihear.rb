@@ -1,5 +1,5 @@
 class FontPreahvihear < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/preahvihear/Preahvihear.ttf"
+  head "https://github.com/google/fonts/raw/master/ofl/preahvihear/Preahvihear.ttf", verified: "github.com/google/fonts/"
   desc "Preahvihear"
   homepage "https://fonts.google.com/specimen/Preahvihear"
   def install
