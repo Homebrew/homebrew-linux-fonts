@@ -1,5 +1,5 @@
 class FontSongMyung < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/songmyung/SongMyung-Regular.ttf"
+  head "https://github.com/google/fonts/raw/master/ofl/songmyung/SongMyung-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Song Myung"
   homepage "https://fonts.google.com/specimen/Song+Myung"
   def install
