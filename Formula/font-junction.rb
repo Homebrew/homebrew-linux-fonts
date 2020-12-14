@@ -1,5 +1,5 @@
 class FontJunction < Formula
-  head "https://github.com/theleagueof/junction/archive/master.zip"
+  head "https://github.com/theleagueof/junction/archive/master.zip", verified: "github.com/theleagueof/junction/"
   desc "Junction"
   homepage "https://www.theleagueofmoveabletype.com/junction"
   def install
