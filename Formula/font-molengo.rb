@@ -1,5 +1,5 @@
 class FontMolengo < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/molengo/Molengo-Regular.ttf"
+  head "https://github.com/google/fonts/raw/master/ofl/molengo/Molengo-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Molengo"
   homepage "https://fonts.google.com/specimen/Molengo"
   def install
