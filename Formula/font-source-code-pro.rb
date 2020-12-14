@@ -1,7 +1,7 @@
 class FontSourceCodePro < Formula
   version "2.032R-ro-1.052R-it-1.012R-VAR"
   sha256 "4d28868a2dc4cd6b767a91cd3d8462983aa8924ae18149f3b1d1a135090a0f8d"
-  url "https://github.com/adobe-fonts/source-code-pro/archive/#{version.to_s.gsub(/(?<=ro)-|(?<=it)-/, "/")}.zip"
+  url "https://github.com/adobe-fonts/source-code-pro/archive/#{version.to_s.gsub(/(?<=ro)-|(?<=it)-/, "/")}.zip", verified: "github.com/adobe-fonts/source-code-pro/"
   desc "Source Code Pro"
   homepage "https://adobe-fonts.github.io/source-code-pro/"
   def install
