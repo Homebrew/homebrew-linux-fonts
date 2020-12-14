@@ -1,17 +1,10 @@
 class FontSaira < Formula
-  head "https://github.com/google/fonts/trunk/ofl/saira", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/saira", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
   desc "Saira"
   homepage "https://fonts.google.com/specimen/Saira"
   def install
-    (share/"fonts").install "Saira-Black.ttf"
-    (share/"fonts").install "Saira-Bold.ttf"
-    (share/"fonts").install "Saira-ExtraBold.ttf"
-    (share/"fonts").install "Saira-ExtraLight.ttf"
-    (share/"fonts").install "Saira-Light.ttf"
-    (share/"fonts").install "Saira-Medium.ttf"
-    (share/"fonts").install "Saira-Regular.ttf"
-    (share/"fonts").install "Saira-SemiBold.ttf"
-    (share/"fonts").install "Saira-Thin.ttf"
+    (share/"fonts").install "Saira-Italic[wdth,wght].ttf"
+    (share/"fonts").install "Saira[wdth,wght].ttf"
   end
   test do
   end
