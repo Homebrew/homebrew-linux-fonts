@@ -1,5 +1,5 @@
 class FontNotoSansVai < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansVai-unhinted.zip"
+  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansVai-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
   desc "Noto Sans Vai"
   homepage "https://www.google.com/get/noto/#sans-vaii"
   def install
