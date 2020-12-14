@@ -1,5 +1,5 @@
 class FontInria < Formula
-  head "https://github.com/BlackFoundry/InriaFonts/archive/master.zip"
+  head "https://github.com/BlackFoundry/InriaFonts/archive/master.zip", verified: "github.com/BlackFoundry/InriaFonts/"
   desc "Inria"
   homepage "https://black-foundry.com/blog/inria-serif-and-inria/"
   def install
