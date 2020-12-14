@@ -1,6 +1,6 @@
 class FontNationalPark < Formula
   version "1.000"
-  url "https://files.cargocollective.com/c206464/NationalPark.zip"
+  url "https://files.cargocollective.com/c206464/NationalPark.zip", verified: "cargocollective.com/"
   desc "National Park"
   homepage "https://nationalparktypeface.com/"
   def install
