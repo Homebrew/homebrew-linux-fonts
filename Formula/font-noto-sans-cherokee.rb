@@ -1,5 +1,5 @@
 class FontNotoSansCherokee < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansCherokee-unhinted.zip"
+  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansCherokee-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
   desc "Noto Sans Cherokee"
   homepage "https://www.google.com/get/noto/#sans-cher"
   def install
