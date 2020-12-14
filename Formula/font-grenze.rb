@@ -1,5 +1,5 @@
 class FontGrenze < Formula
-  head "https://github.com/google/fonts/trunk/ofl/grenze", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/grenze", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
   desc "Grenze"
   homepage "https://fonts.google.com/specimen/Grenze"
   def install
