@@ -1,5 +1,5 @@
 class FontSrisakdi < Formula
-  head "https://github.com/google/fonts/trunk/ofl/srisakdi", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/srisakdi", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
   desc "Srisakdi"
   homepage "https://fonts.google.com/specimen/Srisakdi"
   def install
