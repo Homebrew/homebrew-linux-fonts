@@ -1,5 +1,5 @@
 class FontPeralta < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/peralta/Peralta-Regular.ttf"
+  head "https://github.com/google/fonts/raw/master/ofl/peralta/Peralta-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Peralta"
   homepage "https://fonts.google.com/specimen/Peralta"
   def install
