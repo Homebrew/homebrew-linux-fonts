@@ -1,5 +1,5 @@
 class FontHandlee < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/handlee/Handlee-Regular.ttf"
+  head "https://github.com/google/fonts/raw/master/ofl/handlee/Handlee-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Handlee"
   homepage "https://fonts.google.com/specimen/Handlee"
   def install
