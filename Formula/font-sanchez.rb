@@ -1,5 +1,5 @@
 class FontSanchez < Formula
-  head "https://github.com/google/fonts/trunk/ofl/sanchez", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/sanchez", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
   desc "Sanchez"
   homepage "https://fonts.google.com/specimen/Sanchez"
   def install
