@@ -1,5 +1,5 @@
 class FontShanti < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/shanti/Shanti-Regular.ttf"
+  head "https://github.com/google/fonts/raw/master/ofl/shanti/Shanti-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Shanti"
   homepage "https://fonts.google.com/specimen/Shanti"
   def install
