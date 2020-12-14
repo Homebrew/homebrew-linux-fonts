@@ -1,5 +1,5 @@
 class FontTitilliumWeb < Formula
-  head "https://github.com/google/fonts/trunk/ofl/titilliumweb", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/titilliumweb", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
   desc "Titillium Web"
   homepage "https://fonts.google.com/specimen/Titillium+Web"
   def install
