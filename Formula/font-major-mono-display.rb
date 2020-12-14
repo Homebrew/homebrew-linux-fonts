@@ -1,5 +1,5 @@
 class FontMajorMonoDisplay < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/majormonodisplay/MajorMonoDisplay-Regular.ttf"
+  head "https://github.com/google/fonts/raw/master/ofl/majormonodisplay/MajorMonoDisplay-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Major Mono Display"
   homepage "https://fonts.google.com/specimen/Major+Mono+Display"
   def install
