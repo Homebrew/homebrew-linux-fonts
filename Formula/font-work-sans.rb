@@ -1,5 +1,5 @@
 class FontWorkSans < Formula
-  head "https://github.com/weiweihuanghuang/Work-Sans/archive/master.zip"
+  head "https://github.com/weiweihuanghuang/Work-Sans/archive/master.zip", verified: "github.com/weiweihuanghuang/Work-Sans/"
   desc "Work Sans"
   homepage "https://weiweihuanghuang.github.io/Work-Sans/"
   def install
