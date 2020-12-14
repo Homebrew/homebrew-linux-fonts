@@ -1,5 +1,5 @@
 class FontSonsieOne < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/sonsieone/SonsieOne-Regular.ttf"
+  head "https://github.com/google/fonts/raw/master/ofl/sonsieone/SonsieOne-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Sonsie One"
   homepage "https://fonts.google.com/specimen/Sonsie+One"
   def install
