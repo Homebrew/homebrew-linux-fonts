@@ -1,5 +1,5 @@
 class FontNotoSerifCjkKr < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSerifCJKkr-hinted.zip"
+  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSerifCJKkr-hinted.zip", verified: "noto-website-2.storage.googleapis.com/"
   desc "Noto Serif CJK KR"
   homepage "https://www.google.com/get/noto/#serif-kore"
   def install
