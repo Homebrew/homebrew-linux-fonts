@@ -1,5 +1,5 @@
 class FontLalezar < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/lalezar/Lalezar-Regular.ttf"
+  head "https://github.com/google/fonts/raw/master/ofl/lalezar/Lalezar-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Lalezar"
   homepage "https://fonts.google.com/specimen/Lalezar"
   def install
