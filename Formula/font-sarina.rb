@@ -1,5 +1,5 @@
 class FontSarina < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/sarina/Sarina-Regular.ttf"
+  head "https://github.com/google/fonts/raw/master/ofl/sarina/Sarina-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Sarina"
   homepage "https://fonts.google.com/specimen/Sarina"
   def install
