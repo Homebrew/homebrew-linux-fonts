@@ -1,5 +1,5 @@
 class FontKhand < Formula
-  head "https://github.com/google/fonts/trunk/ofl/khand", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/khand", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
   desc "Khand"
   homepage "https://fonts.google.com/specimen/Khand"
   def install
