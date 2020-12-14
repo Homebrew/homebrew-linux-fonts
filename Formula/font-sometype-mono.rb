@@ -1,5 +1,5 @@
 class FontSometypeMono < Formula
-  head "https://github.com/dharmatype/Sometype-Mono/archive/master.zip"
+  head "https://github.com/dharmatype/Sometype-Mono/archive/master.zip", verified: "github.com/dharmatype/Sometype-Mono/"
   desc "Sometype Mono"
   homepage "https://monospacedfont.com/"
   def install
