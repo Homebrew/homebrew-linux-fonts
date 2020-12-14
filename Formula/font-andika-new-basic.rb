@@ -1,5 +1,5 @@
 class FontAndikaNewBasic < Formula
-  head "https://github.com/google/fonts/trunk/ofl/andikanewbasic", using: :svn, trust_cert: true, verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/trunk/ofl/andikanewbasic", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
   desc "Andika New Basic"
   desc "Limited-character-set version of andika"
   homepage "https://fonts.google.com/specimen/Andika+New+Basic"
