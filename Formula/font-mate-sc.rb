@@ -1,5 +1,5 @@
 class FontMateSc < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/matesc/MateSC-Regular.ttf"
+  head "https://github.com/google/fonts/raw/master/ofl/matesc/MateSC-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Mate SC"
   homepage "https://fonts.google.com/specimen/Mate+SC"
   def install
