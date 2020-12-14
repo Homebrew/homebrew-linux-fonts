@@ -1,5 +1,5 @@
 class FontNixieOne < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/nixieone/NixieOne-Regular.ttf"
+  head "https://github.com/google/fonts/raw/master/ofl/nixieone/NixieOne-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Nixie One"
   homepage "https://fonts.google.com/specimen/Nixie+One"
   def install
