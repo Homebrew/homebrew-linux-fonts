@@ -1,5 +1,5 @@
 class FontImprima < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/imprima/Imprima-Regular.ttf"
+  head "https://github.com/google/fonts/raw/master/ofl/imprima/Imprima-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Imprima"
   homepage "https://fonts.google.com/specimen/Imprima"
   def install
