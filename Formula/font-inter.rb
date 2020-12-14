@@ -1,7 +1,7 @@
 class FontInter < Formula
   version "3.15"
   sha256 "1534288eb599f57acbf2c5ac0010da9495c2ee53116e08d799555c6f8ee22156"
-  url "https://github.com/rsms/inter/releases/download/v#{version}/Inter-#{version}.zip"
+  url "https://github.com/rsms/inter/releases/download/v#{version}/Inter-#{version}.zip", verified: "github.com/rsms/inter/"
   desc "Inter"
   homepage "https://rsms.me/inter/"
   def install
