@@ -7,6 +7,18 @@ class FontSourceSansPro < Formula
   homepage "https://github.com/adobe-fonts/source-sans-pro"
   def install
     parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
+    (share/"fonts").install "#{parent}OTF/SourceSans3-Black.otf"
+    (share/"fonts").install "#{parent}OTF/SourceSans3-BlackIt.otf"
+    (share/"fonts").install "#{parent}OTF/SourceSans3-Bold.otf"
+    (share/"fonts").install "#{parent}OTF/SourceSans3-BoldIt.otf"
+    (share/"fonts").install "#{parent}OTF/SourceSans3-ExtraLight.otf"
+    (share/"fonts").install "#{parent}OTF/SourceSans3-ExtraLightIt.otf"
+    (share/"fonts").install "#{parent}OTF/SourceSans3-It.otf"
+    (share/"fonts").install "#{parent}OTF/SourceSans3-Light.otf"
+    (share/"fonts").install "#{parent}OTF/SourceSans3-LightIt.otf"
+    (share/"fonts").install "#{parent}OTF/SourceSans3-Regular.otf"
+    (share/"fonts").install "#{parent}OTF/SourceSans3-Semibold.otf"
+    (share/"fonts").install "#{parent}OTF/SourceSans3-SemiboldIt.otf"
     (share/"fonts").install "#{parent}VAR/SourceSans3VF-Italic.otf"
     (share/"fonts").install "#{parent}VAR/SourceSans3VF-Roman.otf"
   end
