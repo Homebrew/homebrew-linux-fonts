@@ -5,10 +5,10 @@ class FontMamelon < Formula
   homepage "https://moji-waku.com/mamelon/index.html"
   def install
     parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}mamelon_hireg/Mamelon-3HiRegular.otf"
-    (share/"fonts").install "#{parent}mamelon_hireg/Mamelon-3.5HiRegular.otf"
-    (share/"fonts").install "#{parent}mamelon_hireg/Mamelon-4HiRegular.otf"
-    (share/"fonts").install "#{parent}mamelon_hireg/Mamelon-5HiRegular.otf"
+    (share/"fonts").install "#{parent}mamelon_hireg/Mamelon-3-Hi-Regular.otf"
+    (share/"fonts").install "#{parent}mamelon_hireg/Mamelon-3.5-Hi-Regular.otf"
+    (share/"fonts").install "#{parent}mamelon_hireg/Mamelon-4-Hi-Regular.otf"
+    (share/"fonts").install "#{parent}mamelon_hireg/Mamelon-5-Hi-Regular.otf"
   end
   test do
   end
