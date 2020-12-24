@@ -3,6 +3,7 @@ class FontEbGaramond < Formula
   sha256 "a0b77b405f55c10cff078787ef9d2389a9638e7604d53aa80207fe62e104c378"
   url "https://bitbucket.org/georgd/eb-garamond/downloads/EBGaramond-#{version}.zip", verified: "bitbucket.org/georgd/eb-garamond/"
   desc "EB Garamond"
+  desc "Garamond typeface based on the 1592 Berner specimen"
   homepage "https://github.com/georgd/EB-Garamond"
   def install
     parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
@@ -16,16 +17,6 @@ class FontEbGaramond < Formula
     (share/"fonts").install "#{parent}EBGaramond-#{version}/otf/EBGaramond12-Regular.otf"
     (share/"fonts").install "#{parent}EBGaramond-#{version}/otf/EBGaramondSC08-Regular.otf"
     (share/"fonts").install "#{parent}EBGaramond-#{version}/otf/EBGaramondSC12-Regular.otf"
-    (share/"fonts").install "#{parent}EBGaramond-#{version}/ttf/EBGaramond-Initials.ttf"
-    (share/"fonts").install "#{parent}EBGaramond-#{version}/ttf/EBGaramond-InitialsF1.ttf"
-    (share/"fonts").install "#{parent}EBGaramond-#{version}/ttf/EBGaramond-InitialsF2.ttf"
-    (share/"fonts").install "#{parent}EBGaramond-#{version}/ttf/EBGaramond08-Italic.ttf"
-    (share/"fonts").install "#{parent}EBGaramond-#{version}/ttf/EBGaramond08-Regular.ttf"
-    (share/"fonts").install "#{parent}EBGaramond-#{version}/ttf/EBGaramond12-AllSC.ttf"
-    (share/"fonts").install "#{parent}EBGaramond-#{version}/ttf/EBGaramond12-Italic.ttf"
-    (share/"fonts").install "#{parent}EBGaramond-#{version}/ttf/EBGaramond12-Regular.ttf"
-    (share/"fonts").install "#{parent}EBGaramond-#{version}/ttf/EBGaramondSC08-Regular.ttf"
-    (share/"fonts").install "#{parent}EBGaramond-#{version}/ttf/EBGaramondSC12-Regular.ttf"
   end
   test do
   end
