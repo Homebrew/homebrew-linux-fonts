@@ -1,8 +1,9 @@
 class FontHackgenNerd < Formula
-  version "2.2.0"
-  sha256 "38a074f00894465e3313b5abce104bb803c31e6f78c73fa989cf5b755ba80e92"
+  version "2.2.3"
+  sha256 "7ce5ea01ab88443f30de461e8b614cbeaed10a7fc9580902922646a1134158f0"
   url "https://github.com/yuru7/HackGen/releases/download/v#{version}/HackGenNerd_v#{version}.zip"
   desc "HackGenNerd"
+  desc "Japanese programming font which is a composed of Hack and GenJyuu-Gothic"
   homepage "https://github.com/yuru7/HackGen"
   def install
     parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
