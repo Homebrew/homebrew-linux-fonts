@@ -1,6 +1,6 @@
 class FontSarasaGothic < Formula
-  version "0.16.4"
-  sha256 "91a7e55af4d814e79e464e0df38120228baf339db0d3105e297996084fbae86b"
+  version "0.16.5"
+  sha256 "0598e25d2cae6396072180595c3956ecebaecd6cd7cb49c18889f467d30d42ad"
   url "https://github.com/be5invis/Sarasa-Gothic/releases/download/v#{version}/sarasa-gothic-ttc-#{version}.7z"
   desc "Sarasa Gothic"
   desc "更纱黑体"
