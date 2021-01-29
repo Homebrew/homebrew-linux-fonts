@@ -35,6 +35,8 @@ class FontJetbrainsMono < Formula
     (share/"fonts").install "#{parent}fonts/ttf/JetBrainsMonoNL-Regular.ttf"
     (share/"fonts").install "#{parent}fonts/ttf/JetBrainsMonoNL-Thin.ttf"
     (share/"fonts").install "#{parent}fonts/ttf/JetBrainsMonoNL-ThinItalic.ttf"
+    (share/"fonts").install "#{parent}fonts/variable/JetBrainsMono-Italic[wght].ttf"
+    (share/"fonts").install "#{parent}fonts/variable/JetBrainsMono[wght].ttf"
   end
   test do
   end
