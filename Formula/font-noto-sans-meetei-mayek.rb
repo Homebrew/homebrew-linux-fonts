@@ -1,9 +1,9 @@
 class FontNotoSansMeeteiMayek < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansMeeteiMayek-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
+  head "https://github.com/google/fonts/raw/master/ofl/notosansmeeteimayek/NotoSansMeeteiMayek%5Bwght%5D.ttf", verified: "github.com/google/fonts/"
   desc "Noto Sans Meetei Mayek"
-  homepage "https://www.google.com/get/noto/#sans-mtei"
+  homepage "https://fonts.google.com/specimen/Noto+Sans+MeeteiMayek"
   def install
-    (share/"fonts").install "NotoSansMeeteiMayek-Regular.ttf"
+    (share/"fonts").install "NotoSansMeeteiMayek[wght].ttf"
   end
   test do
   end
