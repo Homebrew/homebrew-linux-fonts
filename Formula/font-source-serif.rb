@@ -68,9 +68,7 @@ class FontSourceSerif < Formula
     (share/"fonts").install "#{parent}source-serif-#{version}/OTF/SourceSerif4Subhead-Semibold.otf"
     (share/"fonts").install "#{parent}source-serif-#{version}/OTF/SourceSerif4Subhead-SemiboldIt.otf"
     (share/"fonts").install "#{parent}source-serif-#{version}/VAR/SourceSerif4Variable-Italic.otf"
-    (share/"fonts").install "#{parent}source-serif-#{version}/VAR/SourceSerif4Variable-Italic.ttf"
     (share/"fonts").install "#{parent}source-serif-#{version}/VAR/SourceSerif4Variable-Roman.otf"
-    (share/"fonts").install "#{parent}source-serif-#{version}/VAR/SourceSerif4Variable-Roman.ttf"
   end
   test do
   end
