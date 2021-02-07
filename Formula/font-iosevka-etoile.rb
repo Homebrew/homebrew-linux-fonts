@@ -1,6 +1,6 @@
 class FontIosevkaEtoile < Formula
-  version "5.0.0-beta.3"
-  sha256 "a29a2cdde098bdd3aae99b6e1443406f4300c8f5f4df264875b67705eccd4e5e"
+  version "5.0.0-rc.1"
+  sha256 "d3955b44d035021c02684d01d074ced51692f708ba6c7af3dc09416de6379cd0"
   url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/ttc-iosevka-etoile-#{version}.zip"
   desc "Iosevka Etoile"
   desc "Sans-serif, slab-serif, monospace and quasi‑proportional typeface family"
