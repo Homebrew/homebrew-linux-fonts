@@ -1,5 +1,5 @@
 class FontAmaticaSc < Formula
-  head "https://github.com/google/fonts/trunk/ofl/amaticasc", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/amaticasc", verified: "github.com/google/fonts/", using: :svn
   desc "Amatica SC"
   homepage "https://fonts.google.com/specimen/Amatica+SC"
   def install

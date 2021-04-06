@@ -1,5 +1,5 @@
 class FontCairo < Formula
-  head "https://github.com/google/fonts/trunk/ofl/cairo", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/cairo", verified: "github.com/google/fonts/", using: :svn
   desc "Cairo"
   homepage "https://fonts.google.com/specimen/Cairo"
   def install

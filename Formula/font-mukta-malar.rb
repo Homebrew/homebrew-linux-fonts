@@ -1,5 +1,5 @@
 class FontMuktaMalar < Formula
-  head "https://github.com/google/fonts/trunk/ofl/muktamalar", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/muktamalar", verified: "github.com/google/fonts/", using: :svn
   desc "Mukta Malar"
   homepage "https://fonts.google.com/specimen/Mukta+Malar"
   def install

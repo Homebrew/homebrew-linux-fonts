@@ -1,5 +1,5 @@
 class FontFjallaOne < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/fjallaone/FjallaOne-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/fjallaone/FjallaOne-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Fjalla One"
   homepage "https://fonts.google.com/specimen/Fjalla+One"
   def install

@@ -1,5 +1,5 @@
 class FontPacifico < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/pacifico/Pacifico-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/pacifico/Pacifico-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Pacifico"
   homepage "https://fonts.google.com/specimen/Pacifico"
   def install

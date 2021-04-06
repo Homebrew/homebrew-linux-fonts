@@ -1,5 +1,5 @@
 class FontBalooDa2 < Formula
-  head "https://github.com/google/fonts/trunk/ofl/balooda2", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/balooda2", verified: "github.com/google/fonts/", using: :svn
   desc "Baloo Da 2"
   homepage "https://fonts.google.com/specimen/Baloo+Da+2"
   def install

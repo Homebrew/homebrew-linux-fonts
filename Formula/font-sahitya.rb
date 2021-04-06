@@ -1,5 +1,5 @@
 class FontSahitya < Formula
-  head "https://github.com/google/fonts/trunk/ofl/sahitya", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/sahitya", verified: "github.com/google/fonts/", using: :svn
   desc "Sahitya"
   homepage "https://fonts.google.com/specimen/Sahitya"
   def install

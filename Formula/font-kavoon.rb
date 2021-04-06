@@ -1,5 +1,5 @@
 class FontKavoon < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/kavoon/Kavoon-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/kavoon/Kavoon-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Kavoon"
   homepage "https://fonts.google.com/specimen/Kavoon"
   def install

@@ -1,5 +1,5 @@
 class FontChonburi < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/chonburi/Chonburi-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/chonburi/Chonburi-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Chonburi"
   homepage "https://fonts.google.com/specimen/Chonburi"
   def install

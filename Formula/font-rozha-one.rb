@@ -1,5 +1,5 @@
 class FontRozhaOne < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/rozhaone/RozhaOne-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/rozhaone/RozhaOne-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Rozha One"
   homepage "https://fonts.google.com/specimen/Rozha+One"
   def install

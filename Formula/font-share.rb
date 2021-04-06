@@ -1,5 +1,5 @@
 class FontShare < Formula
-  head "https://github.com/google/fonts/trunk/ofl/share", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/share", verified: "github.com/google/fonts/", using: :svn
   desc "Share"
   homepage "https://fonts.google.com/specimen/Share"
   def install

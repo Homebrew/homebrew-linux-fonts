@@ -1,5 +1,5 @@
 class FontIstokWeb < Formula
-  head "https://github.com/google/fonts/trunk/ofl/istokweb", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/istokweb", verified: "github.com/google/fonts/", using: :svn
   desc "Istok Web"
   homepage "https://fonts.google.com/specimen/Istok+Web"
   def install

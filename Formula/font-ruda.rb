@@ -1,5 +1,5 @@
 class FontRuda < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/ruda/Ruda%5Bwght%5D.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/ruda/Ruda%5Bwght%5D.ttf", verified: "github.com/google/fonts/"
   desc "Ruda"
   homepage "https://fonts.google.com/specimen/Ruda"
   def install

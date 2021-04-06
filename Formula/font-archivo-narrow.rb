@@ -1,5 +1,5 @@
 class FontArchivoNarrow < Formula
-  head "https://github.com/google/fonts/trunk/ofl/archivonarrow", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/archivonarrow", verified: "github.com/google/fonts/", using: :svn
   desc "Archivo Narrow"
   homepage "https://fonts.google.com/specimen/Archivo+Narrow"
   def install

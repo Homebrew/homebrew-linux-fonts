@@ -1,5 +1,5 @@
 class FontExpletusSans < Formula
-  head "https://github.com/google/fonts/trunk/ofl/expletussans", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/expletussans", verified: "github.com/google/fonts/", using: :svn
   desc "Expletus Sans"
   homepage "https://fonts.google.com/specimen/Expletus+Sans"
   def install

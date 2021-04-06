@@ -1,5 +1,5 @@
 class FontNats < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/nats/NATS-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/nats/NATS-Regular.ttf", verified: "github.com/google/fonts/"
   desc "NATS"
   homepage "https://fonts.google.com/specimen/NATS"
   def install

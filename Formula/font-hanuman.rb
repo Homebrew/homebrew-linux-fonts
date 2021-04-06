@@ -1,5 +1,5 @@
 class FontHanuman < Formula
-  head "https://github.com/google/fonts/trunk/ofl/hanuman", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/hanuman", verified: "github.com/google/fonts/", using: :svn
   desc "Hanuman"
   homepage "https://fonts.google.com/specimen/Hanuman"
   def install

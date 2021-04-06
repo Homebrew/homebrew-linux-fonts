@@ -1,5 +1,5 @@
 class FontExo < Formula
-  head "https://github.com/google/fonts/trunk/ofl/exo", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/exo", verified: "github.com/google/fonts/", using: :svn
   desc "Exo"
   homepage "https://fonts.google.com/specimen/Exo"
   def install

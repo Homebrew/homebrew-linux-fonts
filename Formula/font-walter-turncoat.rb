@@ -1,5 +1,5 @@
 class FontWalterTurncoat < Formula
-  head "https://github.com/google/fonts/raw/master/apache/walterturncoat/WalterTurncoat-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/apache/walterturncoat/WalterTurncoat-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Walter Turncoat"
   homepage "https://fonts.google.com/specimen/Walter+Turncoat"
   def install

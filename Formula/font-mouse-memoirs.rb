@@ -1,5 +1,5 @@
 class FontMouseMemoirs < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/mousememoirs/MouseMemoirs-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/mousememoirs/MouseMemoirs-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Mouse Memoirs"
   homepage "https://fonts.google.com/specimen/Mouse+Memoirs"
   def install

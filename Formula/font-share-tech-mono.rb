@@ -1,5 +1,5 @@
 class FontShareTechMono < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/sharetechmono/ShareTechMono-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/sharetechmono/ShareTechMono-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Share Tech Mono"
   homepage "https://fonts.google.com/specimen/Share+Tech+Mono"
   def install

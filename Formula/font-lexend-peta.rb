@@ -1,5 +1,5 @@
 class FontLexendPeta < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/lexendpeta/LexendPeta-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/lexendpeta/LexendPeta-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Lexend Peta"
   homepage "https://fonts.google.com/specimen/Lexend+Peta"
   def install

@@ -1,5 +1,5 @@
 class FontSpirax < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/spirax/Spirax-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/spirax/Spirax-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Spirax"
   homepage "https://fonts.google.com/specimen/Spirax"
   def install

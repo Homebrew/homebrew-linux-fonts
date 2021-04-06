@@ -1,5 +1,5 @@
 class FontTienne < Formula
-  head "https://github.com/google/fonts/trunk/ofl/tienne", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/tienne", verified: "github.com/google/fonts/", using: :svn
   desc "Tienne"
   homepage "https://fonts.google.com/specimen/Tienne"
   def install

@@ -1,5 +1,5 @@
 class FontInknutAntiqua < Formula
-  head "https://github.com/google/fonts/trunk/ofl/inknutantiqua", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/inknutantiqua", verified: "github.com/google/fonts/", using: :svn
   desc "Inknut Antiqua"
   homepage "https://fonts.google.com/specimen/Inknut+Antiqua"
   def install

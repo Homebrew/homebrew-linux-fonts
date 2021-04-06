@@ -1,5 +1,5 @@
 class FontCodystar < Formula
-  head "https://github.com/google/fonts/trunk/ofl/codystar", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/codystar", verified: "github.com/google/fonts/", using: :svn
   desc "Codystar"
   homepage "https://fonts.google.com/specimen/Codystar"
   def install

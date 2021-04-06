@@ -1,5 +1,5 @@
 class FontLifeSavers < Formula
-  head "https://github.com/google/fonts/trunk/ofl/lifesavers", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/lifesavers", verified: "github.com/google/fonts/", using: :svn
   desc "Life Savers"
   homepage "https://fonts.google.com/specimen/Life+Savers"
   def install

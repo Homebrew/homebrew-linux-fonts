@@ -1,5 +1,5 @@
 class FontMonoton < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/monoton/Monoton-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/monoton/Monoton-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Monoton"
   homepage "https://fonts.google.com/specimen/Monoton"
   def install

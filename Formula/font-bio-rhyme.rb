@@ -1,5 +1,5 @@
 class FontBioRhyme < Formula
-  head "https://github.com/google/fonts/trunk/ofl/biorhyme", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/biorhyme", verified: "github.com/google/fonts/", using: :svn
   desc "Bio Rhyme"
   homepage "https://fonts.google.com/specimen/Bio+Rhyme"
   def install

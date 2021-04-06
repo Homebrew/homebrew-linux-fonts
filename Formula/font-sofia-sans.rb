@@ -1,5 +1,5 @@
 class FontSofiaSans < Formula
-  head "https://github.com/google/fonts/trunk/ofl/sofiasans", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/sofiasans", verified: "github.com/google/fonts/", using: :svn
   desc "Sofia Sans"
   desc "Opentype family with large character set"
   homepage "https://fonts.google.com/specimen/Sofia+Sans"

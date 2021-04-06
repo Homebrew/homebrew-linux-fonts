@@ -1,5 +1,5 @@
 class FontGotu < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/gotu/Gotu-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/gotu/Gotu-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Gotu"
   homepage "https://fonts.google.com/specimen/Gotu"
   def install

@@ -1,5 +1,5 @@
 class FontTrochut < Formula
-  head "https://github.com/google/fonts/trunk/ofl/trochut", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/trochut", verified: "github.com/google/fonts/", using: :svn
   desc "Trochut"
   homepage "https://fonts.google.com/specimen/Trochut"
   def install

@@ -1,5 +1,5 @@
 class FontSourceCodeProForPowerline < Formula
-  head "https://github.com/powerline/fonts/trunk/SourceCodePro", using: :svn, trust_cert: true
+  head "https://github.com/powerline/fonts/trunk/SourceCodePro", using: :svn
   desc "Source Code Pro for Powerline"
   homepage "https://github.com/powerline/fonts/tree/master/SourceCodePro"
   def install

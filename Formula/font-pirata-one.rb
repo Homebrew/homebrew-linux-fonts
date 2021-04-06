@@ -1,5 +1,5 @@
 class FontPirataOne < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/pirataone/PirataOne-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/pirataone/PirataOne-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Pirata One"
   homepage "https://fonts.google.com/specimen/Pirata+One"
   def install

@@ -1,5 +1,5 @@
 class FontSlabo27px < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/slabo27px/Slabo27px-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/slabo27px/Slabo27px-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Slabo 27px"
   homepage "https://fonts.google.com/specimen/Slabo+27px"
   def install

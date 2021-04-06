@@ -1,5 +1,5 @@
 class FontArchitectsDaughter < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/architectsdaughter/ArchitectsDaughter-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/architectsdaughter/ArchitectsDaughter-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Architects Daughter"
   homepage "https://fonts.google.com/specimen/Architects+Daughter"
   def install

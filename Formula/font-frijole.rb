@@ -1,5 +1,5 @@
 class FontFrijole < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/frijole/Frijole-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/frijole/Frijole-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Frijole"
   homepage "https://fonts.google.com/specimen/Frijole"
   def install

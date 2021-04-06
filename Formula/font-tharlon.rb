@@ -1,5 +1,5 @@
 class FontTharlon < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/tharlon/Tharlon-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/tharlon/Tharlon-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Tharlon"
   homepage "https://fonts.google.com/earlyaccess"
   def install

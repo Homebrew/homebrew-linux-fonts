@@ -1,5 +1,5 @@
 class FontFingerPaint < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/fingerpaint/FingerPaint-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/fingerpaint/FingerPaint-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Finger Paint"
   homepage "https://fonts.google.com/specimen/Finger+Paint"
   def install

@@ -1,5 +1,5 @@
 class FontMichroma < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/michroma/Michroma.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/michroma/Michroma.ttf", verified: "github.com/google/fonts/"
   desc "Michroma"
   homepage "https://fonts.google.com/specimen/Michroma"
   def install

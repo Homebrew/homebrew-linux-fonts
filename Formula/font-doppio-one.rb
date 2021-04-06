@@ -1,5 +1,5 @@
 class FontDoppioOne < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/doppioone/DoppioOne-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/doppioone/DoppioOne-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Doppio One"
   homepage "https://fonts.google.com/specimen/Doppio+One"
   def install

@@ -1,5 +1,5 @@
 class FontBreeSerif < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/breeserif/BreeSerif-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/breeserif/BreeSerif-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Bree Serif"
   homepage "https://fonts.google.com/specimen/Bree+Serif"
   def install

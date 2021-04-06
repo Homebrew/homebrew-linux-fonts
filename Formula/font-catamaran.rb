@@ -1,5 +1,5 @@
 class FontCatamaran < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/catamaran/Catamaran%5Bwght%5D.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/catamaran/Catamaran%5Bwght%5D.ttf", verified: "github.com/google/fonts/"
   desc "Catamaran"
   homepage "https://fonts.google.com/specimen/Catamaran"
   def install

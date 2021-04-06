@@ -1,5 +1,5 @@
 class FontLateef < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/lateef/LateefRegOT.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/lateef/LateefRegOT.ttf", verified: "github.com/google/fonts/"
   desc "Lateef"
   homepage "https://fonts.google.com/specimen/Lateef"
   def install

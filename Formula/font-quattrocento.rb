@@ -1,5 +1,5 @@
 class FontQuattrocento < Formula
-  head "https://github.com/google/fonts/trunk/ofl/quattrocento", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/quattrocento", verified: "github.com/google/fonts/", using: :svn
   desc "Quattrocento"
   homepage "https://fonts.google.com/specimen/Quattrocento"
   def install

@@ -1,5 +1,5 @@
 class FontRationale < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/rationale/Rationale-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/rationale/Rationale-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Rationale"
   homepage "https://fonts.google.com/specimen/Rationale"
   def install

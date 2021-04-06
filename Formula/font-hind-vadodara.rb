@@ -1,5 +1,5 @@
 class FontHindVadodara < Formula
-  head "https://github.com/google/fonts/trunk/ofl/hindvadodara", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/hindvadodara", verified: "github.com/google/fonts/", using: :svn
   desc "Hind Vadodara"
   homepage "https://fonts.google.com/specimen/Hind+Vadodara"
   def install

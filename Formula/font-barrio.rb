@@ -1,5 +1,5 @@
 class FontBarrio < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/barrio/Barrio-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/barrio/Barrio-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Barrio"
   homepage "https://fonts.google.com/specimen/Barrio"
   def install

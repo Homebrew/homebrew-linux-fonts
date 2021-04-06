@@ -1,5 +1,5 @@
 class FontCreepster < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/creepster/Creepster-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/creepster/Creepster-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Creepster"
   homepage "https://fonts.google.com/specimen/Creepster"
   def install

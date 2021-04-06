@@ -1,5 +1,5 @@
 class FontHindJalandhar < Formula
-  head "https://github.com/google/fonts/trunk/ofl/hindjalandhar", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/hindjalandhar", verified: "github.com/google/fonts/", using: :svn
   desc "Hind Jalandhar"
   homepage "https://fonts.google.com/specimen/Hind+Jalandhar"
   def install

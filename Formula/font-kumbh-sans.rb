@@ -1,5 +1,5 @@
 class FontKumbhSans < Formula
-  head "https://github.com/google/fonts/trunk/ofl/kumbhsans", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/kumbhsans", verified: "github.com/google/fonts/", using: :svn
   desc "Kumbh Sans"
   desc "Geometric sans-serif multi-purpose font"
   homepage "https://fonts.google.com/specimen/Kumbh+Sans"

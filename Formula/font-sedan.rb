@@ -1,5 +1,5 @@
 class FontSedan < Formula
-  head "https://github.com/google/fonts/trunk/ofl/sedan", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/sedan", verified: "github.com/google/fonts/", using: :svn
   desc "Sedan"
   homepage "https://fonts.google.com/specimen/Sedan"
   def install

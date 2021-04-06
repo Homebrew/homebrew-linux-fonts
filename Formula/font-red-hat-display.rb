@@ -1,5 +1,5 @@
 class FontRedHatDisplay < Formula
-  head "https://github.com/google/fonts/trunk/ofl/redhatdisplay", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/redhatdisplay", verified: "github.com/google/fonts/", using: :svn
   desc "Red Hat Display"
   homepage "https://fonts.google.com/specimen/Red+Hat+Display"
   def install

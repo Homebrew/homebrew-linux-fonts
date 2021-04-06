@@ -1,5 +1,5 @@
 class FontMiniver < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/miniver/Miniver-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/miniver/Miniver-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Miniver"
   homepage "https://fonts.google.com/specimen/Miniver"
   def install

@@ -1,5 +1,5 @@
 class FontIbmPlexMono < Formula
-  head "https://github.com/google/fonts/trunk/ofl/ibmplexmono", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/ibmplexmono", verified: "github.com/google/fonts/", using: :svn
   desc "IBM Plex Mono"
   homepage "https://fonts.google.com/specimen/IBM+Plex+Mono"
   def install

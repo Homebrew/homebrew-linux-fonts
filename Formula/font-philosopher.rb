@@ -1,5 +1,5 @@
 class FontPhilosopher < Formula
-  head "https://github.com/google/fonts/trunk/ofl/philosopher", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/philosopher", verified: "github.com/google/fonts/", using: :svn
   desc "Philosopher"
   homepage "https://fonts.google.com/specimen/Philosopher"
   def install

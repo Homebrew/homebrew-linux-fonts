@@ -1,5 +1,5 @@
 class FontSirinStencil < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/sirinstencil/SirinStencil-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/sirinstencil/SirinStencil-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Sirin Stencil"
   homepage "https://fonts.google.com/specimen/Sirin+Stencil"
   def install

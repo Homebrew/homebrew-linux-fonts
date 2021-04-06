@@ -1,5 +1,5 @@
 class FontMacondo < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/macondo/Macondo-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/macondo/Macondo-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Macondo"
   homepage "https://fonts.google.com/specimen/Macondo"
   def install

@@ -1,5 +1,5 @@
 class FontMulish < Formula
-  head "https://github.com/google/fonts/trunk/ofl/mulish", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/mulish", verified: "github.com/google/fonts/", using: :svn
   desc "Mulish"
   desc "Minimalist sans serif typeface, designed for both display and text typography"
   homepage "https://fonts.google.com/specimen/Mulish"

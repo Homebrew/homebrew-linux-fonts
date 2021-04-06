@@ -1,5 +1,5 @@
 class FontInika < Formula
-  head "https://github.com/google/fonts/trunk/ofl/inika", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/inika", verified: "github.com/google/fonts/", using: :svn
   desc "Inika"
   homepage "https://fonts.google.com/specimen/Inika"
   def install

@@ -1,5 +1,5 @@
 class FontMountainsOfChristmas < Formula
-  head "https://github.com/google/fonts/trunk/apache/mountainsofchristmas", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/apache/mountainsofchristmas", verified: "github.com/google/fonts/", using: :svn
   desc "Mountains of Christmas"
   homepage "https://fonts.google.com/specimen/Mountains+of+Christmas"
   def install

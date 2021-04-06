@@ -1,5 +1,5 @@
 class FontSniglet < Formula
-  head "https://github.com/google/fonts/trunk/ofl/sniglet", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/sniglet", verified: "github.com/google/fonts/", using: :svn
   desc "Sniglet"
   homepage "https://fonts.google.com/specimen/Sniglet"
   def install

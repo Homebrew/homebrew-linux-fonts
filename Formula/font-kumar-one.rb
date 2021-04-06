@@ -1,5 +1,5 @@
 class FontKumarOne < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/kumarone/KumarOne-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/kumarone/KumarOne-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Kumar One"
   homepage "https://fonts.google.com/specimen/Kumar+One"
   def install

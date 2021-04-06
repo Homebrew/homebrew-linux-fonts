@@ -1,5 +1,5 @@
 class FontAveriaSansLibre < Formula
-  head "https://github.com/google/fonts/trunk/ofl/averiasanslibre", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/averiasanslibre", verified: "github.com/google/fonts/", using: :svn
   desc "Averia Sans Libre"
   homepage "https://fonts.google.com/specimen/Averia+Sans+Libre"
   def install

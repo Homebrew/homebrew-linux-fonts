@@ -1,5 +1,5 @@
 class FontWarnes < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/warnes/Warnes-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/warnes/Warnes-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Warnes"
   homepage "https://fonts.google.com/specimen/Warnes"
   def install

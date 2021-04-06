@@ -1,5 +1,5 @@
 class FontNotoSansOriyaUi < Formula
-  head "https://github.com/google/fonts/trunk/ofl/notosansoriyaui", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/notosansoriyaui", verified: "github.com/google/fonts/", using: :svn
   desc "Noto Sans Oriya UI"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Oriya+UI"
   def install

@@ -1,5 +1,5 @@
 class FontB612Mono < Formula
-  head "https://github.com/google/fonts/trunk/ofl/b612mono", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/b612mono", verified: "github.com/google/fonts/", using: :svn
   desc "B612 Mono"
   homepage "https://fonts.google.com/specimen/B612+Mono"
   def install

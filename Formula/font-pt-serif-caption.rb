@@ -1,5 +1,5 @@
 class FontPtSerifCaption < Formula
-  head "https://github.com/google/fonts/trunk/ofl/ptserifcaption", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/ptserifcaption", verified: "github.com/google/fonts/", using: :svn
   desc "PT Serif Caption"
   homepage "https://fonts.google.com/specimen/PT+Serif+Caption"
   def install

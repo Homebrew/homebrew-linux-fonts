@@ -1,5 +1,5 @@
 class FontNobile < Formula
-  head "https://github.com/google/fonts/trunk/ofl/nobile", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/nobile", verified: "github.com/google/fonts/", using: :svn
   desc "Nobile"
   homepage "https://fonts.google.com/specimen/Nobile"
   def install

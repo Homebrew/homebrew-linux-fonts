@@ -1,5 +1,5 @@
 class FontShipporiMinchoB1 < Formula
-  head "https://github.com/google/fonts/trunk/ofl/shipporiminchob1", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/shipporiminchob1", verified: "github.com/google/fonts/", using: :svn
   desc "Shippori Mincho B1"
   desc "Based on the Tsukiji Typeface making facility of Tokyo"
   homepage "https://fonts.google.com/specimen/Shippori+Mincho+B1"

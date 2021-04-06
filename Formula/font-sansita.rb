@@ -1,5 +1,5 @@
 class FontSansita < Formula
-  head "https://github.com/google/fonts/trunk/ofl/sansita", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/sansita", verified: "github.com/google/fonts/", using: :svn
   desc "Sansita"
   homepage "https://fonts.google.com/specimen/Sansita"
   def install

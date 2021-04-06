@@ -1,5 +1,5 @@
 class FontMiltonian < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/miltonian/Miltonian-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/miltonian/Miltonian-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Miltonian"
   homepage "https://fonts.google.com/specimen/Miltonian"
   def install

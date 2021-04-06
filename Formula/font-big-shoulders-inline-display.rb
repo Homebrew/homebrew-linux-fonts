@@ -1,5 +1,5 @@
 class FontBigShouldersInlineDisplay < Formula
-  head "https://github.com/google/fonts/trunk/ofl/bigshouldersinlinedisplay", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/bigshouldersinlinedisplay", verified: "github.com/google/fonts/", using: :svn
   desc "Big Shoulders Inline Display"
   desc "Superfamily of condensed American Gothic typefaces"
   homepage "https://fonts.google.com/specimen/Big+Shoulders+Inline+Display"

@@ -1,5 +1,5 @@
 class FontFugazOne < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/fugazone/FugazOne-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/fugazone/FugazOne-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Fugaz One"
   homepage "https://fonts.google.com/specimen/Fugaz+One"
   def install

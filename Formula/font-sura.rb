@@ -1,5 +1,5 @@
 class FontSura < Formula
-  head "https://github.com/google/fonts/trunk/ofl/sura", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/sura", verified: "github.com/google/fonts/", using: :svn
   desc "Sura"
   homepage "https://fonts.google.com/specimen/Sura"
   def install

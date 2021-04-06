@@ -1,5 +1,5 @@
 class FontEnriqueta < Formula
-  head "https://github.com/google/fonts/trunk/ofl/enriqueta", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/enriqueta", verified: "github.com/google/fonts/", using: :svn
   desc "Enriqueta"
   homepage "https://fonts.google.com/specimen/Enriqueta"
   def install

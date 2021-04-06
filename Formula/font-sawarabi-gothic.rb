@@ -1,5 +1,5 @@
 class FontSawarabiGothic < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/sawarabigothic/SawarabiGothic-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/sawarabigothic/SawarabiGothic-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Sawarabi Gothic"
   homepage "https://fonts.google.com/specimen/Sawarabi+Gothic"
   def install

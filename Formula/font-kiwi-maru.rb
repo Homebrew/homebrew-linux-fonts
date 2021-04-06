@@ -1,5 +1,5 @@
 class FontKiwiMaru < Formula
-  head "https://github.com/google/fonts/trunk/ofl/kiwimaru", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/kiwimaru", verified: "github.com/google/fonts/", using: :svn
   desc "Kiwi Maru"
   desc "Typeface for visualization of everyday and slang expressions"
   homepage "https://fonts.google.com/specimen/Kiwi+Maru"

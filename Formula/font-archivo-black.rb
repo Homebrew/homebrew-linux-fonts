@@ -1,5 +1,5 @@
 class FontArchivoBlack < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/archivoblack/ArchivoBlack-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/archivoblack/ArchivoBlack-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Archivo Black"
   homepage "https://fonts.google.com/specimen/Archivo+Black"
   def install

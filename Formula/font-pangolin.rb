@@ -1,5 +1,5 @@
 class FontPangolin < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/pangolin/Pangolin-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/pangolin/Pangolin-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Pangolin"
   homepage "https://fonts.google.com/specimen/Pangolin"
   def install

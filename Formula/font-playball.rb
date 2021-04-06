@@ -1,5 +1,5 @@
 class FontPlayball < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/playball/Playball-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/playball/Playball-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Playball"
   homepage "https://fonts.google.com/specimen/Playball"
   def install

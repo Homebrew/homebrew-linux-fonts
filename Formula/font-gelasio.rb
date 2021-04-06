@@ -1,5 +1,5 @@
 class FontGelasio < Formula
-  head "https://github.com/google/fonts/trunk/ofl/gelasio", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/gelasio", verified: "github.com/google/fonts/", using: :svn
   desc "Gelasio"
   homepage "https://fonts.google.com/specimen/Gelasio"
   def install

@@ -1,6 +1,7 @@
 class FontMetropolis < Formula
-  head "https://dl.1001fonts.com/metropolis.zip"
+  head "https://www.1001fonts.com/download/metropolis.zip"
   desc "Metropolis"
+  desc "Modern, geometric typeface"
   homepage "https://www.1001fonts.com/metropolis-font.html"
   def install
     (share/"fonts").install "Metropolis-Black.otf"

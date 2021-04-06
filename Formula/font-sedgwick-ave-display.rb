@@ -1,5 +1,5 @@
 class FontSedgwickAveDisplay < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/sedgwickavedisplay/SedgwickAveDisplay-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/sedgwickavedisplay/SedgwickAveDisplay-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Sedgwick Ave Display"
   homepage "https://fonts.google.com/specimen/Sedgwick+Ave+Display"
   def install

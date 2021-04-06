@@ -1,5 +1,5 @@
 class FontChanga < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/changa/Changa%5Bwght%5D.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/changa/Changa%5Bwght%5D.ttf", verified: "github.com/google/fonts/"
   desc "Changa"
   homepage "https://fonts.google.com/specimen/Changa"
   def install

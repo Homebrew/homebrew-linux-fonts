@@ -1,5 +1,5 @@
 class FontSortsMillGoudy < Formula
-  head "https://github.com/google/fonts/trunk/ofl/sortsmillgoudy", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/sortsmillgoudy", verified: "github.com/google/fonts/", using: :svn
   desc "Sorts Mill Goudy"
   homepage "https://fonts.google.com/specimen/Sorts+Mill+Goudy"
   def install

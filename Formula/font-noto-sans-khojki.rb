@@ -1,5 +1,5 @@
 class FontNotoSansKhojki < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/notosanskhojki/NotoSansKhojki-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/notosanskhojki/NotoSansKhojki-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Noto Sans Khojki"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Khojki"
   def install

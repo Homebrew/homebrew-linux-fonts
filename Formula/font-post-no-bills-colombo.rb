@@ -1,5 +1,5 @@
 class FontPostNoBillsColombo < Formula
-  head "https://github.com/google/fonts/trunk/ofl/postnobillscolombo", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/postnobillscolombo", verified: "github.com/google/fonts/", using: :svn
   desc "Post No Bills Colombo"
   homepage "https://fonts.google.com/specimen/Post+No+Bills+Colombo"
   def install

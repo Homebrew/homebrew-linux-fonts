@@ -1,5 +1,5 @@
 class FontAveriaSerifLibre < Formula
-  head "https://github.com/google/fonts/trunk/ofl/averiaseriflibre", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/averiaseriflibre", verified: "github.com/google/fonts/", using: :svn
   desc "Averia Serif Libre"
   homepage "https://fonts.google.com/specimen/Averia+Serif+Libre"
   def install

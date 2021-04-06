@@ -1,5 +1,5 @@
 class FontTurretRoad < Formula
-  head "https://github.com/google/fonts/trunk/ofl/turretroad", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/turretroad", verified: "github.com/google/fonts/", using: :svn
   desc "Turret Road"
   homepage "https://fonts.google.com/specimen/Turret+Road"
   def install

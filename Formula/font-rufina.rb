@@ -1,5 +1,5 @@
 class FontRufina < Formula
-  head "https://github.com/google/fonts/trunk/ofl/rufina", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/rufina", verified: "github.com/google/fonts/", using: :svn
   desc "Rufina"
   homepage "https://fonts.google.com/specimen/Rufina"
   def install

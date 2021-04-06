@@ -1,5 +1,5 @@
 class FontNiramit < Formula
-  head "https://github.com/google/fonts/trunk/ofl/niramit", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/niramit", verified: "github.com/google/fonts/", using: :svn
   desc "Niramit"
   homepage "https://fonts.google.com/specimen/Niramit"
   def install

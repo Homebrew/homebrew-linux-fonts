@@ -1,5 +1,5 @@
 class FontGruppo < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/gruppo/Gruppo-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/gruppo/Gruppo-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Gruppo"
   homepage "https://fonts.google.com/specimen/Gruppo"
   def install

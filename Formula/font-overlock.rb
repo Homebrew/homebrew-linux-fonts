@@ -1,5 +1,5 @@
 class FontOverlock < Formula
-  head "https://github.com/google/fonts/trunk/ofl/overlock", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/overlock", verified: "github.com/google/fonts/", using: :svn
   desc "Overlock"
   homepage "https://fonts.google.com/specimen/Overlock"
   def install

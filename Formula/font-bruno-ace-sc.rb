@@ -1,5 +1,5 @@
 class FontBrunoAceSc < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/brunoacesc/BrunoAceSC-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/brunoacesc/BrunoAceSC-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Bruno Ace SC"
   homepage "https://fonts.google.com/specimen/Bruno+Ace+SC"
   def install

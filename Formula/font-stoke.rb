@@ -1,5 +1,5 @@
 class FontStoke < Formula
-  head "https://github.com/google/fonts/trunk/ofl/stoke", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/stoke", verified: "github.com/google/fonts/", using: :svn
   desc "Stoke"
   homepage "https://fonts.google.com/specimen/Stoke"
   def install

@@ -1,5 +1,5 @@
 class FontChangaOne < Formula
-  head "https://github.com/google/fonts/trunk/ofl/changaone", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/changaone", verified: "github.com/google/fonts/", using: :svn
   desc "Changa One"
   homepage "https://fonts.google.com/specimen/Changa+One"
   def install

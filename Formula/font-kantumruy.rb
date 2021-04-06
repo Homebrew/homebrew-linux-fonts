@@ -1,5 +1,5 @@
 class FontKantumruy < Formula
-  head "https://github.com/google/fonts/trunk/ofl/kantumruy", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/kantumruy", verified: "github.com/google/fonts/", using: :svn
   desc "Kantumruy"
   homepage "https://fonts.google.com/specimen/Kantumruy"
   def install

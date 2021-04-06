@@ -1,5 +1,5 @@
 class FontKatibeh < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/katibeh/Katibeh-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/katibeh/Katibeh-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Katibeh"
   homepage "https://fonts.google.com/specimen/Katibeh"
   def install

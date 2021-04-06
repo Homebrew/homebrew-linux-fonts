@@ -1,5 +1,5 @@
 class FontMallanna < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/mallanna/Mallanna-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/mallanna/Mallanna-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Mallanna"
   homepage "https://fonts.google.com/specimen/Mallanna"
   def install

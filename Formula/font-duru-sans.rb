@@ -1,5 +1,5 @@
 class FontDuruSans < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/durusans/DuruSans-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/durusans/DuruSans-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Duru Sans"
   homepage "https://fonts.google.com/specimen/Duru+Sans"
   def install

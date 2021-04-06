@@ -1,5 +1,5 @@
 class FontKokoro < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/kokoro/Kokoro-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/kokoro/Kokoro-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Kokoro"
   homepage "https://fonts.google.com/specimen/Kokoro"
   def install

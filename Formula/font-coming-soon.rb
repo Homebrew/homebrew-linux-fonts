@@ -1,5 +1,5 @@
 class FontComingSoon < Formula
-  head "https://github.com/google/fonts/raw/master/apache/comingsoon/ComingSoon-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/apache/comingsoon/ComingSoon-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Coming Soon"
   homepage "https://fonts.google.com/specimen/Coming+Soon"
   def install

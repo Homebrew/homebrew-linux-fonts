@@ -1,5 +1,5 @@
 class FontManjari < Formula
-  head "https://github.com/google/fonts/trunk/ofl/manjari", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/manjari", verified: "github.com/google/fonts/", using: :svn
   desc "Manjari"
   homepage "https://fonts.google.com/specimen/Manjari"
   def install

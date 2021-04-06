@@ -1,5 +1,5 @@
 class FontSen < Formula
-  head "https://github.com/google/fonts/trunk/ofl/sen", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/sen", verified: "github.com/google/fonts/", using: :svn
   desc "Sen"
   homepage "https://fonts.google.com/specimen/Sen"
   def install

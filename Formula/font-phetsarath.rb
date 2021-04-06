@@ -1,5 +1,5 @@
 class FontPhetsarath < Formula
-  head "https://github.com/google/fonts/trunk/ofl/phetsarath", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/phetsarath", verified: "github.com/google/fonts/", using: :svn
   desc "Phetsarath"
   homepage "https://fonts.google.com/specimen/Phetsarath"
   def install

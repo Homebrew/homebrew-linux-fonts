@@ -1,5 +1,5 @@
 class FontFrankRuhlLibre < Formula
-  head "https://github.com/google/fonts/trunk/ofl/frankruhllibre", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/frankruhllibre", verified: "github.com/google/fonts/", using: :svn
   desc "Frank Ruhl Libre"
   homepage "https://fonts.google.com/specimen/Frank+Ruhl+Libre"
   def install

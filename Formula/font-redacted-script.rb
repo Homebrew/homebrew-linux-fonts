@@ -1,5 +1,5 @@
 class FontRedactedScript < Formula
-  head "https://github.com/google/fonts/trunk/ofl/redactedscript", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/redactedscript", verified: "github.com/google/fonts/", using: :svn
   desc "Redacted Script"
   homepage "https://fonts.google.com/specimen/Redacted+Script"
   def install

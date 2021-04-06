@@ -1,5 +1,5 @@
 class FontPridi < Formula
-  head "https://github.com/google/fonts/trunk/ofl/pridi", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/pridi", verified: "github.com/google/fonts/", using: :svn
   desc "Pridi"
   homepage "https://fonts.google.com/specimen/Pridi"
   def install

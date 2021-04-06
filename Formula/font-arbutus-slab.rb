@@ -1,5 +1,5 @@
 class FontArbutusSlab < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/arbutusslab/ArbutusSlab-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/arbutusslab/ArbutusSlab-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Arbutus Slab"
   homepage "https://fonts.google.com/specimen/Arbutus+Slab"
   def install

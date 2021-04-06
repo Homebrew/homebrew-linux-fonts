@@ -1,5 +1,5 @@
 class FontBattambang < Formula
-  head "https://github.com/google/fonts/trunk/ofl/battambang", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/battambang", verified: "github.com/google/fonts/", using: :svn
   desc "Battambang"
   homepage "https://fonts.google.com/specimen/Battambang"
   def install

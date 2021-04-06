@@ -1,5 +1,5 @@
 class FontMogra < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/mogra/Mogra-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/mogra/Mogra-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Mogra"
   homepage "https://fonts.google.com/specimen/Mogra"
   def install

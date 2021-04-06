@@ -1,5 +1,5 @@
 class FontAleo < Formula
-  head "https://github.com/google/fonts/trunk/ofl/aleo", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/aleo", verified: "github.com/google/fonts/", using: :svn
   desc "Aleo"
   homepage "https://fonts.google.com/specimen/Aleo"
   def install

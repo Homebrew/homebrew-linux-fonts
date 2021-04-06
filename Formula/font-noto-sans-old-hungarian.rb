@@ -1,5 +1,5 @@
 class FontNotoSansOldHungarian < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/notosansoldhungarian/NotoSansOldHungarian-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/notosansoldhungarian/NotoSansOldHungarian-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Noto Sans Old Hungarian"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Old+Hungarian"
   def install

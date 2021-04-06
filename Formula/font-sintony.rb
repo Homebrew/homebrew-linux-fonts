@@ -1,5 +1,5 @@
 class FontSintony < Formula
-  head "https://github.com/google/fonts/trunk/ofl/sintony", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/sintony", verified: "github.com/google/fonts/", using: :svn
   desc "Sintony"
   homepage "https://fonts.google.com/specimen/Sintony"
   def install

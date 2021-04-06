@@ -1,5 +1,5 @@
 class FontInder < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/inder/Inder-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/inder/Inder-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Inder"
   homepage "https://fonts.google.com/specimen/Inder"
   def install

@@ -1,5 +1,5 @@
 class FontSecularOne < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/secularone/SecularOne-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/secularone/SecularOne-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Secular One"
   homepage "https://fonts.google.com/specimen/Secular+One"
   def install

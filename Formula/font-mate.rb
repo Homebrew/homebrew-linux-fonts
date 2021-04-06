@@ -1,5 +1,5 @@
 class FontMate < Formula
-  head "https://github.com/google/fonts/trunk/ofl/mate", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/mate", verified: "github.com/google/fonts/", using: :svn
   desc "Mate"
   homepage "https://fonts.google.com/specimen/Mate"
   def install

@@ -1,5 +1,5 @@
 class FontLemon < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/lemon/Lemon-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/lemon/Lemon-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Lemon"
   homepage "https://fonts.google.com/specimen/Lemon"
   def install

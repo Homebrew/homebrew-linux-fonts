@@ -1,5 +1,5 @@
 class FontSyncopate < Formula
-  head "https://github.com/google/fonts/trunk/apache/syncopate", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/apache/syncopate", verified: "github.com/google/fonts/", using: :svn
   desc "Syncopate"
   homepage "https://fonts.google.com/specimen/Syncopate"
   def install

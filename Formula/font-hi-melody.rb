@@ -1,5 +1,5 @@
 class FontHiMelody < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/himelody/HiMelody-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/himelody/HiMelody-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Hi Melody"
   homepage "https://fonts.google.com/specimen/Hi+Melody"
   def install

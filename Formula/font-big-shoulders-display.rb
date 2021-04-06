@@ -1,5 +1,5 @@
 class FontBigShouldersDisplay < Formula
-  head "https://github.com/google/fonts/trunk/ofl/bigshouldersdisplay", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/bigshouldersdisplay", verified: "github.com/google/fonts/", using: :svn
   desc "Big Shoulders Display"
   homepage "https://fonts.google.com/specimen/Big+Shoulders+Display"
   def install

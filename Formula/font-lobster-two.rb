@@ -1,5 +1,5 @@
 class FontLobsterTwo < Formula
-  head "https://github.com/google/fonts/trunk/ofl/lobstertwo", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/lobstertwo", verified: "github.com/google/fonts/", using: :svn
   desc "Lobster Two"
   homepage "https://fonts.google.com/specimen/Lobster+Two"
   def install

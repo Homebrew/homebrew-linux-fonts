@@ -1,5 +1,5 @@
 class FontNicoMoji < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/nicomoji/NicoMoji-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/nicomoji/NicoMoji-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Nico Moji"
   homepage "https://fonts.google.com/specimen/Nico+Moji"
   def install

@@ -1,5 +1,5 @@
 class FontNanumBrushScript < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/nanumbrushscript/NanumBrushScript-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/nanumbrushscript/NanumBrushScript-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Nanum Brush Script"
   homepage "https://fonts.google.com/specimen/Nanum+Brush+Script"
   def install

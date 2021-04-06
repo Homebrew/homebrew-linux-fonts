@@ -1,5 +1,5 @@
 class FontCormorantUnicase < Formula
-  head "https://github.com/google/fonts/trunk/ofl/cormorantunicase", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/cormorantunicase", verified: "github.com/google/fonts/", using: :svn
   desc "Cormorant Unicase"
   homepage "https://fonts.google.com/specimen/Cormorant+Unicase"
   def install

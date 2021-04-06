@@ -1,5 +1,5 @@
 class FontZcoolXiaowei < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/zcoolxiaowei/ZCOOLXiaoWei-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/zcoolxiaowei/ZCOOLXiaoWei-Regular.ttf", verified: "github.com/google/fonts/"
   desc "ZCOOL XiaoWei"
   homepage "https://fonts.google.com/specimen/ZCOOL+XiaoWei"
   def install

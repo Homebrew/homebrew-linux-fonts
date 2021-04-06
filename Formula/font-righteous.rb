@@ -1,5 +1,5 @@
 class FontRighteous < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/righteous/Righteous-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/righteous/Righteous-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Righteous"
   homepage "https://fonts.google.com/specimen/Righteous"
   def install

@@ -1,5 +1,5 @@
 class FontUltra < Formula
-  head "https://github.com/google/fonts/raw/master/apache/ultra/Ultra-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/apache/ultra/Ultra-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Ultra"
   homepage "https://fonts.google.com/specimen/Ultra"
   def install

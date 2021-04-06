@@ -1,5 +1,5 @@
 class FontSansitaOne < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/sansitaone/SansitaOne-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/sansitaone/SansitaOne-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Sansita One"
   homepage "https://fonts.google.com/specimen/Sansita+One"
   def install

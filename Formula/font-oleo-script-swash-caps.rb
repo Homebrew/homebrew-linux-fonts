@@ -1,5 +1,5 @@
 class FontOleoScriptSwashCaps < Formula
-  head "https://github.com/google/fonts/trunk/ofl/oleoscriptswashcaps", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/oleoscriptswashcaps", verified: "github.com/google/fonts/", using: :svn
   desc "Oleo Script Swash Caps"
   homepage "https://fonts.google.com/specimen/Oleo+Script+Swash+Caps"
   def install

@@ -1,5 +1,5 @@
 class FontNotoSansTakri < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/notosanstakri/NotoSansTakri-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/notosanstakri/NotoSansTakri-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Noto Sans Takri"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Takri"
   def install

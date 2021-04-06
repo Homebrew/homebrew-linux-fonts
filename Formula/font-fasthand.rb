@@ -1,5 +1,5 @@
 class FontFasthand < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/fasthand/Fasthand-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/fasthand/Fasthand-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Fasthand"
   homepage "https://fonts.google.com/specimen/Fasthand"
   def install

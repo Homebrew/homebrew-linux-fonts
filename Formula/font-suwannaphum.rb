@@ -1,5 +1,5 @@
 class FontSuwannaphum < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/suwannaphum/Suwannaphum-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/suwannaphum/Suwannaphum-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Suwannaphum"
   homepage "https://fonts.google.com/specimen/Suwannaphum"
   def install

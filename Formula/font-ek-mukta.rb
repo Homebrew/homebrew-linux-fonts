@@ -1,5 +1,5 @@
 class FontEkMukta < Formula
-  head "https://github.com/google/fonts/trunk/ofl/ekmukta", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/ekmukta", verified: "github.com/google/fonts/", using: :svn
   desc "Ek Mukta"
   homepage "https://fonts.google.com/specimen/Ek+Mukta"
   def install

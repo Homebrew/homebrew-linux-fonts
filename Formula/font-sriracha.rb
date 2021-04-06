@@ -1,5 +1,5 @@
 class FontSriracha < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/sriracha/Sriracha-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/sriracha/Sriracha-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Sriracha"
   homepage "https://fonts.google.com/specimen/Sriracha"
   def install

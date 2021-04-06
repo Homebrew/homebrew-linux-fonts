@@ -1,5 +1,5 @@
 class FontGeo < Formula
-  head "https://github.com/google/fonts/trunk/ofl/geo", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/geo", verified: "github.com/google/fonts/", using: :svn
   desc "Geo"
   homepage "https://fonts.google.com/specimen/Geo"
   def install

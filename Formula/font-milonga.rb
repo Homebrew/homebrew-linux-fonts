@@ -1,5 +1,5 @@
 class FontMilonga < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/milonga/Milonga-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/milonga/Milonga-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Milonga"
   homepage "https://fonts.google.com/specimen/Milonga"
   def install

@@ -1,5 +1,5 @@
 class FontMonofurForPowerline < Formula
-  head "https://github.com/powerline/fonts/trunk/Monofur", using: :svn, trust_cert: true
+  head "https://github.com/powerline/fonts/trunk/Monofur", using: :svn
   desc "monofur for Powerline"
   homepage "https://github.com/powerline/fonts/tree/master/Monofur"
   def install

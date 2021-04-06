@@ -1,5 +1,5 @@
 class FontCormorantInfant < Formula
-  head "https://github.com/google/fonts/trunk/ofl/cormorantinfant", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/cormorantinfant", verified: "github.com/google/fonts/", using: :svn
   desc "Cormorant Infant"
   homepage "https://fonts.google.com/specimen/Cormorant+Infant"
   def install

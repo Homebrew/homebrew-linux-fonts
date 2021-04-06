@@ -1,5 +1,5 @@
 class FontAlexBrush < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/alexbrush/AlexBrush-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/alexbrush/AlexBrush-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Alex Brush"
   homepage "https://fonts.google.com/specimen/Alex+Brush"
   def install

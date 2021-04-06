@@ -1,5 +1,5 @@
 class FontArimo < Formula
-  head "https://github.com/google/fonts/trunk/apache/arimo", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/apache/arimo", verified: "github.com/google/fonts/", using: :svn
   desc "Arimo"
   homepage "https://fonts.google.com/specimen/Arimo"
   def install

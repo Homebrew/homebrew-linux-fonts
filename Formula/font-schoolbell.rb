@@ -1,5 +1,5 @@
 class FontSchoolbell < Formula
-  head "https://github.com/google/fonts/raw/master/apache/schoolbell/Schoolbell-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/apache/schoolbell/Schoolbell-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Schoolbell"
   homepage "https://fonts.google.com/specimen/Schoolbell"
   def install

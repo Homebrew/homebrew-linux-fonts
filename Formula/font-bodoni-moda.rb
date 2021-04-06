@@ -1,5 +1,5 @@
 class FontBodoniModa < Formula
-  head "https://github.com/google/fonts/trunk/ofl/bodonimoda", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/bodonimoda", verified: "github.com/google/fonts/", using: :svn
   desc "Bodoni Moda"
   desc "Serif typeface with high contrast"
   homepage "https://fonts.google.com/specimen/Bodoni+Moda"

@@ -1,5 +1,5 @@
 class FontRalewayDots < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/ralewaydots/RalewayDots-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/ralewaydots/RalewayDots-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Raleway Dots"
   homepage "https://fonts.google.com/specimen/Raleway+Dots"
   def install

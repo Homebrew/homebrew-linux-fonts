@@ -1,5 +1,5 @@
 class FontDhurjati < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/dhurjati/Dhurjati-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/dhurjati/Dhurjati-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Dhurjati"
   homepage "https://fonts.google.com/specimen/Dhurjati"
   def install

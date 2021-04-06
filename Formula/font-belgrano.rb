@@ -1,5 +1,5 @@
 class FontBelgrano < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/belgrano/Belgrano-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/belgrano/Belgrano-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Belgrano"
   homepage "https://fonts.google.com/specimen/Belgrano"
   def install

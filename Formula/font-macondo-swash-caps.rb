@@ -1,5 +1,5 @@
 class FontMacondoSwashCaps < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/macondoswashcaps/MacondoSwashCaps-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/macondoswashcaps/MacondoSwashCaps-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Macondo Swash Caps"
   homepage "https://fonts.google.com/specimen/Macondo+Swash+Caps"
   def install

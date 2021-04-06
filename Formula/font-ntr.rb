@@ -1,5 +1,5 @@
 class FontNtr < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/ntr/NTR-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/ntr/NTR-Regular.ttf", verified: "github.com/google/fonts/"
   desc "NTR"
   homepage "https://fonts.google.com/specimen/NTR"
   def install

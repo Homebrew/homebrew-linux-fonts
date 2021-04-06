@@ -1,5 +1,5 @@
 class FontSarabun < Formula
-  head "https://github.com/google/fonts/trunk/ofl/sarabun", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/sarabun", verified: "github.com/google/fonts/", using: :svn
   desc "Sarabun"
   homepage "https://fonts.google.com/specimen/Sarabun"
   def install

@@ -1,5 +1,5 @@
 class FontBigShouldersText < Formula
-  head "https://github.com/google/fonts/trunk/ofl/bigshoulderstext", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/bigshoulderstext", verified: "github.com/google/fonts/", using: :svn
   desc "Big Shoulders Text"
   homepage "https://fonts.google.com/specimen/Big+Shoulders+Text"
   def install

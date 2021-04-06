@@ -1,5 +1,5 @@
 class FontVarela < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/varela/Varela-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/varela/Varela-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Varela"
   homepage "https://fonts.google.com/specimen/Varela"
   def install

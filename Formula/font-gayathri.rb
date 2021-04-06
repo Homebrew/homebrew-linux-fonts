@@ -1,5 +1,5 @@
 class FontGayathri < Formula
-  head "https://github.com/google/fonts/trunk/ofl/gayathri", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/gayathri", verified: "github.com/google/fonts/", using: :svn
   desc "Gayathri"
   homepage "https://fonts.google.com/specimen/Gayathri"
   def install

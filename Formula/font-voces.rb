@@ -1,5 +1,5 @@
 class FontVoces < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/voces/Voces-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/voces/Voces-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Voces"
   homepage "https://fonts.google.com/specimen/Voces"
   def install

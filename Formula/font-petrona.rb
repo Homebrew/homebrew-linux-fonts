@@ -1,5 +1,5 @@
 class FontPetrona < Formula
-  head "https://github.com/google/fonts/trunk/ofl/petrona", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/petrona", verified: "github.com/google/fonts/", using: :svn
   desc "Petrona"
   homepage "https://fonts.google.com/specimen/Petrona"
   def install

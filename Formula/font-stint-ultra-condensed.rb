@@ -1,5 +1,5 @@
 class FontStintUltraCondensed < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/stintultracondensed/StintUltraCondensed-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/stintultracondensed/StintUltraCondensed-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Stint Ultra Condensed"
   homepage "https://fonts.google.com/specimen/Stint+Ultra+Condensed"
   def install

@@ -1,5 +1,5 @@
 class FontKadwa < Formula
-  head "https://github.com/google/fonts/trunk/ofl/kadwa", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/kadwa", verified: "github.com/google/fonts/", using: :svn
   desc "Kadwa"
   homepage "https://fonts.google.com/specimen/Kadwa"
   def install

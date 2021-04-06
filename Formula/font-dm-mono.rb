@@ -1,5 +1,5 @@
 class FontDmMono < Formula
-  head "https://github.com/google/fonts/trunk/ofl/dmmono", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/dmmono", verified: "github.com/google/fonts/", using: :svn
   desc "DM Mono"
   homepage "https://fonts.google.com/specimen/DM+Mono"
   def install

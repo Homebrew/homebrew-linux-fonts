@@ -1,5 +1,5 @@
 class FontCabinCondensed < Formula
-  head "https://github.com/google/fonts/trunk/ofl/cabincondensed", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/cabincondensed", verified: "github.com/google/fonts/", using: :svn
   desc "Cabin Condensed"
   homepage "https://fonts.google.com/specimen/Cabin+Condensed"
   def install

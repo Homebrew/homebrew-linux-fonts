@@ -1,5 +1,5 @@
 class FontLovedByTheKing < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/lovedbytheking/LovedbytheKing.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/lovedbytheking/LovedbytheKing.ttf", verified: "github.com/google/fonts/"
   desc "Loved by the King"
   homepage "https://fonts.google.com/specimen/Loved+by+the+King"
   def install

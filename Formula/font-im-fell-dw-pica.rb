@@ -1,5 +1,5 @@
 class FontImFellDwPica < Formula
-  head "https://github.com/google/fonts/trunk/ofl/imfelldwpica", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/imfelldwpica", verified: "github.com/google/fonts/", using: :svn
   desc "IM Fell DW Pica"
   homepage "https://fonts.google.com/specimen/IM+Fell+DW+Pica"
   def install

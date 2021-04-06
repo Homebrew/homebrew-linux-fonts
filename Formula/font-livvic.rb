@@ -1,5 +1,5 @@
 class FontLivvic < Formula
-  head "https://github.com/google/fonts/trunk/ofl/livvic", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/livvic", verified: "github.com/google/fonts/", using: :svn
   desc "Livvic"
   homepage "https://fonts.google.com/specimen/Livvic"
   def install

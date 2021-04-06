@@ -1,5 +1,5 @@
 class FontArefRuqaa < Formula
-  head "https://github.com/google/fonts/trunk/ofl/arefruqaa", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/arefruqaa", verified: "github.com/google/fonts/", using: :svn
   desc "Aref Ruqaa"
   homepage "https://fonts.google.com/specimen/Aref+Ruqaa"
   def install

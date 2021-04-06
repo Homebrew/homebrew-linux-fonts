@@ -1,5 +1,5 @@
 class FontAsset < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/asset/Asset-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/asset/Asset-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Asset"
   homepage "https://fonts.google.com/specimen/Asset"
   def install

@@ -1,5 +1,5 @@
 class FontCabin < Formula
-  head "https://github.com/google/fonts/trunk/ofl/cabin", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/cabin", verified: "github.com/google/fonts/", using: :svn
   desc "Cabin"
   homepage "https://fonts.google.com/specimen/Cabin"
   def install

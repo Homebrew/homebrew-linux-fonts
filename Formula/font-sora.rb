@@ -1,5 +1,5 @@
 class FontSora < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/sora/Sora%5Bwght%5D.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/sora/Sora%5Bwght%5D.ttf", verified: "github.com/google/fonts/"
   desc "Sora"
   homepage "https://fonts.google.com/specimen/Sora"
   def install

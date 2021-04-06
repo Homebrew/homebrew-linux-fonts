@@ -1,5 +1,5 @@
 class FontBellota < Formula
-  head "https://github.com/google/fonts/trunk/ofl/bellota", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/bellota", verified: "github.com/google/fonts/", using: :svn
   desc "Bellota"
   homepage "https://fonts.google.com/specimen/Bellota"
   def install

@@ -1,5 +1,5 @@
 class FontBilbo < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/bilbo/Bilbo-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/bilbo/Bilbo-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Bilbo"
   homepage "https://fonts.google.com/specimen/Bilbo"
   def install

@@ -1,5 +1,5 @@
 class FontDrSugiyama < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/drsugiyama/DrSugiyama-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/drsugiyama/DrSugiyama-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Dr Sugiyama"
   homepage "https://fonts.google.com/specimen/Dr+Sugiyama"
   def install

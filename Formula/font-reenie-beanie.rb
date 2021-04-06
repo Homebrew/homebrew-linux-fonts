@@ -1,5 +1,5 @@
 class FontReenieBeanie < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/reeniebeanie/ReenieBeanie.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/reeniebeanie/ReenieBeanie.ttf", verified: "github.com/google/fonts/"
   desc "Reenie Beanie"
   homepage "https://fonts.google.com/specimen/Reenie+Beanie"
   def install

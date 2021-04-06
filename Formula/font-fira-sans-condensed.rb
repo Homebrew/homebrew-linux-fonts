@@ -1,5 +1,5 @@
 class FontFiraSansCondensed < Formula
-  head "https://github.com/google/fonts/trunk/ofl/firasanscondensed", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/firasanscondensed", verified: "github.com/google/fonts/", using: :svn
   desc "Fira Sans Condensed"
   homepage "https://fonts.google.com/specimen/Fira+Sans+Condensed"
   def install

@@ -1,5 +1,5 @@
 class FontArya < Formula
-  head "https://github.com/google/fonts/trunk/ofl/arya", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/arya", verified: "github.com/google/fonts/", using: :svn
   desc "Arya"
   homepage "https://fonts.google.com/specimen/Arya"
   def install

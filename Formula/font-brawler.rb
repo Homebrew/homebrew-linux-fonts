@@ -1,5 +1,5 @@
 class FontBrawler < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/brawler/Brawler-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/brawler/Brawler-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Brawler"
   homepage "https://fonts.google.com/specimen/Brawler"
   def install

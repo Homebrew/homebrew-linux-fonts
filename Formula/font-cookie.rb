@@ -1,5 +1,5 @@
 class FontCookie < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/cookie/Cookie-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/cookie/Cookie-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Cookie"
   homepage "https://fonts.google.com/specimen/Cookie"
   def install

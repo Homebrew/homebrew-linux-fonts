@@ -1,5 +1,5 @@
 class FontBarlowSemiCondensed < Formula
-  head "https://github.com/google/fonts/trunk/ofl/barlowsemicondensed", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/barlowsemicondensed", verified: "github.com/google/fonts/", using: :svn
   desc "Barlow Semi Condensed"
   homepage "https://fonts.google.com/specimen/Barlow+Semi+Condensed"
   def install

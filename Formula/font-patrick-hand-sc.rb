@@ -1,5 +1,5 @@
 class FontPatrickHandSc < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/patrickhandsc/PatrickHandSC-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/patrickhandsc/PatrickHandSC-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Patrick Hand SC"
   homepage "https://fonts.google.com/specimen/Patrick+Hand+SC"
   def install

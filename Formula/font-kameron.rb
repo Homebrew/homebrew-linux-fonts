@@ -1,5 +1,5 @@
 class FontKameron < Formula
-  head "https://github.com/google/fonts/trunk/ofl/kameron", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/kameron", verified: "github.com/google/fonts/", using: :svn
   desc "Kameron"
   homepage "https://fonts.google.com/specimen/Kameron"
   def install

@@ -1,5 +1,5 @@
 class FontJosefinSans < Formula
-  head "https://github.com/google/fonts/trunk/ofl/josefinsans", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/josefinsans", verified: "github.com/google/fonts/", using: :svn
   desc "Josefin Sans"
   homepage "https://fonts.google.com/specimen/Josefin+Sans"
   def install

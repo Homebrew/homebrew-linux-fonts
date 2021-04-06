@@ -1,5 +1,5 @@
 class FontLibreBarcode128 < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/librebarcode128/LibreBarcode128-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/librebarcode128/LibreBarcode128-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Libre Barcode 128"
   homepage "https://fonts.google.com/specimen/Libre+Barcode+128"
   def install

@@ -1,5 +1,5 @@
 class FontNewRocker < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/newrocker/NewRocker-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/newrocker/NewRocker-Regular.ttf", verified: "github.com/google/fonts/"
   desc "New Rocker"
   homepage "https://fonts.google.com/specimen/New+Rocker"
   def install

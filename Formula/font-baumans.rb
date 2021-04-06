@@ -1,5 +1,5 @@
 class FontBaumans < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/baumans/Baumans-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/baumans/Baumans-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Baumans"
   homepage "https://fonts.google.com/specimen/Baumans"
   def install

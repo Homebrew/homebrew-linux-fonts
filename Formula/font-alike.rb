@@ -1,5 +1,5 @@
 class FontAlike < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/alike/Alike-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/alike/Alike-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Alike"
   homepage "https://fonts.google.com/specimen/Alike"
   def install

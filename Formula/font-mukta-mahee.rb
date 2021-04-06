@@ -1,5 +1,5 @@
 class FontMuktaMahee < Formula
-  head "https://github.com/google/fonts/trunk/ofl/muktamahee", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/muktamahee", verified: "github.com/google/fonts/", using: :svn
   desc "Mukta Mahee"
   homepage "https://fonts.google.com/specimen/Mukta+Mahee"
   def install

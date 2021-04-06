@@ -1,5 +1,5 @@
 class FontRubikOne < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/rubikone/RubikOne-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/rubikone/RubikOne-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Rubik One"
   homepage "https://fonts.google.com/specimen/Rubik+One"
   def install

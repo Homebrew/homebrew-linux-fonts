@@ -1,5 +1,5 @@
 class FontEnglebert < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/englebert/Englebert-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/englebert/Englebert-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Englebert"
   homepage "https://fonts.google.com/specimen/Englebert"
   def install

@@ -1,5 +1,5 @@
 class FontMerriweatherSans < Formula
-  head "https://github.com/google/fonts/trunk/ofl/merriweathersans", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/merriweathersans", verified: "github.com/google/fonts/", using: :svn
   desc "Merriweather Sans"
   homepage "https://fonts.google.com/specimen/Merriweather+Sans"
   def install

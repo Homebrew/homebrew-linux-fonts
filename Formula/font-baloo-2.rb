@@ -1,5 +1,5 @@
 class FontBaloo2 < Formula
-  head "https://github.com/google/fonts/trunk/ofl/baloo2", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/baloo2", verified: "github.com/google/fonts/", using: :svn
   desc "Baloo 2"
   homepage "https://fonts.google.com/specimen/Baloo+2"
   def install

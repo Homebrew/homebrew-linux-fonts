@@ -1,5 +1,5 @@
 class FontRowdies < Formula
-  head "https://github.com/google/fonts/trunk/ofl/rowdies", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/rowdies", verified: "github.com/google/fonts/", using: :svn
   desc "Rowdies"
   homepage "https://fonts.google.com/specimen/Rowdies"
   def install

@@ -1,5 +1,5 @@
 class FontMako < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/mako/Mako-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/mako/Mako-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Mako"
   homepage "https://fonts.google.com/specimen/Mako"
   def install

@@ -1,5 +1,5 @@
 class FontDroidSansMonoForPowerline < Formula
-  head "https://github.com/powerline/fonts/trunk/DroidSansMono", using: :svn, trust_cert: true
+  head "https://github.com/powerline/fonts/trunk/DroidSansMono", using: :svn
   desc "Droid Sans Mono for Powerline"
   homepage "https://github.com/powerline/fonts/tree/master/DroidSansMono"
   def install

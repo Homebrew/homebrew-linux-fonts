@@ -1,5 +1,5 @@
 class FontLindenHill < Formula
-  head "https://github.com/google/fonts/trunk/ofl/lindenhill", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/lindenhill", verified: "github.com/google/fonts/", using: :svn
   desc "Linden Hill"
   homepage "https://fonts.google.com/specimen/Linden+Hill"
   def install

@@ -1,5 +1,5 @@
 class FontBaiJamjuree < Formula
-  head "https://github.com/google/fonts/trunk/ofl/baijamjuree", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/baijamjuree", verified: "github.com/google/fonts/", using: :svn
   desc "Bai Jamjuree"
   homepage "https://fonts.google.com/specimen/Bai+Jamjuree"
   def install

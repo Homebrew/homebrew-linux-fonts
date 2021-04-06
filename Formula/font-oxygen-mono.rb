@@ -1,5 +1,5 @@
 class FontOxygenMono < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/oxygenmono/OxygenMono-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/oxygenmono/OxygenMono-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Oxygen Mono"
   homepage "https://fonts.google.com/specimen/Oxygen+Mono"
   def install

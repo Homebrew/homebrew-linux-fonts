@@ -1,5 +1,5 @@
 class FontOpenSans < Formula
-  head "https://github.com/google/fonts/trunk/apache/opensans", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/apache/opensans", verified: "github.com/google/fonts/", using: :svn
   desc "Open Sans"
   homepage "https://fonts.google.com/specimen/Open+Sans"
   def install

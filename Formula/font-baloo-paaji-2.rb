@@ -1,5 +1,5 @@
 class FontBalooPaaji2 < Formula
-  head "https://github.com/google/fonts/trunk/ofl/baloopaaji2", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/baloopaaji2", verified: "github.com/google/fonts/", using: :svn
   desc "Baloo Paaji 2"
   homepage "https://fonts.google.com/specimen/Baloo+Paaji+2"
   def install

@@ -1,5 +1,5 @@
 class FontSofia < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/sofia/Sofia-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/sofia/Sofia-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Sofia"
   homepage "https://fonts.google.com/specimen/Sofia"
   def install

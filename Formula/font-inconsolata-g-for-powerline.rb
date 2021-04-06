@@ -1,5 +1,5 @@
 class FontInconsolataGForPowerline < Formula
-  head "https://github.com/powerline/fonts/trunk/Inconsolata-g", using: :svn, trust_cert: true
+  head "https://github.com/powerline/fonts/trunk/Inconsolata-g", using: :svn
   desc "Inconsolata-g for Powerline"
   homepage "https://github.com/powerline/fonts/tree/master/Inconsolata-g"
   def install

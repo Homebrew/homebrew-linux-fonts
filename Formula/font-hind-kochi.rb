@@ -1,5 +1,5 @@
 class FontHindKochi < Formula
-  head "https://github.com/google/fonts/trunk/ofl/hindkochi", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/hindkochi", verified: "github.com/google/fonts/", using: :svn
   desc "Hind Kochi"
   homepage "https://fonts.google.com/specimen/Hind+Kochi"
   def install

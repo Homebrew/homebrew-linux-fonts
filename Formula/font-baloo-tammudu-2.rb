@@ -1,5 +1,5 @@
 class FontBalooTammudu2 < Formula
-  head "https://github.com/google/fonts/trunk/ofl/balootammudu2", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/balootammudu2", verified: "github.com/google/fonts/", using: :svn
   desc "Baloo Tammudu 2"
   homepage "https://fonts.google.com/specimen/Baloo+Tammudu+2"
   def install

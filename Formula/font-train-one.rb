@@ -1,5 +1,5 @@
 class FontTrainOne < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/trainone/TrainOne-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/trainone/TrainOne-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Train One"
   homepage "https://fonts.google.com/specimen/Train+One"
   def install

@@ -1,5 +1,5 @@
 class FontRobotoMonoForPowerline < Formula
-  head "https://github.com/powerline/fonts/trunk/RobotoMono", using: :svn, trust_cert: true
+  head "https://github.com/powerline/fonts/trunk/RobotoMono", using: :svn
   desc "Roboto Mono for Powerline"
   homepage "https://github.com/powerline/fonts/tree/master/RobotoMono"
   def install

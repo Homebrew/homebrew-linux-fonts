@@ -1,5 +1,5 @@
 class FontAngkor < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/angkor/Angkor-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/angkor/Angkor-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Angkor"
   homepage "https://fonts.google.com/specimen/Angkor"
   def install

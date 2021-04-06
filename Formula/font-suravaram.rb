@@ -1,5 +1,5 @@
 class FontSuravaram < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/suravaram/Suravaram-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/suravaram/Suravaram-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Suravaram"
   homepage "https://fonts.google.com/specimen/Suravaram"
   def install

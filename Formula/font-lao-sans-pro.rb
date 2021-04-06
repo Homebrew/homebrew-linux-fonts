@@ -1,5 +1,5 @@
 class FontLaoSansPro < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/laosanspro/LaoSansPro-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/laosanspro/LaoSansPro-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Lao Sans Pro"
   homepage "https://fonts.google.com/earlyaccess"
   def install

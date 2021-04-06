@@ -1,5 +1,5 @@
 class FontNotoSansMyanmarUi < Formula
-  head "https://github.com/google/fonts/trunk/ofl/notosansmyanmarui", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/notosansmyanmarui", verified: "github.com/google/fonts/", using: :svn
   desc "Noto Sans Myanmar UI"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Myanmar+UI"
   def install

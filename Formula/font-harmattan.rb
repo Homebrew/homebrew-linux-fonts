@@ -1,5 +1,5 @@
 class FontHarmattan < Formula
-  head "https://github.com/google/fonts/trunk/ofl/harmattan", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/harmattan", verified: "github.com/google/fonts/", using: :svn
   desc "Harmattan"
   homepage "https://fonts.google.com/specimen/Harmattan"
   def install

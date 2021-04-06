@@ -1,5 +1,5 @@
 class FontDeliusUnicase < Formula
-  head "https://github.com/google/fonts/trunk/ofl/deliusunicase", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/deliusunicase", verified: "github.com/google/fonts/", using: :svn
   desc "Delius Unicase"
   homepage "https://fonts.google.com/specimen/Delius+Unicase"
   def install

@@ -1,5 +1,5 @@
 class FontIbmPlexSansCondensed < Formula
-  head "https://github.com/google/fonts/trunk/ofl/ibmplexsanscondensed", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/ibmplexsanscondensed", verified: "github.com/google/fonts/", using: :svn
   desc "IBM Plex Sans Condensed"
   homepage "https://fonts.google.com/specimen/IBM+Plex+Sans+Condensed"
   def install

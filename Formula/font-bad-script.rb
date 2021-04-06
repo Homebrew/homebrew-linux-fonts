@@ -1,5 +1,5 @@
 class FontBadScript < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/badscript/BadScript-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/badscript/BadScript-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Bad Script"
   homepage "https://fonts.google.com/specimen/Bad+Script"
   def install

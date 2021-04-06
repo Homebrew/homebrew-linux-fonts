@@ -1,5 +1,5 @@
 class FontRadley < Formula
-  head "https://github.com/google/fonts/trunk/ofl/radley", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/radley", verified: "github.com/google/fonts/", using: :svn
   desc "Radley"
   homepage "https://fonts.google.com/specimen/Radley"
   def install

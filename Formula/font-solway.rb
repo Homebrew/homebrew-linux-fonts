@@ -1,5 +1,5 @@
 class FontSolway < Formula
-  head "https://github.com/google/fonts/trunk/ofl/solway", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/solway", verified: "github.com/google/fonts/", using: :svn
   desc "Solway"
   homepage "https://fonts.google.com/specimen/Solway"
   def install

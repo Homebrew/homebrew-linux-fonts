@@ -1,5 +1,5 @@
 class FontTeko < Formula
-  head "https://github.com/google/fonts/trunk/ofl/teko", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/teko", verified: "github.com/google/fonts/", using: :svn
   desc "Teko"
   homepage "https://fonts.google.com/specimen/Teko"
   def install

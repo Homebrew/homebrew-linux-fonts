@@ -1,5 +1,5 @@
 class FontSeoulHangangCondensed < Formula
-  head "https://github.com/google/fonts/trunk/ofl/seoulhangangcondensed", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/seoulhangangcondensed", verified: "github.com/google/fonts/", using: :svn
   desc "Seoul Hangang Condensed"
   homepage "https://fonts.google.com/specimen/Seoul+Hangang+Condensed"
   def install

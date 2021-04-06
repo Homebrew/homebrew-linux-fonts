@@ -1,5 +1,5 @@
 class FontSignikaNegative < Formula
-  head "https://github.com/google/fonts/trunk/ofl/signikanegative", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/signikanegative", verified: "github.com/google/fonts/", using: :svn
   desc "Signika Negative"
   homepage "https://fonts.google.com/specimen/Signika+Negative"
   def install

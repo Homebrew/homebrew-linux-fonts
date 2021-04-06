@@ -1,5 +1,5 @@
 class FontFaustinaVfBeta < Formula
-  head "https://github.com/google/fonts/trunk/ofl/faustinavfbeta", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/faustinavfbeta", verified: "github.com/google/fonts/", using: :svn
   desc "Faustina VF Beta"
   homepage "https://fonts.google.com/earlyaccess"
   def install

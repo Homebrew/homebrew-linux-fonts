@@ -1,5 +1,5 @@
 class FontKirangHaerang < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/kiranghaerang/KirangHaerang-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/kiranghaerang/KirangHaerang-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Kirang Haerang"
   homepage "https://fonts.google.com/specimen/Kirang+Haerang"
   def install

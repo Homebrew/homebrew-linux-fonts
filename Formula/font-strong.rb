@@ -1,5 +1,5 @@
 class FontStrong < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/strong/Strong-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/strong/Strong-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Strong"
   homepage "https://fonts.google.com/specimen/Strong"
   def install

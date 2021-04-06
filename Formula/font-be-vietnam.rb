@@ -1,5 +1,5 @@
 class FontBeVietnam < Formula
-  head "https://github.com/google/fonts/trunk/ofl/bevietnam", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/bevietnam", verified: "github.com/google/fonts/", using: :svn
   desc "Be Vietnam"
   homepage "https://fonts.google.com/specimen/Be+Vietnam"
   def install

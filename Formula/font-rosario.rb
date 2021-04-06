@@ -1,5 +1,5 @@
 class FontRosario < Formula
-  head "https://github.com/google/fonts/trunk/ofl/rosario", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/rosario", verified: "github.com/google/fonts/", using: :svn
   desc "Rosario"
   homepage "https://fonts.google.com/specimen/Rosario"
   def install

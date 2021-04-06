@@ -1,5 +1,5 @@
 class FontBokor < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/bokor/Bokor-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/bokor/Bokor-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Bokor"
   homepage "https://fonts.google.com/specimen/Bokor"
   def install

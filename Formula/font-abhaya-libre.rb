@@ -1,5 +1,5 @@
 class FontAbhayaLibre < Formula
-  head "https://github.com/google/fonts/trunk/ofl/abhayalibre", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/abhayalibre", verified: "github.com/google/fonts/", using: :svn
   desc "Abhaya Libre"
   homepage "https://fonts.google.com/specimen/Abhaya+Libre"
   def install

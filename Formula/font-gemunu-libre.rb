@@ -1,5 +1,5 @@
 class FontGemunuLibre < Formula
-  head "https://github.com/google/fonts/trunk/ofl/gemunulibre", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/gemunulibre", verified: "github.com/google/fonts/", using: :svn
   desc "Gemunu Libre"
   homepage "https://fonts.google.com/specimen/Gemunu+Libre"
   def install

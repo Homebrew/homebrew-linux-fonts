@@ -1,5 +1,5 @@
 class FontPostNoBillsJaffna < Formula
-  head "https://github.com/google/fonts/trunk/ofl/postnobillsjaffna", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/postnobillsjaffna", verified: "github.com/google/fonts/", using: :svn
   desc "Post No Bills Jaffna"
   homepage "https://fonts.google.com/specimen/Post+No+Bills+Jaffna"
   def install

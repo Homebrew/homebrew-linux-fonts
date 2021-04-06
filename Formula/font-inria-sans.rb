@@ -1,5 +1,5 @@
 class FontInriaSans < Formula
-  head "https://github.com/google/fonts/trunk/ofl/inriasans", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/inriasans", verified: "github.com/google/fonts/", using: :svn
   desc "Inria Sans"
   homepage "https://fonts.google.com/specimen/Inria+Sans"
   def install

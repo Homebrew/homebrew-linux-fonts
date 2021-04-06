@@ -1,5 +1,5 @@
 class FontJsmathCmmi10 < Formula
-  head "https://github.com/google/fonts/raw/master/apache/jsmathcmmi10/jsMath-cmmi10.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/apache/jsmathcmmi10/jsMath-cmmi10.ttf", verified: "github.com/google/fonts/"
   desc "jsMath cmmi10"
   homepage "https://fonts.google.com/specimen/jsMath+cmmi10"
   def install

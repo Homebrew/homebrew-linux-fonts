@@ -1,5 +1,5 @@
 class FontNotoSansMro < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/notosansmro/NotoSansMro-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/notosansmro/NotoSansMro-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Noto Sans Mro"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Mro"
   def install

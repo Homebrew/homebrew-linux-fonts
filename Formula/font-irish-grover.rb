@@ -1,5 +1,5 @@
 class FontIrishGrover < Formula
-  head "https://github.com/google/fonts/raw/master/apache/irishgrover/IrishGrover-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/apache/irishgrover/IrishGrover-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Irish Grover"
   homepage "https://fonts.google.com/specimen/Irish+Grover"
   def install

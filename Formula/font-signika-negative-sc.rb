@@ -1,5 +1,5 @@
 class FontSignikaNegativeSc < Formula
-  head "https://github.com/google/fonts/trunk/ofl/signikanegativesc", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/signikanegativesc", verified: "github.com/google/fonts/", using: :svn
   desc "Signika Negative SC"
   desc "Alternative version of the Signika SC font"
   homepage "https://fonts.google.com/specimen/Signika+Negative+SC"

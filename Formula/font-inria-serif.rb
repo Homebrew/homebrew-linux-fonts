@@ -1,5 +1,5 @@
 class FontInriaSerif < Formula
-  head "https://github.com/google/fonts/trunk/ofl/inriaserif", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/inriaserif", verified: "github.com/google/fonts/", using: :svn
   desc "Inria Serif"
   homepage "https://fonts.google.com/specimen/Inria+Serif"
   def install

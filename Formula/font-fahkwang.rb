@@ -1,5 +1,5 @@
 class FontFahkwang < Formula
-  head "https://github.com/google/fonts/trunk/ofl/fahkwang", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/fahkwang", verified: "github.com/google/fonts/", using: :svn
   desc "Fahkwang"
   homepage "https://fonts.google.com/specimen/Fahkwang"
   def install

@@ -1,5 +1,5 @@
 class FontPalanquinDark < Formula
-  head "https://github.com/google/fonts/trunk/ofl/palanquindark", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/palanquindark", verified: "github.com/google/fonts/", using: :svn
   desc "Palanquin Dark"
   homepage "https://fonts.google.com/specimen/Palanquin+Dark"
   def install

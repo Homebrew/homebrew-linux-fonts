@@ -1,5 +1,5 @@
 class FontRacingSansOne < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/racingsansone/RacingSansOne-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/racingsansone/RacingSansOne-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Racing Sans One"
   homepage "https://fonts.google.com/specimen/Racing+Sans+One"
   def install

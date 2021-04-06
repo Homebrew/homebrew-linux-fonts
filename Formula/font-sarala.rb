@@ -1,5 +1,5 @@
 class FontSarala < Formula
-  head "https://github.com/google/fonts/trunk/ofl/sarala", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/sarala", verified: "github.com/google/fonts/", using: :svn
   desc "Sarala"
   homepage "https://fonts.google.com/specimen/Sarala"
   def install

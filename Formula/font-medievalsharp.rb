@@ -1,5 +1,5 @@
 class FontMedievalsharp < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/medievalsharp/MedievalSharp.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/medievalsharp/MedievalSharp.ttf", verified: "github.com/google/fonts/"
   desc "MedievalSharp"
   homepage "https://fonts.google.com/specimen/MedievalSharp"
   def install

@@ -1,5 +1,5 @@
 class FontKarla < Formula
-  head "https://github.com/google/fonts/trunk/ofl/karla", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/karla", verified: "github.com/google/fonts/", using: :svn
   desc "Karla"
   homepage "https://fonts.google.com/specimen/Karla"
   def install

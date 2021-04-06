@@ -1,5 +1,5 @@
 class FontShrikhand < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/shrikhand/Shrikhand-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/shrikhand/Shrikhand-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Shrikhand"
   homepage "https://fonts.google.com/specimen/Shrikhand"
   def install

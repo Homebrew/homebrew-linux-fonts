@@ -1,5 +1,5 @@
 class FontRopaSans < Formula
-  head "https://github.com/google/fonts/trunk/ofl/ropasans", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/ropasans", verified: "github.com/google/fonts/", using: :svn
   desc "Ropa Sans"
   homepage "https://fonts.google.com/specimen/Ropa+Sans"
   def install

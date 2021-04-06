@@ -1,5 +1,5 @@
 class FontItaliana < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/italiana/Italiana-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/italiana/Italiana-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Italiana"
   homepage "https://fonts.google.com/specimen/Italiana"
   def install

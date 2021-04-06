@@ -1,5 +1,5 @@
 class FontCinzelDecorative < Formula
-  head "https://github.com/google/fonts/trunk/ofl/cinzeldecorative", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/cinzeldecorative", verified: "github.com/google/fonts/", using: :svn
   desc "Cinzel Decorative"
   homepage "https://fonts.google.com/specimen/Cinzel+Decorative"
   def install

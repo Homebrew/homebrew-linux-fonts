@@ -1,5 +1,5 @@
 class FontOverpassMono < Formula
-  head "https://github.com/google/fonts/trunk/ofl/overpassmono", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/overpassmono", verified: "github.com/google/fonts/", using: :svn
   desc "Overpass Mono"
   homepage "https://fonts.google.com/specimen/Overpass+Mono"
   def install

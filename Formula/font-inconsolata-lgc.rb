@@ -1,5 +1,5 @@
 class FontInconsolataLgc < Formula
-  head "https://github.com/DeLaGuardo/Inconsolata-LGC/trunk", using: :svn, trust_cert: true
+  head "https://github.com/DeLaGuardo/Inconsolata-LGC/trunk", using: :svn
   desc "Inconsolata LGC"
   homepage "https://github.com/DeLaGuardo/Inconsolata-LGC"
   def install

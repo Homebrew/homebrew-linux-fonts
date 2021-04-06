@@ -1,5 +1,5 @@
 class FontHeebo < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/heebo/Heebo%5Bwght%5D.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/heebo/Heebo%5Bwght%5D.ttf", verified: "github.com/google/fonts/"
   desc "Heebo"
   homepage "https://fonts.google.com/specimen/Heebo"
   def install

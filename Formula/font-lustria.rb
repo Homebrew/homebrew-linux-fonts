@@ -1,5 +1,5 @@
 class FontLustria < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/lustria/Lustria-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/lustria/Lustria-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Lustria"
   homepage "https://fonts.google.com/specimen/Lustria"
   def install

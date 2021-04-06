@@ -1,5 +1,5 @@
 class FontVibes < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/vibes/Vibes-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/vibes/Vibes-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Vibes"
   homepage "https://fonts.google.com/specimen/Vibes"
   def install

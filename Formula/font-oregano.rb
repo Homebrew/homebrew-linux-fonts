@@ -1,5 +1,5 @@
 class FontOregano < Formula
-  head "https://github.com/google/fonts/trunk/ofl/oregano", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/oregano", verified: "github.com/google/fonts/", using: :svn
   desc "Oregano"
   homepage "https://fonts.google.com/specimen/Oregano"
   def install

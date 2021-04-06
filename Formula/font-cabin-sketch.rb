@@ -1,5 +1,5 @@
 class FontCabinSketch < Formula
-  head "https://github.com/google/fonts/trunk/ofl/cabinsketch", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/cabinsketch", verified: "github.com/google/fonts/", using: :svn
   desc "Cabin Sketch"
   homepage "https://fonts.google.com/specimen/Cabin+Sketch"
   def install

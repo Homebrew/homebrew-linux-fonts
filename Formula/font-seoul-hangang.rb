@@ -1,5 +1,5 @@
 class FontSeoulHangang < Formula
-  head "https://github.com/google/fonts/trunk/ofl/seoulhangang", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/seoulhangang", verified: "github.com/google/fonts/", using: :svn
   desc "Seoul Hangang"
   homepage "https://fonts.google.com/specimen/Seoul+Hangang"
   def install

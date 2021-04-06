@@ -1,5 +1,5 @@
 class FontZcoolKuaile < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/zcoolkuaile/ZCOOLKuaiLe-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/zcoolkuaile/ZCOOLKuaiLe-Regular.ttf", verified: "github.com/google/fonts/"
   desc "ZCOOL KuaiLe"
   homepage "https://fonts.google.com/specimen/ZCOOL+KuaiLe"
   def install

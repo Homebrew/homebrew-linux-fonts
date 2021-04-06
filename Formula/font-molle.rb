@@ -1,5 +1,5 @@
 class FontMolle < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/molle/Molle-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/molle/Molle-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Molle"
   homepage "https://fonts.google.com/specimen/Molle"
   def install

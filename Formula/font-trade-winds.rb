@@ -1,5 +1,5 @@
 class FontTradeWinds < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/tradewinds/TradeWinds-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/tradewinds/TradeWinds-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Trade Winds"
   homepage "https://fonts.google.com/specimen/Trade+Winds"
   def install

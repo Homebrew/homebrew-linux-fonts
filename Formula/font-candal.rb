@@ -1,5 +1,5 @@
 class FontCandal < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/candal/Candal.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/candal/Candal.ttf", verified: "github.com/google/fonts/"
   desc "Candal"
   homepage "https://fonts.google.com/specimen/Candal"
   def install

@@ -1,5 +1,5 @@
 class FontNotoSansSogdian < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/notosanssogdian/NotoSansSogdian-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/notosanssogdian/NotoSansSogdian-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Noto Sans Sogdian"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Sogdian"
   def install

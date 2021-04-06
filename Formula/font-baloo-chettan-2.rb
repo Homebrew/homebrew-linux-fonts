@@ -1,5 +1,5 @@
 class FontBalooChettan2 < Formula
-  head "https://github.com/google/fonts/trunk/ofl/baloochettan2", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/baloochettan2", verified: "github.com/google/fonts/", using: :svn
   desc "Baloo Chettan 2"
   homepage "https://fonts.google.com/specimen/Baloo+Chettan+2"
   def install

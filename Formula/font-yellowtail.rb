@@ -1,5 +1,5 @@
 class FontYellowtail < Formula
-  head "https://github.com/google/fonts/raw/master/apache/yellowtail/Yellowtail-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/apache/yellowtail/Yellowtail-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Yellowtail"
   homepage "https://fonts.google.com/specimen/Yellowtail"
   def install

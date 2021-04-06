@@ -1,5 +1,5 @@
 class FontGrandstander < Formula
-  head "https://github.com/google/fonts/trunk/ofl/grandstander", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/grandstander", verified: "github.com/google/fonts/", using: :svn
   desc "Grandstander"
   desc "Display variable font with a weight axis"
   homepage "https://fonts.google.com/specimen/Grandstander"

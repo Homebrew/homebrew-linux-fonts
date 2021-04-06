@@ -1,5 +1,5 @@
 class FontNotoSansDevanagariUi < Formula
-  head "https://github.com/google/fonts/trunk/ofl/notosansdevanagariui", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/notosansdevanagariui", verified: "github.com/google/fonts/", using: :svn
   desc "Noto Sans Devanagari UI"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Devanagari+UI"
   def install

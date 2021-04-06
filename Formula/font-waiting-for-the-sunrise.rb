@@ -1,5 +1,5 @@
 class FontWaitingForTheSunrise < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/waitingforthesunrise/WaitingfortheSunrise.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/waitingforthesunrise/WaitingfortheSunrise.ttf", verified: "github.com/google/fonts/"
   desc "Waiting for the Sunrise"
   homepage "https://fonts.google.com/specimen/Waiting+for+the+Sunrise"
   def install

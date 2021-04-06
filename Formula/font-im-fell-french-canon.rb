@@ -1,5 +1,5 @@
 class FontImFellFrenchCanon < Formula
-  head "https://github.com/google/fonts/trunk/ofl/imfellfrenchcanon", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/imfellfrenchcanon", verified: "github.com/google/fonts/", using: :svn
   desc "IM Fell French Canon"
   homepage "https://fonts.google.com/specimen/IM+Fell+French+Canon"
   def install

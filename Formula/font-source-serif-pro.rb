@@ -1,5 +1,5 @@
 class FontSourceSerifPro < Formula
-  head "https://github.com/google/fonts/trunk/ofl/sourceserifpro", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/sourceserifpro", verified: "github.com/google/fonts/", using: :svn
   desc "Source Serif Pro"
   homepage "https://fonts.google.com/specimen/Source+Serif+Pro"
   def install

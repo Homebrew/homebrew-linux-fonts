@@ -1,5 +1,5 @@
 class FontTillana < Formula
-  head "https://github.com/google/fonts/trunk/ofl/tillana", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/tillana", verified: "github.com/google/fonts/", using: :svn
   desc "Tillana"
   homepage "https://fonts.google.com/specimen/Tillana"
   def install

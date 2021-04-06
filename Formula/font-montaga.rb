@@ -1,5 +1,5 @@
 class FontMontaga < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/montaga/Montaga-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/montaga/Montaga-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Montaga"
   homepage "https://fonts.google.com/specimen/Montaga"
   def install

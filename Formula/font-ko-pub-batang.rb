@@ -1,5 +1,5 @@
 class FontKoPubBatang < Formula
-  head "https://github.com/google/fonts/trunk/ofl/kopubbatang", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/kopubbatang", verified: "github.com/google/fonts/", using: :svn
   desc "Ko Pub Batang"
   homepage "https://fonts.google.com/earlyaccess"
   def install

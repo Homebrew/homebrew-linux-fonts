@@ -1,5 +1,5 @@
 class FontPonnala < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/ponnala/Ponnala-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/ponnala/Ponnala-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Ponnala"
   homepage "https://fonts.google.com/specimen/Ponnala"
   def install

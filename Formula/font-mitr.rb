@@ -1,5 +1,5 @@
 class FontMitr < Formula
-  head "https://github.com/google/fonts/trunk/ofl/mitr", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/mitr", verified: "github.com/google/fonts/", using: :svn
   desc "Mitr"
   homepage "https://fonts.google.com/specimen/Mitr"
   def install

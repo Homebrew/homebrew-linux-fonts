@@ -1,5 +1,5 @@
 class FontSunflower < Formula
-  head "https://github.com/google/fonts/trunk/ofl/sunflower", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/sunflower", verified: "github.com/google/fonts/", using: :svn
   desc "Sunflower"
   homepage "https://fonts.google.com/specimen/Sunflower"
   def install

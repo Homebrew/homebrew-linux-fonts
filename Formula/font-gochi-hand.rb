@@ -1,5 +1,5 @@
 class FontGochiHand < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/gochihand/GochiHand-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/gochihand/GochiHand-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Gochi Hand"
   homepage "https://fonts.google.com/specimen/Gochi+Hand"
   def install

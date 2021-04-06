@@ -1,5 +1,5 @@
 class FontCondiment < Formula
-  head "https://github.com/google/fonts/raw/master/ofl/condiment/Condiment-Regular.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/condiment/Condiment-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Condiment"
   homepage "https://fonts.google.com/specimen/Condiment"
   def install

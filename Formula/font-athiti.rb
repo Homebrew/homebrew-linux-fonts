@@ -1,5 +1,5 @@
 class FontAthiti < Formula
-  head "https://github.com/google/fonts/trunk/ofl/athiti", verified: "github.com/google/fonts/", using: :svn, trust_cert: true
+  head "https://github.com/google/fonts/trunk/ofl/athiti", verified: "github.com/google/fonts/", using: :svn
   desc "Athiti"
   homepage "https://fonts.google.com/specimen/Athiti"
   def install
