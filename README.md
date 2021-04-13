@@ -61,3 +61,8 @@ According to homebrew-cask-fonts
 
 - homebrew-cask-fonts (all other files)
     Code is under the [BSD 2 Clause (NetBSD) license](https://github.com/caskroom/homebrew-fonts/blob/master/LICENSE.1)
+
+## Acknoledgement
+
+The author of this project uses Gitpod to develop this project.
+Gitpod provides Professional Open Source plan to him.
