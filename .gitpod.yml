@@ -1,7 +1,7 @@
-
 tasks:
   - init: bundle install
 
 vscode:
   extensions:
-    - rebornix.ruby
+    - wingrunr21.vscode-ruby@0.27.0:6de22a41484b46e27955aa380762f29e
+    - rebornix.ruby@0.28.0:ea3aaf0f397f6afb23f78c985c58f343
