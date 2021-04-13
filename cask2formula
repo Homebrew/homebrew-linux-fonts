@@ -32,11 +32,14 @@ class CaskParser < Parslet::Parser
     rule(:pair) {
         (word >> str(":")).as(:left) >> space >> (string | keyword | word).as(:right)
     }
+    rule(:doblock) {
+        (str("do") >> (str("end").absent? >> any).repeat >> str("end")).as(:doblock)
+    }
     rule(:heredoc) {
         (str("<<~EOS") >> (str("EOS").absent? >> any).repeat >> str("EOS")).as(:heredoc)
     }
     rule(:value) {
-        (string | keyword | pair | heredoc)
+        (string | keyword | pair | heredoc | doblock)
     }
     rule(:font) {
         str("font") >> space >> string.as(:font)
@@ -70,6 +73,9 @@ class CaskTransform < Parslet::Transform
     }
     rule(:heredoc => simple(:heredoc)) {
         heredoc.to_s
+    }
+    rule(:doblock => simple(:doblock)) {
+        doblock.to_s
     }
     rule(:left => simple(:left), :right => simple(:right) ) {
         left + " " + right
@@ -119,6 +125,8 @@ class CaskTransform < Parslet::Transform
             @@latest = false
             @@no_check = false
             "head #{arguments.join(", ")}"
+        elsif command == "livecheck" then
+            ""
         else
             command + " " + replace_cask_version_properties(arguments.join(", ").to_s)
         end
