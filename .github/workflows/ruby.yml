@@ -15,11 +15,11 @@ jobs:
       run: |
         git config user.email 'm@docs.casa'
         git config user.name 'TANIGUCHI Masaya'
-    - name: Build and test with Rake
+    - name: Convert and commit
       run: |
         git submodule update --init --remote
         gem install bundler
-        bundle install --jobs 4 --retry 3
+        bundle install --jobs 4 --retry 3 --without development
         bundle exec ruby cask2formula convert
         bundle exec ruby cask2formula commit
     - name: Clean Formula directory
