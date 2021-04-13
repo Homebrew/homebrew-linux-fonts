@@ -1,2 +1,7 @@
+
 tasks:
   - init: bundle install
+
+vscode:
+  extensions:
+    - rebornix.ruby
