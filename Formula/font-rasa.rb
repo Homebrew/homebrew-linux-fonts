@@ -3,11 +3,8 @@ class FontRasa < Formula
   desc "Rasa"
   homepage "https://fonts.google.com/specimen/Rasa"
   def install
-    (share/"fonts").install "Rasa-Bold.ttf"
-    (share/"fonts").install "Rasa-Light.ttf"
-    (share/"fonts").install "Rasa-Medium.ttf"
-    (share/"fonts").install "Rasa-Regular.ttf"
-    (share/"fonts").install "Rasa-SemiBold.ttf"
+    (share/"fonts").install "Rasa-Italic[wght].ttf"
+    (share/"fonts").install "Rasa[wght].ttf"
   end
   test do
   end
