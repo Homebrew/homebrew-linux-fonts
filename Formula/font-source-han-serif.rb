@@ -1,7 +1,7 @@
 class FontSourceHanSerif < Formula
-  version "1.001R"
+  version "1.001"
   sha256 "85cc634fa228286ca307803bbb4ca61f61fa821b3ed573f4f07c6f0c064426b5"
-  url "https://github.com/adobe-fonts/source-han-serif/releases/download/#{version}/SourceHanSerif.ttc"
+  url "https://github.com/adobe-fonts/source-han-serif/releases/download/#{version}R/SourceHanSerif.ttc"
   desc "Source Han Serif"
   desc "思源宋體"
   desc "源ノ明朝"
