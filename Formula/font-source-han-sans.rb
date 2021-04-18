@@ -11,6 +11,13 @@ class FontSourceHanSans < Formula
   def install
     (share/"fonts").install "SourceHanSans.ttc"
   end
+  def creavat; <<~EOS
+    To install the variable font edition of #{token}:
+
+      brew install --cask font-source-han-sans-vf
+      brew install --cask font-source-han-sans-hw-vf
+  EOS
+  end
   test do
   end
 end
