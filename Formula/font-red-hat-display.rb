@@ -3,14 +3,8 @@ class FontRedHatDisplay < Formula
   desc "Red Hat Display"
   homepage "https://fonts.google.com/specimen/Red+Hat+Display"
   def install
-    (share/"fonts").install "RedHatDisplay-Black.ttf"
-    (share/"fonts").install "RedHatDisplay-BlackItalic.ttf"
-    (share/"fonts").install "RedHatDisplay-Bold.ttf"
-    (share/"fonts").install "RedHatDisplay-BoldItalic.ttf"
-    (share/"fonts").install "RedHatDisplay-Italic.ttf"
-    (share/"fonts").install "RedHatDisplay-Medium.ttf"
-    (share/"fonts").install "RedHatDisplay-MediumItalic.ttf"
-    (share/"fonts").install "RedHatDisplay-Regular.ttf"
+    (share/"fonts").install "RedHatDisplay-Italic[wght].ttf"
+    (share/"fonts").install "RedHatDisplay[wght].ttf"
   end
   test do
   end
