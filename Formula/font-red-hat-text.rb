@@ -3,12 +3,8 @@ class FontRedHatText < Formula
   desc "Red Hat Text"
   homepage "https://fonts.google.com/specimen/Red+Hat+Text"
   def install
-    (share/"fonts").install "RedHatText-Bold.ttf"
-    (share/"fonts").install "RedHatText-BoldItalic.ttf"
-    (share/"fonts").install "RedHatText-Italic.ttf"
-    (share/"fonts").install "RedHatText-Medium.ttf"
-    (share/"fonts").install "RedHatText-MediumItalic.ttf"
-    (share/"fonts").install "RedHatText-Regular.ttf"
+    (share/"fonts").install "RedHatText-Italic[wght].ttf"
+    (share/"fonts").install "RedHatText[wght].ttf"
   end
   test do
   end
