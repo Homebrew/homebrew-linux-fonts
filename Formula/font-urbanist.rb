@@ -1,6 +1,6 @@
 class FontUrbanist < Formula
-  version "1.251"
-  sha256 "653b0298e14c0ee6a530b466e2af88b88a1b829edbdaf0e6500efcd4561fd1d0"
+  version "1.300"
+  sha256 "cd9e045dd2bfab1aded56abf58efbeda87868829c3df89f1baac48211fe0443e"
   url "https://github.com/coreywho/Urbanist/releases/download/#{version}/Urbanist_Font_Family_#{version}.zip"
   desc "Urbanist"
   homepage "https://github.com/coreywho/Urbanist"
