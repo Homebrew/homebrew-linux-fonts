@@ -162,11 +162,25 @@ class CaskConverter
       system 'git', 'add', 'homebrew-cask-fonts'
       system 'git', 'commit', '-m', 'Update submodule'
     end
+
+    def dry_commit
+      `git diff --name-only; git ls-files --others --exclude-standard`.split(/\s+/).each do |file|
+          if file != "homebrew-cask-fonts" then
+            remote_source = "https://github.com/homebrew/#{file.sub(/Formula/, "homebrew-cask-fonts/blob/master/Casks")}"
+            commit_id = `git -C homebrew-cask-fonts log -n 1 --pretty=format:%H -- #{file.sub(/Formula/, 'Casks')}`
+            p ['git', 'add', file]
+            p ['git', 'commit', '-m', "import #{remote_source} from #{commit_id}"]
+          end
+      end
+      system 'git', 'add', 'homebrew-cask-fonts'
+      system 'git', 'commit', '-m', 'Update submodule'
+    end
 end
 
 converter = CaskConverter.new
 case ARGV[0]
 when "convert" then converter.convert
 when "commit" then converter.commit
+when "dry_commit" then converter.commit
 else p "ERROR!"
 end
