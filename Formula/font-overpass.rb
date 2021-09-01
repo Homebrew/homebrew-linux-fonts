@@ -1,7 +1,7 @@
 class FontOverpass < Formula
-  version "3.0.4"
-  sha256 "d0f510f01bd734eabc0967c4838f860bca8bd97369fda4607819cb15ec899853"
-  url "https://github.com/RedHatOfficial/Overpass/archive/refs/tags/#{version}.zip", verified: "github.com/RedHatOfficial/Overpass/"
+  version "3.0.5"
+  sha256 "56e62646a3e8f9b9aab57523b9c57eaca8fba79fb55a50f80d2fce0688344159"
+  url "https://github.com/RedHatOfficial/Overpass/archive/refs/tags/v#{version}.zip", verified: "github.com/RedHatOfficial/Overpass/"
   desc "Overpass"
   homepage "https://overpassfont.org/"
   def install
