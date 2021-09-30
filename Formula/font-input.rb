@@ -1,7 +1,7 @@
 class FontInput < Formula
-  head "https://input.fontbureau.com/build/?basic=1&fontSelection=whole&a=0&g=0&i=0&l=0&zero=0&asterisk=0&lineHeight=1.2&accept=I+do"
+  head "https://input.djr.com/build/?basic=1&fontSelection=whole&a=0&g=0&i=0&l=0&zero=0&asterisk=0&lineHeight=1.2&accept=I+do"
   desc "Input"
-  homepage "https://input.fontbureau.com/"
+  homepage "https://input.djr.com/"
   def install
     parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}Input_Fonts/InputMono/InputMono/InputMono-Black.ttf"
@@ -176,7 +176,7 @@ class FontInput < Formula
   def creavat; <<~EOS
     To use the Input fonts, you must agree to the terms of the license.
 
-      https://input.fontbureau.com/license/
+      https://input.djr.com/license/
   EOS
   end
   test do
