@@ -1,13 +1,9 @@
 class FontBalooThambi2 < Formula
-  head "https://github.com/google/fonts/trunk/ofl/baloothambi2", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts/raw/main/ofl/baloothambi2/BalooThambi2%5Bwght%5D.ttf", verified: "github.com/google/fonts/"
   desc "Baloo Thambi 2"
   homepage "https://fonts.google.com/specimen/Baloo+Thambi+2"
   def install
-    (share/"fonts").install "BalooThambi2-Bold.ttf"
-    (share/"fonts").install "BalooThambi2-ExtraBold.ttf"
-    (share/"fonts").install "BalooThambi2-Medium.ttf"
-    (share/"fonts").install "BalooThambi2-Regular.ttf"
-    (share/"fonts").install "BalooThambi2-SemiBold.ttf"
+    (share/"fonts").install "BalooThambi2[wght].ttf"
   end
   test do
   end

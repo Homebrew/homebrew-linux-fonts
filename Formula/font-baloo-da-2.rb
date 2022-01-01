@@ -1,13 +1,9 @@
 class FontBalooDa2 < Formula
-  head "https://github.com/google/fonts/trunk/ofl/balooda2", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts/raw/main/ofl/balooda2/BalooDa2%5Bwght%5D.ttf", verified: "github.com/google/fonts/"
   desc "Baloo Da 2"
   homepage "https://fonts.google.com/specimen/Baloo+Da+2"
   def install
-    (share/"fonts").install "BalooDa2-Bold.ttf"
-    (share/"fonts").install "BalooDa2-ExtraBold.ttf"
-    (share/"fonts").install "BalooDa2-Medium.ttf"
-    (share/"fonts").install "BalooDa2-Regular.ttf"
-    (share/"fonts").install "BalooDa2-SemiBold.ttf"
+    (share/"fonts").install "BalooDa2[wght].ttf"
   end
   test do
   end

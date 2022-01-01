@@ -3,14 +3,8 @@ class FontExpletusSans < Formula
   desc "Expletus Sans"
   homepage "https://fonts.google.com/specimen/Expletus+Sans"
   def install
-    (share/"fonts").install "ExpletusSans-Bold.ttf"
-    (share/"fonts").install "ExpletusSans-BoldItalic.ttf"
-    (share/"fonts").install "ExpletusSans-Italic.ttf"
-    (share/"fonts").install "ExpletusSans-Medium.ttf"
-    (share/"fonts").install "ExpletusSans-MediumItalic.ttf"
-    (share/"fonts").install "ExpletusSans-Regular.ttf"
-    (share/"fonts").install "ExpletusSans-SemiBold.ttf"
-    (share/"fonts").install "ExpletusSans-SemiBoldItalic.ttf"
+    (share/"fonts").install "ExpletusSans-Italic[wght].ttf"
+    (share/"fonts").install "ExpletusSans[wght].ttf"
   end
   test do
   end

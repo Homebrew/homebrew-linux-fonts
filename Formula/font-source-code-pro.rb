@@ -3,8 +3,8 @@ class FontSourceCodePro < Formula
   desc "Source Code Pro"
   homepage "https://fonts.google.com/specimen/Source+Code+Pro"
   def install
-    (share/"fonts").install "SourceCodePro[wght].ttf"
     (share/"fonts").install "SourceCodePro-Italic[wght].ttf"
+    (share/"fonts").install "SourceCodePro[wght].ttf"
   end
   test do
   end

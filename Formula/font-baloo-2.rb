@@ -1,13 +1,9 @@
 class FontBaloo2 < Formula
-  head "https://github.com/google/fonts/trunk/ofl/baloo2", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts/raw/main/ofl/baloo2/Baloo2%5Bwght%5D.ttf", verified: "github.com/google/fonts/"
   desc "Baloo 2"
   homepage "https://fonts.google.com/specimen/Baloo+2"
   def install
-    (share/"fonts").install "Baloo2-Bold.ttf"
-    (share/"fonts").install "Baloo2-ExtraBold.ttf"
-    (share/"fonts").install "Baloo2-Medium.ttf"
-    (share/"fonts").install "Baloo2-Regular.ttf"
-    (share/"fonts").install "Baloo2-SemiBold.ttf"
+    (share/"fonts").install "Baloo2[wght].ttf"
   end
   test do
   end
