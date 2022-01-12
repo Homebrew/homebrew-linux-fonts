@@ -1,13 +1,19 @@
 class FontGentiumPlus < Formula
-  version "5.000"
-  sha256 "335911f17bd2de4e43742e1d0367cfeff19a90abf7ed604f100a42705042e154"
-  url "https://software.sil.org/downloads/r/gentium/GentiumPlus-#{version}.zip"
+  version "6.001"
+  sha256 "7589cb8fa9887c34070e14fc78108102657ffac7ed36e81bb2058bde2da9430c"
+  url "https://github.com/silnrsi/font-gentium/releases/download/v#{version}/GentiumPlus-#{version}.zip", verified: "github.com/silnrsi/font-gentium/"
   desc "Gentium"
   homepage "https://software.sil.org/gentium/"
   def install
     parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}GentiumPlus-5.000/GentiumPlus-I.ttf"
-    (share/"fonts").install "#{parent}GentiumPlus-5.000/GentiumPlus-R.ttf"
+    (share/"fonts").install "#{parent}GentiumPlus-#{version}/GentiumBookPlus-Bold.ttf"
+    (share/"fonts").install "#{parent}GentiumPlus-#{version}/GentiumBookPlus-BoldItalic.ttf"
+    (share/"fonts").install "#{parent}GentiumPlus-#{version}/GentiumBookPlus-Italic.ttf"
+    (share/"fonts").install "#{parent}GentiumPlus-#{version}/GentiumBookPlus-Regular.ttf"
+    (share/"fonts").install "#{parent}GentiumPlus-#{version}/GentiumPlus-Bold.ttf"
+    (share/"fonts").install "#{parent}GentiumPlus-#{version}/GentiumPlus-BoldItalic.ttf"
+    (share/"fonts").install "#{parent}GentiumPlus-#{version}/GentiumPlus-Italic.ttf"
+    (share/"fonts").install "#{parent}GentiumPlus-#{version}/GentiumPlus-Regular.ttf"
   end
   test do
   end
