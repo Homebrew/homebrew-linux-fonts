@@ -1,7 +1,7 @@
 class FontMeltho < Formula
   version "1.21,2018.06"
   sha256 "a22e61b0a48ac6c3e8bbc79d8f4dafcbd7ddb9572cf63b50478b9889cfbfdac4"
-  url "https://bethmardutho.org/wp-content/uploads/#{version.to_s.sub(/.*,/, "").sub(/\..*/, "")}/#{version.to_s.sub(/.*,/, "").sub(/.*\./, "")}/melthofonts-1.zip"
+  url "https://bethmardutho.org/wp-content/uploads/#{version.to_s.csv.second.sub(/\..*/, "")}/#{version.to_s.csv.second.sub(/.*\./, "")}/melthofonts-1.zip"
   desc "Meltho Fonts"
   homepage "https://bethmardutho.org/syriacmac/"
   def install
