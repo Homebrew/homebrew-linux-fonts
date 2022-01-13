@@ -1,7 +1,7 @@
 class FontTitillium < Formula
   version "2.0,258e06fe34c35320321f0458e6625bba"
   sha256 "649fb98c5fca9967d18c3243aa549c9c460cbf3ea6dd4ccd46c970f3585a7225"
-  url "https://src.fedoraproject.org/repo/extras/campivisivi-titillium-fonts/Titillium_roman_upright_italic_#{version.to_s.sub(/,.*/, "").gsub(".", "_")}_OT.zip/#{version.to_s.sub(/.*,/, "")}/Titillium_roman_upright_italic_#{version.to_s.sub(/,.*/, "").gsub(".", "_")}_OT.zip", verified: "src.fedoraproject.org/"
+  url "https://src.fedoraproject.org/repo/extras/campivisivi-titillium-fonts/Titillium_roman_upright_italic_#{version.to_s.csv.first.gsub(".", "_")}_OT.zip/#{version.to_s.csv.second}/Titillium_roman_upright_italic_#{version.to_s.csv.first.gsub(".", "_")}_OT.zip", verified: "src.fedoraproject.org/"
   desc "Titillium"
   homepage "http://nta.accademiadiurbino.it/titillium/"
   def install
