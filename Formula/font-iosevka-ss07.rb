@@ -1,6 +1,6 @@
 class FontIosevkaSs07 < Formula
-  version "11.2.6"
-  sha256 "accdcd100dd78434f765fe741721f44ac8df96e1f5f9801c71d70d790b84b87a"
+  version "11.2.7"
+  sha256 "f8aa790600ff46ab5f79a9a51a59977af9425711d44d82bd1aaf6271846536ce"
   url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/ttc-iosevka-ss07-#{version}.zip"
   desc "Iosevka SS07"
   desc "Sans-serif, slab-serif, monospace and quasi‑proportional typeface family"
