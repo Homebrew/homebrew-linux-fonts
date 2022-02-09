@@ -1,5 +1,5 @@
 class FontTypographerWoodcutInitialsOne < Formula
-  head "https://dl.1001fonts.com/typographerwoodcutinitialsone.zip"
+  head "https://dl.1001fonts.com/download/typographerwoodcutinitialsone.zip"
   desc "Typographer Woodcut Initials One"
   homepage "https://www.1001fonts.com/typographerwoodcutinitialsone-font.html"
   def install
