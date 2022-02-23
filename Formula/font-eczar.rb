@@ -1,13 +1,9 @@
 class FontEczar < Formula
-  head "https://github.com/google/fonts/trunk/ofl/eczar", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts/raw/main/ofl/eczar/Eczar%5Bwght%5D.ttf", verified: "github.com/google/fonts/"
   desc "Eczar"
   homepage "https://fonts.google.com/specimen/Eczar"
   def install
-    (share/"fonts").install "Eczar-Bold.ttf"
-    (share/"fonts").install "Eczar-ExtraBold.ttf"
-    (share/"fonts").install "Eczar-Medium.ttf"
-    (share/"fonts").install "Eczar-Regular.ttf"
-    (share/"fonts").install "Eczar-SemiBold.ttf"
+    (share/"fonts").install "Eczar[wght].ttf"
   end
   test do
   end
