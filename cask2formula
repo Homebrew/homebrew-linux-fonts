@@ -12,7 +12,9 @@ def replace_cask_version_properties(input_string)
       .gsub(".minor", '.sub(/.*\\./, "")')
       .gsub(".before_comma", '.sub(/,.*/, "")')
       .gsub(".after_comma", '.sub(/.*,/, "")')
-      .gsub("version.", "version.")
+      .gsub(".csv.first", '.sub(/,.*/, "")')
+      .gsub(".csv.second", '.sub(/.*,/, "")')
+      .gsub("version.", "version.to_s.")
 end
 
 class CaskParser < Parslet::Parser
