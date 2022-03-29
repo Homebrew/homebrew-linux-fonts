@@ -1,6 +1,6 @@
 class FontLxgwWenkai < Formula
-  version "1.211"
-  sha256 "f81139ac19af3c8a4fb13d2c7bd72c68d2d001b4d637934fb25f5b0669bf5510"
+  version "1.230"
+  sha256 "77390c8a9ac1281425ccf995fff20cb4da208e83463716e740e7c2d0379f1279"
   url "https://github.com/lxgw/LxgwWenKai/releases/download/v#{version}/lxgw-wenkai-v#{version}.zip"
   desc "LXGW WenKai"
   desc "霞鹜文楷"

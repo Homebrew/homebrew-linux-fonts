@@ -1,6 +1,6 @@
 class FontLxgwZhenkai < Formula
-  version "0.5.5"
-  sha256 "35d77b71e511369f364775e594b3526e345f22a7909afe7efea2c6d7f7989fa8"
+  version "0.552"
+  sha256 "42ad7194752057d752d7e41dc13c19c7b2d4e2818f1933f7399584419f377e15"
   url "https://github.com/lxgw/LxgwZhenKai/releases/download/v#{version}/LXGWZhenKai.ttf"
   desc "LXGW ZhenKai"
   desc "霞鹜臻楷"
