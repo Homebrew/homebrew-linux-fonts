@@ -1,6 +1,6 @@
 class FontArkPixel16px < Formula
-  version "2022-03-23"
-  sha256 "a8ce322eebe1e2d7e470ec4da78bcd7dd666c3797175c9f0860e585ad608699d"
+  version "2022-04-05"
+  sha256 "cbe41ed2fd08af8e07ae99bacc15541bca2579d5db43838ef65f2a7d7f295941"
   url "https://github.com/TakWolf/ark-pixel-font/releases/download/dev-#{version}/ark-pixel-font-16px-otf-v0.0.0-dev-#{version.to_s.no_hyphens}.zip"
   desc "Ark Pixel 16px"
   homepage "https://github.com/TakWolf/ark-pixel-font"
