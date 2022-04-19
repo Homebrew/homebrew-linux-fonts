@@ -4,8 +4,8 @@ class FontArefRuqaaInk < Formula
   desc "Led by khaled hosny, a type designer based in cairo, egypt"
   homepage "https://fonts.google.com/specimen/Aref+Ruqaa+Ink"
   def install
-    (share/"fonts").install "ArefRuqaaInk-Bold.otf"
-    (share/"fonts").install "ArefRuqaaInk-Regular.otf"
+    (share/"fonts").install "ArefRuqaaInk-Bold.ttf"
+    (share/"fonts").install "ArefRuqaaInk-Regular.ttf"
   end
   test do
   end
