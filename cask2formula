@@ -5,6 +5,7 @@ require "parslet"
 def replace_cask_version_properties(input_string)
     input_string
       .gsub(".no_dots", '.gsub(".", "")')
+      .gsub(".no_hyphens", '.gsub("-", "")')
       .gsub(".dots_to_underscores", '.gsub(".", "_")')
       .gsub(".dots_to_slashes", '.gsub(".", "/")')
       .gsub(".dots_to_hyphens", '.gsub(".", "-")')
