@@ -1,7 +1,7 @@
 class FontArkPixel10px < Formula
   version "2022-05-04"
   sha256 "860363726a131d0790278d994779f8ed47ae1668bf6c740ee5661145189e27a6"
-  url "https://github.com/TakWolf/ark-pixel-font/releases/download/dev-#{version}/ark-pixel-font-10px-otf-v0.0.0-dev-#{version.to_s.no_hyphens}.zip"
+  url "https://github.com/TakWolf/ark-pixel-font/releases/download/dev-#{version}/ark-pixel-font-10px-otf-v0.0.0-dev-#{version.to_s.gsub("-", "")}.zip"
   desc "Ark Pixel 10px"
   homepage "https://github.com/TakWolf/ark-pixel-font"
   def install
