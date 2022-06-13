@@ -1,16 +1,10 @@
 class FontNotoSerifJp < Formula
-  head "https://github.com/google/fonts/trunk/ofl/notoserifjp", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts/raw/main/ofl/notoserifjp/NotoSerifJP%5Bwght%5D.ttf", verified: "github.com/google/fonts/"
   desc "Noto Serif JP"
   desc "Modulated (“serif”) design for the japanese language"
   homepage "https://fonts.google.com/specimen/Noto+Serif+JP"
   def install
-    (share/"fonts").install "NotoSerifJP-Black.otf"
-    (share/"fonts").install "NotoSerifJP-Bold.otf"
-    (share/"fonts").install "NotoSerifJP-ExtraLight.otf"
-    (share/"fonts").install "NotoSerifJP-Light.otf"
-    (share/"fonts").install "NotoSerifJP-Medium.otf"
-    (share/"fonts").install "NotoSerifJP-Regular.otf"
-    (share/"fonts").install "NotoSerifJP-SemiBold.otf"
+    (share/"fonts").install "NotoSerifJP[wght].ttf"
   end
   test do
   end
