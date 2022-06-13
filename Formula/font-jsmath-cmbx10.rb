@@ -1,7 +1,7 @@
 class FontJsmathCmbx10 < Formula
-  head "http://www.math.union.edu/~dpvc/jsmath/download/TeX-fonts-10.zip"
+  head "https://www.math.union.edu/~dpvc/jsMath/download/TeX-fonts-10.zip"
   desc "jsMath-cmbx10"
-  homepage "http://www.math.union.edu/~dpvc/jsmath/download/jsmath-fonts.html"
+  homepage "https://www.math.union.edu/~dpvc/jsMath/download/jsMath-fonts.html"
   def install
     parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}TeX-fonts-10/jsMath-cmbx10.ttf"
