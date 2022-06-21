@@ -1,6 +1,6 @@
 class FontLxgwBright < Formula
-  version "2.141"
-  sha256 "291edfa9a54f51dfe8f128c6037b1d743878c728a7ca0dedd5bb1434dd8f92d4"
+  version "2.143"
+  sha256 "be35471e6213311653a210d03cfc8e8997871836c190bf0fa1c8876dc5556f48"
   url "https://github.com/lxgw/LxgwBright/archive/refs/tags/v#{version}.zip"
   desc "LXGW Bright"
   desc "Merged font of Ysabeau Office and LXGW WenKai"
