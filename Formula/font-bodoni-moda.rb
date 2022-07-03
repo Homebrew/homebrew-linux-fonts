@@ -1,11 +1,14 @@
 class FontBodoniModa < Formula
-  head "https://github.com/google/fonts/trunk/ofl/bodonimoda", verified: "github.com/google/fonts/", using: :svn
+  version "2.3"
+  sha256 "787426889302f357b1e108fd5284fbe9d40063cb0c994d936c7b6a99816f8ccc"
+  url "https://github.com/indestructible-type/Bodoni/releases/download/#{version}/Bodoni-master.zip", verified: "github.com/indestructible-type/Bodoni/"
   desc "Bodoni Moda"
   desc "Serif typeface with high contrast"
-  homepage "https://fonts.google.com/specimen/Bodoni+Moda"
+  homepage "https://indestructibletype.com/Bodoni.html"
   def install
-    (share/"fonts").install "BodoniModa-Italic[opsz,wght].ttf"
-    (share/"fonts").install "BodoniModa[opsz,wght].ttf"
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
+    (share/"fonts").install "#{parent}Bodoni-master/fonts/variable/Bodoni-Italic-VF.ttf"
+    (share/"fonts").install "#{parent}Bodoni-master/fonts/variable/Bodoni-VF.ttf"
   end
   test do
   end
