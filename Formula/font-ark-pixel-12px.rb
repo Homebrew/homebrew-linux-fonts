@@ -1,7 +1,7 @@
 class FontArkPixel12px < Formula
-  version "2022-06-08"
-  sha256 "218481f36660d449e0425033ab3bbe9083bf850d188aed7d5dffd28a05a4e08d"
-  url "https://github.com/TakWolf/ark-pixel-font/releases/download/dev-#{version}/ark-pixel-font-12px-otf-v0.0.0-dev-#{version.to_s.gsub("-", "")}.zip"
+  version "2022.07.05"
+  sha256 "5e3d3639ddfe7c5cfca5414118bdc03a12f265db40e59ee03a672bc63c138158"
+  url "https://github.com/TakWolf/ark-pixel-font/releases/download/#{version}/ark-pixel-font-12px-otf-v#{version.to_s.gsub("-", "")}.zip"
   desc "Ark Pixel 12px"
   homepage "https://github.com/TakWolf/ark-pixel-font"
   def install
