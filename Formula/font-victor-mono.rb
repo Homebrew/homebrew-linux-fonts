@@ -1,6 +1,8 @@
 class FontVictorMono < Formula
-  head "https://rubjo.github.io/victor-mono/VictorMonoAll.zip"
+  version "1.5.4"
+  url "https://rubjo.github.io/victor-mono/VictorMonoAll.zip"
   desc "Victor Mono"
+  desc "Monospaced font with cursive italics and programming symbol ligatures"
   homepage "https://rubjo.github.io/victor-mono/"
   def install
     parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
