@@ -7,18 +7,8 @@ class FontCascadiaMonoPl < Formula
   homepage "https://github.com/microsoft/cascadia-code"
   def install
     parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}ttf/static/CascadiaMonoPL-Bold.ttf"
-    (share/"fonts").install "#{parent}ttf/static/CascadiaMonoPL-BoldItalic.ttf"
-    (share/"fonts").install "#{parent}ttf/static/CascadiaMonoPL-ExtraLight.ttf"
-    (share/"fonts").install "#{parent}ttf/static/CascadiaMonoPL-ExtraLightItalic.ttf"
-    (share/"fonts").install "#{parent}ttf/static/CascadiaMonoPL-Italic.ttf"
-    (share/"fonts").install "#{parent}ttf/static/CascadiaMonoPL-Light.ttf"
-    (share/"fonts").install "#{parent}ttf/static/CascadiaMonoPL-LightItalic.ttf"
-    (share/"fonts").install "#{parent}ttf/static/CascadiaMonoPL-Regular.ttf"
-    (share/"fonts").install "#{parent}ttf/static/CascadiaMonoPL-SemiBold.ttf"
-    (share/"fonts").install "#{parent}ttf/static/CascadiaMonoPL-SemiBoldItalic.ttf"
-    (share/"fonts").install "#{parent}ttf/static/CascadiaMonoPL-SemiLight.ttf"
-    (share/"fonts").install "#{parent}ttf/static/CascadiaMonoPL-SemiLightItalic.ttf"
+    (share/"fonts").install "#{parent}ttf/CascadiaMonoPL.ttf"
+    (share/"fonts").install "#{parent}ttf/CascadiaMonoPLItalic.ttf"
   end
   test do
   end
