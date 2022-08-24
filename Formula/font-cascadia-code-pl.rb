@@ -7,18 +7,8 @@ class FontCascadiaCodePl < Formula
   homepage "https://github.com/microsoft/cascadia-code"
   def install
     parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}ttf/static/CascadiaCodePL-Bold.ttf"
-    (share/"fonts").install "#{parent}ttf/static/CascadiaCodePL-BoldItalic.ttf"
-    (share/"fonts").install "#{parent}ttf/static/CascadiaCodePL-ExtraLight.ttf"
-    (share/"fonts").install "#{parent}ttf/static/CascadiaCodePL-ExtraLightItalic.ttf"
-    (share/"fonts").install "#{parent}ttf/static/CascadiaCodePL-Italic.ttf"
-    (share/"fonts").install "#{parent}ttf/static/CascadiaCodePL-Light.ttf"
-    (share/"fonts").install "#{parent}ttf/static/CascadiaCodePL-LightItalic.ttf"
-    (share/"fonts").install "#{parent}ttf/static/CascadiaCodePL-Regular.ttf"
-    (share/"fonts").install "#{parent}ttf/static/CascadiaCodePL-SemiBold.ttf"
-    (share/"fonts").install "#{parent}ttf/static/CascadiaCodePL-SemiBoldItalic.ttf"
-    (share/"fonts").install "#{parent}ttf/static/CascadiaCodePL-SemiLight.ttf"
-    (share/"fonts").install "#{parent}ttf/static/CascadiaCodePL-SemiLightItalic.ttf"
+    (share/"fonts").install "#{parent}ttf/CascadiaCodePL.ttf"
+    (share/"fonts").install "#{parent}ttf/CascadiaCodePLItalic.ttf"
   end
   test do
   end
