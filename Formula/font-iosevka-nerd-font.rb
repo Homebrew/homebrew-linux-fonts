@@ -1,6 +1,6 @@
 class FontIosevkaNerdFont < Formula
-  version "2.1.0"
-  sha256 "6bd29ef886b808d1d76dd85f82b8823452265fda582801734aab6f9460270de3"
+  version "2.2.1"
+  sha256 "317cf0db55def94629e833243ae6fca2ce8d67fbc341f23fcf4d56c18f45b392"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Iosevka.zip"
   desc "Iosevka Nerd Font (Iosevka)"
   homepage "https://github.com/ryanoasis/nerd-fonts"
