@@ -1,9 +1,9 @@
 class FontNabla < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/nabla/Nabla%5Bwght%5D.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/nabla/Nabla%5BEDPT%2CEHLT%5D.ttf"
   desc "Nabla"
-  homepage "https://fonts.google.com/specimen/Nabla"
+  homepage "https://github.com/justvanrossum/nabla"
   def install
-    (share/"fonts").install "Nabla[wght].ttf"
+    (share/"fonts").install "Nabla[EDPT,EHLT].ttf"
   end
   test do
   end
