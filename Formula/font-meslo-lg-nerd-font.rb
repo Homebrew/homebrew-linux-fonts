@@ -1,6 +1,6 @@
 class FontMesloLgNerdFont < Formula
-  version "2.2.0"
-  sha256 "8f5d37edd06075adc3d7a7c2303414e69cde06afcbd05e88824257157878ff75"
+  version "2.2.1"
+  sha256 "fa206721add4716ff6437fc2ea6e5b65c9dad8d5565117f80f13df7dd1261f98"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Meslo.zip"
   desc "MesloLG Nerd Font families (Meslo LG)"
   homepage "https://github.com/ryanoasis/nerd-fonts"
