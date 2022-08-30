@@ -1,6 +1,6 @@
 class FontMartianMono < Formula
-  version "0.9.0"
-  sha256 "2d7c4e9103b1df5551eb6d91f19122b80bb82e97aa77d7ddc65cb3edc95cd8d3"
+  version "0.9.1"
+  sha256 "1bb58d92e2af101727c6120ae3f5cb4497c8da7462962b5f2ea769d05445d46d"
   url "https://github.com/evilmartians/mono/releases/download/v#{version}/martian-mono-#{version}-otf.zip"
   desc "Martian Mono"
   desc "Monospaced font from Evil Martians"
@@ -27,13 +27,13 @@ class FontMartianMono < Formula
     (share/"fonts").install "MartianMono-StdTh.otf"
     (share/"fonts").install "MartianMono-StdxBd.otf"
     (share/"fonts").install "MartianMono-StdxLt.otf"
-    (share/"fonts").install "MartianMono-WdBd.otf"
-    (share/"fonts").install "MartianMono-WdLt.otf"
-    (share/"fonts").install "MartianMono-WdMd.otf"
-    (share/"fonts").install "MartianMono-WdRg.otf"
-    (share/"fonts").install "MartianMono-WdTh.otf"
-    (share/"fonts").install "MartianMono-WdxBd.otf"
-    (share/"fonts").install "MartianMono-WdxLt.otf"
+    (share/"fonts").install "MartianMono-sWdBd.otf"
+    (share/"fonts").install "MartianMono-sWdLt.otf"
+    (share/"fonts").install "MartianMono-sWdMd.otf"
+    (share/"fonts").install "MartianMono-sWdRg.otf"
+    (share/"fonts").install "MartianMono-sWdTh.otf"
+    (share/"fonts").install "MartianMono-sWdxBd.otf"
+    (share/"fonts").install "MartianMono-sWdxLt.otf"
   end
   test do
   end
