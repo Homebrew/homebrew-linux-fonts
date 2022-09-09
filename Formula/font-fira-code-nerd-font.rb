@@ -1,8 +1,9 @@
 class FontFiraCodeNerdFont < Formula
-  version "2.2.1"
-  sha256 "63410350230ad9c1873df4b1e154066d809cff2490e5bbc440f05d7967ee8e2f"
+  version "2.2.2"
+  sha256 "20182e6e7c42cf8ab479d83af3200266261ec9bd4e80cdaceb793ecd56c9a398"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/FiraCode.zip"
   desc "FiraCode Nerd Font (Fira Code)"
+  desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode"
   def install
     (share/"fonts").install "Fira Code Bold Nerd Font Complete Mono Windows Compatible.ttf"
