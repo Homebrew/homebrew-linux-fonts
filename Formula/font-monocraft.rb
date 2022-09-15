@@ -1,6 +1,6 @@
 class FontMonocraft < Formula
-  version "1.2"
-  sha256 "1275cf39a89ed950660ce0151751aa69709f60ba7e45573f7330619be3ade29d"
+  version "1.3"
+  sha256 "4d7d54ce08cdacf66991a683ff325f519668623404dd111c03ae4c9d54996e36"
   url "https://github.com/IdreesInc/Monocraft/releases/download/v#{version}/Monocraft.otf"
   desc "Monocraft"
   desc "Programming font based on the typeface used in Minecraft"
