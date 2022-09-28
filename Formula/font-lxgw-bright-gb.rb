@@ -1,18 +1,18 @@
 class FontLxgwBrightGb < Formula
-  version "4.124"
-  sha256 "31ba535644f3ccc76ea4bb3e4fb8e03288aee4e9a617f95c51d8d66f1de21b0f"
-  url "https://github.com/lxgw/LxgwBright/archive/refs/tags/v#{version}.zip"
+  version "4.132.4"
+  sha256 "f9655605ced1ba9af73a67f51910032d2f19fa5e673eb5dcb78ea8c39470b5a6"
+  url "https://github.com/lxgw/LxgwBright/releases/download/v#{version}/LXGWBrightGB.7z"
   desc "LXGW Bright GB"
   desc "Merged font of Ysabeau Office and LXGW WenKai GB"
   homepage "https://github.com/lxgw/LxgwBright"
   def install
     parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}LxgwBright-#{version}/LXGWBrightGB/LXGWBrightGB-Medium.otf"
-    (share/"fonts").install "#{parent}LxgwBright-#{version}/LXGWBrightGB/LXGWBrightGB-MediumItalic.otf"
-    (share/"fonts").install "#{parent}LxgwBright-#{version}/LXGWBrightGB/LXGWBrightGB-Regular.otf"
-    (share/"fonts").install "#{parent}LxgwBright-#{version}/LXGWBrightGB/LXGWBrightGB-Italic.otf"
-    (share/"fonts").install "#{parent}LxgwBright-#{version}/LXGWBrightGB/LXGWBrightGB-SemiLight.otf"
-    (share/"fonts").install "#{parent}LxgwBright-#{version}/LXGWBrightGB/LXGWBrightGB-SemiLightItalic.otf"
+    (share/"fonts").install "#{parent}LXGWBrightGB/LXGWBrightGB-Medium.otf"
+    (share/"fonts").install "#{parent}LXGWBrightGB/LXGWBrightGB-MediumItalic.otf"
+    (share/"fonts").install "#{parent}LXGWBrightGB/LXGWBrightGB-Regular.otf"
+    (share/"fonts").install "#{parent}LXGWBrightGB/LXGWBrightGB-Italic.otf"
+    (share/"fonts").install "#{parent}LXGWBrightGB/LXGWBrightGB-SemiLight.otf"
+    (share/"fonts").install "#{parent}LXGWBrightGB/LXGWBrightGB-SemiLightItalic.otf"
   end
   test do
   end
