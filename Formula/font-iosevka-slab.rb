@@ -1,6 +1,6 @@
 class FontIosevkaSlab < Formula
-  version "16.2.1"
-  sha256 "4787b8e7f683f88ad61c12fe44af62626586e211b94580b6c124ab104ccf73ac"
+  version "16.3.0"
+  sha256 "036c9faa349f491a4bb8aaf3a6adfa8f49082d6d7fbc8208e7c4203b055fac5f"
   url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/ttc-iosevka-slab-#{version}.zip"
   desc "Iosevka Slab"
   desc "Sans-serif, slab-serif, monospace and quasi‑proportional typeface family"
