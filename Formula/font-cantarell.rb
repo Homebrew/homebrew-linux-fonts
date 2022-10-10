@@ -4,8 +4,8 @@ class FontCantarell < Formula
   homepage "https://fonts.google.com/specimen/Cantarell"
   def install
     (share/"fonts").install "Cantarell-Bold.ttf"
-    (share/"fonts").install "Cantarell-BoldOblique.ttf"
-    (share/"fonts").install "Cantarell-Oblique.ttf"
+    (share/"fonts").install "Cantarell-BoldItalic.ttf"
+    (share/"fonts").install "Cantarell-Italic.ttf"
     (share/"fonts").install "Cantarell-Regular.ttf"
   end
   test do
