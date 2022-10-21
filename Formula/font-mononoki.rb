@@ -1,15 +1,19 @@
 class FontMononoki < Formula
-  version "1.3"
-  sha256 "37291a9371b4127bb03e012ace7ecc79375f6eccfa688be81a36ccc5d29e3ee6"
+  version "1.4"
+  sha256 "e0b8223a524f7f4dfa6a25f1bc9b061f5303b114a3837aaad860446bca71a857"
   url "https://github.com/madmalik/mononoki/releases/download/#{version}/mononoki.zip", verified: "github.com/madmalik/mononoki/"
   desc "Mononoki"
+  desc "Programming font"
   homepage "https://madmalik.github.io/mononoki/"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}webfont/mononoki-Bold.ttf"
-    (share/"fonts").install "#{parent}webfont/mononoki-BoldItalic.ttf"
-    (share/"fonts").install "#{parent}webfont/mononoki-Italic.ttf"
-    (share/"fonts").install "#{parent}webfont/mononoki-Regular.ttf"
+    (share/"fonts").install "mononoki-Bold.otf"
+    (share/"fonts").install "mononoki-Bold.ttf"
+    (share/"fonts").install "mononoki-BoldItalic.otf"
+    (share/"fonts").install "mononoki-BoldItalic.ttf"
+    (share/"fonts").install "mononoki-Italic.otf"
+    (share/"fonts").install "mononoki-Italic.ttf"
+    (share/"fonts").install "mononoki-Regular.otf"
+    (share/"fonts").install "mononoki-Regular.ttf"
   end
   test do
   end
