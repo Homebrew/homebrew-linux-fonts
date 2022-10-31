@@ -1,6 +1,6 @@
 class FontIosevkaAile < Formula
-  version "16.3.4"
-  sha256 "1d208d1d498867a4351be674f727401cb7ca140591b59f1c136424c8a79ba62d"
+  version "16.3.6"
+  sha256 "cb5728b432dcd70cca4a6b434b9506667b54df8cd716ec46d34a4fe3605736d4"
   url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/ttc-iosevka-aile-#{version}.zip"
   desc "Iosevka Aile"
   desc "Sans-serif, slab-serif, monospace and quasi‑proportional typeface family"
