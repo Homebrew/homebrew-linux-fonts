@@ -1,6 +1,6 @@
 class FontIosevkaCurly < Formula
-  version "16.3.4"
-  sha256 "76c8e483bbe29dad7a5a6f69ad1f31e73483ddaea54d9701bef351d2e7c7a26c"
+  version "16.3.6"
+  sha256 "d88ba7883de919bb19d02f0717964a9c99ed1dbe234379246b7582c7aa47ab75"
   url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/ttc-iosevka-curly-#{version}.zip"
   desc "Iosevka Curly"
   desc "Sans-serif, slab-serif, monospace and quasi‑proportional typeface family"
