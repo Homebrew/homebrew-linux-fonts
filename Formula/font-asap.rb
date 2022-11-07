@@ -3,8 +3,8 @@ class FontAsap < Formula
   desc "Asap"
   homepage "https://fonts.google.com/specimen/Asap"
   def install
-    (share/"fonts").install "Asap-Italic[wght].ttf"
-    (share/"fonts").install "Asap[wght].ttf"
+    (share/"fonts").install "Asap-Italic[wdth,wght].ttf"
+    (share/"fonts").install "Asap[wdth,wght].ttf"
   end
   test do
   end
