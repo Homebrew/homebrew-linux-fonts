@@ -1,5 +1,5 @@
 class FontIbmPlexMono < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/ibmplexmono"
+  head "https://github.com/google/fonts/trunk/ofl/ibmplexmono", verified: "github.com/google/fonts/", using: :svn
   desc "IBM Plex Mono"
   desc "Corporate typeface for IBM"
   homepage "https://fonts.google.com/specimen/IBM+Plex+Mono"
