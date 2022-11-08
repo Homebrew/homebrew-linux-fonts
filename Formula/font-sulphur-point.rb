@@ -1,5 +1,5 @@
 class FontSulphurPoint < Formula
-  head "https://github.com/google/fonts/trunk/ofl/sulphurpoint", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/sulphurpoint"
   desc "Sulphur Point"
   homepage "https://fonts.google.com/specimen/Sulphur+Point"
   def install
