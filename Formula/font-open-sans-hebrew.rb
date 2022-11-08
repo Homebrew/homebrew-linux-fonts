@@ -1,5 +1,5 @@
 class FontOpenSansHebrew < Formula
-  head "https://github.com/google/fonts/trunk/apache/opensanshebrew", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "apache/opensanshebrew"
   desc "Open Sans Hebrew"
   homepage "https://fonts.google.com/earlyaccess"
   def install
