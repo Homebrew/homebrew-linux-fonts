@@ -1,5 +1,5 @@
 class FontLibreBaskerville < Formula
-  head "https://github.com/google/fonts/trunk/ofl/librebaskerville", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/librebaskerville"
   desc "Libre Baskerville"
   homepage "https://fonts.google.com/specimen/Libre+Baskerville"
   def install
