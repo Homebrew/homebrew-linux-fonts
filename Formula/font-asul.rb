@@ -1,5 +1,5 @@
 class FontAsul < Formula
-  head "https://github.com/google/fonts/trunk/ofl/asul", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/asul"
   desc "Asul"
   homepage "https://fonts.google.com/specimen/Asul"
   def install
