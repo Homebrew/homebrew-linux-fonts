@@ -1,5 +1,5 @@
 class FontKhand < Formula
-  head "https://github.com/google/fonts/trunk/ofl/khand", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/khand"
   desc "Khand"
   homepage "https://fonts.google.com/specimen/Khand"
   def install
