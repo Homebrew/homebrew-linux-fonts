@@ -1,5 +1,5 @@
 class FontMerriweather < Formula
-  head "https://github.com/google/fonts/trunk/ofl/merriweather", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/merriweather"
   desc "Merriweather"
   homepage "https://fonts.google.com/specimen/Merriweather"
   def install
