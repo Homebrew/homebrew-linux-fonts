@@ -1,5 +1,5 @@
 class FontNoticiaText < Formula
-  head "https://github.com/google/fonts/trunk/ofl/noticiatext", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/noticiatext"
   desc "Noticia Text"
   homepage "https://fonts.google.com/specimen/Noticia+Text"
   def install
