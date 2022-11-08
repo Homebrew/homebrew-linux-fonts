@@ -1,5 +1,5 @@
 class FontPoly < Formula
-  head "https://github.com/google/fonts/trunk/ofl/poly", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/poly"
   desc "Poly"
   homepage "https://fonts.google.com/specimen/Poly"
   def install
