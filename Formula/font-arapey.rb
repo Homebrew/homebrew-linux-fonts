@@ -1,5 +1,5 @@
 class FontArapey < Formula
-  head "https://github.com/google/fonts/trunk/ofl/arapey", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/arapey"
   desc "Arapey"
   homepage "https://fonts.google.com/specimen/Arapey"
   def install
