@@ -1,5 +1,5 @@
 class FontShipporiMincho < Formula
-  head "https://github.com/google/fonts/trunk/ofl/shipporimincho", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/shipporimincho"
   desc "Shippori Mincho"
   desc "Based on the Tsukiji Typeface making facility of Tokyo"
   homepage "https://fonts.google.com/specimen/Shippori+Mincho"
