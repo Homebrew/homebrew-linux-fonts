@@ -1,7 +1,7 @@
 class FontOpenSansCondensed < Formula
-  head "https://github.com/google/fonts/trunk/apache/opensanscondensed", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "apache/opensanscondensed"
   desc "Open Sans Condensed"
-  homepage "https://fonts.google.com/specimen/Open+Sans+Condensed"
+  homepage "https://fonts.google.com/earlyaccess"
   def install
     (share/"fonts").install "OpenSansCondensed-Bold.ttf"
     (share/"fonts").install "OpenSansCondensed-Light.ttf"
