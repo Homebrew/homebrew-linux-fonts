@@ -1,5 +1,5 @@
 class FontTiroGurmukhi < Formula
-  head "https://github.com/google/fonts/trunk/ofl/tirogurmukhi", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/tirogurmukhi"
   desc "Tiro Gurmukhi"
   desc "Reintroduces stroke modulation of traditional Punjabi manuscript"
   homepage "https://fonts.google.com/specimen/Tiro+Gurmukhi"
