@@ -1,5 +1,5 @@
 class FontDmSans < Formula
-  head "https://github.com/google/fonts/trunk/ofl/dmsans", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/dmsans"
   desc "DM Sans"
   homepage "https://fonts.google.com/specimen/DM+Sans"
   def install
