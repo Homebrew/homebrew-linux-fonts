@@ -1,5 +1,5 @@
 class FontCousine < Formula
-  head "https://github.com/google/fonts/trunk/apache/cousine", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "apache/cousine"
   desc "Cousine"
   homepage "https://fonts.google.com/specimen/Cousine"
   def install
