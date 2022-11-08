@@ -1,5 +1,5 @@
 class FontOpenSansHebrewCondensed < Formula
-  head "https://github.com/google/fonts/trunk/apache/opensanshebrewcondensed", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "apache/opensanshebrewcondensed"
   desc "Open Sans Hebrew Condensed"
   homepage "https://fonts.google.com/earlyaccess"
   def install
