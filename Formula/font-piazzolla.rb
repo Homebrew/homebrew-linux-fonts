@@ -1,5 +1,5 @@
 class FontPiazzolla < Formula
-  head "https://github.com/google/fonts/trunk/ofl/piazzolla", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/piazzolla"
   desc "Piazzolla"
   desc "Serif font family for media"
   homepage "https://fonts.google.com/specimen/Piazzolla"
