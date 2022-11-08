@@ -1,5 +1,5 @@
 class FontCrimsonPro < Formula
-  head "https://github.com/google/fonts/trunk/ofl/crimsonpro", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/crimsonpro"
   desc "Crimson Pro"
   homepage "https://fonts.google.com/specimen/Crimson+Pro"
   def install
