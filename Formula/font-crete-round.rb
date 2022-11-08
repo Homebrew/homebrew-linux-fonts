@@ -1,5 +1,5 @@
 class FontCreteRound < Formula
-  head "https://github.com/google/fonts/trunk/ofl/creteround", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/creteround"
   desc "Crete Round"
   homepage "https://fonts.google.com/specimen/Crete+Round"
   def install
