@@ -1,5 +1,5 @@
 class FontFanwoodText < Formula
-  head "https://github.com/google/fonts/trunk/ofl/fanwoodtext", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/fanwoodtext"
   desc "Fanwood Text"
   homepage "https://fonts.google.com/specimen/Fanwood+Text"
   def install
