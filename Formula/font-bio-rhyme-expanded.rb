@@ -1,7 +1,7 @@
 class FontBioRhymeExpanded < Formula
-  head "https://github.com/google/fonts/trunk/ofl/biorhymeexpanded", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/biorhymeexpanded"
   desc "Bio Rhyme Expanded"
-  homepage "https://fonts.google.com/specimen/Bio+Rhyme+Expanded"
+  homepage "https://fonts.google.com/specimen/BioRhyme+Expanded"
   def install
     (share/"fonts").install "BioRhymeExpanded-Bold.ttf"
     (share/"fonts").install "BioRhymeExpanded-ExtraBold.ttf"
