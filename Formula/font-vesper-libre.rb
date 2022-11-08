@@ -1,5 +1,5 @@
 class FontVesperLibre < Formula
-  head "https://github.com/google/fonts/trunk/ofl/vesperlibre", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/vesperlibre"
   desc "Vesper Libre"
   homepage "https://fonts.google.com/specimen/Vesper+Libre"
   def install
