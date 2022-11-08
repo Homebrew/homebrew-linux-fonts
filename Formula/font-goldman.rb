@@ -1,5 +1,5 @@
 class FontGoldman < Formula
-  head "https://github.com/google/fonts/trunk/ofl/goldman", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/goldman"
   desc "Goldman"
   desc "Latin display typeface designed for posters"
   homepage "https://fonts.google.com/specimen/Goldman"
