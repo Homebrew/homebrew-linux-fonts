@@ -1,5 +1,5 @@
 class FontAsapVfBeta < Formula
-  head "https://github.com/google/fonts/trunk/ofl/asapvfbeta", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/asapvfbeta"
   desc "Asap VF Beta"
   homepage "https://fonts.google.com/earlyaccess"
   def install
