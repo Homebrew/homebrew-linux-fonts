@@ -1,7 +1,7 @@
 class FontEkMukta < Formula
-  head "https://github.com/google/fonts/trunk/ofl/ekmukta", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/ekmukta"
   desc "Ek Mukta"
-  homepage "https://fonts.google.com/specimen/Ek+Mukta"
+  homepage "https://fonts.google.com/specimen/Mukta"
   def install
     (share/"fonts").install "EkMukta-Bold.ttf"
     (share/"fonts").install "EkMukta-ExtraBold.ttf"
