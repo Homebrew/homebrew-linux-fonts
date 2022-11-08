@@ -1,5 +1,5 @@
 class FontTrirong < Formula
-  head "https://github.com/google/fonts/trunk/ofl/trirong", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/trirong"
   desc "Trirong"
   homepage "https://fonts.google.com/specimen/Trirong"
   def install
