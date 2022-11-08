@@ -1,5 +1,5 @@
 class FontBenchnine < Formula
-  head "https://github.com/google/fonts/trunk/ofl/benchnine", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/benchnine"
   desc "BenchNine"
   homepage "https://fonts.google.com/specimen/BenchNine"
   def install
