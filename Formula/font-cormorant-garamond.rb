@@ -1,5 +1,5 @@
 class FontCormorantGaramond < Formula
-  head "https://github.com/google/fonts/trunk/ofl/cormorantgaramond", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/cormorantgaramond"
   desc "Cormorant Garamond"
   homepage "https://fonts.google.com/specimen/Cormorant+Garamond"
   def install
