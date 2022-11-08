@@ -1,5 +1,5 @@
 class FontGothicA1 < Formula
-  head "https://github.com/google/fonts/trunk/ofl/gothica1", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/gothica1"
   desc "Gothic A1"
   homepage "https://fonts.google.com/specimen/Gothic+A1"
   def install
