@@ -1,5 +1,5 @@
 class FontRobotoMono < Formula
-  head "https://github.com/google/fonts/trunk/apache/robotomono", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "apache/robotomono"
   desc "Roboto Mono"
   homepage "https://fonts.google.com/specimen/Roboto+Mono"
   def install
