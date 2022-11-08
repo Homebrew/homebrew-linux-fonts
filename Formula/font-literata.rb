@@ -1,5 +1,5 @@
 class FontLiterata < Formula
-  head "https://github.com/google/fonts/trunk/ofl/literata", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/literata"
   desc "Literata"
   homepage "https://fonts.google.com/specimen/Literata"
   def install
