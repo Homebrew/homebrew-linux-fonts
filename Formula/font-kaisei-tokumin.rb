@@ -1,5 +1,5 @@
 class FontKaiseiTokumin < Formula
-  head "https://github.com/google/fonts/trunk/ofl/kaiseitokumin", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/kaiseitokumin"
   desc "Kaisei Tokumin"
   desc "Designed to keep the legibility and still have power as an extra bold typeface"
   homepage "https://fonts.google.com/specimen/Kaisei+Tokumin"
