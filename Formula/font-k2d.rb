@@ -1,5 +1,5 @@
 class FontK2d < Formula
-  head "https://github.com/google/fonts/trunk/ofl/k2d", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/k2d"
   desc "K2D"
   homepage "https://fonts.google.com/specimen/K2D"
   def install
