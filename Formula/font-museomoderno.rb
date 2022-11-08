@@ -1,5 +1,5 @@
 class FontMuseomoderno < Formula
-  head "https://github.com/google/fonts/trunk/ofl/museomoderno", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/museomoderno"
   desc "MuseoModerno"
   homepage "https://fonts.google.com/specimen/MuseoModerno"
   def install
