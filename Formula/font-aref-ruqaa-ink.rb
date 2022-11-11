@@ -1,5 +1,5 @@
 class FontArefRuqaaInk < Formula
-  head "https://github.com/google/fonts/trunk/ofl/arefruqaaink", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/arefruqaaink"
   desc "Aref Ruqaa Ink"
   desc "Led by khaled hosny, a type designer based in cairo, egypt"
   homepage "https://fonts.google.com/specimen/Aref+Ruqaa+Ink"
