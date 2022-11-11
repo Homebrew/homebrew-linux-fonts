@@ -1,5 +1,5 @@
 class FontPlay < Formula
-  head "https://github.com/google/fonts/trunk/ofl/play", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/play"
   desc "Play"
   homepage "https://fonts.google.com/specimen/Play"
   def install
