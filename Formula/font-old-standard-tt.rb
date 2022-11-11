@@ -1,5 +1,5 @@
 class FontOldStandardTt < Formula
-  head "https://github.com/google/fonts/trunk/ofl/oldstandardtt", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/oldstandardtt"
   desc "Old Standard TT"
   homepage "https://fonts.google.com/specimen/Old+Standard+TT"
   def install
