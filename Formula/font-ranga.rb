@@ -1,5 +1,5 @@
 class FontRanga < Formula
-  head "https://github.com/google/fonts/trunk/ofl/ranga", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/ranga"
   desc "Ranga"
   homepage "https://fonts.google.com/specimen/Ranga"
   def install
