@@ -1,5 +1,5 @@
 class FontTomorrow < Formula
-  head "https://github.com/google/fonts/trunk/ofl/tomorrow", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/tomorrow"
   desc "Tomorrow"
   homepage "https://fonts.google.com/specimen/Tomorrow"
   def install
