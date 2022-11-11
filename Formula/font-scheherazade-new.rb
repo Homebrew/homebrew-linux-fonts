@@ -1,5 +1,5 @@
 class FontScheherazadeNew < Formula
-  head "https://github.com/google/fonts/trunk/ofl/scheherazadenew", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/scheherazadenew"
   desc "Scheherazade New"
   desc "Named after the heroine of the classic arabian nights tale"
   homepage "https://fonts.google.com/specimen/Scheherazade+New"
