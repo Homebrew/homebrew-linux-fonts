@@ -1,5 +1,5 @@
 class FontAmita < Formula
-  head "https://github.com/google/fonts/trunk/ofl/amita", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/amita"
   desc "Amita"
   homepage "https://fonts.google.com/specimen/Amita"
   def install
