@@ -1,5 +1,5 @@
 class FontKohSantepheap < Formula
-  head "https://github.com/google/fonts/trunk/ofl/kohsantepheap", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/kohsantepheap"
   desc "Koh Santepheap"
   desc "Khmer font for body text"
   homepage "https://fonts.google.com/specimen/Koh+Santepheap"
