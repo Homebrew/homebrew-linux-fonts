@@ -1,5 +1,5 @@
 class FontMonda < Formula
-  head "https://github.com/google/fonts/trunk/ofl/monda", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/monda"
   desc "Monda"
   homepage "https://fonts.google.com/specimen/Monda"
   def install
