@@ -1,5 +1,5 @@
 class FontBiryani < Formula
-  head "https://github.com/google/fonts/trunk/ofl/biryani", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/biryani"
   desc "Biryani"
   homepage "https://fonts.google.com/specimen/Biryani"
   def install
