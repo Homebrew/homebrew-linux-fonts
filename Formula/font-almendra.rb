@@ -1,5 +1,5 @@
 class FontAlmendra < Formula
-  head "https://github.com/google/fonts/trunk/ofl/almendra", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/almendra"
   desc "Almendra"
   homepage "https://fonts.google.com/specimen/Almendra"
   def install
