@@ -1,5 +1,5 @@
 class FontMontserratAlternates < Formula
-  head "https://github.com/google/fonts/trunk/ofl/montserratalternates", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/montserratalternates"
   desc "Montserrat Alternates"
   homepage "https://fonts.google.com/specimen/Montserrat+Alternates"
   def install
