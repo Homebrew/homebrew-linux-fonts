@@ -1,5 +1,5 @@
 class FontEncodeSansCondensed < Formula
-  head "https://github.com/google/fonts/trunk/ofl/encodesanscondensed", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/encodesanscondensed"
   desc "Encode Sans Condensed"
   homepage "https://fonts.google.com/specimen/Encode+Sans+Condensed"
   def install
