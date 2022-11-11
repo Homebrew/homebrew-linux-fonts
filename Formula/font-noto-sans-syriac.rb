@@ -1,5 +1,5 @@
 class FontNotoSansSyriac < Formula
-  head "https://github.com/google/fonts/trunk/ofl/notosanssyriac", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/notosanssyriac"
   desc "Noto Sans Syriac"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Syriac"
   def install
