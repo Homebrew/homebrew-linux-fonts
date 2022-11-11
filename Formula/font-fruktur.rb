@@ -1,5 +1,5 @@
 class FontFruktur < Formula
-  head "https://github.com/google/fonts/trunk/ofl/fruktur", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/fruktur"
   desc "Fruktur"
   homepage "https://fonts.google.com/specimen/Fruktur"
   def install
