@@ -1,5 +1,5 @@
 class FontBuenard < Formula
-  head "https://github.com/google/fonts/trunk/ofl/buenard", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/buenard"
   desc "Buenard"
   homepage "https://fonts.google.com/specimen/Buenard"
   def install
