@@ -1,5 +1,5 @@
 class FontTaviraj < Formula
-  head "https://github.com/google/fonts/trunk/ofl/taviraj", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/taviraj"
   desc "Taviraj"
   homepage "https://fonts.google.com/specimen/Taviraj"
   def install
