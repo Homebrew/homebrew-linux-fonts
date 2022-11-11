@@ -1,5 +1,5 @@
 class FontSourceCodePro < Formula
-  head "https://github.com/google/fonts/trunk/ofl/sourcecodepro", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/sourcecodepro"
   desc "Source Code Pro"
   homepage "https://fonts.google.com/specimen/Source+Code+Pro"
   def install
