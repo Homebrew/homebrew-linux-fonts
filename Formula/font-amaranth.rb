@@ -1,5 +1,5 @@
 class FontAmaranth < Formula
-  head "https://github.com/google/fonts/trunk/ofl/amaranth", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/amaranth"
   desc "Amaranth"
   homepage "https://fonts.google.com/specimen/Amaranth"
   def install
