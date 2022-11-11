@@ -1,7 +1,7 @@
 class FontSansation < Formula
-  head "https://github.com/google/fonts/trunk/ofl/sansation", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/sansation"
   desc "Sansation"
-  homepage "https://fonts.google.com/specimen/Sansation"
+  homepage "https://www.fontspace.com/sansation-font-f20328"
   def install
     (share/"fonts").install "Sansation-Bold.ttf"
     (share/"fonts").install "Sansation-BoldItalic.ttf"
