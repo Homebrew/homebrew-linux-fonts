@@ -1,5 +1,5 @@
 class FontAsapCondensed < Formula
-  head "https://github.com/google/fonts/trunk/ofl/asapcondensed", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/asapcondensed"
   desc "Asap Condensed"
   homepage "https://fonts.google.com/specimen/Asap+Condensed"
   def install
