@@ -1,7 +1,7 @@
 class FontNotoSansMyanmarUi < Formula
-  head "https://github.com/google/fonts/trunk/ofl/notosansmyanmarui", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/notosansmyanmarui"
   desc "Noto Sans Myanmar UI"
-  homepage "https://fonts.google.com/specimen/Noto+Sans+Myanmar+UI"
+  homepage "https://fonts.google.com/specimen/Noto+Sans+Myanmar"
   def install
     (share/"fonts").install "NotoSansMyanmarUI-Black.ttf"
     (share/"fonts").install "NotoSansMyanmarUI-Bold.ttf"
