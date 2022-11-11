@@ -1,5 +1,5 @@
 class FontSaira < Formula
-  head "https://github.com/google/fonts/trunk/ofl/saira", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/saira"
   desc "Saira"
   homepage "https://fonts.google.com/specimen/Saira"
   def install
