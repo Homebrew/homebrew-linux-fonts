@@ -1,5 +1,5 @@
 class FontDmSerifDisplay < Formula
-  head "https://github.com/google/fonts/trunk/ofl/dmserifdisplay", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/dmserifdisplay"
   desc "DM Serif Display"
   homepage "https://fonts.google.com/specimen/DM+Serif+Display"
   def install
