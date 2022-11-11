@@ -1,5 +1,5 @@
 class FontLora < Formula
-  head "https://github.com/google/fonts/trunk/ofl/lora", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/lora"
   desc "Lora"
   homepage "https://fonts.google.com/specimen/Lora"
   def install
