@@ -1,5 +1,5 @@
 class FontDongle < Formula
-  head "https://github.com/google/fonts/trunk/ofl/dongle", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/dongle"
   desc "Dongle"
   homepage "https://fonts.google.com/specimen/Dongle"
   def install
