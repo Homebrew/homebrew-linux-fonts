@@ -1,5 +1,5 @@
 class FontCorinthia < Formula
-  head "https://github.com/google/fonts/trunk/ofl/corinthia", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/corinthia"
   desc "Corinthia"
   homepage "https://fonts.google.com/specimen/Corinthia"
   def install
