@@ -1,7 +1,7 @@
 class FontPostNoBillsJaffna < Formula
-  head "https://github.com/google/fonts/trunk/ofl/postnobillsjaffna", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", branch: "main", only_path: "ofl/postnobillsjaffna"
   desc "Post No Bills Jaffna"
-  homepage "https://fonts.google.com/specimen/Post+No+Bills+Jaffna"
+  homepage "https://github.com/mooniak/post-no-bills-font"
   def install
     (share/"fonts").install "PostNoBillsJaffna-Bold.ttf"
     (share/"fonts").install "PostNoBillsJaffna-ExtraBold.ttf"
