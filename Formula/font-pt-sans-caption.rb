@@ -1,5 +1,5 @@
 class FontPtSansCaption < Formula
-  head "https://github.com/google/fonts/trunk/ofl/ptsanscaption", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/ptsanscaption"
   desc "PT Sans Caption"
   homepage "https://fonts.google.com/specimen/PT+Sans+Caption"
   def install
