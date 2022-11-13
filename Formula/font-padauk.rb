@@ -1,5 +1,5 @@
 class FontPadauk < Formula
-  head "https://github.com/google/fonts/trunk/ofl/padauk", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/padauk"
   desc "Padauk"
   homepage "https://fonts.google.com/specimen/Padauk"
   def install
