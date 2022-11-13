@@ -1,7 +1,7 @@
 class FontSitara < Formula
-  head "https://github.com/google/fonts/trunk/ofl/sitara", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/sitara"
   desc "Sitara"
-  homepage "https://fonts.google.com/specimen/Sitara"
+  homepage "https://www.cdnfonts.com/sitara.font"
   def install
     (share/"fonts").install "Sitara-Bold.ttf"
     (share/"fonts").install "Sitara-BoldItalic.ttf"
