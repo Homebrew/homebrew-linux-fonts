@@ -1,5 +1,5 @@
 class FontRedHatDisplay < Formula
-  head "https://github.com/google/fonts/trunk/ofl/redhatdisplay", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/redhatdisplay"
   desc "Red Hat Display"
   homepage "https://fonts.google.com/specimen/Red+Hat+Display"
   def install
