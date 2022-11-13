@@ -1,5 +1,5 @@
 class FontTiroTelugu < Formula
-  head "https://github.com/google/fonts/trunk/ofl/tirotelugu", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/tirotelugu"
   desc "Tiro Telugu"
   desc "Especially suited to traditional literary publishing"
   homepage "https://fonts.google.com/specimen/Tiro+Telugu"
