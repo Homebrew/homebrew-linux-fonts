@@ -1,5 +1,5 @@
 class FontGeorama < Formula
-  head "https://github.com/google/fonts/trunk/ofl/georama", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/georama"
   desc "Georama"
   desc "Original typeface available in several widths and weights"
   homepage "https://fonts.google.com/specimen/Georama"
