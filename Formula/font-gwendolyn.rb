@@ -1,5 +1,5 @@
 class FontGwendolyn < Formula
-  head "https://github.com/google/fonts/trunk/ofl/gwendolyn", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/gwendolyn"
   desc "Gwendolyn"
   homepage "https://fonts.google.com/specimen/Gwendolyn"
   def install
