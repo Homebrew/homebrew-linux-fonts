@@ -1,5 +1,5 @@
 class FontSanchez < Formula
-  head "https://github.com/google/fonts/trunk/ofl/sanchez", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/sanchez"
   desc "Sanchez"
   homepage "https://fonts.google.com/specimen/Sanchez"
   def install
