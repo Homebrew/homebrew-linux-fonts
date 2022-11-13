@@ -1,5 +1,5 @@
 class FontManuale < Formula
-  head "https://github.com/google/fonts/trunk/ofl/manuale", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/manuale"
   desc "Manuale"
   homepage "https://fonts.google.com/specimen/Manuale"
   def install
