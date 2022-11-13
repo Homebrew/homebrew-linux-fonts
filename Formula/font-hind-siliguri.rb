@@ -1,5 +1,5 @@
 class FontHindSiliguri < Formula
-  head "https://github.com/google/fonts/trunk/ofl/hindsiliguri", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/hindsiliguri"
   desc "Hind Siliguri"
   homepage "https://fonts.google.com/specimen/Hind+Siliguri"
   def install
