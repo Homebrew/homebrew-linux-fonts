@@ -1,5 +1,5 @@
 class FontChathura < Formula
-  head "https://github.com/google/fonts/trunk/ofl/chathura", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/chathura"
   desc "Chathura"
   homepage "https://fonts.google.com/specimen/Chathura"
   def install
