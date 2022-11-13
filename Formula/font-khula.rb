@@ -1,5 +1,5 @@
 class FontKhula < Formula
-  head "https://github.com/google/fonts/trunk/ofl/khula", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/khula"
   desc "Khula"
   homepage "https://fonts.google.com/specimen/Khula"
   def install
