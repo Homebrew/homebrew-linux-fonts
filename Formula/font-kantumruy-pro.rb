@@ -1,5 +1,5 @@
 class FontKantumruyPro < Formula
-  head "https://github.com/google/fonts/trunk/ofl/kantumruypro", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/kantumruypro"
   desc "Kantumruy Pro"
   desc "From work sans, with modified width and weight"
   homepage "https://fonts.google.com/specimen/Kantumruy+Pro"
