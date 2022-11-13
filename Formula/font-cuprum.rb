@@ -1,5 +1,5 @@
 class FontCuprum < Formula
-  head "https://github.com/google/fonts/trunk/ofl/cuprum", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/cuprum"
   desc "Cuprum"
   homepage "https://fonts.google.com/specimen/Cuprum"
   def install
