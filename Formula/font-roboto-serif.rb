@@ -1,5 +1,5 @@
 class FontRobotoSerif < Formula
-  head "https://github.com/google/fonts/trunk/ofl/robotoserif", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/robotoserif"
   desc "Roboto Serif"
   desc "Just as comfortable to read and work in print media"
   homepage "https://fonts.google.com/specimen/Roboto+Serif"
