@@ -1,5 +1,5 @@
 class FontCharmonman < Formula
-  head "https://github.com/google/fonts/trunk/ofl/charmonman", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/charmonman"
   desc "Charmonman"
   homepage "https://fonts.google.com/specimen/Charmonman"
   def install
