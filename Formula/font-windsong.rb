@@ -1,5 +1,5 @@
 class FontWindsong < Formula
-  head "https://github.com/google/fonts/trunk/ofl/windsong", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/windsong"
   desc "WindSong"
   desc "Elongated script with multiple stylistic sets"
   homepage "https://fonts.google.com/specimen/WindSong"
