@@ -1,5 +1,5 @@
 class FontIbmPlexSansThai < Formula
-  head "https://github.com/google/fonts/trunk/ofl/ibmplexsansthai", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/ibmplexsansthai"
   desc "IBM Plex Sans Thai"
   homepage "https://fonts.google.com/specimen/IBM+Plex+Sans+Thai"
   def install
