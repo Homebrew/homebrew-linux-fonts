@@ -1,5 +1,5 @@
 class FontEconomica < Formula
-  head "https://github.com/google/fonts/trunk/ofl/economica", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/economica"
   desc "Economica"
   homepage "https://fonts.google.com/specimen/Economica"
   def install
