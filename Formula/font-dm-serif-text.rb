@@ -1,5 +1,5 @@
 class FontDmSerifText < Formula
-  head "https://github.com/google/fonts/trunk/ofl/dmseriftext", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/dmseriftext"
   desc "DM Serif Text"
   homepage "https://fonts.google.com/specimen/DM+Serif+Text"
   def install
