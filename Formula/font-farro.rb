@@ -1,5 +1,5 @@
 class FontFarro < Formula
-  head "https://github.com/google/fonts/trunk/ofl/farro", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/farro"
   desc "Farro"
   homepage "https://fonts.google.com/specimen/Farro"
   def install
