@@ -1,5 +1,5 @@
 class FontLusitana < Formula
-  head "https://github.com/google/fonts/trunk/ofl/lusitana", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/lusitana"
   desc "Lusitana"
   homepage "https://fonts.google.com/specimen/Lusitana"
   def install
