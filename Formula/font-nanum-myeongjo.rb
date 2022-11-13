@@ -1,5 +1,5 @@
 class FontNanumMyeongjo < Formula
-  head "https://github.com/google/fonts/trunk/ofl/nanummyeongjo", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/nanummyeongjo"
   desc "Nanum Myeongjo"
   homepage "https://fonts.google.com/specimen/Nanum+Myeongjo"
   def install
