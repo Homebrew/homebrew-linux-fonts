@@ -1,5 +1,5 @@
 class FontJaldi < Formula
-  head "https://github.com/google/fonts/trunk/ofl/jaldi", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/jaldi"
   desc "Jaldi"
   homepage "https://fonts.google.com/specimen/Jaldi"
   def install
