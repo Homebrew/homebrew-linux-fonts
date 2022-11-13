@@ -1,5 +1,5 @@
 class FontAzeretMono < Formula
-  head "https://github.com/google/fonts/trunk/ofl/azeretmono", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/azeretmono"
   desc "Azeret Mono"
   desc "Designed by martin vácha and daniel quisek"
   homepage "https://fonts.google.com/specimen/Azeret+Mono"
