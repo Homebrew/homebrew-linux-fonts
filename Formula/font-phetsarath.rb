@@ -1,7 +1,7 @@
 class FontPhetsarath < Formula
-  head "https://github.com/google/fonts/trunk/ofl/phetsarath", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/phetsarath"
   desc "Phetsarath"
-  homepage "https://fonts.google.com/specimen/Phetsarath"
+  homepage "https://fonts.google.com/earlyaccess"
   def install
     (share/"fonts").install "Phetsarath-Bold.ttf"
     (share/"fonts").install "Phetsarath-Regular.ttf"
