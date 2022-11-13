@@ -1,7 +1,7 @@
 class FontDhyana < Formula
-  head "https://github.com/google/fonts/trunk/ofl/dhyana", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/dhyana"
   desc "Dhyana"
-  homepage "https://fonts.google.com/specimen/Dhyana"
+  homepage "https://fonts.google.com/earlyaccess"
   def install
     (share/"fonts").install "Dhyana-Bold.ttf"
     (share/"fonts").install "Dhyana-Regular.ttf"
