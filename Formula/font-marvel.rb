@@ -1,5 +1,5 @@
 class FontMarvel < Formula
-  head "https://github.com/google/fonts/trunk/ofl/marvel", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/marvel"
   desc "Marvel"
   homepage "https://fonts.google.com/specimen/Marvel"
   def install
