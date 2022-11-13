@@ -1,5 +1,5 @@
 class FontKoho < Formula
-  head "https://github.com/google/fonts/trunk/ofl/koho", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/koho"
   desc "KoHo"
   homepage "https://fonts.google.com/specimen/KoHo"
   def install
