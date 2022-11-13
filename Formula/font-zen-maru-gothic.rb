@@ -1,5 +1,5 @@
 class FontZenMaruGothic < Formula
-  head "https://github.com/google/fonts/trunk/ofl/zenmarugothic", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/zenmarugothic"
   desc "Zen Maru Gothic"
   desc "Also easy to use in any scenes"
   homepage "https://fonts.google.com/specimen/Zen+Maru+Gothic"
