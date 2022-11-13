@@ -1,5 +1,5 @@
 class FontMuktaVaani < Formula
-  head "https://github.com/google/fonts/trunk/ofl/muktavaani", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/muktavaani"
   desc "Mukta Vaani"
   homepage "https://fonts.google.com/specimen/Mukta+Vaani"
   def install
