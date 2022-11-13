@@ -1,7 +1,7 @@
 class FontTuffy < Formula
-  head "https://github.com/google/fonts/trunk/ofl/tuffy", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/tuffy"
   desc "Tuffy"
-  homepage "https://fonts.google.com/specimen/Tuffy"
+  homepage "http://tulrich.com/fonts/"
   def install
     (share/"fonts").install "Tuffy-Bold.ttf"
     (share/"fonts").install "Tuffy-BoldItalic.ttf"
