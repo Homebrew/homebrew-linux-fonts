@@ -1,5 +1,5 @@
 class FontJudson < Formula
-  head "https://github.com/google/fonts/trunk/ofl/judson", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/judson"
   desc "Judson"
   homepage "https://fonts.google.com/specimen/Judson"
   def install
