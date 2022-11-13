@@ -1,7 +1,7 @@
 class FontHindJalandhar < Formula
-  head "https://github.com/google/fonts/trunk/ofl/hindjalandhar", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", branch: "main", only_path: "ofl/hindjalandhar"
   desc "Hind Jalandhar"
-  homepage "https://fonts.google.com/specimen/Hind+Jalandhar"
+  homepage "https://github.com/itfoundry/hind-jalandhar"
   def install
     (share/"fonts").install "HindJalandhar-Bold.ttf"
     (share/"fonts").install "HindJalandhar-Light.ttf"
