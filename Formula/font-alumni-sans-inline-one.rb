@@ -1,5 +1,5 @@
 class FontAlumniSansInlineOne < Formula
-  head "https://github.com/google/fonts/trunk/ofl/alumnisansinlineone", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/alumnisansinlineone"
   desc "Alumni Sans Inline One"
   homepage "https://fonts.google.com/specimen/Alumni+Sans+Inline+One"
   def install
