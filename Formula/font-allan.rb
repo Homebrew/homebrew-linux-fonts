@@ -1,5 +1,5 @@
 class FontAllan < Formula
-  head "https://github.com/google/fonts/trunk/ofl/allan", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/allan"
   desc "Allan"
   homepage "https://fonts.google.com/specimen/Allan"
   def install
