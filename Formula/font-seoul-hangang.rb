@@ -1,7 +1,7 @@
 class FontSeoulHangang < Formula
-  head "https://github.com/google/fonts/trunk/ofl/seoulhangang", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/seoulhangang"
   desc "Seoul Hangang"
-  homepage "https://fonts.google.com/specimen/Seoul+Hangang"
+  homepage "https://english.seoul.go.kr/seoul-views/seoul-symbols/5-fonts/"
   def install
     (share/"fonts").install "SeoulHangang-Bold.ttf"
     (share/"fonts").install "SeoulHangang-ExtraBold.ttf"
