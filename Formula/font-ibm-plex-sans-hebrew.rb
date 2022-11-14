@@ -1,5 +1,5 @@
 class FontIbmPlexSansHebrew < Formula
-  head "https://github.com/google/fonts/trunk/ofl/ibmplexsanshebrew", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/ibmplexsanshebrew"
   desc "IBM Plex Sans Hebrew"
   homepage "https://fonts.google.com/specimen/IBM+Plex+Sans+Hebrew"
   def install
