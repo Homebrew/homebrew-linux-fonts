@@ -1,5 +1,5 @@
 class FontYrsa < Formula
-  head "https://github.com/google/fonts/trunk/ofl/yrsa", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/yrsa"
   desc "Yrsa"
   homepage "https://fonts.google.com/specimen/Yrsa"
   def install
