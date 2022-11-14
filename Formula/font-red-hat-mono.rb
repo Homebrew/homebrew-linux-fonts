@@ -1,5 +1,5 @@
 class FontRedHatMono < Formula
-  head "https://github.com/google/fonts/trunk/ofl/redhatmono", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/redhatmono"
   desc "Red Hat Mono"
   homepage "https://fonts.google.com/specimen/Red+Hat+Mono"
   def install
