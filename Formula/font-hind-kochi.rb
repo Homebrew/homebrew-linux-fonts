@@ -1,7 +1,7 @@
 class FontHindKochi < Formula
-  head "https://github.com/google/fonts/trunk/ofl/hindkochi", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/hindkochi"
   desc "Hind Kochi"
-  homepage "https://fonts.google.com/specimen/Hind+Kochi"
+  homepage "https://fonts.google.com/specimen/Hind"
   def install
     (share/"fonts").install "HindKochi-Bold.ttf"
     (share/"fonts").install "HindKochi-Light.ttf"
