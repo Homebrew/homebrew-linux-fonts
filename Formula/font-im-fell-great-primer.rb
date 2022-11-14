@@ -1,5 +1,5 @@
 class FontImFellGreatPrimer < Formula
-  head "https://github.com/google/fonts/trunk/ofl/imfellgreatprimer", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/imfellgreatprimer"
   desc "IM Fell Great Primer"
   homepage "https://fonts.google.com/specimen/IM+Fell+Great+Primer"
   def install
