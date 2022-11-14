@@ -1,7 +1,7 @@
 class FontPostNoBillsColombo < Formula
-  head "https://github.com/google/fonts/trunk/ofl/postnobillscolombo", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/postnobillscolombo"
   desc "Post No Bills Colombo"
-  homepage "https://fonts.google.com/specimen/Post+No+Bills+Colombo"
+  homepage "https://fonts.google.com/specimen/Stick+No+Bills"
   def install
     (share/"fonts").install "PostNoBillsColombo-Bold.ttf"
     (share/"fonts").install "PostNoBillsColombo-ExtraBold.ttf"
