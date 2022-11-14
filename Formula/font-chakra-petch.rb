@@ -1,5 +1,5 @@
 class FontChakraPetch < Formula
-  head "https://github.com/google/fonts/trunk/ofl/chakrapetch", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/chakrapetch"
   desc "Chakra Petch"
   homepage "https://fonts.google.com/specimen/Chakra+Petch"
   def install
