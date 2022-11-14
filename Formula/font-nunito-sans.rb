@@ -1,5 +1,5 @@
 class FontNunitoSans < Formula
-  head "https://github.com/google/fonts/trunk/ofl/nunitosans", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/nunitosans"
   desc "Nunito Sans"
   homepage "https://fonts.google.com/specimen/Nunito+Sans"
   def install
