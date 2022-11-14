@@ -1,5 +1,5 @@
 class FontGorditas < Formula
-  head "https://github.com/google/fonts/trunk/ofl/gorditas", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/gorditas"
   desc "Gorditas"
   homepage "https://fonts.google.com/specimen/Gorditas"
   def install
