@@ -1,5 +1,5 @@
 class FontNewsCycle < Formula
-  head "https://github.com/google/fonts/trunk/ofl/newscycle", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/newscycle"
   desc "News Cycle"
   homepage "https://fonts.google.com/specimen/News+Cycle"
   def install
