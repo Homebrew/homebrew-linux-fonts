@@ -1,5 +1,5 @@
 class FontZenOldMincho < Formula
-  head "https://github.com/google/fonts/trunk/ofl/zenoldmincho", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/zenoldmincho"
   desc "Zen Old Mincho"
   desc "Intended for text usage, it also works well in large sizes"
   homepage "https://fonts.google.com/specimen/Zen+Old+Mincho"
