@@ -1,5 +1,5 @@
 class FontFraunces < Formula
-  head "https://github.com/google/fonts/trunk/ofl/fraunces", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/fraunces"
   desc "Fraunces"
   desc "Display, old style soft-serif typeface"
   homepage "https://fonts.google.com/specimen/Fraunces"
