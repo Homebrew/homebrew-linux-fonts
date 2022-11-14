@@ -1,5 +1,5 @@
 class FontMali < Formula
-  head "https://github.com/google/fonts/trunk/ofl/mali", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/mali"
   desc "Mali"
   homepage "https://fonts.google.com/specimen/Mali"
   def install
