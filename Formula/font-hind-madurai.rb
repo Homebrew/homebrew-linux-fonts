@@ -1,5 +1,5 @@
 class FontHindMadurai < Formula
-  head "https://github.com/google/fonts/trunk/ofl/hindmadurai", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/hindmadurai"
   desc "Hind Madurai"
   homepage "https://fonts.google.com/specimen/Hind+Madurai"
   def install
