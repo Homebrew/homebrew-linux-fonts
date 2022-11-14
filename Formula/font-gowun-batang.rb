@@ -1,5 +1,5 @@
 class FontGowunBatang < Formula
-  head "https://github.com/google/fonts/trunk/ofl/gowunbatang", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/gowunbatang"
   desc "Gowun Batang"
   homepage "https://fonts.google.com/specimen/Gowun+Batang"
   def install
