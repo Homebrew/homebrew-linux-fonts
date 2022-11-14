@@ -1,5 +1,5 @@
 class FontUbuntu < Formula
-  head "https://github.com/google/fonts/trunk/ufl/ubuntu", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ufl/ubuntu"
   desc "Ubuntu"
   desc "Sans-serif typeface manually hinted for clarity"
   homepage "https://fonts.google.com/specimen/Ubuntu"
