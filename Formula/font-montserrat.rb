@@ -1,5 +1,5 @@
 class FontMontserrat < Formula
-  head "https://github.com/google/fonts/trunk/ofl/montserrat", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/montserrat"
   desc "Montserrat"
   homepage "https://fonts.google.com/specimen/Montserrat"
   def install
