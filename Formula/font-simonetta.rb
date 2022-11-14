@@ -1,5 +1,5 @@
 class FontSimonetta < Formula
-  head "https://github.com/google/fonts/trunk/ofl/simonetta", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/simonetta"
   desc "Simonetta"
   homepage "https://fonts.google.com/specimen/Simonetta"
   def install
