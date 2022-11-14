@@ -1,5 +1,5 @@
 class FontBarlowCondensed < Formula
-  head "https://github.com/google/fonts/trunk/ofl/barlowcondensed", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/barlowcondensed"
   desc "Barlow Condensed"
   homepage "https://fonts.google.com/specimen/Barlow+Condensed"
   def install
