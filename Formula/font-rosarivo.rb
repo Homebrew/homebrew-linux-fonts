@@ -1,5 +1,5 @@
 class FontRosarivo < Formula
-  head "https://github.com/google/fonts/trunk/ofl/rosarivo", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/rosarivo"
   desc "Rosarivo"
   homepage "https://fonts.google.com/specimen/Rosarivo"
   def install
