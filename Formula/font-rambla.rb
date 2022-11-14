@@ -1,5 +1,5 @@
 class FontRambla < Formula
-  head "https://github.com/google/fonts/trunk/ofl/rambla", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/rambla"
   desc "Rambla"
   homepage "https://fonts.google.com/specimen/Rambla"
   def install
