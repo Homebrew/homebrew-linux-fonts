@@ -1,5 +1,5 @@
 class FontCharm < Formula
-  head "https://github.com/google/fonts/trunk/ofl/charm", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/charm"
   desc "Charm"
   homepage "https://fonts.google.com/specimen/Charm"
   def install
