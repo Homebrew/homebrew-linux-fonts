@@ -1,5 +1,5 @@
 class FontMartelSans < Formula
-  head "https://github.com/google/fonts/trunk/ofl/martelsans", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/martelsans"
   desc "Martel Sans"
   homepage "https://fonts.google.com/specimen/Martel+Sans"
   def install
