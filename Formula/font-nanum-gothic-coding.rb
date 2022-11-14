@@ -1,5 +1,5 @@
 class FontNanumGothicCoding < Formula
-  head "https://github.com/google/fonts/trunk/ofl/nanumgothiccoding", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/nanumgothiccoding"
   desc "Nanum Gothic Coding"
   homepage "https://fonts.google.com/specimen/Nanum+Gothic+Coding"
   def install
