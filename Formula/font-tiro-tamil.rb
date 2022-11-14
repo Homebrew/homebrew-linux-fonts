@@ -1,5 +1,5 @@
 class FontTiroTamil < Formula
-  head "https://github.com/google/fonts/trunk/ofl/tirotamil", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/tirotamil"
   desc "Tiro Tamil"
   desc "Especially suited to traditional literary publishing"
   homepage "https://fonts.google.com/specimen/Tiro+Tamil"
