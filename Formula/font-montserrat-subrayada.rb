@@ -1,5 +1,5 @@
 class FontMontserratSubrayada < Formula
-  head "https://github.com/google/fonts/trunk/ofl/montserratsubrayada", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/montserratsubrayada"
   desc "Montserrat Subrayada"
   homepage "https://fonts.google.com/specimen/Montserrat+Subrayada"
   def install
