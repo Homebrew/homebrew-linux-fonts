@@ -1,7 +1,7 @@
 class FontYaldeviColombo < Formula
-  head "https://github.com/google/fonts/trunk/ofl/yaldevicolombo", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/yaldevicolombo"
   desc "Yaldevi Colombo"
-  homepage "https://fonts.google.com/specimen/Yaldevi+Colombo"
+  homepage "https://fonts.google.com/specimen/Yaldevi"
   def install
     (share/"fonts").install "YaldeviColombo-Bold.ttf"
     (share/"fonts").install "YaldeviColombo-ExtraLight.ttf"
