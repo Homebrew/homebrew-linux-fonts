@@ -1,5 +1,5 @@
 class FontEncodeSansExpanded < Formula
-  head "https://github.com/google/fonts/trunk/ofl/encodesansexpanded", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/encodesansexpanded"
   desc "Encode Sans Expanded"
   homepage "https://fonts.google.com/specimen/Encode+Sans+Expanded"
   def install
