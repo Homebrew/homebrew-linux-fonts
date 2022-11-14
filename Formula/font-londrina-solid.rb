@@ -1,5 +1,5 @@
 class FontLondrinaSolid < Formula
-  head "https://github.com/google/fonts/trunk/ofl/londrinasolid", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/londrinasolid"
   desc "Londrina Solid"
   homepage "https://fonts.google.com/specimen/Londrina+Solid"
   def install
