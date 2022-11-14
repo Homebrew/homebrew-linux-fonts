@@ -1,5 +1,5 @@
 class FontElsie < Formula
-  head "https://github.com/google/fonts/trunk/ofl/elsie", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/elsie"
   desc "Elsie"
   homepage "https://fonts.google.com/specimen/Elsie"
   def install
