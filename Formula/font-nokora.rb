@@ -1,5 +1,5 @@
 class FontNokora < Formula
-  head "https://github.com/google/fonts/trunk/ofl/nokora", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/nokora"
   desc "Nokora"
   homepage "https://fonts.google.com/specimen/Nokora"
   def install
