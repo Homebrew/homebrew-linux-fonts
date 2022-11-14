@@ -1,5 +1,5 @@
 class FontMirza < Formula
-  head "https://github.com/google/fonts/trunk/ofl/mirza", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/mirza"
   desc "Mirza"
   homepage "https://fonts.google.com/specimen/Mirza"
   def install
