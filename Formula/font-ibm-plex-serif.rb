@@ -1,5 +1,5 @@
 class FontIbmPlexSerif < Formula
-  head "https://github.com/google/fonts/trunk/ofl/ibmplexserif", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/ibmplexserif"
   desc "IBM Plex Serif"
   homepage "https://fonts.google.com/specimen/IBM+Plex+Serif"
   def install
