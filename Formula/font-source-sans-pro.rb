@@ -1,5 +1,5 @@
 class FontSourceSansPro < Formula
-  head "https://github.com/google/fonts/trunk/ofl/sourcesanspro", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/sourcesanspro"
   desc "Source Sans Pro"
   homepage "https://fonts.google.com/specimen/Source+Sans+Pro"
   def install
