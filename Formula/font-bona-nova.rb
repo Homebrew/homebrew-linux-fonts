@@ -1,5 +1,5 @@
 class FontBonaNova < Formula
-  head "https://github.com/google/fonts/trunk/ofl/bonanova", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/bonanova"
   desc "Bona Nova"
   desc "Cursive typeface"
   homepage "https://fonts.google.com/specimen/Bona+Nova"
