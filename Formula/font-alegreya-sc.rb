@@ -1,5 +1,5 @@
 class FontAlegreyaSc < Formula
-  head "https://github.com/google/fonts/trunk/ofl/alegreyasc", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/alegreyasc"
   desc "Alegreya SC"
   homepage "https://fonts.google.com/specimen/Alegreya+SC"
   def install
