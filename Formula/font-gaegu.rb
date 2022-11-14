@@ -1,5 +1,5 @@
 class FontGaegu < Formula
-  head "https://github.com/google/fonts/trunk/ofl/gaegu", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/gaegu"
   desc "Gaegu"
   homepage "https://fonts.google.com/specimen/Gaegu"
   def install
