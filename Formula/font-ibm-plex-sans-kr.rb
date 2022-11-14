@@ -1,5 +1,5 @@
 class FontIbmPlexSansKr < Formula
-  head "https://github.com/google/fonts/trunk/ofl/ibmplexsanskr", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/ibmplexsanskr"
   desc "IBM Plex Sans KR"
   homepage "https://fonts.google.com/specimen/IBM+Plex+Sans+KR"
   def install
