@@ -1,5 +1,5 @@
 class FontRubik < Formula
-  head "https://github.com/google/fonts/trunk/ofl/rubik", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/rubik"
   desc "Rubik"
   homepage "https://fonts.google.com/specimen/Rubik"
   def install
