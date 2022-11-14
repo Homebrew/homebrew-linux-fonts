@@ -1,5 +1,5 @@
 class FontIbmPlexSansArabic < Formula
-  head "https://github.com/google/fonts/trunk/ofl/ibmplexsansarabic", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/ibmplexsansarabic"
   desc "IBM Plex Sans Arabic"
   homepage "https://fonts.google.com/specimen/IBM+Plex+Sans+Arabic"
   def install
