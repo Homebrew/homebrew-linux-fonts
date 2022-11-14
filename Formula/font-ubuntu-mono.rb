@@ -1,5 +1,5 @@
 class FontUbuntuMono < Formula
-  head "https://github.com/google/fonts/trunk/ufl/ubuntumono", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ufl/ubuntumono"
   desc "Ubuntu Mono"
   homepage "https://fonts.google.com/specimen/Ubuntu+Mono"
   def install
