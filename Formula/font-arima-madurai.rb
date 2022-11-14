@@ -1,5 +1,5 @@
 class FontArimaMadurai < Formula
-  head "https://github.com/google/fonts/trunk/ofl/arimamadurai", verified: "github.com/google/fonts/", using: :svn
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/arimamadurai"
   desc "Arima Madurai"
   homepage "https://fonts.google.com/specimen/Arima+Madurai"
   def install
