@@ -1,10 +1,10 @@
 class FontCaskaydiaCoveNerdFont < Formula
-  version "2.2.2"
-  sha256 "b4f4f20ab6bbf55dd9ae7dd1fadd4ef2c608f38922c401afcce373b36a9b0407"
+  version "2.3.3"
+  sha256 "644591a9ae4588128e651d7d464daaabc30ff2bede447a921c0374f9d472748f"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/CascadiaCode.zip"
-  desc "CaskaydiaCove Nerd Font (Caskaydia code)"
-  desc "Fork of the Cascadia Code typeface"
-  homepage "https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/CascadiaCode"
+  desc "CaskaydiaCove Nerd Font (Cascadia Code)"
+  desc "Developer targeted fonts with a high number of glyphs"
+  homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
     (share/"fonts").install "Caskaydia Cove Nerd Font Complete Bold Italic.otf"
     (share/"fonts").install "Caskaydia Cove Nerd Font Complete Bold.otf"

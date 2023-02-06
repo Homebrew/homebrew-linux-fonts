@@ -1,6 +1,6 @@
 class FontIosevkaSs11 < Formula
-  version "16.3.6"
-  sha256 "c0a3ecafa6cf5f1e430d00ba3695d27d5c1cc580fd209313fd7e575f0ed0bdf2"
+  version "18.0.0"
+  sha256 "aee6683026c7a5ddcb1a76de9aa7279be51641fbdbfa4ebdf44289904d990609"
   url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/ttc-iosevka-ss11-#{version}.zip"
   desc "Iosevka SS11"
   desc "Sans-serif, slab-serif, monospace and quasi‑proportional typeface family"

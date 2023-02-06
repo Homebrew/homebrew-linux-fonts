@@ -1,5 +1,5 @@
 class FontDejavuSansMonoForPowerline < Formula
-  head "https://github.com/powerline/fonts/trunk/DejaVuSansMono", using: :svn
+  head "https://github.com/powerline/fonts.git", branch: "master", only_path: "DejaVuSansMono"
   desc "DejaVu Sans Mono for Powerline"
   homepage "https://github.com/powerline/fonts/tree/master/DejaVuSansMono"
   def install

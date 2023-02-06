@@ -1,5 +1,5 @@
 class FontUbuntuMonoDerivativePowerline < Formula
-  head "https://github.com/powerline/fonts/trunk/UbuntuMono", using: :svn, revision: "53"
+  head "https://github.com/powerline/fonts.git", branch: "master", only_path: "UbuntuMono"
   desc "Ubuntu Mono derivative Powerline"
   homepage "https://github.com/powerline/fonts/tree/master/UbuntuMono"
   def install

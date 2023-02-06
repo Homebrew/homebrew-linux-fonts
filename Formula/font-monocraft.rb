@@ -1,12 +1,12 @@
 class FontMonocraft < Formula
-  version "1.4"
-  sha256 "fbdf76af2b4b72def4e6ea035fbc92aac12f093900db1b9e2c47430e3cc21030"
-  url "https://github.com/IdreesInc/Monocraft/releases/download/v#{version}/Monocraft.otf"
+  version "2.4"
+  sha256 "4b88f9bf66d325b86e8d3dc1b7c75a34dd5819860ff3354f7fd5d78ee47ae3ea"
+  url "https://github.com/IdreesInc/Monocraft/releases/download/v#{version}/Monocraft.ttf"
   desc "Monocraft"
-  desc "Programming font based on the typeface used in Minecraft"
+  desc "Monospaced programming font inspired by the Minecraft typeface"
   homepage "https://github.com/IdreesInc/Monocraft"
   def install
-    (share/"fonts").install "Monocraft.otf"
+    (share/"fonts").install "Monocraft.ttf"
   end
   test do
   end

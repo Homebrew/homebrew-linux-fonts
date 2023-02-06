@@ -1,5 +1,5 @@
 class FontLiberationMonoForPowerline < Formula
-  head "https://github.com/powerline/fonts/trunk/LiberationMono", using: :svn
+  head "https://github.com/powerline/fonts.git", branch: "master", only_path: "LiberationMono"
   desc "Literation Mono for Powerline"
   homepage "https://github.com/powerline/fonts/tree/master/LiberationMono"
   def install

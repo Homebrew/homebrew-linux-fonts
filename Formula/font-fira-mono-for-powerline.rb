@@ -1,5 +1,5 @@
 class FontFiraMonoForPowerline < Formula
-  head "https://github.com/powerline/fonts/trunk/FiraMono", using: :svn
+  head "https://github.com/powerline/fonts.git", branch: "master", only_path: "FiraMono"
   desc "Fira Mono for Powerline"
   homepage "https://github.com/powerline/fonts/tree/master/FiraMono"
   def install
