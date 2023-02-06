@@ -1,5 +1,5 @@
 class FontMaterialDesignIconsWebfont < Formula
-  head "https://github.com/templarian/materialdesign-webfont/trunk/fonts", verified: "github.com/templarian/materialdesign-webfont/", using: :svn, revision: "191"
+  head "https://github.com/templarian/materialdesign-webfont.git", verified: "github.com/templarian/materialdesign-webfont", branch: "master", only_path: "fonts"
   desc "Material Design Icons Webfont"
   homepage "https://materialdesignicons.com/"
   def install

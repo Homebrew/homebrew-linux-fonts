@@ -1,6 +1,6 @@
 class FontPlemolJp < Formula
-  version "1.3.0"
-  sha256 "874270a979f21b23d05f46b43b3aaae16c9e9153e747d18e1cf85f7fc1f074a7"
+  version "1.4.0"
+  sha256 "a416a6da71630edfab4fa9dd473920eba8a382e30f81f43f4ea3429217a1a989"
   url "https://github.com/yuru7/PlemolJP/releases/download/v#{version}/PlemolJP_v#{version}.zip"
   desc "PlemolJP"
   desc "Japanese programming font synthesized from IBM Plex Mono and IBM Plex Sans JP"

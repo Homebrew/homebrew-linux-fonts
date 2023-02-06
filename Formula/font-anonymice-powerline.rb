@@ -1,5 +1,5 @@
 class FontAnonymicePowerline < Formula
-  head "https://github.com/powerline/fonts/trunk/AnonymousPro", using: :svn
+  head "https://github.com/powerline/fonts.git", branch: "master", only_path: "AnonymousPro"
   desc "Anonymice Powerline"
   homepage "https://github.com/powerline/fonts/tree/master/AnonymousPro"
   def install

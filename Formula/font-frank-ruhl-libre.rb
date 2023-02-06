@@ -1,13 +1,9 @@
 class FontFrankRuhlLibre < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/frankruhllibre"
+  head "https://github.com/google/fonts/raw/main/ofl/frankruhllibre/FrankRuhlLibre%5Bwght%5D.ttf", verified: "github.com/google/fonts/"
   desc "Frank Ruhl Libre"
   homepage "https://fonts.google.com/specimen/Frank+Ruhl+Libre"
   def install
-    (share/"fonts").install "FrankRuhlLibre-Black.ttf"
-    (share/"fonts").install "FrankRuhlLibre-Bold.ttf"
-    (share/"fonts").install "FrankRuhlLibre-Light.ttf"
-    (share/"fonts").install "FrankRuhlLibre-Medium.ttf"
-    (share/"fonts").install "FrankRuhlLibre-Regular.ttf"
+    (share/"fonts").install "FrankRuhlLibre[wght].ttf"
   end
   test do
   end

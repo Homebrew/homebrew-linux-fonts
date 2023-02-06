@@ -1,6 +1,6 @@
 class FontCozette < Formula
-  version "1.18.0"
-  sha256 "4f67368b5dd24139d2eb267eb43f47c91572d9132c069b40f70c06d794f6dc3d"
+  version "1.19.0"
+  sha256 "a149884dd9befbac6a84a0f260f24878ff1a7f3ee8a441c1560145cc5f97425d"
   url "https://github.com/slavfox/Cozette/releases/download/v.#{version}/CozetteVector.dfont"
   desc "Cozette"
   desc "Bitmap programming font"
