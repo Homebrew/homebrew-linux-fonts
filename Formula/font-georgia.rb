@@ -1,6 +1,5 @@
 class FontGeorgia < Formula
-  version "2.05"
-  url "https://downloads.sourceforge.net/corefonts/georgi32.exe"
+  head "https://downloads.sourceforge.net/corefonts/georgi32.exe"
   desc "Georgia"
   homepage "https://sourceforge.net/projects/corefonts/files/the%20fonts/final/"
   def install
