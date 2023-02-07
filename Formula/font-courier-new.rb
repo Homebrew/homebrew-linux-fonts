@@ -1,6 +1,5 @@
 class FontCourierNew < Formula
-  version "2.82"
-  url "https://downloads.sourceforge.net/corefonts/courie32.exe"
+  head "https://downloads.sourceforge.net/corefonts/courie32.exe"
   desc "Courier New"
   homepage "https://sourceforge.net/projects/corefonts/files/the%20fonts/final/"
   def install
