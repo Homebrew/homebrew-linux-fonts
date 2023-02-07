@@ -1,6 +1,5 @@
 class FontArial < Formula
-  version "2.82"
-  url "https://downloads.sourceforge.net/corefonts/arial32.exe"
+  head "https://downloads.sourceforge.net/corefonts/arial32.exe"
   desc "Arial"
   homepage "https://sourceforge.net/projects/corefonts/files/the%20fonts/final/"
   def install
