@@ -1,6 +1,5 @@
 class FontComicSansMs < Formula
-  version "2.10"
-  url "https://downloads.sourceforge.net/corefonts/comic32.exe"
+  head "https://downloads.sourceforge.net/corefonts/comic32.exe"
   desc "Comic Sans"
   homepage "https://sourceforge.net/projects/corefonts/files/the%20fonts/final/"
   def install
