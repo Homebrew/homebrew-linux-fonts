@@ -1,6 +1,6 @@
 class FontLxgwBrightTc < Formula
-  version "4.156"
-  sha256 "af554b31ee82733a8c1e7754cde1fc0ef265ac8b11de4af652e6519311db6576"
+  version "4.158"
+  sha256 "2ee4678c6dd4eb2bf6bdd8cfe57de5629669c87b70101fd6a7fa407c9d09044a"
   url "https://github.com/lxgw/LxgwBright/releases/download/v#{version}/LXGWBrightTC.7z"
   desc "LXGW Bright TC"
   desc "Merged font of Ysabeau Office and LXGW WenKai TC"
