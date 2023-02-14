@@ -1,6 +1,6 @@
 class FontCharisSil < Formula
-  version "6.101"
-  sha256 "2de585f4517636d18039f1dc082258dfb89262d7a7feea2526fb21c0cc69131f"
+  version "6.200"
+  sha256 "4b09aa75760b8aa697b762c34afb995dde0754c8f09256cb912dbfc478c97ade"
   url "https://software.sil.org/downloads/r/charis/CharisSIL-#{version}.zip"
   desc "Charis SIL"
   desc "Unicode-based font family supporting languages using Latin and Cyrillic scripts"
