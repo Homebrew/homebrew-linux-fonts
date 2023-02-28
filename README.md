@@ -1,12 +1,13 @@
 # Fonts for Homebrew on Linux
 
 homebrew-linux-fonts is a fork of [homebrew-cask-fonts](https://github.com/Caskroom/homebrew-cask-fonts). 
-It is a Homebrew Tap which allows you to use the same friendly Homebrew-style CLI workflow for the administration of binary font files on your Linux since Homebrew Casks are only for macOS.
+homebrew-linux-fonts is a Homebrew Tap which allows you to use the same friendly Homebrew-style CLI workflow for the administration of binary font files on your Linux.
+It is a fork of [homebrew-cask-fonts](https://github.com/Caskroom/homebrew-cask-fonts), since Homebrew Casks are only for macOS.
 
 ## Prerequisites
 
 These fonts are installable with [Homebrew](http://brew.sh).
-This repository is **NOT** an "external command” of Homebrew.
+This repository is **NOT** an "external command" of Homebrew.
 It is different from the upstream repository, `homebrew/homebrew-cask-fonts`.
 Please be aware of that.
 
@@ -26,7 +27,7 @@ $ ln -s /home/linuxbrew/.linuxbrew/share/fonts ~/.local/share/fonts
 $ fc-cache -fv
 ```
 
-For multi-user installation, you must use `sudo` to run:
+For multi-user installation, you must use `sudo` to run the commands:
 
 ```
 $ sudo ln -s /home/linuxbrew/.linuxbrew/share/fonts /usr/local/share/fonts/
@@ -51,7 +52,7 @@ Some casks are incompatible with formula definition method.
 
 ## Font Licenses
 
-This repository is aligned with `homebrew-cask-fonts`:
+This repository follows `homebrew-cask-fonts`'s policy regarding font licenses:
 
 > homebrew-cask-fonts will only accept fonts which are freely-distributable. However, even freely-distributable fonts may have limitations (for instance, if you use them in a commercial enterprise). It is the responsibility of the user to know and respect the license of each font.
 
