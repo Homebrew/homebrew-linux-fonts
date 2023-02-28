@@ -1,32 +1,32 @@
-# Linuxbrew-fonts
+# Fonts for Homebrew on Linux
 
-Linuxbrew-fonts is a fork of [homebrew-cask-fonts](https://github.com/Caskroom/homebrew-fonts/).
-
-Linuxbrew-fonts is a Homebrew Tap which allows you to use the same friendly Homebrew-style CLI workflow for the administration of binary font files on your Linux.
+homebrew-linux-fonts is a fork of [homebrew-cask-fonts](https://github.com/Caskroom/homebrew-cask-fonts). 
+It is a Homebrew Tap which allows you to use the same friendly Homebrew-style CLI workflow for the administration of binary font files on your Linux since Homebrew Casks are only for macOS.
 
 ## Prerequisites
 
-Fonts are available through homebrew and linuxbrew. So, first you must install [Homebrew](http://brew.sh) or [Linuxbrew](http://linuxbrew.sh). However this repository is **NOT** an "external command” of Homebrew, it is a different from the upstream repository, homebrew/homebrew-cask-fonts. Please caught of that.
-
-**Since Homebrew 1.9 or later supports the both platform, you can use this repository with homebrew in Linux too**
+These fonts are installable with [Homebrew](http://brew.sh).
+This repository is **NOT** an "external command” of Homebrew.
+It is different from the upstream repository, `homebrew/homebrew-cask-fonts`.
+Please be aware of that.
 
 ## Let’s try it!
 
 ```bash
-$ brew tap linuxbrew/fonts                 # you only have to do this once!
+$ brew tap homebrew/linux-fonts          # you only have to do this once!
 $ brew install font-inconsolata --HEAD
 ```
 
 ## Working with fontconfig
 
-If you're using major distributions, in single-user installation just type;
+If you're using major distributions in a single-user installation, run:
 
 ```
 $ ln -s /home/linuxbrew/.linuxbrew/share/fonts ~/.local/share/fonts
 $ fc-cache -fv
 ```
 
-For multi-user installation (requires sudo) type;
+For multi-user installation, you must use `sudo` to run:
 
 ```
 $ sudo ln -s /home/linuxbrew/.linuxbrew/share/fonts /usr/local/share/fonts/
@@ -39,30 +39,32 @@ Then you can use the new font installed by `brew`.
 
 ### Submitting a Font Cask and Bugs
 
-When you change file in [the upstream repository](https://github.com/homebrew/homebrew-cask-fonts/),
-I follow your changes, because this repository automatically imports new casks from the repository with a bot program.
+This repository automatically imports new font casks from
+[the upstream repository](https://github.com/homebrew/homebrew-cask-fonts/) with a bot program, so changes there
+will propagate to this repository automatically eventually.
 
 ### Skipping translations by `.caskignore`
 
-Some casks incompatible with formula-way.
-Then `cask2formula` will skip translation by `.caskignore`.
+Some casks are incompatible with formula definition method.
+`cask2formula` will skip translation for files listed in `.caskignore`.
 `.caskignore` is written in Ruby's [`fnmatch` syntax](https://docs.ruby-lang.org/en/2.6.0/File.html#method-c-fnmatch).
 
 ## Font Licenses
 
-According to homebrew-cask-fonts
+This repository is aligned with `homebrew-cask-fonts`:
 
-> Caskroom-fonts will only accept fonts which are freely-distributable. However, even freely-distributable fonts may have limitations (for instance, if you use them in a commercial enterprise). It is the responsibility of the user to know and respect the license of each font.
+> homebrew-cask-fonts will only accept fonts which are freely-distributable. However, even freely-distributable fonts may have limitations (for instance, if you use them in a commercial enterprise). It is the responsibility of the user to know and respect the license of each font.
 
 ## License
 
-- Linuxbrew-fonts (Formula, cask2formula)
-    Code is under the [BSD 2 Clause (NetBSD) license](https://github.com/caskroom/homebrew-fonts/blob/master/LICENSE.2)
+- homebrew-linux-fonts (Formula, cask2formula)
+    Code is under the [BSD 2 Clause (NetBSD) license](https://github.com/Homebrew/homebrew-linux-fonts/blob/master/LICENSE.2)
 
 - homebrew-cask-fonts (all other files)
-    Code is under the [BSD 2 Clause (NetBSD) license](https://github.com/caskroom/homebrew-fonts/blob/master/LICENSE.1)
+    Code is under the [BSD 2 Clause (NetBSD) license](https://github.com/Homebrew/homebrew-cask-fonts/blob/master/LICENSE),
+    also provided [here](https://github.com/Homebrew/homebrew-linux-fonts/blob/master/LICENSE.1).
 
-## Acknoledgement
+## Acknowledgement
 
 The author of this project uses Gitpod to develop this project.
 Gitpod provides Professional Open Source plan to him.
