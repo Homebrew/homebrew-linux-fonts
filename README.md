@@ -7,9 +7,11 @@ It is a fork of [homebrew-cask-fonts](https://github.com/Caskroom/homebrew-cask-
 ## Prerequisites
 
 These fonts are installable with [Homebrew](http://brew.sh).
-This repository is **NOT** an "external command" of Homebrew.
-It is different from the upstream repository, `homebrew/homebrew-cask-fonts`.
-Please be aware of that.
+Once installed, you can configure this repo as a source for fonts.
+
+Note that this repo differs from the upstream repository, `homebrew/homebrew-cask-fonts`.
+The set of fonts available may not match exactly.
+Changes to upstream eventually propagate to this repo.
 
 ## Let’s try it!
 
