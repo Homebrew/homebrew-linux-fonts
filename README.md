@@ -27,7 +27,7 @@ $ ln -s /home/linuxbrew/.linuxbrew/share/fonts ~/.local/share/fonts
 $ fc-cache -fv
 ```
 
-For multi-user installation, you must use `sudo` to run the commands:
+For a multi-user installation, you must use `sudo` to run the commands:
 
 ```
 $ sudo ln -s /home/linuxbrew/.linuxbrew/share/fonts /usr/local/share/fonts/
