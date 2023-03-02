@@ -1,6 +1,5 @@
 # Fonts for Homebrew on Linux
 
-homebrew-linux-fonts is a fork of [homebrew-cask-fonts](https://github.com/Caskroom/homebrew-cask-fonts). 
 homebrew-linux-fonts is a Homebrew Tap which allows you to use the same friendly Homebrew-style CLI workflow for the administration of binary font files on your Linux.
 It is a fork of [homebrew-cask-fonts](https://github.com/Caskroom/homebrew-cask-fonts), since Homebrew Casks are only for macOS.
 
