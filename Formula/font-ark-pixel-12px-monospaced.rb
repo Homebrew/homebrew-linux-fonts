@@ -1,6 +1,6 @@
 class FontArkPixel12pxMonospaced < Formula
-  version "2023.03.08"
-  sha256 "b7c7b56a7dab4d6cc0f9a54fc48bc516f5ab2a27c5793068d0d744e97c4200d2"
+  version "2023.03.16"
+  sha256 "9a0d4261f16470a5c49ff14c36e9d58bc7866b659ae8a9cfa5430ff375ccb34c"
   url "https://github.com/TakWolf/ark-pixel-font/releases/download/#{version}/ark-pixel-font-12px-monospaced-otf-v#{version}.zip"
   desc "Ark Pixel 12px monospaced"
   desc "Open source Pan-CJK pixel font"
