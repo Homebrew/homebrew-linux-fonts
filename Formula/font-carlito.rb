@@ -1,8 +1,8 @@
 class FontCarlito < Formula
-  head "https://github.com/google/fonts.git", branch: "main", only_path: "ofl/carlito"
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/carlito"
   desc "Carlito"
   desc "Metric-compatible with calibri"
-  homepage "https://github.com/googlefonts/carlito"
+  homepage "https://fonts.google.com/specimen/Carlito"
   def install
     (share/"fonts").install "Carlito-Bold.ttf"
     (share/"fonts").install "Carlito-BoldItalic.ttf"
