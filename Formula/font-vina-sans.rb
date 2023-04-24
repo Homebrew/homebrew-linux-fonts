@@ -1,7 +1,7 @@
 class FontVinaSans < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/vinasans/VinaSans-Regular.ttf"
+  head "https://github.com/google/fonts/raw/main/ofl/vinasans/VinaSans-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Vina Sans"
-  homepage "https://github.com/nguyentype/vinasans"
+  homepage "https://fonts.google.com/specimen/Vina+Sans"
   def install
     (share/"fonts").install "VinaSans-Regular.ttf"
   end
