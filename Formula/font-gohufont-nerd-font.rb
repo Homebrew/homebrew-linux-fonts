@@ -1,14 +1,23 @@
 class FontGohufontNerdFont < Formula
-  version "2.3.3"
-  sha256 "056c70455743518b92634eef24ee762ee58f9c18449400854d2dff89226d6e33"
+  version "3.0.0"
+  sha256 "5b45fbf5cb1831f8dc5f4dab2a7776eea177cabe6072ce278eeb70b3602e7965"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Gohu.zip"
-  desc "GohuFont Nerd Font (Gohu)"
+  desc "GohuFont  Nerd Font families (Gohu)"
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}Gohu/11/complete/GohuFont Nerd Font Complete Mono.ttf"
-    (share/"fonts").install "#{parent}Gohu/11/complete/GohuFont Nerd Font Complete.ttf"
+    (share/"fonts").install "GohuFont11NerdFont-Regular.ttf"
+    (share/"fonts").install "GohuFont11NerdFontMono-Regular.ttf"
+    (share/"fonts").install "GohuFont11NerdFontPropo-Regular.ttf"
+    (share/"fonts").install "GohuFont14NerdFont-Regular.ttf"
+    (share/"fonts").install "GohuFont14NerdFontMono-Regular.ttf"
+    (share/"fonts").install "GohuFont14NerdFontPropo-Regular.ttf"
+    (share/"fonts").install "GohuFontuni-11NerdFont-Regular.ttf"
+    (share/"fonts").install "GohuFontuni-11NerdFontMono-Regular.ttf"
+    (share/"fonts").install "GohuFontuni-11NerdFontPropo-Regular.ttf"
+    (share/"fonts").install "GohuFontuni-14NerdFont-Regular.ttf"
+    (share/"fonts").install "GohuFontuni-14NerdFontMono-Regular.ttf"
+    (share/"fonts").install "GohuFontuni-14NerdFontPropo-Regular.ttf"
   end
   test do
   end
