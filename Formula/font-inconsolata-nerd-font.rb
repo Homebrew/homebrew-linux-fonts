@@ -1,19 +1,17 @@
 class FontInconsolataNerdFont < Formula
-  version "2.3.3"
-  sha256 "d8450da53f7cbe9f8e9247d3db0e9d16e4baafa90c5c3a93ef34f3d8e4565bed"
+  version "3.0.0"
+  sha256 "42ba957b998fccc972d196b31f372ef5b67eab39583f9a14c8c1aec16b4ee13e"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Inconsolata.zip"
   desc "Inconsolata Nerd Font (Inconsolata)"
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "Inconsolata Bold Nerd Font Complete Mono.otf"
-    (share/"fonts").install "Inconsolata Bold Nerd Font Complete Mono.ttf"
-    (share/"fonts").install "Inconsolata Bold Nerd Font Complete.otf"
-    (share/"fonts").install "Inconsolata Bold Nerd Font Complete.ttf"
-    (share/"fonts").install "Inconsolata Regular Nerd Font Complete Mono.otf"
-    (share/"fonts").install "Inconsolata Regular Nerd Font Complete Mono.ttf"
-    (share/"fonts").install "Inconsolata Regular Nerd Font Complete.otf"
-    (share/"fonts").install "Inconsolata Regular Nerd Font Complete.ttf"
+    (share/"fonts").install "InconsolataNerdFont-Bold.ttf"
+    (share/"fonts").install "InconsolataNerdFont-Regular.ttf"
+    (share/"fonts").install "InconsolataNerdFontMono-Bold.ttf"
+    (share/"fonts").install "InconsolataNerdFontMono-Regular.ttf"
+    (share/"fonts").install "InconsolataNerdFontPropo-Bold.ttf"
+    (share/"fonts").install "InconsolataNerdFontPropo-Regular.ttf"
   end
   test do
   end
