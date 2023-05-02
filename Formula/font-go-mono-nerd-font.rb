@@ -1,19 +1,23 @@
 class FontGoMonoNerdFont < Formula
-  version "2.3.3"
-  sha256 "3ba2661e638c8d9cb377e81c3f0e51af5cd51f788a363bef23e5688d463ead2e"
+  version "3.0.0"
+  sha256 "9969921572402738cef5e85174160d2b59728df2d5f7949bdf0bcbd2fa2e6c8e"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Go-Mono.zip"
   desc "GoMono Nerd Font (Go Mono)"
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "Go Mono Bold Italic Nerd Font Complete Mono.ttf"
-    (share/"fonts").install "Go Mono Bold Italic Nerd Font Complete.ttf"
-    (share/"fonts").install "Go Mono Bold Nerd Font Complete Mono.ttf"
-    (share/"fonts").install "Go Mono Bold Nerd Font Complete.ttf"
-    (share/"fonts").install "Go Mono Italic Nerd Font Complete Mono.ttf"
-    (share/"fonts").install "Go Mono Italic Nerd Font Complete.ttf"
-    (share/"fonts").install "Go Mono Nerd Font Complete Mono.ttf"
-    (share/"fonts").install "Go Mono Nerd Font Complete.ttf"
+    (share/"fonts").install "GoMonoNerdFont-Bold.ttf"
+    (share/"fonts").install "GoMonoNerdFont-BoldItalic.ttf"
+    (share/"fonts").install "GoMonoNerdFont-Italic.ttf"
+    (share/"fonts").install "GoMonoNerdFont-Regular.ttf"
+    (share/"fonts").install "GoMonoNerdFontMono-Bold.ttf"
+    (share/"fonts").install "GoMonoNerdFontMono-BoldItalic.ttf"
+    (share/"fonts").install "GoMonoNerdFontMono-Italic.ttf"
+    (share/"fonts").install "GoMonoNerdFontMono-Regular.ttf"
+    (share/"fonts").install "GoMonoNerdFontPropo-Bold.ttf"
+    (share/"fonts").install "GoMonoNerdFontPropo-BoldItalic.ttf"
+    (share/"fonts").install "GoMonoNerdFontPropo-Italic.ttf"
+    (share/"fonts").install "GoMonoNerdFontPropo-Regular.ttf"
   end
   test do
   end
