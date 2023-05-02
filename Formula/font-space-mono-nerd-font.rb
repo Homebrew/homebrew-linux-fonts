@@ -1,19 +1,23 @@
 class FontSpaceMonoNerdFont < Formula
-  version "2.3.3"
-  sha256 "093b17d8c6cbd71569d6f5ffde6cb3a5e063067d3f3453562daf4fff71417dd4"
+  version "3.0.0"
+  sha256 "c624cbd887a04b7c46f938c0e81ba8965feebd8f602e2afa13e61bec12159d22"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/SpaceMono.zip"
   desc "SpaceMono Nerd Font (Space Mono)"
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "Space Mono Bold Italic Nerd Font Complete Mono.ttf"
-    (share/"fonts").install "Space Mono Bold Italic Nerd Font Complete.ttf"
-    (share/"fonts").install "Space Mono Bold Nerd Font Complete Mono.ttf"
-    (share/"fonts").install "Space Mono Bold Nerd Font Complete.ttf"
-    (share/"fonts").install "Space Mono Italic Nerd Font Complete Mono.ttf"
-    (share/"fonts").install "Space Mono Italic Nerd Font Complete.ttf"
-    (share/"fonts").install "Space Mono Nerd Font Complete Mono.ttf"
-    (share/"fonts").install "Space Mono Nerd Font Complete.ttf"
+    (share/"fonts").install "SpaceMonoNerdFont-Bold.ttf"
+    (share/"fonts").install "SpaceMonoNerdFont-BoldItalic.ttf"
+    (share/"fonts").install "SpaceMonoNerdFont-Italic.ttf"
+    (share/"fonts").install "SpaceMonoNerdFont-Regular.ttf"
+    (share/"fonts").install "SpaceMonoNerdFontMono-Bold.ttf"
+    (share/"fonts").install "SpaceMonoNerdFontMono-BoldItalic.ttf"
+    (share/"fonts").install "SpaceMonoNerdFontMono-Italic.ttf"
+    (share/"fonts").install "SpaceMonoNerdFontMono-Regular.ttf"
+    (share/"fonts").install "SpaceMonoNerdFontPropo-Bold.ttf"
+    (share/"fonts").install "SpaceMonoNerdFontPropo-BoldItalic.ttf"
+    (share/"fonts").install "SpaceMonoNerdFontPropo-Italic.ttf"
+    (share/"fonts").install "SpaceMonoNerdFontPropo-Regular.ttf"
   end
   test do
   end
