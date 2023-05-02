@@ -1,19 +1,23 @@
 class FontMononokiNerdFont < Formula
-  version "2.3.3"
-  sha256 "3a52dafaed9afeb2df5b8197ac94e4c560969f174ea6f91a0f7d2a9f4f9f814b"
+  version "3.0.0"
+  sha256 "bc14697e0d471f3737e806c764c6d370efa136ae1106618993aff525cfe4c0ec"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Mononoki.zip"
   desc "Mononoki Nerd Font (Mononoki)"
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "Mononoki Nerd Font Complete Bold Italic.ttf"
-    (share/"fonts").install "Mononoki Nerd Font Complete Bold.ttf"
-    (share/"fonts").install "Mononoki Nerd Font Complete Italic.ttf"
-    (share/"fonts").install "Mononoki Nerd Font Complete Mono Bold Italic.ttf"
-    (share/"fonts").install "Mononoki Nerd Font Complete Mono Bold.ttf"
-    (share/"fonts").install "Mononoki Nerd Font Complete Mono Italic.ttf"
-    (share/"fonts").install "Mononoki Nerd Font Complete Mono Regular.ttf"
-    (share/"fonts").install "Mononoki Nerd Font Complete Regular.ttf"
+    (share/"fonts").install "MononokiNerdFont-Bold.ttf"
+    (share/"fonts").install "MononokiNerdFont-BoldItalic.ttf"
+    (share/"fonts").install "MononokiNerdFont-Italic.ttf"
+    (share/"fonts").install "MononokiNerdFont-Regular.ttf"
+    (share/"fonts").install "MononokiNerdFontMono-Bold.ttf"
+    (share/"fonts").install "MononokiNerdFontMono-BoldItalic.ttf"
+    (share/"fonts").install "MononokiNerdFontMono-Italic.ttf"
+    (share/"fonts").install "MononokiNerdFontMono-Regular.ttf"
+    (share/"fonts").install "MononokiNerdFontPropo-Bold.ttf"
+    (share/"fonts").install "MononokiNerdFontPropo-BoldItalic.ttf"
+    (share/"fonts").install "MononokiNerdFontPropo-Italic.ttf"
+    (share/"fonts").install "MononokiNerdFontPropo-Regular.ttf"
   end
   test do
   end
