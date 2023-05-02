@@ -1,15 +1,19 @@
 class FontTinosNerdFont < Formula
-  version "2.3.3"
-  sha256 "a14d14b7fb9ccd410e672676f29c8cca57e8f47b744e53736f961fa7f5796b85"
+  version "3.0.0"
+  sha256 "9f714148a54fa1b4f515f975399f801d170699ff4458a2d9674af3b3ff9f2f29"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Tinos.zip"
   desc "Tinos Nerd Font (Tinos)"
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "Tinos Bold Italic Nerd Font Complete.ttf"
-    (share/"fonts").install "Tinos Bold Nerd Font Complete.ttf"
-    (share/"fonts").install "Tinos Italic Nerd Font Complete.ttf"
-    (share/"fonts").install "Tinos Nerd Font Complete.ttf"
+    (share/"fonts").install "TinosNerdFont-Bold.ttf"
+    (share/"fonts").install "TinosNerdFont-BoldItalic.ttf"
+    (share/"fonts").install "TinosNerdFont-Italic.ttf"
+    (share/"fonts").install "TinosNerdFont-Regular.ttf"
+    (share/"fonts").install "TinosNerdFontPropo-Bold.ttf"
+    (share/"fonts").install "TinosNerdFontPropo-BoldItalic.ttf"
+    (share/"fonts").install "TinosNerdFontPropo-Italic.ttf"
+    (share/"fonts").install "TinosNerdFontPropo-Regular.ttf"
   end
   test do
   end
