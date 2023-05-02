@@ -1,17 +1,20 @@
 class FontMonofurNerdFont < Formula
-  version "2.3.3"
-  sha256 "d7ddcc540cbdb825db3ef4443e00bd47acfc445ef86e0e39c0da12d85ba90e52"
+  version "3.0.0"
+  sha256 "8dfb70df06d7dc96146e17e2d40ee087b5bd3200484bf8d468de6260c1a92f49"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Monofur.zip"
-  desc "Monofur Nerd Font families (Monofur)"
+  desc "Monofur Nerd Font (Monofur)"
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "monofur Nerd Font Complete Mono.ttf"
-    (share/"fonts").install "monofur Nerd Font Complete.ttf"
-    (share/"fonts").install "monofur bold Nerd Font Complete Mono.ttf"
-    (share/"fonts").install "monofur bold Nerd Font Complete.ttf"
-    (share/"fonts").install "monofur italic Nerd Font Complete Mono.ttf"
-    (share/"fonts").install "monofur italic Nerd Font Complete.ttf"
+    (share/"fonts").install "MonofurNerdFont-Bold.ttf"
+    (share/"fonts").install "MonofurNerdFont-Italic.ttf"
+    (share/"fonts").install "MonofurNerdFont-Regular.ttf"
+    (share/"fonts").install "MonofurNerdFontMono-Bold.ttf"
+    (share/"fonts").install "MonofurNerdFontMono-Italic.ttf"
+    (share/"fonts").install "MonofurNerdFontMono-Regular.ttf"
+    (share/"fonts").install "MonofurNerdFontPropo-Bold.ttf"
+    (share/"fonts").install "MonofurNerdFontPropo-Italic.ttf"
+    (share/"fonts").install "MonofurNerdFontPropo-Regular.ttf"
   end
   test do
   end
