@@ -5,7 +5,9 @@ class FontScheherazadeNew < Formula
   homepage "https://fonts.google.com/specimen/Scheherazade+New"
   def install
     (share/"fonts").install "ScheherazadeNew-Bold.ttf"
+    (share/"fonts").install "ScheherazadeNew-Medium.ttf"
     (share/"fonts").install "ScheherazadeNew-Regular.ttf"
+    (share/"fonts").install "ScheherazadeNew-SemiBold.ttf"
   end
   test do
   end
