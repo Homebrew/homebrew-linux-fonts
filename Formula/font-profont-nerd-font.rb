@@ -1,18 +1,1 @@
-class FontProfontNerdFont < Formula
-  version "3.0.0"
-  sha256 "6c407fede4ebfb29b0913ab1a1b8e7e6ca5e57bea2222c9c2f65fc7c61df9445"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/ProFont.zip"
-  desc "ProFont Nerd Font families (ProFont)"
-  desc "Developer targeted fonts with a high number of glyphs"
-  homepage "https://github.com/ryanoasis/nerd-fonts"
-  def install
-    (share/"fonts").install "ProFontIIxNerdFont-Regular.ttf"
-    (share/"fonts").install "ProFontIIxNerdFontMono-Regular.ttf"
-    (share/"fonts").install "ProFontIIxNerdFontPropo-Regular.ttf"
-    (share/"fonts").install "ProFontWindowsNerdFont-Regular.ttf"
-    (share/"fonts").install "ProFontWindowsNerdFontMono-Regular.ttf"
-    (share/"fonts").install "ProFontWindowsNerdFontPropo-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-profont-nerd-font\"", :before=>["version \"3.0.1\""@35, "sha256 \"a460b69cba0a23a72c964c7e0bd0ba976b0aad5fa6608aa498ceb79e0cf5ca49\""@53, "url \"https://github.com/ryanoasis/nerd-fonts/releases/download/v\#{version}/ProFont.zip\""@130, "desc \"ProFont Nerd Font families (ProFont)\"", "desc \"Developer targeted fonts with a high number of glyphs\""@266, "homepage \"https://github.com/ryanoasis/nerd-fonts\""@329, ""], :fonts=>["(share/\"fonts\").install \"ProFontIIxNerdFont-Regular.ttf\"", "(share/\"fonts\").install \"ProFontIIxNerdFontMono-Regular.ttf\"", "(share/\"fonts\").install \"ProFontIIxNerdFontPropo-Regular.ttf\"", "(share/\"fonts\").install \"ProFontWindowsNerdFont-Regular.ttf\"", "(share/\"fonts\").install \"ProFontWindowsNerdFontMono-Regular.ttf\"", "(share/\"fonts\").install \"ProFontWindowsNerdFontPropo-Regular.ttf\""], :after=>"# No zap stanza required\n"@717}
