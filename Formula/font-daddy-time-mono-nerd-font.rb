@@ -1,15 +1,1 @@
-class FontDaddyTimeMonoNerdFont < Formula
-  version "3.0.0"
-  sha256 "2d5df5e3e05454b65c81f40322fb7392b6f18e1f8e6f2f65380a5575e592da20"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/DaddyTimeMono.zip"
-  desc "DaddyTimeMono Nerd Font (DaddyTimeMono)"
-  desc "Developer targeted fonts with a high number of glyphs"
-  homepage "https://github.com/ryanoasis/nerd-fonts"
-  def install
-    (share/"fonts").install "DaddyTimeMonoNerdFont-Regular.ttf"
-    (share/"fonts").install "DaddyTimeMonoNerdFontMono-Regular.ttf"
-    (share/"fonts").install "DaddyTimeMonoNerdFontPropo-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-daddy-time-mono-nerd-font\"", :before=>["version \"3.0.1\""@43, "sha256 \"d384b31785f635b3cdb744039223e4a0753850b02b849c7861d7953016a35718\""@61, "url \"https://github.com/ryanoasis/nerd-fonts/releases/download/v\#{version}/DaddyTimeMono.zip\""@138, "desc \"DaddyTimeMono Nerd Font (DaddyTimeMono)\"", "desc \"Developer targeted fonts with a high number of glyphs\""@283, "homepage \"https://github.com/ryanoasis/nerd-fonts\""@346, ""], :fonts=>["(share/\"fonts\").install \"DaddyTimeMonoNerdFont-Regular.ttf\"", "(share/\"fonts\").install \"DaddyTimeMonoNerdFontMono-Regular.ttf\"", "(share/\"fonts\").install \"DaddyTimeMonoNerdFontPropo-Regular.ttf\""], :after=>"# No zap stanza required\n"@602}
