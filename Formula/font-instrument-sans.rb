@@ -1,7 +1,7 @@
 class FontInstrumentSans < Formula
-  head "https://github.com/google/fonts.git", branch: "main", only_path: "ofl/instrumentsans"
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/instrumentsans"
   desc "Instrument Sans"
-  homepage "https://github.com/Instrument/instrument-sans"
+  homepage "https://fonts.google.com/specimen/Instrument+Sans"
   def install
     (share/"fonts").install "InstrumentSans-Italic[wdth,wght].ttf"
     (share/"fonts").install "InstrumentSans[wdth,wght].ttf"
