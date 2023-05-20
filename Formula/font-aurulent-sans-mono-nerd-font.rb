@@ -1,16 +1,1 @@
-class FontAurulentSansMonoNerdFont < Formula
-  version "2.3.3"
-  sha256 "963ce11f65171cc8d368c69af5ed2d1684141b35863a24f4c23f1870cc73b098"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/AurulentSansMono.zip"
-  desc "AurulentSansMono Nerd Font (Aurulent Sans Mono)"
-  desc "Developer targeted fonts with a high number of glyphs"
-  homepage "https://github.com/ryanoasis/nerd-fonts"
-  def install
-    (share/"fonts").install "AurulentSansMono-Regular Nerd Font Complete Mono Windows Compatible.otf"
-    (share/"fonts").install "AurulentSansMono-Regular Nerd Font Complete Mono.otf"
-    (share/"fonts").install "AurulentSansMono-Regular Nerd Font Complete Windows Compatible.otf"
-    (share/"fonts").install "AurulentSansMono-Regular Nerd Font Complete.otf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-aurulent-sans-mono-nerd-font\"", :before=>["version \"3.0.1\""@46, "sha256 \"3594eb6f674bd5d980454b46510de9efdf9ad6ff587fb10b0b8ca13f82a6df79\""@64, "url \"https://github.com/ryanoasis/nerd-fonts/releases/download/v\#{version}/AurulentSansMono.zip\""@141, "desc \"AurulentSansMono Nerd Font (Aurulent Sans Mono)\"", "desc \"Developer targeted fonts with a high number of glyphs\""@297, "homepage \"https://github.com/ryanoasis/nerd-fonts\""@360, ""], :fonts=>["(share/\"fonts\").install \"AurulentSansMNerdFont-Regular.otf\"", "(share/\"fonts\").install \"AurulentSansMNerdFontMono-Regular.otf\"", "(share/\"fonts\").install \"AurulentSansMNerdFontPropo-Regular.otf\""], :after=>"# No zap stanza required\n"@616}
