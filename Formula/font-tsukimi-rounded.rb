@@ -1,8 +1,8 @@
 class FontTsukimiRounded < Formula
-  head "https://github.com/google/fonts.git", branch: "main", only_path: "ofl/tsukimirounded"
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/tsukimirounded"
   desc "Tsukimi Rounded"
   desc "Sans-serif typeface with rounded terminals"
-  homepage "https://github.com/mt-funa/Tsukimi-Rounded"
+  homepage "https://fonts.google.com/specimen/Tsukimi+Rounded"
   def install
     (share/"fonts").install "TsukimiRounded-Bold.ttf"
     (share/"fonts").install "TsukimiRounded-Light.ttf"
