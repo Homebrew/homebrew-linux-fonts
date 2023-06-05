@@ -1,1 +1,17 @@
-{:name=>"\"font-shure-tech-mono-nerd-font\"", :before=>["version \"3.0.1\""@43, "sha256 \"9e9794ec1169c8d3eca39c0a4dc41f9f1dcba24dc44217c474e2346f9f256aa1\""@61, "url \"https://github.com/ryanoasis/nerd-fonts/releases/download/v\#{version}/ShareTechMono.zip\""@138, "desc \"ShureTechMono Nerd Font (Share Tech Mono)\"", "desc \"Developer targeted fonts with a high number of glyphs\""@285, "homepage \"https://github.com/ryanoasis/nerd-fonts\""@348, ""], :fonts=>["(share/\"fonts\").install \"ShureTechMonoNerdFont-Regular.ttf\"", "(share/\"fonts\").install \"ShureTechMonoNerdFontMono-Regular.ttf\"", "(share/\"fonts\").install \"ShureTechMonoNerdFontPropo-Regular.ttf\""], :after=>"# No zap stanza required\n"@604}
+class FontShureTechMonoNerdFont < Formula
+  version "3.0.1"
+  sha256 "9e9794ec1169c8d3eca39c0a4dc41f9f1dcba24dc44217c474e2346f9f256aa1"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/ShareTechMono.zip"
+  desc "ShureTechMono Nerd Font (Share Tech Mono)"
+  desc "Developer targeted fonts with a high number of glyphs"
+  homepage "https://github.com/ryanoasis/nerd-fonts"
+  def install
+    (share/"fonts").install "ShureTechMonoNerdFont-Regular.ttf"
+    (share/"fonts").install "ShureTechMonoNerdFontMono-Regular.ttf"
+    (share/"fonts").install "ShureTechMonoNerdFontPropo-Regular.ttf"
+  end
+  # No zap stanza required
+
+  test do
+  end
+end

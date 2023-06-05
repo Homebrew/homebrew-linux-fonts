@@ -1,1 +1,12 @@
-{:name=>"\"font-gasoek-one\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/gasoekone/GasoekOne-Regular.ttf\"", "desc \"Gasoek One\"", "homepage \"https://github.com/JAMO-TYPEFACE/Gasoek\""@171], :fonts=>["(share/\"fonts\").install \"GasoekOne-Regular.ttf\""], :after=>"# No zap stanza required\n"@257}
+class FontGasoekOne < Formula
+  head "https://github.com/google/fonts/raw/main/ofl/gasoekone/GasoekOne-Regular.ttf"
+  desc "Gasoek One"
+  homepage "https://github.com/JAMO-TYPEFACE/Gasoek"
+  def install
+    (share/"fonts").install "GasoekOne-Regular.ttf"
+  end
+  # No zap stanza required
+
+  test do
+  end
+end

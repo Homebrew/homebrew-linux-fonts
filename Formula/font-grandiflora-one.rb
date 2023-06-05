@@ -1,1 +1,12 @@
-{:name=>"\"font-grandiflora-one\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/grandifloraone/GrandifloraOne-Regular.ttf\"", "desc \"Grandiflora One\"", "homepage \"https://github.com/JAMO-TYPEFACE/Grandiflora\""@191], :fonts=>["(share/\"fonts\").install \"GrandifloraOne-Regular.ttf\""], :after=>"# No zap stanza required\n"@287}
+class FontGrandifloraOne < Formula
+  head "https://github.com/google/fonts/raw/main/ofl/grandifloraone/GrandifloraOne-Regular.ttf"
+  desc "Grandiflora One"
+  homepage "https://github.com/JAMO-TYPEFACE/Grandiflora"
+  def install
+    (share/"fonts").install "GrandifloraOne-Regular.ttf"
+  end
+  # No zap stanza required
+
+  test do
+  end
+end

@@ -1,1 +1,12 @@
-{:name=>"\"font-bagel-fat-one\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/bagelfatone/BagelFatOne-Regular.ttf\"", "desc \"Bagel Fat One\"", "homepage \"https://github.com/JAMO-TYPEFACE/BagelFat\""@181], :fonts=>["(share/\"fonts\").install \"BagelFatOne-Regular.ttf\""], :after=>"# No zap stanza required\n"@271}
+class FontBagelFatOne < Formula
+  head "https://github.com/google/fonts/raw/main/ofl/bagelfatone/BagelFatOne-Regular.ttf"
+  desc "Bagel Fat One"
+  homepage "https://github.com/JAMO-TYPEFACE/BagelFat"
+  def install
+    (share/"fonts").install "BagelFatOne-Regular.ttf"
+  end
+  # No zap stanza required
+
+  test do
+  end
+end
