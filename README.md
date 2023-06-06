@@ -24,7 +24,7 @@ $ brew install font-inconsolata --HEAD
 If you're using major distributions in a single-user installation, run:
 
 ```
-$ ln -s /home/linuxbrew/.linuxbrew/share/fonts ~/.local/share/fonts
+$ ln --symbolic --no-dereference /home/linuxbrew/.linuxbrew/share/fonts ~/.local/share/fonts
 $ fc-cache -fv
 ```
 
