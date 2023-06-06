@@ -24,14 +24,14 @@ $ brew install font-inconsolata --HEAD
 If you're using major distributions in a single-user installation, run:
 
 ```
-$ ln -s /home/linuxbrew/.linuxbrew/share/fonts ~/.local/share/fonts
+$ ln -s /home/linuxbrew/.linuxbrew/share/fonts -t ~/.local/share
 $ fc-cache -fv
 ```
 
 For a multi-user installation, you must use `sudo` to run the commands:
 
 ```
-$ sudo ln -s /home/linuxbrew/.linuxbrew/share/fonts /usr/local/share/fonts/
+$ sudo ln -s /home/linuxbrew/.linuxbrew/share/fonts -t /usr/local/share
 $ sudo fc-cache -fv
 ```
 
