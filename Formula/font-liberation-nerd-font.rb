@@ -1,6 +1,6 @@
 class FontLiberationNerdFont < Formula
-  version "3.0.1"
-  sha256 "3aab38b35fbb25dccb185febe12779fd0ddd8447b3551f45f1088e86221554fe"
+  version "3.0.2"
+  sha256 "a2cd3472f4f110aebb96a318cea6fd18903e7318d7a4a1f08dc9aeee50446626"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/LiberationMono.zip"
   desc "Literation Nerd Font families (Liberation Mono)"
   desc "Developer targeted fonts with a high number of glyphs"
