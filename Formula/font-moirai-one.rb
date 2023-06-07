@@ -5,8 +5,6 @@ class FontMoiraiOne < Formula
   def install
     (share/"fonts").install "MoiraiOne-Regular.ttf"
   end
-  # No zap stanza required
-
   test do
   end
 end
