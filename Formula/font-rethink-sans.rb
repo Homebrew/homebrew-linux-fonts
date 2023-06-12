@@ -6,8 +6,6 @@ class FontRethinkSans < Formula
     (share/"fonts").install "RethinkSans-Italic[wght].ttf"
     (share/"fonts").install "RethinkSans[wght].ttf"
   end
-  # No zap stanza required
-
   test do
   end
 end
