@@ -3,12 +3,8 @@ class FontAleo < Formula
   desc "Aleo"
   homepage "https://fonts.google.com/specimen/Aleo"
   def install
-    (share/"fonts").install "Aleo-Bold.ttf"
-    (share/"fonts").install "Aleo-BoldItalic.ttf"
-    (share/"fonts").install "Aleo-Italic.ttf"
-    (share/"fonts").install "Aleo-Light.ttf"
-    (share/"fonts").install "Aleo-LightItalic.ttf"
-    (share/"fonts").install "Aleo-Regular.ttf"
+    (share/"fonts").install "Aleo-Italic[wght].ttf"
+    (share/"fonts").install "Aleo[wght].ttf"
   end
   test do
   end
