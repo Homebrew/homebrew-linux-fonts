@@ -1,7 +1,7 @@
 class FontMoiraiOne < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/moiraione/MoiraiOne-Regular.ttf"
+  head "https://github.com/google/fonts/raw/main/ofl/moiraione/MoiraiOne-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Moirai One"
-  homepage "https://github.com/JAMO-TYPEFACE/Moirai"
+  homepage "https://fonts.google.com/specimen/Moirai+One"
   def install
     (share/"fonts").install "MoiraiOne-Regular.ttf"
   end
