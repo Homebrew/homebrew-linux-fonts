@@ -6,8 +6,6 @@ class FontNotoSerifMakasar < Formula
   def install
     (share/"fonts").install "NotoSerifMakasar-Regular.ttf"
   end
-  # No zap stanza required
-
   test do
   end
 end
