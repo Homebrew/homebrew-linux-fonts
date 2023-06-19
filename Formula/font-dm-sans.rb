@@ -3,12 +3,8 @@ class FontDmSans < Formula
   desc "DM Sans"
   homepage "https://fonts.google.com/specimen/DM+Sans"
   def install
-    (share/"fonts").install "DMSans-Bold.ttf"
-    (share/"fonts").install "DMSans-BoldItalic.ttf"
-    (share/"fonts").install "DMSans-Italic.ttf"
-    (share/"fonts").install "DMSans-Medium.ttf"
-    (share/"fonts").install "DMSans-MediumItalic.ttf"
-    (share/"fonts").install "DMSans-Regular.ttf"
+    (share/"fonts").install "DMSans-Italic[opsz,wght].ttf"
+    (share/"fonts").install "DMSans[opsz,wght].ttf"
   end
   test do
   end
