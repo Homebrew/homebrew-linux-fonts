@@ -1,6 +1,6 @@
 class FontHaranoAji < Formula
-  version "20230223"
-  sha256 "d8c6065b671edaa6d0595f04e5c09b2f49247ee70083c8a4647ee20b72778963"
+  version "20230610"
+  sha256 "101b08a9c91b10ffc93a5d7dbf9e8d06c2f10117384ee77b28acb02dee96f131"
   url "https://github.com/trueroad/HaranoAjiFonts/archive/refs/tags/#{version}.zip"
   desc "Harano Aji"
   desc "原ノ味"
