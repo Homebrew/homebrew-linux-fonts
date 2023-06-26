@@ -1,7 +1,7 @@
 class FontAkatab < Formula
-  head "https://github.com/google/fonts.git", branch: "main", only_path: "ofl/akatab"
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/akatab"
   desc "Akatab"
-  homepage "https://github.com/silnrsi/font-akatab"
+  homepage "https://fonts.google.com/specimen/Akatab"
   def install
     (share/"fonts").install "Akatab-Black.ttf"
     (share/"fonts").install "Akatab-Bold.ttf"
