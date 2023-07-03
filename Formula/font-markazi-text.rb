@@ -1,11 +1,13 @@
 class FontMarkaziText < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/markazitext/MarkaziText%5Bwght%5D.ttf", verified: "github.com/google/fonts/"
+  head "https://github.com/google/fonts/raw/main/ofl/markazitextvfbeta/MarkaziText-VF.ttf", verified: "github.com/google/fonts/"
   desc "Markazi Text"
   desc "Contemporary and highly readable typeface"
   homepage "https://fonts.google.com/specimen/Markazi+Text"
   def install
-    (share/"fonts").install "MarkaziText[wght].ttf"
+    (share/"fonts").install "MarkaziText-VF.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
