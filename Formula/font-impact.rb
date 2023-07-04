@@ -5,6 +5,8 @@ class FontImpact < Formula
   def install
     (share/"fonts").install "Impact.TTF"
   end
+  # No zap stanza required
+
   test do
   end
 end
