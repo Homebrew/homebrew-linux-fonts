@@ -6,6 +6,8 @@ class FontZillaSlabHighlight < Formula
     (share/"fonts").install "ZillaSlabHighlight-Bold.ttf"
     (share/"fonts").install "ZillaSlabHighlight-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
