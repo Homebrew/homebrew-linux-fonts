@@ -5,6 +5,8 @@ class FontBungeeInline < Formula
   def install
     (share/"fonts").install "BungeeInline-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
