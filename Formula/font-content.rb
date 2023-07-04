@@ -6,6 +6,8 @@ class FontContent < Formula
     (share/"fonts").install "Content-Bold.ttf"
     (share/"fonts").install "Content-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
