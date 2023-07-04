@@ -12,6 +12,8 @@ class FontCharisSil < Formula
     (share/"fonts").install "#{parent}CharisSIL-#{version}/CharisSIL-Italic.ttf"
     (share/"fonts").install "#{parent}CharisSIL-#{version}/CharisSIL-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
