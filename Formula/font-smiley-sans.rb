@@ -8,6 +8,8 @@ class FontSmileySans < Formula
   def install
     (share/"fonts").install "SmileySans-Oblique.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
