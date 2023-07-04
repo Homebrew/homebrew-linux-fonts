@@ -5,6 +5,8 @@ class FontNotoSansGunjalaGondi < Formula
   def install
     (share/"fonts").install "NotoSansGunjalaGondi[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
