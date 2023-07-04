@@ -6,6 +6,8 @@ class FontFanwoodText < Formula
     (share/"fonts").install "FanwoodText-Italic.ttf"
     (share/"fonts").install "FanwoodText-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
