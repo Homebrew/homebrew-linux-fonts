@@ -5,6 +5,8 @@ class FontPaprika < Formula
   def install
     (share/"fonts").install "Paprika-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
