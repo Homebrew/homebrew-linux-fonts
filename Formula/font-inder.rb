@@ -5,6 +5,8 @@ class FontInder < Formula
   def install
     (share/"fonts").install "Inder-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
