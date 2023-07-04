@@ -16,6 +16,8 @@ class FontNiramit < Formula
     (share/"fonts").install "Niramit-SemiBold.ttf"
     (share/"fonts").install "Niramit-SemiBoldItalic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
