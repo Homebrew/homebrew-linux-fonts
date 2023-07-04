@@ -5,6 +5,8 @@ class FontNotoSansHanifiRohingya < Formula
   def install
     (share/"fonts").install "NotoSansHanifiRohingya[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
