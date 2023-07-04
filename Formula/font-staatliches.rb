@@ -5,6 +5,8 @@ class FontStaatliches < Formula
   def install
     (share/"fonts").install "Staatliches-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
