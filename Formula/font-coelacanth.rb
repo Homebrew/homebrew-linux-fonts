@@ -47,6 +47,8 @@ class FontCoelacanth < Formula
     (share/"fonts").install "CoelacanthSubhdLt.otf"
     (share/"fonts").install "CoelacanthSubhdSemibd.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
