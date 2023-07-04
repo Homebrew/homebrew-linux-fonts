@@ -8,6 +8,8 @@ class FontDavidClm < Formula
     (share/"fonts").install "DavidCLM-Medium.otf"
     (share/"fonts").install "DavidCLM-MediumItalic.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
