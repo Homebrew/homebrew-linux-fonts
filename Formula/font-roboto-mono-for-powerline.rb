@@ -14,6 +14,8 @@ class FontRobotoMonoForPowerline < Formula
     (share/"fonts").install "Roboto Mono Thin for Powerline.ttf"
     (share/"fonts").install "Roboto Mono for Powerline.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
