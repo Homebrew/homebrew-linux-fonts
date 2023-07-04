@@ -6,6 +6,8 @@ class FontWaterfall < Formula
   def install
     (share/"fonts").install "Waterfall-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
