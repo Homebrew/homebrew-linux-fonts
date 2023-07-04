@@ -13,6 +13,8 @@ class FontGensenrounded < Formula
     (share/"fonts").install "GenSenRounded-M.ttc"
     (share/"fonts").install "GenSenRounded-R.ttc"
   end
+  # No zap stanza required
+
   test do
   end
 end
