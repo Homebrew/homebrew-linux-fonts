@@ -5,6 +5,8 @@ class FontGoudyBookletter1911 < Formula
   def install
     (share/"fonts").install "GoudyBookletter1911.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
