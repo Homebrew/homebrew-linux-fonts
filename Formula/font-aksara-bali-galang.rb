@@ -5,6 +5,8 @@ class FontAksaraBaliGalang < Formula
   def install
     (share/"fonts").install "AksaraBaliGalang-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
