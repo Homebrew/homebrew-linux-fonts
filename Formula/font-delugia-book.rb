@@ -14,6 +14,8 @@ class FontDelugiaBook < Formula
     (share/"fonts").install "#{parent}delugia-book/DelugiaBookLight-Italic.ttf"
     (share/"fonts").install "#{parent}delugia-book/DelugiaBookLight.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
