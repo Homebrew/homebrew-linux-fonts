@@ -6,6 +6,8 @@ class FontPtSansNarrow < Formula
     (share/"fonts").install "PT_Sans-Narrow-Web-Bold.ttf"
     (share/"fonts").install "PT_Sans-Narrow-Web-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
