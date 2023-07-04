@@ -7,6 +7,8 @@ class FontQwitcherGrypen < Formula
     (share/"fonts").install "QwitcherGrypen-Bold.ttf"
     (share/"fonts").install "QwitcherGrypen-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
