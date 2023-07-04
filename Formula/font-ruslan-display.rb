@@ -5,6 +5,8 @@ class FontRuslanDisplay < Formula
   def install
     (share/"fonts").install "RuslanDisplay.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
