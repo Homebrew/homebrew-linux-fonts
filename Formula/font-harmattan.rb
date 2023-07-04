@@ -8,6 +8,8 @@ class FontHarmattan < Formula
     (share/"fonts").install "Harmattan-Regular.ttf"
     (share/"fonts").install "Harmattan-SemiBold.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
