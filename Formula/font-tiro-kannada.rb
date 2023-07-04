@@ -7,6 +7,8 @@ class FontTiroKannada < Formula
     (share/"fonts").install "TiroKannada-Italic.ttf"
     (share/"fonts").install "TiroKannada-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
