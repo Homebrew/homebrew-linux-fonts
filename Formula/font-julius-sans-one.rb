@@ -5,6 +5,8 @@ class FontJuliusSansOne < Formula
   def install
     (share/"fonts").install "JuliusSansOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
