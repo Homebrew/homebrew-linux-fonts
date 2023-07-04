@@ -28,6 +28,8 @@ class FontRaleway < Formula
     (share/"fonts").install "#{parent}Raleway-#{version}/variable/TTF/Raleway-VF.ttf"
     (share/"fonts").install "#{parent}Raleway-#{version}/variable/TTF/Raleway-Italic-VF.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
