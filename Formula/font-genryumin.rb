@@ -13,6 +13,8 @@ class FontGenryumin < Formula
     (share/"fonts").install "GenRyuMin-R.ttc"
     (share/"fonts").install "GenRyuMin-SB.ttc"
   end
+  # No zap stanza required
+
   test do
   end
 end
