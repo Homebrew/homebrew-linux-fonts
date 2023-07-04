@@ -17,6 +17,8 @@ class FontPretendardJp < Formula
     (share/"fonts").install "#{parent}public/static/PretendardJP-SemiBold.otf"
     (share/"fonts").install "#{parent}public/static/PretendardJP-Thin.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
