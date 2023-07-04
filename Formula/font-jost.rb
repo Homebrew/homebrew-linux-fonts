@@ -6,6 +6,8 @@ class FontJost < Formula
     (share/"fonts").install "Jost-Italic[wght].ttf"
     (share/"fonts").install "Jost[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
