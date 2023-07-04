@@ -5,6 +5,8 @@ class FontAmstelvarAlpha < Formula
   def install
     (share/"fonts").install "AmstelvarAlpha-VF.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
