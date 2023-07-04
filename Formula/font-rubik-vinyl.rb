@@ -5,6 +5,8 @@ class FontRubikVinyl < Formula
   def install
     (share/"fonts").install "RubikVinyl-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
