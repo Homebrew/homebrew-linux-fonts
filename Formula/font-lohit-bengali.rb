@@ -5,6 +5,8 @@ class FontLohitBengali < Formula
   def install
     (share/"fonts").install "Lohit-Bengali.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
