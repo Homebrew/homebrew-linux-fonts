@@ -5,6 +5,8 @@ class FontRubikGlitch < Formula
   def install
     (share/"fonts").install "RubikGlitch-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
