@@ -22,6 +22,8 @@ class FontChurchSlavonic < Formula
     (share/"fonts").install "#{parent}fonts-churchslavonic/VertogradUnicode.otf"
     (share/"fonts").install "#{parent}fonts-churchslavonic/Voskresensky-Regular.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
