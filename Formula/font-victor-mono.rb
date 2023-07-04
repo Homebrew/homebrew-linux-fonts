@@ -28,6 +28,8 @@ class FontVictorMono < Formula
     (share/"fonts").install "#{parent}OTF/VictorMono-SemiBoldItalic.otf"
     (share/"fonts").install "#{parent}OTF/VictorMono-BoldItalic.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
