@@ -5,6 +5,8 @@ class FontNotoSansManichaean < Formula
   def install
     (share/"fonts").install "NotoSansManichaean-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
