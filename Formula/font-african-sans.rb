@@ -9,6 +9,8 @@ class FontAfricanSans < Formula
     (share/"fonts").install "African Sans BOLD ITALIC 938.ttf"
     (share/"fonts").install "African Sans ITALIC 938.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
