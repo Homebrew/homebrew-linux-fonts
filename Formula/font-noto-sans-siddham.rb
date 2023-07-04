@@ -5,6 +5,8 @@ class FontNotoSansSiddham < Formula
   def install
     (share/"fonts").install "NotoSansSiddham-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
