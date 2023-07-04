@@ -6,6 +6,8 @@ class FontCodystar < Formula
     (share/"fonts").install "Codystar-Light.ttf"
     (share/"fonts").install "Codystar-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
