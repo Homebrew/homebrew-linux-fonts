@@ -6,6 +6,8 @@ class FontFlamenco < Formula
     (share/"fonts").install "Flamenco-Light.ttf"
     (share/"fonts").install "Flamenco-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
