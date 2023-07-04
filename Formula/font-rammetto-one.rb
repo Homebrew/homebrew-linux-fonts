@@ -5,6 +5,8 @@ class FontRammettoOne < Formula
   def install
     (share/"fonts").install "RammettoOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
