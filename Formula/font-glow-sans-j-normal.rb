@@ -15,6 +15,8 @@ class FontGlowSansJNormal < Formula
     (share/"fonts").install "GlowSansJ-Normal-Regular.otf"
     (share/"fonts").install "GlowSansJ-Normal-Thin.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
