@@ -6,6 +6,8 @@ class FontBigShouldersInlineDisplay < Formula
   def install
     (share/"fonts").install "BigShouldersInlineDisplay[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
