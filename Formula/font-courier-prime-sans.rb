@@ -9,6 +9,8 @@ class FontCourierPrimeSans < Formula
     (share/"fonts").install "#{parent}CourierPrimeSans-master/ttf/Courier Prime Sans Italic.ttf"
     (share/"fonts").install "#{parent}CourierPrimeSans-master/ttf/Courier Prime Sans.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
