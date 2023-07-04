@@ -5,6 +5,8 @@ class FontKhyay < Formula
   def install
     (share/"fonts").install "Khyay-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
