@@ -5,6 +5,8 @@ class FontAbel < Formula
   def install
     (share/"fonts").install "Abel-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
