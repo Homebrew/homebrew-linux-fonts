@@ -6,6 +6,8 @@ class FontMate < Formula
     (share/"fonts").install "Mate-Italic.ttf"
     (share/"fonts").install "Mate-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
