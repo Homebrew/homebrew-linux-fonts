@@ -8,6 +8,8 @@ class FontLiberationMonoForPowerline < Formula
     (share/"fonts").install "Literation Mono Powerline Italic.ttf"
     (share/"fonts").install "Literation Mono Powerline.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
