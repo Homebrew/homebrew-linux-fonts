@@ -5,6 +5,8 @@ class FontRanchers < Formula
   def install
     (share/"fonts").install "Ranchers-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
