@@ -5,6 +5,8 @@ class FontAndagii < Formula
   def install
     (share/"fonts").install "ANDAGII_.TTF"
   end
+  # No zap stanza required
+
   test do
   end
 end
