@@ -5,6 +5,8 @@ class FontAngkor < Formula
   def install
     (share/"fonts").install "Angkor-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
