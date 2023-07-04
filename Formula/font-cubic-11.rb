@@ -10,6 +10,8 @@ class FontCubic11 < Formula
     parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}fonts/ttf/Cubic_11_#{version}_R.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
