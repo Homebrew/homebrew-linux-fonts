@@ -7,6 +7,8 @@ class FontChivoMono < Formula
     (share/"fonts").install "ChivoMono-Italic[wght].ttf"
     (share/"fonts").install "ChivoMono[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
