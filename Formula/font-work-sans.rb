@@ -23,6 +23,8 @@ class FontWorkSans < Formula
     (share/"fonts").install "#{parent}Work-Sans-master/fonts/ttf/WorkSans-Thin.ttf"
     (share/"fonts").install "#{parent}Work-Sans-master/fonts/ttf/WorkSans-ThinItalic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
