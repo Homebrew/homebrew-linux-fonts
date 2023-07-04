@@ -5,6 +5,8 @@ class FontHomenaje < Formula
   def install
     (share/"fonts").install "Homenaje-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
