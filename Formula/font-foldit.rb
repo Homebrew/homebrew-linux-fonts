@@ -6,6 +6,8 @@ class FontFoldit < Formula
   def install
     (share/"fonts").install "Foldit[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
