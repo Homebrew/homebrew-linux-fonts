@@ -71,6 +71,8 @@ class FontPlemolJp < Formula
     (share/"fonts").install "#{parent}PlemolJP_v#{version}/PlemolJPConsole/PlemolJPConsole-Thin.ttf"
     (share/"fonts").install "#{parent}PlemolJP_v#{version}/PlemolJPConsole/PlemolJPConsole-ThinItalic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
