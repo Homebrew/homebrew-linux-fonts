@@ -5,6 +5,8 @@ class FontNotoSansAdlamUnjoined < Formula
   def install
     (share/"fonts").install "NotoSansAdlamUnjoined-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
