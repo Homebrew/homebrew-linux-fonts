@@ -5,6 +5,8 @@ class FontUnicaOne < Formula
   def install
     (share/"fonts").install "UnicaOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
