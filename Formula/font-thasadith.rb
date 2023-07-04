@@ -8,6 +8,8 @@ class FontThasadith < Formula
     (share/"fonts").install "Thasadith-Italic.ttf"
     (share/"fonts").install "Thasadith-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
