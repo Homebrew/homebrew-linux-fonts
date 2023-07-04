@@ -5,6 +5,8 @@ class FontJejuHallasan < Formula
   def install
     (share/"fonts").install "JejuHallasan-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
