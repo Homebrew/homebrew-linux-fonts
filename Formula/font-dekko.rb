@@ -5,6 +5,8 @@ class FontDekko < Formula
   def install
     (share/"fonts").install "Dekko-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
