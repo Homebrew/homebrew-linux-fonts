@@ -5,6 +5,8 @@ class FontVarela < Formula
   def install
     (share/"fonts").install "Varela-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
