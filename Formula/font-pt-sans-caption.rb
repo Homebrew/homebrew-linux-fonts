@@ -6,6 +6,8 @@ class FontPtSansCaption < Formula
     (share/"fonts").install "PT_Sans-Caption-Web-Bold.ttf"
     (share/"fonts").install "PT_Sans-Caption-Web-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
