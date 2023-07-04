@@ -22,6 +22,8 @@ class FontLibertinus < Formula
     (share/"fonts").install "#{parent}Libertinus-#{version}/static/OTF/LibertinusSerifDisplay-Regular.otf"
     (share/"fonts").install "#{parent}Libertinus-#{version}/static/OTF/LibertinusSerifInitials-Regular.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
