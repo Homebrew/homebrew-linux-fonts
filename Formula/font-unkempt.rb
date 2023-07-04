@@ -6,6 +6,8 @@ class FontUnkempt < Formula
     (share/"fonts").install "Unkempt-Bold.ttf"
     (share/"fonts").install "Unkempt-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
