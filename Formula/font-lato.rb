@@ -23,6 +23,8 @@ class FontLato < Formula
     (share/"fonts").install "#{parent}Lato2OFL/Lato-Thin.ttf"
     (share/"fonts").install "#{parent}Lato2OFL/Lato-ThinItalic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
