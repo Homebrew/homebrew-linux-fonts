@@ -5,6 +5,8 @@ class FontBigShouldersText < Formula
   def install
     (share/"fonts").install "BigShouldersText[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
