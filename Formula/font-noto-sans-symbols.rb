@@ -13,6 +13,8 @@ class FontNotoSansSymbols < Formula
     (share/"fonts").install "NotoSansSymbols-SemiBold.ttf"
     (share/"fonts").install "NotoSansSymbols-Thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
