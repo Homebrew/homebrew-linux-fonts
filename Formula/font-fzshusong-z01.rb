@@ -5,6 +5,8 @@ class FontFzshusongZ01 < Formula
   def install
     (share/"fonts").install "FZSSK.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
