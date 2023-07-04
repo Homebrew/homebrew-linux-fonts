@@ -5,6 +5,8 @@ class FontClimateCrisis < Formula
   def install
     (share/"fonts").install "ClimateCrisis[YEAR].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
