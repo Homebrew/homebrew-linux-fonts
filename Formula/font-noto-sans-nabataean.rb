@@ -5,6 +5,8 @@ class FontNotoSansNabataean < Formula
   def install
     (share/"fonts").install "NotoSansNabataean-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
