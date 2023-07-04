@@ -26,6 +26,8 @@ class FontFoundrySterling < Formula
     (share/"fonts").install "FoundrySterlingOT3-Medium.otf"
     (share/"fonts").install "zFoundrySterling-Bold.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
