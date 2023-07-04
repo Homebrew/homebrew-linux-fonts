@@ -22,6 +22,8 @@ class FontTaviraj < Formula
     (share/"fonts").install "Taviraj-Thin.ttf"
     (share/"fonts").install "Taviraj-ThinItalic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
