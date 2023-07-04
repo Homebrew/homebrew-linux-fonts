@@ -5,6 +5,8 @@ class FontMacondo < Formula
   def install
     (share/"fonts").install "Macondo-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
