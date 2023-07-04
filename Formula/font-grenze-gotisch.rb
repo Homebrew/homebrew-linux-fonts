@@ -5,6 +5,8 @@ class FontGrenzeGotisch < Formula
   def install
     (share/"fonts").install "GrenzeGotisch[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
