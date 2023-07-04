@@ -11,6 +11,8 @@ class FontInknutAntiqua < Formula
     (share/"fonts").install "InknutAntiqua-Regular.ttf"
     (share/"fonts").install "InknutAntiqua-SemiBold.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
