@@ -5,6 +5,8 @@ class FontUnifrakturcook < Formula
   def install
     (share/"fonts").install "UnifrakturCook-Bold.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
