@@ -40,6 +40,8 @@ class FontNotoSerifMyanmar < Formula
     (share/"fonts").install "NotoSerifMyanmar-SemiCondensedThin.ttf"
     (share/"fonts").install "NotoSerifMyanmar-Thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
