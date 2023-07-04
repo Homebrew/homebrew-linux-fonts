@@ -7,6 +7,8 @@ class FontGudea < Formula
     (share/"fonts").install "Gudea-Italic.ttf"
     (share/"fonts").install "Gudea-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
