@@ -5,6 +5,8 @@ class FontBokor < Formula
   def install
     (share/"fonts").install "Bokor-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
