@@ -6,6 +6,8 @@ class FontLabrada < Formula
     (share/"fonts").install "Labrada-Italic[wght].ttf"
     (share/"fonts").install "Labrada[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
