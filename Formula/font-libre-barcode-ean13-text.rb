@@ -6,6 +6,8 @@ class FontLibreBarcodeEan13Text < Formula
   def install
     (share/"fonts").install "LibreBarcodeEAN13Text-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
