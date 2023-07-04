@@ -6,6 +6,8 @@ class FontMerriweatherSans < Formula
     (share/"fonts").install "MerriweatherSans-Italic[wght].ttf"
     (share/"fonts").install "MerriweatherSans[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
