@@ -5,6 +5,8 @@ class FontCedarvilleCursive < Formula
   def install
     (share/"fonts").install "Cedarville-Cursive.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
