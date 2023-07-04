@@ -5,6 +5,8 @@ class FontIceberg < Formula
   def install
     (share/"fonts").install "Iceberg-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
