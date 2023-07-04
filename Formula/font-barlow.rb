@@ -61,6 +61,8 @@ class FontBarlow < Formula
     (share/"fonts").install "#{parent}barlow-#{version}/fonts/otf/BarlowSemiCondensed-Thin.otf"
     (share/"fonts").install "#{parent}barlow-#{version}/fonts/otf/BarlowSemiCondensed-ThinItalic.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
