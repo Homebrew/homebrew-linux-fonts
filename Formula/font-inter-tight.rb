@@ -6,6 +6,8 @@ class FontInterTight < Formula
     (share/"fonts").install "InterTight-Italic[wght].ttf"
     (share/"fonts").install "InterTight[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
