@@ -5,6 +5,8 @@ class FontLangdon < Formula
   def install
     (share/"fonts").install "Langdon.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
