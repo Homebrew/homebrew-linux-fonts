@@ -8,6 +8,8 @@ class FontMiriamMonoClm < Formula
     (share/"fonts").install "MiriamMonoCLM-Book.ttf"
     (share/"fonts").install "MiriamMonoCLM-BookOblique.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
