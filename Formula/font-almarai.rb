@@ -8,6 +8,8 @@ class FontAlmarai < Formula
     (share/"fonts").install "Almarai-Light.ttf"
     (share/"fonts").install "Almarai-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
