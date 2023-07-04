@@ -5,6 +5,8 @@ class FontOpticianSans < Formula
   def install
     (share/"fonts").install "Optician-Sans.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
