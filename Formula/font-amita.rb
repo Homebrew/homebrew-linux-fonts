@@ -6,6 +6,8 @@ class FontAmita < Formula
     (share/"fonts").install "Amita-Bold.ttf"
     (share/"fonts").install "Amita-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
