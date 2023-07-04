@@ -10,6 +10,8 @@ class FontTexGyreTermes < Formula
     (share/"fonts").install "texgyretermes-italic.otf"
     (share/"fonts").install "texgyretermes-regular.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
