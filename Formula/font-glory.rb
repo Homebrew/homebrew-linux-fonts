@@ -7,6 +7,8 @@ class FontGlory < Formula
     (share/"fonts").install "Glory-Italic[wght].ttf"
     (share/"fonts").install "Glory[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
