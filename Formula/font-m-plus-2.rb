@@ -5,6 +5,8 @@ class FontMPlus2 < Formula
   def install
     (share/"fonts").install "MPLUS2[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
