@@ -6,6 +6,8 @@ class FontRadioCanada < Formula
     (share/"fonts").install "RadioCanada-Italic[wdth,wght].ttf"
     (share/"fonts").install "RadioCanada[wdth,wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
