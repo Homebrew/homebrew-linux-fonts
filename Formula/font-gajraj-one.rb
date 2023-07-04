@@ -5,6 +5,8 @@ class FontGajrajOne < Formula
   def install
     (share/"fonts").install "GajrajOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
