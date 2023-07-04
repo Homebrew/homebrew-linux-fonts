@@ -5,6 +5,8 @@ class FontGidugu < Formula
   def install
     (share/"fonts").install "Gidugu-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
