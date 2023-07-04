@@ -7,6 +7,8 @@ class FontTiroTelugu < Formula
     (share/"fonts").install "TiroTelugu-Italic.ttf"
     (share/"fonts").install "TiroTelugu-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
