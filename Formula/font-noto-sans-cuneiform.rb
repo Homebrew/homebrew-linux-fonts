@@ -5,6 +5,8 @@ class FontNotoSansCuneiform < Formula
   def install
     (share/"fonts").install "NotoSansCuneiform-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
