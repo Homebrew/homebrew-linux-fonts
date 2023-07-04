@@ -5,6 +5,8 @@ class FontNotoSansHanunoo < Formula
   def install
     (share/"fonts").install "NotoSansHanunoo-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
