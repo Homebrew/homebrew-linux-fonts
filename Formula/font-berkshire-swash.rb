@@ -5,6 +5,8 @@ class FontBerkshireSwash < Formula
   def install
     (share/"fonts").install "BerkshireSwash-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
