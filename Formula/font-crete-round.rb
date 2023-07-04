@@ -6,6 +6,8 @@ class FontCreteRound < Formula
     (share/"fonts").install "CreteRound-Italic.ttf"
     (share/"fonts").install "CreteRound-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
