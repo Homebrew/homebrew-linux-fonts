@@ -5,6 +5,8 @@ class FontNotoSansDeseret < Formula
   def install
     (share/"fonts").install "NotoSansDeseret-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
