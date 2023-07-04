@@ -18,6 +18,8 @@ class FontTt2020 < Formula
     (share/"fonts").install "#{parent}TT2020-#{version}/dist/TT2020StyleF-Regular.ttf"
     (share/"fonts").install "#{parent}TT2020-#{version}/dist/TT2020StyleG-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
