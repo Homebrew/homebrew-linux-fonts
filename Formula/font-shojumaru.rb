@@ -5,6 +5,8 @@ class FontShojumaru < Formula
   def install
     (share/"fonts").install "Shojumaru-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
