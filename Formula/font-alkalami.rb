@@ -6,6 +6,8 @@ class FontAlkalami < Formula
   def install
     (share/"fonts").install "Alkalami-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
