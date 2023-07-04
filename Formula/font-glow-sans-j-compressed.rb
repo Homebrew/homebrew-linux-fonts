@@ -14,6 +14,8 @@ class FontGlowSansJCompressed < Formula
     (share/"fonts").install "GlowSansJ-Compressed-Regular.otf"
     (share/"fonts").install "GlowSansJ-Compressed-Thin.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
