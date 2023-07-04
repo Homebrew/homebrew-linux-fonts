@@ -11,6 +11,8 @@ class FontTexGyreAdventor < Formula
     (share/"fonts").install "#{parent}qag#{version.to_s.gsub(".", "_")}otf/texgyreadventor-italic.otf"
     (share/"fonts").install "#{parent}qag#{version.to_s.gsub(".", "_")}otf/texgyreadventor-regular.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
