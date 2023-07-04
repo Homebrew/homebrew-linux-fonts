@@ -183,6 +183,8 @@ class FontInput < Formula
       https://input.djr.com/license/
   EOS
   end
+  # No zap stanza required
+
   test do
   end
 end
