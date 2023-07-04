@@ -5,6 +5,8 @@ class FontCairo < Formula
   def install
     (share/"fonts").install "Cairo[slnt,wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
