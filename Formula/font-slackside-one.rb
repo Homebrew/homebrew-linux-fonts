@@ -6,6 +6,8 @@ class FontSlacksideOne < Formula
   def install
     (share/"fonts").install "SlacksideOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
