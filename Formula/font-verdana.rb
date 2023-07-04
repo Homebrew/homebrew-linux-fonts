@@ -8,6 +8,8 @@ class FontVerdana < Formula
     (share/"fonts").install "Verdanai.TTF"
     (share/"fonts").install "Verdanaz.TTF"
   end
+  # No zap stanza required
+
   test do
   end
 end
