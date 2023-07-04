@@ -5,6 +5,8 @@ class FontArialBlack < Formula
   def install
     (share/"fonts").install "AriBlk.TTF"
   end
+  # No zap stanza required
+
   test do
   end
 end
