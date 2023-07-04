@@ -9,6 +9,8 @@ class FontSudo < Formula
     parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}sudo/SudoVariable.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
