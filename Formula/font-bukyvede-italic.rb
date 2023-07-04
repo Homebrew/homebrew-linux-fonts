@@ -5,6 +5,8 @@ class FontBukyvedeItalic < Formula
   def install
     (share/"fonts").install "BukyVede-Italic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
