@@ -7,6 +7,8 @@ class FontKaiso < Formula
     parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}kaiso_next/Kaiso-Next-B.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
