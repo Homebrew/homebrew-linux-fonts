@@ -6,6 +6,8 @@ class FontNotoSerifTelugu < Formula
     (share/"fonts").install "NotoSerifTelugu-Bold.ttf"
     (share/"fonts").install "NotoSerifTelugu-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
