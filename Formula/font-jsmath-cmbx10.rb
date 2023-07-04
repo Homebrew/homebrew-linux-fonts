@@ -11,6 +11,8 @@ class FontJsmathCmbx10 < Formula
     (share/"fonts").install "#{parent}TeX-fonts-10/jsMath-cmsy10.ttf"
     (share/"fonts").install "#{parent}TeX-fonts-10/jsMath-cmti10.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
