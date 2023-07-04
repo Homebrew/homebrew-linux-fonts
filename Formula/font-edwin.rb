@@ -11,6 +11,8 @@ class FontEdwin < Formula
     (share/"fonts").install "#{parent}Edwin-#{version}/Edwin-Italic.otf"
     (share/"fonts").install "#{parent}Edwin-#{version}/Edwin-Roman.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
