@@ -6,6 +6,8 @@ class FontIranianSans < Formula
     (share/"fonts").install "irsans.ttf"
     (share/"fonts").install "irsansb.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
