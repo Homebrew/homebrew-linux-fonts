@@ -7,6 +7,8 @@ class FontGupter < Formula
     (share/"fonts").install "Gupter-Medium.ttf"
     (share/"fonts").install "Gupter-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
