@@ -5,6 +5,8 @@ class FontNotoSansInscriptionalPahlavi < Formula
   def install
     (share/"fonts").install "NotoSansInscriptionalPahlavi-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
