@@ -6,6 +6,8 @@ class FontSofiaSansExtraCondensed < Formula
     (share/"fonts").install "SofiaSansExtraCondensed-Italic[wght].ttf"
     (share/"fonts").install "SofiaSansExtraCondensed[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
