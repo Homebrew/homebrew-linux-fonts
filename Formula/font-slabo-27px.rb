@@ -5,6 +5,8 @@ class FontSlabo27px < Formula
   def install
     (share/"fonts").install "Slabo27px-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
