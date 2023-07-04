@@ -6,6 +6,8 @@ class FontPadauk < Formula
     (share/"fonts").install "Padauk-Bold.ttf"
     (share/"fonts").install "Padauk-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
