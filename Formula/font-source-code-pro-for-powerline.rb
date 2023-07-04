@@ -18,6 +18,8 @@ class FontSourceCodeProForPowerline < Formula
     (share/"fonts").install "Source Code Pro Semibold for Powerline.otf"
     (share/"fonts").install "Source Code Pro for Powerline.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
