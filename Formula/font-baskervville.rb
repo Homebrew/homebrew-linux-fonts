@@ -6,6 +6,8 @@ class FontBaskervville < Formula
     (share/"fonts").install "Baskervville-Italic.ttf"
     (share/"fonts").install "Baskervville-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
