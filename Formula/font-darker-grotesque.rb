@@ -5,6 +5,8 @@ class FontDarkerGrotesque < Formula
   def install
     (share/"fonts").install "DarkerGrotesque[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
