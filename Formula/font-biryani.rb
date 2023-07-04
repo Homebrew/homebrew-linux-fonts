@@ -11,6 +11,8 @@ class FontBiryani < Formula
     (share/"fonts").install "Biryani-Regular.ttf"
     (share/"fonts").install "Biryani-SemiBold.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
