@@ -8,6 +8,8 @@ class FontCourierNew < Formula
     (share/"fonts").install "courbi.ttf"
     (share/"fonts").install "couri.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
