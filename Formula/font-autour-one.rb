@@ -5,6 +5,8 @@ class FontAutourOne < Formula
   def install
     (share/"fonts").install "AutourOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
