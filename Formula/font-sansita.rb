@@ -12,6 +12,8 @@ class FontSansita < Formula
     (share/"fonts").install "Sansita-Italic.ttf"
     (share/"fonts").install "Sansita-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
