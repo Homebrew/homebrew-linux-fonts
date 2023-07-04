@@ -5,6 +5,8 @@ class FontMichroma < Formula
   def install
     (share/"fonts").install "Michroma-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
