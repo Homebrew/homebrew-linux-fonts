@@ -6,6 +6,8 @@ class FontMonda < Formula
     (share/"fonts").install "Monda-Bold.ttf"
     (share/"fonts").install "Monda-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
