@@ -11,6 +11,8 @@ class FontKarma < Formula
     (share/"fonts").install "Karma-Regular.otf"
     (share/"fonts").install "Karma-SemiBold.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
