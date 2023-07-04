@@ -22,6 +22,8 @@ class FontFiraSansCondensed < Formula
     (share/"fonts").install "FiraSansCondensed-Thin.ttf"
     (share/"fonts").install "FiraSansCondensed-ThinItalic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
