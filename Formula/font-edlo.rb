@@ -5,6 +5,8 @@ class FontEdlo < Formula
   def install
     (share/"fonts").install "edlo.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
