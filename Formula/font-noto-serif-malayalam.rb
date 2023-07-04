@@ -6,6 +6,8 @@ class FontNotoSerifMalayalam < Formula
     (share/"fonts").install "NotoSerifMalayalam-Bold.ttf"
     (share/"fonts").install "NotoSerifMalayalam-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
