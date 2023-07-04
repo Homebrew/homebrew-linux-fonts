@@ -5,6 +5,8 @@ class FontOutfit < Formula
   def install
     (share/"fonts").install "Outfit[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
