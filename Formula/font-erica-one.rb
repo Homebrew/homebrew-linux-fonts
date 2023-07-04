@@ -5,6 +5,8 @@ class FontEricaOne < Formula
   def install
     (share/"fonts").install "EricaOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
