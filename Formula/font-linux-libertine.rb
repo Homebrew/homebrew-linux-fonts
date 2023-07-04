@@ -15,6 +15,8 @@ class FontLinuxLibertine < Formula
     (share/"fonts").install "LinLibertine_RZah.ttf"
     (share/"fonts").install "LinLibertine_Rah.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
