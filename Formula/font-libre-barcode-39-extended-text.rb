@@ -5,6 +5,8 @@ class FontLibreBarcode39ExtendedText < Formula
   def install
     (share/"fonts").install "LibreBarcode39ExtendedText-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
