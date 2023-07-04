@@ -23,6 +23,8 @@ class FontLibreFranklin < Formula
     (share/"fonts").install "#{parent}Libre-Franklin-master/fonts/OTF/LibreFranklin-Thin.otf"
     (share/"fonts").install "#{parent}Libre-Franklin-master/fonts/OTF/LibreFranklin-ThinItalic.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
