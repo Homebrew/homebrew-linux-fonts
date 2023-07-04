@@ -8,6 +8,8 @@ class FontKaiseiOpti < Formula
     (share/"fonts").install "KaiseiOpti-Medium.ttf"
     (share/"fonts").install "KaiseiOpti-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
