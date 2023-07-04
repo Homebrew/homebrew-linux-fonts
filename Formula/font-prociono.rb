@@ -5,6 +5,8 @@ class FontProciono < Formula
   def install
     (share/"fonts").install "Prociono-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
