@@ -1019,6 +1019,8 @@ class Font437Plus < Formula
     (share/"fonts").install "#{parent}ttf - Ac (aspect-corrected)/Ac437_ToshibaSat_9x16.ttf"
     (share/"fonts").install "#{parent}ttf - Ac (aspect-corrected)/AcPlus_IBM_BIOS.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
