@@ -5,6 +5,8 @@ class FontTenorSans < Formula
   def install
     (share/"fonts").install "TenorSans-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
