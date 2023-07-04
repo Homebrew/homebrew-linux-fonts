@@ -6,6 +6,8 @@ class FontFaustina < Formula
     (share/"fonts").install "Faustina-Italic[wght].ttf"
     (share/"fonts").install "Faustina[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
