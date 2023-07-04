@@ -5,6 +5,8 @@ class FontHammersmithOne < Formula
   def install
     (share/"fonts").install "HammersmithOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
