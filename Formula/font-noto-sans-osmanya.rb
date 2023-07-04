@@ -5,6 +5,8 @@ class FontNotoSansOsmanya < Formula
   def install
     (share/"fonts").install "NotoSansOsmanya-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
