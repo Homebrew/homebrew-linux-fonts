@@ -5,6 +5,8 @@ class FontSnowburstOne < Formula
   def install
     (share/"fonts").install "SnowburstOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
