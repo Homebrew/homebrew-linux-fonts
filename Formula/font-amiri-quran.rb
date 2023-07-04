@@ -5,6 +5,8 @@ class FontAmiriQuran < Formula
   def install
     (share/"fonts").install "AmiriQuran-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
