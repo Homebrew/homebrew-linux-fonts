@@ -5,6 +5,8 @@ class FontStintUltraExpanded < Formula
   def install
     (share/"fonts").install "StintUltraExpanded-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
