@@ -16,6 +16,8 @@ class FontBaiJamjuree < Formula
     (share/"fonts").install "BaiJamjuree-SemiBold.ttf"
     (share/"fonts").install "BaiJamjuree-SemiBoldItalic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
