@@ -7,6 +7,8 @@ class FontPoprumcute < Formula
     parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}poprumcute/PopRumCute.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
