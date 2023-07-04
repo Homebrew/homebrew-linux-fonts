@@ -5,6 +5,8 @@ class FontRocknrollOne < Formula
   def install
     (share/"fonts").install "RocknRollOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
