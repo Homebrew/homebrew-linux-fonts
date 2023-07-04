@@ -6,6 +6,8 @@ class FontCharmonman < Formula
     (share/"fonts").install "Charmonman-Bold.ttf"
     (share/"fonts").install "Charmonman-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
