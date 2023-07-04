@@ -5,6 +5,8 @@ class FontPollerOne < Formula
   def install
     (share/"fonts").install "PollerOne.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
