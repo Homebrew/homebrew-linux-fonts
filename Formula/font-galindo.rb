@@ -5,6 +5,8 @@ class FontGalindo < Formula
   def install
     (share/"fonts").install "Galindo-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
