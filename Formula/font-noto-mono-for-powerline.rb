@@ -5,6 +5,8 @@ class FontNotoMonoForPowerline < Formula
   def install
     (share/"fonts").install "Noto Mono for Powerline.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
