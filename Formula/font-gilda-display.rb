@@ -5,6 +5,8 @@ class FontGildaDisplay < Formula
   def install
     (share/"fonts").install "GildaDisplay-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
