@@ -5,6 +5,8 @@ class FontSigmarOne < Formula
   def install
     (share/"fonts").install "SigmarOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
