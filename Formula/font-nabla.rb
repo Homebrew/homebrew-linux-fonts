@@ -6,6 +6,8 @@ class FontNabla < Formula
   def install
     (share/"fonts").install "Nabla[EDPT,EHLT].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
