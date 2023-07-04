@@ -6,6 +6,8 @@ class FontAlumniSansPinstripe < Formula
     (share/"fonts").install "AlumniSansPinstripe-Italic.ttf"
     (share/"fonts").install "AlumniSansPinstripe-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
