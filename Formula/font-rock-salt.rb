@@ -5,6 +5,8 @@ class FontRockSalt < Formula
   def install
     (share/"fonts").install "RockSalt-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
