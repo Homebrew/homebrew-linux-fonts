@@ -10,6 +10,8 @@ class FontMakinas4 < Formula
     (share/"fonts").install "#{parent}makinas4/Makinas-4-Flat.otf"
     (share/"fonts").install "#{parent}makinas4/Makinas-4-Square.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
