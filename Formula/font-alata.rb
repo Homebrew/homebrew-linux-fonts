@@ -5,6 +5,8 @@ class FontAlata < Formula
   def install
     (share/"fonts").install "Alata-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
