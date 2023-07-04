@@ -6,6 +6,8 @@ class FontNotoSansChorasmian < Formula
   def install
     (share/"fonts").install "NotoSansChorasmian-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
