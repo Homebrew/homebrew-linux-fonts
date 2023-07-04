@@ -5,6 +5,8 @@ class FontEastSeaDokdo < Formula
   def install
     (share/"fonts").install "EastSeaDokdo-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
