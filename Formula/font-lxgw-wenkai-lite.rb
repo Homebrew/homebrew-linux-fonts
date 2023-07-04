@@ -15,6 +15,8 @@ class FontLxgwWenkaiLite < Formula
     (share/"fonts").install "#{parent}lxgw-wenkai-lite-v#{version}/LXGWWenKaiMonoLite-Light.ttf"
     (share/"fonts").install "#{parent}lxgw-wenkai-lite-v#{version}/LXGWWenKaiMonoLite-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
