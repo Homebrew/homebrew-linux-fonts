@@ -6,6 +6,8 @@ class FontTangerine < Formula
     (share/"fonts").install "Tangerine-Bold.ttf"
     (share/"fonts").install "Tangerine-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
