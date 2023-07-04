@@ -5,6 +5,8 @@ class FontNotoSansBrahmi < Formula
   def install
     (share/"fonts").install "NotoSansBrahmi-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
