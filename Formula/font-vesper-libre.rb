@@ -8,6 +8,8 @@ class FontVesperLibre < Formula
     (share/"fonts").install "VesperLibre-Medium.ttf"
     (share/"fonts").install "VesperLibre-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
