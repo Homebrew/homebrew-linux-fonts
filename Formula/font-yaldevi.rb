@@ -6,6 +6,8 @@ class FontYaldevi < Formula
   def install
     (share/"fonts").install "Yaldevi[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
