@@ -5,6 +5,8 @@ class FontPlayball < Formula
   def install
     (share/"fonts").install "Playball-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
