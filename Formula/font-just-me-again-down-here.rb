@@ -5,6 +5,8 @@ class FontJustMeAgainDownHere < Formula
   def install
     (share/"fonts").install "JustMeAgainDownHere.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
