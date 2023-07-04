@@ -11,6 +11,8 @@ class FontHack < Formula
     (share/"fonts").install "#{parent}ttf/Hack-Bold.ttf"
     (share/"fonts").install "#{parent}ttf/Hack-BoldItalic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
