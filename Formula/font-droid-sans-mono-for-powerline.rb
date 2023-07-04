@@ -5,6 +5,8 @@ class FontDroidSansMonoForPowerline < Formula
   def install
     (share/"fonts").install "Droid Sans Mono for Powerline.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
