@@ -5,6 +5,8 @@ class FontAldrich < Formula
   def install
     (share/"fonts").install "Aldrich-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
