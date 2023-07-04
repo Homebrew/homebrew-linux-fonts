@@ -17,6 +17,8 @@ class FontStix < Formula
     (share/"fonts").install "#{parent}stixfonts-#{version}/fonts/static_otf/STIXTwoText-SemiBold.otf"
     (share/"fonts").install "#{parent}stixfonts-#{version}/fonts/static_otf/STIXTwoText-SemiBoldItalic.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
