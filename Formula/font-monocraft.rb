@@ -8,6 +8,8 @@ class FontMonocraft < Formula
   def install
     (share/"fonts").install "Monocraft.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
