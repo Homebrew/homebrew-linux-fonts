@@ -7,6 +7,8 @@ class FontTexGyreChorus < Formula
   def install
     (share/"fonts").install "texgyrechorus-mediumitalic.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
