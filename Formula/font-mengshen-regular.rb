@@ -10,6 +10,8 @@ class FontMengshenRegular < Formula
     (share/"fonts").install "Mengshen-HanSerif.ttf"
     (share/"fonts").install "Mengshen-Handwritten.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
