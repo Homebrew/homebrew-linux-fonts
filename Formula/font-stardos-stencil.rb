@@ -6,6 +6,8 @@ class FontStardosStencil < Formula
     (share/"fonts").install "StardosStencil-Bold.ttf"
     (share/"fonts").install "StardosStencil-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
