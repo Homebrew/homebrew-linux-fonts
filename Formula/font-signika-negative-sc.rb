@@ -9,6 +9,8 @@ class FontSignikaNegativeSc < Formula
     (share/"fonts").install "SignikaNegativeSC-Regular.ttf"
     (share/"fonts").install "SignikaNegativeSC-SemiBold.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
