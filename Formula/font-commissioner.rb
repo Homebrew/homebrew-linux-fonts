@@ -6,6 +6,8 @@ class FontCommissioner < Formula
   def install
     (share/"fonts").install "Commissioner[FLAR,VOLM,slnt,wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
