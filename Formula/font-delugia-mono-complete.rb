@@ -14,6 +14,8 @@ class FontDelugiaMonoComplete < Formula
     (share/"fonts").install "#{parent}delugia-mono-complete/DelugiaMonoCompleteLight-Italic.ttf"
     (share/"fonts").install "#{parent}delugia-mono-complete/DelugiaMonoCompleteLight.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
