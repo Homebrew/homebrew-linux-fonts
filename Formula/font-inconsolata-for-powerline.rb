@@ -5,6 +5,8 @@ class FontInconsolataForPowerline < Formula
   def install
     (share/"fonts").install "Inconsolata for Powerline.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
