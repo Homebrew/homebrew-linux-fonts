@@ -8,6 +8,8 @@ class FontMonocraftNerdFont < Formula
   def install
     (share/"fonts").install "Monocraft-nerd-fonts-patched.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
