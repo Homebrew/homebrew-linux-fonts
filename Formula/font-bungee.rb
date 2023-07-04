@@ -29,6 +29,8 @@ class FontBungee < Formula
     (share/"fonts").install "#{parent}Bungee-fonts/Bungee_Desktop/BungeeLayersRotated/BungeeLayersRotated-Regular.otf"
     (share/"fonts").install "#{parent}Bungee-fonts/Bungee_Desktop/BungeeLayersRotated/BungeeLayersRotated-Shade.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
