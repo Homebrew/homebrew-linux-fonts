@@ -9,6 +9,8 @@ class FontCormorantUpright < Formula
     (share/"fonts").install "CormorantUpright-Regular.ttf"
     (share/"fonts").install "CormorantUpright-SemiBold.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
