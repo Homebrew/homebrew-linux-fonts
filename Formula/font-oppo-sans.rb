@@ -10,6 +10,8 @@ class FontOppoSans < Formula
     (share/"fonts").install "#{parent}Font-OPPOSans/OPPOSans-M.ttf"
     (share/"fonts").install "#{parent}Font-OPPOSans/OPPOSans-R.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
