@@ -11,6 +11,8 @@ class FontIbmPlexSansThai < Formula
     (share/"fonts").install "IBMPlexSansThai-SemiBold.ttf"
     (share/"fonts").install "IBMPlexSansThai-Thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
