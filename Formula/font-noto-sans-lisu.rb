@@ -5,6 +5,8 @@ class FontNotoSansLisu < Formula
   def install
     (share/"fonts").install "NotoSansLisu-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
