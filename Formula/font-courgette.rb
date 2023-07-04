@@ -5,6 +5,8 @@ class FontCourgette < Formula
   def install
     (share/"fonts").install "Courgette-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
