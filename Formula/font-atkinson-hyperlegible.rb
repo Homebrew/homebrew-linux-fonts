@@ -12,6 +12,8 @@ class FontAtkinsonHyperlegible < Formula
     (share/"fonts").install "#{parent}Atkinson-Hyperlegible-Font-Print-and-Web-#{version}/Print Fonts/Atkinson-Hyperlegible-Italic-102.otf"
     (share/"fonts").install "#{parent}Atkinson-Hyperlegible-Font-Print-and-Web-#{version}/Print Fonts/Atkinson-Hyperlegible-Regular-102.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
