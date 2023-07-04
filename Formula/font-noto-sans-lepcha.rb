@@ -5,6 +5,8 @@ class FontNotoSansLepcha < Formula
   def install
     (share/"fonts").install "NotoSansLepcha-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
