@@ -5,6 +5,8 @@ class FontMyanmarSansPro < Formula
   def install
     (share/"fonts").install "MyanmarSansPro-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
