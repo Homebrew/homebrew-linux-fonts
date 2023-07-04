@@ -5,6 +5,8 @@ class FontNotoSansBuginese < Formula
   def install
     (share/"fonts").install "NotoSansBuginese-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
