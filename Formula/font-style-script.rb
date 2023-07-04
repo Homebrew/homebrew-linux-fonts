@@ -6,6 +6,8 @@ class FontStyleScript < Formula
   def install
     (share/"fonts").install "StyleScript-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
