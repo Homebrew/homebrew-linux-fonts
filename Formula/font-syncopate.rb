@@ -6,6 +6,8 @@ class FontSyncopate < Formula
     (share/"fonts").install "Syncopate-Bold.ttf"
     (share/"fonts").install "Syncopate-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
