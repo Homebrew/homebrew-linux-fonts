@@ -5,6 +5,8 @@ class FontBalooDa2 < Formula
   def install
     (share/"fonts").install "BalooDa2[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
