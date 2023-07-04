@@ -5,6 +5,8 @@ class FontStylish < Formula
   def install
     (share/"fonts").install "Stylish-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
