@@ -5,6 +5,8 @@ class FontBigelowRules < Formula
   def install
     (share/"fonts").install "BigelowRules-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
