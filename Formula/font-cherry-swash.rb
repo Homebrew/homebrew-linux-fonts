@@ -6,6 +6,8 @@ class FontCherrySwash < Formula
     (share/"fonts").install "CherrySwash-Bold.ttf"
     (share/"fonts").install "CherrySwash-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
