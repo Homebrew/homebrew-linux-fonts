@@ -8,6 +8,8 @@ class FontRambla < Formula
     (share/"fonts").install "Rambla-Italic.ttf"
     (share/"fonts").install "Rambla-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
