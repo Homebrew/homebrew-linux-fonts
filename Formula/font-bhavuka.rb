@@ -5,6 +5,8 @@ class FontBhavuka < Formula
   def install
     (share/"fonts").install "Bhavuka-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
