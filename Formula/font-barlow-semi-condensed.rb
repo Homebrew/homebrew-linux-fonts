@@ -22,6 +22,8 @@ class FontBarlowSemiCondensed < Formula
     (share/"fonts").install "BarlowSemiCondensed-Thin.ttf"
     (share/"fonts").install "BarlowSemiCondensed-ThinItalic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
