@@ -8,6 +8,8 @@ class FontIstokWeb < Formula
     (share/"fonts").install "IstokWeb-Italic.ttf"
     (share/"fonts").install "IstokWeb-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
