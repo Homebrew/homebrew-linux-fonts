@@ -13,6 +13,8 @@ class FontEbh < Formula
     (share/"fonts").install "#{parent}EBH-v#{version}/EBH Initials.otf"
     (share/"fonts").install "#{parent}EBH-v#{version}/EBH Runes.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
