@@ -5,6 +5,8 @@ class FontHandlee < Formula
   def install
     (share/"fonts").install "Handlee-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
