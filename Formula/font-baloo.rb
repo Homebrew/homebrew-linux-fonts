@@ -17,6 +17,8 @@ class FontBaloo < Formula
     (share/"fonts").install "#{parent}Fonts/BalooTammudu-Regular.ttf"
     (share/"fonts").install "#{parent}Fonts/BalooThambi-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
