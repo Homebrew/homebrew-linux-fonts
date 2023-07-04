@@ -5,6 +5,8 @@ class FontDawningOfANewDay < Formula
   def install
     (share/"fonts").install "DawningofaNewDay.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
