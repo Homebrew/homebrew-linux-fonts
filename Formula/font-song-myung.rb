@@ -5,6 +5,8 @@ class FontSongMyung < Formula
   def install
     (share/"fonts").install "SongMyung-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
