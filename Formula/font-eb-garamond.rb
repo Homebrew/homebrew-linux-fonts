@@ -18,6 +18,8 @@ class FontEbGaramond < Formula
     (share/"fonts").install "#{parent}EBGaramond-#{version}/otf/EBGaramondSC08-Regular.otf"
     (share/"fonts").install "#{parent}EBGaramond-#{version}/otf/EBGaramondSC12-Regular.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
