@@ -11,6 +11,8 @@ class FontMartel < Formula
     (share/"fonts").install "Martel-Regular.ttf"
     (share/"fonts").install "Martel-UltraLight.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
