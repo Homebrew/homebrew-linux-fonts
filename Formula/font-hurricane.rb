@@ -5,6 +5,8 @@ class FontHurricane < Formula
   def install
     (share/"fonts").install "Hurricane-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
