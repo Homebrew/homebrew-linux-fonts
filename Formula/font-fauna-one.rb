@@ -5,6 +5,8 @@ class FontFaunaOne < Formula
   def install
     (share/"fonts").install "FaunaOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
