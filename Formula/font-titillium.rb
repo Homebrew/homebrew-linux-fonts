@@ -23,6 +23,8 @@ class FontTitillium < Formula
     (share/"fonts").install "#{parent}Titillium_roman_upright_italic_#{version.to_s.sub(/,.*/, "").gsub(".", "_")}_OT/Titillium-ThinItalic.otf"
     (share/"fonts").install "#{parent}Titillium_roman_upright_italic_#{version.to_s.sub(/,.*/, "").gsub(".", "_")}_OT/Titillium-ThinUpright.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
