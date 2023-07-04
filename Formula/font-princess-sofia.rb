@@ -5,6 +5,8 @@ class FontPrincessSofia < Formula
   def install
     (share/"fonts").install "PrincessSofia-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
