@@ -6,6 +6,8 @@ class FontRubikBeastly < Formula
   def install
     (share/"fonts").install "RubikBeastly-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
