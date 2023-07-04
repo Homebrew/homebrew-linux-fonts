@@ -5,6 +5,8 @@ class FontDecovarAlpha < Formula
   def install
     (share/"fonts").install "DecovarAlpha-VF.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
