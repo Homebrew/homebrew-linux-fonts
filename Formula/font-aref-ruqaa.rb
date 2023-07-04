@@ -6,6 +6,8 @@ class FontArefRuqaa < Formula
     (share/"fonts").install "ArefRuqaa-Bold.ttf"
     (share/"fonts").install "ArefRuqaa-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
