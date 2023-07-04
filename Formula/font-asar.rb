@@ -5,6 +5,8 @@ class FontAsar < Formula
   def install
     (share/"fonts").install "Asar-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
