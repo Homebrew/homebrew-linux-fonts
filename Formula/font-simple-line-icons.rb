@@ -8,6 +8,8 @@ class FontSimpleLineIcons < Formula
     parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}simple-line-icons-#{version}/fonts/Simple-Line-Icons.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
