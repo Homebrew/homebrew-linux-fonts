@@ -5,6 +5,8 @@ class FontDelius < Formula
   def install
     (share/"fonts").install "Delius-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
