@@ -5,6 +5,8 @@ class FontJacquesFrancoisShadow < Formula
   def install
     (share/"fonts").install "JacquesFrancoisShadow-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
