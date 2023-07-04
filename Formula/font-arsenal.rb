@@ -8,6 +8,8 @@ class FontArsenal < Formula
     (share/"fonts").install "Arsenal-Italic.ttf"
     (share/"fonts").install "Arsenal-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
