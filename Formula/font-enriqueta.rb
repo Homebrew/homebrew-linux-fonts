@@ -8,6 +8,8 @@ class FontEnriqueta < Formula
     (share/"fonts").install "Enriqueta-Regular.ttf"
     (share/"fonts").install "Enriqueta-SemiBold.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
