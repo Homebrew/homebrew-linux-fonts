@@ -7,6 +7,8 @@ class FontRoboto < Formula
     (share/"fonts").install "Roboto-Italic[wdth,wght].ttf"
     (share/"fonts").install "Roboto[wdth,wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
