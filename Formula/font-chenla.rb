@@ -5,6 +5,8 @@ class FontChenla < Formula
   def install
     (share/"fonts").install "Chenla.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
