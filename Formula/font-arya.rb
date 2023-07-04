@@ -6,6 +6,8 @@ class FontArya < Formula
     (share/"fonts").install "Arya-Bold.ttf"
     (share/"fonts").install "Arya-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
