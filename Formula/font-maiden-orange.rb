@@ -5,6 +5,8 @@ class FontMaidenOrange < Formula
   def install
     (share/"fonts").install "MaidenOrange-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
