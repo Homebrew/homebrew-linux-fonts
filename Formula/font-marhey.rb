@@ -6,6 +6,8 @@ class FontMarhey < Formula
   def install
     (share/"fonts").install "Marhey[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
