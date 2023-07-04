@@ -6,6 +6,8 @@ class FontArapey < Formula
     (share/"fonts").install "Arapey-Italic.ttf"
     (share/"fonts").install "Arapey-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
