@@ -7,6 +7,8 @@ class FontBirthstoneBounce < Formula
     (share/"fonts").install "BirthstoneBounce-Medium.ttf"
     (share/"fonts").install "BirthstoneBounce-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
