@@ -6,6 +6,8 @@ class FontInstrumentSans < Formula
     (share/"fonts").install "InstrumentSans-Italic[wdth,wght].ttf"
     (share/"fonts").install "InstrumentSans[wdth,wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
