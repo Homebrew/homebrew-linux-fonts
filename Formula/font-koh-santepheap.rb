@@ -10,6 +10,8 @@ class FontKohSantepheap < Formula
     (share/"fonts").install "KohSantepheap-Regular.ttf"
     (share/"fonts").install "KohSantepheap-Thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
