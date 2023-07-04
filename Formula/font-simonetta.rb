@@ -8,6 +8,8 @@ class FontSimonetta < Formula
     (share/"fonts").install "Simonetta-Italic.ttf"
     (share/"fonts").install "Simonetta-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
