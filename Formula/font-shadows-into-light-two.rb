@@ -5,6 +5,8 @@ class FontShadowsIntoLightTwo < Formula
   def install
     (share/"fonts").install "ShadowsIntoLightTwo-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
