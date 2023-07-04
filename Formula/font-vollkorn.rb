@@ -31,6 +31,8 @@ class FontVollkorn < Formula
     (share/"fonts").install "#{parent}TTF/Vollkorn-SemiBold.ttf"
     (share/"fonts").install "#{parent}TTF/Vollkorn-SemiBoldItalic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
