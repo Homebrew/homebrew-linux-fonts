@@ -6,6 +6,8 @@ class FontSortsMillGoudy < Formula
     (share/"fonts").install "SortsMillGoudy-Italic.ttf"
     (share/"fonts").install "SortsMillGoudy-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
