@@ -5,6 +5,8 @@ class FontNotoSansRunic < Formula
   def install
     (share/"fonts").install "NotoSansRunic-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
