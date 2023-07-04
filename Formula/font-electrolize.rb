@@ -5,6 +5,8 @@ class FontElectrolize < Formula
   def install
     (share/"fonts").install "Electrolize-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
