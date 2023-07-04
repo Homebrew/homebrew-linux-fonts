@@ -6,6 +6,8 @@ class FontMeaCulpa < Formula
   def install
     (share/"fonts").install "MeaCulpa-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
