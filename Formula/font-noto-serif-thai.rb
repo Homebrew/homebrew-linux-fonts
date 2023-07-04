@@ -40,6 +40,8 @@ class FontNotoSerifThai < Formula
     (share/"fonts").install "NotoSerifThai-SemiCondensedThin.ttf"
     (share/"fonts").install "NotoSerifThai-Thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
