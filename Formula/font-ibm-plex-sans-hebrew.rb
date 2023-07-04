@@ -11,6 +11,8 @@ class FontIbmPlexSansHebrew < Formula
     (share/"fonts").install "IBMPlexSansHebrew-SemiBold.ttf"
     (share/"fonts").install "IBMPlexSansHebrew-Thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
