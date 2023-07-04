@@ -5,6 +5,8 @@ class FontEduNswActFoundation < Formula
   def install
     (share/"fonts").install "EduNSWACTFoundation[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
