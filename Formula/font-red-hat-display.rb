@@ -6,6 +6,8 @@ class FontRedHatDisplay < Formula
     (share/"fonts").install "RedHatDisplay-Italic[wght].ttf"
     (share/"fonts").install "RedHatDisplay[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
