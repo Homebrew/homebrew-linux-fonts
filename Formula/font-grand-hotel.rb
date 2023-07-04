@@ -5,6 +5,8 @@ class FontGrandHotel < Formula
   def install
     (share/"fonts").install "GrandHotel-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
