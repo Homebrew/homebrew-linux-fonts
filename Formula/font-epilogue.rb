@@ -7,6 +7,8 @@ class FontEpilogue < Formula
     (share/"fonts").install "Epilogue-Italic[wght].ttf"
     (share/"fonts").install "Epilogue[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
