@@ -5,6 +5,8 @@ class FontNothingYouCouldDo < Formula
   def install
     (share/"fonts").install "NothingYouCouldDo.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
