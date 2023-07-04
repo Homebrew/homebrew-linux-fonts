@@ -6,6 +6,8 @@ class FontDiphylleia < Formula
   def install
     (share/"fonts").install "Diphylleia-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
