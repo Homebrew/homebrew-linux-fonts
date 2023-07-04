@@ -6,6 +6,8 @@ class FontOpenSans < Formula
     (share/"fonts").install "OpenSans-Italic[wdth,wght].ttf"
     (share/"fonts").install "OpenSans[wdth,wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
