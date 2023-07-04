@@ -5,6 +5,8 @@ class FontKnewave < Formula
   def install
     (share/"fonts").install "Knewave-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
