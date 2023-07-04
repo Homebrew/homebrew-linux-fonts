@@ -5,6 +5,8 @@ class FontBuda < Formula
   def install
     (share/"fonts").install "Buda-Light.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
