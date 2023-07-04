@@ -5,6 +5,8 @@ class FontAguafinaScript < Formula
   def install
     (share/"fonts").install "AguafinaScript-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
