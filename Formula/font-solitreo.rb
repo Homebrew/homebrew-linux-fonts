@@ -6,6 +6,8 @@ class FontSolitreo < Formula
   def install
     (share/"fonts").install "Solitreo-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
