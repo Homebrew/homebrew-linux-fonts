@@ -13,6 +13,8 @@ class FontNotoSansThaiLooped < Formula
     (share/"fonts").install "NotoSansThaiLooped-SemiBold.ttf"
     (share/"fonts").install "NotoSansThaiLooped-Thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
