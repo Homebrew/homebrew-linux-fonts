@@ -5,6 +5,8 @@ class FontNotoSansPhoenician < Formula
   def install
     (share/"fonts").install "NotoSansPhoenician-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
