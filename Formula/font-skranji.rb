@@ -6,6 +6,8 @@ class FontSkranji < Formula
     (share/"fonts").install "Skranji-Bold.ttf"
     (share/"fonts").install "Skranji-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
