@@ -5,6 +5,8 @@ class FontNotoSansCoptic < Formula
   def install
     (share/"fonts").install "NotoSansCoptic-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
