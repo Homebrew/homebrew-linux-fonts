@@ -7,6 +7,8 @@ class FontHankenGrotesk < Formula
     (share/"fonts").install "HankenGrotesk-Italic[wght].ttf"
     (share/"fonts").install "HankenGrotesk[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
