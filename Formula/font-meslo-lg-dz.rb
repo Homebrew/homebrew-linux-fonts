@@ -20,6 +20,8 @@ class FontMesloLgDz < Formula
     (share/"fonts").install "#{parent}Meslo LG DZ v#{version}/MesloLGSDZ-Italic.ttf"
     (share/"fonts").install "#{parent}Meslo LG DZ v#{version}/MesloLGSDZ-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
