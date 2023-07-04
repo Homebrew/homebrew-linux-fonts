@@ -6,6 +6,8 @@ class FontNerkoOne < Formula
   def install
     (share/"fonts").install "NerkoOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
