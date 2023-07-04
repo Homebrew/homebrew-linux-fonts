@@ -5,6 +5,8 @@ class FontNotoSansHatran < Formula
   def install
     (share/"fonts").install "NotoSansHatran-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
