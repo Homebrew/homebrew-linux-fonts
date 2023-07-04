@@ -40,6 +40,8 @@ class FontNotoSerifArmenian < Formula
     (share/"fonts").install "NotoSerifArmenian-SemiCondensedThin.ttf"
     (share/"fonts").install "NotoSerifArmenian-Thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
