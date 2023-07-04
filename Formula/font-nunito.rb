@@ -6,6 +6,8 @@ class FontNunito < Formula
     (share/"fonts").install "Nunito-Italic[wght].ttf"
     (share/"fonts").install "Nunito[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
