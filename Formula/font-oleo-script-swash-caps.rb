@@ -6,6 +6,8 @@ class FontOleoScriptSwashCaps < Formula
     (share/"fonts").install "OleoScriptSwashCaps-Bold.ttf"
     (share/"fonts").install "OleoScriptSwashCaps-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
