@@ -13,6 +13,8 @@ class FontB612 < Formula
     (share/"fonts").install "#{parent}b612-master/fonts/ttf/B612Mono-Italic.ttf"
     (share/"fonts").install "#{parent}b612-master/fonts/ttf/B612Mono-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
