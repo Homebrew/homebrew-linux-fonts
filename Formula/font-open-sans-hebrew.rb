@@ -12,6 +12,8 @@ class FontOpenSansHebrew < Formula
     (share/"fonts").install "OpenSansHebrew-LightItalic.ttf"
     (share/"fonts").install "OpenSansHebrew-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
