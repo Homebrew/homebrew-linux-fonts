@@ -6,6 +6,8 @@ class FontSono < Formula
   def install
     (share/"fonts").install "Sono[MONO,wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
