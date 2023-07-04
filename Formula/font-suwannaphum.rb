@@ -9,6 +9,8 @@ class FontSuwannaphum < Formula
     (share/"fonts").install "Suwannaphum-Regular.ttf"
     (share/"fonts").install "Suwannaphum-Thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
