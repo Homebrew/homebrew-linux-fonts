@@ -10,6 +10,8 @@ class FontPtSerif < Formula
     (share/"fonts").install "PTZ55F.ttf"
     (share/"fonts").install "PTZ56F.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
