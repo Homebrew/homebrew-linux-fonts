@@ -6,6 +6,8 @@ class FontImFellDwPica < Formula
     (share/"fonts").install "IMFePIit28P.ttf"
     (share/"fonts").install "IMFePIrm28P.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
