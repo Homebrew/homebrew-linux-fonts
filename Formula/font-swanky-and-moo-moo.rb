@@ -5,6 +5,8 @@ class FontSwankyAndMooMoo < Formula
   def install
     (share/"fonts").install "SwankyandMooMoo.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
