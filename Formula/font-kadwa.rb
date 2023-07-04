@@ -6,6 +6,8 @@ class FontKadwa < Formula
     (share/"fonts").install "Kadwa-Bold.ttf"
     (share/"fonts").install "Kadwa-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
