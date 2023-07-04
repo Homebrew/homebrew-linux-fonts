@@ -8,6 +8,8 @@ class FontKaiseiDecol < Formula
     (share/"fonts").install "KaiseiDecol-Medium.ttf"
     (share/"fonts").install "KaiseiDecol-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
