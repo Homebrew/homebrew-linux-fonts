@@ -8,6 +8,8 @@ class FontCaladea < Formula
     (share/"fonts").install "Caladea-Italic.ttf"
     (share/"fonts").install "Caladea-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
