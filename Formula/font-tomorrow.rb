@@ -22,6 +22,8 @@ class FontTomorrow < Formula
     (share/"fonts").install "Tomorrow-Thin.ttf"
     (share/"fonts").install "Tomorrow-ThinItalic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
