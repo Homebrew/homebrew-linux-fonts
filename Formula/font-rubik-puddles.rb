@@ -5,6 +5,8 @@ class FontRubikPuddles < Formula
   def install
     (share/"fonts").install "RubikPuddles-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
