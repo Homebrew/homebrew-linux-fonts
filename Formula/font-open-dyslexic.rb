@@ -16,6 +16,8 @@ class FontOpenDyslexic < Formula
     (share/"fonts").install "#{parent}open-dyslexic-#{version}/otf/OpenDyslexicAlta-Regular.otf"
     (share/"fonts").install "#{parent}open-dyslexic-#{version}/otf/OpenDyslexicMono-Regular.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
