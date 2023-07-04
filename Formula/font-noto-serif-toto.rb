@@ -5,6 +5,8 @@ class FontNotoSerifToto < Formula
   def install
     (share/"fonts").install "NotoSerifToto[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
