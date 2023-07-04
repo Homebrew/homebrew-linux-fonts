@@ -10,6 +10,8 @@ class FontAnkaCoder < Formula
     (share/"fonts").install "AnkaCoder-i.ttf"
     (share/"fonts").install "AnkaCoder-r.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
