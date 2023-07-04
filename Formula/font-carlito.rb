@@ -9,6 +9,8 @@ class FontCarlito < Formula
     (share/"fonts").install "Carlito-Italic.ttf"
     (share/"fonts").install "Carlito-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
