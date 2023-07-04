@@ -56,6 +56,8 @@ class FontMonaSans < Formula
     (share/"fonts").install "#{parent}Mona Sans/OTF/Mona-Sans-UltraLightWide.otf"
     (share/"fonts").install "#{parent}Mona Sans/OTF/Mona-Sans-UltraLightWideItalic.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
