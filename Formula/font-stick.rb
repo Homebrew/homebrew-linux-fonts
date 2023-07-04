@@ -6,6 +6,8 @@ class FontStick < Formula
   def install
     (share/"fonts").install "Stick-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
