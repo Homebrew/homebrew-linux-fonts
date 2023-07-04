@@ -7,6 +7,8 @@ class FontSulphurPoint < Formula
     (share/"fonts").install "SulphurPoint-Light.ttf"
     (share/"fonts").install "SulphurPoint-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
