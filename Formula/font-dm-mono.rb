@@ -10,6 +10,8 @@ class FontDmMono < Formula
     (share/"fonts").install "DMMono-MediumItalic.ttf"
     (share/"fonts").install "DMMono-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
