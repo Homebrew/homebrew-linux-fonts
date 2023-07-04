@@ -6,6 +6,8 @@ class FontChauPhilomeneOne < Formula
     (share/"fonts").install "ChauPhilomeneOne-Italic.ttf"
     (share/"fonts").install "ChauPhilomeneOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
