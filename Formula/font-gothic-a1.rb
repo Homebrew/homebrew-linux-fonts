@@ -13,6 +13,8 @@ class FontGothicA1 < Formula
     (share/"fonts").install "GothicA1-SemiBold.ttf"
     (share/"fonts").install "GothicA1-Thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
