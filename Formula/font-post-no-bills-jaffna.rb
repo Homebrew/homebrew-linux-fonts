@@ -10,6 +10,8 @@ class FontPostNoBillsJaffna < Formula
     (share/"fonts").install "PostNoBillsJaffna-Regular.ttf"
     (share/"fonts").install "PostNoBillsJaffna-SemiBold.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
