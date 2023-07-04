@@ -40,6 +40,8 @@ class FontNotoSansEthiopic < Formula
     (share/"fonts").install "NotoSansEthiopic-SemiCondensedThin.ttf"
     (share/"fonts").install "NotoSansEthiopic-Thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
