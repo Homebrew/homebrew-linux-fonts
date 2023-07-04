@@ -71,6 +71,8 @@ class FontFiraSans < Formula
     (share/"fonts").install "#{parent}Fira-#{version}/otf/FiraSans-UltraLight.otf"
     (share/"fonts").install "#{parent}Fira-#{version}/otf/FiraSans-Ultra.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
