@@ -6,6 +6,8 @@ class FontPottaOne < Formula
   def install
     (share/"fonts").install "PottaOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
