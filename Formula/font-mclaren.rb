@@ -5,6 +5,8 @@ class FontMclaren < Formula
   def install
     (share/"fonts").install "McLaren-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
