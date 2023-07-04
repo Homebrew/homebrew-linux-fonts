@@ -5,6 +5,8 @@ class FontShortStack < Formula
   def install
     (share/"fonts").install "ShortStack-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
