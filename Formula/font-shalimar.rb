@@ -6,6 +6,8 @@ class FontShalimar < Formula
   def install
     (share/"fonts").install "Shalimar-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
