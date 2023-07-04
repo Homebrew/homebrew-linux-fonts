@@ -22,6 +22,8 @@ class FontTrirong < Formula
     (share/"fonts").install "Trirong-Thin.ttf"
     (share/"fonts").install "Trirong-ThinItalic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
