@@ -23,6 +23,8 @@ class FontMetropolis < Formula
     (share/"fonts").install "Metropolis-Thin.otf"
     (share/"fonts").install "Metropolis-ThinItalic.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
