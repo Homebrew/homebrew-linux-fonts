@@ -6,6 +6,8 @@ class FontExpletusSans < Formula
     (share/"fonts").install "ExpletusSans-Italic[wght].ttf"
     (share/"fonts").install "ExpletusSans[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
