@@ -8,6 +8,8 @@ class FontVolkhov < Formula
     (share/"fonts").install "Volkhov-Italic.ttf"
     (share/"fonts").install "Volkhov-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
