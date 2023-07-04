@@ -6,6 +6,8 @@ class FontRubik < Formula
     (share/"fonts").install "Rubik-Italic[wght].ttf"
     (share/"fonts").install "Rubik[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
