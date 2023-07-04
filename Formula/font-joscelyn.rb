@@ -7,6 +7,8 @@ class FontJoscelyn < Formula
   def install
     (share/"fonts").install "Joscelyn.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
