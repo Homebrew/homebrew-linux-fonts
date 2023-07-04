@@ -5,6 +5,8 @@ class FontOrbitron < Formula
   def install
     (share/"fonts").install "Orbitron[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
