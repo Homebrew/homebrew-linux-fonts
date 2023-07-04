@@ -6,6 +6,8 @@ class FontDmSerifText < Formula
     (share/"fonts").install "DMSerifText-Italic.ttf"
     (share/"fonts").install "DMSerifText-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
