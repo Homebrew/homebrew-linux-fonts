@@ -5,6 +5,8 @@ class FontMochiyPopOne < Formula
   def install
     (share/"fonts").install "MochiyPopOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
