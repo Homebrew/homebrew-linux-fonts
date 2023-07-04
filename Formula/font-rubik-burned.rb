@@ -5,6 +5,8 @@ class FontRubikBurned < Formula
   def install
     (share/"fonts").install "RubikBurned-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
