@@ -15,6 +15,8 @@ class FontMonoid < Formula
       brew tap sscotth/monoid
   EOS
   end
+  # No zap stanza required
+
   test do
   end
 end
