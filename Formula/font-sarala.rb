@@ -6,6 +6,8 @@ class FontSarala < Formula
     (share/"fonts").install "Sarala-Bold.ttf"
     (share/"fonts").install "Sarala-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
