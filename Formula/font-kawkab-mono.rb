@@ -10,6 +10,8 @@ class FontKawkabMono < Formula
     (share/"fonts").install "#{parent}kawkab-mono-#{version}/KawkabMono-Light.otf"
     (share/"fonts").install "#{parent}kawkab-mono-#{version}/KawkabMono-Regular.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
