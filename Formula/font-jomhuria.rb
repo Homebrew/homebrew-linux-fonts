@@ -5,6 +5,8 @@ class FontJomhuria < Formula
   def install
     (share/"fonts").install "Jomhuria-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
