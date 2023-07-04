@@ -6,6 +6,8 @@ class FontHandjet < Formula
   def install
     (share/"fonts").install "Handjet[ELGR,ELSH,wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
