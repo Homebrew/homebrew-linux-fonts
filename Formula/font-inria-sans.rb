@@ -10,6 +10,8 @@ class FontInriaSans < Formula
     (share/"fonts").install "InriaSans-LightItalic.ttf"
     (share/"fonts").install "InriaSans-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
