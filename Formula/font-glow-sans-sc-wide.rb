@@ -15,6 +15,8 @@ class FontGlowSansScWide < Formula
     (share/"fonts").install "GlowSansSC-Wide-Regular.otf"
     (share/"fonts").install "GlowSansSC-Wide-Thin.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
