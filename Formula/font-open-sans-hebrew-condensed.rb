@@ -12,6 +12,8 @@ class FontOpenSansHebrewCondensed < Formula
     (share/"fonts").install "OpenSansHebrewCondensed-LightItalic.ttf"
     (share/"fonts").install "OpenSansHebrewCondensed-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
