@@ -5,6 +5,8 @@ class FontShanti < Formula
   def install
     (share/"fonts").install "Shanti-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
