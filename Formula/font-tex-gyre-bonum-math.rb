@@ -8,6 +8,8 @@ class FontTexGyreBonumMath < Formula
     parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}texgyrebonum-math-#{version.to_s.gsub(".", "")}/opentype/texgyrebonum-math.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
