@@ -6,6 +6,8 @@ class FontNotoSansOriya < Formula
     (share/"fonts").install "NotoSansOriya-Bold.ttf"
     (share/"fonts").install "NotoSansOriya-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
