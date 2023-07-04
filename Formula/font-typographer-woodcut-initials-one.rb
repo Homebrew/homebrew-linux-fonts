@@ -5,6 +5,8 @@ class FontTypographerWoodcutInitialsOne < Formula
   def install
     (share/"fonts").install "TypographerWoodcut01.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
