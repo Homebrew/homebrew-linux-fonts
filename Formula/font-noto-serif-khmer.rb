@@ -40,6 +40,8 @@ class FontNotoSerifKhmer < Formula
     (share/"fonts").install "NotoSerifKhmer-SemiCondensedThin.ttf"
     (share/"fonts").install "NotoSerifKhmer-Thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
