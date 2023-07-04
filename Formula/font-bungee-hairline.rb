@@ -5,6 +5,8 @@ class FontBungeeHairline < Formula
   def install
     (share/"fonts").install "BungeeHairline-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
