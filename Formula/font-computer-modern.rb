@@ -40,6 +40,8 @@ class FontComputerModern < Formula
     (share/"fonts").install "#{parent}cm-unicode-#{version}/cmunvi.ttf"
     (share/"fonts").install "#{parent}cm-unicode-#{version}/cmunvt.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
