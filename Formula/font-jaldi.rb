@@ -6,6 +6,8 @@ class FontJaldi < Formula
     (share/"fonts").install "Jaldi-Bold.ttf"
     (share/"fonts").install "Jaldi-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
