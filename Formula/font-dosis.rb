@@ -5,6 +5,8 @@ class FontDosis < Formula
   def install
     (share/"fonts").install "Dosis[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
