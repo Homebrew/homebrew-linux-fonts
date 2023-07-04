@@ -72,6 +72,8 @@ class FontHubotSans < Formula
     (share/"fonts").install "#{parent}Hubot Sans/OTF/Hubot-Sans-SemiBoldWide.otf"
     (share/"fonts").install "#{parent}Hubot Sans/OTF/Hubot-Sans-SemiBoldWideItalic.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
