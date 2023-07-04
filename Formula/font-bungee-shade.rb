@@ -5,6 +5,8 @@ class FontBungeeShade < Formula
   def install
     (share/"fonts").install "BungeeShade-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
