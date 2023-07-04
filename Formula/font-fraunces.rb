@@ -7,6 +7,8 @@ class FontFraunces < Formula
     (share/"fonts").install "Fraunces-Italic[SOFT,WONK,opsz,wght].ttf"
     (share/"fonts").install "Fraunces[SOFT,WONK,opsz,wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
