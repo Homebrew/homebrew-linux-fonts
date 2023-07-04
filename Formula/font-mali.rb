@@ -16,6 +16,8 @@ class FontMali < Formula
     (share/"fonts").install "Mali-SemiBold.ttf"
     (share/"fonts").install "Mali-SemiBoldItalic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
