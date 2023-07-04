@@ -6,6 +6,8 @@ class FontShantellSans < Formula
     (share/"fonts").install "ShantellSans-Italic[BNCE,INFM,SPAC,wght].ttf"
     (share/"fonts").install "ShantellSans[BNCE,INFM,SPAC,wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
