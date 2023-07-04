@@ -5,6 +5,8 @@ class FontNotoSansImperialAramaic < Formula
   def install
     (share/"fonts").install "NotoSansImperialAramaic-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
