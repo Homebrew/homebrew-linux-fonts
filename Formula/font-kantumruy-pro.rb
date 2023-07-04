@@ -7,6 +7,8 @@ class FontKantumruyPro < Formula
     (share/"fonts").install "KantumruyPro-Italic[wght].ttf"
     (share/"fonts").install "KantumruyPro[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
