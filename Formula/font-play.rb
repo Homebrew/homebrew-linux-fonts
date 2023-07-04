@@ -6,6 +6,8 @@ class FontPlay < Formula
     (share/"fonts").install "Play-Bold.ttf"
     (share/"fonts").install "Play-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
