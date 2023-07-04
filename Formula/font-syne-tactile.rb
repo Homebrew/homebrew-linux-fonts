@@ -6,6 +6,8 @@ class FontSyneTactile < Formula
   def install
     (share/"fonts").install "SyneTactile-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
