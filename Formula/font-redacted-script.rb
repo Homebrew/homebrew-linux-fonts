@@ -7,6 +7,8 @@ class FontRedactedScript < Formula
     (share/"fonts").install "RedactedScript-Light.ttf"
     (share/"fonts").install "RedactedScript-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
