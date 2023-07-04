@@ -6,6 +6,8 @@ class FontImFellDoublePica < Formula
     (share/"fonts").install "IMFELLDoublePica-Italic.ttf"
     (share/"fonts").install "IMFELLDoublePica-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
