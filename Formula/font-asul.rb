@@ -6,6 +6,8 @@ class FontAsul < Formula
     (share/"fonts").install "Asul-Bold.ttf"
     (share/"fonts").install "Asul-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
