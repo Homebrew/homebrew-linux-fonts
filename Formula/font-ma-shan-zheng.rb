@@ -5,6 +5,8 @@ class FontMaShanZheng < Formula
   def install
     (share/"fonts").install "MaShanZheng-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
