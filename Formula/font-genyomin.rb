@@ -13,6 +13,8 @@ class FontGenyomin < Formula
     (share/"fonts").install "GenYoMin-R.ttc"
     (share/"fonts").install "GenYoMin-SB.ttc"
   end
+  # No zap stanza required
+
   test do
   end
 end
