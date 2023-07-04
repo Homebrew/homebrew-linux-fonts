@@ -78,6 +78,8 @@ class FontLatinModern < Formula
     (share/"fonts").install "lmsansquot8-oblique.otf"
     (share/"fonts").install "lmsansquot8-regular.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
