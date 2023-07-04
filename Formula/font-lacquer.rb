@@ -5,6 +5,8 @@ class FontLacquer < Formula
   def install
     (share/"fonts").install "Lacquer-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
