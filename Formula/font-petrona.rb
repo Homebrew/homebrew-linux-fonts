@@ -6,6 +6,8 @@ class FontPetrona < Formula
     (share/"fonts").install "Petrona-Italic[wght].ttf"
     (share/"fonts").install "Petrona[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
