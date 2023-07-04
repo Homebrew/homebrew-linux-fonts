@@ -5,6 +5,8 @@ class FontTitanOne < Formula
   def install
     (share/"fonts").install "TitanOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
