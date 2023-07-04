@@ -5,6 +5,8 @@ class FontLemonada < Formula
   def install
     (share/"fonts").install "Lemonada[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
