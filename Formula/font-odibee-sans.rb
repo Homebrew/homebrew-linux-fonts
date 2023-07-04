@@ -5,6 +5,8 @@ class FontOdibeeSans < Formula
   def install
     (share/"fonts").install "OdibeeSans-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
