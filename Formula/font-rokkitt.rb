@@ -7,6 +7,8 @@ class FontRokkitt < Formula
     (share/"fonts").install "Rokkitt-Italic[wght].ttf"
     (share/"fonts").install "Rokkitt[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
