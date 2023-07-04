@@ -8,6 +8,8 @@ class FontAndronScriptorWeb < Formula
     parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}AND_SCR_WEB_#{version}/Andron Scriptor Web.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
