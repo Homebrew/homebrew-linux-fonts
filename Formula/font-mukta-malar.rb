@@ -11,6 +11,8 @@ class FontMuktaMalar < Formula
     (share/"fonts").install "MuktaMalar-Regular.ttf"
     (share/"fonts").install "MuktaMalar-SemiBold.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
