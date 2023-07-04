@@ -5,6 +5,8 @@ class FontCode2002 < Formula
   def install
     (share/"fonts").install "CODE2002.TTF"
   end
+  # No zap stanza required
+
   test do
   end
 end
