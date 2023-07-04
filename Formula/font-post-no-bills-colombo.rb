@@ -10,6 +10,8 @@ class FontPostNoBillsColombo < Formula
     (share/"fonts").install "PostNoBillsColombo-Regular.ttf"
     (share/"fonts").install "PostNoBillsColombo-SemiBold.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
