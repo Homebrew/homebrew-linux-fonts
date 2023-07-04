@@ -5,6 +5,8 @@ class FontRationale < Formula
   def install
     (share/"fonts").install "Rationale-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
