@@ -9,6 +9,8 @@ class FontLuculent < Formula
     (share/"fonts").install "#{parent}luculent/luculentbi.ttf"
     (share/"fonts").install "#{parent}luculent/luculenti.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
