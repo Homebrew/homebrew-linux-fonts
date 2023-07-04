@@ -7,6 +7,8 @@ class FontZenLoop < Formula
     (share/"fonts").install "ZenLoop-Italic.ttf"
     (share/"fonts").install "ZenLoop-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
