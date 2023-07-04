@@ -6,6 +6,8 @@ class FontSignikaSc < Formula
   def install
     (share/"fonts").install "SignikaSC[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
