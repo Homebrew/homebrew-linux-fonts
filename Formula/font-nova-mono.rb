@@ -5,6 +5,8 @@ class FontNovaMono < Formula
   def install
     (share/"fonts").install "NovaMono.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
