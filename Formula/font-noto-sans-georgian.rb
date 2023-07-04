@@ -40,6 +40,8 @@ class FontNotoSansGeorgian < Formula
     (share/"fonts").install "NotoSansGeorgian-SemiCondensedThin.ttf"
     (share/"fonts").install "NotoSansGeorgian-Thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
