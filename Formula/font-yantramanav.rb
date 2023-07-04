@@ -10,6 +10,8 @@ class FontYantramanav < Formula
     (share/"fonts").install "Yantramanav-Regular.ttf"
     (share/"fonts").install "Yantramanav-Thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
