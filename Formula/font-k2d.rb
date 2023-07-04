@@ -20,6 +20,8 @@ class FontK2d < Formula
     (share/"fonts").install "K2D-Thin.ttf"
     (share/"fonts").install "K2D-ThinItalic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
