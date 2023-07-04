@@ -5,6 +5,8 @@ class FontLilyScriptOne < Formula
   def install
     (share/"fonts").install "LilyScriptOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
