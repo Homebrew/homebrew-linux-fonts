@@ -6,6 +6,8 @@ class FontFleurDeLeah < Formula
   def install
     (share/"fonts").install "FleurDeLeah-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
