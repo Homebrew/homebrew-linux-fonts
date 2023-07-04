@@ -6,6 +6,8 @@ class FontCrimsonPro < Formula
     (share/"fonts").install "CrimsonPro-Italic[wght].ttf"
     (share/"fonts").install "CrimsonPro[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
