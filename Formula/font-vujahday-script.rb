@@ -5,6 +5,8 @@ class FontVujahdayScript < Formula
   def install
     (share/"fonts").install "VujahdayScript-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
