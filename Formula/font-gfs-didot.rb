@@ -5,6 +5,8 @@ class FontGfsDidot < Formula
   def install
     (share/"fonts").install "GFSDidot-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
