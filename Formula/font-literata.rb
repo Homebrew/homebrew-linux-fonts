@@ -6,6 +6,8 @@ class FontLiterata < Formula
     (share/"fonts").install "Literata-Italic[opsz,wght].ttf"
     (share/"fonts").install "Literata[opsz,wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
