@@ -52,6 +52,8 @@ class FontCormorant < Formula
     (share/"fonts").install "#{parent}Cormorant_Install_v#{version}/1. TrueType Font Files/CormorantUpright-Regular.ttf"
     (share/"fonts").install "#{parent}Cormorant_Install_v#{version}/1. TrueType Font Files/CormorantUpright-SemiBold.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
