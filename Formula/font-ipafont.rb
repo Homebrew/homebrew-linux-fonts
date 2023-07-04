@@ -11,6 +11,8 @@ class FontIpafont < Formula
     (share/"fonts").install "#{parent}IPAfont#{version.to_s.gsub(".", "")}/ipam.ttf"
     (share/"fonts").install "#{parent}IPAfont#{version.to_s.gsub(".", "")}/ipamp.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
