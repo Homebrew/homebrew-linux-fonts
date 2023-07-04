@@ -8,6 +8,8 @@ class FontNotoSansOriyaUi < Formula
     (share/"fonts").install "NotoSansOriyaUI-Regular.ttf"
     (share/"fonts").install "NotoSansOriyaUI-Thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
