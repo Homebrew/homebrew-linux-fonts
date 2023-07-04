@@ -8,6 +8,8 @@ class FontB612Mono < Formula
     (share/"fonts").install "B612Mono-Italic.ttf"
     (share/"fonts").install "B612Mono-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
