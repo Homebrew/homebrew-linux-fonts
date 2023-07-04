@@ -5,6 +5,8 @@ class FontKottaOne < Formula
   def install
     (share/"fonts").install "KottaOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
