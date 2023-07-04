@@ -8,6 +8,8 @@ class FontHanamina < Formula
     (share/"fonts").install "HanaMinA.ttf"
     (share/"fonts").install "HanaMinB.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
