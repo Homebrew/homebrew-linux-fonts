@@ -20,6 +20,8 @@ class FontCooperHewitt < Formula
     (share/"fonts").install "#{parent}CooperHewitt-OTF-public/CooperHewitt-Thin.otf"
     (share/"fonts").install "#{parent}CooperHewitt-OTF-public/CooperHewitt-ThinItalic.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
