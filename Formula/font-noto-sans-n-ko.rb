@@ -5,6 +5,8 @@ class FontNotoSansNKo < Formula
   def install
     (share/"fonts").install "NotoSansNKo-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
