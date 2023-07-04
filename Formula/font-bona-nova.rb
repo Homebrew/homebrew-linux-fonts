@@ -8,6 +8,8 @@ class FontBonaNova < Formula
     (share/"fonts").install "BonaNova-Italic.ttf"
     (share/"fonts").install "BonaNova-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
