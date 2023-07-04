@@ -6,6 +6,8 @@ class FontCabinSketch < Formula
     (share/"fonts").install "CabinSketch-Bold.ttf"
     (share/"fonts").install "CabinSketch-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
