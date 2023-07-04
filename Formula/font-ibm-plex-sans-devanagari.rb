@@ -11,6 +11,8 @@ class FontIbmPlexSansDevanagari < Formula
     (share/"fonts").install "IBMPlexSansDevanagari-SemiBold.ttf"
     (share/"fonts").install "IBMPlexSansDevanagari-Thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
