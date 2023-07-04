@@ -10,6 +10,8 @@ class FontPridi < Formula
     (share/"fonts").install "Pridi-Regular.ttf"
     (share/"fonts").install "Pridi-SemiBold.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
