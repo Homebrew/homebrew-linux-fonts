@@ -5,6 +5,8 @@ class FontMacondoSwashCaps < Formula
   def install
     (share/"fonts").install "MacondoSwashCaps-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
