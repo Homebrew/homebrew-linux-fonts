@@ -5,6 +5,8 @@ class FontNotoSansKhudawadi < Formula
   def install
     (share/"fonts").install "NotoSansKhudawadi-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
