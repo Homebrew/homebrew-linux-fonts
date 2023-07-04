@@ -8,6 +8,8 @@ class FontCaudex < Formula
     (share/"fonts").install "Caudex-Italic.ttf"
     (share/"fonts").install "Caudex-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
