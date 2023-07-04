@@ -8,6 +8,8 @@ class FontUbuntuMonoDerivativePowerline < Formula
     (share/"fonts").install "Ubuntu Mono derivative Powerline Bold Italic.ttf"
     (share/"fonts").install "Ubuntu Mono derivative Powerline Italic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
