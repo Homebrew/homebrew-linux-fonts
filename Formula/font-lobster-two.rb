@@ -8,6 +8,8 @@ class FontLobsterTwo < Formula
     (share/"fonts").install "LobsterTwo-Italic.ttf"
     (share/"fonts").install "LobsterTwo-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
