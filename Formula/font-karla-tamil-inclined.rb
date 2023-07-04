@@ -6,6 +6,8 @@ class FontKarlaTamilInclined < Formula
     (share/"fonts").install "KarlaTamilInclined-Bold.ttf"
     (share/"fonts").install "KarlaTamilInclined-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
