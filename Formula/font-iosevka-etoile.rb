@@ -16,6 +16,8 @@ class FontIosevkaEtoile < Formula
     (share/"fonts").install "iosevka-etoile-semibold.ttc"
     (share/"fonts").install "iosevka-etoile-thin.ttc"
   end
+  # No zap stanza required
+
   test do
   end
 end
