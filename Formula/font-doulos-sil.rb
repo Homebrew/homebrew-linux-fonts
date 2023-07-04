@@ -9,6 +9,8 @@ class FontDoulosSil < Formula
     parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}DoulosSIL-#{version}/DoulosSIL-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
