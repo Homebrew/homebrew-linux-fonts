@@ -11,6 +11,8 @@ class FontIbmPlexSansJp < Formula
     (share/"fonts").install "IBMPlexSansJP-SemiBold.ttf"
     (share/"fonts").install "IBMPlexSansJP-Thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
