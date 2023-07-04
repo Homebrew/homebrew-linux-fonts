@@ -5,6 +5,8 @@ class FontCuteFont < Formula
   def install
     (share/"fonts").install "CuteFont-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
