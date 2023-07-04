@@ -5,6 +5,8 @@ class FontAnticDidone < Formula
   def install
     (share/"fonts").install "AnticDidone-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
