@@ -11,6 +11,8 @@ class FontMartelSans < Formula
     (share/"fonts").install "MartelSans-Regular.ttf"
     (share/"fonts").install "MartelSans-SemiBold.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
