@@ -5,6 +5,8 @@ class FontYellowtail < Formula
   def install
     (share/"fonts").install "Yellowtail-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
