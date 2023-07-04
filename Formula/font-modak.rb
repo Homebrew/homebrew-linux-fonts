@@ -5,6 +5,8 @@ class FontModak < Formula
   def install
     (share/"fonts").install "Modak-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
