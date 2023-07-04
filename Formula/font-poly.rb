@@ -6,6 +6,8 @@ class FontPoly < Formula
     (share/"fonts").install "Poly-Italic.ttf"
     (share/"fonts").install "Poly-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
