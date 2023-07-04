@@ -5,6 +5,8 @@ class FontJsmathCmti10 < Formula
   def install
     (share/"fonts").install "jsMath-cmti10.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
