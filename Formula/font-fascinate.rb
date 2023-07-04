@@ -5,6 +5,8 @@ class FontFascinate < Formula
   def install
     (share/"fonts").install "Fascinate-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
