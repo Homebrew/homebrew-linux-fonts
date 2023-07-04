@@ -13,6 +13,8 @@ class FontGenyogothic < Formula
     (share/"fonts").install "GenYoGothic-N.ttc"
     (share/"fonts").install "GenYoGothic-R.ttc"
   end
+  # No zap stanza required
+
   test do
   end
 end
