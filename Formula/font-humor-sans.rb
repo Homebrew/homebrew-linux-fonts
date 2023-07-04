@@ -7,6 +7,8 @@ class FontHumorSans < Formula
   def install
     (share/"fonts").install "Humor-Sans-#{version}.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
