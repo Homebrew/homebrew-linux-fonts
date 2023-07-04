@@ -8,6 +8,8 @@ class FontQuantico < Formula
     (share/"fonts").install "Quantico-Italic.ttf"
     (share/"fonts").install "Quantico-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
