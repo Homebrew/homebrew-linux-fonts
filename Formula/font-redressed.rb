@@ -5,6 +5,8 @@ class FontRedressed < Formula
   def install
     (share/"fonts").install "Redressed-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
