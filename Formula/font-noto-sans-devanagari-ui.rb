@@ -13,6 +13,8 @@ class FontNotoSansDevanagariUi < Formula
     (share/"fonts").install "NotoSansDevanagariUI-SemiBold.ttf"
     (share/"fonts").install "NotoSansDevanagariUI-Thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
