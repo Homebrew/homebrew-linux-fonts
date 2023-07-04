@@ -6,6 +6,8 @@ class FontSourceSans3 < Formula
     (share/"fonts").install "SourceSans3-Italic[wght].ttf"
     (share/"fonts").install "SourceSans3[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
