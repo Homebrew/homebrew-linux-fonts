@@ -17,6 +17,8 @@ class FontPretendard < Formula
     (share/"fonts").install "#{parent}public/static/Pretendard-SemiBold.otf"
     (share/"fonts").install "#{parent}public/static/Pretendard-Thin.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
