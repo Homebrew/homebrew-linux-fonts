@@ -7,6 +7,8 @@ class FontJudson < Formula
     (share/"fonts").install "Judson-Italic.ttf"
     (share/"fonts").install "Judson-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
