@@ -5,6 +5,8 @@ class FontNotoSansJavanese < Formula
   def install
     (share/"fonts").install "NotoSansJavanese-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
