@@ -76,6 +76,8 @@ class FontNotoSansDevanagari < Formula
     (share/"fonts").install "NotoSansDevanagariUI-SemiCondensedThin.ttf"
     (share/"fonts").install "NotoSansDevanagariUI-Thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
