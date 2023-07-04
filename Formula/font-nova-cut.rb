@@ -5,6 +5,8 @@ class FontNovaCut < Formula
   def install
     (share/"fonts").install "NovaCut.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
