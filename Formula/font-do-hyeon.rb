@@ -5,6 +5,8 @@ class FontDoHyeon < Formula
   def install
     (share/"fonts").install "DoHyeon-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
