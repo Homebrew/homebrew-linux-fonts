@@ -5,6 +5,8 @@ class FontLalezar < Formula
   def install
     (share/"fonts").install "Lalezar-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
