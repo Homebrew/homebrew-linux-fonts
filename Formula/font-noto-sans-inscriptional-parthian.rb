@@ -5,6 +5,8 @@ class FontNotoSansInscriptionalParthian < Formula
   def install
     (share/"fonts").install "NotoSansInscriptionalParthian-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
