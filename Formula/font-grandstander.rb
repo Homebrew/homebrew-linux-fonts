@@ -7,6 +7,8 @@ class FontGrandstander < Formula
     (share/"fonts").install "Grandstander-Italic[wght].ttf"
     (share/"fonts").install "Grandstander[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
