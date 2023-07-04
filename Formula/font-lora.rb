@@ -6,6 +6,8 @@ class FontLora < Formula
     (share/"fonts").install "Lora-Italic[wght].ttf"
     (share/"fonts").install "Lora[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
