@@ -12,6 +12,8 @@ class FontMerriweather < Formula
     (share/"fonts").install "Merriweather-LightItalic.ttf"
     (share/"fonts").install "Merriweather-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
