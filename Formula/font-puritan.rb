@@ -8,6 +8,8 @@ class FontPuritan < Formula
     (share/"fonts").install "Puritan-Italic.ttf"
     (share/"fonts").install "Puritan-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
