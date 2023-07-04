@@ -6,6 +6,8 @@ class FontAdinathaTamilBrahmi < Formula
     parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}Adinatha-Tamil-Brahmi/Adinatha-Tamil-Brahmi.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
