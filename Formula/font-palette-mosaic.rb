@@ -5,6 +5,8 @@ class FontPaletteMosaic < Formula
   def install
     (share/"fonts").install "PaletteMosaic-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
