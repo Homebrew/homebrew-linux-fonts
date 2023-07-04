@@ -6,6 +6,8 @@ class FontNotoSerifKhojki < Formula
   def install
     (share/"fonts").install "NotoSerifKhojki[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
