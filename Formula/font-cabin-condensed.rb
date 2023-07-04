@@ -8,6 +8,8 @@ class FontCabinCondensed < Formula
     (share/"fonts").install "CabinCondensed-Regular.ttf"
     (share/"fonts").install "CabinCondensed-SemiBold.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
