@@ -11,6 +11,8 @@ class FontNotoSerifCjkJp < Formula
     (share/"fonts").install "NotoSerifCJKjp-Regular.otf"
     (share/"fonts").install "NotoSerifCJKjp-SemiBold.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
