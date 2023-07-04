@@ -35,6 +35,8 @@ class FontMartianMono < Formula
     (share/"fonts").install "MartianMono-sWdxBd.otf"
     (share/"fonts").install "MartianMono-sWdxLt.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
