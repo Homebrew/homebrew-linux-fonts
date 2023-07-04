@@ -5,6 +5,8 @@ class FontHoltwoodOneSc < Formula
   def install
     (share/"fonts").install "HoltwoodOneSC.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
