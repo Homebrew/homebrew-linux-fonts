@@ -5,6 +5,8 @@ class FontSofadiOne < Formula
   def install
     (share/"fonts").install "SofadiOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
