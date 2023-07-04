@@ -9,6 +9,8 @@ class FontChathura < Formula
     (share/"fonts").install "Chathura-Regular.ttf"
     (share/"fonts").install "Chathura-Thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
