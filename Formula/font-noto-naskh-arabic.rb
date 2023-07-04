@@ -6,6 +6,8 @@ class FontNotoNaskhArabic < Formula
     (share/"fonts").install "NotoNaskhArabic-Bold.ttf"
     (share/"fonts").install "NotoNaskhArabic-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
