@@ -7,6 +7,8 @@ class FontMulish < Formula
     (share/"fonts").install "Mulish-Italic[wght].ttf"
     (share/"fonts").install "Mulish[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
