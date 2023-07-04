@@ -5,6 +5,8 @@ class FontMerienda < Formula
   def install
     (share/"fonts").install "Merienda[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
