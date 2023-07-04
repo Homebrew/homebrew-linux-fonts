@@ -5,6 +5,8 @@ class FontCaveatBrush < Formula
   def install
     (share/"fonts").install "CaveatBrush-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
