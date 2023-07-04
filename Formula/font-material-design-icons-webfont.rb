@@ -5,6 +5,8 @@ class FontMaterialDesignIconsWebfont < Formula
   def install
     (share/"fonts").install "materialdesignicons-webfont.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
