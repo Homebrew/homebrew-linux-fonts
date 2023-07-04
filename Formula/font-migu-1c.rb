@@ -9,6 +9,8 @@ class FontMigu1c < Formula
     (share/"fonts").install "#{parent}migu-1c-#{version}/migu-1c-bold.ttf"
     (share/"fonts").install "#{parent}migu-1c-#{version}/migu-1c-regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
