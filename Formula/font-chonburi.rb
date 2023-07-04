@@ -5,6 +5,8 @@ class FontChonburi < Formula
   def install
     (share/"fonts").install "Chonburi-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
