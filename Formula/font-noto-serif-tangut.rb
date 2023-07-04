@@ -5,6 +5,8 @@ class FontNotoSerifTangut < Formula
   def install
     (share/"fonts").install "NotoSerifTangut-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
