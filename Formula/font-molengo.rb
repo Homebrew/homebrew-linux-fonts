@@ -5,6 +5,8 @@ class FontMolengo < Formula
   def install
     (share/"fonts").install "Molengo-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
