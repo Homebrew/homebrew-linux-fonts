@@ -14,6 +14,8 @@ class FontOstrichSans < Formula
     (share/"fonts").install "#{parent}ostrich-sans-master/OstrichSansInline-Regular.otf"
     (share/"fonts").install "#{parent}ostrich-sans-master/OstrichSansRounded-Medium.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
