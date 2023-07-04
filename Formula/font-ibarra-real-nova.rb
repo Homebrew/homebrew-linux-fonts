@@ -6,6 +6,8 @@ class FontIbarraRealNova < Formula
     (share/"fonts").install "IbarraRealNova-Italic[wght].ttf"
     (share/"fonts").install "IbarraRealNova[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
