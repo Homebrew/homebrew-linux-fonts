@@ -5,6 +5,8 @@ class FontMada < Formula
   def install
     (share/"fonts").install "Mada[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
