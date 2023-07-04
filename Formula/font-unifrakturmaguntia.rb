@@ -5,6 +5,8 @@ class FontUnifrakturmaguntia < Formula
   def install
     (share/"fonts").install "UnifrakturMaguntia-Book.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
