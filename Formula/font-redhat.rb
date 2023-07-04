@@ -30,6 +30,8 @@ class FontRedhat < Formula
     (share/"fonts").install "#{parent}RedHatFont-#{version}/fonts/proportional/RedHatTextVF-Italic[wght].ttf"
     (share/"fonts").install "#{parent}RedHatFont-#{version}/fonts/proportional/RedHatTextVF[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
