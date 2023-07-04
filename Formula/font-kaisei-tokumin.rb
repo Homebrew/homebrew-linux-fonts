@@ -9,6 +9,8 @@ class FontKaiseiTokumin < Formula
     (share/"fonts").install "KaiseiTokumin-Medium.ttf"
     (share/"fonts").install "KaiseiTokumin-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
