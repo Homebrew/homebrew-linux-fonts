@@ -6,6 +6,8 @@ class FontNotoSerifKannada < Formula
     (share/"fonts").install "NotoSerifKannada-Bold.ttf"
     (share/"fonts").install "NotoSerifKannada-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
