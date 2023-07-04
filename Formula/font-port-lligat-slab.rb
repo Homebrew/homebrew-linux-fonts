@@ -5,6 +5,8 @@ class FontPortLligatSlab < Formula
   def install
     (share/"fonts").install "PortLligatSlab-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
