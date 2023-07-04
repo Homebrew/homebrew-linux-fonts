@@ -7,6 +7,8 @@ class FontFamiljenGrotesk < Formula
     (share/"fonts").install "FamiljenGrotesk-Italic[wght].ttf"
     (share/"fonts").install "FamiljenGrotesk[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
