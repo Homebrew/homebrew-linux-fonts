@@ -5,6 +5,8 @@ class FontFrederickaTheGreat < Formula
   def install
     (share/"fonts").install "FrederickatheGreat-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
