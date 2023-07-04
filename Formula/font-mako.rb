@@ -5,6 +5,8 @@ class FontMako < Formula
   def install
     (share/"fonts").install "Mako-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
