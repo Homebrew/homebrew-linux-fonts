@@ -8,6 +8,8 @@ class FontAboriginalSerif < Formula
     (share/"fonts").install "AboriginalSerifBOLDITALIC.ttf"
     (share/"fonts").install "AboriginalSerifITALIC.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
