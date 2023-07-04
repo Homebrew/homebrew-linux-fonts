@@ -5,6 +5,8 @@ class FontJulee < Formula
   def install
     (share/"fonts").install "Julee-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
