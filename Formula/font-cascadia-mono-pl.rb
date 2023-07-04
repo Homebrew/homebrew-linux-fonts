@@ -10,6 +10,8 @@ class FontCascadiaMonoPl < Formula
     (share/"fonts").install "#{parent}ttf/CascadiaMonoPL.ttf"
     (share/"fonts").install "#{parent}ttf/CascadiaMonoPLItalic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
