@@ -9,6 +9,8 @@ class FontAverageMono < Formula
     (share/"fonts").install "#{parent}AverageMono/AverageMonoItalic.otf"
     (share/"fonts").install "#{parent}AverageMono/AverageMonoBoldItalic.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
