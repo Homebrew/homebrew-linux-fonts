@@ -5,6 +5,8 @@ class FontButterflyKids < Formula
   def install
     (share/"fonts").install "ButterflyKids-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
