@@ -6,6 +6,8 @@ class FontSintony < Formula
     (share/"fonts").install "Sintony-Bold.ttf"
     (share/"fonts").install "Sintony-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
