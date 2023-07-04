@@ -5,6 +5,8 @@ class FontNotoSansMro < Formula
   def install
     (share/"fonts").install "NotoSansMro-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
