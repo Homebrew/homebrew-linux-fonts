@@ -6,6 +6,8 @@ class FontAlexandria < Formula
   def install
     (share/"fonts").install "Alexandria[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
