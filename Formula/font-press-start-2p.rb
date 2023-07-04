@@ -5,6 +5,8 @@ class FontPressStart2p < Formula
   def install
     (share/"fonts").install "PressStart2P-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
