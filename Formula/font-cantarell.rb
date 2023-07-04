@@ -8,6 +8,8 @@ class FontCantarell < Formula
     (share/"fonts").install "Cantarell-Italic.ttf"
     (share/"fonts").install "Cantarell-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
