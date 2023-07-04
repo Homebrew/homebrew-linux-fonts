@@ -6,6 +6,8 @@ class FontCoustard < Formula
     (share/"fonts").install "Coustard-Black.ttf"
     (share/"fonts").install "Coustard-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
