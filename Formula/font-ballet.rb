@@ -6,6 +6,8 @@ class FontBallet < Formula
   def install
     (share/"fonts").install "Ballet[opsz].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
