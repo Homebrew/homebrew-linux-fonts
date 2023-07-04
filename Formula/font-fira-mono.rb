@@ -10,6 +10,8 @@ class FontFiraMono < Formula
     (share/"fonts").install "#{parent}Fira-#{version.to_s.sub(/.*,/, "")}/otf/FiraMono-Medium.otf"
     (share/"fonts").install "#{parent}Fira-#{version.to_s.sub(/.*,/, "")}/otf/FiraMono-Regular.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
