@@ -19,6 +19,8 @@ class FontFreefont < Formula
     (share/"fonts").install "#{parent}freefont-#{version}/FreeSerifBoldItalic.otf"
     (share/"fonts").install "#{parent}freefont-#{version}/FreeSerifItalic.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
