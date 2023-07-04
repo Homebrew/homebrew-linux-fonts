@@ -76,6 +76,8 @@ class FontNotoSans < Formula
     (share/"fonts").install "NotoSans-Thin.ttf"
     (share/"fonts").install "NotoSans-ThinItalic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
