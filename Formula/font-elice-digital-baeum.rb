@@ -6,6 +6,8 @@ class FontEliceDigitalBaeum < Formula
     (share/"fonts").install "EliceDigitalBaeumOTF_Regular.otf"
     (share/"fonts").install "EliceDigitalBaeumOTF_Bold.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
