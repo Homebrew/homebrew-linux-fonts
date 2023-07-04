@@ -7,6 +7,8 @@ class FontAsapVfBeta < Formula
     (share/"fonts").install "AsapVFBeta-Italic.ttf"
     (share/"fonts").install "AsapVFBeta.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
