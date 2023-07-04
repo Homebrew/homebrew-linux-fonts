@@ -5,6 +5,8 @@ class FontLaoSansPro < Formula
   def install
     (share/"fonts").install "LaoSansPro-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
