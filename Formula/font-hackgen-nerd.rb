@@ -12,6 +12,8 @@ class FontHackgenNerd < Formula
     (share/"fonts").install "#{parent}HackGen_NF_v#{version}/HackGenConsoleNF-Bold.ttf"
     (share/"fonts").install "#{parent}HackGen_NF_v#{version}/HackGenConsoleNF-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
