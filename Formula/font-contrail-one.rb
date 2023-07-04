@@ -5,6 +5,8 @@ class FontContrailOne < Formula
   def install
     (share/"fonts").install "ContrailOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
