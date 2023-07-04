@@ -7,6 +7,8 @@ class FontGantari < Formula
     (share/"fonts").install "Gantari-Italic[wght].ttf"
     (share/"fonts").install "Gantari[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
