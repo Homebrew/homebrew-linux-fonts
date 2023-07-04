@@ -6,6 +6,8 @@ class FontRadley < Formula
     (share/"fonts").install "Radley-Italic.ttf"
     (share/"fonts").install "Radley-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
