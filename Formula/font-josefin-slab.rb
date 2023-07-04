@@ -6,6 +6,8 @@ class FontJosefinSlab < Formula
     (share/"fonts").install "JosefinSlab-Italic[wght].ttf"
     (share/"fonts").install "JosefinSlab[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
