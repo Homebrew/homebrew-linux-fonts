@@ -7,6 +7,8 @@ class FontSchibstedGrotesk < Formula
     (share/"fonts").install "SchibstedGrotesk-Italic[wght].ttf"
     (share/"fonts").install "SchibstedGrotesk[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
