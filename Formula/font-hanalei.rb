@@ -5,6 +5,8 @@ class FontHanalei < Formula
   def install
     (share/"fonts").install "Hanalei-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
