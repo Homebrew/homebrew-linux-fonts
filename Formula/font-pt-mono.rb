@@ -6,6 +6,8 @@ class FontPtMono < Formula
     (share/"fonts").install "PTM55F.ttf"
     (share/"fonts").install "PTM75F.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
