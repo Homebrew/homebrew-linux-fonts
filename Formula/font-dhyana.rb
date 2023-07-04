@@ -6,6 +6,8 @@ class FontDhyana < Formula
     (share/"fonts").install "Dhyana-Bold.ttf"
     (share/"fonts").install "Dhyana-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
