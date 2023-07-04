@@ -5,6 +5,8 @@ class FontOriginalSurfer < Formula
   def install
     (share/"fonts").install "OriginalSurfer-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
