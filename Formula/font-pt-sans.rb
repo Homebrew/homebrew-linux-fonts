@@ -12,6 +12,8 @@ class FontPtSans < Formula
     (share/"fonts").install "PTS75F.ttf"
     (share/"fonts").install "PTS76F.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
