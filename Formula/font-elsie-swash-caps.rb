@@ -6,6 +6,8 @@ class FontElsieSwashCaps < Formula
     (share/"fonts").install "ElsieSwashCaps-Black.ttf"
     (share/"fonts").install "ElsieSwashCaps-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
