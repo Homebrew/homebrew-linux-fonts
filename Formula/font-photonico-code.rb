@@ -8,6 +8,8 @@ class FontPhotonicoCode < Formula
   def install
     (share/"fonts").install "Photonico.#{version}.Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
