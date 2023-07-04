@@ -5,6 +5,8 @@ class FontOswald < Formula
   def install
     (share/"fonts").install "Oswald[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
