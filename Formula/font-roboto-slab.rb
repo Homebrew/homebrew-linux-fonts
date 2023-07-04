@@ -5,6 +5,8 @@ class FontRobotoSlab < Formula
   def install
     (share/"fonts").install "RobotoSlab[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
