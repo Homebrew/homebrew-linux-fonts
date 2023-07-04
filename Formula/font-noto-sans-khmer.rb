@@ -76,6 +76,8 @@ class FontNotoSansKhmer < Formula
     (share/"fonts").install "NotoSansKhmerUI-SemiCondensedThin.ttf"
     (share/"fonts").install "NotoSansKhmerUI-Thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
