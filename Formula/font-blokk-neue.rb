@@ -5,6 +5,8 @@ class FontBlokkNeue < Formula
   def install
     (share/"fonts").install "BLOKKNeue-Regular.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
