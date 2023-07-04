@@ -11,6 +11,8 @@ class FontTajawal < Formula
     (share/"fonts").install "Tajawal-Medium.ttf"
     (share/"fonts").install "Tajawal-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
