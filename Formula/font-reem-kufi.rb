@@ -5,6 +5,8 @@ class FontReemKufi < Formula
   def install
     (share/"fonts").install "ReemKufi[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
