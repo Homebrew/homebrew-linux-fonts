@@ -5,6 +5,8 @@ class FontNotoSansCarian < Formula
   def install
     (share/"fonts").install "NotoSansCarian-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
