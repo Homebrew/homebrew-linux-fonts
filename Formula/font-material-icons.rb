@@ -8,6 +8,8 @@ class FontMaterialIcons < Formula
     parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}material-design-icons-#{version}/iconfont/MaterialIcons-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
