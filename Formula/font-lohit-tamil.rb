@@ -5,6 +5,8 @@ class FontLohitTamil < Formula
   def install
     (share/"fonts").install "Lohit-Tamil.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
