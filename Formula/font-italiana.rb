@@ -5,6 +5,8 @@ class FontItaliana < Formula
   def install
     (share/"fonts").install "Italiana-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
