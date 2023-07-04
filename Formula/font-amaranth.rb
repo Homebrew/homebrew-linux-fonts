@@ -8,6 +8,8 @@ class FontAmaranth < Formula
     (share/"fonts").install "Amaranth-Italic.ttf"
     (share/"fonts").install "Amaranth-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
