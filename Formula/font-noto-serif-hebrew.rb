@@ -40,6 +40,8 @@ class FontNotoSerifHebrew < Formula
     (share/"fonts").install "NotoSerifHebrew-SemiCondensedThin.ttf"
     (share/"fonts").install "NotoSerifHebrew-Thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
