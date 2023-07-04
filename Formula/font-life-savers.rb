@@ -7,6 +7,8 @@ class FontLifeSavers < Formula
     (share/"fonts").install "LifeSavers-ExtraBold.ttf"
     (share/"fonts").install "LifeSavers-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
