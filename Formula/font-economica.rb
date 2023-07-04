@@ -8,6 +8,8 @@ class FontEconomica < Formula
     (share/"fonts").install "Economica-Italic.ttf"
     (share/"fonts").install "Economica-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
