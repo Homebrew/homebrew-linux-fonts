@@ -6,6 +6,8 @@ class FontChiayiCity < Formula
   def install
     (share/"fonts").install "ChiayiCity.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
