@@ -15,6 +15,8 @@ class FontMononoki < Formula
     (share/"fonts").install "mononoki-Regular.otf"
     (share/"fonts").install "mononoki-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
