@@ -5,6 +5,8 @@ class FontPoetsenOne < Formula
   def install
     (share/"fonts").install "PoetsenOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
