@@ -13,6 +13,8 @@ class FontEncodeSansExpanded < Formula
     (share/"fonts").install "EncodeSansExpanded-SemiBold.ttf"
     (share/"fonts").install "EncodeSansExpanded-Thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
