@@ -46,6 +46,8 @@ class FontUrbanist < Formula
     (share/"fonts").install "#{parent}Urbanist-fonts/fonts/variable/Urbanist[ital,wght].ttf"
     (share/"fonts").install "#{parent}Urbanist-fonts/fonts/variable/Urbanist[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
