@@ -27,6 +27,8 @@ class FontAlegreya < Formula
     (share/"fonts").install "#{parent}Alegreya-#{version}/fonts/otf/AlegreyaSC-MediumItalic.otf"
     (share/"fonts").install "#{parent}Alegreya-#{version}/fonts/otf/AlegreyaSC-Regular.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
