@@ -9,6 +9,8 @@ class FontKhula < Formula
     (share/"fonts").install "Khula-Regular.ttf"
     (share/"fonts").install "Khula-SemiBold.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
