@@ -17,6 +17,8 @@ class FontImFellTypes < Formula
     (share/"fonts").install "IMFePIrm29C.otf"
     (share/"fonts").install "IMFeTLrm29C.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
