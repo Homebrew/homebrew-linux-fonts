@@ -6,6 +6,8 @@ class FontMontserratSubrayada < Formula
     (share/"fonts").install "MontserratSubrayada-Bold.ttf"
     (share/"fonts").install "MontserratSubrayada-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
