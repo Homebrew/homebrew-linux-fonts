@@ -7,6 +7,8 @@ class FontTiroDevanagariMarathi < Formula
     (share/"fonts").install "TiroDevanagariMarathi-Italic.ttf"
     (share/"fonts").install "TiroDevanagariMarathi-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
