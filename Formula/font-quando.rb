@@ -5,6 +5,8 @@ class FontQuando < Formula
   def install
     (share/"fonts").install "Quando-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
