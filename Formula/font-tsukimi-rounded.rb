@@ -10,6 +10,8 @@ class FontTsukimiRounded < Formula
     (share/"fonts").install "TsukimiRounded-Regular.ttf"
     (share/"fonts").install "TsukimiRounded-SemiBold.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
