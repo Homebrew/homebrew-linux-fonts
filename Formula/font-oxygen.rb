@@ -7,6 +7,8 @@ class FontOxygen < Formula
     (share/"fonts").install "Oxygen-Light.ttf"
     (share/"fonts").install "Oxygen-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
