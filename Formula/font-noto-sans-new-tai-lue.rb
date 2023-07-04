@@ -5,6 +5,8 @@ class FontNotoSansNewTaiLue < Formula
   def install
     (share/"fonts").install "NotoSansNewTaiLue-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
