@@ -5,6 +5,8 @@ class FontKellySlab < Formula
   def install
     (share/"fonts").install "KellySlab-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
