@@ -5,6 +5,8 @@ class FontIrishGrover < Formula
   def install
     (share/"fonts").install "IrishGrover-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
