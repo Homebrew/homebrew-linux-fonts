@@ -5,6 +5,8 @@ class FontBaumans < Formula
   def install
     (share/"fonts").install "Baumans-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
