@@ -5,6 +5,8 @@ class FontGlassAntiqua < Formula
   def install
     (share/"fonts").install "GlassAntiqua-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
