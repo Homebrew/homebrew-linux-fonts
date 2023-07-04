@@ -6,6 +6,8 @@ class FontAmaticSc < Formula
     (share/"fonts").install "AmaticSC-Bold.ttf"
     (share/"fonts").install "AmaticSC-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
