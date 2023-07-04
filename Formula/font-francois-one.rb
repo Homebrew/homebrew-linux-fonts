@@ -5,6 +5,8 @@ class FontFrancoisOne < Formula
   def install
     (share/"fonts").install "FrancoisOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
