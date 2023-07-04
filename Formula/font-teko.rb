@@ -9,6 +9,8 @@ class FontTeko < Formula
     (share/"fonts").install "Teko-Regular.ttf"
     (share/"fonts").install "Teko-SemiBold.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
