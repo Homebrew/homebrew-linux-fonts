@@ -7,6 +7,8 @@ class FontTiroGurmukhi < Formula
     (share/"fonts").install "TiroGurmukhi-Italic.ttf"
     (share/"fonts").install "TiroGurmukhi-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
