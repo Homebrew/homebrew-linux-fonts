@@ -5,6 +5,8 @@ class FontSquadaOne < Formula
   def install
     (share/"fonts").install "SquadaOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
