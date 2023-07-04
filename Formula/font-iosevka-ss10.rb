@@ -16,6 +16,8 @@ class FontIosevkaSs10 < Formula
     (share/"fonts").install "iosevka-ss10-semibold.ttc"
     (share/"fonts").install "iosevka-ss10-thin.ttc"
   end
+  # No zap stanza required
+
   test do
   end
 end
