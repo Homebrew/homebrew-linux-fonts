@@ -6,6 +6,8 @@ class FontImFellFrenchCanon < Formula
     (share/"fonts").install "IMFeFCit28P.ttf"
     (share/"fonts").install "IMFeFCrm28P.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
