@@ -14,6 +14,8 @@ class FontKulimPark < Formula
     (share/"fonts").install "KulimPark-SemiBold.ttf"
     (share/"fonts").install "KulimPark-SemiBoldItalic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
