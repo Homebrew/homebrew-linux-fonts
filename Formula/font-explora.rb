@@ -6,6 +6,8 @@ class FontExplora < Formula
   def install
     (share/"fonts").install "Explora-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
