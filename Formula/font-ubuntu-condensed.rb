@@ -5,6 +5,8 @@ class FontUbuntuCondensed < Formula
   def install
     (share/"fonts").install "UbuntuCondensed-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
