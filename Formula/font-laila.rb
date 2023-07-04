@@ -11,6 +11,8 @@ class FontLaila < Formula
     (share/"fonts").install "Laila-Regular.otf"
     (share/"fonts").install "Laila-SemiBold.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
