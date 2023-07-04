@@ -5,6 +5,8 @@ class FontNotoSansBassaVah < Formula
   def install
     (share/"fonts").install "NotoSansBassaVah[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
