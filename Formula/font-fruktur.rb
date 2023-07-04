@@ -6,6 +6,8 @@ class FontFruktur < Formula
     (share/"fonts").install "Fruktur-Italic.ttf"
     (share/"fonts").install "Fruktur-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
