@@ -5,6 +5,8 @@ class FontNotoSansArabicUi < Formula
   def install
     (share/"fonts").install "NotoSansArabicUI[wdth,wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
