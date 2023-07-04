@@ -5,6 +5,8 @@ class FontBelleza < Formula
   def install
     (share/"fonts").install "Belleza-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
