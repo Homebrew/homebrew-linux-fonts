@@ -14,6 +14,8 @@ class FontFandol < Formula
     (share/"fonts").install "#{parent}fandol/FandolSong-Bold.otf"
     (share/"fonts").install "#{parent}fandol/FandolSong-Regular.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
