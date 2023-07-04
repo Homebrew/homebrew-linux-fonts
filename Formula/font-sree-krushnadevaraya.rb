@@ -5,6 +5,8 @@ class FontSreeKrushnadevaraya < Formula
   def install
     (share/"fonts").install "SreeKrushnadevaraya-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
