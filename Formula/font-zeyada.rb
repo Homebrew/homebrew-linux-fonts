@@ -5,6 +5,8 @@ class FontZeyada < Formula
   def install
     (share/"fonts").install "Zeyada.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
