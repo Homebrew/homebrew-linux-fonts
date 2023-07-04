@@ -5,6 +5,8 @@ class FontAtomicAge < Formula
   def install
     (share/"fonts").install "AtomicAge-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
