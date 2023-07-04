@@ -5,6 +5,8 @@ class FontPurplePurse < Formula
   def install
     (share/"fonts").install "PurplePurse-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
