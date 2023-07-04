@@ -5,6 +5,8 @@ class FontBukyvedeBold < Formula
   def install
     (share/"fonts").install "BukyVede-Bold.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
