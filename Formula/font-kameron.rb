@@ -6,6 +6,8 @@ class FontKameron < Formula
     (share/"fonts").install "Kameron-Bold.ttf"
     (share/"fonts").install "Kameron-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
