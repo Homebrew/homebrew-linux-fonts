@@ -10,6 +10,8 @@ class FontJaapokki < Formula
     (share/"fonts").install "#{parent}Jaapokki-font-package-#{version}/enchance/Jaapokkienchance-Regular.otf"
     (share/"fonts").install "#{parent}Jaapokki-font-package-#{version}/subtract/Jaapokkisubtract-Regular.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
