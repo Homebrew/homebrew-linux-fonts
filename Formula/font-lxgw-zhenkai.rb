@@ -9,6 +9,8 @@ class FontLxgwZhenkai < Formula
   def install
     (share/"fonts").install "LXGWZhenKai.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
