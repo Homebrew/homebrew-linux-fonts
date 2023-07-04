@@ -5,6 +5,8 @@ class FontNotoSansOldSouthArabian < Formula
   def install
     (share/"fonts").install "NotoSansOldSouthArabian-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
