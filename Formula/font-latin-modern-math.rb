@@ -6,6 +6,8 @@ class FontLatinModernMath < Formula
     parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}latinmodern-math-1959/otf/latinmodern-math.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
