@@ -7,6 +7,8 @@ class FontAgdasima < Formula
     (share/"fonts").install "Agdasima-Bold.ttf"
     (share/"fonts").install "Agdasima-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
