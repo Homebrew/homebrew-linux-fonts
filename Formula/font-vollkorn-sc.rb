@@ -8,6 +8,8 @@ class FontVollkornSc < Formula
     (share/"fonts").install "VollkornSC-Regular.ttf"
     (share/"fonts").install "VollkornSC-SemiBold.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
