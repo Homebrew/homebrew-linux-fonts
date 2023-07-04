@@ -7,6 +7,8 @@ class FontGayathri < Formula
     (share/"fonts").install "Gayathri-Regular.ttf"
     (share/"fonts").install "Gayathri-Thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
