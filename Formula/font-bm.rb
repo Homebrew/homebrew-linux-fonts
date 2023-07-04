@@ -5,6 +5,8 @@ class FontBm < Formula
   def install
     (share/"fonts").install "BM-HANNA.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
