@@ -5,6 +5,8 @@ class FontNorican < Formula
   def install
     (share/"fonts").install "Norican-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
