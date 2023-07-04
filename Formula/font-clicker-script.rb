@@ -5,6 +5,8 @@ class FontClickerScript < Formula
   def install
     (share/"fonts").install "ClickerScript-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
