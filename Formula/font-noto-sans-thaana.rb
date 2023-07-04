@@ -6,6 +6,8 @@ class FontNotoSansThaana < Formula
     (share/"fonts").install "NotoSansThaana-Bold.ttf"
     (share/"fonts").install "NotoSansThaana-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
