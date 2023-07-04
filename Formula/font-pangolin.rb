@@ -5,6 +5,8 @@ class FontPangolin < Formula
   def install
     (share/"fonts").install "Pangolin-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
