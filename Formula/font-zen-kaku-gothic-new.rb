@@ -10,6 +10,8 @@ class FontZenKakuGothicNew < Formula
     (share/"fonts").install "ZenKakuGothicNew-Medium.ttf"
     (share/"fonts").install "ZenKakuGothicNew-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
