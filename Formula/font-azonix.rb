@@ -6,6 +6,8 @@ class FontAzonix < Formula
   def install
     (share/"fonts").install "Azonix.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
