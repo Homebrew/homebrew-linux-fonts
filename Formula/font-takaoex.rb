@@ -9,6 +9,8 @@ class FontTakaoex < Formula
     (share/"fonts").install "#{parent}TakaoExFonts_#{version}/TakaoExGothic.ttf"
     (share/"fonts").install "#{parent}TakaoExFonts_#{version}/TakaoExMincho.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
