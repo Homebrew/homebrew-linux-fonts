@@ -5,6 +5,8 @@ class FontFenix < Formula
   def install
     (share/"fonts").install "Fenix-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
