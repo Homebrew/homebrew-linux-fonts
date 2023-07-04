@@ -7,6 +7,8 @@ class FontAlumniSansCollegiateOne < Formula
     (share/"fonts").install "AlumniSansCollegiateOne-Italic.ttf"
     (share/"fonts").install "AlumniSansCollegiateOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
