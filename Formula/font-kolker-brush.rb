@@ -6,6 +6,8 @@ class FontKolkerBrush < Formula
   def install
     (share/"fonts").install "KolkerBrush-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
