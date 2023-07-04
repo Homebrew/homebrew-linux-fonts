@@ -11,6 +11,8 @@ class FontFantasqueSansMonoNoloopk < Formula
     (share/"fonts").install "#{parent}OTF/FantasqueSansMono-Italic.otf"
     (share/"fonts").install "#{parent}OTF/FantasqueSansMono-Regular.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
