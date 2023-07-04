@@ -10,6 +10,8 @@ class FontTimesNewerRoman < Formula
     (share/"fonts").install "TimesNewerRoman-Italic.otf"
     (share/"fonts").install "TimesNewerRoman-Regular.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
