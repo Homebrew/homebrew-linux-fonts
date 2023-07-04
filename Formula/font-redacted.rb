@@ -9,6 +9,8 @@ class FontRedacted < Formula
     (share/"fonts").install "#{parent}Redacted-Font-old-sources/fonts/redacted-script-light.ttf"
     (share/"fonts").install "#{parent}Redacted-Font-old-sources/fonts/redacted-script-regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
