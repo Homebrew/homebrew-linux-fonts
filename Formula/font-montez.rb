@@ -5,6 +5,8 @@ class FontMontez < Formula
   def install
     (share/"fonts").install "Montez-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
