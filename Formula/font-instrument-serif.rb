@@ -6,6 +6,8 @@ class FontInstrumentSerif < Formula
     (share/"fonts").install "InstrumentSerif-Italic.ttf"
     (share/"fonts").install "InstrumentSerif-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
