@@ -5,6 +5,8 @@ class FontConvergence < Formula
   def install
     (share/"fonts").install "Convergence-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
