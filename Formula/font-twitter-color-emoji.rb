@@ -9,6 +9,8 @@ class FontTwitterColorEmoji < Formula
     parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}TwitterColorEmoji-SVGinOT-#{version}/TwitterColorEmoji-SVGinOT.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
