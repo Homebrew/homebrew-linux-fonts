@@ -5,6 +5,8 @@ class FontGowunDodum < Formula
   def install
     (share/"fonts").install "GowunDodum-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
