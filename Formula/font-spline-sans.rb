@@ -6,6 +6,8 @@ class FontSplineSans < Formula
   def install
     (share/"fonts").install "SplineSans[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
