@@ -5,6 +5,8 @@ class FontAclonica < Formula
   def install
     (share/"fonts").install "Aclonica-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
