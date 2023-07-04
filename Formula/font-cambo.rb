@@ -5,6 +5,8 @@ class FontCambo < Formula
   def install
     (share/"fonts").install "Cambo-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
