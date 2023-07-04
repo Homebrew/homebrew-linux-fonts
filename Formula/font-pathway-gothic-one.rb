@@ -5,6 +5,8 @@ class FontPathwayGothicOne < Formula
   def install
     (share/"fonts").install "PathwayGothicOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
