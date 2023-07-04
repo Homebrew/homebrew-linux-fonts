@@ -5,6 +5,8 @@ class FontSarina < Formula
   def install
     (share/"fonts").install "Sarina-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
