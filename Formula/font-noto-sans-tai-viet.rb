@@ -5,6 +5,8 @@ class FontNotoSansTaiViet < Formula
   def install
     (share/"fonts").install "NotoSansTaiViet-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
