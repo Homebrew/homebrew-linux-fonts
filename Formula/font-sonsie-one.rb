@@ -5,6 +5,8 @@ class FontSonsieOne < Formula
   def install
     (share/"fonts").install "SonsieOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
