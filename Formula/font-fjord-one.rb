@@ -5,6 +5,8 @@ class FontFjordOne < Formula
   def install
     (share/"fonts").install "FjordOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
