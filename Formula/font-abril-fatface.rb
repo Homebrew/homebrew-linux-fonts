@@ -5,6 +5,8 @@ class FontAbrilFatface < Formula
   def install
     (share/"fonts").install "AbrilFatface-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
