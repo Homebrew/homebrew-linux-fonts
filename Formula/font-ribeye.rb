@@ -5,6 +5,8 @@ class FontRibeye < Formula
   def install
     (share/"fonts").install "Ribeye-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
