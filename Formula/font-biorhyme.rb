@@ -10,6 +10,8 @@ class FontBiorhyme < Formula
     (share/"fonts").install "BioRhyme-Light.ttf"
     (share/"fonts").install "BioRhyme-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
