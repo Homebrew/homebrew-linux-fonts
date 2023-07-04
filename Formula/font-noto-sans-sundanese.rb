@@ -5,6 +5,8 @@ class FontNotoSansSundanese < Formula
   def install
     (share/"fonts").install "NotoSansSundanese-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
