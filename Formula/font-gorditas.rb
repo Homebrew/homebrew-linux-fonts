@@ -6,6 +6,8 @@ class FontGorditas < Formula
     (share/"fonts").install "Gorditas-Bold.ttf"
     (share/"fonts").install "Gorditas-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
