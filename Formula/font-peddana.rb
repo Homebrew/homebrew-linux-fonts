@@ -5,6 +5,8 @@ class FontPeddana < Formula
   def install
     (share/"fonts").install "Peddana-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
