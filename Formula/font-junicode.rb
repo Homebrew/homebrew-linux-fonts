@@ -11,6 +11,8 @@ class FontJunicode < Formula
     (share/"fonts").install "Junicode-Italic.ttf"
     (share/"fonts").install "Junicode.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
