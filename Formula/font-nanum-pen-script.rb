@@ -5,6 +5,8 @@ class FontNanumPenScript < Formula
   def install
     (share/"fonts").install "NanumPenScript-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
