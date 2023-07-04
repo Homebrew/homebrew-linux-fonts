@@ -6,6 +6,8 @@ class FontRasa < Formula
     (share/"fonts").install "Rasa-Italic[wght].ttf"
     (share/"fonts").install "Rasa[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
