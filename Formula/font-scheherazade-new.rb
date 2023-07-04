@@ -9,6 +9,8 @@ class FontScheherazadeNew < Formula
     (share/"fonts").install "ScheherazadeNew-Regular.ttf"
     (share/"fonts").install "ScheherazadeNew-SemiBold.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
