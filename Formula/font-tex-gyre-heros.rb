@@ -14,6 +14,8 @@ class FontTexGyreHeros < Formula
     (share/"fonts").install "texgyreheroscn-italic.otf"
     (share/"fonts").install "texgyreheroscn-regular.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
