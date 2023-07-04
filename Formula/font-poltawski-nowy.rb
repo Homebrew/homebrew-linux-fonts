@@ -6,6 +6,8 @@ class FontPoltawskiNowy < Formula
     (share/"fonts").install "PoltawskiNowy-Italic[wght].ttf"
     (share/"fonts").install "PoltawskiNowy[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
