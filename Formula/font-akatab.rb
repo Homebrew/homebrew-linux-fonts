@@ -10,6 +10,8 @@ class FontAkatab < Formula
     (share/"fonts").install "Akatab-Regular.ttf"
     (share/"fonts").install "Akatab-SemiBold.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
