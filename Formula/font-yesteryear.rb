@@ -5,6 +5,8 @@ class FontYesteryear < Formula
   def install
     (share/"fonts").install "Yesteryear-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
