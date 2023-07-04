@@ -5,6 +5,8 @@ class FontOxanium < Formula
   def install
     (share/"fonts").install "Oxanium[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
