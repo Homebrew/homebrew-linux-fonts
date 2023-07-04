@@ -6,6 +6,8 @@ class FontSahitya < Formula
     (share/"fonts").install "Sahitya-Bold.ttf"
     (share/"fonts").install "Sahitya-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
