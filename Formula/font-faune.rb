@@ -12,6 +12,8 @@ class FontFaune < Formula
     (share/"fonts").install "#{parent}Faune_Fonts/Otf/Faune-TextItalic.otf"
     (share/"fonts").install "#{parent}Faune_Fonts/Otf/Faune-TextRegular.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
