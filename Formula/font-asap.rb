@@ -6,6 +6,8 @@ class FontAsap < Formula
     (share/"fonts").install "Asap-Italic[wdth,wght].ttf"
     (share/"fonts").install "Asap[wdth,wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
