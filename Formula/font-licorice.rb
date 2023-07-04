@@ -6,6 +6,8 @@ class FontLicorice < Formula
   def install
     (share/"fonts").install "Licorice-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
