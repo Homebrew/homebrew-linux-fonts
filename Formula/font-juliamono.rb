@@ -23,6 +23,8 @@ class FontJuliamono < Formula
     (share/"fonts").install "JuliaMono-SemiBold.ttf"
     (share/"fonts").install "JuliaMono-SemiBoldItalic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
