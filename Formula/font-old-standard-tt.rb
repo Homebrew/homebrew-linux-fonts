@@ -7,6 +7,8 @@ class FontOldStandardTt < Formula
     (share/"fonts").install "OldStandard-Italic.ttf"
     (share/"fonts").install "OldStandard-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
