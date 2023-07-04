@@ -8,6 +8,8 @@ class FontDejavuSansMonoForPowerline < Formula
     (share/"fonts").install "DejaVu Sans Mono Oblique for Powerline.ttf"
     (share/"fonts").install "DejaVu Sans Mono Bold Oblique for Powerline.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
