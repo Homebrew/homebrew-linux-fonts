@@ -5,6 +5,8 @@ class FontMooLahLah < Formula
   def install
     (share/"fonts").install "MooLahLah-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
