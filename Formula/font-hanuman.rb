@@ -9,6 +9,8 @@ class FontHanuman < Formula
     (share/"fonts").install "Hanuman-Regular.ttf"
     (share/"fonts").install "Hanuman-Thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
