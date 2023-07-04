@@ -5,6 +5,8 @@ class FontNotoMono < Formula
   def install
     (share/"fonts").install "NotoMono-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
