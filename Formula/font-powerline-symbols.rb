@@ -5,6 +5,8 @@ class FontPowerlineSymbols < Formula
   def install
     (share/"fonts").install "PowerlineSymbols.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
