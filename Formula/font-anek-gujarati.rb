@@ -5,6 +5,8 @@ class FontAnekGujarati < Formula
   def install
     (share/"fonts").install "AnekGujarati[wdth,wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
