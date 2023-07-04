@@ -12,6 +12,8 @@ class FontAndika < Formula
     (share/"fonts").install "#{parent}Andika-#{version}/Andika-Italic.ttf"
     (share/"fonts").install "#{parent}Andika-#{version}/Andika-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
