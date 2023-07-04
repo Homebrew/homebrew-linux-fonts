@@ -14,6 +14,8 @@ class FontCormorantGaramond < Formula
     (share/"fonts").install "CormorantGaramond-SemiBold.ttf"
     (share/"fonts").install "CormorantGaramond-SemiBoldItalic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
