@@ -11,6 +11,8 @@ class FontEtBook < Formula
     (share/"fonts").install "#{parent}et-book-gh-pages/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.ttf"
     (share/"fonts").install "#{parent}et-book-gh-pages/et-book/et-book-semi-bold-old-style-figures/et-book-semi-bold-old-style-figures.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
