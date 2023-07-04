@@ -16,6 +16,8 @@ class FontGentiumPlus < Formula
     (share/"fonts").install "#{parent}GentiumPlus-#{version}/GentiumPlus-Italic.ttf"
     (share/"fonts").install "#{parent}GentiumPlus-#{version}/GentiumPlus-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
