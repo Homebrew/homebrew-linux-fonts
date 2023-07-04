@@ -5,6 +5,8 @@ class FontGabriela < Formula
   def install
     (share/"fonts").install "Gabriela-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
