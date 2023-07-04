@@ -5,6 +5,8 @@ class FontPodkovaVfBeta < Formula
   def install
     (share/"fonts").install "PodkovaVFBeta.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
