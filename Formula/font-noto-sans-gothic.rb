@@ -5,6 +5,8 @@ class FontNotoSansGothic < Formula
   def install
     (share/"fonts").install "NotoSansGothic-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
