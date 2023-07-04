@@ -5,6 +5,8 @@ class FontRubik80sFade < Formula
   def install
     (share/"fonts").install "Rubik80sFade-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
