@@ -76,6 +76,8 @@ class FontNotoSansMyanmar < Formula
     (share/"fonts").install "NotoSansMyanmarUI-SemiCondensedThin.ttf"
     (share/"fonts").install "NotoSansMyanmarUI-Thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
