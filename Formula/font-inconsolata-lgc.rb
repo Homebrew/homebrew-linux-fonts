@@ -8,6 +8,8 @@ class FontInconsolataLgc < Formula
     (share/"fonts").install "inconsolatalgcbolditalic.ttf"
     (share/"fonts").install "inconsolatalgcitalic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
