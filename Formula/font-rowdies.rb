@@ -7,6 +7,8 @@ class FontRowdies < Formula
     (share/"fonts").install "Rowdies-Light.ttf"
     (share/"fonts").install "Rowdies-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
