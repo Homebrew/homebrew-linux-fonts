@@ -5,6 +5,8 @@ class FontHeebo < Formula
   def install
     (share/"fonts").install "Heebo[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
