@@ -8,6 +8,8 @@ class FontKiwiMaru < Formula
     (share/"fonts").install "KiwiMaru-Medium.ttf"
     (share/"fonts").install "KiwiMaru-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
