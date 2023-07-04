@@ -7,6 +7,8 @@ class FontGaegu < Formula
     (share/"fonts").install "Gaegu-Light.ttf"
     (share/"fonts").install "Gaegu-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
