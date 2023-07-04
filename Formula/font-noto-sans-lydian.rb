@@ -5,6 +5,8 @@ class FontNotoSansLydian < Formula
   def install
     (share/"fonts").install "NotoSansLydian-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
