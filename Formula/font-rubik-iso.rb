@@ -5,6 +5,8 @@ class FontRubikIso < Formula
   def install
     (share/"fonts").install "RubikIso-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
