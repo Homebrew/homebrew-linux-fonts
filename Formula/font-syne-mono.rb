@@ -6,6 +6,8 @@ class FontSyneMono < Formula
   def install
     (share/"fonts").install "SyneMono-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
