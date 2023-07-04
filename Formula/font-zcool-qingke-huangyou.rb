@@ -5,6 +5,8 @@ class FontZcoolQingkeHuangyou < Formula
   def install
     (share/"fonts").install "ZCOOLQingKeHuangYou-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
