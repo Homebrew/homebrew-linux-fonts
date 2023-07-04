@@ -8,6 +8,8 @@ class FontCousine < Formula
     (share/"fonts").install "Cousine-Italic.ttf"
     (share/"fonts").install "Cousine-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
