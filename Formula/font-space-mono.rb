@@ -9,6 +9,8 @@ class FontSpaceMono < Formula
     (share/"fonts").install "#{parent}spacemono-main/fonts/SpaceMono-Italic.ttf"
     (share/"fonts").install "#{parent}spacemono-main/fonts/SpaceMono-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
