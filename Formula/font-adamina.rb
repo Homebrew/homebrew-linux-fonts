@@ -5,6 +5,8 @@ class FontAdamina < Formula
   def install
     (share/"fonts").install "Adamina-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
