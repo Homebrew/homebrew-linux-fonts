@@ -6,6 +6,8 @@ class FontKleeOne < Formula
     (share/"fonts").install "KleeOne-Regular.ttf"
     (share/"fonts").install "KleeOne-SemiBold.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
