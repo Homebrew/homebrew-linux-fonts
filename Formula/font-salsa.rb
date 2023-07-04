@@ -5,6 +5,8 @@ class FontSalsa < Formula
   def install
     (share/"fonts").install "Salsa-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
