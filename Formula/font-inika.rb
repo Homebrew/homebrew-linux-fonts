@@ -6,6 +6,8 @@ class FontInika < Formula
     (share/"fonts").install "Inika-Bold.ttf"
     (share/"fonts").install "Inika-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
