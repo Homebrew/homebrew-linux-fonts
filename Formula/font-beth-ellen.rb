@@ -5,6 +5,8 @@ class FontBethEllen < Formula
   def install
     (share/"fonts").install "BethEllen-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
