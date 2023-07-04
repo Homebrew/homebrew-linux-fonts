@@ -40,6 +40,8 @@ class FontNotoSerifLao < Formula
     (share/"fonts").install "NotoSerifLao-SemiCondensedThin.ttf"
     (share/"fonts").install "NotoSerifLao-Thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
