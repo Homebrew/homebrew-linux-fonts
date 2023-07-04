@@ -7,6 +7,8 @@ class FontMasinahikanDene < Formula
     (share/"fonts").install "MasinahikanDene_h_Bold.ttf"
     (share/"fonts").install "MasinahikanDene_h_Semi.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
