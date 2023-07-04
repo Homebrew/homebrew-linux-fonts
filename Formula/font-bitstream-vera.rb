@@ -17,6 +17,8 @@ class FontBitstreamVera < Formula
     (share/"fonts").install "#{parent}ttf-bitstream-vera-1.10/VeraSe.ttf"
     (share/"fonts").install "#{parent}ttf-bitstream-vera-1.10/VeraSeBd.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
