@@ -23,6 +23,8 @@ class FontOfficeCodePro < Formula
     (share/"fonts").install "#{parent}Office-Code-Pro-1.004/Fonts/Office Code Pro/OTF/OfficeCodePro-Regular.otf"
     (share/"fonts").install "#{parent}Office-Code-Pro-1.004/Fonts/Office Code Pro/OTF/OfficeCodePro-RegularItalic.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
