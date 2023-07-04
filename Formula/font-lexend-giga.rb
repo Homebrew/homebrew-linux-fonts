@@ -5,6 +5,8 @@ class FontLexendGiga < Formula
   def install
     (share/"fonts").install "LexendGiga[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
