@@ -9,6 +9,8 @@ class FontNokora < Formula
     (share/"fonts").install "Nokora-Regular.ttf"
     (share/"fonts").install "Nokora-Thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
