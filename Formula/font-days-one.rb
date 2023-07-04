@@ -5,6 +5,8 @@ class FontDaysOne < Formula
   def install
     (share/"fonts").install "DaysOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
