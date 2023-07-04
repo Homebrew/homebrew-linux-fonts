@@ -96,6 +96,8 @@ class FontIosevkaComfy < Formula
     (share/"fonts").install "#{parent}iosevka-comfy-motion-duo/ttf/iosevka-comfy-motion-duo-bold.ttf"
     (share/"fonts").install "#{parent}iosevka-comfy-motion-duo/ttf/iosevka-comfy-motion-duo-light.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
