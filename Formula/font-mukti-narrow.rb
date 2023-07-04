@@ -5,6 +5,8 @@ class FontMuktiNarrow < Formula
   def install
     (share/"fonts").install "muktinarrow.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
