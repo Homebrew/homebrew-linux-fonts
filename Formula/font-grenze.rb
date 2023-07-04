@@ -22,6 +22,8 @@ class FontGrenze < Formula
     (share/"fonts").install "Grenze-Thin.ttf"
     (share/"fonts").install "Grenze-ThinItalic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
