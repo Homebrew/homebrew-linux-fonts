@@ -10,6 +10,8 @@ class FontInfini < Formula
     (share/"fonts").install "#{parent}Infini-cnap-engl_fonts-specimen-v2/01_Fonts/03_Bold/infini-bold.otf"
     (share/"fonts").install "#{parent}Infini-cnap-engl_fonts-specimen-v2/01_Fonts/04_Pictos/infini-picto.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
