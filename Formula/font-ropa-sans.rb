@@ -6,6 +6,8 @@ class FontRopaSans < Formula
     (share/"fonts").install "RopaSans-Italic.ttf"
     (share/"fonts").install "RopaSans-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
