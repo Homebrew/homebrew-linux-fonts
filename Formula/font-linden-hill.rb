@@ -6,6 +6,8 @@ class FontLindenHill < Formula
     (share/"fonts").install "LindenHill-Italic.ttf"
     (share/"fonts").install "LindenHill-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
