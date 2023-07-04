@@ -10,6 +10,8 @@ class FontMaitree < Formula
     (share/"fonts").install "Maitree-Regular.ttf"
     (share/"fonts").install "Maitree-SemiBold.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
