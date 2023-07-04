@@ -5,6 +5,8 @@ class FontNumans < Formula
   def install
     (share/"fonts").install "Numans-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
