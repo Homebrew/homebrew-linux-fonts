@@ -7,6 +7,8 @@ class FontNanumMyeongjo < Formula
     (share/"fonts").install "NanumMyeongjo-ExtraBold.ttf"
     (share/"fonts").install "NanumMyeongjo-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
