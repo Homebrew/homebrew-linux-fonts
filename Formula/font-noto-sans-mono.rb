@@ -40,6 +40,8 @@ class FontNotoSansMono < Formula
     (share/"fonts").install "NotoSansMono-SemiCondensedThin.ttf"
     (share/"fonts").install "NotoSansMono-Thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
