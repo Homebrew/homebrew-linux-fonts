@@ -6,6 +6,8 @@ class FontYrsa < Formula
     (share/"fonts").install "Yrsa-Italic[wght].ttf"
     (share/"fonts").install "Yrsa[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
