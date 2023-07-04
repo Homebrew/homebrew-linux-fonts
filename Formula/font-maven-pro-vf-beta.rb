@@ -5,6 +5,8 @@ class FontMavenProVfBeta < Formula
   def install
     (share/"fonts").install "MavenProVFBeta.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
