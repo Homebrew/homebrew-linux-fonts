@@ -8,6 +8,8 @@ class FontComicMono < Formula
     (share/"fonts").install "#{parent}comic-mono-font-master/ComicMono.ttf"
     (share/"fonts").install "#{parent}comic-mono-font-master/ComicMono-Bold.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
