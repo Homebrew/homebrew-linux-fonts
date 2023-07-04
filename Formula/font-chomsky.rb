@@ -8,6 +8,8 @@ class FontChomsky < Formula
   def install
     (share/"fonts").install "Chomsky.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
