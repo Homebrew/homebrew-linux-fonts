@@ -5,6 +5,8 @@ class FontHomemadeApple < Formula
   def install
     (share/"fonts").install "HomemadeApple-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
