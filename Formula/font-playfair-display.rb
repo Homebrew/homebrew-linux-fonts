@@ -6,6 +6,8 @@ class FontPlayfairDisplay < Formula
     (share/"fonts").install "PlayfairDisplay-Italic[wght].ttf"
     (share/"fonts").install "PlayfairDisplay[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
