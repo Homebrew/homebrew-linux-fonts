@@ -5,6 +5,8 @@ class FontEncodeSansSc < Formula
   def install
     (share/"fonts").install "EncodeSansSC[wdth,wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
