@@ -9,6 +9,8 @@ class FontHindJalandhar < Formula
     (share/"fonts").install "HindJalandhar-Regular.ttf"
     (share/"fonts").install "HindJalandhar-SemiBold.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
