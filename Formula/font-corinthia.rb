@@ -6,6 +6,8 @@ class FontCorinthia < Formula
     (share/"fonts").install "Corinthia-Bold.ttf"
     (share/"fonts").install "Corinthia-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
