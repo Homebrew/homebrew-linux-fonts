@@ -8,6 +8,8 @@ class FontGfsNeohellenic < Formula
     (share/"fonts").install "GFSNeohellenicBoldItalic.ttf"
     (share/"fonts").install "GFSNeohellenicItalic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
