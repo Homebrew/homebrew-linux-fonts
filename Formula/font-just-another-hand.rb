@@ -5,6 +5,8 @@ class FontJustAnotherHand < Formula
   def install
     (share/"fonts").install "JustAnotherHand-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
