@@ -5,6 +5,8 @@ class FontNotoSansMeroitic < Formula
   def install
     (share/"fonts").install "NotoSansMeroitic-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
