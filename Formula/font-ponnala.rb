@@ -5,6 +5,8 @@ class FontPonnala < Formula
   def install
     (share/"fonts").install "Ponnala-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
