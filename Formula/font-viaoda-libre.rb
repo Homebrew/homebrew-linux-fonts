@@ -5,6 +5,8 @@ class FontViaodaLibre < Formula
   def install
     (share/"fonts").install "ViaodaLibre-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
