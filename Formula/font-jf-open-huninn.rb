@@ -8,6 +8,8 @@ class FontJfOpenHuninn < Formula
   def install
     (share/"fonts").install "jf-openhuninn-#{version}.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
