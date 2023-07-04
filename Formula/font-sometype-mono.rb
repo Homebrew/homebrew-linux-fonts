@@ -11,6 +11,8 @@ class FontSometypeMono < Formula
     (share/"fonts").install "#{parent}Sometype-Mono-master/fonts/otf/SometypeMono-Regular.otf"
     (share/"fonts").install "#{parent}Sometype-Mono-master/fonts/otf/SometypeMono-RegularItalic.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
