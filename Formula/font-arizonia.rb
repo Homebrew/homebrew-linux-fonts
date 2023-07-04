@@ -5,6 +5,8 @@ class FontArizonia < Formula
   def install
     (share/"fonts").install "Arizonia-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
