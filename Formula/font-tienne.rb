@@ -7,6 +7,8 @@ class FontTienne < Formula
     (share/"fonts").install "Tienne-Bold.ttf"
     (share/"fonts").install "Tienne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
