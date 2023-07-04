@@ -5,6 +5,8 @@ class FontNotoSansRejang < Formula
   def install
     (share/"fonts").install "NotoSansRejang-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
