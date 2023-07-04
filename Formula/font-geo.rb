@@ -6,6 +6,8 @@ class FontGeo < Formula
     (share/"fonts").install "Geo-Oblique.ttf"
     (share/"fonts").install "Geo-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
