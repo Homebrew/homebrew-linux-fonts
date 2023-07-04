@@ -6,6 +6,8 @@ class FontBungeeColor < Formula
   def install
     (share/"fonts").install "BungeeColor-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
