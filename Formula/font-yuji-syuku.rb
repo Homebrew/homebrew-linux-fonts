@@ -6,6 +6,8 @@ class FontYujiSyuku < Formula
   def install
     (share/"fonts").install "YujiSyuku-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
