@@ -5,6 +5,8 @@ class FontOvo < Formula
   def install
     (share/"fonts").install "Ovo-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
