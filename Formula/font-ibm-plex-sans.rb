@@ -18,6 +18,8 @@ class FontIbmPlexSans < Formula
     (share/"fonts").install "IBMPlexSans-Thin.ttf"
     (share/"fonts").install "IBMPlexSans-ThinItalic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
