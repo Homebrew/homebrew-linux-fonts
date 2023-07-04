@@ -16,6 +16,8 @@ class FontKoho < Formula
     (share/"fonts").install "KoHo-SemiBold.ttf"
     (share/"fonts").install "KoHo-SemiBoldItalic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
