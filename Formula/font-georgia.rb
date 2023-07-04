@@ -8,6 +8,8 @@ class FontGeorgia < Formula
     (share/"fonts").install "Georgiai.TTF"
     (share/"fonts").install "Georgia.TTF"
   end
+  # No zap stanza required
+
   test do
   end
 end
