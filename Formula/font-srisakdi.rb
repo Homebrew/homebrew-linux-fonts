@@ -6,6 +6,8 @@ class FontSrisakdi < Formula
     (share/"fonts").install "Srisakdi-Bold.ttf"
     (share/"fonts").install "Srisakdi-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
