@@ -5,6 +5,8 @@ class FontNotoSerifAhom < Formula
   def install
     (share/"fonts").install "NotoSerifAhom-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
