@@ -5,6 +5,8 @@ class FontWendyOne < Formula
   def install
     (share/"fonts").install "WendyOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
