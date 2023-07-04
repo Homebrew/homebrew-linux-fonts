@@ -14,6 +14,8 @@ class FontLxgwBrightTc < Formula
     (share/"fonts").install "#{parent}LXGWBrightTC/LXGWBrightTC-SemiLight.otf"
     (share/"fonts").install "#{parent}LXGWBrightTC/LXGWBrightTC-SemiLightItalic.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
