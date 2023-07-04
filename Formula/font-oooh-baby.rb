@@ -5,6 +5,8 @@ class FontOoohBaby < Formula
   def install
     (share/"fonts").install "OoohBaby-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
