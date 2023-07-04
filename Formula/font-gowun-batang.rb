@@ -6,6 +6,8 @@ class FontGowunBatang < Formula
     (share/"fonts").install "GowunBatang-Bold.ttf"
     (share/"fonts").install "GowunBatang-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
