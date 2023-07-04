@@ -9,6 +9,8 @@ class FontIaWriterDuospace < Formula
     (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Duospace/OTF (Mac)/iAWriterDuospace-Regular.otf"
     (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Duospace/OTF (Mac)/iAWriterDuospace-Italic.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
