@@ -5,6 +5,8 @@ class FontMeieScript < Formula
   def install
     (share/"fonts").install "MeieScript-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
