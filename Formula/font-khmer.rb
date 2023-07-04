@@ -5,6 +5,8 @@ class FontKhmer < Formula
   def install
     (share/"fonts").install "Khmer.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
