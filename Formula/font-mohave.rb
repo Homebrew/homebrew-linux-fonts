@@ -6,6 +6,8 @@ class FontMohave < Formula
     (share/"fonts").install "Mohave-Italic[wght].ttf"
     (share/"fonts").install "Mohave[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
