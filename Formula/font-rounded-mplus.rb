@@ -49,6 +49,8 @@ class FontRoundedMplus < Formula
     (share/"fonts").install "rounded-mplus-2p-regular.ttf"
     (share/"fonts").install "rounded-mplus-2p-thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
