@@ -5,6 +5,8 @@ class FontRakkas < Formula
   def install
     (share/"fonts").install "Rakkas-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
