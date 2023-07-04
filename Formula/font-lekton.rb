@@ -7,6 +7,8 @@ class FontLekton < Formula
     (share/"fonts").install "Lekton-Italic.ttf"
     (share/"fonts").install "Lekton-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
