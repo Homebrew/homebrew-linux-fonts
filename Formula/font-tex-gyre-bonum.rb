@@ -10,6 +10,8 @@ class FontTexGyreBonum < Formula
     (share/"fonts").install "texgyrebonum-italic.otf"
     (share/"fonts").install "texgyrebonum-regular.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
