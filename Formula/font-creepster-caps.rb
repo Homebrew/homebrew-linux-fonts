@@ -5,6 +5,8 @@ class FontCreepsterCaps < Formula
   def install
     (share/"fonts").install "CreepsterCaps-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
