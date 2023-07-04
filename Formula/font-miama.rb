@@ -5,6 +5,8 @@ class FontMiama < Formula
   def install
     (share/"fonts").install "Miama-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
