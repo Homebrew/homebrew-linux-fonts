@@ -5,6 +5,8 @@ class FontDhurjati < Formula
   def install
     (share/"fonts").install "Dhurjati-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
