@@ -5,6 +5,8 @@ class FontOranienbaum < Formula
   def install
     (share/"fonts").install "Oranienbaum-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
