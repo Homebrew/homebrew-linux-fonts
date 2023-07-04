@@ -20,6 +20,8 @@ class FontAsapCondensed < Formula
     (share/"fonts").install "AsapCondensed-SemiBold.ttf"
     (share/"fonts").install "AsapCondensed-SemiBoldItalic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
