@@ -9,6 +9,8 @@ class FontMigmix2m < Formula
     (share/"fonts").install "#{parent}migmix-2m-#{version}/migmix-2m-bold.ttf"
     (share/"fonts").install "#{parent}migmix-2m-#{version}/migmix-2m-regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
