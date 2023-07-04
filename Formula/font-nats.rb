@@ -5,6 +5,8 @@ class FontNats < Formula
   def install
     (share/"fonts").install "NATS-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
