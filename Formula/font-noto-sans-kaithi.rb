@@ -5,6 +5,8 @@ class FontNotoSansKaithi < Formula
   def install
     (share/"fonts").install "NotoSansKaithi-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
