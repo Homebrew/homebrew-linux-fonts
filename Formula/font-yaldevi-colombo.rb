@@ -10,6 +10,8 @@ class FontYaldeviColombo < Formula
     (share/"fonts").install "YaldeviColombo-Regular.ttf"
     (share/"fonts").install "YaldeviColombo-SemiBold.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
