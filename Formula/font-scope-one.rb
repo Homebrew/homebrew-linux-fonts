@@ -5,6 +5,8 @@ class FontScopeOne < Formula
   def install
     (share/"fonts").install "ScopeOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
