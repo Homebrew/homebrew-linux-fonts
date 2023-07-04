@@ -76,6 +76,8 @@ class FontNotoSansTamil < Formula
     (share/"fonts").install "NotoSansTamilUI-SemiCondensedThin.ttf"
     (share/"fonts").install "NotoSansTamilUI-Thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
