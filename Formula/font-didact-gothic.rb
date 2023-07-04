@@ -5,6 +5,8 @@ class FontDidactGothic < Formula
   def install
     (share/"fonts").install "DidactGothic-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
