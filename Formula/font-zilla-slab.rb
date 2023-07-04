@@ -19,6 +19,8 @@ class FontZillaSlab < Formula
     (share/"fonts").install "#{parent}zilla-slab/otf/ZillaSlabHighlight-Bold.otf"
     (share/"fonts").install "#{parent}zilla-slab/otf/ZillaSlabHighlight-Regular.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
