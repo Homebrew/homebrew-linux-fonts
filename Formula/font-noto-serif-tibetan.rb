@@ -5,6 +5,8 @@ class FontNotoSerifTibetan < Formula
   def install
     (share/"fonts").install "NotoSerifTibetan[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
