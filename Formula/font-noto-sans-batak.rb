@@ -5,6 +5,8 @@ class FontNotoSansBatak < Formula
   def install
     (share/"fonts").install "NotoSansBatak-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
