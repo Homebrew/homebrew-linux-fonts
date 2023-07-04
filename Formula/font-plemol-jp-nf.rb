@@ -40,6 +40,8 @@ class FontPlemolJpNf < Formula
     (share/"fonts").install "#{parent}PlemolJP_NF_v#{version}/PlemolJP35Console_NF/PlemolJP35ConsoleNF-Thin.ttf"
     (share/"fonts").install "#{parent}PlemolJP_NF_v#{version}/PlemolJP35Console_NF/PlemolJP35ConsoleNF-ThinItalic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
