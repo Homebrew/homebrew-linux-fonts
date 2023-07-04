@@ -10,6 +10,8 @@ class FontTexGyreCursor < Formula
     (share/"fonts").install "texgyrecursor-italic.otf"
     (share/"fonts").install "texgyrecursor-regular.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
