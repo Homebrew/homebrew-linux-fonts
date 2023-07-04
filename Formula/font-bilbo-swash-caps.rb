@@ -5,6 +5,8 @@ class FontBilboSwashCaps < Formula
   def install
     (share/"fonts").install "BilboSwashCaps-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
