@@ -22,6 +22,8 @@ class FontNotoSansBengali < Formula
     (share/"fonts").install "NotoSansBengaliUI-SemiBold.ttf"
     (share/"fonts").install "NotoSansBengaliUI-Thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
