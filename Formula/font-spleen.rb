@@ -13,6 +13,8 @@ class FontSpleen < Formula
     (share/"fonts").install "#{parent}spleen-#{version}/spleen-16x32.otf"
     (share/"fonts").install "#{parent}spleen-#{version}/spleen-32x64.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
