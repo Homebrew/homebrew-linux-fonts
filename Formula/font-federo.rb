@@ -5,6 +5,8 @@ class FontFedero < Formula
   def install
     (share/"fonts").install "Federo-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
