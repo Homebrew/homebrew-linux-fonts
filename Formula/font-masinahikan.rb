@@ -7,6 +7,8 @@ class FontMasinahikan < Formula
     (share/"fonts").install "Masinahikan_h_Bold.ttf"
     (share/"fonts").install "Masinahikan_h_Semi.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
