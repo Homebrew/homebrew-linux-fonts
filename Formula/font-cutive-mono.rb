@@ -5,6 +5,8 @@ class FontCutiveMono < Formula
   def install
     (share/"fonts").install "CutiveMono-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
