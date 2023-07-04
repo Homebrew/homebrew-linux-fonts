@@ -5,6 +5,8 @@ class FontGaldeano < Formula
   def install
     (share/"fonts").install "Galdeano-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
