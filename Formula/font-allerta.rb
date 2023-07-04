@@ -5,6 +5,8 @@ class FontAllerta < Formula
   def install
     (share/"fonts").install "Allerta-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
