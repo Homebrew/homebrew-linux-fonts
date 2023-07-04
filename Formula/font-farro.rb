@@ -8,6 +8,8 @@ class FontFarro < Formula
     (share/"fonts").install "Farro-Medium.ttf"
     (share/"fonts").install "Farro-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
