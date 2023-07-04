@@ -6,6 +6,8 @@ class FontArchivoNarrow < Formula
     (share/"fonts").install "ArchivoNarrow-Italic[wght].ttf"
     (share/"fonts").install "ArchivoNarrow[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
