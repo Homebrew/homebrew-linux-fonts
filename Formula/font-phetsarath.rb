@@ -6,6 +6,8 @@ class FontPhetsarath < Formula
     (share/"fonts").install "Phetsarath-Bold.ttf"
     (share/"fonts").install "Phetsarath-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
