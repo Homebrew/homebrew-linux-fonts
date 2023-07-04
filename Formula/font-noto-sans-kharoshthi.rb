@@ -5,6 +5,8 @@ class FontNotoSansKharoshthi < Formula
   def install
     (share/"fonts").install "NotoSansKharoshthi-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
