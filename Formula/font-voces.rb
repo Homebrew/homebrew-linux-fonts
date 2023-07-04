@@ -5,6 +5,8 @@ class FontVoces < Formula
   def install
     (share/"fonts").install "Voces-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
