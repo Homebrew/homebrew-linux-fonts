@@ -5,6 +5,8 @@ class FontAssistant < Formula
   def install
     (share/"fonts").install "Assistant[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
