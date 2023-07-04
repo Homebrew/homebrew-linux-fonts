@@ -18,6 +18,8 @@ class FontSfMonoForPowerline < Formula
     (share/"fonts").install "#{parent}SF-Mono-Powerline-master/SF-Mono-Powerline-Semibold.otf"
     (share/"fonts").install "#{parent}SF-Mono-Powerline-master/SF-Mono-Powerline-SemiboldItalic.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
