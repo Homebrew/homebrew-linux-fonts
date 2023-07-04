@@ -7,6 +7,8 @@ class FontGoldman < Formula
     (share/"fonts").install "Goldman-Bold.ttf"
     (share/"fonts").install "Goldman-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
