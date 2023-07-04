@@ -5,6 +5,8 @@ class FontCoveredByYourGrace < Formula
   def install
     (share/"fonts").install "CoveredByYourGrace.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
