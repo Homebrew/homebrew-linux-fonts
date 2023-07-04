@@ -6,6 +6,8 @@ class FontAlumniSans < Formula
     (share/"fonts").install "AlumniSans-Italic[wght].ttf"
     (share/"fonts").install "AlumniSans[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
