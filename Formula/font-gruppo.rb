@@ -5,6 +5,8 @@ class FontGruppo < Formula
   def install
     (share/"fonts").install "Gruppo-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
