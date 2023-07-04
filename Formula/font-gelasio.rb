@@ -12,6 +12,8 @@ class FontGelasio < Formula
     (share/"fonts").install "Gelasio-SemiBold.ttf"
     (share/"fonts").install "Gelasio-SemiBoldItalic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
