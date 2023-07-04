@@ -5,6 +5,8 @@ class FontPodkova < Formula
   def install
     (share/"fonts").install "Podkova[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
