@@ -7,6 +7,8 @@ class FontTiroDevanagariHindi < Formula
     (share/"fonts").install "TiroDevanagariHindi-Italic.ttf"
     (share/"fonts").install "TiroDevanagariHindi-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
