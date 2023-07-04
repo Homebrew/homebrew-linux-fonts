@@ -6,6 +6,8 @@ class FontArimo < Formula
     (share/"fonts").install "Arimo-Italic[wght].ttf"
     (share/"fonts").install "Arimo[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
