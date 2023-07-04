@@ -5,6 +5,8 @@ class FontGolosText < Formula
   def install
     (share/"fonts").install "GolosText[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
