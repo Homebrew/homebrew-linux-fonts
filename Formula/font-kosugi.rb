@@ -6,6 +6,8 @@ class FontKosugi < Formula
   def install
     (share/"fonts").install "Kosugi-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
