@@ -8,6 +8,8 @@ class FontDavidLibre < Formula
     (share/"fonts").install "DavidLibre-Medium.ttf"
     (share/"fonts").install "DavidLibre-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
