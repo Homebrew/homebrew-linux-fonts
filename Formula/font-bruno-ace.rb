@@ -5,6 +5,8 @@ class FontBrunoAce < Formula
   def install
     (share/"fonts").install "BrunoAce-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
