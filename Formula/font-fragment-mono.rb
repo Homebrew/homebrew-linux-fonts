@@ -7,6 +7,8 @@ class FontFragmentMono < Formula
     (share/"fonts").install "FragmentMono-Italic.ttf"
     (share/"fonts").install "FragmentMono-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
