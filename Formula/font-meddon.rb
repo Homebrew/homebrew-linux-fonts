@@ -5,6 +5,8 @@ class FontMeddon < Formula
   def install
     (share/"fonts").install "Meddon.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
