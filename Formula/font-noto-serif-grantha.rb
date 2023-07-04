@@ -5,6 +5,8 @@ class FontNotoSerifGrantha < Formula
   def install
     (share/"fonts").install "NotoSerifGrantha-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
