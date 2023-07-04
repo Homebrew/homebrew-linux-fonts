@@ -5,6 +5,8 @@ class FontOtomanopeeOne < Formula
   def install
     (share/"fonts").install "OtomanopeeOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
