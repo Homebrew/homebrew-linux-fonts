@@ -6,6 +6,8 @@ class FontAkshar < Formula
   def install
     (share/"fonts").install "Akshar[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
