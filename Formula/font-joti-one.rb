@@ -5,6 +5,8 @@ class FontJotiOne < Formula
   def install
     (share/"fonts").install "JotiOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
