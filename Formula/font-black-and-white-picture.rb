@@ -5,6 +5,8 @@ class FontBlackAndWhitePicture < Formula
   def install
     (share/"fonts").install "BlackAndWhitePicture-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
