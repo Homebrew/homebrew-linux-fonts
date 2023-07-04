@@ -5,6 +5,8 @@ class FontOverTheRainbow < Formula
   def install
     (share/"fonts").install "OvertheRainbow.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
