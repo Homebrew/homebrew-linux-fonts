@@ -6,6 +6,8 @@ class FontAbeezee < Formula
     (share/"fonts").install "ABeeZee-Italic.ttf"
     (share/"fonts").install "ABeeZee-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
