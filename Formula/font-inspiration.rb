@@ -5,6 +5,8 @@ class FontInspiration < Formula
   def install
     (share/"fonts").install "Inspiration-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
