@@ -14,6 +14,8 @@ class FontArkPixel12pxProportional < Formula
     (share/"fonts").install "ark-pixel-12px-proportional-zh_tr.otf"
     (share/"fonts").install "ark-pixel-12px-proportional-zh_tw.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
