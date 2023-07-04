@@ -6,6 +6,8 @@ class FontMeowScript < Formula
   def install
     (share/"fonts").install "MeowScript-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
