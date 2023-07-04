@@ -15,6 +15,8 @@ class FontGlowSansJExtended < Formula
     (share/"fonts").install "GlowSansJ-Extended-Regular.otf"
     (share/"fonts").install "GlowSansJ-Extended-Thin.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
