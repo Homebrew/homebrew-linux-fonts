@@ -5,6 +5,8 @@ class FontChicle < Formula
   def install
     (share/"fonts").install "Chicle-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
