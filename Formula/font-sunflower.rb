@@ -7,6 +7,8 @@ class FontSunflower < Formula
     (share/"fonts").install "Sunflower-Light.ttf"
     (share/"fonts").install "Sunflower-Medium.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
