@@ -5,6 +5,8 @@ class FontLiuJianMaoCao < Formula
   def install
     (share/"fonts").install "LiuJianMaoCao-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
