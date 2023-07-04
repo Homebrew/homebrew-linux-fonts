@@ -5,6 +5,8 @@ class FontNotoSansSyriacEstrangela < Formula
   def install
     (share/"fonts").install "NotoSansSyriacEstrangela-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
