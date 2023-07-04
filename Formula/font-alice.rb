@@ -5,6 +5,8 @@ class FontAlice < Formula
   def install
     (share/"fonts").install "Alice-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
