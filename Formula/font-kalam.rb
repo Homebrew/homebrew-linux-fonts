@@ -9,6 +9,8 @@ class FontKalam < Formula
     (share/"fonts").install "Kalam-Light.otf"
     (share/"fonts").install "Kalam-Regular.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
