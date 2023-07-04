@@ -37,6 +37,8 @@ class FontFirago < Formula
     (share/"fonts").install "#{parent}FiraGO-#{version}/Fonts/FiraGO_OTF/Roman/FiraGO-Two.otf"
     (share/"fonts").install "#{parent}FiraGO-#{version}/Fonts/FiraGO_OTF/Roman/FiraGO-UltraLight.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
