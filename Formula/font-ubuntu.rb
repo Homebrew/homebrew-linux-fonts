@@ -13,6 +13,8 @@ class FontUbuntu < Formula
     (share/"fonts").install "Ubuntu-MediumItalic.ttf"
     (share/"fonts").install "Ubuntu-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
