@@ -5,6 +5,8 @@ class FontGloriaHallelujah < Formula
   def install
     (share/"fonts").install "GloriaHallelujah.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
