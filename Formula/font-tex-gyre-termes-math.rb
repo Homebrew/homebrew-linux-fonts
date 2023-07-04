@@ -8,6 +8,8 @@ class FontTexGyreTermesMath < Formula
     parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}texgyretermes-math-1543/opentype/texgyretermes-math.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
