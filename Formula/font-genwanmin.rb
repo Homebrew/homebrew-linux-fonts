@@ -11,6 +11,8 @@ class FontGenwanmin < Formula
     (share/"fonts").install "GenWanMin-R.ttc"
     (share/"fonts").install "GenWanMin-SB.ttc"
   end
+  # No zap stanza required
+
   test do
   end
 end
