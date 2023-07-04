@@ -20,6 +20,8 @@ class FontSarabun < Formula
     (share/"fonts").install "Sarabun-Thin.ttf"
     (share/"fonts").install "Sarabun-ThinItalic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
