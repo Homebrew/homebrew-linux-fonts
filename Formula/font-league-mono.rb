@@ -49,6 +49,8 @@ class FontLeagueMono < Formula
     (share/"fonts").install "#{parent}LeagueMono-#{version}/static/OTF/LeagueMono-WideExtraBold.otf"
     (share/"fonts").install "#{parent}LeagueMono-#{version}/variable/TTF/LeagueMono-VF.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
