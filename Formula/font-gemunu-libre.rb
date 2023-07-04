@@ -5,6 +5,8 @@ class FontGemunuLibre < Formula
   def install
     (share/"fonts").install "GemunuLibre[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
