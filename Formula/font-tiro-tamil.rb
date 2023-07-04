@@ -7,6 +7,8 @@ class FontTiroTamil < Formula
     (share/"fonts").install "TiroTamil-Italic.ttf"
     (share/"fonts").install "TiroTamil-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
