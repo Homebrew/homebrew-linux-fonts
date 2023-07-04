@@ -5,6 +5,8 @@ class FontEmblemaOne < Formula
   def install
     (share/"fonts").install "EmblemaOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
