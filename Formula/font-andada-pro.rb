@@ -7,6 +7,8 @@ class FontAndadaPro < Formula
     (share/"fonts").install "AndadaPro-Italic[wght].ttf"
     (share/"fonts").install "AndadaPro[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
