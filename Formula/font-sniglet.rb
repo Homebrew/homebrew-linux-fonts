@@ -6,6 +6,8 @@ class FontSniglet < Formula
     (share/"fonts").install "Sniglet-ExtraBold.ttf"
     (share/"fonts").install "Sniglet-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
