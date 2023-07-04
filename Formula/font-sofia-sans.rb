@@ -6,6 +6,8 @@ class FontSofiaSans < Formula
     (share/"fonts").install "SofiaSans-Italic[wght].ttf"
     (share/"fonts").install "SofiaSans[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
