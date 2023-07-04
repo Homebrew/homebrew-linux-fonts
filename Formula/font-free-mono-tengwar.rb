@@ -10,6 +10,8 @@ class FontFreeMonoTengwar < Formula
     (share/"fonts").install "#{parent}FreeMonoTengwar.#{version}/FreeMonoTengwar-embedding.ttf"
     (share/"fonts").install "#{parent}FreeMonoTengwar.#{version}/FreeMonoTengwar.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
