@@ -5,6 +5,8 @@ class FontManrope < Formula
   def install
     (share/"fonts").install "Manrope[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
