@@ -12,6 +12,8 @@ class FontLeagueGothic < Formula
     (share/"fonts").install "#{parent}LeagueGothic-#{version}/static/OTF/LeagueGothic-Condensed.otf"
     (share/"fonts").install "#{parent}LeagueGothic-#{version}/static/OTF/LeagueGothic-CondensedItalic.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
