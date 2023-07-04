@@ -6,6 +6,8 @@ class FontComicSansMs < Formula
     (share/"fonts").install "Comicbd.TTF"
     (share/"fonts").install "Comic.TTF"
   end
+  # No zap stanza required
+
   test do
   end
 end
