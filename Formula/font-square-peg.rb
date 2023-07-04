@@ -5,6 +5,8 @@ class FontSquarePeg < Formula
   def install
     (share/"fonts").install "SquarePeg-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
