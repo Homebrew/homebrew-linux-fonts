@@ -16,6 +16,8 @@ class FontIosevkaCurlySlab < Formula
     (share/"fonts").install "iosevka-curly-slab-semibold.ttc"
     (share/"fonts").install "iosevka-curly-slab-thin.ttc"
   end
+  # No zap stanza required
+
   test do
   end
 end
