@@ -5,6 +5,8 @@ class FontNotoSansWancho < Formula
   def install
     (share/"fonts").install "NotoSansWancho-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
