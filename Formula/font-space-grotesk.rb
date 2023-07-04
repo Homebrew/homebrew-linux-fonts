@@ -11,6 +11,8 @@ class FontSpaceGrotesk < Formula
     (share/"fonts").install "#{parent}SpaceGrotesk-#{version}/otf/SpaceGrotesk-Medium.otf"
     (share/"fonts").install "#{parent}SpaceGrotesk-#{version}/otf/SpaceGrotesk-Regular.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
