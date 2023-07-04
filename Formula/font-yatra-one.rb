@@ -5,6 +5,8 @@ class FontYatraOne < Formula
   def install
     (share/"fonts").install "YatraOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
