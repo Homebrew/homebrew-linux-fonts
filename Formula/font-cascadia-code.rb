@@ -10,6 +10,8 @@ class FontCascadiaCode < Formula
     (share/"fonts").install "#{parent}ttf/CascadiaCode.ttf"
     (share/"fonts").install "#{parent}ttf/CascadiaCodeItalic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
