@@ -44,6 +44,8 @@ class FontUrwBase35 < Formula
     (share/"fonts").install "#{parent}urw-base35-fonts-#{version}/fonts/URWGothic-DemiOblique.otf"
     (share/"fonts").install "#{parent}urw-base35-fonts-#{version}/fonts/Z003-MediumItalic.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
