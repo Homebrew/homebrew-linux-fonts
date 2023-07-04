@@ -5,6 +5,8 @@ class FontLustria < Formula
   def install
     (share/"fonts").install "Lustria-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
