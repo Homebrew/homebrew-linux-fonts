@@ -11,6 +11,8 @@ class FontComicNeue < Formula
     (share/"fonts").install "ComicNeue-LightItalic.ttf"
     (share/"fonts").install "ComicNeue-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
