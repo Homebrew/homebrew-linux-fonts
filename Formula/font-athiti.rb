@@ -10,6 +10,8 @@ class FontAthiti < Formula
     (share/"fonts").install "Athiti-Regular.ttf"
     (share/"fonts").install "Athiti-SemiBold.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
