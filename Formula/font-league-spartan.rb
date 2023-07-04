@@ -17,6 +17,8 @@ class FontLeagueSpartan < Formula
     (share/"fonts").install "#{parent}LeagueSpartan-#{version}/static/OTF/LeagueSpartan-Black.otf"
     (share/"fonts").install "#{parent}LeagueSpartan-#{version}/variable/TTF/LeagueSpartan-VF.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
