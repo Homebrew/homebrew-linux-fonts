@@ -10,6 +10,8 @@ class FontCica < Formula
     (share/"fonts").install "Cica-Regular.ttf"
     (share/"fonts").install "Cica-RegularItalic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
