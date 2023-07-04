@@ -6,6 +6,8 @@ class FontCoda < Formula
     (share/"fonts").install "Coda-ExtraBold.ttf"
     (share/"fonts").install "Coda-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
