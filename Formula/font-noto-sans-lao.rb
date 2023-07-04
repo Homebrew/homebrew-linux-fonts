@@ -76,6 +76,8 @@ class FontNotoSansLao < Formula
     (share/"fonts").install "NotoSansLaoUI-SemiCondensedThin.ttf"
     (share/"fonts").install "NotoSansLaoUI-Thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
