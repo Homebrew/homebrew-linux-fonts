@@ -33,6 +33,8 @@ class FontSpectral < Formula
     (share/"fonts").install "#{parent}Spectral-master/fonts/sc/SpectralSC-SemiBold.ttf"
     (share/"fonts").install "#{parent}Spectral-master/fonts/sc/SpectralSC-SemiBoldItalic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
