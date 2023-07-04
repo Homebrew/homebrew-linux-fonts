@@ -9,6 +9,8 @@ class FontHindMysuru < Formula
     (share/"fonts").install "HindMysuru-Regular.ttf"
     (share/"fonts").install "HindMysuru-SemiBold.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
