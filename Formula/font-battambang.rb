@@ -9,6 +9,8 @@ class FontBattambang < Formula
     (share/"fonts").install "Battambang-Regular.ttf"
     (share/"fonts").install "Battambang-Thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
