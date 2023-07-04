@@ -5,6 +5,8 @@ class FontTaprom < Formula
   def install
     (share/"fonts").install "Taprom-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
