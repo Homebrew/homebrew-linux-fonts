@@ -5,6 +5,8 @@ class FontArchivoBlack < Formula
   def install
     (share/"fonts").install "ArchivoBlack-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
