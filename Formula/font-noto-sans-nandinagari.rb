@@ -6,6 +6,8 @@ class FontNotoSansNandinagari < Formula
   def install
     (share/"fonts").install "NotoSansNandinagari-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
