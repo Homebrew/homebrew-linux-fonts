@@ -8,6 +8,8 @@ class FontLondrinaSolid < Formula
     (share/"fonts").install "LondrinaSolid-Regular.ttf"
     (share/"fonts").install "LondrinaSolid-Thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
