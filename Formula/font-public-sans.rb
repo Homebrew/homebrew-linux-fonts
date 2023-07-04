@@ -27,6 +27,8 @@ class FontPublicSans < Formula
     (share/"fonts").install "#{parent}fonts/variable/PublicSans-Italic[wght].ttf"
     (share/"fonts").install "#{parent}fonts/variable/PublicSans[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
