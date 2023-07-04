@@ -5,6 +5,8 @@ class FontProstoOne < Formula
   def install
     (share/"fonts").install "ProstoOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
