@@ -5,6 +5,8 @@ class FontWallpoet < Formula
   def install
     (share/"fonts").install "Wallpoet-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
