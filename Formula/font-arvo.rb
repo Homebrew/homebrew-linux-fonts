@@ -8,6 +8,8 @@ class FontArvo < Formula
     (share/"fonts").install "Arvo-Italic.ttf"
     (share/"fonts").install "Arvo-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
