@@ -11,6 +11,8 @@ class FontMuktaMahee < Formula
     (share/"fonts").install "MuktaMahee-Regular.ttf"
     (share/"fonts").install "MuktaMahee-SemiBold.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
