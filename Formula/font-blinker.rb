@@ -12,6 +12,8 @@ class FontBlinker < Formula
     (share/"fonts").install "Blinker-SemiBold.ttf"
     (share/"fonts").install "Blinker-Thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
