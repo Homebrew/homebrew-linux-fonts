@@ -6,6 +6,8 @@ class FontLumanosimo < Formula
   def install
     (share/"fonts").install "Lumanosimo-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
