@@ -8,6 +8,8 @@ class FontAntinoou < Formula
     (share/"fonts").install "#{parent}AntinoouFont-#{version}/Antinoou.ttf"
     (share/"fonts").install "#{parent}AntinoouFont-#{version}/AntinoouItalic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
