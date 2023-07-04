@@ -6,6 +6,8 @@ class FontRosario < Formula
     (share/"fonts").install "Rosario-Italic[wght].ttf"
     (share/"fonts").install "Rosario[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
