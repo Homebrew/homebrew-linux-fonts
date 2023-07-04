@@ -5,6 +5,8 @@ class FontNotoSansSharada < Formula
   def install
     (share/"fonts").install "NotoSansSharada-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
