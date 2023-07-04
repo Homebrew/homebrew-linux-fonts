@@ -7,6 +7,8 @@ class FontBenchnine < Formula
     (share/"fonts").install "BenchNine-Light.ttf"
     (share/"fonts").install "BenchNine-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
