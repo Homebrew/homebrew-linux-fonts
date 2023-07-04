@@ -7,6 +7,8 @@ class FontRonde < Formula
     parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}ronde_square/Ronde-B_square.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
