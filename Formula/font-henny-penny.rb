@@ -5,6 +5,8 @@ class FontHennyPenny < Formula
   def install
     (share/"fonts").install "HennyPenny-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
