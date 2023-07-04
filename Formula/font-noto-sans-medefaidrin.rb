@@ -5,6 +5,8 @@ class FontNotoSansMedefaidrin < Formula
   def install
     (share/"fonts").install "NotoSansMedefaidrin[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
