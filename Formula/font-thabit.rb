@@ -8,6 +8,8 @@ class FontThabit < Formula
     (share/"fonts").install "Thabit-Oblique.ttf"
     (share/"fonts").install "Thabit.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
