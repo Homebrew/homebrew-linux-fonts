@@ -5,6 +5,8 @@ class FontCinzel < Formula
   def install
     (share/"fonts").install "Cinzel[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
