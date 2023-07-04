@@ -5,6 +5,8 @@ class FontNotoSansZanabazarSquare < Formula
   def install
     (share/"fonts").install "NotoSansZanabazarSquare-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
