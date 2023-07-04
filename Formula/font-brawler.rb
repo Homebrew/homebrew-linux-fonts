@@ -6,6 +6,8 @@ class FontBrawler < Formula
     (share/"fonts").install "Brawler-Bold.ttf"
     (share/"fonts").install "Brawler-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
