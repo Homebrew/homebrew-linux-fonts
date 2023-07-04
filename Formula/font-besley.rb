@@ -7,6 +7,8 @@ class FontBesley < Formula
     (share/"fonts").install "Besley-Italic[wght].ttf"
     (share/"fonts").install "Besley[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
