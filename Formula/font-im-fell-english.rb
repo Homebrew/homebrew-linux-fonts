@@ -6,6 +6,8 @@ class FontImFellEnglish < Formula
     (share/"fonts").install "IMFeENit28P.ttf"
     (share/"fonts").install "IMFeENrm28P.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
