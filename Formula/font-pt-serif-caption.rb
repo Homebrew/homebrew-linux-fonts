@@ -6,6 +6,8 @@ class FontPtSerifCaption < Formula
     (share/"fonts").install "PT_Serif-Caption-Web-Italic.ttf"
     (share/"fonts").install "PT_Serif-Caption-Web-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
