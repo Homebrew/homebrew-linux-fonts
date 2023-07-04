@@ -9,6 +9,8 @@ class FontTiejiliSc < Formula
   def install
     (share/"fonts").install "TiejiliSC-Regular.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
