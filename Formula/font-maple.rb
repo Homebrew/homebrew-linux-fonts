@@ -12,6 +12,8 @@ class FontMaple < Formula
     (share/"fonts").install "#{parent}ttf/MapleMono-Italic.ttf"
     (share/"fonts").install "#{parent}ttf/MapleMono-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
