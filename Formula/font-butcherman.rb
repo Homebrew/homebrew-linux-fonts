@@ -5,6 +5,8 @@ class FontButcherman < Formula
   def install
     (share/"fonts").install "Butcherman-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
