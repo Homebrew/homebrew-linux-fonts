@@ -5,6 +5,8 @@ class FontNotoSerifDogra < Formula
   def install
     (share/"fonts").install "NotoSerifDogra-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
