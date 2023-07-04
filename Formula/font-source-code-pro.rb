@@ -6,6 +6,8 @@ class FontSourceCodePro < Formula
     (share/"fonts").install "SourceCodePro-Italic[wght].ttf"
     (share/"fonts").install "SourceCodePro[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
