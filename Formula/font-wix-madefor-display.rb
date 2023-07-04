@@ -5,6 +5,8 @@ class FontWixMadeforDisplay < Formula
   def install
     (share/"fonts").install "WixMadeforDisplay[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
