@@ -6,6 +6,8 @@ class FontPlayfair < Formula
     (share/"fonts").install "Playfair-Italic[opsz,wdth,wght].ttf"
     (share/"fonts").install "Playfair[opsz,wdth,wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
