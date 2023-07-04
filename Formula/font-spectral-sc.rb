@@ -18,6 +18,8 @@ class FontSpectralSc < Formula
     (share/"fonts").install "SpectralSC-SemiBold.ttf"
     (share/"fonts").install "SpectralSC-SemiBoldItalic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
