@@ -6,6 +6,8 @@ class FontOregano < Formula
     (share/"fonts").install "Oregano-Italic.ttf"
     (share/"fonts").install "Oregano-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
