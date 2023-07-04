@@ -9,6 +9,8 @@ class FontHindKochi < Formula
     (share/"fonts").install "HindKochi-Regular.ttf"
     (share/"fonts").install "HindKochi-SemiBold.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
