@@ -6,6 +6,8 @@ class FontExo < Formula
     (share/"fonts").install "Exo-Italic[wght].ttf"
     (share/"fonts").install "Exo[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
