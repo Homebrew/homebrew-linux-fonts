@@ -6,6 +6,8 @@ class FontLibreCaslonDisplay < Formula
     parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}Libre-Caslon-Display-master/fonts/OTF/LibreCaslonDisplay-Regular.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
