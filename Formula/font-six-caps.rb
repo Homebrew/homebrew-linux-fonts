@@ -5,6 +5,8 @@ class FontSixCaps < Formula
   def install
     (share/"fonts").install "SixCaps.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
