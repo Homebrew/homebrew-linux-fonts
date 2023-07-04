@@ -5,6 +5,8 @@ class FontJunge < Formula
   def install
     (share/"fonts").install "Junge-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
