@@ -16,6 +16,8 @@ class FontKodchasan < Formula
     (share/"fonts").install "Kodchasan-SemiBold.ttf"
     (share/"fonts").install "Kodchasan-SemiBoldItalic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
