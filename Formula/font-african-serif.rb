@@ -9,6 +9,8 @@ class FontAfricanSerif < Formula
     (share/"fonts").install "African Serif BOLD ITALIC 938.ttf"
     (share/"fonts").install "African Serif ITALIC 938.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
