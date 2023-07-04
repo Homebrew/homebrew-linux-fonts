@@ -9,6 +9,8 @@ class FontConsolasForPowerline < Formula
     (share/"fonts").install "#{parent}consolas-powerline-vim-master/CONSOLAI-Powerline.ttf"
     (share/"fonts").install "#{parent}consolas-powerline-vim-master/CONSOLAZ-Powerline.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
