@@ -8,6 +8,8 @@ class FontScada < Formula
     (share/"fonts").install "Scada-Italic.ttf"
     (share/"fonts").install "Scada-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
