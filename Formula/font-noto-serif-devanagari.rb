@@ -6,6 +6,8 @@ class FontNotoSerifDevanagari < Formula
     (share/"fonts").install "NotoSerifDevanagari-Bold.ttf"
     (share/"fonts").install "NotoSerifDevanagari-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
