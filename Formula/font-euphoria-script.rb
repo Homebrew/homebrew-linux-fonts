@@ -5,6 +5,8 @@ class FontEuphoriaScript < Formula
   def install
     (share/"fonts").install "EuphoriaScript-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
