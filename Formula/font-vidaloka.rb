@@ -5,6 +5,8 @@ class FontVidaloka < Formula
   def install
     (share/"fonts").install "Vidaloka-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
