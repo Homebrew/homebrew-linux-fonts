@@ -5,6 +5,8 @@ class FontDevonshire < Formula
   def install
     (share/"fonts").install "Devonshire-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
