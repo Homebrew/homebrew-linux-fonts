@@ -7,6 +7,8 @@ class FontAlbertSans < Formula
     (share/"fonts").install "AlbertSans-Italic[wght].ttf"
     (share/"fonts").install "AlbertSans[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
