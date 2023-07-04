@@ -15,6 +15,8 @@ class FontClearSans < Formula
     (share/"fonts").install "#{parent}TTF/ClearSans-Regular.ttf"
     (share/"fonts").install "#{parent}TTF/ClearSans-Thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
