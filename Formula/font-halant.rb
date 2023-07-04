@@ -11,6 +11,8 @@ class FontHalant < Formula
     (share/"fonts").install "Halant-Regular.otf"
     (share/"fonts").install "Halant-SemiBold.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
