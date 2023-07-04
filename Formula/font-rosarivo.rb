@@ -6,6 +6,8 @@ class FontRosarivo < Formula
     (share/"fonts").install "Rosarivo-Italic.ttf"
     (share/"fonts").install "Rosarivo-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
