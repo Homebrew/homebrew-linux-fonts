@@ -6,6 +6,8 @@ class FontLuxuriousRoman < Formula
   def install
     (share/"fonts").install "LuxuriousRoman-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
