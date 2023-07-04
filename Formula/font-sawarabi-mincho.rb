@@ -5,6 +5,8 @@ class FontSawarabiMincho < Formula
   def install
     (share/"fonts").install "SawarabiMincho-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
