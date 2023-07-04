@@ -6,6 +6,8 @@ class FontAllison < Formula
   def install
     (share/"fonts").install "Allison-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
