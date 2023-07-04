@@ -29,6 +29,8 @@ class FontMeltho < Formula
     (share/"fonts").install "#{parent}melthofonts-1/melthofonts-#{version.to_s.sub(/,.*/, "")}/SyrCOMUrhoy.otf"
     (share/"fonts").install "#{parent}melthofonts-1/melthofonts-#{version.to_s.sub(/,.*/, "")}/SyrCOMUrhoyBold.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
