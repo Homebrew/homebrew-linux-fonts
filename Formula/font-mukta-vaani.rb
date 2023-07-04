@@ -11,6 +11,8 @@ class FontMuktaVaani < Formula
     (share/"fonts").install "MuktaVaani-Regular.ttf"
     (share/"fonts").install "MuktaVaani-SemiBold.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
