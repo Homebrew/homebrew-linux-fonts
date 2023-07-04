@@ -5,6 +5,8 @@ class FontComingSoon < Formula
   def install
     (share/"fonts").install "ComingSoon-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
