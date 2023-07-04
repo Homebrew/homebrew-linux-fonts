@@ -5,6 +5,8 @@ class FontShareTechMono < Formula
   def install
     (share/"fonts").install "ShareTechMono-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
