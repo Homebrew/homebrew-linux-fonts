@@ -16,6 +16,8 @@ class FontIntelOneMono < Formula
     (share/"fonts").install "#{parent}otf/intelone-mono-font-family-mediumitalic.otf"
     (share/"fonts").install "#{parent}otf/intelone-mono-font-family-regular.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
