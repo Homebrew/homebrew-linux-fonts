@@ -8,6 +8,8 @@ class FontChapbook < Formula
     (share/"fonts").install "#{parent}Chapbook OTF/Chapbook-Italic.otf"
     (share/"fonts").install "#{parent}Chapbook OTF/Chapbook-Regular.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
