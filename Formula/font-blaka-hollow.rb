@@ -5,6 +5,8 @@ class FontBlakaHollow < Formula
   def install
     (share/"fonts").install "BlakaHollow-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
