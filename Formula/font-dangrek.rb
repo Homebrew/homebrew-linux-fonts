@@ -5,6 +5,8 @@ class FontDangrek < Formula
   def install
     (share/"fonts").install "Dangrek-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
