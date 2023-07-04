@@ -6,6 +6,8 @@ class FontQuattrocento < Formula
     (share/"fonts").install "Quattrocento-Bold.ttf"
     (share/"fonts").install "Quattrocento-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
