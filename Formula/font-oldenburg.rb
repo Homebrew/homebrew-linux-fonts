@@ -5,6 +5,8 @@ class FontOldenburg < Formula
   def install
     (share/"fonts").install "Oldenburg-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
