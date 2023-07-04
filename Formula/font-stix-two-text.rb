@@ -6,6 +6,8 @@ class FontStixTwoText < Formula
     (share/"fonts").install "STIXTwoText-Italic[wght].ttf"
     (share/"fonts").install "STIXTwoText[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
