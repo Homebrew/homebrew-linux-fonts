@@ -9,6 +9,8 @@ class FontCormorantUnicase < Formula
     (share/"fonts").install "CormorantUnicase-Regular.ttf"
     (share/"fonts").install "CormorantUnicase-SemiBold.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
