@@ -13,6 +13,8 @@ class FontNotoSansCjkSc < Formula
     (share/"fonts").install "NotoSansMonoCJKsc-Bold.otf"
     (share/"fonts").install "NotoSansMonoCJKsc-Regular.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
