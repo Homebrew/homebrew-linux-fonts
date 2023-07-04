@@ -5,6 +5,8 @@ class FontDancingScript < Formula
   def install
     (share/"fonts").install "DancingScript[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
