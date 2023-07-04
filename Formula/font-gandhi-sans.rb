@@ -8,6 +8,8 @@ class FontGandhiSans < Formula
     (share/"fonts").install "GandhiSans-Bold.otf"
     (share/"fonts").install "GandhiSans-BoldItalic.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
