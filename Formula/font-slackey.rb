@@ -5,6 +5,8 @@ class FontSlackey < Formula
   def install
     (share/"fonts").install "Slackey-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
