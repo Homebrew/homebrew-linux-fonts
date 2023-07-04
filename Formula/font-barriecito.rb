@@ -5,6 +5,8 @@ class FontBarriecito < Formula
   def install
     (share/"fonts").install "Barriecito-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
