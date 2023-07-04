@@ -6,6 +6,8 @@ class FontRufina < Formula
     (share/"fonts").install "Rufina-Bold.ttf"
     (share/"fonts").install "Rufina-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
