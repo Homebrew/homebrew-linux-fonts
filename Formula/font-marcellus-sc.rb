@@ -5,6 +5,8 @@ class FontMarcellusSc < Formula
   def install
     (share/"fonts").install "MarcellusSC-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
