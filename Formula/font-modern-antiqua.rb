@@ -5,6 +5,8 @@ class FontModernAntiqua < Formula
   def install
     (share/"fonts").install "ModernAntiqua-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
