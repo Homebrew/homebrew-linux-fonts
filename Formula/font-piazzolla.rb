@@ -7,6 +7,8 @@ class FontPiazzolla < Formula
     (share/"fonts").install "Piazzolla-Italic[opsz,wght].ttf"
     (share/"fonts").install "Piazzolla[opsz,wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
