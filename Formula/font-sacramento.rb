@@ -5,6 +5,8 @@ class FontSacramento < Formula
   def install
     (share/"fonts").install "Sacramento-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
