@@ -7,6 +7,8 @@ class FontBizUdmincho < Formula
     (share/"fonts").install "BIZUDMincho-Bold.ttf"
     (share/"fonts").install "BIZUDMincho-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
