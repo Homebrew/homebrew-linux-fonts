@@ -7,6 +7,8 @@ class FontPlusJakartaSans < Formula
     (share/"fonts").install "PlusJakartaSans-Italic[wght].ttf"
     (share/"fonts").install "PlusJakartaSans[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
