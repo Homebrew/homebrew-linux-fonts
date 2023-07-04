@@ -5,6 +5,8 @@ class FontRubikWetPaint < Formula
   def install
     (share/"fonts").install "RubikWetPaint-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
