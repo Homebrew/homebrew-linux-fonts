@@ -5,6 +5,8 @@ class FontWhisper < Formula
   def install
     (share/"fonts").install "Whisper-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
