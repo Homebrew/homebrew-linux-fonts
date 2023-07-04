@@ -8,6 +8,8 @@ class FontLastResortHighEfficiency < Formula
   def install
     (share/"fonts").install "LastResortHE-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
