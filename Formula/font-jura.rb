@@ -5,6 +5,8 @@ class FontJura < Formula
   def install
     (share/"fonts").install "Jura[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
