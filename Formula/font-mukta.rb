@@ -11,6 +11,8 @@ class FontMukta < Formula
     (share/"fonts").install "Mukta-Regular.ttf"
     (share/"fonts").install "Mukta-SemiBold.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
