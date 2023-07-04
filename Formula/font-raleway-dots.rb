@@ -5,6 +5,8 @@ class FontRalewayDots < Formula
   def install
     (share/"fonts").install "RalewayDots-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
