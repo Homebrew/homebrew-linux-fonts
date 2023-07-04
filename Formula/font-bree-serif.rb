@@ -5,6 +5,8 @@ class FontBreeSerif < Formula
   def install
     (share/"fonts").install "BreeSerif-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
