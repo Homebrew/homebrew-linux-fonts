@@ -5,6 +5,8 @@ class FontPompiere < Formula
   def install
     (share/"fonts").install "Pompiere-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
