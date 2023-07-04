@@ -5,6 +5,8 @@ class FontFlowCircular < Formula
   def install
     (share/"fonts").install "FlowCircular-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
