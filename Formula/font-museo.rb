@@ -7,6 +7,8 @@ class FontMuseo < Formula
     (share/"fonts").install "Museo300-Regular.otf"
     (share/"fonts").install "Museo700-Regular.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
