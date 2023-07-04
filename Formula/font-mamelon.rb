@@ -10,6 +10,8 @@ class FontMamelon < Formula
     (share/"fonts").install "#{parent}mamelon_hireg/Mamelon-4-Hi-Regular.otf"
     (share/"fonts").install "#{parent}mamelon_hireg/Mamelon-5-Hi-Regular.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
