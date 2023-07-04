@@ -5,6 +5,8 @@ class FontImFellEnglishSc < Formula
   def install
     (share/"fonts").install "IMFeENsc28P.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
