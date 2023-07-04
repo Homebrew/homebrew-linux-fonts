@@ -10,6 +10,8 @@ class FontNeuton < Formula
     (share/"fonts").install "Neuton-Light.ttf"
     (share/"fonts").install "Neuton-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
