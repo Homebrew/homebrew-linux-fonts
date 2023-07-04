@@ -5,6 +5,8 @@ class FontMetalMania < Formula
   def install
     (share/"fonts").install "MetalMania-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
