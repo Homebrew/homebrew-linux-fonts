@@ -6,6 +6,8 @@ class FontSaira < Formula
     (share/"fonts").install "Saira-Italic[wdth,wght].ttf"
     (share/"fonts").install "Saira[wdth,wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
