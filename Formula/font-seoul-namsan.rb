@@ -8,6 +8,8 @@ class FontSeoulNamsan < Formula
     (share/"fonts").install "SeoulNamsan-Light.ttf"
     (share/"fonts").install "SeoulNamsan-Medium.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
