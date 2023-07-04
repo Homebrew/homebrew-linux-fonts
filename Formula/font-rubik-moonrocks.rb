@@ -5,6 +5,8 @@ class FontRubikMoonrocks < Formula
   def install
     (share/"fonts").install "RubikMoonrocks-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
