@@ -7,6 +7,8 @@ class FontGenos < Formula
     (share/"fonts").install "Genos-Italic[wght].ttf"
     (share/"fonts").install "Genos[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
