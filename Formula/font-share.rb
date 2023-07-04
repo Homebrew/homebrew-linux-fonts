@@ -8,6 +8,8 @@ class FontShare < Formula
     (share/"fonts").install "Share-Italic.ttf"
     (share/"fonts").install "Share-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
