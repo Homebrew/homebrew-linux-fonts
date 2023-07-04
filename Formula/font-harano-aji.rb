@@ -23,6 +23,8 @@ class FontHaranoAji < Formula
     (share/"fonts").install "#{parent}HaranoAjiFonts-#{version}/HaranoAjiMincho-Regular.otf"
     (share/"fonts").install "#{parent}HaranoAjiFonts-#{version}/HaranoAjiMincho-SemiBold.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
