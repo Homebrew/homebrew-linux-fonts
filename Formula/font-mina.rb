@@ -6,6 +6,8 @@ class FontMina < Formula
     (share/"fonts").install "Mina-Bold.ttf"
     (share/"fonts").install "Mina-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
