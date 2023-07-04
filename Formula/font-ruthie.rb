@@ -5,6 +5,8 @@ class FontRuthie < Formula
   def install
     (share/"fonts").install "Ruthie-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
