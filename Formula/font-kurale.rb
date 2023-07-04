@@ -5,6 +5,8 @@ class FontKurale < Formula
   def install
     (share/"fonts").install "Kurale-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
