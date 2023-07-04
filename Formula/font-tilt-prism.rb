@@ -5,6 +5,8 @@ class FontTiltPrism < Formula
   def install
     (share/"fonts").install "TiltPrism[XROT,YROT].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
