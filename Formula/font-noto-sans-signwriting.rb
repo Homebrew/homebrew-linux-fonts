@@ -6,6 +6,8 @@ class FontNotoSansSignwriting < Formula
   def install
     (share/"fonts").install "NotoSansSignWriting-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
