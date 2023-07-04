@@ -5,6 +5,8 @@ class FontRumRaisin < Formula
   def install
     (share/"fonts").install "RumRaisin-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
