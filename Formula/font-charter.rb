@@ -11,6 +11,8 @@ class FontCharter < Formula
     (share/"fonts").install "#{parent}Charter #{version}/OTF format (best for Mac OS)/Charter/Charter Italic.otf"
     (share/"fonts").install "#{parent}Charter #{version}/OTF format (best for Mac OS)/Charter/Charter Regular.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
