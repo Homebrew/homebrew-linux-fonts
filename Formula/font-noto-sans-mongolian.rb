@@ -5,6 +5,8 @@ class FontNotoSansMongolian < Formula
   def install
     (share/"fonts").install "NotoSansMongolian-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
