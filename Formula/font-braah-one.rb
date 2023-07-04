@@ -6,6 +6,8 @@ class FontBraahOne < Formula
   def install
     (share/"fonts").install "BraahOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
