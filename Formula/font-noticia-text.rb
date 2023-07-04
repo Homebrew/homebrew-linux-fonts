@@ -8,6 +8,8 @@ class FontNoticiaText < Formula
     (share/"fonts").install "NoticiaText-Italic.ttf"
     (share/"fonts").install "NoticiaText-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
