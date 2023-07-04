@@ -10,6 +10,8 @@ class FontMitr < Formula
     (share/"fonts").install "Mitr-Regular.ttf"
     (share/"fonts").install "Mitr-SemiBold.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
