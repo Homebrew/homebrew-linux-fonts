@@ -5,6 +5,8 @@ class FontTimmana < Formula
   def install
     (share/"fonts").install "Timmana-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
