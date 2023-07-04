@@ -18,6 +18,8 @@ class FontAlegreyaSansSc < Formula
     (share/"fonts").install "AlegreyaSansSC-Thin.ttf"
     (share/"fonts").install "AlegreyaSansSC-ThinItalic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
