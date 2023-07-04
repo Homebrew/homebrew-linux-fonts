@@ -6,6 +6,8 @@ class FontCuprum < Formula
     (share/"fonts").install "Cuprum-Italic[wght].ttf"
     (share/"fonts").install "Cuprum[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
