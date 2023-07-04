@@ -5,6 +5,8 @@ class FontBigshotOne < Formula
   def install
     (share/"fonts").install "BigshotOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
