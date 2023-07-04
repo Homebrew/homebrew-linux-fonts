@@ -5,6 +5,8 @@ class FontFascinateInline < Formula
   def install
     (share/"fonts").install "FascinateInline-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
