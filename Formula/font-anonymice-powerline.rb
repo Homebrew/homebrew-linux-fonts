@@ -8,6 +8,8 @@ class FontAnonymicePowerline < Formula
     (share/"fonts").install "Anonymice Powerline Italic.ttf"
     (share/"fonts").install "Anonymice Powerline.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
