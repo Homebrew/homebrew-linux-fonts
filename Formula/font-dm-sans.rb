@@ -6,6 +6,8 @@ class FontDmSans < Formula
     (share/"fonts").install "DMSans-Italic[opsz,wght].ttf"
     (share/"fonts").install "DMSans[opsz,wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
