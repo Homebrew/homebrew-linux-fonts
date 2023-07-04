@@ -5,6 +5,8 @@ class FontAbyssinicaSil < Formula
   def install
     (share/"fonts").install "AbyssinicaSIL-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
