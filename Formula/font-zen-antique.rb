@@ -5,6 +5,8 @@ class FontZenAntique < Formula
   def install
     (share/"fonts").install "ZenAntique-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
