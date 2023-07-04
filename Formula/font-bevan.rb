@@ -6,6 +6,8 @@ class FontBevan < Formula
     (share/"fonts").install "Bevan-Italic.ttf"
     (share/"fonts").install "Bevan-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
