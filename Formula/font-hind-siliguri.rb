@@ -9,6 +9,8 @@ class FontHindSiliguri < Formula
     (share/"fonts").install "HindSiliguri-Regular.ttf"
     (share/"fonts").install "HindSiliguri-SemiBold.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
