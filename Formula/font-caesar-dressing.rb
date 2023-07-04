@@ -5,6 +5,8 @@ class FontCaesarDressing < Formula
   def install
     (share/"fonts").install "CaesarDressing-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
