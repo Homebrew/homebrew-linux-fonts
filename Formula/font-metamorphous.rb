@@ -5,6 +5,8 @@ class FontMetamorphous < Formula
   def install
     (share/"fonts").install "Metamorphous-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
