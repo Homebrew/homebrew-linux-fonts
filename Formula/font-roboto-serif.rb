@@ -7,6 +7,8 @@ class FontRobotoSerif < Formula
     (share/"fonts").install "RobotoSerif-Italic[GRAD,opsz,wdth,wght].ttf"
     (share/"fonts").install "RobotoSerif[GRAD,opsz,wdth,wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
