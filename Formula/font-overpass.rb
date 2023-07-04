@@ -27,6 +27,8 @@ class FontOverpass < Formula
     (share/"fonts").install "#{parent}Overpass-#{version}/desktop-fonts/overpass-mono/overpass-mono-regular.otf"
     (share/"fonts").install "#{parent}Overpass-#{version}/desktop-fonts/overpass-mono/overpass-mono-semibold.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
