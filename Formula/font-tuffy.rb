@@ -8,6 +8,8 @@ class FontTuffy < Formula
     (share/"fonts").install "Tuffy-Italic.ttf"
     (share/"fonts").install "Tuffy-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
