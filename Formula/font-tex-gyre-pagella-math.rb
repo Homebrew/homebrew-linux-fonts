@@ -8,6 +8,8 @@ class FontTexGyrePagellaMath < Formula
     parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}texgyrepagella-math-#{version.to_s.gsub(".", "")}/opentype/texgyrepagella-math.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
