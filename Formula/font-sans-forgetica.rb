@@ -6,6 +6,8 @@ class FontSansForgetica < Formula
     parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}Sans Forgetica/SansForgetica-Regular.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
