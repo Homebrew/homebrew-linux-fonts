@@ -9,6 +9,8 @@ class FontChenyuluoyan < Formula
   def install
     (share/"fonts").install "ChenYuluoyan-Thin-Monospaced.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
