@@ -5,6 +5,8 @@ class FontInconsolataG < Formula
   def install
     (share/"fonts").install "Inconsolata-g.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
