@@ -5,6 +5,8 @@ class FontSnippet < Formula
   def install
     (share/"fonts").install "Snippet.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
