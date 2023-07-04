@@ -13,6 +13,8 @@ class FontNotoSerifSinhala < Formula
     (share/"fonts").install "NotoSerifSinhala-SemiBold.ttf"
     (share/"fonts").install "NotoSerifSinhala-Thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
