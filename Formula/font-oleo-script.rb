@@ -6,6 +6,8 @@ class FontOleoScript < Formula
     (share/"fonts").install "OleoScript-Bold.ttf"
     (share/"fonts").install "OleoScript-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
