@@ -7,6 +7,8 @@ class FontFuzzyBubbles < Formula
     (share/"fonts").install "FuzzyBubbles-Bold.ttf"
     (share/"fonts").install "FuzzyBubbles-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
