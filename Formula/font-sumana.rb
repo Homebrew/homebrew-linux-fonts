@@ -6,6 +6,8 @@ class FontSumana < Formula
     (share/"fonts").install "Sumana-Bold.ttf"
     (share/"fonts").install "Sumana-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
