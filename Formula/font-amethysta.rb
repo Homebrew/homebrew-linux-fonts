@@ -5,6 +5,8 @@ class FontAmethysta < Formula
   def install
     (share/"fonts").install "Amethysta-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
