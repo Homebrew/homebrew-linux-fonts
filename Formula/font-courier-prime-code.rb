@@ -7,6 +7,8 @@ class FontCourierPrimeCode < Formula
     (share/"fonts").install "#{parent}ttf/Courier Prime Code Italic.ttf"
     (share/"fonts").install "#{parent}ttf/Courier Prime Code.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
