@@ -5,6 +5,8 @@ class FontIslandMoments < Formula
   def install
     (share/"fonts").install "IslandMoments-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
