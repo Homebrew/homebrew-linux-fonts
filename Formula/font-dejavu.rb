@@ -29,6 +29,8 @@ class FontDejavu < Formula
     (share/"fonts").install "#{parent}dejavu-fonts-ttf-#{version}/ttf/DejaVuSerifCondensed-Italic.ttf"
     (share/"fonts").install "#{parent}dejavu-fonts-ttf-#{version}/ttf/DejaVuSerifCondensed.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
