@@ -6,6 +6,8 @@ class FontNotoSerifHk < Formula
   def install
     (share/"fonts").install "NotoSerifHK[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
