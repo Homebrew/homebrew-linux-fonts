@@ -6,6 +6,8 @@ class FontRedHatMono < Formula
     (share/"fonts").install "RedHatMono-Italic[wght].ttf"
     (share/"fonts").install "RedHatMono[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
