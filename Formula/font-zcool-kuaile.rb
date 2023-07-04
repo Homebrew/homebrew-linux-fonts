@@ -5,6 +5,8 @@ class FontZcoolKuaile < Formula
   def install
     (share/"fonts").install "ZCOOLKuaiLe-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
