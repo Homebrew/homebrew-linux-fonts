@@ -7,6 +7,8 @@ class FontAlef < Formula
     (share/"fonts").install "#{parent}TTF/Alef-Bold.ttf"
     (share/"fonts").install "#{parent}TTF/Alef-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
