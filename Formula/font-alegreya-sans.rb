@@ -35,6 +35,8 @@ class FontAlegreyaSans < Formula
     (share/"fonts").install "#{parent}Alegreya-Sans-#{version}/fonts/otf/AlegreyaSansSC-Thin.otf"
     (share/"fonts").install "#{parent}Alegreya-Sans-#{version}/fonts/otf/AlegreyaSansSC-ThinItalic.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
