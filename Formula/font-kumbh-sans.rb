@@ -6,6 +6,8 @@ class FontKumbhSans < Formula
   def install
     (share/"fonts").install "KumbhSans[YOPQ,wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
