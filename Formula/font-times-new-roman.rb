@@ -8,6 +8,8 @@ class FontTimesNewRoman < Formula
     (share/"fonts").install "Timesbi.TTF"
     (share/"fonts").install "Timesi.TTF"
   end
+  # No zap stanza required
+
   test do
   end
 end
