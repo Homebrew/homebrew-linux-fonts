@@ -15,6 +15,8 @@ class FontLilex < Formula
     (share/"fonts").install "#{parent}ttf/Lilex-Thin.ttf"
     (share/"fonts").install "#{parent}variable/Lilex-VF.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
