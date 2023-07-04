@@ -9,6 +9,8 @@ class FontNationalPark < Formula
     (share/"fonts").install "NationalPark-Outline.otf"
     (share/"fonts").install "NationalPark-Heavy.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
