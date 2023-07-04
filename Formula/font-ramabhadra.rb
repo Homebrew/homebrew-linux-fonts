@@ -5,6 +5,8 @@ class FontRamabhadra < Formula
   def install
     (share/"fonts").install "Ramabhadra-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
