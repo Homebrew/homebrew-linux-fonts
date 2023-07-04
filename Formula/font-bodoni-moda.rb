@@ -10,6 +10,8 @@ class FontBodoniModa < Formula
     (share/"fonts").install "#{parent}Bodoni-master/fonts/variable/Bodoni-Italic-VF.ttf"
     (share/"fonts").install "#{parent}Bodoni-master/fonts/variable/Bodoni-VF.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
