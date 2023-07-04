@@ -11,6 +11,8 @@ class FontGentiumBasic < Formula
     (share/"fonts").install "#{parent}GentiumBasic_#{version.to_s.gsub(".", "")}/GenBasI.ttf"
     (share/"fonts").install "#{parent}GentiumBasic_#{version.to_s.gsub(".", "")}/GenBasR.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
