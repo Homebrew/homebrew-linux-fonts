@@ -5,6 +5,8 @@ class FontLaoMuangDon < Formula
   def install
     (share/"fonts").install "LaoMuangDon-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
