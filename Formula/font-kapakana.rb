@@ -6,6 +6,8 @@ class FontKapakana < Formula
   def install
     (share/"fonts").install "Kapakana[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
