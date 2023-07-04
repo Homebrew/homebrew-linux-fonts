@@ -6,6 +6,8 @@ class FontKarla < Formula
     (share/"fonts").install "Karla-Italic[wght].ttf"
     (share/"fonts").install "Karla[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
