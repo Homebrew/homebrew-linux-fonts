@@ -6,6 +6,8 @@ class FontNeonderthaw < Formula
   def install
     (share/"fonts").install "Neonderthaw-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
