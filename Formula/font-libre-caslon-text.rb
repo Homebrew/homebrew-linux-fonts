@@ -8,6 +8,8 @@ class FontLibreCaslonText < Formula
     (share/"fonts").install "#{parent}Libre-Caslon-Text-master/fonts/OTF/LibreCaslonText-Italic.otf"
     (share/"fonts").install "#{parent}Libre-Caslon-Text-master/fonts/OTF/LibreCaslonText-Regular.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
