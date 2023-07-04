@@ -11,6 +11,8 @@ class FontTexGyrePagella < Formula
     (share/"fonts").install "#{parent}qpl#{version.to_s.gsub(".", "_")}otf/texgyrepagella-italic.otf"
     (share/"fonts").install "#{parent}qpl#{version.to_s.gsub(".", "_")}otf/texgyrepagella-regular.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
