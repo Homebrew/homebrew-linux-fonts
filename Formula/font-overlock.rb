@@ -10,6 +10,8 @@ class FontOverlock < Formula
     (share/"fonts").install "Overlock-Italic.ttf"
     (share/"fonts").install "Overlock-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
