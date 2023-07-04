@@ -5,6 +5,8 @@ class FontLohit < Formula
   def install
     (share/"fonts").install "Lohit-Devanagari.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
