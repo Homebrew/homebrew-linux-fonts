@@ -6,6 +6,8 @@ class FontOflSortsMillGoudyTt < Formula
     (share/"fonts").install "OFLGoudyStMTT-Italic.ttf"
     (share/"fonts").install "OFLGoudyStMTT.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
