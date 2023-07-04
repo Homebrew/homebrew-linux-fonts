@@ -20,6 +20,8 @@ class FontLivvic < Formula
     (share/"fonts").install "Livvic-Thin.ttf"
     (share/"fonts").install "Livvic-ThinItalic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
