@@ -8,6 +8,8 @@ class FontAlmendra < Formula
     (share/"fonts").install "Almendra-Italic.ttf"
     (share/"fonts").install "Almendra-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
