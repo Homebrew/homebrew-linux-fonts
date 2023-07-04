@@ -27,6 +27,8 @@ class FontGenjyuugothic < Formula
     (share/"fonts").install "GenJyuuGothic-P-Regular.ttf"
     (share/"fonts").install "GenJyuuGothic-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
