@@ -9,6 +9,8 @@ class FontKhand < Formula
     (share/"fonts").install "Khand-Regular.ttf"
     (share/"fonts").install "Khand-SemiBold.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
