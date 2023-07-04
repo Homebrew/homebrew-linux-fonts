@@ -5,6 +5,8 @@ class FontAnnieUseYourTelescope < Formula
   def install
     (share/"fonts").install "AnnieUseYourTelescope-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
