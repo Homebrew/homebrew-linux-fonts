@@ -6,6 +6,8 @@ class FontMontserrat < Formula
     (share/"fonts").install "Montserrat-Italic[wght].ttf"
     (share/"fonts").install "Montserrat[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
