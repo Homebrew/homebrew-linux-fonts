@@ -5,6 +5,8 @@ class FontCantoraOne < Formula
   def install
     (share/"fonts").install "CantoraOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
