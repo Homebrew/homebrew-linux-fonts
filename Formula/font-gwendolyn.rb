@@ -6,6 +6,8 @@ class FontGwendolyn < Formula
     (share/"fonts").install "Gwendolyn-Bold.ttf"
     (share/"fonts").install "Gwendolyn-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
