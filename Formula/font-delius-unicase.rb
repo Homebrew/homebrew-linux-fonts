@@ -6,6 +6,8 @@ class FontDeliusUnicase < Formula
     (share/"fonts").install "DeliusUnicase-Bold.ttf"
     (share/"fonts").install "DeliusUnicase-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
