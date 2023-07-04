@@ -7,6 +7,8 @@ class FontTiroBangla < Formula
     (share/"fonts").install "TiroBangla-Italic.ttf"
     (share/"fonts").install "TiroBangla-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
