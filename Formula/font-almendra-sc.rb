@@ -5,6 +5,8 @@ class FontAlmendraSc < Formula
   def install
     (share/"fonts").install "AlmendraSC-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
