@@ -76,6 +76,8 @@ class FontNotoSansThai < Formula
     (share/"fonts").install "NotoSansThaiUI-SemiCondensedThin.ttf"
     (share/"fonts").install "NotoSansThaiUI-Thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
