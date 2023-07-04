@@ -10,6 +10,8 @@ class FontZenOldMincho < Formula
     (share/"fonts").install "ZenOldMincho-Regular.ttf"
     (share/"fonts").install "ZenOldMincho-SemiBold.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
