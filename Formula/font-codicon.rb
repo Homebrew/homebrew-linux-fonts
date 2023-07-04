@@ -9,6 +9,8 @@ class FontCodicon < Formula
     parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}vscode-codicons-#{version}/dist/codicon.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
