@@ -5,6 +5,8 @@ class FontMoonDance < Formula
   def install
     (share/"fonts").install "MoonDance-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
