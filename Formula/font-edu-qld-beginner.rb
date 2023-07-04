@@ -5,6 +5,8 @@ class FontEduQldBeginner < Formula
   def install
     (share/"fonts").install "EduQLDBeginner[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
