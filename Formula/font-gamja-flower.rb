@@ -5,6 +5,8 @@ class FontGamjaFlower < Formula
   def install
     (share/"fonts").install "GamjaFlower-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
