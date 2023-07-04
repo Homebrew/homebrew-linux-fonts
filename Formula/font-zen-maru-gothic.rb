@@ -10,6 +10,8 @@ class FontZenMaruGothic < Formula
     (share/"fonts").install "ZenMaruGothic-Medium.ttf"
     (share/"fonts").install "ZenMaruGothic-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
