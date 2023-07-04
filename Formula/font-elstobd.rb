@@ -55,6 +55,8 @@ class FontElstobd < Formula
     (share/"fonts").install "#{parent}Elstob_font/desktop/ElstobD-SemiBold.ttf"
     (share/"fonts").install "#{parent}Elstob_font/desktop/ElstobD-SemiBoldItalic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
