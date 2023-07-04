@@ -5,6 +5,8 @@ class FontCarterOne < Formula
   def install
     (share/"fonts").install "CarterOne.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
