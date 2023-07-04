@@ -6,6 +6,8 @@ class FontSourceSerif4 < Formula
     (share/"fonts").install "SourceSerif4-Italic[opsz,wght].ttf"
     (share/"fonts").install "SourceSerif4[opsz,wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
