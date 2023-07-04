@@ -5,6 +5,8 @@ class FontTrainOne < Formula
   def install
     (share/"fonts").install "TrainOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
