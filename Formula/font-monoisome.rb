@@ -6,6 +6,8 @@ class FontMonoisome < Formula
   def install
     (share/"fonts").install "Monoisome-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
