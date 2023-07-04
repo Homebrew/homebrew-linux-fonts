@@ -6,6 +6,8 @@ class FontAstloch < Formula
     (share/"fonts").install "Astloch-Bold.ttf"
     (share/"fonts").install "Astloch-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
