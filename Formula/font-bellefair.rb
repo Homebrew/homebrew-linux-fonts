@@ -5,6 +5,8 @@ class FontBellefair < Formula
   def install
     (share/"fonts").install "Bellefair-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
