@@ -6,6 +6,8 @@ class FontStoke < Formula
     (share/"fonts").install "Stoke-Light.ttf"
     (share/"fonts").install "Stoke-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
