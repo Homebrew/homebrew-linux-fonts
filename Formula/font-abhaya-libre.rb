@@ -9,6 +9,8 @@ class FontAbhayaLibre < Formula
     (share/"fonts").install "AbhayaLibre-Regular.ttf"
     (share/"fonts").install "AbhayaLibre-SemiBold.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
