@@ -5,6 +5,8 @@ class FontSpecialElite < Formula
   def install
     (share/"fonts").install "SpecialElite-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
