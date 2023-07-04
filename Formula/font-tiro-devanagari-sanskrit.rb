@@ -7,6 +7,8 @@ class FontTiroDevanagariSanskrit < Formula
     (share/"fonts").install "TiroDevanagariSanskrit-Italic.ttf"
     (share/"fonts").install "TiroDevanagariSanskrit-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
