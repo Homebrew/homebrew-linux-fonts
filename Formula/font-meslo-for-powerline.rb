@@ -13,6 +13,8 @@ class FontMesloForPowerline < Formula
     (share/"fonts").install "#{parent}fonts-#{version}/Meslo/Meslo LG S DZ Regular for Powerline.otf"
     (share/"fonts").install "#{parent}fonts-#{version}/Meslo/Meslo LG S Regular for Powerline.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
