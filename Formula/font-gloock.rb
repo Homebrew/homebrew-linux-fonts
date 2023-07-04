@@ -6,6 +6,8 @@ class FontGloock < Formula
   def install
     (share/"fonts").install "Gloock-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
