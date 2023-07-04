@@ -7,6 +7,8 @@ class FontDongle < Formula
     (share/"fonts").install "Dongle-Light.ttf"
     (share/"fonts").install "Dongle-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
