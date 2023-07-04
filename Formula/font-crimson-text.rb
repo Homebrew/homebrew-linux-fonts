@@ -10,6 +10,8 @@ class FontCrimsonText < Formula
     (share/"fonts").install "CrimsonText-SemiBold.ttf"
     (share/"fonts").install "CrimsonText-SemiBoldItalic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
