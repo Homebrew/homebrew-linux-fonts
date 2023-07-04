@@ -6,6 +6,8 @@ class FontMontecarlo < Formula
   def install
     (share/"fonts").install "MonteCarlo-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
