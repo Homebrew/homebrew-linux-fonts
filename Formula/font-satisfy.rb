@@ -5,6 +5,8 @@ class FontSatisfy < Formula
   def install
     (share/"fonts").install "Satisfy-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
