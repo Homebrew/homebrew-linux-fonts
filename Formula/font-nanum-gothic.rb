@@ -7,6 +7,8 @@ class FontNanumGothic < Formula
     (share/"fonts").install "NanumGothic-ExtraBold.ttf"
     (share/"fonts").install "NanumGothic-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
