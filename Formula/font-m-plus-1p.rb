@@ -11,6 +11,8 @@ class FontMPlus1p < Formula
     (share/"fonts").install "MPLUS1p-Regular.ttf"
     (share/"fonts").install "MPLUS1p-Thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
