@@ -9,6 +9,8 @@ class FontSeoulHangangCondensed < Formula
     (share/"fonts").install "SeoulHangangCondensed-Light.ttf"
     (share/"fonts").install "SeoulHangangCondensed-Medium.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
