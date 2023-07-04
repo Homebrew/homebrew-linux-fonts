@@ -5,6 +5,8 @@ class FontRamaraja < Formula
   def install
     (share/"fonts").install "Ramaraja-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
