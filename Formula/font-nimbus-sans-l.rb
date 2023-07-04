@@ -13,6 +13,8 @@ class FontNimbusSansL < Formula
     (share/"fonts").install "#{parent}nimbus-sans-l/NimbusSanL-ReguCondItal.ttf"
     (share/"fonts").install "#{parent}nimbus-sans-l/NimbusSanL-ReguItal.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
