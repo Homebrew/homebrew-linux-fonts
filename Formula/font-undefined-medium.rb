@@ -9,6 +9,8 @@ class FontUndefinedMedium < Formula
     parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}undefined-medium-#{version}/fonts/otf/undefined-medium.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
