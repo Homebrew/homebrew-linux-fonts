@@ -5,6 +5,8 @@ class FontDiplomataSc < Formula
   def install
     (share/"fonts").install "DiplomataSC-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
