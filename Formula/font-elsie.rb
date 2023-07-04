@@ -6,6 +6,8 @@ class FontElsie < Formula
     (share/"fonts").install "Elsie-Black.ttf"
     (share/"fonts").install "Elsie-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
