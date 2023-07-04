@@ -14,6 +14,8 @@ class FontArkPixel16pxMonospaced < Formula
     (share/"fonts").install "ark-pixel-16px-monospaced-zh_tr.otf"
     (share/"fonts").install "ark-pixel-16px-monospaced-zh_tw.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
