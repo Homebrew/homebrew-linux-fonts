@@ -16,6 +16,8 @@ class FontFirge < Formula
     (share/"fonts").install "#{parent}Firge_v#{version}/FirgeConsole-Bold.ttf"
     (share/"fonts").install "#{parent}Firge_v#{version}/FirgeConsole-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
