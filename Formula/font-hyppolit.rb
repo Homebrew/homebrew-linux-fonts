@@ -5,6 +5,8 @@ class FontHyppolit < Formula
   def install
     (share/"fonts").install "Hyppolit.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
