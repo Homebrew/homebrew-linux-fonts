@@ -5,6 +5,8 @@ class FontMergeOne < Formula
   def install
     (share/"fonts").install "MergeOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
