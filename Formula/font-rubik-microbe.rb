@@ -5,6 +5,8 @@ class FontRubikMicrobe < Formula
   def install
     (share/"fonts").install "RubikMicrobe-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
