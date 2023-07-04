@@ -5,6 +5,8 @@ class FontTulpenOne < Formula
   def install
     (share/"fonts").install "TulpenOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
