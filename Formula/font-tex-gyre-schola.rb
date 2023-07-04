@@ -10,6 +10,8 @@ class FontTexGyreSchola < Formula
     (share/"fonts").install "texgyreschola-italic.otf"
     (share/"fonts").install "texgyreschola-regular.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
