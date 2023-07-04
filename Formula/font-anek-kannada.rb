@@ -5,6 +5,8 @@ class FontAnekKannada < Formula
   def install
     (share/"fonts").install "AnekKannada[wdth,wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
