@@ -8,6 +8,8 @@ class FontWaptia < Formula
     (share/"fonts").install "#{parent}waptia/Waptia-Light.otf"
     (share/"fonts").install "#{parent}waptia/Waptia-Thin.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
