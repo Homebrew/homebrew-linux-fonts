@@ -6,6 +6,8 @@ class FontNotoKufiArabic < Formula
     (share/"fonts").install "NotoKufiArabic-Bold.ttf"
     (share/"fonts").install "NotoKufiArabic-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
