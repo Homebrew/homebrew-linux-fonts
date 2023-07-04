@@ -5,6 +5,8 @@ class FontRubikStorm < Formula
   def install
     (share/"fonts").install "RubikStorm-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
