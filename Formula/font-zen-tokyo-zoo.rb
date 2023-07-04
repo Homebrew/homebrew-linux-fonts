@@ -5,6 +5,8 @@ class FontZenTokyoZoo < Formula
   def install
     (share/"fonts").install "ZenTokyoZoo-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
