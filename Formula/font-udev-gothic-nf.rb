@@ -24,6 +24,8 @@ class FontUdevGothicNf < Formula
     (share/"fonts").install "#{parent}UDEVGothic_NF_v#{version}/UDEVGothicNFLG-Italic.ttf"
     (share/"fonts").install "#{parent}UDEVGothic_NF_v#{version}/UDEVGothicNFLG-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
