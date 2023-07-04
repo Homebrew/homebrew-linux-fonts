@@ -7,6 +7,8 @@ class FontAdventPro < Formula
     (share/"fonts").install "AdventPro-Italic[wdth,wght].ttf"
     (share/"fonts").install "AdventPro[wdth,wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
