@@ -72,6 +72,8 @@ class FontPlemolJpHs < Formula
     (share/"fonts").install "#{parent}PlemolJP_HS_v#{version}/PlemolJP35Console_HS/PlemolJP35ConsoleHS-Thin.ttf"
     (share/"fonts").install "#{parent}PlemolJP_HS_v#{version}/PlemolJP35Console_HS/PlemolJP35ConsoleHS-ThinItalic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
