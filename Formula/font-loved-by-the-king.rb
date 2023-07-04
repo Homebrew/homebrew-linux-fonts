@@ -5,6 +5,8 @@ class FontLovedByTheKing < Formula
   def install
     (share/"fonts").install "LovedbytheKing.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
