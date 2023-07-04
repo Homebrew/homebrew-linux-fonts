@@ -8,6 +8,8 @@ class FontPhilosopher < Formula
     (share/"fonts").install "Philosopher-Italic.ttf"
     (share/"fonts").install "Philosopher-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
