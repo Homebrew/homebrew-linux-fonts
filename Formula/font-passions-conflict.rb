@@ -5,6 +5,8 @@ class FontPassionsConflict < Formula
   def install
     (share/"fonts").install "PassionsConflict-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
