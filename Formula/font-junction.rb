@@ -8,6 +8,8 @@ class FontJunction < Formula
     (share/"fonts").install "#{parent}junction-master/Junction-light.otf"
     (share/"fonts").install "#{parent}junction-master/Junction-regular.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
