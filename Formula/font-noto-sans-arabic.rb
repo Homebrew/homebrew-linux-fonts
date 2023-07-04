@@ -76,6 +76,8 @@ class FontNotoSansArabic < Formula
     (share/"fonts").install "NotoSansArabicUI-SemiCondensedThin.ttf"
     (share/"fonts").install "NotoSansArabicUI-Thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
