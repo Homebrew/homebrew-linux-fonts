@@ -26,6 +26,8 @@ class FontInter < Formula
     (share/"fonts").install "#{parent}Inter Desktop/Inter-ThinItalic.otf"
     (share/"fonts").install "#{parent}Inter Desktop/Inter-V.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
