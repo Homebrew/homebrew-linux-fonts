@@ -5,6 +5,8 @@ class FontMilonga < Formula
   def install
     (share/"fonts").install "Milonga-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
