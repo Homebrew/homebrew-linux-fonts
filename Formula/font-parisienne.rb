@@ -5,6 +5,8 @@ class FontParisienne < Formula
   def install
     (share/"fonts").install "Parisienne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
