@@ -5,6 +5,8 @@ class FontInconsolata < Formula
   def install
     (share/"fonts").install "Inconsolata[wdth,wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
