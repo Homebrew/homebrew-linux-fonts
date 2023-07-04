@@ -6,6 +6,8 @@ class FontChangaOne < Formula
     (share/"fonts").install "ChangaOne-Italic.ttf"
     (share/"fonts").install "ChangaOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
