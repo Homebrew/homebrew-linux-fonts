@@ -5,6 +5,8 @@ class FontNotoSansYi < Formula
   def install
     (share/"fonts").install "NotoSansYi-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
