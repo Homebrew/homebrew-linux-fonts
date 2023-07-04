@@ -5,6 +5,8 @@ class FontNewRocker < Formula
   def install
     (share/"fonts").install "NewRocker-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
