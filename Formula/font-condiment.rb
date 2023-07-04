@@ -5,6 +5,8 @@ class FontCondiment < Formula
   def install
     (share/"fonts").install "Condiment-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
