@@ -14,6 +14,8 @@ class FontDelugiaPowerline < Formula
     (share/"fonts").install "#{parent}delugia-powerline/DelugiaPLLight-Italic.ttf"
     (share/"fonts").install "#{parent}delugia-powerline/DelugiaPLLight.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
