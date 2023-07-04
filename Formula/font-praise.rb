@@ -6,6 +6,8 @@ class FontPraise < Formula
   def install
     (share/"fonts").install "Praise-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
