@@ -5,6 +5,8 @@ class FontVampiroOne < Formula
   def install
     (share/"fonts").install "VampiroOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
