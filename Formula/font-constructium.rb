@@ -5,6 +5,8 @@ class FontConstructium < Formula
   def install
     (share/"fonts").install "Constructium.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
