@@ -6,6 +6,8 @@ class FontArchivo < Formula
     (share/"fonts").install "Archivo-Italic[wdth,wght].ttf"
     (share/"fonts").install "Archivo[wdth,wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
