@@ -5,6 +5,8 @@ class FontAveriaGruesaLibre < Formula
   def install
     (share/"fonts").install "AveriaGruesaLibre-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
