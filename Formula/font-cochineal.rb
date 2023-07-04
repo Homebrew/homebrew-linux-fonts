@@ -9,6 +9,8 @@ class FontCochineal < Formula
     (share/"fonts").install "#{parent}cochineal/opentype/Cochineal-Italic.otf"
     (share/"fonts").install "#{parent}cochineal/opentype/Cochineal-Roman.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
