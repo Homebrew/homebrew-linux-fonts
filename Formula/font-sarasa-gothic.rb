@@ -21,6 +21,8 @@ class FontSarasaGothic < Formula
     (share/"fonts").install "sarasa-semibold.ttc"
     (share/"fonts").install "sarasa-semibolditalic.ttc"
   end
+  # No zap stanza required
+
   test do
   end
 end
