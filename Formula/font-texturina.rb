@@ -7,6 +7,8 @@ class FontTexturina < Formula
     (share/"fonts").install "Texturina-Italic[opsz,wght].ttf"
     (share/"fonts").install "Texturina[opsz,wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
