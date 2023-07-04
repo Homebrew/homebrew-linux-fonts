@@ -7,6 +7,8 @@ class FontFiraMonoForPowerline < Formula
     (share/"fonts").install "FuraMono-Medium Powerline.otf"
     (share/"fonts").install "FuraMono-Regular Powerline.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
