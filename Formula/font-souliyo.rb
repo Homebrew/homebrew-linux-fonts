@@ -5,6 +5,8 @@ class FontSouliyo < Formula
   def install
     (share/"fonts").install "Souliyo-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
