@@ -7,6 +7,8 @@ class FontTrochut < Formula
     (share/"fonts").install "Trochut-Italic.ttf"
     (share/"fonts").install "Trochut-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
