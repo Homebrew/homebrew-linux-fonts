@@ -9,6 +9,8 @@ class FontGentiumBookPlus < Formula
     (share/"fonts").install "GentiumBookPlus-Italic.ttf"
     (share/"fonts").install "GentiumBookPlus-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
