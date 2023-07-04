@@ -10,6 +10,8 @@ class FontPlayfairDisplaySc < Formula
     (share/"fonts").install "PlayfairDisplaySC-Italic.ttf"
     (share/"fonts").install "PlayfairDisplaySC-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
