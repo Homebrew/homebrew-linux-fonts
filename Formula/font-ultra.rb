@@ -5,6 +5,8 @@ class FontUltra < Formula
   def install
     (share/"fonts").install "Ultra-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
