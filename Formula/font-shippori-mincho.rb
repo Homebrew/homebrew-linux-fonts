@@ -10,6 +10,8 @@ class FontShipporiMincho < Formula
     (share/"fonts").install "ShipporiMincho-Regular.ttf"
     (share/"fonts").install "ShipporiMincho-SemiBold.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
