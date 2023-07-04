@@ -5,6 +5,8 @@ class FontSecularOne < Formula
   def install
     (share/"fonts").install "SecularOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
