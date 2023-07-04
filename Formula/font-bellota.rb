@@ -10,6 +10,8 @@ class FontBellota < Formula
     (share/"fonts").install "Bellota-LightItalic.ttf"
     (share/"fonts").install "Bellota-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
