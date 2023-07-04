@@ -9,6 +9,8 @@ class FontCardo < Formula
     (share/"fonts").install "Cardoi99.ttf"
     (share/"fonts").install "Cardob101.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
