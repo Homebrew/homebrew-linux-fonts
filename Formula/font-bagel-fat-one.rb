@@ -5,6 +5,8 @@ class FontBagelFatOne < Formula
   def install
     (share/"fonts").install "BagelFatOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
