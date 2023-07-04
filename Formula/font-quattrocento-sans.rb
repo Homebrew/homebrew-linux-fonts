@@ -8,6 +8,8 @@ class FontQuattrocentoSans < Formula
     (share/"fonts").install "QuattrocentoSans-Italic.ttf"
     (share/"fonts").install "QuattrocentoSans-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
