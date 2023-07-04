@@ -5,6 +5,8 @@ class FontNotoSansTagalog < Formula
   def install
     (share/"fonts").install "NotoSansTagalog-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
