@@ -23,6 +23,8 @@ class FontBeVietnamPro < Formula
     (share/"fonts").install "BeVietnamPro-Thin.ttf"
     (share/"fonts").install "BeVietnamPro-ThinItalic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
