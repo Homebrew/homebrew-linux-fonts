@@ -6,6 +6,8 @@ class FontBuenard < Formula
     (share/"fonts").install "Buenard-Bold.ttf"
     (share/"fonts").install "Buenard-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
