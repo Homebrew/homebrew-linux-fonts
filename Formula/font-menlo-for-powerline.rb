@@ -9,6 +9,8 @@ class FontMenloForPowerline < Formula
     (share/"fonts").install "#{parent}Menlo-for-Powerline-master/Menlo Italic for Powerline.ttf"
     (share/"fonts").install "#{parent}Menlo-for-Powerline-master/Menlo Bold Italic for Powerline.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
