@@ -5,6 +5,8 @@ class FontKenia < Formula
   def install
     (share/"fonts").install "Kenia-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
