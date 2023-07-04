@@ -5,6 +5,8 @@ class FontNotoSansBamum < Formula
   def install
     (share/"fonts").install "NotoSansBamum-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
