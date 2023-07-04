@@ -7,6 +7,8 @@ class FontTaiHeritagePro < Formula
     (share/"fonts").install "TaiHeritagePro-Bold.ttf"
     (share/"fonts").install "TaiHeritagePro-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
