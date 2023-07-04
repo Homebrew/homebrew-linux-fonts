@@ -7,6 +7,8 @@ class FontGidole < Formula
     (share/"fonts").install "#{parent}GidoleFont/Gidole-Regular.ttf"
     (share/"fonts").install "#{parent}GidoleFont/Gidolinya-Regular.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
