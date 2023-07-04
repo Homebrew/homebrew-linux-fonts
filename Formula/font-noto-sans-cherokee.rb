@@ -13,6 +13,8 @@ class FontNotoSansCherokee < Formula
     (share/"fonts").install "NotoSansCherokee-SemiBold.ttf"
     (share/"fonts").install "NotoSansCherokee-Thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
