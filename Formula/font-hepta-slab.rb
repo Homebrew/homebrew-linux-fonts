@@ -5,6 +5,8 @@ class FontHeptaSlab < Formula
   def install
     (share/"fonts").install "HeptaSlab[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
