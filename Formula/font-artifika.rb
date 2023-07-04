@@ -5,6 +5,8 @@ class FontArtifika < Formula
   def install
     (share/"fonts").install "Artifika-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
