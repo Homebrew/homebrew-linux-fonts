@@ -5,6 +5,8 @@ class FontCatamaran < Formula
   def install
     (share/"fonts").install "Catamaran[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
