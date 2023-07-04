@@ -7,6 +7,8 @@ class FontPassionOne < Formula
     (share/"fonts").install "PassionOne-Bold.ttf"
     (share/"fonts").install "PassionOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
