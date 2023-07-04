@@ -5,6 +5,8 @@ class FontNovaFlat < Formula
   def install
     (share/"fonts").install "NovaFlat.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
