@@ -6,6 +6,8 @@ class FontNotoSansGujarati < Formula
     (share/"fonts").install "NotoSansGujarati-Bold.ttf"
     (share/"fonts").install "NotoSansGujarati-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
