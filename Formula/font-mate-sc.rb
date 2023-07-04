@@ -5,6 +5,8 @@ class FontMateSc < Formula
   def install
     (share/"fonts").install "MateSC-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
