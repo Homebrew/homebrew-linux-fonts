@@ -9,6 +9,8 @@ class FontIaWriterMono < Formula
     (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Mono/Static/iAWriterMonoS-Italic.ttf"
     (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Mono/Static/iAWriterMonoS-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
