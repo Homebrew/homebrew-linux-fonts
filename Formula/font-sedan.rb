@@ -6,6 +6,8 @@ class FontSedan < Formula
     (share/"fonts").install "Sedan-Italic.ttf"
     (share/"fonts").install "Sedan-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
