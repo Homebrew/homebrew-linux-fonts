@@ -12,6 +12,8 @@ class FontTogalite < Formula
     (share/"fonts").install "#{parent}togalite/togalite-medium.otf"
     (share/"fonts").install "#{parent}togalite/togalite-regular.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
