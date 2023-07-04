@@ -9,6 +9,8 @@ class FontAtma < Formula
     (share/"fonts").install "Atma-Regular.ttf"
     (share/"fonts").install "Atma-SemiBold.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
