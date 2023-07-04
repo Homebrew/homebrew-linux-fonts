@@ -6,6 +6,8 @@ class FontAleo < Formula
     (share/"fonts").install "Aleo-Italic[wght].ttf"
     (share/"fonts").install "Aleo[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
