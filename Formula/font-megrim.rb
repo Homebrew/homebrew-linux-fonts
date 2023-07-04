@@ -5,6 +5,8 @@ class FontMegrim < Formula
   def install
     (share/"fonts").install "Megrim.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
