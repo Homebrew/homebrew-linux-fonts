@@ -7,6 +7,8 @@ class FontTourney < Formula
     (share/"fonts").install "Tourney-Italic[wdth,wght].ttf"
     (share/"fonts").install "Tourney[wdth,wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
