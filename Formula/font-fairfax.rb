@@ -8,6 +8,8 @@ class FontFairfax < Formula
     (share/"fonts").install "FairfaxItalic.ttf"
     (share/"fonts").install "FairfaxSerif.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
