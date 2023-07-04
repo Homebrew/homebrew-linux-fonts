@@ -5,6 +5,8 @@ class FontViga < Formula
   def install
     (share/"fonts").install "Viga-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
