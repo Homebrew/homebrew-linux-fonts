@@ -23,6 +23,8 @@ class FontBitterHt < Formula
     (share/"fonts").install "BitterPro-Thin.ttf"
     (share/"fonts").install "BitterPro-ThinItalic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
