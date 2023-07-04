@@ -5,6 +5,8 @@ class FontEduTasBeginner < Formula
   def install
     (share/"fonts").install "EduTASBeginner[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
