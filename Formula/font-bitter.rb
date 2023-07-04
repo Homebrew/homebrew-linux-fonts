@@ -7,6 +7,8 @@ class FontBitter < Formula
     (share/"fonts").install "Bitter-Italic[wght].ttf"
     (share/"fonts").install "Bitter[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
