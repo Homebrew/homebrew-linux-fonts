@@ -6,6 +6,8 @@ class FontPragatiNarrow < Formula
     (share/"fonts").install "PragatiNarrow-Bold.ttf"
     (share/"fonts").install "PragatiNarrow-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
