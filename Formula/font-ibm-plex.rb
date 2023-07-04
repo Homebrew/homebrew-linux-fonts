@@ -128,6 +128,8 @@ class FontIbmPlex < Formula
     (share/"fonts").install "#{parent}OpenType/IBM-Plex-Serif/IBMPlexSerif-Thin.otf"
     (share/"fonts").install "#{parent}OpenType/IBM-Plex-Serif/IBMPlexSerif-ThinItalic.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
