@@ -5,6 +5,8 @@ class FontElMessiri < Formula
   def install
     (share/"fonts").install "ElMessiri[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
