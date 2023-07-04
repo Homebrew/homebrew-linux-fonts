@@ -5,6 +5,8 @@ class FontPermanentMarker < Formula
   def install
     (share/"fonts").install "PermanentMarker-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
