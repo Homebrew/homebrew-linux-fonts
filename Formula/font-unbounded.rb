@@ -6,6 +6,8 @@ class FontUnbounded < Formula
   def install
     (share/"fonts").install "Unbounded[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
