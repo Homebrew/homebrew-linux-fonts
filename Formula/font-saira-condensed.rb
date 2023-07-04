@@ -13,6 +13,8 @@ class FontSairaCondensed < Formula
     (share/"fonts").install "SairaCondensed-SemiBold.ttf"
     (share/"fonts").install "SairaCondensed-Thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
