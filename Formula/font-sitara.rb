@@ -8,6 +8,8 @@ class FontSitara < Formula
     (share/"fonts").install "Sitara-Italic.ttf"
     (share/"fonts").install "Sitara-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
