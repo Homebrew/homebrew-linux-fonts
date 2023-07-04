@@ -6,6 +6,8 @@ class FontSanchez < Formula
     (share/"fonts").install "Sanchez-Italic.ttf"
     (share/"fonts").install "Sanchez-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
