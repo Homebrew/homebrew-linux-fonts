@@ -11,6 +11,8 @@ class FontGensekigothic < Formula
     (share/"fonts").install "GenSekiGothic-M.ttc"
     (share/"fonts").install "GenSekiGothic-R.ttc"
   end
+  # No zap stanza required
+
   test do
   end
 end
