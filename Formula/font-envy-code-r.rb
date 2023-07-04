@@ -10,6 +10,8 @@ class FontEnvyCodeR < Formula
     (share/"fonts").install "#{parent}Envy Code R PR7/Envy Code R Italic.ttf"
     (share/"fonts").install "#{parent}Envy Code R PR7/Envy Code R.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
