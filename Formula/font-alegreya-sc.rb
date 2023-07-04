@@ -14,6 +14,8 @@ class FontAlegreyaSc < Formula
     (share/"fonts").install "AlegreyaSC-MediumItalic.ttf"
     (share/"fonts").install "AlegreyaSC-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
