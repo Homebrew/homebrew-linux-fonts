@@ -19,6 +19,8 @@ class FontIbmPlexMono < Formula
     (share/"fonts").install "IBMPlexMono-Thin.ttf"
     (share/"fonts").install "IBMPlexMono-ThinItalic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
