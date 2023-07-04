@@ -5,6 +5,8 @@ class FontWalterTurncoat < Formula
   def install
     (share/"fonts").install "WalterTurncoat-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
