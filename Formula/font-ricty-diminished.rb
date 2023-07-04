@@ -14,6 +14,8 @@ class FontRictyDiminished < Formula
     (share/"fonts").install "RictyDiminishedDiscord-Oblique.ttf"
     (share/"fonts").install "RictyDiminishedDiscord-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
