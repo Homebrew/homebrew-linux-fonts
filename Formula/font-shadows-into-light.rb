@@ -5,6 +5,8 @@ class FontShadowsIntoLight < Formula
   def install
     (share/"fonts").install "ShadowsIntoLight.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
