@@ -7,6 +7,8 @@ class FontMonofurForPowerline < Formula
     (share/"fonts").install "Monofur Italic for Powerline.ttf"
     (share/"fonts").install "Monofur for Powerline.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
