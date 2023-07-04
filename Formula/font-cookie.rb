@@ -5,6 +5,8 @@ class FontCookie < Formula
   def install
     (share/"fonts").install "Cookie-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
