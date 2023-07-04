@@ -7,6 +7,8 @@ class FontSen < Formula
     (share/"fonts").install "Sen-ExtraBold.ttf"
     (share/"fonts").install "Sen-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
