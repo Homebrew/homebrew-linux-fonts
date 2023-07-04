@@ -6,6 +6,8 @@ class FontComme < Formula
   def install
     (share/"fonts").install "Comme[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
