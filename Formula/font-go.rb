@@ -16,6 +16,8 @@ class FontGo < Formula
     (share/"fonts").install "Go-Smallcaps-Italic.ttf"
     (share/"fonts").install "Go-Smallcaps.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
