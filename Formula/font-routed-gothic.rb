@@ -16,6 +16,8 @@ class FontRoutedGothic < Formula
     (share/"fonts").install "#{parent}routed-gothic-ttf-v#{version}/routed-gothic-wide.ttf"
     (share/"fonts").install "#{parent}routed-gothic-ttf-v#{version}/routed-gothic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
