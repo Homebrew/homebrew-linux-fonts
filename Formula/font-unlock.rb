@@ -5,6 +5,8 @@ class FontUnlock < Formula
   def install
     (share/"fonts").install "Unlock-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
