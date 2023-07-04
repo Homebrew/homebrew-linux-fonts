@@ -9,6 +9,8 @@ class FontHindVadodara < Formula
     (share/"fonts").install "HindVadodara-Regular.ttf"
     (share/"fonts").install "HindVadodara-SemiBold.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
