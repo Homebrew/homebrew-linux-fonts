@@ -10,6 +10,8 @@ class FontEversonMono < Formula
     (share/"fonts").install "#{parent}evermono-#{version}/Everson Mono Bold Oblique.ttf"
     (share/"fonts").install "#{parent}evermono-#{version}/Everson Mono Oblique.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
