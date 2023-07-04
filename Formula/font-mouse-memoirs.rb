@@ -5,6 +5,8 @@ class FontMouseMemoirs < Formula
   def install
     (share/"fonts").install "MouseMemoirs-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
