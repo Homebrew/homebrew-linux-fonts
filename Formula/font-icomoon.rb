@@ -6,6 +6,8 @@ class FontIcomoon < Formula
     parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}IcoMoon-Free-master/Font/IcoMoon-Free.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
