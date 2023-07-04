@@ -10,6 +10,8 @@ class FontTurretRoad < Formula
     (share/"fonts").install "TurretRoad-Medium.ttf"
     (share/"fonts").install "TurretRoad-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
