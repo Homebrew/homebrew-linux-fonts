@@ -5,6 +5,8 @@ class FontRevalia < Formula
   def install
     (share/"fonts").install "Revalia-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
