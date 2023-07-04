@@ -6,6 +6,8 @@ class FontGlegoo < Formula
     (share/"fonts").install "Glegoo-Bold.ttf"
     (share/"fonts").install "Glegoo-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
