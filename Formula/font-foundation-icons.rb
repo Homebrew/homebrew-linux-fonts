@@ -6,6 +6,8 @@ class FontFoundationIcons < Formula
     parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}foundation-icons/foundation-icons.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
