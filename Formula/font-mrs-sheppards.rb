@@ -5,6 +5,8 @@ class FontMrsSheppards < Formula
   def install
     (share/"fonts").install "MrsSheppards-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
