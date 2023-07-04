@@ -11,6 +11,8 @@ class FontRajdhani < Formula
     (share/"fonts").install "Rajdhani-Regular.otf"
     (share/"fonts").install "Rajdhani-SemiBold.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
