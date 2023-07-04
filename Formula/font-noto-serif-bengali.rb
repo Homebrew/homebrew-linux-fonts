@@ -6,6 +6,8 @@ class FontNotoSerifBengali < Formula
     (share/"fonts").install "NotoSerifBengali-Bold.ttf"
     (share/"fonts").install "NotoSerifBengali-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
