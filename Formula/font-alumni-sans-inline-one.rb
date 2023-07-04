@@ -6,6 +6,8 @@ class FontAlumniSansInlineOne < Formula
     (share/"fonts").install "AlumniSansInlineOne-Italic.ttf"
     (share/"fonts").install "AlumniSansInlineOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
