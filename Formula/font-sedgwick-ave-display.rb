@@ -5,6 +5,8 @@ class FontSedgwickAveDisplay < Formula
   def install
     (share/"fonts").install "SedgwickAveDisplay-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
