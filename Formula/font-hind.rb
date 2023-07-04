@@ -11,6 +11,8 @@ class FontHind < Formula
     (share/"fonts").install "Hind-Regular.otf"
     (share/"fonts").install "Hind-SemiBold.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
