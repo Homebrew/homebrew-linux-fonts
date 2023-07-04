@@ -7,6 +7,8 @@ class FontKoPubBatang < Formula
     (share/"fonts").install "KoPubBatang-Light.ttf"
     (share/"fonts").install "KoPubBatang-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
