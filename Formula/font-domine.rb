@@ -5,6 +5,8 @@ class FontDomine < Formula
   def install
     (share/"fonts").install "Domine[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
