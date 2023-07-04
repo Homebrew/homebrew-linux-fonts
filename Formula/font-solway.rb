@@ -9,6 +9,8 @@ class FontSolway < Formula
     (share/"fonts").install "Solway-Medium.ttf"
     (share/"fonts").install "Solway-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
