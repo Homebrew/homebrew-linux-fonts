@@ -7,6 +7,8 @@ class FontTheNautigal < Formula
     (share/"fonts").install "TheNautigal-Bold.ttf"
     (share/"fonts").install "TheNautigal-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
