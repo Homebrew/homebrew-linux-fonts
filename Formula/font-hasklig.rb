@@ -22,6 +22,8 @@ class FontHasklig < Formula
     (share/"fonts").install "#{parent}OTF/Hasklig-Semibold.otf"
     (share/"fonts").install "#{parent}OTF/Hasklig-SemiboldIt.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
