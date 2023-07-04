@@ -7,6 +7,8 @@ class FontPathwayExtreme < Formula
     (share/"fonts").install "PathwayExtreme-Italic[opsz,wdth,wght].ttf"
     (share/"fonts").install "PathwayExtreme[opsz,wdth,wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
