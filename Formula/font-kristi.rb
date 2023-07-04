@@ -5,6 +5,8 @@ class FontKristi < Formula
   def install
     (share/"fonts").install "Kristi-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
