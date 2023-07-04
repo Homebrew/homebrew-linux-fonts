@@ -5,6 +5,8 @@ class FontTiltWarp < Formula
   def install
     (share/"fonts").install "TiltWarp[XROT,YROT].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
