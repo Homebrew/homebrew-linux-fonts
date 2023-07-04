@@ -10,6 +10,8 @@ class FontLinuxBiolinum < Formula
     (share/"fonts").install "LinBiolinum_RIah.ttf"
     (share/"fonts").install "LinBiolinum_Rah.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
