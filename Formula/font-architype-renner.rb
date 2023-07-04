@@ -9,6 +9,8 @@ class FontArchitypeRenner < Formula
     (share/"fonts").install "ArchitypeRenner-Medium.otf"
     (share/"fonts").install "ArchitypeRenner-Regular.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
