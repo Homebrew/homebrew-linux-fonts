@@ -11,6 +11,8 @@ class FontIbmPlexSansThaiLooped < Formula
     (share/"fonts").install "IBMPlexSansThaiLooped-SemiBold.ttf"
     (share/"fonts").install "IBMPlexSansThaiLooped-Thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
