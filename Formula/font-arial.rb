@@ -8,6 +8,8 @@ class FontArial < Formula
     (share/"fonts").install "Arialbi.TTF"
     (share/"fonts").install "Arial.TTF"
   end
+  # No zap stanza required
+
   test do
   end
 end
