@@ -9,6 +9,8 @@ class FontHindMadurai < Formula
     (share/"fonts").install "HindMadurai-Regular.ttf"
     (share/"fonts").install "HindMadurai-SemiBold.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
