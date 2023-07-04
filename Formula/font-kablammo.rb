@@ -5,6 +5,8 @@ class FontKablammo < Formula
   def install
     (share/"fonts").install "Kablammo[MORF].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
