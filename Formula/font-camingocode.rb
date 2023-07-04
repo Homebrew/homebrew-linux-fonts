@@ -10,6 +10,8 @@ class FontCamingocode < Formula
     (share/"fonts").install "#{parent}TTF/CamingoCode-Italic.ttf"
     (share/"fonts").install "#{parent}TTF/CamingoCode-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
