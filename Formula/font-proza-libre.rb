@@ -17,6 +17,8 @@ class FontProzaLibre < Formula
     (share/"fonts").install "#{parent}Proza-Libre-#{version}/Fonts/ProzaLibre-SemiBold.ttf"
     (share/"fonts").install "#{parent}Proza-Libre-#{version}/Fonts/ProzaLibre-SemiBoldItalic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
