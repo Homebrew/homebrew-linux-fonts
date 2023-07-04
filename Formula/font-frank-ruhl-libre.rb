@@ -5,6 +5,8 @@ class FontFrankRuhlLibre < Formula
   def install
     (share/"fonts").install "FrankRuhlLibre[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
