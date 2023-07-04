@@ -5,6 +5,8 @@ class FontNotoSansOlChiki < Formula
   def install
     (share/"fonts").install "NotoSansOlChiki-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
