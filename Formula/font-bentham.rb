@@ -5,6 +5,8 @@ class FontBentham < Formula
   def install
     (share/"fonts").install "Bentham-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
