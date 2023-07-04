@@ -6,6 +6,8 @@ class FontLibreBodoni < Formula
     (share/"fonts").install "LibreBodoni-Italic[wght].ttf"
     (share/"fonts").install "LibreBodoni[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
