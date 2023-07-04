@@ -6,6 +6,8 @@ class FontRanga < Formula
     (share/"fonts").install "Ranga-Bold.ttf"
     (share/"fonts").install "Ranga-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
