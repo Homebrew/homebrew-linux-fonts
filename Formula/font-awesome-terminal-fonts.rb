@@ -8,6 +8,8 @@ class FontAwesomeTerminalFonts < Formula
     (share/"fonts").install "#{parent}awesome-terminal-fonts-patching-strategy/patched/Inconsolata+Awesome.ttf"
     (share/"fonts").install "#{parent}awesome-terminal-fonts-patching-strategy/patched/SourceCodePro+Powerline+Awesome+Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
