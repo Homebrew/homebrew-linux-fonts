@@ -5,6 +5,8 @@ class FontGoblinOne < Formula
   def install
     (share/"fonts").install "GoblinOne.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
