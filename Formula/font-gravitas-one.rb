@@ -5,6 +5,8 @@ class FontGravitasOne < Formula
   def install
     (share/"fonts").install "GravitasOne.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
