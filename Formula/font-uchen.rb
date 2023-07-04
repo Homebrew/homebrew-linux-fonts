@@ -5,6 +5,8 @@ class FontUchen < Formula
   def install
     (share/"fonts").install "Uchen-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
