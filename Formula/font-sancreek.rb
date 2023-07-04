@@ -5,6 +5,8 @@ class FontSancreek < Formula
   def install
     (share/"fonts").install "Sancreek-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
