@@ -14,6 +14,8 @@ class FontOcr < Formula
     (share/"fonts").install "#{parent}ocr-#{version}/OCRBS.otf"
     (share/"fonts").install "#{parent}ocr-#{version}/OCRBX.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
