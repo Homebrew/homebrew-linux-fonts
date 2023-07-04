@@ -6,6 +6,8 @@ class FontMiriamLibre < Formula
     (share/"fonts").install "MiriamLibre-Bold.ttf"
     (share/"fonts").install "MiriamLibre-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
