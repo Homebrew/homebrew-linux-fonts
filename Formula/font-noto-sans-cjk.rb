@@ -5,6 +5,8 @@ class FontNotoSansCjk < Formula
   def install
     (share/"fonts").install "NotoSansCJK.ttc"
   end
+  # No zap stanza required
+
   test do
   end
 end
