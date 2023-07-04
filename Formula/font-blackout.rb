@@ -8,6 +8,8 @@ class FontBlackout < Formula
     (share/"fonts").install "#{parent}blackout-master/Blackout Midnight.ttf"
     (share/"fonts").install "#{parent}blackout-master/Blackout Sunrise.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
