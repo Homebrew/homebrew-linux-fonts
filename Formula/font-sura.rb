@@ -6,6 +6,8 @@ class FontSura < Formula
     (share/"fonts").install "Sura-Bold.ttf"
     (share/"fonts").install "Sura-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
