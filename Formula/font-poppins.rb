@@ -24,6 +24,8 @@ class FontPoppins < Formula
     (share/"fonts").install "Poppins-Thin.otf"
     (share/"fonts").install "Poppins-ThinItalic.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
