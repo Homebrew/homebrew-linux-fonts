@@ -5,6 +5,8 @@ class FontSevillana < Formula
   def install
     (share/"fonts").install "Sevillana-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
