@@ -11,6 +11,8 @@ class FontLateef < Formula
     (share/"fonts").install "Lateef-Regular.ttf"
     (share/"fonts").install "Lateef-SemiBold.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
