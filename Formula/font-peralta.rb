@@ -5,6 +5,8 @@ class FontPeralta < Formula
   def install
     (share/"fonts").install "Peralta-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
