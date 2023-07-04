@@ -5,6 +5,8 @@ class FontArchitectsDaughter < Formula
   def install
     (share/"fonts").install "ArchitectsDaughter-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
