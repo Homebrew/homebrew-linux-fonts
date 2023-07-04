@@ -7,6 +7,8 @@ class FontKaiseiHarunoumi < Formula
     (share/"fonts").install "KaiseiHarunoUmi-Medium.ttf"
     (share/"fonts").install "KaiseiHarunoUmi-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
