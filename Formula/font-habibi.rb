@@ -5,6 +5,8 @@ class FontHabibi < Formula
   def install
     (share/"fonts").install "Habibi-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
