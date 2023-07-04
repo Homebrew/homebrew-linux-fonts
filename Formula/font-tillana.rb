@@ -9,6 +9,8 @@ class FontTillana < Formula
     (share/"fonts").install "Tillana-Regular.ttf"
     (share/"fonts").install "Tillana-SemiBold.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
