@@ -13,6 +13,8 @@ class FontNotoSansGujaratiUi < Formula
     (share/"fonts").install "NotoSansGujaratiUI-SemiBold.ttf"
     (share/"fonts").install "NotoSansGujaratiUI-Thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
