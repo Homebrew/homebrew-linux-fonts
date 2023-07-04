@@ -16,6 +16,8 @@ class FontZhudouSans < Formula
     (share/"fonts").install "#{parent}otf/ZhudouSans-Normal.otf"
     (share/"fonts").install "#{parent}otf/ZhudouSans-Regular.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
