@@ -9,6 +9,8 @@ class FontTengwarTelcontar < Formula
     (share/"fonts").install "tengtelc.ttf"
     (share/"fonts").install "tengtelcb.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
