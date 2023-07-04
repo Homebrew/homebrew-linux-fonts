@@ -5,6 +5,8 @@ class FontNotoSansMarchen < Formula
   def install
     (share/"fonts").install "NotoSansMarchen-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
