@@ -5,6 +5,8 @@ class FontCarme < Formula
   def install
     (share/"fonts").install "Carme-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
