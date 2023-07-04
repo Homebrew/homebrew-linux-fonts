@@ -18,6 +18,8 @@ class FontAmiri < Formula
     discontinued
   end
   end
+  # No zap stanza required
+
   test do
   end
 end
