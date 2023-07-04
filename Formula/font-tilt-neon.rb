@@ -5,6 +5,8 @@ class FontTiltNeon < Formula
   def install
     (share/"fonts").install "TiltNeon[XROT,YROT].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
