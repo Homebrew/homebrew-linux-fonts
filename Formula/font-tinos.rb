@@ -8,6 +8,8 @@ class FontTinos < Formula
     (share/"fonts").install "Tinos-Italic.ttf"
     (share/"fonts").install "Tinos-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
