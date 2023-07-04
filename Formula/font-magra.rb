@@ -6,6 +6,8 @@ class FontMagra < Formula
     (share/"fonts").install "Magra-Bold.ttf"
     (share/"fonts").install "Magra-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
