@@ -7,6 +7,8 @@ class FontNewsreader < Formula
     (share/"fonts").install "Newsreader-Italic[opsz,wght].ttf"
     (share/"fonts").install "Newsreader[opsz,wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
