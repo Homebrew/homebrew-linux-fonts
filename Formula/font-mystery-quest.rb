@@ -5,6 +5,8 @@ class FontMysteryQuest < Formula
   def install
     (share/"fonts").install "MysteryQuest-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
