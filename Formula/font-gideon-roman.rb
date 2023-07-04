@@ -5,6 +5,8 @@ class FontGideonRoman < Formula
   def install
     (share/"fonts").install "GideonRoman-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
