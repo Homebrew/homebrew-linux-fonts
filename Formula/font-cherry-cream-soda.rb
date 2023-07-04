@@ -5,6 +5,8 @@ class FontCherryCreamSoda < Formula
   def install
     (share/"fonts").install "CherryCreamSoda-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
