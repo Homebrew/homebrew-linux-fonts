@@ -7,6 +7,8 @@ class FontWindsong < Formula
     (share/"fonts").install "WindSong-Medium.ttf"
     (share/"fonts").install "WindSong-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
