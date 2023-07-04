@@ -5,6 +5,8 @@ class FontAlfaSlabOne < Formula
   def install
     (share/"fonts").install "AlfaSlabOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
