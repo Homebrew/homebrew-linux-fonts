@@ -8,6 +8,8 @@ class FontMarvel < Formula
     (share/"fonts").install "Marvel-Italic.ttf"
     (share/"fonts").install "Marvel-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
