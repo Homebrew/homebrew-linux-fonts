@@ -5,6 +5,8 @@ class FontLemon < Formula
   def install
     (share/"fonts").install "Lemon-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
