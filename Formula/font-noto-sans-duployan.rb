@@ -6,6 +6,8 @@ class FontNotoSansDuployan < Formula
     (share/"fonts").install "NotoSansDuployan-Bold.ttf"
     (share/"fonts").install "NotoSansDuployan-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
