@@ -5,6 +5,8 @@ class FontNotoSansTamilSupplement < Formula
   def install
     (share/"fonts").install "NotoSansTamilSupplement-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
