@@ -5,6 +5,8 @@ class FontStrait < Formula
   def install
     (share/"fonts").install "Strait-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
