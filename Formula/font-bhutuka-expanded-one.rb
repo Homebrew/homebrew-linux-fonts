@@ -6,6 +6,8 @@ class FontBhutukaExpandedOne < Formula
   def install
     (share/"fonts").install "BhuTukaExpandedOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
