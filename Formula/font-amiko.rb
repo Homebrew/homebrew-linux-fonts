@@ -7,6 +7,8 @@ class FontAmiko < Formula
     (share/"fonts").install "Amiko-Regular.ttf"
     (share/"fonts").install "Amiko-SemiBold.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
