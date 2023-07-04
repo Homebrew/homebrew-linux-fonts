@@ -55,6 +55,8 @@ class FontYsabeau < Formula
     (share/"fonts").install "#{parent}Ysabeau_Install_v#{version}/YsabeauSC-Semilight.ttf"
     (share/"fonts").install "#{parent}Ysabeau_Install_v#{version}/YsabeauSC-Thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
