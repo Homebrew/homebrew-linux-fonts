@@ -14,6 +14,8 @@ class FontChakraPetch < Formula
     (share/"fonts").install "ChakraPetch-SemiBold.ttf"
     (share/"fonts").install "ChakraPetch-SemiBoldItalic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
