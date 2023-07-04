@@ -5,6 +5,8 @@ class FontImFellGreatPrimerSc < Formula
   def install
     (share/"fonts").install "IMFeGPsc28P.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
