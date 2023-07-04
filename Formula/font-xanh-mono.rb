@@ -7,6 +7,8 @@ class FontXanhMono < Formula
     (share/"fonts").install "XanhMono-Italic.ttf"
     (share/"fonts").install "XanhMono-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
