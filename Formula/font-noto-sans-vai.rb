@@ -5,6 +5,8 @@ class FontNotoSansVai < Formula
   def install
     (share/"fonts").install "NotoSansVai-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
