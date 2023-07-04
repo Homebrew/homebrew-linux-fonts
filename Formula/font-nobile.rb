@@ -10,6 +10,8 @@ class FontNobile < Formula
     (share/"fonts").install "Nobile-MediumItalic.ttf"
     (share/"fonts").install "Nobile-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
