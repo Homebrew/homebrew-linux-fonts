@@ -7,6 +7,8 @@ class FontBrygada1918 < Formula
     (share/"fonts").install "Brygada1918-Italic[wght].ttf"
     (share/"fonts").install "Brygada1918[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
