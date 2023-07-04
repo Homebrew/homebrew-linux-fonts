@@ -7,6 +7,8 @@ class FontCastoro < Formula
     (share/"fonts").install "Castoro-Italic.ttf"
     (share/"fonts").install "Castoro-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
