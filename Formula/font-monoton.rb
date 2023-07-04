@@ -5,6 +5,8 @@ class FontMonoton < Formula
   def install
     (share/"fonts").install "Monoton-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
