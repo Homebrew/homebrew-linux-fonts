@@ -9,6 +9,8 @@ class FontBalsamiqSans < Formula
     (share/"fonts").install "#{parent}balsamiqsans-master/fonts/ttf/BalsamiqSans-Italic.ttf"
     (share/"fonts").install "#{parent}balsamiqsans-master/fonts/ttf/BalsamiqSans-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
