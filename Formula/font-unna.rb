@@ -8,6 +8,8 @@ class FontUnna < Formula
     (share/"fonts").install "Unna-Italic.ttf"
     (share/"fonts").install "Unna-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
