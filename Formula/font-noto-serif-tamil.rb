@@ -40,6 +40,8 @@ class FontNotoSerifTamil < Formula
     (share/"fonts").install "NotoSerifTamil-SemiCondensedThin.ttf"
     (share/"fonts").install "NotoSerifTamil-Thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
