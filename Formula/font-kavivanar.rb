@@ -5,6 +5,8 @@ class FontKavivanar < Formula
   def install
     (share/"fonts").install "Kavivanar-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
