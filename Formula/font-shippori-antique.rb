@@ -5,6 +5,8 @@ class FontShipporiAntique < Formula
   def install
     (share/"fonts").install "ShipporiAntique-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
