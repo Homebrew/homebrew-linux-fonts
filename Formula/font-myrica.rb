@@ -9,6 +9,8 @@ class FontMyrica < Formula
     parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}Myrica-#{version}/Myrica.TTC"
   end
+  # No zap stanza required
+
   test do
   end
 end
