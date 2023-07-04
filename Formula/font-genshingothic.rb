@@ -27,6 +27,8 @@ class FontGenshingothic < Formula
     (share/"fonts").install "GenShinGothic-P-Regular.ttf"
     (share/"fonts").install "GenShinGothic-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
