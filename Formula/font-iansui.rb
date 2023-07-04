@@ -8,6 +8,8 @@ class FontIansui < Formula
   def install
     (share/"fonts").install "Iansui-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
