@@ -8,6 +8,8 @@ class FontMirza < Formula
     (share/"fonts").install "Mirza-Regular.ttf"
     (share/"fonts").install "Mirza-SemiBold.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
