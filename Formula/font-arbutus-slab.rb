@@ -5,6 +5,8 @@ class FontArbutusSlab < Formula
   def install
     (share/"fonts").install "ArbutusSlab-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
