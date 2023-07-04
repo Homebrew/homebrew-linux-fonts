@@ -5,6 +5,8 @@ class FontCherryBombOne < Formula
   def install
     (share/"fonts").install "CherryBombOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
