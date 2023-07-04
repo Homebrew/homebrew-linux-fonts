@@ -5,6 +5,8 @@ class FontAkayaTelivigala < Formula
   def install
     (share/"fonts").install "AkayaTelivigala-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
