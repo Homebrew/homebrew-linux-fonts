@@ -8,6 +8,8 @@ class FontCambay < Formula
     (share/"fonts").install "Cambay-Italic.ttf"
     (share/"fonts").install "Cambay-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
