@@ -5,6 +5,8 @@ class FontDarumadropOne < Formula
   def install
     (share/"fonts").install "DarumadropOne-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
