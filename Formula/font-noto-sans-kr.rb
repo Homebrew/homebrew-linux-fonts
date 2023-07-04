@@ -6,6 +6,8 @@ class FontNotoSansKr < Formula
   def install
     (share/"fonts").install "NotoSansKR[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
