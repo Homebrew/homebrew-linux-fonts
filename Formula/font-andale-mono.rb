@@ -5,6 +5,8 @@ class FontAndaleMono < Formula
   def install
     (share/"fonts").install "AndaleMo.TTF"
   end
+  # No zap stanza required
+
   test do
   end
 end
