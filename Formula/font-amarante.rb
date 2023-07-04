@@ -5,6 +5,8 @@ class FontAmarante < Formula
   def install
     (share/"fonts").install "Amarante-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
