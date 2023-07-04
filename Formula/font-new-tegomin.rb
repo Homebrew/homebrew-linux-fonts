@@ -5,6 +5,8 @@ class FontNewTegomin < Formula
   def install
     (share/"fonts").install "NewTegomin-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
