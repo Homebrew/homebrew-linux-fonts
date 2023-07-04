@@ -5,6 +5,8 @@ class FontRock3d < Formula
   def install
     (share/"fonts").install "Rock3D-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
