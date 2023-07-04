@@ -17,6 +17,8 @@ class FontInria < Formula
     (share/"fonts").install "#{parent}InriaFonts-master/fonts/InriaSerif/OTF/InriaSerif-LightItalic.otf"
     (share/"fonts").install "#{parent}InriaFonts-master/fonts/InriaSerif/OTF/InriaSerif-Regular.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
