@@ -7,6 +7,8 @@ class FontCinzelDecorative < Formula
     (share/"fonts").install "CinzelDecorative-Bold.ttf"
     (share/"fonts").install "CinzelDecorative-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
