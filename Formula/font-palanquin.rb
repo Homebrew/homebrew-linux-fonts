@@ -11,6 +11,8 @@ class FontPalanquin < Formula
     (share/"fonts").install "Palanquin-SemiBold.ttf"
     (share/"fonts").install "Palanquin-Thin.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
