@@ -5,6 +5,8 @@ class FontAlike < Formula
   def install
     (share/"fonts").install "Alike-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
