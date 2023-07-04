@@ -6,6 +6,8 @@ class FontBizUdgothic < Formula
     (share/"fonts").install "BIZUDGothic-Bold.ttf"
     (share/"fonts").install "BIZUDGothic-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
