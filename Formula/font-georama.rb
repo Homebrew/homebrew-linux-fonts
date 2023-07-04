@@ -7,6 +7,8 @@ class FontGeorama < Formula
     (share/"fonts").install "Georama-Italic[wdth,wght].ttf"
     (share/"fonts").install "Georama[wdth,wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
