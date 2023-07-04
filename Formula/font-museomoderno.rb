@@ -6,6 +6,8 @@ class FontMuseomoderno < Formula
     (share/"fonts").install "MuseoModerno-Italic[wght].ttf"
     (share/"fonts").install "MuseoModerno[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
