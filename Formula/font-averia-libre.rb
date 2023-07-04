@@ -10,6 +10,8 @@ class FontAveriaLibre < Formula
     (share/"fonts").install "AveriaLibre-LightItalic.ttf"
     (share/"fonts").install "AveriaLibre-Regular.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
