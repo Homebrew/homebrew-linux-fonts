@@ -6,6 +6,8 @@ class FontImFellGreatPrimer < Formula
     (share/"fonts").install "IMFeGPit28P.ttf"
     (share/"fonts").install "IMFeGPrm28P.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
