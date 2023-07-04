@@ -6,6 +6,8 @@ class FontFinlandica < Formula
     (share/"fonts").install "Finlandica-Italic[wght].ttf"
     (share/"fonts").install "Finlandica[wght].ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
