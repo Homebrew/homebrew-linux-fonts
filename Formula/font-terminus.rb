@@ -11,6 +11,8 @@ class FontTerminus < Formula
     (share/"fonts").install "#{parent}terminus-ttf-#{version}/TerminusTTF-Italic-#{version}.ttf"
     (share/"fonts").install "#{parent}terminus-ttf-#{version}/TerminusTTF-Bold Italic-#{version}.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
