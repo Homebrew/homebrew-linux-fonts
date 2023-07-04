@@ -14,6 +14,8 @@ class FontCormorantInfant < Formula
     (share/"fonts").install "CormorantInfant-SemiBold.ttf"
     (share/"fonts").install "CormorantInfant-SemiBoldItalic.ttf"
   end
+  # No zap stanza required
+
   test do
   end
 end
