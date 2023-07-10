@@ -1,6 +1,6 @@
 class FontIosevkaCurlySlab < Formula
-  version "24.1.4"
-  sha256 "8de01a1f4a41c04909cf8431d038fe168604d3d8ac24dbd982778bc6397d49f7"
+  version "25.0.1"
+  sha256 "eaa72cf763c3ab1a3e13855aff59c0443a5e577f4f111494e21c56eaa0ae5522"
   url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/ttc-iosevka-curly-slab-#{version}.zip"
   desc "Iosevka Curly Slab"
   desc "Sans-serif, slab-serif, monospace and quasi‑proportional typeface family"
