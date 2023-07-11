@@ -1,11 +1,9 @@
 class FontSen < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/sen"
+  head "https://github.com/google/fonts/raw/main/ofl/sen/Sen%5Bwght%5D.ttf", verified: "github.com/google/fonts/"
   desc "Sen"
   homepage "https://fonts.google.com/specimen/Sen"
   def install
-    (share/"fonts").install "Sen-Bold.ttf"
-    (share/"fonts").install "Sen-ExtraBold.ttf"
-    (share/"fonts").install "Sen-Regular.ttf"
+    (share/"fonts").install "Sen[wght].ttf"
   end
   # No zap stanza required
 
