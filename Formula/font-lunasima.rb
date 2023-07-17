@@ -1,8 +1,8 @@
 class FontLunasima < Formula
-  head "https://github.com/google/fonts.git", branch: "main", only_path: "ofl/lunasima"
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/lunasima"
   desc "Lunasima"
   desc "Unmodulated (“sans serif”) design"
-  homepage "https://github.com/docrepair-fonts/lunasima-fonts"
+  homepage "https://fonts.google.com/specimen/Lunasima"
   def install
     (share/"fonts").install "Lunasima-Bold.ttf"
     (share/"fonts").install "Lunasima-Regular.ttf"
