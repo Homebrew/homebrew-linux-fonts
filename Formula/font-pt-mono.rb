@@ -1,10 +1,12 @@
 class FontPtMono < Formula
-  head "https://company.paratype.com/system/attachments/631/original/ptmono.zip"
+  head "https://api.paratype.com/api/editions/ofl/download/52218", referer: "https://www.paratype.com/"
   desc "PT Mono"
-  homepage "https://www.paratype.com/public/"
+  desc "Monospaced font of the PT Project series"
+  homepage "https://www.paratype.com/fonts/pt/pt-mono"
   def install
-    (share/"fonts").install "PTM55F.ttf"
-    (share/"fonts").install "PTM75F.ttf"
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
+    (share/"fonts").install "#{parent}PT/PT/PT-Mono/pt-mono_bold.ttf"
+    (share/"fonts").install "#{parent}PT/PT/PT-Mono/pt-mono_regular.ttf"
   end
   # No zap stanza required
 
