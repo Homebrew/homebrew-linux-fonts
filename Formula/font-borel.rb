@@ -1,8 +1,8 @@
 class FontBorel < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/borel/Borel-Regular.ttf"
+  head "https://github.com/google/fonts/raw/main/ofl/borel/Borel-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Borel"
   desc "French cursive primer"
-  homepage "https://github.com/RosaWagner/Borel"
+  homepage "https://fonts.google.com/specimen/Borel"
   def install
     (share/"fonts").install "Borel-Regular.ttf"
   end
