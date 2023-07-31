@@ -1,8 +1,8 @@
 class FontNotoSerifVithkuqi < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/notoserifvithkuqi/NotoSerifVithkuqi%5Bwght%5D.ttf"
+  head "https://github.com/google/fonts/raw/main/ofl/notoserifvithkuqi/NotoSerifVithkuqi%5Bwght%5D.ttf", verified: "github.com/google/fonts/"
   desc "Noto Serif Vithkuqi"
   desc "Design for the historical european vithkuqi script"
-  homepage "https://github.com/notofonts/vithkuqi.git"
+  homepage "https://fonts.google.com/specimen/Noto+Serif+Vithkuqi"
   def install
     (share/"fonts").install "NotoSerifVithkuqi[wght].ttf"
   end
