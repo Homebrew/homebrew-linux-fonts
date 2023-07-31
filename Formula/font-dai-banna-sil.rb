@@ -1,7 +1,7 @@
 class FontDaiBannaSil < Formula
-  head "https://github.com/google/fonts.git", branch: "main", only_path: "ofl/daibannasil"
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/daibannasil"
   desc "Dai Banna SIL"
-  homepage "https://github.com/silnrsi/font-daibannasil"
+  homepage "https://fonts.google.com/specimen/Dai+Banna+SIL"
   def install
     (share/"fonts").install "DaiBannaSIL-Bold.ttf"
     (share/"fonts").install "DaiBannaSIL-BoldItalic.ttf"
