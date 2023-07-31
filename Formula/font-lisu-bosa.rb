@@ -1,7 +1,7 @@
 class FontLisuBosa < Formula
-  head "https://github.com/google/fonts.git", branch: "main", only_path: "ofl/lisubosa"
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/lisubosa"
   desc "Lisu Bosa"
-  homepage "https://github.com/silnrsi/font-lisu-bosa"
+  homepage "https://fonts.google.com/specimen/Lisu+Bosa"
   def install
     (share/"fonts").install "LisuBosa-Black.ttf"
     (share/"fonts").install "LisuBosa-BlackItalic.ttf"
