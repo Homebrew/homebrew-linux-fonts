@@ -1,8 +1,8 @@
 class FontRem < Formula
-  head "https://github.com/google/fonts.git", branch: "main", only_path: "ofl/rem"
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/rem"
   desc "REM"
   desc "Acronym for rapid eye movement"
-  homepage "https://github.com/octaviopardo/REM"
+  homepage "https://fonts.google.com/specimen/REM"
   def install
     (share/"fonts").install "REM-Italic[wght].ttf"
     (share/"fonts").install "REM[wght].ttf"
