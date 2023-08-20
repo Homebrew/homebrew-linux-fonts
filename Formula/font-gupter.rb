@@ -3,9 +3,9 @@ class FontGupter < Formula
   desc "Gupter"
   homepage "https://fonts.google.com/specimen/Gupter"
   def install
-    (share/"fonts").install "Gupter-Bold.ttf"
-    (share/"fonts").install "Gupter-Medium.ttf"
-    (share/"fonts").install "Gupter-Regular.ttf"
+    (share/"fonts").install "ofl/gupter/" + "Gupter-Bold.ttf"
+    (share/"fonts").install "ofl/gupter/" + "Gupter-Medium.ttf"
+    (share/"fonts").install "ofl/gupter/" + "Gupter-Regular.ttf"
   end
   # No zap stanza required
 

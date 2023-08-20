@@ -3,10 +3,10 @@ class FontSitara < Formula
   desc "Sitara"
   homepage "https://www.cdnfonts.com/sitara.font"
   def install
-    (share/"fonts").install "Sitara-Bold.ttf"
-    (share/"fonts").install "Sitara-BoldItalic.ttf"
-    (share/"fonts").install "Sitara-Italic.ttf"
-    (share/"fonts").install "Sitara-Regular.ttf"
+    (share/"fonts").install "ofl/sitara/" + "Sitara-Bold.ttf"
+    (share/"fonts").install "ofl/sitara/" + "Sitara-BoldItalic.ttf"
+    (share/"fonts").install "ofl/sitara/" + "Sitara-Italic.ttf"
+    (share/"fonts").install "ofl/sitara/" + "Sitara-Regular.ttf"
   end
   # No zap stanza required
 

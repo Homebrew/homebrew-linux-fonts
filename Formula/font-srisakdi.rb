@@ -3,8 +3,8 @@ class FontSrisakdi < Formula
   desc "Srisakdi"
   homepage "https://fonts.google.com/specimen/Srisakdi"
   def install
-    (share/"fonts").install "Srisakdi-Bold.ttf"
-    (share/"fonts").install "Srisakdi-Regular.ttf"
+    (share/"fonts").install "ofl/srisakdi/" + "Srisakdi-Bold.ttf"
+    (share/"fonts").install "ofl/srisakdi/" + "Srisakdi-Regular.ttf"
   end
   # No zap stanza required
 

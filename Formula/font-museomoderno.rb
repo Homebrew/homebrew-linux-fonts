@@ -3,8 +3,8 @@ class FontMuseomoderno < Formula
   desc "MuseoModerno"
   homepage "https://fonts.google.com/specimen/MuseoModerno"
   def install
-    (share/"fonts").install "MuseoModerno-Italic[wght].ttf"
-    (share/"fonts").install "MuseoModerno[wght].ttf"
+    (share/"fonts").install "ofl/museomoderno/" + "MuseoModerno-Italic[wght].ttf"
+    (share/"fonts").install "ofl/museomoderno/" + "MuseoModerno[wght].ttf"
   end
   # No zap stanza required
 

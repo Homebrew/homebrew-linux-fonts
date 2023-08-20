@@ -3,12 +3,12 @@ class FontTurretRoad < Formula
   desc "Turret Road"
   homepage "https://fonts.google.com/specimen/Turret+Road"
   def install
-    (share/"fonts").install "TurretRoad-Bold.ttf"
-    (share/"fonts").install "TurretRoad-ExtraBold.ttf"
-    (share/"fonts").install "TurretRoad-ExtraLight.ttf"
-    (share/"fonts").install "TurretRoad-Light.ttf"
-    (share/"fonts").install "TurretRoad-Medium.ttf"
-    (share/"fonts").install "TurretRoad-Regular.ttf"
+    (share/"fonts").install "ofl/turretroad/" + "TurretRoad-Bold.ttf"
+    (share/"fonts").install "ofl/turretroad/" + "TurretRoad-ExtraBold.ttf"
+    (share/"fonts").install "ofl/turretroad/" + "TurretRoad-ExtraLight.ttf"
+    (share/"fonts").install "ofl/turretroad/" + "TurretRoad-Light.ttf"
+    (share/"fonts").install "ofl/turretroad/" + "TurretRoad-Medium.ttf"
+    (share/"fonts").install "ofl/turretroad/" + "TurretRoad-Regular.ttf"
   end
   # No zap stanza required
 

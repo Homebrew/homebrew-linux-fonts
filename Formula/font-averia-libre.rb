@@ -3,12 +3,12 @@ class FontAveriaLibre < Formula
   desc "Averia Libre"
   homepage "https://fonts.google.com/specimen/Averia+Libre"
   def install
-    (share/"fonts").install "AveriaLibre-Bold.ttf"
-    (share/"fonts").install "AveriaLibre-BoldItalic.ttf"
-    (share/"fonts").install "AveriaLibre-Italic.ttf"
-    (share/"fonts").install "AveriaLibre-Light.ttf"
-    (share/"fonts").install "AveriaLibre-LightItalic.ttf"
-    (share/"fonts").install "AveriaLibre-Regular.ttf"
+    (share/"fonts").install "ofl/averialibre/" + "AveriaLibre-Bold.ttf"
+    (share/"fonts").install "ofl/averialibre/" + "AveriaLibre-BoldItalic.ttf"
+    (share/"fonts").install "ofl/averialibre/" + "AveriaLibre-Italic.ttf"
+    (share/"fonts").install "ofl/averialibre/" + "AveriaLibre-Light.ttf"
+    (share/"fonts").install "ofl/averialibre/" + "AveriaLibre-LightItalic.ttf"
+    (share/"fonts").install "ofl/averialibre/" + "AveriaLibre-Regular.ttf"
   end
   # No zap stanza required
 

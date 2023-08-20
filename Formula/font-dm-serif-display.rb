@@ -3,8 +3,8 @@ class FontDmSerifDisplay < Formula
   desc "DM Serif Display"
   homepage "https://fonts.google.com/specimen/DM+Serif+Display"
   def install
-    (share/"fonts").install "DMSerifDisplay-Italic.ttf"
-    (share/"fonts").install "DMSerifDisplay-Regular.ttf"
+    (share/"fonts").install "ofl/dmserifdisplay/" + "DMSerifDisplay-Italic.ttf"
+    (share/"fonts").install "ofl/dmserifdisplay/" + "DMSerifDisplay-Regular.ttf"
   end
   # No zap stanza required
 

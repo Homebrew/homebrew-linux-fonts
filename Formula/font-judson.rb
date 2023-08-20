@@ -3,9 +3,9 @@ class FontJudson < Formula
   desc "Judson"
   homepage "https://fonts.google.com/specimen/Judson"
   def install
-    (share/"fonts").install "Judson-Bold.ttf"
-    (share/"fonts").install "Judson-Italic.ttf"
-    (share/"fonts").install "Judson-Regular.ttf"
+    (share/"fonts").install "ofl/judson/" + "Judson-Bold.ttf"
+    (share/"fonts").install "ofl/judson/" + "Judson-Italic.ttf"
+    (share/"fonts").install "ofl/judson/" + "Judson-Regular.ttf"
   end
   # No zap stanza required
 

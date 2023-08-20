@@ -5,15 +5,15 @@ class FontGlowSansTcNormal < Formula
   desc "Glow Sans TC Normal"
   homepage "https://github.com/welai/glow-sans"
   def install
-    (share/"fonts").install "GlowSansTC-Normal-Bold.otf"
-    (share/"fonts").install "GlowSansTC-Normal-Book.otf"
-    (share/"fonts").install "GlowSansTC-Normal-ExtraBold.otf"
-    (share/"fonts").install "GlowSansTC-Normal-ExtraLight.otf"
-    (share/"fonts").install "GlowSansTC-Normal-Heavy.otf"
-    (share/"fonts").install "GlowSansTC-Normal-Light.otf"
-    (share/"fonts").install "GlowSansTC-Normal-Medium.otf"
-    (share/"fonts").install "GlowSansTC-Normal-Regular.otf"
-    (share/"fonts").install "GlowSansTC-Normal-Thin.otf"
+    (share/"fonts").install "ofl/glory/" + "GlowSansTC-Normal-Bold.otf"
+    (share/"fonts").install "ofl/glory/" + "GlowSansTC-Normal-Book.otf"
+    (share/"fonts").install "ofl/glory/" + "GlowSansTC-Normal-ExtraBold.otf"
+    (share/"fonts").install "ofl/glory/" + "GlowSansTC-Normal-ExtraLight.otf"
+    (share/"fonts").install "ofl/glory/" + "GlowSansTC-Normal-Heavy.otf"
+    (share/"fonts").install "ofl/glory/" + "GlowSansTC-Normal-Light.otf"
+    (share/"fonts").install "ofl/glory/" + "GlowSansTC-Normal-Medium.otf"
+    (share/"fonts").install "ofl/glory/" + "GlowSansTC-Normal-Regular.otf"
+    (share/"fonts").install "ofl/glory/" + "GlowSansTC-Normal-Thin.otf"
   end
   # No zap stanza required
 

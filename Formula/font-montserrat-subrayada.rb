@@ -3,8 +3,8 @@ class FontMontserratSubrayada < Formula
   desc "Montserrat Subrayada"
   homepage "https://fonts.google.com/specimen/Montserrat+Subrayada"
   def install
-    (share/"fonts").install "MontserratSubrayada-Bold.ttf"
-    (share/"fonts").install "MontserratSubrayada-Regular.ttf"
+    (share/"fonts").install "ofl/montserratsubrayada/" + "MontserratSubrayada-Bold.ttf"
+    (share/"fonts").install "ofl/montserratsubrayada/" + "MontserratSubrayada-Regular.ttf"
   end
   # No zap stanza required
 

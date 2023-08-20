@@ -3,10 +3,10 @@ class FontCaudex < Formula
   desc "Caudex"
   homepage "https://fonts.google.com/specimen/Caudex"
   def install
-    (share/"fonts").install "Caudex-Bold.ttf"
-    (share/"fonts").install "Caudex-BoldItalic.ttf"
-    (share/"fonts").install "Caudex-Italic.ttf"
-    (share/"fonts").install "Caudex-Regular.ttf"
+    (share/"fonts").install "ofl/caudex/" + "Caudex-Bold.ttf"
+    (share/"fonts").install "ofl/caudex/" + "Caudex-BoldItalic.ttf"
+    (share/"fonts").install "ofl/caudex/" + "Caudex-Italic.ttf"
+    (share/"fonts").install "ofl/caudex/" + "Caudex-Regular.ttf"
   end
   # No zap stanza required
 

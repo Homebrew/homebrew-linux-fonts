@@ -6,15 +6,15 @@ class FontIosevkaAile < Formula
   desc "Sans-serif, slab-serif, monospace and quasi‑proportional typeface family"
   homepage "https://github.com/be5invis/Iosevka/"
   def install
-    (share/"fonts").install "iosevka-aile-bold.ttc"
-    (share/"fonts").install "iosevka-aile-extrabold.ttc"
-    (share/"fonts").install "iosevka-aile-extralight.ttc"
-    (share/"fonts").install "iosevka-aile-heavy.ttc"
-    (share/"fonts").install "iosevka-aile-light.ttc"
-    (share/"fonts").install "iosevka-aile-medium.ttc"
-    (share/"fonts").install "iosevka-aile-regular.ttc"
-    (share/"fonts").install "iosevka-aile-semibold.ttc"
-    (share/"fonts").install "iosevka-aile-thin.ttc"
+    (share/"fonts").install "ofl/intertight/" + "iosevka-aile-bold.ttc"
+    (share/"fonts").install "ofl/intertight/" + "iosevka-aile-extrabold.ttc"
+    (share/"fonts").install "ofl/intertight/" + "iosevka-aile-extralight.ttc"
+    (share/"fonts").install "ofl/intertight/" + "iosevka-aile-heavy.ttc"
+    (share/"fonts").install "ofl/intertight/" + "iosevka-aile-light.ttc"
+    (share/"fonts").install "ofl/intertight/" + "iosevka-aile-medium.ttc"
+    (share/"fonts").install "ofl/intertight/" + "iosevka-aile-regular.ttc"
+    (share/"fonts").install "ofl/intertight/" + "iosevka-aile-semibold.ttc"
+    (share/"fonts").install "ofl/intertight/" + "iosevka-aile-thin.ttc"
   end
   # No zap stanza required
 

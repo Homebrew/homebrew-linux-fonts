@@ -3,10 +3,10 @@ class FontThasadith < Formula
   desc "Thasadith"
   homepage "https://fonts.google.com/specimen/Thasadith"
   def install
-    (share/"fonts").install "Thasadith-Bold.ttf"
-    (share/"fonts").install "Thasadith-BoldItalic.ttf"
-    (share/"fonts").install "Thasadith-Italic.ttf"
-    (share/"fonts").install "Thasadith-Regular.ttf"
+    (share/"fonts").install "ofl/thasadith/" + "Thasadith-Bold.ttf"
+    (share/"fonts").install "ofl/thasadith/" + "Thasadith-BoldItalic.ttf"
+    (share/"fonts").install "ofl/thasadith/" + "Thasadith-Italic.ttf"
+    (share/"fonts").install "ofl/thasadith/" + "Thasadith-Regular.ttf"
   end
   # No zap stanza required
 

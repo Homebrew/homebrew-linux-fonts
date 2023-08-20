@@ -3,11 +3,11 @@ class FontHindMysuru < Formula
   desc "Hind Mysuru"
   homepage "https://github.com/itfoundry/hind-mysuru"
   def install
-    (share/"fonts").install "HindMysuru-Bold.ttf"
-    (share/"fonts").install "HindMysuru-Light.ttf"
-    (share/"fonts").install "HindMysuru-Medium.ttf"
-    (share/"fonts").install "HindMysuru-Regular.ttf"
-    (share/"fonts").install "HindMysuru-SemiBold.ttf"
+    (share/"fonts").install "ofl/hindmysuru/" + "HindMysuru-Bold.ttf"
+    (share/"fonts").install "ofl/hindmysuru/" + "HindMysuru-Light.ttf"
+    (share/"fonts").install "ofl/hindmysuru/" + "HindMysuru-Medium.ttf"
+    (share/"fonts").install "ofl/hindmysuru/" + "HindMysuru-Regular.ttf"
+    (share/"fonts").install "ofl/hindmysuru/" + "HindMysuru-SemiBold.ttf"
   end
   # No zap stanza required
 

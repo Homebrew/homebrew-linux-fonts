@@ -3,8 +3,8 @@ class FontNunito < Formula
   desc "Nunito"
   homepage "https://fonts.google.com/specimen/Nunito"
   def install
-    (share/"fonts").install "Nunito-Italic[wght].ttf"
-    (share/"fonts").install "Nunito[wght].ttf"
+    (share/"fonts").install "ofl/nunito/" + "Nunito-Italic[wght].ttf"
+    (share/"fonts").install "ofl/nunito/" + "Nunito[wght].ttf"
   end
   # No zap stanza required
 

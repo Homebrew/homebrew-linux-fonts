@@ -3,13 +3,13 @@ class FontMuktaVaani < Formula
   desc "Mukta Vaani"
   homepage "https://fonts.google.com/specimen/Mukta+Vaani"
   def install
-    (share/"fonts").install "MuktaVaani-Bold.ttf"
-    (share/"fonts").install "MuktaVaani-ExtraBold.ttf"
-    (share/"fonts").install "MuktaVaani-ExtraLight.ttf"
-    (share/"fonts").install "MuktaVaani-Light.ttf"
-    (share/"fonts").install "MuktaVaani-Medium.ttf"
-    (share/"fonts").install "MuktaVaani-Regular.ttf"
-    (share/"fonts").install "MuktaVaani-SemiBold.ttf"
+    (share/"fonts").install "ofl/muktavaani/" + "MuktaVaani-Bold.ttf"
+    (share/"fonts").install "ofl/muktavaani/" + "MuktaVaani-ExtraBold.ttf"
+    (share/"fonts").install "ofl/muktavaani/" + "MuktaVaani-ExtraLight.ttf"
+    (share/"fonts").install "ofl/muktavaani/" + "MuktaVaani-Light.ttf"
+    (share/"fonts").install "ofl/muktavaani/" + "MuktaVaani-Medium.ttf"
+    (share/"fonts").install "ofl/muktavaani/" + "MuktaVaani-Regular.ttf"
+    (share/"fonts").install "ofl/muktavaani/" + "MuktaVaani-SemiBold.ttf"
   end
   # No zap stanza required
 

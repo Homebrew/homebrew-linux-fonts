@@ -3,10 +3,10 @@ class FontAlmendra < Formula
   desc "Almendra"
   homepage "https://fonts.google.com/specimen/Almendra"
   def install
-    (share/"fonts").install "Almendra-Bold.ttf"
-    (share/"fonts").install "Almendra-BoldItalic.ttf"
-    (share/"fonts").install "Almendra-Italic.ttf"
-    (share/"fonts").install "Almendra-Regular.ttf"
+    (share/"fonts").install "ofl/almendra/" + "Almendra-Bold.ttf"
+    (share/"fonts").install "ofl/almendra/" + "Almendra-BoldItalic.ttf"
+    (share/"fonts").install "ofl/almendra/" + "Almendra-Italic.ttf"
+    (share/"fonts").install "ofl/almendra/" + "Almendra-Regular.ttf"
   end
   # No zap stanza required
 

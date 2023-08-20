@@ -3,8 +3,8 @@ class FontRasa < Formula
   desc "Rasa"
   homepage "https://fonts.google.com/specimen/Rasa"
   def install
-    (share/"fonts").install "Rasa-Italic[wght].ttf"
-    (share/"fonts").install "Rasa[wght].ttf"
+    (share/"fonts").install "ofl/rasa/" + "Rasa-Italic[wght].ttf"
+    (share/"fonts").install "ofl/rasa/" + "Rasa[wght].ttf"
   end
   # No zap stanza required
 

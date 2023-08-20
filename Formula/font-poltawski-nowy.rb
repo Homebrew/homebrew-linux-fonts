@@ -3,8 +3,8 @@ class FontPoltawskiNowy < Formula
   desc "Poltawski Nowy"
   homepage "https://fonts.google.com/specimen/Poltawski+Nowy"
   def install
-    (share/"fonts").install "PoltawskiNowy-Italic[wght].ttf"
-    (share/"fonts").install "PoltawskiNowy[wght].ttf"
+    (share/"fonts").install "ofl/poltawskinowy/" + "PoltawskiNowy-Italic[wght].ttf"
+    (share/"fonts").install "ofl/poltawskinowy/" + "PoltawskiNowy[wght].ttf"
   end
   # No zap stanza required
 

@@ -3,11 +3,11 @@ class FontAtma < Formula
   desc "Atma"
   homepage "https://fonts.google.com/specimen/Atma"
   def install
-    (share/"fonts").install "Atma-Bold.ttf"
-    (share/"fonts").install "Atma-Light.ttf"
-    (share/"fonts").install "Atma-Medium.ttf"
-    (share/"fonts").install "Atma-Regular.ttf"
-    (share/"fonts").install "Atma-SemiBold.ttf"
+    (share/"fonts").install "ofl/atma/" + "Atma-Bold.ttf"
+    (share/"fonts").install "ofl/atma/" + "Atma-Light.ttf"
+    (share/"fonts").install "ofl/atma/" + "Atma-Medium.ttf"
+    (share/"fonts").install "ofl/atma/" + "Atma-Regular.ttf"
+    (share/"fonts").install "ofl/atma/" + "Atma-SemiBold.ttf"
   end
   # No zap stanza required
 

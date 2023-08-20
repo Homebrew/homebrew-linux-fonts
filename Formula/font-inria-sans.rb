@@ -3,12 +3,12 @@ class FontInriaSans < Formula
   desc "Inria Sans"
   homepage "https://fonts.google.com/specimen/Inria+Sans"
   def install
-    (share/"fonts").install "InriaSans-Bold.ttf"
-    (share/"fonts").install "InriaSans-BoldItalic.ttf"
-    (share/"fonts").install "InriaSans-Italic.ttf"
-    (share/"fonts").install "InriaSans-Light.ttf"
-    (share/"fonts").install "InriaSans-LightItalic.ttf"
-    (share/"fonts").install "InriaSans-Regular.ttf"
+    (share/"fonts").install "ofl/inriasans/" + "InriaSans-Bold.ttf"
+    (share/"fonts").install "ofl/inriasans/" + "InriaSans-BoldItalic.ttf"
+    (share/"fonts").install "ofl/inriasans/" + "InriaSans-Italic.ttf"
+    (share/"fonts").install "ofl/inriasans/" + "InriaSans-Light.ttf"
+    (share/"fonts").install "ofl/inriasans/" + "InriaSans-LightItalic.ttf"
+    (share/"fonts").install "ofl/inriasans/" + "InriaSans-Regular.ttf"
   end
   # No zap stanza required
 

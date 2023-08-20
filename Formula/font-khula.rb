@@ -3,11 +3,11 @@ class FontKhula < Formula
   desc "Khula"
   homepage "https://fonts.google.com/specimen/Khula"
   def install
-    (share/"fonts").install "Khula-Bold.ttf"
-    (share/"fonts").install "Khula-ExtraBold.ttf"
-    (share/"fonts").install "Khula-Light.ttf"
-    (share/"fonts").install "Khula-Regular.ttf"
-    (share/"fonts").install "Khula-SemiBold.ttf"
+    (share/"fonts").install "ofl/khula/" + "Khula-Bold.ttf"
+    (share/"fonts").install "ofl/khula/" + "Khula-ExtraBold.ttf"
+    (share/"fonts").install "ofl/khula/" + "Khula-Light.ttf"
+    (share/"fonts").install "ofl/khula/" + "Khula-Regular.ttf"
+    (share/"fonts").install "ofl/khula/" + "Khula-SemiBold.ttf"
   end
   # No zap stanza required
 

@@ -4,8 +4,8 @@ class FontTourney < Formula
   desc "Completely solid"
   homepage "https://fonts.google.com/specimen/Tourney"
   def install
-    (share/"fonts").install "Tourney-Italic[wdth,wght].ttf"
-    (share/"fonts").install "Tourney[wdth,wght].ttf"
+    (share/"fonts").install "ofl/tourney/" + "Tourney-Italic[wdth,wght].ttf"
+    (share/"fonts").install "ofl/tourney/" + "Tourney[wdth,wght].ttf"
   end
   # No zap stanza required
 

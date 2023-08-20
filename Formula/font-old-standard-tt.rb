@@ -3,9 +3,9 @@ class FontOldStandardTt < Formula
   desc "Old Standard TT"
   homepage "https://fonts.google.com/specimen/Old+Standard+TT"
   def install
-    (share/"fonts").install "OldStandard-Bold.ttf"
-    (share/"fonts").install "OldStandard-Italic.ttf"
-    (share/"fonts").install "OldStandard-Regular.ttf"
+    (share/"fonts").install "ofl/oldstandardtt/" + "OldStandard-Bold.ttf"
+    (share/"fonts").install "ofl/oldstandardtt/" + "OldStandard-Italic.ttf"
+    (share/"fonts").install "ofl/oldstandardtt/" + "OldStandard-Regular.ttf"
   end
   # No zap stanza required
 

@@ -3,8 +3,8 @@ class FontCoda < Formula
   desc "Coda"
   homepage "https://fonts.google.com/specimen/Coda"
   def install
-    (share/"fonts").install "Coda-ExtraBold.ttf"
-    (share/"fonts").install "Coda-Regular.ttf"
+    (share/"fonts").install "ofl/coda/" + "Coda-ExtraBold.ttf"
+    (share/"fonts").install "ofl/coda/" + "Coda-Regular.ttf"
   end
   # No zap stanza required
 

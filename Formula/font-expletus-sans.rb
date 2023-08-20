@@ -3,8 +3,8 @@ class FontExpletusSans < Formula
   desc "Expletus Sans"
   homepage "https://fonts.google.com/specimen/Expletus+Sans"
   def install
-    (share/"fonts").install "ExpletusSans-Italic[wght].ttf"
-    (share/"fonts").install "ExpletusSans[wght].ttf"
+    (share/"fonts").install "ofl/expletussans/" + "ExpletusSans-Italic[wght].ttf"
+    (share/"fonts").install "ofl/expletussans/" + "ExpletusSans[wght].ttf"
   end
   # No zap stanza required
 

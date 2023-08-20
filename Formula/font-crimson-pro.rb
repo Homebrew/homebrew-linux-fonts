@@ -3,8 +3,8 @@ class FontCrimsonPro < Formula
   desc "Crimson Pro"
   homepage "https://fonts.google.com/specimen/Crimson+Pro"
   def install
-    (share/"fonts").install "CrimsonPro-Italic[wght].ttf"
-    (share/"fonts").install "CrimsonPro[wght].ttf"
+    (share/"fonts").install "ofl/crimsonpro/" + "CrimsonPro-Italic[wght].ttf"
+    (share/"fonts").install "ofl/crimsonpro/" + "CrimsonPro[wght].ttf"
   end
   # No zap stanza required
 

@@ -3,8 +3,8 @@ class FontChangaOne < Formula
   desc "Changa One"
   homepage "https://fonts.google.com/specimen/Changa+One"
   def install
-    (share/"fonts").install "ChangaOne-Italic.ttf"
-    (share/"fonts").install "ChangaOne-Regular.ttf"
+    (share/"fonts").install "ofl/changaone/" + "ChangaOne-Italic.ttf"
+    (share/"fonts").install "ofl/changaone/" + "ChangaOne-Regular.ttf"
   end
   # No zap stanza required
 

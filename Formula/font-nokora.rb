@@ -3,11 +3,11 @@ class FontNokora < Formula
   desc "Nokora"
   homepage "https://fonts.google.com/specimen/Nokora"
   def install
-    (share/"fonts").install "Nokora-Black.ttf"
-    (share/"fonts").install "Nokora-Bold.ttf"
-    (share/"fonts").install "Nokora-Light.ttf"
-    (share/"fonts").install "Nokora-Regular.ttf"
-    (share/"fonts").install "Nokora-Thin.ttf"
+    (share/"fonts").install "ofl/nokora/" + "Nokora-Black.ttf"
+    (share/"fonts").install "ofl/nokora/" + "Nokora-Bold.ttf"
+    (share/"fonts").install "ofl/nokora/" + "Nokora-Light.ttf"
+    (share/"fonts").install "ofl/nokora/" + "Nokora-Regular.ttf"
+    (share/"fonts").install "ofl/nokora/" + "Nokora-Thin.ttf"
   end
   # No zap stanza required
 

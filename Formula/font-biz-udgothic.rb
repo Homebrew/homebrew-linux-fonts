@@ -3,8 +3,8 @@ class FontBizUdgothic < Formula
   desc "BIZ UDGothic"
   homepage "https://fonts.google.com/specimen/BIZ+UDGothic"
   def install
-    (share/"fonts").install "BIZUDGothic-Bold.ttf"
-    (share/"fonts").install "BIZUDGothic-Regular.ttf"
+    (share/"fonts").install "ofl/bizudgothic/" + "BIZUDGothic-Bold.ttf"
+    (share/"fonts").install "ofl/bizudgothic/" + "BIZUDGothic-Regular.ttf"
   end
   # No zap stanza required
 

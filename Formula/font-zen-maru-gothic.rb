@@ -4,11 +4,11 @@ class FontZenMaruGothic < Formula
   desc "Also easy to use in any scenes"
   homepage "https://fonts.google.com/specimen/Zen+Maru+Gothic"
   def install
-    (share/"fonts").install "ZenMaruGothic-Black.ttf"
-    (share/"fonts").install "ZenMaruGothic-Bold.ttf"
-    (share/"fonts").install "ZenMaruGothic-Light.ttf"
-    (share/"fonts").install "ZenMaruGothic-Medium.ttf"
-    (share/"fonts").install "ZenMaruGothic-Regular.ttf"
+    (share/"fonts").install "ofl/zenmarugothic/" + "ZenMaruGothic-Black.ttf"
+    (share/"fonts").install "ofl/zenmarugothic/" + "ZenMaruGothic-Bold.ttf"
+    (share/"fonts").install "ofl/zenmarugothic/" + "ZenMaruGothic-Light.ttf"
+    (share/"fonts").install "ofl/zenmarugothic/" + "ZenMaruGothic-Medium.ttf"
+    (share/"fonts").install "ofl/zenmarugothic/" + "ZenMaruGothic-Regular.ttf"
   end
   # No zap stanza required
 

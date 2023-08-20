@@ -4,8 +4,8 @@ class FontGrandstander < Formula
   desc "Display variable font with a weight axis"
   homepage "https://fonts.google.com/specimen/Grandstander"
   def install
-    (share/"fonts").install "Grandstander-Italic[wght].ttf"
-    (share/"fonts").install "Grandstander[wght].ttf"
+    (share/"fonts").install "ofl/grandstander/" + "Grandstander-Italic[wght].ttf"
+    (share/"fonts").install "ofl/grandstander/" + "Grandstander[wght].ttf"
   end
   # No zap stanza required
 

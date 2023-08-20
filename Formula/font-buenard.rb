@@ -3,8 +3,8 @@ class FontBuenard < Formula
   desc "Buenard"
   homepage "https://fonts.google.com/specimen/Buenard"
   def install
-    (share/"fonts").install "Buenard-Bold.ttf"
-    (share/"fonts").install "Buenard-Regular.ttf"
+    (share/"fonts").install "ofl/buenard/" + "Buenard-Bold.ttf"
+    (share/"fonts").install "ofl/buenard/" + "Buenard-Regular.ttf"
   end
   # No zap stanza required
 

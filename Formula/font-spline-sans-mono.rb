@@ -4,8 +4,8 @@ class FontSplineSansMono < Formula
   desc "Original typeface initiated by the spline team"
   homepage "https://fonts.google.com/specimen/Spline+Sans+Mono"
   def install
-    (share/"fonts").install "SplineSansMono-Italic[wght].ttf"
-    (share/"fonts").install "SplineSansMono[wght].ttf"
+    (share/"fonts").install "ofl/splinesansmono/" + "SplineSansMono-Italic[wght].ttf"
+    (share/"fonts").install "ofl/splinesansmono/" + "SplineSansMono[wght].ttf"
   end
   # No zap stanza required
 

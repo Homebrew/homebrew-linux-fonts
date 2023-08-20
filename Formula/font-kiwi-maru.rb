@@ -4,9 +4,9 @@ class FontKiwiMaru < Formula
   desc "Typeface for visualization of everyday and slang expressions"
   homepage "https://fonts.google.com/specimen/Kiwi+Maru"
   def install
-    (share/"fonts").install "KiwiMaru-Light.ttf"
-    (share/"fonts").install "KiwiMaru-Medium.ttf"
-    (share/"fonts").install "KiwiMaru-Regular.ttf"
+    (share/"fonts").install "ofl/kiwimaru/" + "KiwiMaru-Light.ttf"
+    (share/"fonts").install "ofl/kiwimaru/" + "KiwiMaru-Medium.ttf"
+    (share/"fonts").install "ofl/kiwimaru/" + "KiwiMaru-Regular.ttf"
   end
   # No zap stanza required
 

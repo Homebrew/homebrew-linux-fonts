@@ -3,13 +3,13 @@ class FontInknutAntiqua < Formula
   desc "Inknut Antiqua"
   homepage "https://fonts.google.com/specimen/Inknut+Antiqua"
   def install
-    (share/"fonts").install "InknutAntiqua-Black.ttf"
-    (share/"fonts").install "InknutAntiqua-Bold.ttf"
-    (share/"fonts").install "InknutAntiqua-ExtraBold.ttf"
-    (share/"fonts").install "InknutAntiqua-Light.ttf"
-    (share/"fonts").install "InknutAntiqua-Medium.ttf"
-    (share/"fonts").install "InknutAntiqua-Regular.ttf"
-    (share/"fonts").install "InknutAntiqua-SemiBold.ttf"
+    (share/"fonts").install "ofl/inknutantiqua/" + "InknutAntiqua-Black.ttf"
+    (share/"fonts").install "ofl/inknutantiqua/" + "InknutAntiqua-Bold.ttf"
+    (share/"fonts").install "ofl/inknutantiqua/" + "InknutAntiqua-ExtraBold.ttf"
+    (share/"fonts").install "ofl/inknutantiqua/" + "InknutAntiqua-Light.ttf"
+    (share/"fonts").install "ofl/inknutantiqua/" + "InknutAntiqua-Medium.ttf"
+    (share/"fonts").install "ofl/inknutantiqua/" + "InknutAntiqua-Regular.ttf"
+    (share/"fonts").install "ofl/inknutantiqua/" + "InknutAntiqua-SemiBold.ttf"
   end
   # No zap stanza required
 

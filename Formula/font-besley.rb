@@ -4,8 +4,8 @@ class FontBesley < Formula
   desc "Designed by owen earl (indestructible type*)"
   homepage "https://fonts.google.com/specimen/Besley"
   def install
-    (share/"fonts").install "Besley-Italic[wght].ttf"
-    (share/"fonts").install "Besley[wght].ttf"
+    (share/"fonts").install "ofl/besley/" + "Besley-Italic[wght].ttf"
+    (share/"fonts").install "ofl/besley/" + "Besley[wght].ttf"
   end
   # No zap stanza required
 

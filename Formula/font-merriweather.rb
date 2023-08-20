@@ -3,14 +3,14 @@ class FontMerriweather < Formula
   desc "Merriweather"
   homepage "https://fonts.google.com/specimen/Merriweather"
   def install
-    (share/"fonts").install "Merriweather-Black.ttf"
-    (share/"fonts").install "Merriweather-BlackItalic.ttf"
-    (share/"fonts").install "Merriweather-Bold.ttf"
-    (share/"fonts").install "Merriweather-BoldItalic.ttf"
-    (share/"fonts").install "Merriweather-Italic.ttf"
-    (share/"fonts").install "Merriweather-Light.ttf"
-    (share/"fonts").install "Merriweather-LightItalic.ttf"
-    (share/"fonts").install "Merriweather-Regular.ttf"
+    (share/"fonts").install "ofl/merriweather/" + "Merriweather-Black.ttf"
+    (share/"fonts").install "ofl/merriweather/" + "Merriweather-BlackItalic.ttf"
+    (share/"fonts").install "ofl/merriweather/" + "Merriweather-Bold.ttf"
+    (share/"fonts").install "ofl/merriweather/" + "Merriweather-BoldItalic.ttf"
+    (share/"fonts").install "ofl/merriweather/" + "Merriweather-Italic.ttf"
+    (share/"fonts").install "ofl/merriweather/" + "Merriweather-Light.ttf"
+    (share/"fonts").install "ofl/merriweather/" + "Merriweather-LightItalic.ttf"
+    (share/"fonts").install "ofl/merriweather/" + "Merriweather-Regular.ttf"
   end
   # No zap stanza required
 

@@ -4,10 +4,10 @@ class FontKaiseiTokumin < Formula
   desc "Designed to keep the legibility and still have power as an extra bold typeface"
   homepage "https://fonts.google.com/specimen/Kaisei+Tokumin"
   def install
-    (share/"fonts").install "KaiseiTokumin-Bold.ttf"
-    (share/"fonts").install "KaiseiTokumin-ExtraBold.ttf"
-    (share/"fonts").install "KaiseiTokumin-Medium.ttf"
-    (share/"fonts").install "KaiseiTokumin-Regular.ttf"
+    (share/"fonts").install "ofl/kaiseitokumin/" + "KaiseiTokumin-Bold.ttf"
+    (share/"fonts").install "ofl/kaiseitokumin/" + "KaiseiTokumin-ExtraBold.ttf"
+    (share/"fonts").install "ofl/kaiseitokumin/" + "KaiseiTokumin-Medium.ttf"
+    (share/"fonts").install "ofl/kaiseitokumin/" + "KaiseiTokumin-Regular.ttf"
   end
   # No zap stanza required
 

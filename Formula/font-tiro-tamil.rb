@@ -4,8 +4,8 @@ class FontTiroTamil < Formula
   desc "Especially suited to traditional literary publishing"
   homepage "https://fonts.google.com/specimen/Tiro+Tamil"
   def install
-    (share/"fonts").install "TiroTamil-Italic.ttf"
-    (share/"fonts").install "TiroTamil-Regular.ttf"
+    (share/"fonts").install "ofl/tirotamil/" + "TiroTamil-Italic.ttf"
+    (share/"fonts").install "ofl/tirotamil/" + "TiroTamil-Regular.ttf"
   end
   # No zap stanza required
 

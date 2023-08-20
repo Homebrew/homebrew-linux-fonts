@@ -4,8 +4,8 @@ class FontTiroKannada < Formula
   desc "Especially suited to traditional literary publishing"
   homepage "https://fonts.google.com/specimen/Tiro+Kannada"
   def install
-    (share/"fonts").install "TiroKannada-Italic.ttf"
-    (share/"fonts").install "TiroKannada-Regular.ttf"
+    (share/"fonts").install "ofl/tirokannada/" + "TiroKannada-Italic.ttf"
+    (share/"fonts").install "ofl/tirokannada/" + "TiroKannada-Regular.ttf"
   end
   # No zap stanza required
 

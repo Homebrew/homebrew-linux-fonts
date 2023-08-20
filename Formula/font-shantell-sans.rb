@@ -3,8 +3,8 @@ class FontShantellSans < Formula
   desc "Shantell Sans"
   homepage "https://fonts.google.com/specimen/Shantell+Sans"
   def install
-    (share/"fonts").install "ShantellSans-Italic[BNCE,INFM,SPAC,wght].ttf"
-    (share/"fonts").install "ShantellSans[BNCE,INFM,SPAC,wght].ttf"
+    (share/"fonts").install "ofl/shantellsans/" + "ShantellSans-Italic[BNCE,INFM,SPAC,wght].ttf"
+    (share/"fonts").install "ofl/shantellsans/" + "ShantellSans[BNCE,INFM,SPAC,wght].ttf"
   end
   # No zap stanza required
 

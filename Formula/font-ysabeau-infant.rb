@@ -3,8 +3,8 @@ class FontYsabeauInfant < Formula
   desc "Ysabeau Infant"
   homepage "https://fonts.google.com/specimen/Ysabeau+Infant"
   def install
-    (share/"fonts").install "YsabeauInfant-Italic[wght].ttf"
-    (share/"fonts").install "YsabeauInfant[wght].ttf"
+    (share/"fonts").install "ofl/ysabeauinfant/" + "YsabeauInfant-Italic[wght].ttf"
+    (share/"fonts").install "ofl/ysabeauinfant/" + "YsabeauInfant[wght].ttf"
   end
   # No zap stanza required
 

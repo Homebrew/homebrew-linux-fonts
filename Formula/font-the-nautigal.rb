@@ -4,8 +4,8 @@ class FontTheNautigal < Formula
   desc "Fluid yet formal with beautiful connectors"
   homepage "https://fonts.google.com/specimen/The+Nautigal"
   def install
-    (share/"fonts").install "TheNautigal-Bold.ttf"
-    (share/"fonts").install "TheNautigal-Regular.ttf"
+    (share/"fonts").install "ofl/thenautigal/" + "TheNautigal-Bold.ttf"
+    (share/"fonts").install "ofl/thenautigal/" + "TheNautigal-Regular.ttf"
   end
   # No zap stanza required
 

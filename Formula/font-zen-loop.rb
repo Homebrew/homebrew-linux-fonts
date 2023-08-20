@@ -4,8 +4,8 @@ class FontZenLoop < Formula
   desc "Latin fonts designed by yoshimichi ohira, as part of zen fonts collection"
   homepage "https://fonts.google.com/specimen/Zen+Loop"
   def install
-    (share/"fonts").install "ZenLoop-Italic.ttf"
-    (share/"fonts").install "ZenLoop-Regular.ttf"
+    (share/"fonts").install "ofl/zenloop/" + "ZenLoop-Italic.ttf"
+    (share/"fonts").install "ofl/zenloop/" + "ZenLoop-Regular.ttf"
   end
   # No zap stanza required
 

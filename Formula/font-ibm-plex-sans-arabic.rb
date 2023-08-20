@@ -3,13 +3,13 @@ class FontIbmPlexSansArabic < Formula
   desc "IBM Plex Sans Arabic"
   homepage "https://fonts.google.com/specimen/IBM+Plex+Sans+Arabic"
   def install
-    (share/"fonts").install "IBMPlexSansArabic-Bold.ttf"
-    (share/"fonts").install "IBMPlexSansArabic-ExtraLight.ttf"
-    (share/"fonts").install "IBMPlexSansArabic-Light.ttf"
-    (share/"fonts").install "IBMPlexSansArabic-Medium.ttf"
-    (share/"fonts").install "IBMPlexSansArabic-Regular.ttf"
-    (share/"fonts").install "IBMPlexSansArabic-SemiBold.ttf"
-    (share/"fonts").install "IBMPlexSansArabic-Thin.ttf"
+    (share/"fonts").install "ofl/ibmplexsansarabic/" + "IBMPlexSansArabic-Bold.ttf"
+    (share/"fonts").install "ofl/ibmplexsansarabic/" + "IBMPlexSansArabic-ExtraLight.ttf"
+    (share/"fonts").install "ofl/ibmplexsansarabic/" + "IBMPlexSansArabic-Light.ttf"
+    (share/"fonts").install "ofl/ibmplexsansarabic/" + "IBMPlexSansArabic-Medium.ttf"
+    (share/"fonts").install "ofl/ibmplexsansarabic/" + "IBMPlexSansArabic-Regular.ttf"
+    (share/"fonts").install "ofl/ibmplexsansarabic/" + "IBMPlexSansArabic-SemiBold.ttf"
+    (share/"fonts").install "ofl/ibmplexsansarabic/" + "IBMPlexSansArabic-Thin.ttf"
   end
   # No zap stanza required
 

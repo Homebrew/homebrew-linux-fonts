@@ -3,8 +3,8 @@ class FontSofiaSans < Formula
   desc "Sofia Sans"
   homepage "https://fonts.google.com/specimen/Sofia+Sans"
   def install
-    (share/"fonts").install "SofiaSans-Italic[wght].ttf"
-    (share/"fonts").install "SofiaSans[wght].ttf"
+    (share/"fonts").install "ofl/sofiasans/" + "SofiaSans-Italic[wght].ttf"
+    (share/"fonts").install "ofl/sofiasans/" + "SofiaSans[wght].ttf"
   end
   # No zap stanza required
 

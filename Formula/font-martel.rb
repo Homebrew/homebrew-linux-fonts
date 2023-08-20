@@ -3,13 +3,13 @@ class FontMartel < Formula
   desc "Martel"
   homepage "https://fonts.google.com/specimen/Martel"
   def install
-    (share/"fonts").install "Martel-Bold.ttf"
-    (share/"fonts").install "Martel-DemiBold.ttf"
-    (share/"fonts").install "Martel-ExtraBold.ttf"
-    (share/"fonts").install "Martel-Heavy.ttf"
-    (share/"fonts").install "Martel-Light.ttf"
-    (share/"fonts").install "Martel-Regular.ttf"
-    (share/"fonts").install "Martel-UltraLight.ttf"
+    (share/"fonts").install "ofl/martel/" + "Martel-Bold.ttf"
+    (share/"fonts").install "ofl/martel/" + "Martel-DemiBold.ttf"
+    (share/"fonts").install "ofl/martel/" + "Martel-ExtraBold.ttf"
+    (share/"fonts").install "ofl/martel/" + "Martel-Heavy.ttf"
+    (share/"fonts").install "ofl/martel/" + "Martel-Light.ttf"
+    (share/"fonts").install "ofl/martel/" + "Martel-Regular.ttf"
+    (share/"fonts").install "ofl/martel/" + "Martel-UltraLight.ttf"
   end
   # No zap stanza required
 

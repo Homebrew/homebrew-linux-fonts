@@ -73,6 +73,7 @@ end
 class CaskTransform < Parslet::Transform
     @@no_check = false
     @@latest = false
+    @@only_path = ""
     rule(:string => simple(:string)) {
         string.to_s.sub(/^'([^"]*)'$/) { '"'+$1+'"' }
     }
@@ -92,7 +93,13 @@ class CaskTransform < Parslet::Transform
         comment.to_s
     }
     rule(:font   => simple(:font)) {
-      "(share/\"fonts\").install #{replace_cask_version_properties(font.sub(/"(.*\/)/, '"#{parent}\1'))}"
+      afont = font.to_s
+      afont = afont.sub(/"(.*\/)/, '"#{parent}\1')
+      if @@only_path != "" && !afont.include?('#{parent}') then
+        afont = "\"#{@@only_path}/\" + " + afont
+      end
+      afont = replace_cask_version_properties(afont)
+      "(share/\"fonts\").install #{afont}"
     }
     rule(:name   => simple(:name),
          :before => sequence(:before),
@@ -135,6 +142,15 @@ class CaskTransform < Parslet::Transform
         elsif command == "url" && @@latest && @@no_check then
             @@latest = false
             @@no_check = false
+            if arguments.find{ |arg| arg.to_s.include? "only_path" } then
+              @@only_path = arguments
+                .find{ |arg| arg.to_s.include? "only_path" }
+                .to_s
+                .gsub(/only_path:\s*"(.*)"/, '\1')
+              p @@only_path
+            else
+              @@only_path = ""
+            end
             "head #{arguments.join(", ")}"
         elsif command == "livecheck" then
             ""

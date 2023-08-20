@@ -3,8 +3,8 @@ class FontMohave < Formula
   desc "Mohave"
   homepage "https://fonts.google.com/specimen/Mohave"
   def install
-    (share/"fonts").install "Mohave-Italic[wght].ttf"
-    (share/"fonts").install "Mohave[wght].ttf"
+    (share/"fonts").install "ofl/mohave/" + "Mohave-Italic[wght].ttf"
+    (share/"fonts").install "ofl/mohave/" + "Mohave[wght].ttf"
   end
   # No zap stanza required
 

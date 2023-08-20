@@ -3,8 +3,8 @@ class FontMina < Formula
   desc "Mina"
   homepage "https://fonts.google.com/specimen/Mina"
   def install
-    (share/"fonts").install "Mina-Bold.ttf"
-    (share/"fonts").install "Mina-Regular.ttf"
+    (share/"fonts").install "ofl/mina/" + "Mina-Bold.ttf"
+    (share/"fonts").install "ofl/mina/" + "Mina-Regular.ttf"
   end
   # No zap stanza required
 

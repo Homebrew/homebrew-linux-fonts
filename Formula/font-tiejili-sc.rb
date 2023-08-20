@@ -7,7 +7,7 @@ class FontTiejiliSc < Formula
   desc "Open-source font that extends Fontworks' Reggae One to Chinese"
   homepage "https://github.com/Buernia/Tiejili"
   def install
-    (share/"fonts").install "TiejiliSC-Regular.otf"
+    (share/"fonts").install "ofl/thenautigal/" + "TiejiliSC-Regular.otf"
   end
   # No zap stanza required
 

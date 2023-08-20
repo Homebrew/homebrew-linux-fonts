@@ -4,8 +4,8 @@ class FontQwitcherGrypen < Formula
   desc "Casual brush script with a bit of an edge"
   homepage "https://fonts.google.com/specimen/Qwitcher+Grypen"
   def install
-    (share/"fonts").install "QwitcherGrypen-Bold.ttf"
-    (share/"fonts").install "QwitcherGrypen-Regular.ttf"
+    (share/"fonts").install "ofl/qwitchergrypen/" + "QwitcherGrypen-Bold.ttf"
+    (share/"fonts").install "ofl/qwitchergrypen/" + "QwitcherGrypen-Regular.ttf"
   end
   # No zap stanza required
 

@@ -4,11 +4,11 @@ class FontBiorhyme < Formula
   desc "Latin typeface family"
   homepage "https://fonts.google.com/specimen/BioRhyme"
   def install
-    (share/"fonts").install "BioRhyme-Bold.ttf"
-    (share/"fonts").install "BioRhyme-ExtraBold.ttf"
-    (share/"fonts").install "BioRhyme-ExtraLight.ttf"
-    (share/"fonts").install "BioRhyme-Light.ttf"
-    (share/"fonts").install "BioRhyme-Regular.ttf"
+    (share/"fonts").install "ofl/biorhyme/" + "BioRhyme-Bold.ttf"
+    (share/"fonts").install "ofl/biorhyme/" + "BioRhyme-ExtraBold.ttf"
+    (share/"fonts").install "ofl/biorhyme/" + "BioRhyme-ExtraLight.ttf"
+    (share/"fonts").install "ofl/biorhyme/" + "BioRhyme-Light.ttf"
+    (share/"fonts").install "ofl/biorhyme/" + "BioRhyme-Regular.ttf"
   end
   # No zap stanza required
 

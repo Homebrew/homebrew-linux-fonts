@@ -3,8 +3,8 @@ class FontMonda < Formula
   desc "Monda"
   homepage "https://fonts.google.com/specimen/Monda"
   def install
-    (share/"fonts").install "Monda-Bold.ttf"
-    (share/"fonts").install "Monda-Regular.ttf"
+    (share/"fonts").install "ofl/monda/" + "Monda-Bold.ttf"
+    (share/"fonts").install "ofl/monda/" + "Monda-Regular.ttf"
   end
   # No zap stanza required
 

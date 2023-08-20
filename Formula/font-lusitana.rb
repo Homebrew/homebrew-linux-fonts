@@ -3,8 +3,8 @@ class FontLusitana < Formula
   desc "Lusitana"
   homepage "https://fonts.google.com/specimen/Lusitana"
   def install
-    (share/"fonts").install "Lusitana-Bold.ttf"
-    (share/"fonts").install "Lusitana-Regular.ttf"
+    (share/"fonts").install "ofl/lusitana/" + "Lusitana-Bold.ttf"
+    (share/"fonts").install "ofl/lusitana/" + "Lusitana-Regular.ttf"
   end
   # No zap stanza required
 

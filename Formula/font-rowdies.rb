@@ -3,9 +3,9 @@ class FontRowdies < Formula
   desc "Rowdies"
   homepage "https://fonts.google.com/specimen/Rowdies"
   def install
-    (share/"fonts").install "Rowdies-Bold.ttf"
-    (share/"fonts").install "Rowdies-Light.ttf"
-    (share/"fonts").install "Rowdies-Regular.ttf"
+    (share/"fonts").install "ofl/rowdies/" + "Rowdies-Bold.ttf"
+    (share/"fonts").install "ofl/rowdies/" + "Rowdies-Light.ttf"
+    (share/"fonts").install "ofl/rowdies/" + "Rowdies-Regular.ttf"
   end
   # No zap stanza required
 

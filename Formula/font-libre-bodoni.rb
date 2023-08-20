@@ -3,8 +3,8 @@ class FontLibreBodoni < Formula
   desc "Libre Bodoni"
   homepage "https://fonts.google.com/specimen/Libre+Bodoni"
   def install
-    (share/"fonts").install "LibreBodoni-Italic[wght].ttf"
-    (share/"fonts").install "LibreBodoni[wght].ttf"
+    (share/"fonts").install "ofl/librebodoni/" + "LibreBodoni-Italic[wght].ttf"
+    (share/"fonts").install "ofl/librebodoni/" + "LibreBodoni[wght].ttf"
   end
   # No zap stanza required
 

@@ -3,8 +3,8 @@ class FontInstrumentSans < Formula
   desc "Instrument Sans"
   homepage "https://fonts.google.com/specimen/Instrument+Sans"
   def install
-    (share/"fonts").install "InstrumentSans-Italic[wdth,wght].ttf"
-    (share/"fonts").install "InstrumentSans[wdth,wght].ttf"
+    (share/"fonts").install "ofl/instrumentsans/" + "InstrumentSans-Italic[wdth,wght].ttf"
+    (share/"fonts").install "ofl/instrumentsans/" + "InstrumentSans[wdth,wght].ttf"
   end
   # No zap stanza required
 

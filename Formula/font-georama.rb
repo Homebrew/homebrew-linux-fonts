@@ -4,8 +4,8 @@ class FontGeorama < Formula
   desc "Original typeface available in several widths and weights"
   homepage "https://fonts.google.com/specimen/Georama"
   def install
-    (share/"fonts").install "Georama-Italic[wdth,wght].ttf"
-    (share/"fonts").install "Georama[wdth,wght].ttf"
+    (share/"fonts").install "ofl/georama/" + "Georama-Italic[wdth,wght].ttf"
+    (share/"fonts").install "ofl/georama/" + "Georama[wdth,wght].ttf"
   end
   # No zap stanza required
 

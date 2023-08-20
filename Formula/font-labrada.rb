@@ -3,8 +3,8 @@ class FontLabrada < Formula
   desc "Labrada"
   homepage "https://fonts.google.com/specimen/Labrada"
   def install
-    (share/"fonts").install "Labrada-Italic[wght].ttf"
-    (share/"fonts").install "Labrada[wght].ttf"
+    (share/"fonts").install "ofl/labrada/" + "Labrada-Italic[wght].ttf"
+    (share/"fonts").install "ofl/labrada/" + "Labrada[wght].ttf"
   end
   # No zap stanza required
 

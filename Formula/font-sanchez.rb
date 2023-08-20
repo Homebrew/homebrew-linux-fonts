@@ -3,8 +3,8 @@ class FontSanchez < Formula
   desc "Sanchez"
   homepage "https://fonts.google.com/specimen/Sanchez"
   def install
-    (share/"fonts").install "Sanchez-Italic.ttf"
-    (share/"fonts").install "Sanchez-Regular.ttf"
+    (share/"fonts").install "ofl/sanchez/" + "Sanchez-Italic.ttf"
+    (share/"fonts").install "ofl/sanchez/" + "Sanchez-Regular.ttf"
   end
   # No zap stanza required
 

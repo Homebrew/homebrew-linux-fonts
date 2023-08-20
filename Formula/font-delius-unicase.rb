@@ -3,8 +3,8 @@ class FontDeliusUnicase < Formula
   desc "Delius Unicase"
   homepage "https://fonts.google.com/specimen/Delius+Unicase"
   def install
-    (share/"fonts").install "DeliusUnicase-Bold.ttf"
-    (share/"fonts").install "DeliusUnicase-Regular.ttf"
+    (share/"fonts").install "ofl/deliusunicase/" + "DeliusUnicase-Bold.ttf"
+    (share/"fonts").install "ofl/deliusunicase/" + "DeliusUnicase-Regular.ttf"
   end
   # No zap stanza required
 

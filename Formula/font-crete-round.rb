@@ -3,8 +3,8 @@ class FontCreteRound < Formula
   desc "Crete Round"
   homepage "https://fonts.google.com/specimen/Crete+Round"
   def install
-    (share/"fonts").install "CreteRound-Italic.ttf"
-    (share/"fonts").install "CreteRound-Regular.ttf"
+    (share/"fonts").install "ofl/creteround/" + "CreteRound-Italic.ttf"
+    (share/"fonts").install "ofl/creteround/" + "CreteRound-Regular.ttf"
   end
   # No zap stanza required
 

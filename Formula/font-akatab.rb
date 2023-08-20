@@ -3,12 +3,12 @@ class FontAkatab < Formula
   desc "Akatab"
   homepage "https://fonts.google.com/specimen/Akatab"
   def install
-    (share/"fonts").install "Akatab-Black.ttf"
-    (share/"fonts").install "Akatab-Bold.ttf"
-    (share/"fonts").install "Akatab-ExtraBold.ttf"
-    (share/"fonts").install "Akatab-Medium.ttf"
-    (share/"fonts").install "Akatab-Regular.ttf"
-    (share/"fonts").install "Akatab-SemiBold.ttf"
+    (share/"fonts").install "ofl/akatab/" + "Akatab-Black.ttf"
+    (share/"fonts").install "ofl/akatab/" + "Akatab-Bold.ttf"
+    (share/"fonts").install "ofl/akatab/" + "Akatab-ExtraBold.ttf"
+    (share/"fonts").install "ofl/akatab/" + "Akatab-Medium.ttf"
+    (share/"fonts").install "ofl/akatab/" + "Akatab-Regular.ttf"
+    (share/"fonts").install "ofl/akatab/" + "Akatab-SemiBold.ttf"
   end
   # No zap stanza required
 

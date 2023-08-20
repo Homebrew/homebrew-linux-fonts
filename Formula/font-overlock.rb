@@ -3,12 +3,12 @@ class FontOverlock < Formula
   desc "Overlock"
   homepage "https://fonts.google.com/specimen/Overlock"
   def install
-    (share/"fonts").install "Overlock-Black.ttf"
-    (share/"fonts").install "Overlock-BlackItalic.ttf"
-    (share/"fonts").install "Overlock-Bold.ttf"
-    (share/"fonts").install "Overlock-BoldItalic.ttf"
-    (share/"fonts").install "Overlock-Italic.ttf"
-    (share/"fonts").install "Overlock-Regular.ttf"
+    (share/"fonts").install "ofl/overlock/" + "Overlock-Black.ttf"
+    (share/"fonts").install "ofl/overlock/" + "Overlock-BlackItalic.ttf"
+    (share/"fonts").install "ofl/overlock/" + "Overlock-Bold.ttf"
+    (share/"fonts").install "ofl/overlock/" + "Overlock-BoldItalic.ttf"
+    (share/"fonts").install "ofl/overlock/" + "Overlock-Italic.ttf"
+    (share/"fonts").install "ofl/overlock/" + "Overlock-Regular.ttf"
   end
   # No zap stanza required
 

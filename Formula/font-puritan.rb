@@ -3,10 +3,10 @@ class FontPuritan < Formula
   desc "Puritan"
   homepage "https://fonts.google.com/specimen/Puritan"
   def install
-    (share/"fonts").install "Puritan-Bold.ttf"
-    (share/"fonts").install "Puritan-BoldItalic.ttf"
-    (share/"fonts").install "Puritan-Italic.ttf"
-    (share/"fonts").install "Puritan-Regular.ttf"
+    (share/"fonts").install "ofl/puritan/" + "Puritan-Bold.ttf"
+    (share/"fonts").install "ofl/puritan/" + "Puritan-BoldItalic.ttf"
+    (share/"fonts").install "ofl/puritan/" + "Puritan-Italic.ttf"
+    (share/"fonts").install "ofl/puritan/" + "Puritan-Regular.ttf"
   end
   # No zap stanza required
 

@@ -4,8 +4,8 @@ class FontRobotoSerif < Formula
   desc "Just as comfortable to read and work in print media"
   homepage "https://fonts.google.com/specimen/Roboto+Serif"
   def install
-    (share/"fonts").install "RobotoSerif-Italic[GRAD,opsz,wdth,wght].ttf"
-    (share/"fonts").install "RobotoSerif[GRAD,opsz,wdth,wght].ttf"
+    (share/"fonts").install "ofl/robotoserif/" + "RobotoSerif-Italic[GRAD,opsz,wdth,wght].ttf"
+    (share/"fonts").install "ofl/robotoserif/" + "RobotoSerif[GRAD,opsz,wdth,wght].ttf"
   end
   # No zap stanza required
 

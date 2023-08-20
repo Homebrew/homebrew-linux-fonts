@@ -3,12 +3,12 @@ class FontPostNoBillsColombo < Formula
   desc "Post No Bills Colombo"
   homepage "https://fonts.google.com/specimen/Stick+No+Bills"
   def install
-    (share/"fonts").install "PostNoBillsColombo-Bold.ttf"
-    (share/"fonts").install "PostNoBillsColombo-ExtraBold.ttf"
-    (share/"fonts").install "PostNoBillsColombo-Light.ttf"
-    (share/"fonts").install "PostNoBillsColombo-Medium.ttf"
-    (share/"fonts").install "PostNoBillsColombo-Regular.ttf"
-    (share/"fonts").install "PostNoBillsColombo-SemiBold.ttf"
+    (share/"fonts").install "ofl/postnobillscolombo/" + "PostNoBillsColombo-Bold.ttf"
+    (share/"fonts").install "ofl/postnobillscolombo/" + "PostNoBillsColombo-ExtraBold.ttf"
+    (share/"fonts").install "ofl/postnobillscolombo/" + "PostNoBillsColombo-Light.ttf"
+    (share/"fonts").install "ofl/postnobillscolombo/" + "PostNoBillsColombo-Medium.ttf"
+    (share/"fonts").install "ofl/postnobillscolombo/" + "PostNoBillsColombo-Regular.ttf"
+    (share/"fonts").install "ofl/postnobillscolombo/" + "PostNoBillsColombo-SemiBold.ttf"
   end
   # No zap stanza required
 

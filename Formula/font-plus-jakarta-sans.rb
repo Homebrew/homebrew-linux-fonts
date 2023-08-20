@@ -4,8 +4,8 @@ class FontPlusJakartaSans < Formula
   desc "Versatile modern type family"
   homepage "https://fonts.google.com/specimen/Plus+Jakarta+Sans"
   def install
-    (share/"fonts").install "PlusJakartaSans-Italic[wght].ttf"
-    (share/"fonts").install "PlusJakartaSans[wght].ttf"
+    (share/"fonts").install "ofl/plusjakartasans/" + "PlusJakartaSans-Italic[wght].ttf"
+    (share/"fonts").install "ofl/plusjakartasans/" + "PlusJakartaSans[wght].ttf"
   end
   # No zap stanza required
 

@@ -3,11 +3,11 @@ class FontHindMadurai < Formula
   desc "Hind Madurai"
   homepage "https://fonts.google.com/specimen/Hind+Madurai"
   def install
-    (share/"fonts").install "HindMadurai-Bold.ttf"
-    (share/"fonts").install "HindMadurai-Light.ttf"
-    (share/"fonts").install "HindMadurai-Medium.ttf"
-    (share/"fonts").install "HindMadurai-Regular.ttf"
-    (share/"fonts").install "HindMadurai-SemiBold.ttf"
+    (share/"fonts").install "ofl/hindmadurai/" + "HindMadurai-Bold.ttf"
+    (share/"fonts").install "ofl/hindmadurai/" + "HindMadurai-Light.ttf"
+    (share/"fonts").install "ofl/hindmadurai/" + "HindMadurai-Medium.ttf"
+    (share/"fonts").install "ofl/hindmadurai/" + "HindMadurai-Regular.ttf"
+    (share/"fonts").install "ofl/hindmadurai/" + "HindMadurai-SemiBold.ttf"
   end
   # No zap stanza required
 

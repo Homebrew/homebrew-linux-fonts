@@ -3,8 +3,8 @@ class FontSumana < Formula
   desc "Sumana"
   homepage "https://fonts.google.com/specimen/Sumana"
   def install
-    (share/"fonts").install "Sumana-Bold.ttf"
-    (share/"fonts").install "Sumana-Regular.ttf"
+    (share/"fonts").install "ofl/sumana/" + "Sumana-Bold.ttf"
+    (share/"fonts").install "ofl/sumana/" + "Sumana-Regular.ttf"
   end
   # No zap stanza required
 

@@ -3,8 +3,8 @@ class FontElsie < Formula
   desc "Elsie"
   homepage "https://fonts.google.com/specimen/Elsie"
   def install
-    (share/"fonts").install "Elsie-Black.ttf"
-    (share/"fonts").install "Elsie-Regular.ttf"
+    (share/"fonts").install "ofl/elsie/" + "Elsie-Black.ttf"
+    (share/"fonts").install "ofl/elsie/" + "Elsie-Regular.ttf"
   end
   # No zap stanza required
 

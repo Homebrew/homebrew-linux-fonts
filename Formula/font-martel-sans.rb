@@ -3,13 +3,13 @@ class FontMartelSans < Formula
   desc "Martel Sans"
   homepage "https://fonts.google.com/specimen/Martel+Sans"
   def install
-    (share/"fonts").install "MartelSans-Black.ttf"
-    (share/"fonts").install "MartelSans-Bold.ttf"
-    (share/"fonts").install "MartelSans-ExtraBold.ttf"
-    (share/"fonts").install "MartelSans-ExtraLight.ttf"
-    (share/"fonts").install "MartelSans-Light.ttf"
-    (share/"fonts").install "MartelSans-Regular.ttf"
-    (share/"fonts").install "MartelSans-SemiBold.ttf"
+    (share/"fonts").install "ofl/martelsans/" + "MartelSans-Black.ttf"
+    (share/"fonts").install "ofl/martelsans/" + "MartelSans-Bold.ttf"
+    (share/"fonts").install "ofl/martelsans/" + "MartelSans-ExtraBold.ttf"
+    (share/"fonts").install "ofl/martelsans/" + "MartelSans-ExtraLight.ttf"
+    (share/"fonts").install "ofl/martelsans/" + "MartelSans-Light.ttf"
+    (share/"fonts").install "ofl/martelsans/" + "MartelSans-Regular.ttf"
+    (share/"fonts").install "ofl/martelsans/" + "MartelSans-SemiBold.ttf"
   end
   # No zap stanza required
 

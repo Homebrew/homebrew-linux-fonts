@@ -3,8 +3,8 @@ class FontRobotoCondensed < Formula
   desc "Roboto Condensed"
   homepage "https://fonts.google.com/specimen/Roboto+Condensed"
   def install
-    (share/"fonts").install "RobotoCondensed-Italic[wght].ttf"
-    (share/"fonts").install "RobotoCondensed[wght].ttf"
+    (share/"fonts").install "ofl/robotocondensed/" + "RobotoCondensed-Italic[wght].ttf"
+    (share/"fonts").install "ofl/robotocondensed/" + "RobotoCondensed[wght].ttf"
   end
   # No zap stanza required
 

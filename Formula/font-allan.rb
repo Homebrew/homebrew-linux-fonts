@@ -3,8 +3,8 @@ class FontAllan < Formula
   desc "Allan"
   homepage "https://fonts.google.com/specimen/Allan"
   def install
-    (share/"fonts").install "Allan-Bold.ttf"
-    (share/"fonts").install "Allan-Regular.ttf"
+    (share/"fonts").install "ofl/allan/" + "Allan-Bold.ttf"
+    (share/"fonts").install "ofl/allan/" + "Allan-Regular.ttf"
   end
   # No zap stanza required
 

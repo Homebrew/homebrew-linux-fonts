@@ -3,7 +3,7 @@ class FontNotoMonoForPowerline < Formula
   desc "Noto Mono for Powerline"
   homepage "https://github.com/powerline/fonts/tree/master/NotoMono"
   def install
-    (share/"fonts").install "Noto Mono for Powerline.ttf"
+    (share/"fonts").install "NotoMono/" + "Noto Mono for Powerline.ttf"
   end
   # No zap stanza required
 

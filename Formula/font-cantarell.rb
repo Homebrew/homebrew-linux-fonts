@@ -3,10 +3,10 @@ class FontCantarell < Formula
   desc "Cantarell"
   homepage "https://fonts.google.com/specimen/Cantarell"
   def install
-    (share/"fonts").install "Cantarell-Bold.ttf"
-    (share/"fonts").install "Cantarell-BoldItalic.ttf"
-    (share/"fonts").install "Cantarell-Italic.ttf"
-    (share/"fonts").install "Cantarell-Regular.ttf"
+    (share/"fonts").install "ofl/cantarell/" + "Cantarell-Bold.ttf"
+    (share/"fonts").install "ofl/cantarell/" + "Cantarell-BoldItalic.ttf"
+    (share/"fonts").install "ofl/cantarell/" + "Cantarell-Italic.ttf"
+    (share/"fonts").install "ofl/cantarell/" + "Cantarell-Regular.ttf"
   end
   # No zap stanza required
 

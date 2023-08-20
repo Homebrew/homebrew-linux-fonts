@@ -4,8 +4,8 @@ class FontAlumniSansCollegiateOne < Formula
   desc "Font inspired by Impact Black"
   homepage "https://fonts.google.com/specimen/Alumni+Sans+Collegiate+One"
   def install
-    (share/"fonts").install "AlumniSansCollegiateOne-Italic.ttf"
-    (share/"fonts").install "AlumniSansCollegiateOne-Regular.ttf"
+    (share/"fonts").install "ofl/alumnisanscollegiateone/" + "AlumniSansCollegiateOne-Italic.ttf"
+    (share/"fonts").install "ofl/alumnisanscollegiateone/" + "AlumniSansCollegiateOne-Regular.ttf"
   end
   # No zap stanza required
 

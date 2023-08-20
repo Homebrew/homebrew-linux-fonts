@@ -5,13 +5,13 @@ class FontGenryumin < Formula
   desc "GenRyuMin"
   homepage "https://github.com/ButTaiwan/genryu-font"
   def install
-    (share/"fonts").install "GenRyuMin-B.ttc"
-    (share/"fonts").install "GenRyuMin-EL.ttc"
-    (share/"fonts").install "GenRyuMin-H.ttc"
-    (share/"fonts").install "GenRyuMin-L.ttc"
-    (share/"fonts").install "GenRyuMin-M.ttc"
-    (share/"fonts").install "GenRyuMin-R.ttc"
-    (share/"fonts").install "GenRyuMin-SB.ttc"
+    (share/"fonts").install "ofl/genos/" + "GenRyuMin-B.ttc"
+    (share/"fonts").install "ofl/genos/" + "GenRyuMin-EL.ttc"
+    (share/"fonts").install "ofl/genos/" + "GenRyuMin-H.ttc"
+    (share/"fonts").install "ofl/genos/" + "GenRyuMin-L.ttc"
+    (share/"fonts").install "ofl/genos/" + "GenRyuMin-M.ttc"
+    (share/"fonts").install "ofl/genos/" + "GenRyuMin-R.ttc"
+    (share/"fonts").install "ofl/genos/" + "GenRyuMin-SB.ttc"
   end
   # No zap stanza required
 

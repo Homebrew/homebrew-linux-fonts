@@ -3,8 +3,8 @@ class FontSaira < Formula
   desc "Saira"
   homepage "https://fonts.google.com/specimen/Saira"
   def install
-    (share/"fonts").install "Saira-Italic[wdth,wght].ttf"
-    (share/"fonts").install "Saira[wdth,wght].ttf"
+    (share/"fonts").install "ofl/saira/" + "Saira-Italic[wdth,wght].ttf"
+    (share/"fonts").install "ofl/saira/" + "Saira[wdth,wght].ttf"
   end
   # No zap stanza required
 

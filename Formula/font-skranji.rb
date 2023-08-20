@@ -3,8 +3,8 @@ class FontSkranji < Formula
   desc "Skranji"
   homepage "https://fonts.google.com/specimen/Skranji"
   def install
-    (share/"fonts").install "Skranji-Bold.ttf"
-    (share/"fonts").install "Skranji-Regular.ttf"
+    (share/"fonts").install "ofl/skranji/" + "Skranji-Bold.ttf"
+    (share/"fonts").install "ofl/skranji/" + "Skranji-Regular.ttf"
   end
   # No zap stanza required
 

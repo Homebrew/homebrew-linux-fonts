@@ -3,8 +3,8 @@ class FontTangerine < Formula
   desc "Tangerine"
   homepage "https://fonts.google.com/specimen/Tangerine"
   def install
-    (share/"fonts").install "Tangerine-Bold.ttf"
-    (share/"fonts").install "Tangerine-Regular.ttf"
+    (share/"fonts").install "ofl/tangerine/" + "Tangerine-Bold.ttf"
+    (share/"fonts").install "ofl/tangerine/" + "Tangerine-Regular.ttf"
   end
   # No zap stanza required
 

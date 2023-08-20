@@ -4,8 +4,8 @@ class FontLunasima < Formula
   desc "Unmodulated (“sans serif”) design"
   homepage "https://fonts.google.com/specimen/Lunasima"
   def install
-    (share/"fonts").install "Lunasima-Bold.ttf"
-    (share/"fonts").install "Lunasima-Regular.ttf"
+    (share/"fonts").install "ofl/lunasima/" + "Lunasima-Bold.ttf"
+    (share/"fonts").install "ofl/lunasima/" + "Lunasima-Regular.ttf"
   end
   # No zap stanza required
 

@@ -3,8 +3,8 @@ class FontMate < Formula
   desc "Mate"
   homepage "https://fonts.google.com/specimen/Mate"
   def install
-    (share/"fonts").install "Mate-Italic.ttf"
-    (share/"fonts").install "Mate-Regular.ttf"
+    (share/"fonts").install "ofl/mate/" + "Mate-Italic.ttf"
+    (share/"fonts").install "ofl/mate/" + "Mate-Regular.ttf"
   end
   # No zap stanza required
 

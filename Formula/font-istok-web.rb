@@ -3,10 +3,10 @@ class FontIstokWeb < Formula
   desc "Istok Web"
   homepage "https://fonts.google.com/specimen/Istok+Web"
   def install
-    (share/"fonts").install "IstokWeb-Bold.ttf"
-    (share/"fonts").install "IstokWeb-BoldItalic.ttf"
-    (share/"fonts").install "IstokWeb-Italic.ttf"
-    (share/"fonts").install "IstokWeb-Regular.ttf"
+    (share/"fonts").install "ofl/istokweb/" + "IstokWeb-Bold.ttf"
+    (share/"fonts").install "ofl/istokweb/" + "IstokWeb-BoldItalic.ttf"
+    (share/"fonts").install "ofl/istokweb/" + "IstokWeb-Italic.ttf"
+    (share/"fonts").install "ofl/istokweb/" + "IstokWeb-Regular.ttf"
   end
   # No zap stanza required
 

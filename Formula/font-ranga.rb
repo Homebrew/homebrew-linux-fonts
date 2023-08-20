@@ -3,8 +3,8 @@ class FontRanga < Formula
   desc "Ranga"
   homepage "https://fonts.google.com/specimen/Ranga"
   def install
-    (share/"fonts").install "Ranga-Bold.ttf"
-    (share/"fonts").install "Ranga-Regular.ttf"
+    (share/"fonts").install "ofl/ranga/" + "Ranga-Bold.ttf"
+    (share/"fonts").install "ofl/ranga/" + "Ranga-Regular.ttf"
   end
   # No zap stanza required
 

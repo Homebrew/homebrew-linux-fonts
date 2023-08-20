@@ -3,8 +3,8 @@ class FontSintony < Formula
   desc "Sintony"
   homepage "https://fonts.google.com/specimen/Sintony"
   def install
-    (share/"fonts").install "Sintony-Bold.ttf"
-    (share/"fonts").install "Sintony-Regular.ttf"
+    (share/"fonts").install "ofl/sintony/" + "Sintony-Bold.ttf"
+    (share/"fonts").install "ofl/sintony/" + "Sintony-Regular.ttf"
   end
   # No zap stanza required
 

@@ -4,10 +4,10 @@ class FontScheherazadeNew < Formula
   desc "Named after the heroine of the classic arabian nights tale"
   homepage "https://fonts.google.com/specimen/Scheherazade+New"
   def install
-    (share/"fonts").install "ScheherazadeNew-Bold.ttf"
-    (share/"fonts").install "ScheherazadeNew-Medium.ttf"
-    (share/"fonts").install "ScheherazadeNew-Regular.ttf"
-    (share/"fonts").install "ScheherazadeNew-SemiBold.ttf"
+    (share/"fonts").install "ofl/scheherazadenew/" + "ScheherazadeNew-Bold.ttf"
+    (share/"fonts").install "ofl/scheherazadenew/" + "ScheherazadeNew-Medium.ttf"
+    (share/"fonts").install "ofl/scheherazadenew/" + "ScheherazadeNew-Regular.ttf"
+    (share/"fonts").install "ofl/scheherazadenew/" + "ScheherazadeNew-SemiBold.ttf"
   end
   # No zap stanza required
 

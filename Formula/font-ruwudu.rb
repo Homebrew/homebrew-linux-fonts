@@ -4,10 +4,10 @@ class FontRuwudu < Formula
   desc "Open font family for arabic script languages that use the rubutun kano style"
   homepage "https://fonts.google.com/specimen/Ruwudu"
   def install
-    (share/"fonts").install "Ruwudu-Bold.ttf"
-    (share/"fonts").install "Ruwudu-Medium.ttf"
-    (share/"fonts").install "Ruwudu-Regular.ttf"
-    (share/"fonts").install "Ruwudu-SemiBold.ttf"
+    (share/"fonts").install "ofl/ruwudu/" + "Ruwudu-Bold.ttf"
+    (share/"fonts").install "ofl/ruwudu/" + "Ruwudu-Medium.ttf"
+    (share/"fonts").install "ofl/ruwudu/" + "Ruwudu-Regular.ttf"
+    (share/"fonts").install "ofl/ruwudu/" + "Ruwudu-SemiBold.ttf"
   end
   # No zap stanza required
 

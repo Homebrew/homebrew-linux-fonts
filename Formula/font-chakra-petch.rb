@@ -3,16 +3,16 @@ class FontChakraPetch < Formula
   desc "Chakra Petch"
   homepage "https://fonts.google.com/specimen/Chakra+Petch"
   def install
-    (share/"fonts").install "ChakraPetch-Bold.ttf"
-    (share/"fonts").install "ChakraPetch-BoldItalic.ttf"
-    (share/"fonts").install "ChakraPetch-Italic.ttf"
-    (share/"fonts").install "ChakraPetch-Light.ttf"
-    (share/"fonts").install "ChakraPetch-LightItalic.ttf"
-    (share/"fonts").install "ChakraPetch-Medium.ttf"
-    (share/"fonts").install "ChakraPetch-MediumItalic.ttf"
-    (share/"fonts").install "ChakraPetch-Regular.ttf"
-    (share/"fonts").install "ChakraPetch-SemiBold.ttf"
-    (share/"fonts").install "ChakraPetch-SemiBoldItalic.ttf"
+    (share/"fonts").install "ofl/chakrapetch/" + "ChakraPetch-Bold.ttf"
+    (share/"fonts").install "ofl/chakrapetch/" + "ChakraPetch-BoldItalic.ttf"
+    (share/"fonts").install "ofl/chakrapetch/" + "ChakraPetch-Italic.ttf"
+    (share/"fonts").install "ofl/chakrapetch/" + "ChakraPetch-Light.ttf"
+    (share/"fonts").install "ofl/chakrapetch/" + "ChakraPetch-LightItalic.ttf"
+    (share/"fonts").install "ofl/chakrapetch/" + "ChakraPetch-Medium.ttf"
+    (share/"fonts").install "ofl/chakrapetch/" + "ChakraPetch-MediumItalic.ttf"
+    (share/"fonts").install "ofl/chakrapetch/" + "ChakraPetch-Regular.ttf"
+    (share/"fonts").install "ofl/chakrapetch/" + "ChakraPetch-SemiBold.ttf"
+    (share/"fonts").install "ofl/chakrapetch/" + "ChakraPetch-SemiBoldItalic.ttf"
   end
   # No zap stanza required
 

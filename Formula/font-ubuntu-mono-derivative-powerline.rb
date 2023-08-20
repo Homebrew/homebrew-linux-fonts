@@ -3,10 +3,10 @@ class FontUbuntuMonoDerivativePowerline < Formula
   desc "Ubuntu Mono derivative Powerline"
   homepage "https://github.com/powerline/fonts/tree/master/UbuntuMono"
   def install
-    (share/"fonts").install "Ubuntu Mono derivative Powerline.ttf"
-    (share/"fonts").install "Ubuntu Mono derivative Powerline Bold.ttf"
-    (share/"fonts").install "Ubuntu Mono derivative Powerline Bold Italic.ttf"
-    (share/"fonts").install "Ubuntu Mono derivative Powerline Italic.ttf"
+    (share/"fonts").install "UbuntuMono/" + "Ubuntu Mono derivative Powerline.ttf"
+    (share/"fonts").install "UbuntuMono/" + "Ubuntu Mono derivative Powerline Bold.ttf"
+    (share/"fonts").install "UbuntuMono/" + "Ubuntu Mono derivative Powerline Bold Italic.ttf"
+    (share/"fonts").install "UbuntuMono/" + "Ubuntu Mono derivative Powerline Italic.ttf"
   end
   # No zap stanza required
 

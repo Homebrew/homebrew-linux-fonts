@@ -3,8 +3,8 @@ class FontNanumGothicCoding < Formula
   desc "Nanum Gothic Coding"
   homepage "https://fonts.google.com/specimen/Nanum+Gothic+Coding"
   def install
-    (share/"fonts").install "NanumGothicCoding-Bold.ttf"
-    (share/"fonts").install "NanumGothicCoding-Regular.ttf"
+    (share/"fonts").install "ofl/nanumgothiccoding/" + "NanumGothicCoding-Bold.ttf"
+    (share/"fonts").install "ofl/nanumgothiccoding/" + "NanumGothicCoding-Regular.ttf"
   end
   # No zap stanza required
 

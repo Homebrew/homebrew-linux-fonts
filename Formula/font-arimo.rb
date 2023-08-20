@@ -3,8 +3,8 @@ class FontArimo < Formula
   desc "Arimo"
   homepage "https://fonts.google.com/specimen/Arimo"
   def install
-    (share/"fonts").install "Arimo-Italic[wght].ttf"
-    (share/"fonts").install "Arimo[wght].ttf"
+    (share/"fonts").install "apache/arimo/" + "Arimo-Italic[wght].ttf"
+    (share/"fonts").install "apache/arimo/" + "Arimo[wght].ttf"
   end
   # No zap stanza required
 

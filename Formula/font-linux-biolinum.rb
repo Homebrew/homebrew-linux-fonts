@@ -5,10 +5,10 @@ class FontLinuxBiolinum < Formula
   desc "Linux Biolinum"
   homepage "http://linuxlibertine.org/"
   def install
-    (share/"fonts").install "LinBiolinum_Kah.ttf"
-    (share/"fonts").install "LinBiolinum_RBah.ttf"
-    (share/"fonts").install "LinBiolinum_RIah.ttf"
-    (share/"fonts").install "LinBiolinum_Rah.ttf"
+    (share/"fonts").install "ofl/lindenhill/" + "LinBiolinum_Kah.ttf"
+    (share/"fonts").install "ofl/lindenhill/" + "LinBiolinum_RBah.ttf"
+    (share/"fonts").install "ofl/lindenhill/" + "LinBiolinum_RIah.ttf"
+    (share/"fonts").install "ofl/lindenhill/" + "LinBiolinum_Rah.ttf"
   end
   # No zap stanza required
 

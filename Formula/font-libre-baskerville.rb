@@ -3,9 +3,9 @@ class FontLibreBaskerville < Formula
   desc "Libre Baskerville"
   homepage "https://fonts.google.com/specimen/Libre+Baskerville"
   def install
-    (share/"fonts").install "LibreBaskerville-Bold.ttf"
-    (share/"fonts").install "LibreBaskerville-Italic.ttf"
-    (share/"fonts").install "LibreBaskerville-Regular.ttf"
+    (share/"fonts").install "ofl/librebaskerville/" + "LibreBaskerville-Bold.ttf"
+    (share/"fonts").install "ofl/librebaskerville/" + "LibreBaskerville-Italic.ttf"
+    (share/"fonts").install "ofl/librebaskerville/" + "LibreBaskerville-Regular.ttf"
   end
   # No zap stanza required
 

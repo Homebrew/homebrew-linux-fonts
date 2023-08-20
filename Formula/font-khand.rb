@@ -3,11 +3,11 @@ class FontKhand < Formula
   desc "Khand"
   homepage "https://fonts.google.com/specimen/Khand"
   def install
-    (share/"fonts").install "Khand-Bold.ttf"
-    (share/"fonts").install "Khand-Light.ttf"
-    (share/"fonts").install "Khand-Medium.ttf"
-    (share/"fonts").install "Khand-Regular.ttf"
-    (share/"fonts").install "Khand-SemiBold.ttf"
+    (share/"fonts").install "ofl/khand/" + "Khand-Bold.ttf"
+    (share/"fonts").install "ofl/khand/" + "Khand-Light.ttf"
+    (share/"fonts").install "ofl/khand/" + "Khand-Medium.ttf"
+    (share/"fonts").install "ofl/khand/" + "Khand-Regular.ttf"
+    (share/"fonts").install "ofl/khand/" + "Khand-SemiBold.ttf"
   end
   # No zap stanza required
 

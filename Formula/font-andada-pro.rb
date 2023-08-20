@@ -4,8 +4,8 @@ class FontAndadaPro < Formula
   desc "Organic-slab serif, hybrid style and medium contrast type for text"
   homepage "https://fonts.google.com/specimen/Andada+Pro"
   def install
-    (share/"fonts").install "AndadaPro-Italic[wght].ttf"
-    (share/"fonts").install "AndadaPro[wght].ttf"
+    (share/"fonts").install "ofl/andadapro/" + "AndadaPro-Italic[wght].ttf"
+    (share/"fonts").install "ofl/andadapro/" + "AndadaPro[wght].ttf"
   end
   # No zap stanza required
 

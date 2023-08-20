@@ -10,16 +10,16 @@ class FontSarasaGothic < Formula
   desc "CJK programming font based on Iosevka and Source Han Sans"
   homepage "https://github.com/be5invis/Sarasa-Gothic"
   def install
-    (share/"fonts").install "sarasa-bold.ttc"
-    (share/"fonts").install "sarasa-bolditalic.ttc"
-    (share/"fonts").install "sarasa-extralight.ttc"
-    (share/"fonts").install "sarasa-extralightitalic.ttc"
-    (share/"fonts").install "sarasa-italic.ttc"
-    (share/"fonts").install "sarasa-light.ttc"
-    (share/"fonts").install "sarasa-lightitalic.ttc"
-    (share/"fonts").install "sarasa-regular.ttc"
-    (share/"fonts").install "sarasa-semibold.ttc"
-    (share/"fonts").install "sarasa-semibolditalic.ttc"
+    (share/"fonts").install "ofl/sarala/" + "sarasa-bold.ttc"
+    (share/"fonts").install "ofl/sarala/" + "sarasa-bolditalic.ttc"
+    (share/"fonts").install "ofl/sarala/" + "sarasa-extralight.ttc"
+    (share/"fonts").install "ofl/sarala/" + "sarasa-extralightitalic.ttc"
+    (share/"fonts").install "ofl/sarala/" + "sarasa-italic.ttc"
+    (share/"fonts").install "ofl/sarala/" + "sarasa-light.ttc"
+    (share/"fonts").install "ofl/sarala/" + "sarasa-lightitalic.ttc"
+    (share/"fonts").install "ofl/sarala/" + "sarasa-regular.ttc"
+    (share/"fonts").install "ofl/sarala/" + "sarasa-semibold.ttc"
+    (share/"fonts").install "ofl/sarala/" + "sarasa-semibolditalic.ttc"
   end
   # No zap stanza required
 

@@ -4,8 +4,8 @@ class FontAlbertSans < Formula
   desc "Modern geometric sans serif family"
   homepage "https://fonts.google.com/specimen/Albert+Sans"
   def install
-    (share/"fonts").install "AlbertSans-Italic[wght].ttf"
-    (share/"fonts").install "AlbertSans[wght].ttf"
+    (share/"fonts").install "ofl/albertsans/" + "AlbertSans-Italic[wght].ttf"
+    (share/"fonts").install "ofl/albertsans/" + "AlbertSans[wght].ttf"
   end
   # No zap stanza required
 

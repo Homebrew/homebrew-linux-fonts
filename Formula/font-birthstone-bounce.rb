@@ -4,8 +4,8 @@ class FontBirthstoneBounce < Formula
   desc "Sibling family of birthstone that adds more luster and playfulness to it"
   homepage "https://fonts.google.com/specimen/Birthstone+Bounce"
   def install
-    (share/"fonts").install "BirthstoneBounce-Medium.ttf"
-    (share/"fonts").install "BirthstoneBounce-Regular.ttf"
+    (share/"fonts").install "ofl/birthstonebounce/" + "BirthstoneBounce-Medium.ttf"
+    (share/"fonts").install "ofl/birthstonebounce/" + "BirthstoneBounce-Regular.ttf"
   end
   # No zap stanza required
 

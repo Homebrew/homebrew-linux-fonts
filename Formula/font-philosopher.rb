@@ -3,10 +3,10 @@ class FontPhilosopher < Formula
   desc "Philosopher"
   homepage "https://fonts.google.com/specimen/Philosopher"
   def install
-    (share/"fonts").install "Philosopher-Bold.ttf"
-    (share/"fonts").install "Philosopher-BoldItalic.ttf"
-    (share/"fonts").install "Philosopher-Italic.ttf"
-    (share/"fonts").install "Philosopher-Regular.ttf"
+    (share/"fonts").install "ofl/philosopher/" + "Philosopher-Bold.ttf"
+    (share/"fonts").install "ofl/philosopher/" + "Philosopher-BoldItalic.ttf"
+    (share/"fonts").install "ofl/philosopher/" + "Philosopher-Italic.ttf"
+    (share/"fonts").install "ofl/philosopher/" + "Philosopher-Regular.ttf"
   end
   # No zap stanza required
 

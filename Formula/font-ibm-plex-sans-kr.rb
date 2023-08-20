@@ -3,13 +3,13 @@ class FontIbmPlexSansKr < Formula
   desc "IBM Plex Sans KR"
   homepage "https://fonts.google.com/specimen/IBM+Plex+Sans+KR"
   def install
-    (share/"fonts").install "IBMPlexSansKR-Bold.ttf"
-    (share/"fonts").install "IBMPlexSansKR-ExtraLight.ttf"
-    (share/"fonts").install "IBMPlexSansKR-Light.ttf"
-    (share/"fonts").install "IBMPlexSansKR-Medium.ttf"
-    (share/"fonts").install "IBMPlexSansKR-Regular.ttf"
-    (share/"fonts").install "IBMPlexSansKR-SemiBold.ttf"
-    (share/"fonts").install "IBMPlexSansKR-Thin.ttf"
+    (share/"fonts").install "ofl/ibmplexsanskr/" + "IBMPlexSansKR-Bold.ttf"
+    (share/"fonts").install "ofl/ibmplexsanskr/" + "IBMPlexSansKR-ExtraLight.ttf"
+    (share/"fonts").install "ofl/ibmplexsanskr/" + "IBMPlexSansKR-Light.ttf"
+    (share/"fonts").install "ofl/ibmplexsanskr/" + "IBMPlexSansKR-Medium.ttf"
+    (share/"fonts").install "ofl/ibmplexsanskr/" + "IBMPlexSansKR-Regular.ttf"
+    (share/"fonts").install "ofl/ibmplexsanskr/" + "IBMPlexSansKR-SemiBold.ttf"
+    (share/"fonts").install "ofl/ibmplexsanskr/" + "IBMPlexSansKR-Thin.ttf"
   end
   # No zap stanza required
 

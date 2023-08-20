@@ -4,9 +4,9 @@ class FontBelanosima < Formula
   desc "Inspired by geometric sans serif designs from the 1920s"
   homepage "https://fonts.google.com/specimen/Belanosima"
   def install
-    (share/"fonts").install "Belanosima-Bold.ttf"
-    (share/"fonts").install "Belanosima-Regular.ttf"
-    (share/"fonts").install "Belanosima-SemiBold.ttf"
+    (share/"fonts").install "ofl/belanosima/" + "Belanosima-Bold.ttf"
+    (share/"fonts").install "ofl/belanosima/" + "Belanosima-Regular.ttf"
+    (share/"fonts").install "ofl/belanosima/" + "Belanosima-SemiBold.ttf"
   end
   # No zap stanza required
 

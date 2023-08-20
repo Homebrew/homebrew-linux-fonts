@@ -3,13 +3,13 @@ class FontIbmPlexSansThaiLooped < Formula
   desc "IBM Plex Sans Thai Looped"
   homepage "https://fonts.google.com/specimen/IBM+Plex+Sans+Thai+Looped"
   def install
-    (share/"fonts").install "IBMPlexSansThaiLooped-Bold.ttf"
-    (share/"fonts").install "IBMPlexSansThaiLooped-ExtraLight.ttf"
-    (share/"fonts").install "IBMPlexSansThaiLooped-Light.ttf"
-    (share/"fonts").install "IBMPlexSansThaiLooped-Medium.ttf"
-    (share/"fonts").install "IBMPlexSansThaiLooped-Regular.ttf"
-    (share/"fonts").install "IBMPlexSansThaiLooped-SemiBold.ttf"
-    (share/"fonts").install "IBMPlexSansThaiLooped-Thin.ttf"
+    (share/"fonts").install "ofl/ibmplexsansthailooped/" + "IBMPlexSansThaiLooped-Bold.ttf"
+    (share/"fonts").install "ofl/ibmplexsansthailooped/" + "IBMPlexSansThaiLooped-ExtraLight.ttf"
+    (share/"fonts").install "ofl/ibmplexsansthailooped/" + "IBMPlexSansThaiLooped-Light.ttf"
+    (share/"fonts").install "ofl/ibmplexsansthailooped/" + "IBMPlexSansThaiLooped-Medium.ttf"
+    (share/"fonts").install "ofl/ibmplexsansthailooped/" + "IBMPlexSansThaiLooped-Regular.ttf"
+    (share/"fonts").install "ofl/ibmplexsansthailooped/" + "IBMPlexSansThaiLooped-SemiBold.ttf"
+    (share/"fonts").install "ofl/ibmplexsansthailooped/" + "IBMPlexSansThaiLooped-Thin.ttf"
   end
   # No zap stanza required
 

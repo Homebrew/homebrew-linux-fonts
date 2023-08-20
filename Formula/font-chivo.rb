@@ -3,8 +3,8 @@ class FontChivo < Formula
   desc "Chivo"
   homepage "https://fonts.google.com/specimen/Chivo"
   def install
-    (share/"fonts").install "Chivo-Italic[wght].ttf"
-    (share/"fonts").install "Chivo[wght].ttf"
+    (share/"fonts").install "ofl/chivo/" + "Chivo-Italic[wght].ttf"
+    (share/"fonts").install "ofl/chivo/" + "Chivo[wght].ttf"
   end
   # No zap stanza required
 

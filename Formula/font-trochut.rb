@@ -3,9 +3,9 @@ class FontTrochut < Formula
   desc "Trochut"
   homepage "https://fonts.google.com/specimen/Trochut"
   def install
-    (share/"fonts").install "Trochut-Bold.ttf"
-    (share/"fonts").install "Trochut-Italic.ttf"
-    (share/"fonts").install "Trochut-Regular.ttf"
+    (share/"fonts").install "ofl/trochut/" + "Trochut-Bold.ttf"
+    (share/"fonts").install "ofl/trochut/" + "Trochut-Italic.ttf"
+    (share/"fonts").install "ofl/trochut/" + "Trochut-Regular.ttf"
   end
   # No zap stanza required
 

@@ -4,8 +4,8 @@ class FontSilkscreen < Formula
   desc "Typeface for your web graphics"
   homepage "https://fonts.google.com/specimen/Silkscreen"
   def install
-    (share/"fonts").install "Silkscreen-Bold.ttf"
-    (share/"fonts").install "Silkscreen-Regular.ttf"
+    (share/"fonts").install "ofl/silkscreen/" + "Silkscreen-Bold.ttf"
+    (share/"fonts").install "ofl/silkscreen/" + "Silkscreen-Regular.ttf"
   end
   # No zap stanza required
 

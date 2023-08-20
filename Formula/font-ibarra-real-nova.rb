@@ -3,8 +3,8 @@ class FontIbarraRealNova < Formula
   desc "Ibarra Real Nova"
   homepage "https://fonts.google.com/specimen/Ibarra+Real+Nova"
   def install
-    (share/"fonts").install "IbarraRealNova-Italic[wght].ttf"
-    (share/"fonts").install "IbarraRealNova[wght].ttf"
+    (share/"fonts").install "ofl/ibarrarealnova/" + "IbarraRealNova-Italic[wght].ttf"
+    (share/"fonts").install "ofl/ibarrarealnova/" + "IbarraRealNova[wght].ttf"
   end
   # No zap stanza required
 

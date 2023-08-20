@@ -3,10 +3,10 @@ class FontCambay < Formula
   desc "Cambay"
   homepage "https://fonts.google.com/specimen/Cambay"
   def install
-    (share/"fonts").install "Cambay-Bold.ttf"
-    (share/"fonts").install "Cambay-BoldItalic.ttf"
-    (share/"fonts").install "Cambay-Italic.ttf"
-    (share/"fonts").install "Cambay-Regular.ttf"
+    (share/"fonts").install "ofl/cambay/" + "Cambay-Bold.ttf"
+    (share/"fonts").install "ofl/cambay/" + "Cambay-BoldItalic.ttf"
+    (share/"fonts").install "ofl/cambay/" + "Cambay-Italic.ttf"
+    (share/"fonts").install "ofl/cambay/" + "Cambay-Regular.ttf"
   end
   # No zap stanza required
 

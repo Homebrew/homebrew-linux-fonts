@@ -3,12 +3,12 @@ class FontYantramanav < Formula
   desc "Yantramanav"
   homepage "https://fonts.google.com/specimen/Yantramanav"
   def install
-    (share/"fonts").install "Yantramanav-Black.ttf"
-    (share/"fonts").install "Yantramanav-Bold.ttf"
-    (share/"fonts").install "Yantramanav-Light.ttf"
-    (share/"fonts").install "Yantramanav-Medium.ttf"
-    (share/"fonts").install "Yantramanav-Regular.ttf"
-    (share/"fonts").install "Yantramanav-Thin.ttf"
+    (share/"fonts").install "ofl/yantramanav/" + "Yantramanav-Black.ttf"
+    (share/"fonts").install "ofl/yantramanav/" + "Yantramanav-Bold.ttf"
+    (share/"fonts").install "ofl/yantramanav/" + "Yantramanav-Light.ttf"
+    (share/"fonts").install "ofl/yantramanav/" + "Yantramanav-Medium.ttf"
+    (share/"fonts").install "ofl/yantramanav/" + "Yantramanav-Regular.ttf"
+    (share/"fonts").install "ofl/yantramanav/" + "Yantramanav-Thin.ttf"
   end
   # No zap stanza required
 

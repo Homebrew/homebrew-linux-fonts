@@ -3,8 +3,8 @@ class FontImFellDoublePica < Formula
   desc "IM Fell Double Pica"
   homepage "https://fonts.google.com/specimen/IM+Fell+Double+Pica"
   def install
-    (share/"fonts").install "IMFELLDoublePica-Italic.ttf"
-    (share/"fonts").install "IMFELLDoublePica-Regular.ttf"
+    (share/"fonts").install "ofl/imfelldoublepica/" + "IMFELLDoublePica-Italic.ttf"
+    (share/"fonts").install "ofl/imfelldoublepica/" + "IMFELLDoublePica-Regular.ttf"
   end
   # No zap stanza required
 

@@ -3,11 +3,11 @@ class FontHindVadodara < Formula
   desc "Hind Vadodara"
   homepage "https://fonts.google.com/specimen/Hind+Vadodara"
   def install
-    (share/"fonts").install "HindVadodara-Bold.ttf"
-    (share/"fonts").install "HindVadodara-Light.ttf"
-    (share/"fonts").install "HindVadodara-Medium.ttf"
-    (share/"fonts").install "HindVadodara-Regular.ttf"
-    (share/"fonts").install "HindVadodara-SemiBold.ttf"
+    (share/"fonts").install "ofl/hindvadodara/" + "HindVadodara-Bold.ttf"
+    (share/"fonts").install "ofl/hindvadodara/" + "HindVadodara-Light.ttf"
+    (share/"fonts").install "ofl/hindvadodara/" + "HindVadodara-Medium.ttf"
+    (share/"fonts").install "ofl/hindvadodara/" + "HindVadodara-Regular.ttf"
+    (share/"fonts").install "ofl/hindvadodara/" + "HindVadodara-SemiBold.ttf"
   end
   # No zap stanza required
 

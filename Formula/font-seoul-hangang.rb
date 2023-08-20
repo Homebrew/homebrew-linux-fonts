@@ -3,10 +3,10 @@ class FontSeoulHangang < Formula
   desc "Seoul Hangang"
   homepage "https://english.seoul.go.kr/seoul-views/seoul-symbols/5-fonts/"
   def install
-    (share/"fonts").install "SeoulHangang-Bold.ttf"
-    (share/"fonts").install "SeoulHangang-ExtraBold.ttf"
-    (share/"fonts").install "SeoulHangang-Light.ttf"
-    (share/"fonts").install "SeoulHangang-Medium.ttf"
+    (share/"fonts").install "ofl/seoulhangang/" + "SeoulHangang-Bold.ttf"
+    (share/"fonts").install "ofl/seoulhangang/" + "SeoulHangang-ExtraBold.ttf"
+    (share/"fonts").install "ofl/seoulhangang/" + "SeoulHangang-Light.ttf"
+    (share/"fonts").install "ofl/seoulhangang/" + "SeoulHangang-Medium.ttf"
   end
   # No zap stanza required
 

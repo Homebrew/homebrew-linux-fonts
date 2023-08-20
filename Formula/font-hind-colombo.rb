@@ -3,11 +3,11 @@ class FontHindColombo < Formula
   desc "Hind Colombo"
   homepage "https://fonts.google.com/specimen/Hind"
   def install
-    (share/"fonts").install "HindColombo-Bold.ttf"
-    (share/"fonts").install "HindColombo-Light.ttf"
-    (share/"fonts").install "HindColombo-Medium.ttf"
-    (share/"fonts").install "HindColombo-Regular.ttf"
-    (share/"fonts").install "HindColombo-SemiBold.ttf"
+    (share/"fonts").install "ofl/hindcolombo/" + "HindColombo-Bold.ttf"
+    (share/"fonts").install "ofl/hindcolombo/" + "HindColombo-Light.ttf"
+    (share/"fonts").install "ofl/hindcolombo/" + "HindColombo-Medium.ttf"
+    (share/"fonts").install "ofl/hindcolombo/" + "HindColombo-Regular.ttf"
+    (share/"fonts").install "ofl/hindcolombo/" + "HindColombo-SemiBold.ttf"
   end
   # No zap stanza required
 

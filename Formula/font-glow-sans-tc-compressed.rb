@@ -5,14 +5,14 @@ class FontGlowSansTcCompressed < Formula
   desc "Glow Sans TC Compressed"
   homepage "https://github.com/welai/glow-sans"
   def install
-    (share/"fonts").install "GlowSansTC-Compressed-Bold.otf"
-    (share/"fonts").install "GlowSansTC-Compressed-Book.otf"
-    (share/"fonts").install "GlowSansTC-Compressed-ExtraBold.otf"
-    (share/"fonts").install "GlowSansTC-Compressed-ExtraLight.otf"
-    (share/"fonts").install "GlowSansTC-Compressed-Light.otf"
-    (share/"fonts").install "GlowSansTC-Compressed-Medium.otf"
-    (share/"fonts").install "GlowSansTC-Compressed-Regular.otf"
-    (share/"fonts").install "GlowSansTC-Compressed-Thin.otf"
+    (share/"fonts").install "ofl/glory/" + "GlowSansTC-Compressed-Bold.otf"
+    (share/"fonts").install "ofl/glory/" + "GlowSansTC-Compressed-Book.otf"
+    (share/"fonts").install "ofl/glory/" + "GlowSansTC-Compressed-ExtraBold.otf"
+    (share/"fonts").install "ofl/glory/" + "GlowSansTC-Compressed-ExtraLight.otf"
+    (share/"fonts").install "ofl/glory/" + "GlowSansTC-Compressed-Light.otf"
+    (share/"fonts").install "ofl/glory/" + "GlowSansTC-Compressed-Medium.otf"
+    (share/"fonts").install "ofl/glory/" + "GlowSansTC-Compressed-Regular.otf"
+    (share/"fonts").install "ofl/glory/" + "GlowSansTC-Compressed-Thin.otf"
   end
   # No zap stanza required
 

@@ -4,8 +4,8 @@ class FontEpilogue < Formula
   desc "Sans serif variable font with a weight axis"
   homepage "https://fonts.google.com/specimen/Epilogue"
   def install
-    (share/"fonts").install "Epilogue-Italic[wght].ttf"
-    (share/"fonts").install "Epilogue[wght].ttf"
+    (share/"fonts").install "ofl/epilogue/" + "Epilogue-Italic[wght].ttf"
+    (share/"fonts").install "ofl/epilogue/" + "Epilogue[wght].ttf"
   end
   # No zap stanza required
 

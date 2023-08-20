@@ -3,13 +3,13 @@ class FontIbmPlexSansDevanagari < Formula
   desc "IBM Plex Sans Devanagari"
   homepage "https://fonts.google.com/specimen/IBM+Plex+Sans+Devanagari"
   def install
-    (share/"fonts").install "IBMPlexSansDevanagari-Bold.ttf"
-    (share/"fonts").install "IBMPlexSansDevanagari-ExtraLight.ttf"
-    (share/"fonts").install "IBMPlexSansDevanagari-Light.ttf"
-    (share/"fonts").install "IBMPlexSansDevanagari-Medium.ttf"
-    (share/"fonts").install "IBMPlexSansDevanagari-Regular.ttf"
-    (share/"fonts").install "IBMPlexSansDevanagari-SemiBold.ttf"
-    (share/"fonts").install "IBMPlexSansDevanagari-Thin.ttf"
+    (share/"fonts").install "ofl/ibmplexsansdevanagari/" + "IBMPlexSansDevanagari-Bold.ttf"
+    (share/"fonts").install "ofl/ibmplexsansdevanagari/" + "IBMPlexSansDevanagari-ExtraLight.ttf"
+    (share/"fonts").install "ofl/ibmplexsansdevanagari/" + "IBMPlexSansDevanagari-Light.ttf"
+    (share/"fonts").install "ofl/ibmplexsansdevanagari/" + "IBMPlexSansDevanagari-Medium.ttf"
+    (share/"fonts").install "ofl/ibmplexsansdevanagari/" + "IBMPlexSansDevanagari-Regular.ttf"
+    (share/"fonts").install "ofl/ibmplexsansdevanagari/" + "IBMPlexSansDevanagari-SemiBold.ttf"
+    (share/"fonts").install "ofl/ibmplexsansdevanagari/" + "IBMPlexSansDevanagari-Thin.ttf"
   end
   # No zap stanza required
 

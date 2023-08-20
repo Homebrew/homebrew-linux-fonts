@@ -4,11 +4,11 @@ class FontTsukimiRounded < Formula
   desc "Sans-serif typeface with rounded terminals"
   homepage "https://fonts.google.com/specimen/Tsukimi+Rounded"
   def install
-    (share/"fonts").install "TsukimiRounded-Bold.ttf"
-    (share/"fonts").install "TsukimiRounded-Light.ttf"
-    (share/"fonts").install "TsukimiRounded-Medium.ttf"
-    (share/"fonts").install "TsukimiRounded-Regular.ttf"
-    (share/"fonts").install "TsukimiRounded-SemiBold.ttf"
+    (share/"fonts").install "ofl/tsukimirounded/" + "TsukimiRounded-Bold.ttf"
+    (share/"fonts").install "ofl/tsukimirounded/" + "TsukimiRounded-Light.ttf"
+    (share/"fonts").install "ofl/tsukimirounded/" + "TsukimiRounded-Medium.ttf"
+    (share/"fonts").install "ofl/tsukimirounded/" + "TsukimiRounded-Regular.ttf"
+    (share/"fonts").install "ofl/tsukimirounded/" + "TsukimiRounded-SemiBold.ttf"
   end
   # No zap stanza required
 

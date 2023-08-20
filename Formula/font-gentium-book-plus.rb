@@ -4,10 +4,10 @@ class FontGentiumBookPlus < Formula
   desc "New version of the reduced character set families, gentium book basic"
   homepage "https://fonts.google.com/specimen/Gentium+Book+Plus"
   def install
-    (share/"fonts").install "GentiumBookPlus-Bold.ttf"
-    (share/"fonts").install "GentiumBookPlus-BoldItalic.ttf"
-    (share/"fonts").install "GentiumBookPlus-Italic.ttf"
-    (share/"fonts").install "GentiumBookPlus-Regular.ttf"
+    (share/"fonts").install "ofl/gentiumbookplus/" + "GentiumBookPlus-Bold.ttf"
+    (share/"fonts").install "ofl/gentiumbookplus/" + "GentiumBookPlus-BoldItalic.ttf"
+    (share/"fonts").install "ofl/gentiumbookplus/" + "GentiumBookPlus-Italic.ttf"
+    (share/"fonts").install "ofl/gentiumbookplus/" + "GentiumBookPlus-Regular.ttf"
   end
   # No zap stanza required
 

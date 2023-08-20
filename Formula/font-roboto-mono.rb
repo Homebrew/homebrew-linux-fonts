@@ -3,8 +3,8 @@ class FontRobotoMono < Formula
   desc "Roboto Mono"
   homepage "https://fonts.google.com/specimen/Roboto+Mono"
   def install
-    (share/"fonts").install "RobotoMono-Italic[wght].ttf"
-    (share/"fonts").install "RobotoMono[wght].ttf"
+    (share/"fonts").install "apache/robotomono/" + "RobotoMono-Italic[wght].ttf"
+    (share/"fonts").install "apache/robotomono/" + "RobotoMono[wght].ttf"
   end
   # No zap stanza required
 

@@ -3,15 +3,15 @@ class FontNotoSansThaiLooped < Formula
   desc "Noto Sans Thai Looped"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Thai+Looped"
   def install
-    (share/"fonts").install "NotoSansThaiLooped-Black.ttf"
-    (share/"fonts").install "NotoSansThaiLooped-Bold.ttf"
-    (share/"fonts").install "NotoSansThaiLooped-ExtraBold.ttf"
-    (share/"fonts").install "NotoSansThaiLooped-ExtraLight.ttf"
-    (share/"fonts").install "NotoSansThaiLooped-Light.ttf"
-    (share/"fonts").install "NotoSansThaiLooped-Medium.ttf"
-    (share/"fonts").install "NotoSansThaiLooped-Regular.ttf"
-    (share/"fonts").install "NotoSansThaiLooped-SemiBold.ttf"
-    (share/"fonts").install "NotoSansThaiLooped-Thin.ttf"
+    (share/"fonts").install "ofl/notosansthailooped/" + "NotoSansThaiLooped-Black.ttf"
+    (share/"fonts").install "ofl/notosansthailooped/" + "NotoSansThaiLooped-Bold.ttf"
+    (share/"fonts").install "ofl/notosansthailooped/" + "NotoSansThaiLooped-ExtraBold.ttf"
+    (share/"fonts").install "ofl/notosansthailooped/" + "NotoSansThaiLooped-ExtraLight.ttf"
+    (share/"fonts").install "ofl/notosansthailooped/" + "NotoSansThaiLooped-Light.ttf"
+    (share/"fonts").install "ofl/notosansthailooped/" + "NotoSansThaiLooped-Medium.ttf"
+    (share/"fonts").install "ofl/notosansthailooped/" + "NotoSansThaiLooped-Regular.ttf"
+    (share/"fonts").install "ofl/notosansthailooped/" + "NotoSansThaiLooped-SemiBold.ttf"
+    (share/"fonts").install "ofl/notosansthailooped/" + "NotoSansThaiLooped-Thin.ttf"
   end
   # No zap stanza required
 

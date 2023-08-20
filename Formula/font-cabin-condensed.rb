@@ -3,10 +3,10 @@ class FontCabinCondensed < Formula
   desc "Cabin Condensed"
   homepage "https://fonts.google.com/specimen/Cabin+Condensed"
   def install
-    (share/"fonts").install "CabinCondensed-Bold.ttf"
-    (share/"fonts").install "CabinCondensed-Medium.ttf"
-    (share/"fonts").install "CabinCondensed-Regular.ttf"
-    (share/"fonts").install "CabinCondensed-SemiBold.ttf"
+    (share/"fonts").install "ofl/cabincondensed/" + "CabinCondensed-Bold.ttf"
+    (share/"fonts").install "ofl/cabincondensed/" + "CabinCondensed-Medium.ttf"
+    (share/"fonts").install "ofl/cabincondensed/" + "CabinCondensed-Regular.ttf"
+    (share/"fonts").install "ofl/cabincondensed/" + "CabinCondensed-SemiBold.ttf"
   end
   # No zap stanza required
 

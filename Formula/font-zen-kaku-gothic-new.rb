@@ -4,11 +4,11 @@ class FontZenKakuGothicNew < Formula
   desc "Classical yet simple and stylish version"
   homepage "https://fonts.google.com/specimen/Zen+Kaku+Gothic+New"
   def install
-    (share/"fonts").install "ZenKakuGothicNew-Black.ttf"
-    (share/"fonts").install "ZenKakuGothicNew-Bold.ttf"
-    (share/"fonts").install "ZenKakuGothicNew-Light.ttf"
-    (share/"fonts").install "ZenKakuGothicNew-Medium.ttf"
-    (share/"fonts").install "ZenKakuGothicNew-Regular.ttf"
+    (share/"fonts").install "ofl/zenkakugothicnew/" + "ZenKakuGothicNew-Black.ttf"
+    (share/"fonts").install "ofl/zenkakugothicnew/" + "ZenKakuGothicNew-Bold.ttf"
+    (share/"fonts").install "ofl/zenkakugothicnew/" + "ZenKakuGothicNew-Light.ttf"
+    (share/"fonts").install "ofl/zenkakugothicnew/" + "ZenKakuGothicNew-Medium.ttf"
+    (share/"fonts").install "ofl/zenkakugothicnew/" + "ZenKakuGothicNew-Regular.ttf"
   end
   # No zap stanza required
 

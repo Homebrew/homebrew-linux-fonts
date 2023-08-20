@@ -3,8 +3,8 @@ class FontPtSerifCaption < Formula
   desc "PT Serif Caption"
   homepage "https://fonts.google.com/specimen/PT+Serif+Caption"
   def install
-    (share/"fonts").install "PT_Serif-Caption-Web-Italic.ttf"
-    (share/"fonts").install "PT_Serif-Caption-Web-Regular.ttf"
+    (share/"fonts").install "ofl/ptserifcaption/" + "PT_Serif-Caption-Web-Italic.ttf"
+    (share/"fonts").install "ofl/ptserifcaption/" + "PT_Serif-Caption-Web-Regular.ttf"
   end
   # No zap stanza required
 

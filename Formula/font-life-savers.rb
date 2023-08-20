@@ -3,9 +3,9 @@ class FontLifeSavers < Formula
   desc "Life Savers"
   homepage "https://fonts.google.com/specimen/Life+Savers"
   def install
-    (share/"fonts").install "LifeSavers-Bold.ttf"
-    (share/"fonts").install "LifeSavers-ExtraBold.ttf"
-    (share/"fonts").install "LifeSavers-Regular.ttf"
+    (share/"fonts").install "ofl/lifesavers/" + "LifeSavers-Bold.ttf"
+    (share/"fonts").install "ofl/lifesavers/" + "LifeSavers-ExtraBold.ttf"
+    (share/"fonts").install "ofl/lifesavers/" + "LifeSavers-Regular.ttf"
   end
   # No zap stanza required
 

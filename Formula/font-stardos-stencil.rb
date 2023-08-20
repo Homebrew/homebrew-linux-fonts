@@ -3,8 +3,8 @@ class FontStardosStencil < Formula
   desc "Stardos Stencil"
   homepage "https://fonts.google.com/specimen/Stardos+Stencil"
   def install
-    (share/"fonts").install "StardosStencil-Bold.ttf"
-    (share/"fonts").install "StardosStencil-Regular.ttf"
+    (share/"fonts").install "ofl/stardosstencil/" + "StardosStencil-Bold.ttf"
+    (share/"fonts").install "ofl/stardosstencil/" + "StardosStencil-Regular.ttf"
   end
   # No zap stanza required
 

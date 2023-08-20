@@ -4,8 +4,8 @@ class FontBizUdmincho < Formula
   desc "Universal design typeface in the Japanese Mincho type tradition"
   homepage "https://fonts.google.com/specimen/BIZ+UDMincho"
   def install
-    (share/"fonts").install "BIZUDMincho-Bold.ttf"
-    (share/"fonts").install "BIZUDMincho-Regular.ttf"
+    (share/"fonts").install "ofl/bizudmincho/" + "BIZUDMincho-Bold.ttf"
+    (share/"fonts").install "ofl/bizudmincho/" + "BIZUDMincho-Regular.ttf"
   end
   # No zap stanza required
 

@@ -3,11 +3,11 @@ class FontSeoulHangangCondensed < Formula
   desc "Seoul Hangang Condensed"
   homepage "http://english.seoul.go.kr/seoul-views/seoul-symbols/5-fonts/"
   def install
-    (share/"fonts").install "SeoulHangangCondensed-Bold.ttf"
-    (share/"fonts").install "SeoulHangangCondensed-BoldL.ttf"
-    (share/"fonts").install "SeoulHangangCondensed-ExtraBold.ttf"
-    (share/"fonts").install "SeoulHangangCondensed-Light.ttf"
-    (share/"fonts").install "SeoulHangangCondensed-Medium.ttf"
+    (share/"fonts").install "ofl/seoulhangangcondensed/" + "SeoulHangangCondensed-Bold.ttf"
+    (share/"fonts").install "ofl/seoulhangangcondensed/" + "SeoulHangangCondensed-BoldL.ttf"
+    (share/"fonts").install "ofl/seoulhangangcondensed/" + "SeoulHangangCondensed-ExtraBold.ttf"
+    (share/"fonts").install "ofl/seoulhangangcondensed/" + "SeoulHangangCondensed-Light.ttf"
+    (share/"fonts").install "ofl/seoulhangangcondensed/" + "SeoulHangangCondensed-Medium.ttf"
   end
   # No zap stanza required
 

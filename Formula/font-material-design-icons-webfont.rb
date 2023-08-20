@@ -3,7 +3,7 @@ class FontMaterialDesignIconsWebfont < Formula
   desc "Material Design Icons Webfont"
   homepage "https://materialdesignicons.com/"
   def install
-    (share/"fonts").install "materialdesignicons-webfont.ttf"
+    (share/"fonts").install "fonts/" + "materialdesignicons-webfont.ttf"
   end
   # No zap stanza required
 

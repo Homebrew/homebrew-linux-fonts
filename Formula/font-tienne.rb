@@ -3,9 +3,9 @@ class FontTienne < Formula
   desc "Tienne"
   homepage "https://fonts.google.com/specimen/Tienne"
   def install
-    (share/"fonts").install "Tienne-Black.ttf"
-    (share/"fonts").install "Tienne-Bold.ttf"
-    (share/"fonts").install "Tienne-Regular.ttf"
+    (share/"fonts").install "ofl/tienne/" + "Tienne-Black.ttf"
+    (share/"fonts").install "ofl/tienne/" + "Tienne-Bold.ttf"
+    (share/"fonts").install "ofl/tienne/" + "Tienne-Regular.ttf"
   end
   # No zap stanza required
 

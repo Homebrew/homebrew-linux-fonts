@@ -3,8 +3,8 @@ class FontMerriweatherSans < Formula
   desc "Merriweather Sans"
   homepage "https://fonts.google.com/specimen/Merriweather+Sans"
   def install
-    (share/"fonts").install "MerriweatherSans-Italic[wght].ttf"
-    (share/"fonts").install "MerriweatherSans[wght].ttf"
+    (share/"fonts").install "ofl/merriweathersans/" + "MerriweatherSans-Italic[wght].ttf"
+    (share/"fonts").install "ofl/merriweathersans/" + "MerriweatherSans[wght].ttf"
   end
   # No zap stanza required
 

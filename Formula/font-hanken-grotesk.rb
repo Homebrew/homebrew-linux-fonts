@@ -4,8 +4,8 @@ class FontHankenGrotesk < Formula
   desc "Led by alfredo marco pradil"
   homepage "https://fonts.google.com/specimen/Hanken+Grotesk"
   def install
-    (share/"fonts").install "HankenGrotesk-Italic[wght].ttf"
-    (share/"fonts").install "HankenGrotesk[wght].ttf"
+    (share/"fonts").install "ofl/hankengrotesk/" + "HankenGrotesk-Italic[wght].ttf"
+    (share/"fonts").install "ofl/hankengrotesk/" + "HankenGrotesk[wght].ttf"
   end
   # No zap stanza required
 

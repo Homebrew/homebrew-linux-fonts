@@ -3,11 +3,11 @@ class FontSuwannaphum < Formula
   desc "Suwannaphum"
   homepage "https://fonts.google.com/specimen/Suwannaphum"
   def install
-    (share/"fonts").install "Suwannaphum-Black.ttf"
-    (share/"fonts").install "Suwannaphum-Bold.ttf"
-    (share/"fonts").install "Suwannaphum-Light.ttf"
-    (share/"fonts").install "Suwannaphum-Regular.ttf"
-    (share/"fonts").install "Suwannaphum-Thin.ttf"
+    (share/"fonts").install "ofl/suwannaphum/" + "Suwannaphum-Black.ttf"
+    (share/"fonts").install "ofl/suwannaphum/" + "Suwannaphum-Bold.ttf"
+    (share/"fonts").install "ofl/suwannaphum/" + "Suwannaphum-Light.ttf"
+    (share/"fonts").install "ofl/suwannaphum/" + "Suwannaphum-Regular.ttf"
+    (share/"fonts").install "ofl/suwannaphum/" + "Suwannaphum-Thin.ttf"
   end
   # No zap stanza required
 

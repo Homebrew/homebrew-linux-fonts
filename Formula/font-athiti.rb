@@ -3,12 +3,12 @@ class FontAthiti < Formula
   desc "Athiti"
   homepage "https://fonts.google.com/specimen/Athiti"
   def install
-    (share/"fonts").install "Athiti-Bold.ttf"
-    (share/"fonts").install "Athiti-ExtraLight.ttf"
-    (share/"fonts").install "Athiti-Light.ttf"
-    (share/"fonts").install "Athiti-Medium.ttf"
-    (share/"fonts").install "Athiti-Regular.ttf"
-    (share/"fonts").install "Athiti-SemiBold.ttf"
+    (share/"fonts").install "ofl/athiti/" + "Athiti-Bold.ttf"
+    (share/"fonts").install "ofl/athiti/" + "Athiti-ExtraLight.ttf"
+    (share/"fonts").install "ofl/athiti/" + "Athiti-Light.ttf"
+    (share/"fonts").install "ofl/athiti/" + "Athiti-Medium.ttf"
+    (share/"fonts").install "ofl/athiti/" + "Athiti-Regular.ttf"
+    (share/"fonts").install "ofl/athiti/" + "Athiti-SemiBold.ttf"
   end
   # No zap stanza required
 

@@ -3,16 +3,16 @@ class FontAlegreyaSc < Formula
   desc "Alegreya SC"
   homepage "https://fonts.google.com/specimen/Alegreya+SC"
   def install
-    (share/"fonts").install "AlegreyaSC-Black.ttf"
-    (share/"fonts").install "AlegreyaSC-BlackItalic.ttf"
-    (share/"fonts").install "AlegreyaSC-Bold.ttf"
-    (share/"fonts").install "AlegreyaSC-BoldItalic.ttf"
-    (share/"fonts").install "AlegreyaSC-ExtraBold.ttf"
-    (share/"fonts").install "AlegreyaSC-ExtraBoldItalic.ttf"
-    (share/"fonts").install "AlegreyaSC-Italic.ttf"
-    (share/"fonts").install "AlegreyaSC-Medium.ttf"
-    (share/"fonts").install "AlegreyaSC-MediumItalic.ttf"
-    (share/"fonts").install "AlegreyaSC-Regular.ttf"
+    (share/"fonts").install "ofl/alegreyasc/" + "AlegreyaSC-Black.ttf"
+    (share/"fonts").install "ofl/alegreyasc/" + "AlegreyaSC-BlackItalic.ttf"
+    (share/"fonts").install "ofl/alegreyasc/" + "AlegreyaSC-Bold.ttf"
+    (share/"fonts").install "ofl/alegreyasc/" + "AlegreyaSC-BoldItalic.ttf"
+    (share/"fonts").install "ofl/alegreyasc/" + "AlegreyaSC-ExtraBold.ttf"
+    (share/"fonts").install "ofl/alegreyasc/" + "AlegreyaSC-ExtraBoldItalic.ttf"
+    (share/"fonts").install "ofl/alegreyasc/" + "AlegreyaSC-Italic.ttf"
+    (share/"fonts").install "ofl/alegreyasc/" + "AlegreyaSC-Medium.ttf"
+    (share/"fonts").install "ofl/alegreyasc/" + "AlegreyaSC-MediumItalic.ttf"
+    (share/"fonts").install "ofl/alegreyasc/" + "AlegreyaSC-Regular.ttf"
   end
   # No zap stanza required
 

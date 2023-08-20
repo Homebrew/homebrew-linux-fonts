@@ -3,8 +3,8 @@ class FontCharm < Formula
   desc "Charm"
   homepage "https://fonts.google.com/specimen/Charm"
   def install
-    (share/"fonts").install "Charm-Bold.ttf"
-    (share/"fonts").install "Charm-Regular.ttf"
+    (share/"fonts").install "ofl/charm/" + "Charm-Bold.ttf"
+    (share/"fonts").install "ofl/charm/" + "Charm-Regular.ttf"
   end
   # No zap stanza required
 

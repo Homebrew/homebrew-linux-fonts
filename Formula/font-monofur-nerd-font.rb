@@ -6,15 +6,15 @@ class FontMonofurNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "MonofurNerdFont-Bold.ttf"
-    (share/"fonts").install "MonofurNerdFont-Italic.ttf"
-    (share/"fonts").install "MonofurNerdFont-Regular.ttf"
-    (share/"fonts").install "MonofurNerdFontMono-Bold.ttf"
-    (share/"fonts").install "MonofurNerdFontMono-Italic.ttf"
-    (share/"fonts").install "MonofurNerdFontMono-Regular.ttf"
-    (share/"fonts").install "MonofurNerdFontPropo-Bold.ttf"
-    (share/"fonts").install "MonofurNerdFontPropo-Italic.ttf"
-    (share/"fonts").install "MonofurNerdFontPropo-Regular.ttf"
+    (share/"fonts").install "Monofur/" + "MonofurNerdFont-Bold.ttf"
+    (share/"fonts").install "Monofur/" + "MonofurNerdFont-Italic.ttf"
+    (share/"fonts").install "Monofur/" + "MonofurNerdFont-Regular.ttf"
+    (share/"fonts").install "Monofur/" + "MonofurNerdFontMono-Bold.ttf"
+    (share/"fonts").install "Monofur/" + "MonofurNerdFontMono-Italic.ttf"
+    (share/"fonts").install "Monofur/" + "MonofurNerdFontMono-Regular.ttf"
+    (share/"fonts").install "Monofur/" + "MonofurNerdFontPropo-Bold.ttf"
+    (share/"fonts").install "Monofur/" + "MonofurNerdFontPropo-Italic.ttf"
+    (share/"fonts").install "Monofur/" + "MonofurNerdFontPropo-Regular.ttf"
   end
   # No zap stanza required
 

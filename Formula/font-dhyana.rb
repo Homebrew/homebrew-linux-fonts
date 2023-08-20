@@ -3,8 +3,8 @@ class FontDhyana < Formula
   desc "Dhyana"
   homepage "https://fonts.google.com/earlyaccess"
   def install
-    (share/"fonts").install "Dhyana-Bold.ttf"
-    (share/"fonts").install "Dhyana-Regular.ttf"
+    (share/"fonts").install "ofl/dhyana/" + "Dhyana-Bold.ttf"
+    (share/"fonts").install "ofl/dhyana/" + "Dhyana-Regular.ttf"
   end
   # No zap stanza required
 

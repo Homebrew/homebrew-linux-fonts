@@ -3,9 +3,9 @@ class FontSulphurPoint < Formula
   desc "Sulphur Point"
   homepage "https://fonts.google.com/specimen/Sulphur+Point"
   def install
-    (share/"fonts").install "SulphurPoint-Bold.ttf"
-    (share/"fonts").install "SulphurPoint-Light.ttf"
-    (share/"fonts").install "SulphurPoint-Regular.ttf"
+    (share/"fonts").install "ofl/sulphurpoint/" + "SulphurPoint-Bold.ttf"
+    (share/"fonts").install "ofl/sulphurpoint/" + "SulphurPoint-Light.ttf"
+    (share/"fonts").install "ofl/sulphurpoint/" + "SulphurPoint-Regular.ttf"
   end
   # No zap stanza required
 

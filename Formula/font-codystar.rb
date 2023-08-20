@@ -3,8 +3,8 @@ class FontCodystar < Formula
   desc "Codystar"
   homepage "https://fonts.google.com/specimen/Codystar"
   def install
-    (share/"fonts").install "Codystar-Light.ttf"
-    (share/"fonts").install "Codystar-Regular.ttf"
+    (share/"fonts").install "ofl/codystar/" + "Codystar-Light.ttf"
+    (share/"fonts").install "ofl/codystar/" + "Codystar-Regular.ttf"
   end
   # No zap stanza required
 

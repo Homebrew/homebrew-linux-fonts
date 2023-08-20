@@ -4,8 +4,8 @@ class FontRoboto < Formula
   desc "Font with a mechanical skeleton and the forms are largely geometric"
   homepage "https://fonts.google.com/specimen/Roboto"
   def install
-    (share/"fonts").install "Roboto-Italic[wdth,wght].ttf"
-    (share/"fonts").install "Roboto[wdth,wght].ttf"
+    (share/"fonts").install "apache/roboto/" + "Roboto-Italic[wdth,wght].ttf"
+    (share/"fonts").install "apache/roboto/" + "Roboto[wdth,wght].ttf"
   end
   # No zap stanza required
 

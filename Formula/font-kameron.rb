@@ -3,8 +3,8 @@ class FontKameron < Formula
   desc "Kameron"
   homepage "https://fonts.google.com/specimen/Kameron"
   def install
-    (share/"fonts").install "Kameron-Bold.ttf"
-    (share/"fonts").install "Kameron-Regular.ttf"
+    (share/"fonts").install "ofl/kameron/" + "Kameron-Bold.ttf"
+    (share/"fonts").install "ofl/kameron/" + "Kameron-Regular.ttf"
   end
   # No zap stanza required
 

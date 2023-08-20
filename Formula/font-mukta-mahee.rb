@@ -3,13 +3,13 @@ class FontMuktaMahee < Formula
   desc "Mukta Mahee"
   homepage "https://fonts.google.com/specimen/Mukta+Mahee"
   def install
-    (share/"fonts").install "MuktaMahee-Bold.ttf"
-    (share/"fonts").install "MuktaMahee-ExtraBold.ttf"
-    (share/"fonts").install "MuktaMahee-ExtraLight.ttf"
-    (share/"fonts").install "MuktaMahee-Light.ttf"
-    (share/"fonts").install "MuktaMahee-Medium.ttf"
-    (share/"fonts").install "MuktaMahee-Regular.ttf"
-    (share/"fonts").install "MuktaMahee-SemiBold.ttf"
+    (share/"fonts").install "ofl/muktamahee/" + "MuktaMahee-Bold.ttf"
+    (share/"fonts").install "ofl/muktamahee/" + "MuktaMahee-ExtraBold.ttf"
+    (share/"fonts").install "ofl/muktamahee/" + "MuktaMahee-ExtraLight.ttf"
+    (share/"fonts").install "ofl/muktamahee/" + "MuktaMahee-Light.ttf"
+    (share/"fonts").install "ofl/muktamahee/" + "MuktaMahee-Medium.ttf"
+    (share/"fonts").install "ofl/muktamahee/" + "MuktaMahee-Regular.ttf"
+    (share/"fonts").install "ofl/muktamahee/" + "MuktaMahee-SemiBold.ttf"
   end
   # No zap stanza required
 

@@ -3,8 +3,8 @@ class FontKleeOne < Formula
   desc "Klee One"
   homepage "https://fonts.google.com/specimen/Klee+One"
   def install
-    (share/"fonts").install "KleeOne-Regular.ttf"
-    (share/"fonts").install "KleeOne-SemiBold.ttf"
+    (share/"fonts").install "ofl/kleeone/" + "KleeOne-Regular.ttf"
+    (share/"fonts").install "ofl/kleeone/" + "KleeOne-SemiBold.ttf"
   end
   # No zap stanza required
 

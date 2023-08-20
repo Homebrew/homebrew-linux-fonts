@@ -3,8 +3,8 @@ class FontCabin < Formula
   desc "Cabin"
   homepage "https://fonts.google.com/specimen/Cabin"
   def install
-    (share/"fonts").install "Cabin-Italic[wdth,wght].ttf"
-    (share/"fonts").install "Cabin[wdth,wght].ttf"
+    (share/"fonts").install "ofl/cabin/" + "Cabin-Italic[wdth,wght].ttf"
+    (share/"fonts").install "ofl/cabin/" + "Cabin[wdth,wght].ttf"
   end
   # No zap stanza required
 

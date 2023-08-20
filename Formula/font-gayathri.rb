@@ -3,9 +3,9 @@ class FontGayathri < Formula
   desc "Gayathri"
   homepage "https://fonts.google.com/specimen/Gayathri"
   def install
-    (share/"fonts").install "Gayathri-Bold.ttf"
-    (share/"fonts").install "Gayathri-Regular.ttf"
-    (share/"fonts").install "Gayathri-Thin.ttf"
+    (share/"fonts").install "ofl/gayathri/" + "Gayathri-Bold.ttf"
+    (share/"fonts").install "ofl/gayathri/" + "Gayathri-Regular.ttf"
+    (share/"fonts").install "ofl/gayathri/" + "Gayathri-Thin.ttf"
   end
   # No zap stanza required
 

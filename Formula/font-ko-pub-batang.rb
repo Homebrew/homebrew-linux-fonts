@@ -3,9 +3,9 @@ class FontKoPubBatang < Formula
   desc "Ko Pub Batang"
   homepage "https://fonts.google.com/earlyaccess"
   def install
-    (share/"fonts").install "KoPubBatang-Bold.ttf"
-    (share/"fonts").install "KoPubBatang-Light.ttf"
-    (share/"fonts").install "KoPubBatang-Regular.ttf"
+    (share/"fonts").install "ofl/kopubbatang/" + "KoPubBatang-Bold.ttf"
+    (share/"fonts").install "ofl/kopubbatang/" + "KoPubBatang-Light.ttf"
+    (share/"fonts").install "ofl/kopubbatang/" + "KoPubBatang-Regular.ttf"
   end
   # No zap stanza required
 

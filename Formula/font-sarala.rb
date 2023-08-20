@@ -3,8 +3,8 @@ class FontSarala < Formula
   desc "Sarala"
   homepage "https://fonts.google.com/specimen/Sarala"
   def install
-    (share/"fonts").install "Sarala-Bold.ttf"
-    (share/"fonts").install "Sarala-Regular.ttf"
+    (share/"fonts").install "ofl/sarala/" + "Sarala-Bold.ttf"
+    (share/"fonts").install "ofl/sarala/" + "Sarala-Regular.ttf"
   end
   # No zap stanza required
 

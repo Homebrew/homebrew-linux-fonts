@@ -3,8 +3,8 @@ class FontLindenHill < Formula
   desc "Linden Hill"
   homepage "https://fonts.google.com/specimen/Linden+Hill"
   def install
-    (share/"fonts").install "LindenHill-Italic.ttf"
-    (share/"fonts").install "LindenHill-Regular.ttf"
+    (share/"fonts").install "ofl/lindenhill/" + "LindenHill-Italic.ttf"
+    (share/"fonts").install "ofl/lindenhill/" + "LindenHill-Regular.ttf"
   end
   # No zap stanza required
 

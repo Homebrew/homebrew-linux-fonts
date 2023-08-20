@@ -3,8 +3,8 @@ class FontSyncopate < Formula
   desc "Syncopate"
   homepage "https://fonts.google.com/specimen/Syncopate"
   def install
-    (share/"fonts").install "Syncopate-Bold.ttf"
-    (share/"fonts").install "Syncopate-Regular.ttf"
+    (share/"fonts").install "apache/syncopate/" + "Syncopate-Bold.ttf"
+    (share/"fonts").install "apache/syncopate/" + "Syncopate-Regular.ttf"
   end
   # No zap stanza required
 

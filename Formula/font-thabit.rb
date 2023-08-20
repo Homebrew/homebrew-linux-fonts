@@ -3,10 +3,10 @@ class FontThabit < Formula
   desc "Thabit"
   homepage "https://fonts.google.com/earlyaccess"
   def install
-    (share/"fonts").install "Thabit-Bold.ttf"
-    (share/"fonts").install "Thabit-BoldOblique.ttf"
-    (share/"fonts").install "Thabit-Oblique.ttf"
-    (share/"fonts").install "Thabit.ttf"
+    (share/"fonts").install "ofl/thabit/" + "Thabit-Bold.ttf"
+    (share/"fonts").install "ofl/thabit/" + "Thabit-BoldOblique.ttf"
+    (share/"fonts").install "ofl/thabit/" + "Thabit-Oblique.ttf"
+    (share/"fonts").install "ofl/thabit/" + "Thabit.ttf"
   end
   # No zap stanza required
 

@@ -3,8 +3,8 @@ class FontInstrumentSerif < Formula
   desc "Instrument Serif"
   homepage "https://fonts.google.com/specimen/Instrument+Serif"
   def install
-    (share/"fonts").install "InstrumentSerif-Italic.ttf"
-    (share/"fonts").install "InstrumentSerif-Regular.ttf"
+    (share/"fonts").install "ofl/instrumentserif/" + "InstrumentSerif-Italic.ttf"
+    (share/"fonts").install "ofl/instrumentserif/" + "InstrumentSerif-Regular.ttf"
   end
   # No zap stanza required
 

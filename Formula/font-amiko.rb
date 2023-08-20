@@ -3,9 +3,9 @@ class FontAmiko < Formula
   desc "Amiko"
   homepage "https://fonts.google.com/specimen/Amiko"
   def install
-    (share/"fonts").install "Amiko-Bold.ttf"
-    (share/"fonts").install "Amiko-Regular.ttf"
-    (share/"fonts").install "Amiko-SemiBold.ttf"
+    (share/"fonts").install "ofl/amiko/" + "Amiko-Bold.ttf"
+    (share/"fonts").install "ofl/amiko/" + "Amiko-Regular.ttf"
+    (share/"fonts").install "ofl/amiko/" + "Amiko-SemiBold.ttf"
   end
   # No zap stanza required
 

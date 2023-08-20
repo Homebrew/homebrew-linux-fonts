@@ -3,11 +3,11 @@ class FontSolway < Formula
   desc "Solway"
   homepage "https://fonts.google.com/specimen/Solway"
   def install
-    (share/"fonts").install "Solway-Bold.ttf"
-    (share/"fonts").install "Solway-ExtraBold.ttf"
-    (share/"fonts").install "Solway-Light.ttf"
-    (share/"fonts").install "Solway-Medium.ttf"
-    (share/"fonts").install "Solway-Regular.ttf"
+    (share/"fonts").install "ofl/solway/" + "Solway-Bold.ttf"
+    (share/"fonts").install "ofl/solway/" + "Solway-ExtraBold.ttf"
+    (share/"fonts").install "ofl/solway/" + "Solway-Light.ttf"
+    (share/"fonts").install "ofl/solway/" + "Solway-Medium.ttf"
+    (share/"fonts").install "ofl/solway/" + "Solway-Regular.ttf"
   end
   # No zap stanza required
 

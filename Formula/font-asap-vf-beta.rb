@@ -3,9 +3,9 @@ class FontAsapVfBeta < Formula
   desc "Asap VF Beta"
   homepage "https://fonts.google.com/earlyaccess"
   def install
-    (share/"fonts").install "AsapVFBeta-Condensed.ttf"
-    (share/"fonts").install "AsapVFBeta-Italic.ttf"
-    (share/"fonts").install "AsapVFBeta.ttf"
+    (share/"fonts").install "ofl/asapvfbeta/" + "AsapVFBeta-Condensed.ttf"
+    (share/"fonts").install "ofl/asapvfbeta/" + "AsapVFBeta-Italic.ttf"
+    (share/"fonts").install "ofl/asapvfbeta/" + "AsapVFBeta.ttf"
   end
   # No zap stanza required
 

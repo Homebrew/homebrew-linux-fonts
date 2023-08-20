@@ -4,8 +4,8 @@ class FontYsabeauOffice < Formula
   desc "Exercise in restraint"
   homepage "https://fonts.google.com/specimen/Ysabeau+Office"
   def install
-    (share/"fonts").install "YsabeauOffice-Italic[wght].ttf"
-    (share/"fonts").install "YsabeauOffice[wght].ttf"
+    (share/"fonts").install "ofl/ysabeauoffice/" + "YsabeauOffice-Italic[wght].ttf"
+    (share/"fonts").install "ofl/ysabeauoffice/" + "YsabeauOffice[wght].ttf"
   end
   # No zap stanza required
 

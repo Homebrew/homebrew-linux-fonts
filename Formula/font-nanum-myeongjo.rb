@@ -3,9 +3,9 @@ class FontNanumMyeongjo < Formula
   desc "Nanum Myeongjo"
   homepage "https://fonts.google.com/specimen/Nanum+Myeongjo"
   def install
-    (share/"fonts").install "NanumMyeongjo-Bold.ttf"
-    (share/"fonts").install "NanumMyeongjo-ExtraBold.ttf"
-    (share/"fonts").install "NanumMyeongjo-Regular.ttf"
+    (share/"fonts").install "ofl/nanummyeongjo/" + "NanumMyeongjo-Bold.ttf"
+    (share/"fonts").install "ofl/nanummyeongjo/" + "NanumMyeongjo-ExtraBold.ttf"
+    (share/"fonts").install "ofl/nanummyeongjo/" + "NanumMyeongjo-Regular.ttf"
   end
   # No zap stanza required
 

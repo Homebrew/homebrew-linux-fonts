@@ -3,8 +3,8 @@ class FontSahitya < Formula
   desc "Sahitya"
   homepage "https://fonts.google.com/specimen/Sahitya"
   def install
-    (share/"fonts").install "Sahitya-Bold.ttf"
-    (share/"fonts").install "Sahitya-Regular.ttf"
+    (share/"fonts").install "ofl/sahitya/" + "Sahitya-Bold.ttf"
+    (share/"fonts").install "ofl/sahitya/" + "Sahitya-Regular.ttf"
   end
   # No zap stanza required
 

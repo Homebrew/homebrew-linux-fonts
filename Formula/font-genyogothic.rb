@@ -5,13 +5,13 @@ class FontGenyogothic < Formula
   desc "GenYoGothic"
   homepage "https://github.com/ButTaiwan/genyog-font"
   def install
-    (share/"fonts").install "GenYoGothic-B.ttc"
-    (share/"fonts").install "GenYoGothic-EL.ttc"
-    (share/"fonts").install "GenYoGothic-H.ttc"
-    (share/"fonts").install "GenYoGothic-L.ttc"
-    (share/"fonts").install "GenYoGothic-M.ttc"
-    (share/"fonts").install "GenYoGothic-N.ttc"
-    (share/"fonts").install "GenYoGothic-R.ttc"
+    (share/"fonts").install "ofl/gentiumbookplus/" + "GenYoGothic-B.ttc"
+    (share/"fonts").install "ofl/gentiumbookplus/" + "GenYoGothic-EL.ttc"
+    (share/"fonts").install "ofl/gentiumbookplus/" + "GenYoGothic-H.ttc"
+    (share/"fonts").install "ofl/gentiumbookplus/" + "GenYoGothic-L.ttc"
+    (share/"fonts").install "ofl/gentiumbookplus/" + "GenYoGothic-M.ttc"
+    (share/"fonts").install "ofl/gentiumbookplus/" + "GenYoGothic-N.ttc"
+    (share/"fonts").install "ofl/gentiumbookplus/" + "GenYoGothic-R.ttc"
   end
   # No zap stanza required
 

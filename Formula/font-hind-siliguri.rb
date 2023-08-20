@@ -3,11 +3,11 @@ class FontHindSiliguri < Formula
   desc "Hind Siliguri"
   homepage "https://fonts.google.com/specimen/Hind+Siliguri"
   def install
-    (share/"fonts").install "HindSiliguri-Bold.ttf"
-    (share/"fonts").install "HindSiliguri-Light.ttf"
-    (share/"fonts").install "HindSiliguri-Medium.ttf"
-    (share/"fonts").install "HindSiliguri-Regular.ttf"
-    (share/"fonts").install "HindSiliguri-SemiBold.ttf"
+    (share/"fonts").install "ofl/hindsiliguri/" + "HindSiliguri-Bold.ttf"
+    (share/"fonts").install "ofl/hindsiliguri/" + "HindSiliguri-Light.ttf"
+    (share/"fonts").install "ofl/hindsiliguri/" + "HindSiliguri-Medium.ttf"
+    (share/"fonts").install "ofl/hindsiliguri/" + "HindSiliguri-Regular.ttf"
+    (share/"fonts").install "ofl/hindsiliguri/" + "HindSiliguri-SemiBold.ttf"
   end
   # No zap stanza required
 

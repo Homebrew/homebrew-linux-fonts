@@ -3,10 +3,10 @@ class FontSeoulNamsan < Formula
   desc "Seoul Namsan"
   homepage "https://english.seoul.go.kr/seoul-views/seoul-symbols/5-fonts/"
   def install
-    (share/"fonts").install "SeoulNamsan-Bold.ttf"
-    (share/"fonts").install "SeoulNamsan-ExtraBold.ttf"
-    (share/"fonts").install "SeoulNamsan-Light.ttf"
-    (share/"fonts").install "SeoulNamsan-Medium.ttf"
+    (share/"fonts").install "ofl/seoulnamsan/" + "SeoulNamsan-Bold.ttf"
+    (share/"fonts").install "ofl/seoulnamsan/" + "SeoulNamsan-ExtraBold.ttf"
+    (share/"fonts").install "ofl/seoulnamsan/" + "SeoulNamsan-Light.ttf"
+    (share/"fonts").install "ofl/seoulnamsan/" + "SeoulNamsan-Medium.ttf"
   end
   # No zap stanza required
 

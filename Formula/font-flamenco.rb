@@ -3,8 +3,8 @@ class FontFlamenco < Formula
   desc "Flamenco"
   homepage "https://fonts.google.com/specimen/Flamenco"
   def install
-    (share/"fonts").install "Flamenco-Light.ttf"
-    (share/"fonts").install "Flamenco-Regular.ttf"
+    (share/"fonts").install "ofl/flamenco/" + "Flamenco-Light.ttf"
+    (share/"fonts").install "ofl/flamenco/" + "Flamenco-Regular.ttf"
   end
   # No zap stanza required
 

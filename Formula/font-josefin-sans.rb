@@ -3,8 +3,8 @@ class FontJosefinSans < Formula
   desc "Josefin Sans"
   homepage "https://fonts.google.com/specimen/Josefin+Sans"
   def install
-    (share/"fonts").install "JosefinSans-Italic[wght].ttf"
-    (share/"fonts").install "JosefinSans[wght].ttf"
+    (share/"fonts").install "ofl/josefinsans/" + "JosefinSans-Italic[wght].ttf"
+    (share/"fonts").install "ofl/josefinsans/" + "JosefinSans[wght].ttf"
   end
   # No zap stanza required
 

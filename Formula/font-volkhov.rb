@@ -3,10 +3,10 @@ class FontVolkhov < Formula
   desc "Volkhov"
   homepage "https://fonts.google.com/specimen/Volkhov"
   def install
-    (share/"fonts").install "Volkhov-Bold.ttf"
-    (share/"fonts").install "Volkhov-BoldItalic.ttf"
-    (share/"fonts").install "Volkhov-Italic.ttf"
-    (share/"fonts").install "Volkhov-Regular.ttf"
+    (share/"fonts").install "ofl/volkhov/" + "Volkhov-Bold.ttf"
+    (share/"fonts").install "ofl/volkhov/" + "Volkhov-BoldItalic.ttf"
+    (share/"fonts").install "ofl/volkhov/" + "Volkhov-Italic.ttf"
+    (share/"fonts").install "ofl/volkhov/" + "Volkhov-Regular.ttf"
   end
   # No zap stanza required
 

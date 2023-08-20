@@ -4,8 +4,8 @@ class FontWindsong < Formula
   desc "Elongated script with multiple stylistic sets"
   homepage "https://fonts.google.com/specimen/WindSong"
   def install
-    (share/"fonts").install "WindSong-Medium.ttf"
-    (share/"fonts").install "WindSong-Regular.ttf"
+    (share/"fonts").install "ofl/windsong/" + "WindSong-Medium.ttf"
+    (share/"fonts").install "ofl/windsong/" + "WindSong-Regular.ttf"
   end
   # No zap stanza required
 

@@ -3,8 +3,8 @@ class FontJaldi < Formula
   desc "Jaldi"
   homepage "https://fonts.google.com/specimen/Jaldi"
   def install
-    (share/"fonts").install "Jaldi-Bold.ttf"
-    (share/"fonts").install "Jaldi-Regular.ttf"
+    (share/"fonts").install "ofl/jaldi/" + "Jaldi-Bold.ttf"
+    (share/"fonts").install "ofl/jaldi/" + "Jaldi-Regular.ttf"
   end
   # No zap stanza required
 

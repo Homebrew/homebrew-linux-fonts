@@ -3,10 +3,10 @@ class FontEconomica < Formula
   desc "Economica"
   homepage "https://fonts.google.com/specimen/Economica"
   def install
-    (share/"fonts").install "Economica-Bold.ttf"
-    (share/"fonts").install "Economica-BoldItalic.ttf"
-    (share/"fonts").install "Economica-Italic.ttf"
-    (share/"fonts").install "Economica-Regular.ttf"
+    (share/"fonts").install "ofl/economica/" + "Economica-Bold.ttf"
+    (share/"fonts").install "ofl/economica/" + "Economica-BoldItalic.ttf"
+    (share/"fonts").install "ofl/economica/" + "Economica-Italic.ttf"
+    (share/"fonts").install "ofl/economica/" + "Economica-Regular.ttf"
   end
   # No zap stanza required
 

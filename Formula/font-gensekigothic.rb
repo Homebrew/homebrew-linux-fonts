@@ -5,11 +5,11 @@ class FontGensekigothic < Formula
   desc "GenSekiGothic"
   homepage "https://github.com/ButTaiwan/genseki-font"
   def install
-    (share/"fonts").install "GenSekiGothic-B.ttc"
-    (share/"fonts").install "GenSekiGothic-H.ttc"
-    (share/"fonts").install "GenSekiGothic-L.ttc"
-    (share/"fonts").install "GenSekiGothic-M.ttc"
-    (share/"fonts").install "GenSekiGothic-R.ttc"
+    (share/"fonts").install "ofl/genos/" + "GenSekiGothic-B.ttc"
+    (share/"fonts").install "ofl/genos/" + "GenSekiGothic-H.ttc"
+    (share/"fonts").install "ofl/genos/" + "GenSekiGothic-L.ttc"
+    (share/"fonts").install "ofl/genos/" + "GenSekiGothic-M.ttc"
+    (share/"fonts").install "ofl/genos/" + "GenSekiGothic-R.ttc"
   end
   # No zap stanza required
 

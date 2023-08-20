@@ -4,11 +4,11 @@ class FontShipporiMinchoB1 < Formula
   desc "Based on the Tsukiji Typeface making facility of Tokyo"
   homepage "https://fonts.google.com/specimen/Shippori+Mincho+B1"
   def install
-    (share/"fonts").install "ShipporiMinchoB1-Bold.ttf"
-    (share/"fonts").install "ShipporiMinchoB1-ExtraBold.ttf"
-    (share/"fonts").install "ShipporiMinchoB1-Medium.ttf"
-    (share/"fonts").install "ShipporiMinchoB1-Regular.ttf"
-    (share/"fonts").install "ShipporiMinchoB1-SemiBold.ttf"
+    (share/"fonts").install "ofl/shipporiminchob1/" + "ShipporiMinchoB1-Bold.ttf"
+    (share/"fonts").install "ofl/shipporiminchob1/" + "ShipporiMinchoB1-ExtraBold.ttf"
+    (share/"fonts").install "ofl/shipporiminchob1/" + "ShipporiMinchoB1-Medium.ttf"
+    (share/"fonts").install "ofl/shipporiminchob1/" + "ShipporiMinchoB1-Regular.ttf"
+    (share/"fonts").install "ofl/shipporiminchob1/" + "ShipporiMinchoB1-SemiBold.ttf"
   end
   # No zap stanza required
 

@@ -3,14 +3,14 @@ class FontOpenSansHebrewCondensed < Formula
   desc "Open Sans Hebrew Condensed"
   homepage "https://fonts.google.com/earlyaccess"
   def install
-    (share/"fonts").install "OpenSansHebrewCondensed-Bold.ttf"
-    (share/"fonts").install "OpenSansHebrewCondensed-BoldItalic.ttf"
-    (share/"fonts").install "OpenSansHebrewCondensed-ExtraBold.ttf"
-    (share/"fonts").install "OpenSansHebrewCondensed-ExtraBoldItalic.ttf"
-    (share/"fonts").install "OpenSansHebrewCondensed-Italic.ttf"
-    (share/"fonts").install "OpenSansHebrewCondensed-Light.ttf"
-    (share/"fonts").install "OpenSansHebrewCondensed-LightItalic.ttf"
-    (share/"fonts").install "OpenSansHebrewCondensed-Regular.ttf"
+    (share/"fonts").install "apache/opensanshebrewcondensed/" + "OpenSansHebrewCondensed-Bold.ttf"
+    (share/"fonts").install "apache/opensanshebrewcondensed/" + "OpenSansHebrewCondensed-BoldItalic.ttf"
+    (share/"fonts").install "apache/opensanshebrewcondensed/" + "OpenSansHebrewCondensed-ExtraBold.ttf"
+    (share/"fonts").install "apache/opensanshebrewcondensed/" + "OpenSansHebrewCondensed-ExtraBoldItalic.ttf"
+    (share/"fonts").install "apache/opensanshebrewcondensed/" + "OpenSansHebrewCondensed-Italic.ttf"
+    (share/"fonts").install "apache/opensanshebrewcondensed/" + "OpenSansHebrewCondensed-Light.ttf"
+    (share/"fonts").install "apache/opensanshebrewcondensed/" + "OpenSansHebrewCondensed-LightItalic.ttf"
+    (share/"fonts").install "apache/opensanshebrewcondensed/" + "OpenSansHebrewCondensed-Regular.ttf"
   end
   # No zap stanza required
 

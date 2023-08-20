@@ -3,16 +3,16 @@ class FontCormorantGaramond < Formula
   desc "Cormorant Garamond"
   homepage "https://fonts.google.com/specimen/Cormorant+Garamond"
   def install
-    (share/"fonts").install "CormorantGaramond-Bold.ttf"
-    (share/"fonts").install "CormorantGaramond-BoldItalic.ttf"
-    (share/"fonts").install "CormorantGaramond-Italic.ttf"
-    (share/"fonts").install "CormorantGaramond-Light.ttf"
-    (share/"fonts").install "CormorantGaramond-LightItalic.ttf"
-    (share/"fonts").install "CormorantGaramond-Medium.ttf"
-    (share/"fonts").install "CormorantGaramond-MediumItalic.ttf"
-    (share/"fonts").install "CormorantGaramond-Regular.ttf"
-    (share/"fonts").install "CormorantGaramond-SemiBold.ttf"
-    (share/"fonts").install "CormorantGaramond-SemiBoldItalic.ttf"
+    (share/"fonts").install "ofl/cormorantgaramond/" + "CormorantGaramond-Bold.ttf"
+    (share/"fonts").install "ofl/cormorantgaramond/" + "CormorantGaramond-BoldItalic.ttf"
+    (share/"fonts").install "ofl/cormorantgaramond/" + "CormorantGaramond-Italic.ttf"
+    (share/"fonts").install "ofl/cormorantgaramond/" + "CormorantGaramond-Light.ttf"
+    (share/"fonts").install "ofl/cormorantgaramond/" + "CormorantGaramond-LightItalic.ttf"
+    (share/"fonts").install "ofl/cormorantgaramond/" + "CormorantGaramond-Medium.ttf"
+    (share/"fonts").install "ofl/cormorantgaramond/" + "CormorantGaramond-MediumItalic.ttf"
+    (share/"fonts").install "ofl/cormorantgaramond/" + "CormorantGaramond-Regular.ttf"
+    (share/"fonts").install "ofl/cormorantgaramond/" + "CormorantGaramond-SemiBold.ttf"
+    (share/"fonts").install "ofl/cormorantgaramond/" + "CormorantGaramond-SemiBoldItalic.ttf"
   end
   # No zap stanza required
 

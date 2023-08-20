@@ -3,8 +3,8 @@ class FontGowunBatang < Formula
   desc "Gowun Batang"
   homepage "https://fonts.google.com/specimen/Gowun+Batang"
   def install
-    (share/"fonts").install "GowunBatang-Bold.ttf"
-    (share/"fonts").install "GowunBatang-Regular.ttf"
+    (share/"fonts").install "ofl/gowunbatang/" + "GowunBatang-Bold.ttf"
+    (share/"fonts").install "ofl/gowunbatang/" + "GowunBatang-Regular.ttf"
   end
   # No zap stanza required
 

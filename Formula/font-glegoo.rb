@@ -3,8 +3,8 @@ class FontGlegoo < Formula
   desc "Glegoo"
   homepage "https://fonts.google.com/specimen/Glegoo"
   def install
-    (share/"fonts").install "Glegoo-Bold.ttf"
-    (share/"fonts").install "Glegoo-Regular.ttf"
+    (share/"fonts").install "ofl/glegoo/" + "Glegoo-Bold.ttf"
+    (share/"fonts").install "ofl/glegoo/" + "Glegoo-Regular.ttf"
   end
   # No zap stanza required
 

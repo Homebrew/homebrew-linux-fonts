@@ -3,8 +3,8 @@ class FontSourceSans3 < Formula
   desc "Source Sans 3"
   homepage "https://fonts.google.com/specimen/Source+Sans+3"
   def install
-    (share/"fonts").install "SourceSans3-Italic[wght].ttf"
-    (share/"fonts").install "SourceSans3[wght].ttf"
+    (share/"fonts").install "ofl/sourcesans3/" + "SourceSans3-Italic[wght].ttf"
+    (share/"fonts").install "ofl/sourcesans3/" + "SourceSans3[wght].ttf"
   end
   # No zap stanza required
 

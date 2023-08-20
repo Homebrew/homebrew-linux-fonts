@@ -3,8 +3,8 @@ class FontNewsCycle < Formula
   desc "News Cycle"
   homepage "https://fonts.google.com/specimen/News+Cycle"
   def install
-    (share/"fonts").install "NewsCycle-Bold.ttf"
-    (share/"fonts").install "NewsCycle-Regular.ttf"
+    (share/"fonts").install "ofl/newscycle/" + "NewsCycle-Bold.ttf"
+    (share/"fonts").install "ofl/newscycle/" + "NewsCycle-Regular.ttf"
   end
   # No zap stanza required
 

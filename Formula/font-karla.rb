@@ -3,8 +3,8 @@ class FontKarla < Formula
   desc "Karla"
   homepage "https://fonts.google.com/specimen/Karla"
   def install
-    (share/"fonts").install "Karla-Italic[wght].ttf"
-    (share/"fonts").install "Karla[wght].ttf"
+    (share/"fonts").install "ofl/karla/" + "Karla-Italic[wght].ttf"
+    (share/"fonts").install "ofl/karla/" + "Karla[wght].ttf"
   end
   # No zap stanza required
 

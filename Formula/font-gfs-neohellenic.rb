@@ -3,10 +3,10 @@ class FontGfsNeohellenic < Formula
   desc "GFS Neohellenic"
   homepage "https://fonts.google.com/specimen/GFS+Neohellenic"
   def install
-    (share/"fonts").install "GFSNeohellenic.ttf"
-    (share/"fonts").install "GFSNeohellenicBold.ttf"
-    (share/"fonts").install "GFSNeohellenicBoldItalic.ttf"
-    (share/"fonts").install "GFSNeohellenicItalic.ttf"
+    (share/"fonts").install "ofl/gfsneohellenic/" + "GFSNeohellenic.ttf"
+    (share/"fonts").install "ofl/gfsneohellenic/" + "GFSNeohellenicBold.ttf"
+    (share/"fonts").install "ofl/gfsneohellenic/" + "GFSNeohellenicBoldItalic.ttf"
+    (share/"fonts").install "ofl/gfsneohellenic/" + "GFSNeohellenicItalic.ttf"
   end
   # No zap stanza required
 

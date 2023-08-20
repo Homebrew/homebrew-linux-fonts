@@ -3,9 +3,9 @@ class FontGudea < Formula
   desc "Gudea"
   homepage "https://fonts.google.com/specimen/Gudea"
   def install
-    (share/"fonts").install "Gudea-Bold.ttf"
-    (share/"fonts").install "Gudea-Italic.ttf"
-    (share/"fonts").install "Gudea-Regular.ttf"
+    (share/"fonts").install "ofl/gudea/" + "Gudea-Bold.ttf"
+    (share/"fonts").install "ofl/gudea/" + "Gudea-Italic.ttf"
+    (share/"fonts").install "ofl/gudea/" + "Gudea-Regular.ttf"
   end
   # No zap stanza required
 

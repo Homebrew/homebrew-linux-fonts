@@ -4,9 +4,9 @@ class FontBonaNova < Formula
   desc "Cursive typeface"
   homepage "https://fonts.google.com/specimen/Bona+Nova"
   def install
-    (share/"fonts").install "BonaNova-Bold.ttf"
-    (share/"fonts").install "BonaNova-Italic.ttf"
-    (share/"fonts").install "BonaNova-Regular.ttf"
+    (share/"fonts").install "ofl/bonanova/" + "BonaNova-Bold.ttf"
+    (share/"fonts").install "ofl/bonanova/" + "BonaNova-Italic.ttf"
+    (share/"fonts").install "ofl/bonanova/" + "BonaNova-Regular.ttf"
   end
   # No zap stanza required
 

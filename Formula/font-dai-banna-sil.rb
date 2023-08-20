@@ -3,16 +3,16 @@ class FontDaiBannaSil < Formula
   desc "Dai Banna SIL"
   homepage "https://fonts.google.com/specimen/Dai+Banna+SIL"
   def install
-    (share/"fonts").install "DaiBannaSIL-Bold.ttf"
-    (share/"fonts").install "DaiBannaSIL-BoldItalic.ttf"
-    (share/"fonts").install "DaiBannaSIL-Italic.ttf"
-    (share/"fonts").install "DaiBannaSIL-Light.ttf"
-    (share/"fonts").install "DaiBannaSIL-LightItalic.ttf"
-    (share/"fonts").install "DaiBannaSIL-Medium.ttf"
-    (share/"fonts").install "DaiBannaSIL-MediumItalic.ttf"
-    (share/"fonts").install "DaiBannaSIL-Regular.ttf"
-    (share/"fonts").install "DaiBannaSIL-SemiBold.ttf"
-    (share/"fonts").install "DaiBannaSIL-SemiBoldItalic.ttf"
+    (share/"fonts").install "ofl/daibannasil/" + "DaiBannaSIL-Bold.ttf"
+    (share/"fonts").install "ofl/daibannasil/" + "DaiBannaSIL-BoldItalic.ttf"
+    (share/"fonts").install "ofl/daibannasil/" + "DaiBannaSIL-Italic.ttf"
+    (share/"fonts").install "ofl/daibannasil/" + "DaiBannaSIL-Light.ttf"
+    (share/"fonts").install "ofl/daibannasil/" + "DaiBannaSIL-LightItalic.ttf"
+    (share/"fonts").install "ofl/daibannasil/" + "DaiBannaSIL-Medium.ttf"
+    (share/"fonts").install "ofl/daibannasil/" + "DaiBannaSIL-MediumItalic.ttf"
+    (share/"fonts").install "ofl/daibannasil/" + "DaiBannaSIL-Regular.ttf"
+    (share/"fonts").install "ofl/daibannasil/" + "DaiBannaSIL-SemiBold.ttf"
+    (share/"fonts").install "ofl/daibannasil/" + "DaiBannaSIL-SemiBoldItalic.ttf"
   end
   # No zap stanza required
 

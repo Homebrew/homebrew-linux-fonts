@@ -3,14 +3,14 @@ class FontBlinker < Formula
   desc "Blinker"
   homepage "https://fonts.google.com/specimen/Blinker"
   def install
-    (share/"fonts").install "Blinker-Black.ttf"
-    (share/"fonts").install "Blinker-Bold.ttf"
-    (share/"fonts").install "Blinker-ExtraBold.ttf"
-    (share/"fonts").install "Blinker-ExtraLight.ttf"
-    (share/"fonts").install "Blinker-Light.ttf"
-    (share/"fonts").install "Blinker-Regular.ttf"
-    (share/"fonts").install "Blinker-SemiBold.ttf"
-    (share/"fonts").install "Blinker-Thin.ttf"
+    (share/"fonts").install "ofl/blinker/" + "Blinker-Black.ttf"
+    (share/"fonts").install "ofl/blinker/" + "Blinker-Bold.ttf"
+    (share/"fonts").install "ofl/blinker/" + "Blinker-ExtraBold.ttf"
+    (share/"fonts").install "ofl/blinker/" + "Blinker-ExtraLight.ttf"
+    (share/"fonts").install "ofl/blinker/" + "Blinker-Light.ttf"
+    (share/"fonts").install "ofl/blinker/" + "Blinker-Regular.ttf"
+    (share/"fonts").install "ofl/blinker/" + "Blinker-SemiBold.ttf"
+    (share/"fonts").install "ofl/blinker/" + "Blinker-Thin.ttf"
   end
   # No zap stanza required
 

@@ -3,8 +3,8 @@ class FontCoustard < Formula
   desc "Coustard"
   homepage "https://fonts.google.com/specimen/Coustard"
   def install
-    (share/"fonts").install "Coustard-Black.ttf"
-    (share/"fonts").install "Coustard-Regular.ttf"
+    (share/"fonts").install "ofl/coustard/" + "Coustard-Black.ttf"
+    (share/"fonts").install "ofl/coustard/" + "Coustard-Regular.ttf"
   end
   # No zap stanza required
 

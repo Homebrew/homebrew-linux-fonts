@@ -4,8 +4,8 @@ class FontTexturina < Formula
   desc "Designed by guillermo torres"
   homepage "https://fonts.google.com/specimen/Texturina"
   def install
-    (share/"fonts").install "Texturina-Italic[opsz,wght].ttf"
-    (share/"fonts").install "Texturina[opsz,wght].ttf"
+    (share/"fonts").install "ofl/texturina/" + "Texturina-Italic[opsz,wght].ttf"
+    (share/"fonts").install "ofl/texturina/" + "Texturina[opsz,wght].ttf"
   end
   # No zap stanza required
 

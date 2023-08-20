@@ -3,8 +3,8 @@ class FontAsul < Formula
   desc "Asul"
   homepage "https://fonts.google.com/specimen/Asul"
   def install
-    (share/"fonts").install "Asul-Bold.ttf"
-    (share/"fonts").install "Asul-Regular.ttf"
+    (share/"fonts").install "ofl/asul/" + "Asul-Bold.ttf"
+    (share/"fonts").install "ofl/asul/" + "Asul-Regular.ttf"
   end
   # No zap stanza required
 

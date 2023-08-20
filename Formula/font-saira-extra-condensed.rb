@@ -3,15 +3,15 @@ class FontSairaExtraCondensed < Formula
   desc "Saira Extra Condensed"
   homepage "https://fonts.google.com/specimen/Saira+Extra+Condensed"
   def install
-    (share/"fonts").install "SairaExtraCondensed-Black.ttf"
-    (share/"fonts").install "SairaExtraCondensed-Bold.ttf"
-    (share/"fonts").install "SairaExtraCondensed-ExtraBold.ttf"
-    (share/"fonts").install "SairaExtraCondensed-ExtraLight.ttf"
-    (share/"fonts").install "SairaExtraCondensed-Light.ttf"
-    (share/"fonts").install "SairaExtraCondensed-Medium.ttf"
-    (share/"fonts").install "SairaExtraCondensed-Regular.ttf"
-    (share/"fonts").install "SairaExtraCondensed-SemiBold.ttf"
-    (share/"fonts").install "SairaExtraCondensed-Thin.ttf"
+    (share/"fonts").install "ofl/sairaextracondensed/" + "SairaExtraCondensed-Black.ttf"
+    (share/"fonts").install "ofl/sairaextracondensed/" + "SairaExtraCondensed-Bold.ttf"
+    (share/"fonts").install "ofl/sairaextracondensed/" + "SairaExtraCondensed-ExtraBold.ttf"
+    (share/"fonts").install "ofl/sairaextracondensed/" + "SairaExtraCondensed-ExtraLight.ttf"
+    (share/"fonts").install "ofl/sairaextracondensed/" + "SairaExtraCondensed-Light.ttf"
+    (share/"fonts").install "ofl/sairaextracondensed/" + "SairaExtraCondensed-Medium.ttf"
+    (share/"fonts").install "ofl/sairaextracondensed/" + "SairaExtraCondensed-Regular.ttf"
+    (share/"fonts").install "ofl/sairaextracondensed/" + "SairaExtraCondensed-SemiBold.ttf"
+    (share/"fonts").install "ofl/sairaextracondensed/" + "SairaExtraCondensed-Thin.ttf"
   end
   # No zap stanza required
 

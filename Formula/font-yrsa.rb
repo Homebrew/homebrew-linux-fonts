@@ -3,8 +3,8 @@ class FontYrsa < Formula
   desc "Yrsa"
   homepage "https://fonts.google.com/specimen/Yrsa"
   def install
-    (share/"fonts").install "Yrsa-Italic[wght].ttf"
-    (share/"fonts").install "Yrsa[wght].ttf"
+    (share/"fonts").install "ofl/yrsa/" + "Yrsa-Italic[wght].ttf"
+    (share/"fonts").install "ofl/yrsa/" + "Yrsa[wght].ttf"
   end
   # No zap stanza required
 

@@ -3,8 +3,8 @@ class FontMountainsOfChristmas < Formula
   desc "Mountains of Christmas"
   homepage "https://fonts.google.com/specimen/Mountains+of+Christmas"
   def install
-    (share/"fonts").install "MountainsofChristmas-Bold.ttf"
-    (share/"fonts").install "MountainsofChristmas-Regular.ttf"
+    (share/"fonts").install "apache/mountainsofchristmas/" + "MountainsofChristmas-Bold.ttf"
+    (share/"fonts").install "apache/mountainsofchristmas/" + "MountainsofChristmas-Regular.ttf"
   end
   # No zap stanza required
 

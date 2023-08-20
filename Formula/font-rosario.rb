@@ -3,8 +3,8 @@ class FontRosario < Formula
   desc "Rosario"
   homepage "https://fonts.google.com/specimen/Rosario"
   def install
-    (share/"fonts").install "Rosario-Italic[wght].ttf"
-    (share/"fonts").install "Rosario[wght].ttf"
+    (share/"fonts").install "ofl/rosario/" + "Rosario-Italic[wght].ttf"
+    (share/"fonts").install "ofl/rosario/" + "Rosario[wght].ttf"
   end
   # No zap stanza required
 

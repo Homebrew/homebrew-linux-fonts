@@ -3,15 +3,15 @@ class FontSairaSemiCondensed < Formula
   desc "Saira Semi Condensed"
   homepage "https://fonts.google.com/specimen/Saira+Semi+Condensed"
   def install
-    (share/"fonts").install "SairaSemiCondensed-Black.ttf"
-    (share/"fonts").install "SairaSemiCondensed-Bold.ttf"
-    (share/"fonts").install "SairaSemiCondensed-ExtraBold.ttf"
-    (share/"fonts").install "SairaSemiCondensed-ExtraLight.ttf"
-    (share/"fonts").install "SairaSemiCondensed-Light.ttf"
-    (share/"fonts").install "SairaSemiCondensed-Medium.ttf"
-    (share/"fonts").install "SairaSemiCondensed-Regular.ttf"
-    (share/"fonts").install "SairaSemiCondensed-SemiBold.ttf"
-    (share/"fonts").install "SairaSemiCondensed-Thin.ttf"
+    (share/"fonts").install "ofl/sairasemicondensed/" + "SairaSemiCondensed-Black.ttf"
+    (share/"fonts").install "ofl/sairasemicondensed/" + "SairaSemiCondensed-Bold.ttf"
+    (share/"fonts").install "ofl/sairasemicondensed/" + "SairaSemiCondensed-ExtraBold.ttf"
+    (share/"fonts").install "ofl/sairasemicondensed/" + "SairaSemiCondensed-ExtraLight.ttf"
+    (share/"fonts").install "ofl/sairasemicondensed/" + "SairaSemiCondensed-Light.ttf"
+    (share/"fonts").install "ofl/sairasemicondensed/" + "SairaSemiCondensed-Medium.ttf"
+    (share/"fonts").install "ofl/sairasemicondensed/" + "SairaSemiCondensed-Regular.ttf"
+    (share/"fonts").install "ofl/sairasemicondensed/" + "SairaSemiCondensed-SemiBold.ttf"
+    (share/"fonts").install "ofl/sairasemicondensed/" + "SairaSemiCondensed-Thin.ttf"
   end
   # No zap stanza required
 

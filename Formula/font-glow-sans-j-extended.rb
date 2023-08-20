@@ -5,15 +5,15 @@ class FontGlowSansJExtended < Formula
   desc "Glow Sans J Extended"
   homepage "https://github.com/welai/glow-sans"
   def install
-    (share/"fonts").install "GlowSansJ-Extended-Bold.otf"
-    (share/"fonts").install "GlowSansJ-Extended-Book.otf"
-    (share/"fonts").install "GlowSansJ-Extended-ExtraBold.otf"
-    (share/"fonts").install "GlowSansJ-Extended-ExtraLight.otf"
-    (share/"fonts").install "GlowSansJ-Extended-Heavy.otf"
-    (share/"fonts").install "GlowSansJ-Extended-Light.otf"
-    (share/"fonts").install "GlowSansJ-Extended-Medium.otf"
-    (share/"fonts").install "GlowSansJ-Extended-Regular.otf"
-    (share/"fonts").install "GlowSansJ-Extended-Thin.otf"
+    (share/"fonts").install "ofl/glory/" + "GlowSansJ-Extended-Bold.otf"
+    (share/"fonts").install "ofl/glory/" + "GlowSansJ-Extended-Book.otf"
+    (share/"fonts").install "ofl/glory/" + "GlowSansJ-Extended-ExtraBold.otf"
+    (share/"fonts").install "ofl/glory/" + "GlowSansJ-Extended-ExtraLight.otf"
+    (share/"fonts").install "ofl/glory/" + "GlowSansJ-Extended-Heavy.otf"
+    (share/"fonts").install "ofl/glory/" + "GlowSansJ-Extended-Light.otf"
+    (share/"fonts").install "ofl/glory/" + "GlowSansJ-Extended-Medium.otf"
+    (share/"fonts").install "ofl/glory/" + "GlowSansJ-Extended-Regular.otf"
+    (share/"fonts").install "ofl/glory/" + "GlowSansJ-Extended-Thin.otf"
   end
   # No zap stanza required
 

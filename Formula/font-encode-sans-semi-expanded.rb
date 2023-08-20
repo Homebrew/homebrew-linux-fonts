@@ -3,15 +3,15 @@ class FontEncodeSansSemiExpanded < Formula
   desc "Encode Sans Semi Expanded"
   homepage "https://fonts.google.com/specimen/Encode+Sans+Semi+Expanded"
   def install
-    (share/"fonts").install "EncodeSansSemiExpanded-Black.ttf"
-    (share/"fonts").install "EncodeSansSemiExpanded-Bold.ttf"
-    (share/"fonts").install "EncodeSansSemiExpanded-ExtraBold.ttf"
-    (share/"fonts").install "EncodeSansSemiExpanded-ExtraLight.ttf"
-    (share/"fonts").install "EncodeSansSemiExpanded-Light.ttf"
-    (share/"fonts").install "EncodeSansSemiExpanded-Medium.ttf"
-    (share/"fonts").install "EncodeSansSemiExpanded-Regular.ttf"
-    (share/"fonts").install "EncodeSansSemiExpanded-SemiBold.ttf"
-    (share/"fonts").install "EncodeSansSemiExpanded-Thin.ttf"
+    (share/"fonts").install "ofl/encodesanssemiexpanded/" + "EncodeSansSemiExpanded-Black.ttf"
+    (share/"fonts").install "ofl/encodesanssemiexpanded/" + "EncodeSansSemiExpanded-Bold.ttf"
+    (share/"fonts").install "ofl/encodesanssemiexpanded/" + "EncodeSansSemiExpanded-ExtraBold.ttf"
+    (share/"fonts").install "ofl/encodesanssemiexpanded/" + "EncodeSansSemiExpanded-ExtraLight.ttf"
+    (share/"fonts").install "ofl/encodesanssemiexpanded/" + "EncodeSansSemiExpanded-Light.ttf"
+    (share/"fonts").install "ofl/encodesanssemiexpanded/" + "EncodeSansSemiExpanded-Medium.ttf"
+    (share/"fonts").install "ofl/encodesanssemiexpanded/" + "EncodeSansSemiExpanded-Regular.ttf"
+    (share/"fonts").install "ofl/encodesanssemiexpanded/" + "EncodeSansSemiExpanded-SemiBold.ttf"
+    (share/"fonts").install "ofl/encodesanssemiexpanded/" + "EncodeSansSemiExpanded-Thin.ttf"
   end
   # No zap stanza required
 

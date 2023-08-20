@@ -3,10 +3,10 @@ class FontNoticiaText < Formula
   desc "Noticia Text"
   homepage "https://fonts.google.com/specimen/Noticia+Text"
   def install
-    (share/"fonts").install "NoticiaText-Bold.ttf"
-    (share/"fonts").install "NoticiaText-BoldItalic.ttf"
-    (share/"fonts").install "NoticiaText-Italic.ttf"
-    (share/"fonts").install "NoticiaText-Regular.ttf"
+    (share/"fonts").install "ofl/noticiatext/" + "NoticiaText-Bold.ttf"
+    (share/"fonts").install "ofl/noticiatext/" + "NoticiaText-BoldItalic.ttf"
+    (share/"fonts").install "ofl/noticiatext/" + "NoticiaText-Italic.ttf"
+    (share/"fonts").install "ofl/noticiatext/" + "NoticiaText-Regular.ttf"
   end
   # No zap stanza required
 

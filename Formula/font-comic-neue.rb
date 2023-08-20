@@ -4,12 +4,12 @@ class FontComicNeue < Formula
   desc "Original reinterpretation of the classic, comic sans"
   homepage "https://fonts.google.com/specimen/Comic+Neue"
   def install
-    (share/"fonts").install "ComicNeue-Bold.ttf"
-    (share/"fonts").install "ComicNeue-BoldItalic.ttf"
-    (share/"fonts").install "ComicNeue-Italic.ttf"
-    (share/"fonts").install "ComicNeue-Light.ttf"
-    (share/"fonts").install "ComicNeue-LightItalic.ttf"
-    (share/"fonts").install "ComicNeue-Regular.ttf"
+    (share/"fonts").install "ofl/comicneue/" + "ComicNeue-Bold.ttf"
+    (share/"fonts").install "ofl/comicneue/" + "ComicNeue-BoldItalic.ttf"
+    (share/"fonts").install "ofl/comicneue/" + "ComicNeue-Italic.ttf"
+    (share/"fonts").install "ofl/comicneue/" + "ComicNeue-Light.ttf"
+    (share/"fonts").install "ofl/comicneue/" + "ComicNeue-LightItalic.ttf"
+    (share/"fonts").install "ofl/comicneue/" + "ComicNeue-Regular.ttf"
   end
   # No zap stanza required
 

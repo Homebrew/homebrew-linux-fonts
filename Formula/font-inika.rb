@@ -3,8 +3,8 @@ class FontInika < Formula
   desc "Inika"
   homepage "https://fonts.google.com/specimen/Inika"
   def install
-    (share/"fonts").install "Inika-Bold.ttf"
-    (share/"fonts").install "Inika-Regular.ttf"
+    (share/"fonts").install "ofl/inika/" + "Inika-Bold.ttf"
+    (share/"fonts").install "ofl/inika/" + "Inika-Regular.ttf"
   end
   # No zap stanza required
 

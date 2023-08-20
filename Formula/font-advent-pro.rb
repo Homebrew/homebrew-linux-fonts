@@ -4,8 +4,8 @@ class FontAdventPro < Formula
   desc "Modern font designed for web and print"
   homepage "https://fonts.google.com/specimen/Advent+Pro"
   def install
-    (share/"fonts").install "AdventPro-Italic[wdth,wght].ttf"
-    (share/"fonts").install "AdventPro[wdth,wght].ttf"
+    (share/"fonts").install "ofl/adventpro/" + "AdventPro-Italic[wdth,wght].ttf"
+    (share/"fonts").install "ofl/adventpro/" + "AdventPro[wdth,wght].ttf"
   end
   # No zap stanza required
 

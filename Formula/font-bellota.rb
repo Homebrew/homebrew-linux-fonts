@@ -3,12 +3,12 @@ class FontBellota < Formula
   desc "Bellota"
   homepage "https://fonts.google.com/specimen/Bellota"
   def install
-    (share/"fonts").install "Bellota-Bold.ttf"
-    (share/"fonts").install "Bellota-BoldItalic.ttf"
-    (share/"fonts").install "Bellota-Italic.ttf"
-    (share/"fonts").install "Bellota-Light.ttf"
-    (share/"fonts").install "Bellota-LightItalic.ttf"
-    (share/"fonts").install "Bellota-Regular.ttf"
+    (share/"fonts").install "ofl/bellota/" + "Bellota-Bold.ttf"
+    (share/"fonts").install "ofl/bellota/" + "Bellota-BoldItalic.ttf"
+    (share/"fonts").install "ofl/bellota/" + "Bellota-Italic.ttf"
+    (share/"fonts").install "ofl/bellota/" + "Bellota-Light.ttf"
+    (share/"fonts").install "ofl/bellota/" + "Bellota-LightItalic.ttf"
+    (share/"fonts").install "ofl/bellota/" + "Bellota-Regular.ttf"
   end
   # No zap stanza required
 

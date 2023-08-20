@@ -3,8 +3,8 @@ class FontCuprum < Formula
   desc "Cuprum"
   homepage "https://fonts.google.com/specimen/Cuprum"
   def install
-    (share/"fonts").install "Cuprum-Italic[wght].ttf"
-    (share/"fonts").install "Cuprum[wght].ttf"
+    (share/"fonts").install "ofl/cuprum/" + "Cuprum-Italic[wght].ttf"
+    (share/"fonts").install "ofl/cuprum/" + "Cuprum[wght].ttf"
   end
   # No zap stanza required
 

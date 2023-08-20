@@ -3,8 +3,8 @@ class FontAstloch < Formula
   desc "Astloch"
   homepage "https://fonts.google.com/specimen/Astloch"
   def install
-    (share/"fonts").install "Astloch-Bold.ttf"
-    (share/"fonts").install "Astloch-Regular.ttf"
+    (share/"fonts").install "ofl/astloch/" + "Astloch-Bold.ttf"
+    (share/"fonts").install "ofl/astloch/" + "Astloch-Regular.ttf"
   end
   # No zap stanza required
 

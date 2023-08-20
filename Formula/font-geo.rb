@@ -3,8 +3,8 @@ class FontGeo < Formula
   desc "Geo"
   homepage "https://fonts.google.com/specimen/Geo"
   def install
-    (share/"fonts").install "Geo-Oblique.ttf"
-    (share/"fonts").install "Geo-Regular.ttf"
+    (share/"fonts").install "ofl/geo/" + "Geo-Oblique.ttf"
+    (share/"fonts").install "ofl/geo/" + "Geo-Regular.ttf"
   end
   # No zap stanza required
 

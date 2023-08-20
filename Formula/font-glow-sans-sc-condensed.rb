@@ -5,15 +5,15 @@ class FontGlowSansScCondensed < Formula
   desc "Glow Sans SC Condensed"
   homepage "https://github.com/welai/glow-sans"
   def install
-    (share/"fonts").install "GlowSansSC-Condensed-Bold.otf"
-    (share/"fonts").install "GlowSansSC-Condensed-Book.otf"
-    (share/"fonts").install "GlowSansSC-Condensed-ExtraBold.otf"
-    (share/"fonts").install "GlowSansSC-Condensed-ExtraLight.otf"
-    (share/"fonts").install "GlowSansSC-Condensed-Heavy.otf"
-    (share/"fonts").install "GlowSansSC-Condensed-Light.otf"
-    (share/"fonts").install "GlowSansSC-Condensed-Medium.otf"
-    (share/"fonts").install "GlowSansSC-Condensed-Regular.otf"
-    (share/"fonts").install "GlowSansSC-Condensed-Thin.otf"
+    (share/"fonts").install "ofl/glory/" + "GlowSansSC-Condensed-Bold.otf"
+    (share/"fonts").install "ofl/glory/" + "GlowSansSC-Condensed-Book.otf"
+    (share/"fonts").install "ofl/glory/" + "GlowSansSC-Condensed-ExtraBold.otf"
+    (share/"fonts").install "ofl/glory/" + "GlowSansSC-Condensed-ExtraLight.otf"
+    (share/"fonts").install "ofl/glory/" + "GlowSansSC-Condensed-Heavy.otf"
+    (share/"fonts").install "ofl/glory/" + "GlowSansSC-Condensed-Light.otf"
+    (share/"fonts").install "ofl/glory/" + "GlowSansSC-Condensed-Medium.otf"
+    (share/"fonts").install "ofl/glory/" + "GlowSansSC-Condensed-Regular.otf"
+    (share/"fonts").install "ofl/glory/" + "GlowSansSC-Condensed-Thin.otf"
   end
   # No zap stanza required
 

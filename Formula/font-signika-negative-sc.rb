@@ -4,10 +4,10 @@ class FontSignikaNegativeSc < Formula
   desc "Alternative version of the Signika SC font"
   homepage "https://fonts.google.com/specimen/Signika+Negative"
   def install
-    (share/"fonts").install "SignikaNegativeSC-Bold.ttf"
-    (share/"fonts").install "SignikaNegativeSC-Light.ttf"
-    (share/"fonts").install "SignikaNegativeSC-Regular.ttf"
-    (share/"fonts").install "SignikaNegativeSC-SemiBold.ttf"
+    (share/"fonts").install "ofl/signikanegativesc/" + "SignikaNegativeSC-Bold.ttf"
+    (share/"fonts").install "ofl/signikanegativesc/" + "SignikaNegativeSC-Light.ttf"
+    (share/"fonts").install "ofl/signikanegativesc/" + "SignikaNegativeSC-Regular.ttf"
+    (share/"fonts").install "ofl/signikanegativesc/" + "SignikaNegativeSC-SemiBold.ttf"
   end
   # No zap stanza required
 

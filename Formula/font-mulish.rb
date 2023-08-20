@@ -4,8 +4,8 @@ class FontMulish < Formula
   desc "Minimalist sans serif typeface, designed for both display and text typography"
   homepage "https://fonts.google.com/specimen/Mulish"
   def install
-    (share/"fonts").install "Mulish-Italic[wght].ttf"
-    (share/"fonts").install "Mulish[wght].ttf"
+    (share/"fonts").install "ofl/mulish/" + "Mulish-Italic[wght].ttf"
+    (share/"fonts").install "ofl/mulish/" + "Mulish[wght].ttf"
   end
   # No zap stanza required
 

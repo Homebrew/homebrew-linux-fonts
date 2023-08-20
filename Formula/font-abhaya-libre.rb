@@ -3,11 +3,11 @@ class FontAbhayaLibre < Formula
   desc "Abhaya Libre"
   homepage "https://fonts.google.com/specimen/Abhaya+Libre"
   def install
-    (share/"fonts").install "AbhayaLibre-Bold.ttf"
-    (share/"fonts").install "AbhayaLibre-ExtraBold.ttf"
-    (share/"fonts").install "AbhayaLibre-Medium.ttf"
-    (share/"fonts").install "AbhayaLibre-Regular.ttf"
-    (share/"fonts").install "AbhayaLibre-SemiBold.ttf"
+    (share/"fonts").install "ofl/abhayalibre/" + "AbhayaLibre-Bold.ttf"
+    (share/"fonts").install "ofl/abhayalibre/" + "AbhayaLibre-ExtraBold.ttf"
+    (share/"fonts").install "ofl/abhayalibre/" + "AbhayaLibre-Medium.ttf"
+    (share/"fonts").install "ofl/abhayalibre/" + "AbhayaLibre-Regular.ttf"
+    (share/"fonts").install "ofl/abhayalibre/" + "AbhayaLibre-SemiBold.ttf"
   end
   # No zap stanza required
 

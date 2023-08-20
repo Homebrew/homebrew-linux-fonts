@@ -3,13 +3,13 @@ class FontMPlus1p < Formula
   desc "M PLUS 1p"
   homepage "https://fonts.google.com/specimen/M+PLUS+1p"
   def install
-    (share/"fonts").install "MPLUS1p-Black.ttf"
-    (share/"fonts").install "MPLUS1p-Bold.ttf"
-    (share/"fonts").install "MPLUS1p-ExtraBold.ttf"
-    (share/"fonts").install "MPLUS1p-Light.ttf"
-    (share/"fonts").install "MPLUS1p-Medium.ttf"
-    (share/"fonts").install "MPLUS1p-Regular.ttf"
-    (share/"fonts").install "MPLUS1p-Thin.ttf"
+    (share/"fonts").install "ofl/mplus1p/" + "MPLUS1p-Black.ttf"
+    (share/"fonts").install "ofl/mplus1p/" + "MPLUS1p-Bold.ttf"
+    (share/"fonts").install "ofl/mplus1p/" + "MPLUS1p-ExtraBold.ttf"
+    (share/"fonts").install "ofl/mplus1p/" + "MPLUS1p-Light.ttf"
+    (share/"fonts").install "ofl/mplus1p/" + "MPLUS1p-Medium.ttf"
+    (share/"fonts").install "ofl/mplus1p/" + "MPLUS1p-Regular.ttf"
+    (share/"fonts").install "ofl/mplus1p/" + "MPLUS1p-Thin.ttf"
   end
   # No zap stanza required
 

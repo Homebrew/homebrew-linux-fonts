@@ -3,8 +3,8 @@ class FontPadauk < Formula
   desc "Padauk"
   homepage "https://fonts.google.com/specimen/Padauk"
   def install
-    (share/"fonts").install "Padauk-Bold.ttf"
-    (share/"fonts").install "Padauk-Regular.ttf"
+    (share/"fonts").install "ofl/padauk/" + "Padauk-Bold.ttf"
+    (share/"fonts").install "ofl/padauk/" + "Padauk-Regular.ttf"
   end
   # No zap stanza required
 

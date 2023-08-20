@@ -3,8 +3,8 @@ class FontChauPhilomeneOne < Formula
   desc "Chau Philomene One"
   homepage "https://fonts.google.com/specimen/Chau+Philomene+One"
   def install
-    (share/"fonts").install "ChauPhilomeneOne-Italic.ttf"
-    (share/"fonts").install "ChauPhilomeneOne-Regular.ttf"
+    (share/"fonts").install "ofl/chauphilomeneone/" + "ChauPhilomeneOne-Italic.ttf"
+    (share/"fonts").install "ofl/chauphilomeneone/" + "ChauPhilomeneOne-Regular.ttf"
   end
   # No zap stanza required
 

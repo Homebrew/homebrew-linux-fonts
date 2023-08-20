@@ -3,15 +3,15 @@ class FontEncodeSansCondensed < Formula
   desc "Encode Sans Condensed"
   homepage "https://fonts.google.com/specimen/Encode+Sans+Condensed"
   def install
-    (share/"fonts").install "EncodeSansCondensed-Black.ttf"
-    (share/"fonts").install "EncodeSansCondensed-Bold.ttf"
-    (share/"fonts").install "EncodeSansCondensed-ExtraBold.ttf"
-    (share/"fonts").install "EncodeSansCondensed-ExtraLight.ttf"
-    (share/"fonts").install "EncodeSansCondensed-Light.ttf"
-    (share/"fonts").install "EncodeSansCondensed-Medium.ttf"
-    (share/"fonts").install "EncodeSansCondensed-Regular.ttf"
-    (share/"fonts").install "EncodeSansCondensed-SemiBold.ttf"
-    (share/"fonts").install "EncodeSansCondensed-Thin.ttf"
+    (share/"fonts").install "ofl/encodesanscondensed/" + "EncodeSansCondensed-Black.ttf"
+    (share/"fonts").install "ofl/encodesanscondensed/" + "EncodeSansCondensed-Bold.ttf"
+    (share/"fonts").install "ofl/encodesanscondensed/" + "EncodeSansCondensed-ExtraBold.ttf"
+    (share/"fonts").install "ofl/encodesanscondensed/" + "EncodeSansCondensed-ExtraLight.ttf"
+    (share/"fonts").install "ofl/encodesanscondensed/" + "EncodeSansCondensed-Light.ttf"
+    (share/"fonts").install "ofl/encodesanscondensed/" + "EncodeSansCondensed-Medium.ttf"
+    (share/"fonts").install "ofl/encodesanscondensed/" + "EncodeSansCondensed-Regular.ttf"
+    (share/"fonts").install "ofl/encodesanscondensed/" + "EncodeSansCondensed-SemiBold.ttf"
+    (share/"fonts").install "ofl/encodesanscondensed/" + "EncodeSansCondensed-Thin.ttf"
   end
   # No zap stanza required
 

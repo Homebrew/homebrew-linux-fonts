@@ -3,8 +3,8 @@ class FontBaskervville < Formula
   desc "Baskervville"
   homepage "https://fonts.google.com/specimen/Baskervville"
   def install
-    (share/"fonts").install "Baskervville-Italic.ttf"
-    (share/"fonts").install "Baskervville-Regular.ttf"
+    (share/"fonts").install "ofl/baskervville/" + "Baskervville-Italic.ttf"
+    (share/"fonts").install "ofl/baskervville/" + "Baskervville-Regular.ttf"
   end
   # No zap stanza required
 

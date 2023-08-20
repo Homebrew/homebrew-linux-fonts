@@ -3,11 +3,11 @@ class FontNamdhinggo < Formula
   desc "Namdhinggo"
   homepage "https://github.com/silnrsi/font-namdhinggo"
   def install
-    (share/"fonts").install "Namdhinggo-Bold.ttf"
-    (share/"fonts").install "Namdhinggo-ExtraBold.ttf"
-    (share/"fonts").install "Namdhinggo-Medium.ttf"
-    (share/"fonts").install "Namdhinggo-Regular.ttf"
-    (share/"fonts").install "Namdhinggo-SemiBold.ttf"
+    (share/"fonts").install "ofl/namdhinggo/" + "Namdhinggo-Bold.ttf"
+    (share/"fonts").install "ofl/namdhinggo/" + "Namdhinggo-ExtraBold.ttf"
+    (share/"fonts").install "ofl/namdhinggo/" + "Namdhinggo-Medium.ttf"
+    (share/"fonts").install "ofl/namdhinggo/" + "Namdhinggo-Regular.ttf"
+    (share/"fonts").install "ofl/namdhinggo/" + "Namdhinggo-SemiBold.ttf"
   end
   # No zap stanza required
 

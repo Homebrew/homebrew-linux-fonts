@@ -4,8 +4,8 @@ class FontTiroDevanagariMarathi < Formula
   desc "Broader proportions, generous counters, and strong diagonal strokes"
   homepage "https://fonts.google.com/specimen/Tiro+Devanagari+Marathi"
   def install
-    (share/"fonts").install "TiroDevanagariMarathi-Italic.ttf"
-    (share/"fonts").install "TiroDevanagariMarathi-Regular.ttf"
+    (share/"fonts").install "ofl/tirodevanagarimarathi/" + "TiroDevanagariMarathi-Italic.ttf"
+    (share/"fonts").install "ofl/tirodevanagarimarathi/" + "TiroDevanagariMarathi-Regular.ttf"
   end
   # No zap stanza required
 

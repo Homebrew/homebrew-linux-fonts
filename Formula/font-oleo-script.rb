@@ -3,8 +3,8 @@ class FontOleoScript < Formula
   desc "Oleo Script"
   homepage "https://fonts.google.com/specimen/Oleo+Script"
   def install
-    (share/"fonts").install "OleoScript-Bold.ttf"
-    (share/"fonts").install "OleoScript-Regular.ttf"
+    (share/"fonts").install "ofl/oleoscript/" + "OleoScript-Bold.ttf"
+    (share/"fonts").install "ofl/oleoscript/" + "OleoScript-Regular.ttf"
   end
   # No zap stanza required
 

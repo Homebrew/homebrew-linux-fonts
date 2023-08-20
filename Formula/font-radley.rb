@@ -3,8 +3,8 @@ class FontRadley < Formula
   desc "Radley"
   homepage "https://fonts.google.com/specimen/Radley"
   def install
-    (share/"fonts").install "Radley-Italic.ttf"
-    (share/"fonts").install "Radley-Regular.ttf"
+    (share/"fonts").install "ofl/radley/" + "Radley-Italic.ttf"
+    (share/"fonts").install "ofl/radley/" + "Radley-Regular.ttf"
   end
   # No zap stanza required
 

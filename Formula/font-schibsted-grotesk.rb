@@ -4,8 +4,8 @@ class FontSchibstedGrotesk < Formula
   desc "Digital-first font family crafted for user interfaces"
   homepage "https://fonts.google.com/specimen/Schibsted+Grotesk"
   def install
-    (share/"fonts").install "SchibstedGrotesk-Italic[wght].ttf"
-    (share/"fonts").install "SchibstedGrotesk[wght].ttf"
+    (share/"fonts").install "ofl/schibstedgrotesk/" + "SchibstedGrotesk-Italic[wght].ttf"
+    (share/"fonts").install "ofl/schibstedgrotesk/" + "SchibstedGrotesk[wght].ttf"
   end
   # No zap stanza required
 

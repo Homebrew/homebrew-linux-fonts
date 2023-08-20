@@ -3,11 +3,11 @@ class FontSeoulNamsanCondensed < Formula
   desc "Seoul Namsan Condensed"
   homepage "http://english.seoul.go.kr/seoul-views/seoul-symbols/5-fonts/"
   def install
-    (share/"fonts").install "SeoulNamsanCondensed-Black.ttf"
-    (share/"fonts").install "SeoulNamsanCondensed-Bold.ttf"
-    (share/"fonts").install "SeoulNamsanCondensed-ExtraBold.ttf"
-    (share/"fonts").install "SeoulNamsanCondensed-Light.ttf"
-    (share/"fonts").install "SeoulNamsanCondensed-Medium.ttf"
+    (share/"fonts").install "ofl/seoulnamsancondensed/" + "SeoulNamsanCondensed-Black.ttf"
+    (share/"fonts").install "ofl/seoulnamsancondensed/" + "SeoulNamsanCondensed-Bold.ttf"
+    (share/"fonts").install "ofl/seoulnamsancondensed/" + "SeoulNamsanCondensed-ExtraBold.ttf"
+    (share/"fonts").install "ofl/seoulnamsancondensed/" + "SeoulNamsanCondensed-Light.ttf"
+    (share/"fonts").install "ofl/seoulnamsancondensed/" + "SeoulNamsanCondensed-Medium.ttf"
   end
   # No zap stanza required
 

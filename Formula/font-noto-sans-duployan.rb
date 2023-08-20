@@ -3,8 +3,8 @@ class FontNotoSansDuployan < Formula
   desc "Noto Sans Duployan"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Duployan"
   def install
-    (share/"fonts").install "NotoSansDuployan-Bold.ttf"
-    (share/"fonts").install "NotoSansDuployan-Regular.ttf"
+    (share/"fonts").install "ofl/notosansduployan/" + "NotoSansDuployan-Bold.ttf"
+    (share/"fonts").install "ofl/notosansduployan/" + "NotoSansDuployan-Regular.ttf"
   end
   # No zap stanza required
 

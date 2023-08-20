@@ -3,8 +3,8 @@ class FontRedHatText < Formula
   desc "Red Hat Text"
   homepage "https://fonts.google.com/specimen/Red+Hat+Text"
   def install
-    (share/"fonts").install "RedHatText-Italic[wght].ttf"
-    (share/"fonts").install "RedHatText[wght].ttf"
+    (share/"fonts").install "ofl/redhattext/" + "RedHatText-Italic[wght].ttf"
+    (share/"fonts").install "ofl/redhattext/" + "RedHatText[wght].ttf"
   end
   # No zap stanza required
 

@@ -3,14 +3,14 @@ class FontSansita < Formula
   desc "Sansita"
   homepage "https://fonts.google.com/specimen/Sansita"
   def install
-    (share/"fonts").install "Sansita-Black.ttf"
-    (share/"fonts").install "Sansita-BlackItalic.ttf"
-    (share/"fonts").install "Sansita-Bold.ttf"
-    (share/"fonts").install "Sansita-BoldItalic.ttf"
-    (share/"fonts").install "Sansita-ExtraBold.ttf"
-    (share/"fonts").install "Sansita-ExtraBoldItalic.ttf"
-    (share/"fonts").install "Sansita-Italic.ttf"
-    (share/"fonts").install "Sansita-Regular.ttf"
+    (share/"fonts").install "ofl/sansita/" + "Sansita-Black.ttf"
+    (share/"fonts").install "ofl/sansita/" + "Sansita-BlackItalic.ttf"
+    (share/"fonts").install "ofl/sansita/" + "Sansita-Bold.ttf"
+    (share/"fonts").install "ofl/sansita/" + "Sansita-BoldItalic.ttf"
+    (share/"fonts").install "ofl/sansita/" + "Sansita-ExtraBold.ttf"
+    (share/"fonts").install "ofl/sansita/" + "Sansita-ExtraBoldItalic.ttf"
+    (share/"fonts").install "ofl/sansita/" + "Sansita-Italic.ttf"
+    (share/"fonts").install "ofl/sansita/" + "Sansita-Regular.ttf"
   end
   # No zap stanza required
 

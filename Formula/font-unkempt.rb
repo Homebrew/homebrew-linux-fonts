@@ -3,8 +3,8 @@ class FontUnkempt < Formula
   desc "Unkempt"
   homepage "https://fonts.google.com/specimen/Unkempt"
   def install
-    (share/"fonts").install "Unkempt-Bold.ttf"
-    (share/"fonts").install "Unkempt-Regular.ttf"
+    (share/"fonts").install "apache/unkempt/" + "Unkempt-Bold.ttf"
+    (share/"fonts").install "apache/unkempt/" + "Unkempt-Regular.ttf"
   end
   # No zap stanza required
 

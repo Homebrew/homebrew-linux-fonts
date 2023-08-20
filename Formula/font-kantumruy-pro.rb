@@ -4,8 +4,8 @@ class FontKantumruyPro < Formula
   desc "From work sans, with modified width and weight"
   homepage "https://fonts.google.com/specimen/Kantumruy+Pro"
   def install
-    (share/"fonts").install "KantumruyPro-Italic[wght].ttf"
-    (share/"fonts").install "KantumruyPro[wght].ttf"
+    (share/"fonts").install "ofl/kantumruypro/" + "KantumruyPro-Italic[wght].ttf"
+    (share/"fonts").install "ofl/kantumruypro/" + "KantumruyPro[wght].ttf"
   end
   # No zap stanza required
 

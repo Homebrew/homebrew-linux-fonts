@@ -3,7 +3,7 @@ class FontInconsolataGForPowerline < Formula
   desc "Inconsolata-g for Powerline"
   homepage "https://github.com/powerline/fonts/tree/master/Inconsolata-g"
   def install
-    (share/"fonts").install "Inconsolata-g for Powerline.otf"
+    (share/"fonts").install "Inconsolata-g/" + "Inconsolata-g for Powerline.otf"
   end
   # No zap stanza required
 

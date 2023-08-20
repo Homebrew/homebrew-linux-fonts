@@ -3,10 +3,10 @@ class FontSimonetta < Formula
   desc "Simonetta"
   homepage "https://fonts.google.com/specimen/Simonetta"
   def install
-    (share/"fonts").install "Simonetta-Black.ttf"
-    (share/"fonts").install "Simonetta-BlackItalic.ttf"
-    (share/"fonts").install "Simonetta-Italic.ttf"
-    (share/"fonts").install "Simonetta-Regular.ttf"
+    (share/"fonts").install "ofl/simonetta/" + "Simonetta-Black.ttf"
+    (share/"fonts").install "ofl/simonetta/" + "Simonetta-BlackItalic.ttf"
+    (share/"fonts").install "ofl/simonetta/" + "Simonetta-Italic.ttf"
+    (share/"fonts").install "ofl/simonetta/" + "Simonetta-Regular.ttf"
   end
   # No zap stanza required
 

@@ -3,8 +3,8 @@ class FontFruktur < Formula
   desc "Fruktur"
   homepage "https://fonts.google.com/specimen/Fruktur"
   def install
-    (share/"fonts").install "Fruktur-Italic.ttf"
-    (share/"fonts").install "Fruktur-Regular.ttf"
+    (share/"fonts").install "ofl/fruktur/" + "Fruktur-Italic.ttf"
+    (share/"fonts").install "ofl/fruktur/" + "Fruktur-Regular.ttf"
   end
   # No zap stanza required
 

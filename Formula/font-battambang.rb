@@ -3,11 +3,11 @@ class FontBattambang < Formula
   desc "Battambang"
   homepage "https://fonts.google.com/specimen/Battambang"
   def install
-    (share/"fonts").install "Battambang-Black.ttf"
-    (share/"fonts").install "Battambang-Bold.ttf"
-    (share/"fonts").install "Battambang-Light.ttf"
-    (share/"fonts").install "Battambang-Regular.ttf"
-    (share/"fonts").install "Battambang-Thin.ttf"
+    (share/"fonts").install "ofl/battambang/" + "Battambang-Black.ttf"
+    (share/"fonts").install "ofl/battambang/" + "Battambang-Bold.ttf"
+    (share/"fonts").install "ofl/battambang/" + "Battambang-Light.ttf"
+    (share/"fonts").install "ofl/battambang/" + "Battambang-Regular.ttf"
+    (share/"fonts").install "ofl/battambang/" + "Battambang-Thin.ttf"
   end
   # No zap stanza required
 

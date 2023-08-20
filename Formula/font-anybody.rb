@@ -4,8 +4,8 @@ class FontAnybody < Formula
   desc "10 degrees, noticable but subtle"
   homepage "https://fonts.google.com/specimen/Anybody"
   def install
-    (share/"fonts").install "Anybody-Italic[wdth,wght].ttf"
-    (share/"fonts").install "Anybody[wdth,wght].ttf"
+    (share/"fonts").install "ofl/anybody/" + "Anybody-Italic[wdth,wght].ttf"
+    (share/"fonts").install "ofl/anybody/" + "Anybody[wdth,wght].ttf"
   end
   # No zap stanza required
 

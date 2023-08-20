@@ -4,8 +4,8 @@ class FontCastoro < Formula
   desc "Named for the north american beaver, castor canadensis"
   homepage "https://fonts.google.com/specimen/Castoro"
   def install
-    (share/"fonts").install "Castoro-Italic.ttf"
-    (share/"fonts").install "Castoro-Regular.ttf"
+    (share/"fonts").install "ofl/castoro/" + "Castoro-Italic.ttf"
+    (share/"fonts").install "ofl/castoro/" + "Castoro-Regular.ttf"
   end
   # No zap stanza required
 

@@ -3,8 +3,8 @@ class FontSura < Formula
   desc "Sura"
   homepage "https://fonts.google.com/specimen/Sura"
   def install
-    (share/"fonts").install "Sura-Bold.ttf"
-    (share/"fonts").install "Sura-Regular.ttf"
+    (share/"fonts").install "ofl/sura/" + "Sura-Bold.ttf"
+    (share/"fonts").install "ofl/sura/" + "Sura-Regular.ttf"
   end
   # No zap stanza required
 

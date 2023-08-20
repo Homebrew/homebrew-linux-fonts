@@ -4,8 +4,8 @@ class FontChivoMono < Formula
   desc "Variable font ranging from thin to black with matching italics"
   homepage "https://fonts.google.com/specimen/Chivo+Mono"
   def install
-    (share/"fonts").install "ChivoMono-Italic[wght].ttf"
-    (share/"fonts").install "ChivoMono[wght].ttf"
+    (share/"fonts").install "ofl/chivomono/" + "ChivoMono-Italic[wght].ttf"
+    (share/"fonts").install "ofl/chivomono/" + "ChivoMono[wght].ttf"
   end
   # No zap stanza required
 

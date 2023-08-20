@@ -3,9 +3,9 @@ class FontRedactedScript < Formula
   desc "Redacted Script"
   homepage "https://fonts.google.com/specimen/Redacted+Script"
   def install
-    (share/"fonts").install "RedactedScript-Bold.ttf"
-    (share/"fonts").install "RedactedScript-Light.ttf"
-    (share/"fonts").install "RedactedScript-Regular.ttf"
+    (share/"fonts").install "ofl/redactedscript/" + "RedactedScript-Bold.ttf"
+    (share/"fonts").install "ofl/redactedscript/" + "RedactedScript-Light.ttf"
+    (share/"fonts").install "ofl/redactedscript/" + "RedactedScript-Regular.ttf"
   end
   # No zap stanza required
 

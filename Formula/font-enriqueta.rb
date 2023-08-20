@@ -3,10 +3,10 @@ class FontEnriqueta < Formula
   desc "Enriqueta"
   homepage "https://fonts.google.com/specimen/Enriqueta"
   def install
-    (share/"fonts").install "Enriqueta-Bold.ttf"
-    (share/"fonts").install "Enriqueta-Medium.ttf"
-    (share/"fonts").install "Enriqueta-Regular.ttf"
-    (share/"fonts").install "Enriqueta-SemiBold.ttf"
+    (share/"fonts").install "ofl/enriqueta/" + "Enriqueta-Bold.ttf"
+    (share/"fonts").install "ofl/enriqueta/" + "Enriqueta-Medium.ttf"
+    (share/"fonts").install "ofl/enriqueta/" + "Enriqueta-Regular.ttf"
+    (share/"fonts").install "ofl/enriqueta/" + "Enriqueta-SemiBold.ttf"
   end
   # No zap stanza required
 

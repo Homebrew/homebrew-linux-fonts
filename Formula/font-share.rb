@@ -3,10 +3,10 @@ class FontShare < Formula
   desc "Share"
   homepage "https://fonts.google.com/specimen/Share"
   def install
-    (share/"fonts").install "Share-Bold.ttf"
-    (share/"fonts").install "Share-BoldItalic.ttf"
-    (share/"fonts").install "Share-Italic.ttf"
-    (share/"fonts").install "Share-Regular.ttf"
+    (share/"fonts").install "ofl/share/" + "Share-Bold.ttf"
+    (share/"fonts").install "ofl/share/" + "Share-BoldItalic.ttf"
+    (share/"fonts").install "ofl/share/" + "Share-Italic.ttf"
+    (share/"fonts").install "ofl/share/" + "Share-Regular.ttf"
   end
   # No zap stanza required
 

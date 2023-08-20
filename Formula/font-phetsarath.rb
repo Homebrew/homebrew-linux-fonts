@@ -3,8 +3,8 @@ class FontPhetsarath < Formula
   desc "Phetsarath"
   homepage "https://fonts.google.com/earlyaccess"
   def install
-    (share/"fonts").install "Phetsarath-Bold.ttf"
-    (share/"fonts").install "Phetsarath-Regular.ttf"
+    (share/"fonts").install "ofl/phetsarath/" + "Phetsarath-Bold.ttf"
+    (share/"fonts").install "ofl/phetsarath/" + "Phetsarath-Regular.ttf"
   end
   # No zap stanza required
 

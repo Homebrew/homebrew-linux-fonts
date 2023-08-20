@@ -3,10 +3,10 @@ class FontMarvel < Formula
   desc "Marvel"
   homepage "https://fonts.google.com/specimen/Marvel"
   def install
-    (share/"fonts").install "Marvel-Bold.ttf"
-    (share/"fonts").install "Marvel-BoldItalic.ttf"
-    (share/"fonts").install "Marvel-Italic.ttf"
-    (share/"fonts").install "Marvel-Regular.ttf"
+    (share/"fonts").install "ofl/marvel/" + "Marvel-Bold.ttf"
+    (share/"fonts").install "ofl/marvel/" + "Marvel-BoldItalic.ttf"
+    (share/"fonts").install "ofl/marvel/" + "Marvel-Italic.ttf"
+    (share/"fonts").install "ofl/marvel/" + "Marvel-Regular.ttf"
   end
   # No zap stanza required
 

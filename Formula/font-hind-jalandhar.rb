@@ -3,11 +3,11 @@ class FontHindJalandhar < Formula
   desc "Hind Jalandhar"
   homepage "https://github.com/itfoundry/hind-jalandhar"
   def install
-    (share/"fonts").install "HindJalandhar-Bold.ttf"
-    (share/"fonts").install "HindJalandhar-Light.ttf"
-    (share/"fonts").install "HindJalandhar-Medium.ttf"
-    (share/"fonts").install "HindJalandhar-Regular.ttf"
-    (share/"fonts").install "HindJalandhar-SemiBold.ttf"
+    (share/"fonts").install "ofl/hindjalandhar/" + "HindJalandhar-Bold.ttf"
+    (share/"fonts").install "ofl/hindjalandhar/" + "HindJalandhar-Light.ttf"
+    (share/"fonts").install "ofl/hindjalandhar/" + "HindJalandhar-Medium.ttf"
+    (share/"fonts").install "ofl/hindjalandhar/" + "HindJalandhar-Regular.ttf"
+    (share/"fonts").install "ofl/hindjalandhar/" + "HindJalandhar-SemiBold.ttf"
   end
   # No zap stanza required
 

@@ -3,10 +3,10 @@ class FontMirza < Formula
   desc "Mirza"
   homepage "https://fonts.google.com/specimen/Mirza"
   def install
-    (share/"fonts").install "Mirza-Bold.ttf"
-    (share/"fonts").install "Mirza-Medium.ttf"
-    (share/"fonts").install "Mirza-Regular.ttf"
-    (share/"fonts").install "Mirza-SemiBold.ttf"
+    (share/"fonts").install "ofl/mirza/" + "Mirza-Bold.ttf"
+    (share/"fonts").install "ofl/mirza/" + "Mirza-Medium.ttf"
+    (share/"fonts").install "ofl/mirza/" + "Mirza-Regular.ttf"
+    (share/"fonts").install "ofl/mirza/" + "Mirza-SemiBold.ttf"
   end
   # No zap stanza required
 

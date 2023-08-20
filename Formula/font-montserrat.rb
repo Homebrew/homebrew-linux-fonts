@@ -3,8 +3,8 @@ class FontMontserrat < Formula
   desc "Montserrat"
   homepage "https://fonts.google.com/specimen/Montserrat"
   def install
-    (share/"fonts").install "Montserrat-Italic[wght].ttf"
-    (share/"fonts").install "Montserrat[wght].ttf"
+    (share/"fonts").install "ofl/montserrat/" + "Montserrat-Italic[wght].ttf"
+    (share/"fonts").install "ofl/montserrat/" + "Montserrat[wght].ttf"
   end
   # No zap stanza required
 

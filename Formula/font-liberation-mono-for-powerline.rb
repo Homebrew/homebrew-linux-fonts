@@ -3,10 +3,10 @@ class FontLiberationMonoForPowerline < Formula
   desc "Literation Mono for Powerline"
   homepage "https://github.com/powerline/fonts/tree/master/LiberationMono"
   def install
-    (share/"fonts").install "Literation Mono Powerline Bold Italic.ttf"
-    (share/"fonts").install "Literation Mono Powerline Bold.ttf"
-    (share/"fonts").install "Literation Mono Powerline Italic.ttf"
-    (share/"fonts").install "Literation Mono Powerline.ttf"
+    (share/"fonts").install "LiberationMono/" + "Literation Mono Powerline Bold Italic.ttf"
+    (share/"fonts").install "LiberationMono/" + "Literation Mono Powerline Bold.ttf"
+    (share/"fonts").install "LiberationMono/" + "Literation Mono Powerline Italic.ttf"
+    (share/"fonts").install "LiberationMono/" + "Literation Mono Powerline.ttf"
   end
   # No zap stanza required
 

@@ -3,8 +3,8 @@ class FontSofiaSansSemiCondensed < Formula
   desc "Sofia Sans Semi Condensed"
   homepage "https://fonts.google.com/specimen/Sofia+Sans+Semi+Condensed"
   def install
-    (share/"fonts").install "SofiaSansSemiCondensed-Italic[wght].ttf"
-    (share/"fonts").install "SofiaSansSemiCondensed[wght].ttf"
+    (share/"fonts").install "ofl/sofiasanssemicondensed/" + "SofiaSansSemiCondensed-Italic[wght].ttf"
+    (share/"fonts").install "ofl/sofiasanssemicondensed/" + "SofiaSansSemiCondensed[wght].ttf"
   end
   # No zap stanza required
 

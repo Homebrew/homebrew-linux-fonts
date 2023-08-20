@@ -3,8 +3,8 @@ class FontBrawler < Formula
   desc "Brawler"
   homepage "https://fonts.google.com/specimen/Brawler"
   def install
-    (share/"fonts").install "Brawler-Bold.ttf"
-    (share/"fonts").install "Brawler-Regular.ttf"
+    (share/"fonts").install "ofl/brawler/" + "Brawler-Bold.ttf"
+    (share/"fonts").install "ofl/brawler/" + "Brawler-Regular.ttf"
   end
   # No zap stanza required
 

@@ -3,10 +3,10 @@ class FontTinos < Formula
   desc "Tinos"
   homepage "https://fonts.google.com/specimen/Tinos"
   def install
-    (share/"fonts").install "Tinos-Bold.ttf"
-    (share/"fonts").install "Tinos-BoldItalic.ttf"
-    (share/"fonts").install "Tinos-Italic.ttf"
-    (share/"fonts").install "Tinos-Regular.ttf"
+    (share/"fonts").install "apache/tinos/" + "Tinos-Bold.ttf"
+    (share/"fonts").install "apache/tinos/" + "Tinos-BoldItalic.ttf"
+    (share/"fonts").install "apache/tinos/" + "Tinos-Italic.ttf"
+    (share/"fonts").install "apache/tinos/" + "Tinos-Regular.ttf"
   end
   # No zap stanza required
 

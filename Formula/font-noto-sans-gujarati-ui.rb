@@ -3,15 +3,15 @@ class FontNotoSansGujaratiUi < Formula
   desc "Noto Sans Gujarati UI"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Gujarati"
   def install
-    (share/"fonts").install "NotoSansGujaratiUI-Black.ttf"
-    (share/"fonts").install "NotoSansGujaratiUI-Bold.ttf"
-    (share/"fonts").install "NotoSansGujaratiUI-ExtraBold.ttf"
-    (share/"fonts").install "NotoSansGujaratiUI-ExtraLight.ttf"
-    (share/"fonts").install "NotoSansGujaratiUI-Light.ttf"
-    (share/"fonts").install "NotoSansGujaratiUI-Medium.ttf"
-    (share/"fonts").install "NotoSansGujaratiUI-Regular.ttf"
-    (share/"fonts").install "NotoSansGujaratiUI-SemiBold.ttf"
-    (share/"fonts").install "NotoSansGujaratiUI-Thin.ttf"
+    (share/"fonts").install "ofl/notosansgujaratiui/" + "NotoSansGujaratiUI-Black.ttf"
+    (share/"fonts").install "ofl/notosansgujaratiui/" + "NotoSansGujaratiUI-Bold.ttf"
+    (share/"fonts").install "ofl/notosansgujaratiui/" + "NotoSansGujaratiUI-ExtraBold.ttf"
+    (share/"fonts").install "ofl/notosansgujaratiui/" + "NotoSansGujaratiUI-ExtraLight.ttf"
+    (share/"fonts").install "ofl/notosansgujaratiui/" + "NotoSansGujaratiUI-Light.ttf"
+    (share/"fonts").install "ofl/notosansgujaratiui/" + "NotoSansGujaratiUI-Medium.ttf"
+    (share/"fonts").install "ofl/notosansgujaratiui/" + "NotoSansGujaratiUI-Regular.ttf"
+    (share/"fonts").install "ofl/notosansgujaratiui/" + "NotoSansGujaratiUI-SemiBold.ttf"
+    (share/"fonts").install "ofl/notosansgujaratiui/" + "NotoSansGujaratiUI-Thin.ttf"
   end
   # No zap stanza required
 

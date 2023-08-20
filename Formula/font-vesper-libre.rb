@@ -3,10 +3,10 @@ class FontVesperLibre < Formula
   desc "Vesper Libre"
   homepage "https://fonts.google.com/specimen/Vesper+Libre"
   def install
-    (share/"fonts").install "VesperLibre-Bold.ttf"
-    (share/"fonts").install "VesperLibre-Heavy.ttf"
-    (share/"fonts").install "VesperLibre-Medium.ttf"
-    (share/"fonts").install "VesperLibre-Regular.ttf"
+    (share/"fonts").install "ofl/vesperlibre/" + "VesperLibre-Bold.ttf"
+    (share/"fonts").install "ofl/vesperlibre/" + "VesperLibre-Heavy.ttf"
+    (share/"fonts").install "ofl/vesperlibre/" + "VesperLibre-Medium.ttf"
+    (share/"fonts").install "ofl/vesperlibre/" + "VesperLibre-Regular.ttf"
   end
   # No zap stanza required
 

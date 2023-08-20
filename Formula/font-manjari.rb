@@ -3,9 +3,9 @@ class FontManjari < Formula
   desc "Manjari"
   homepage "https://fonts.google.com/specimen/Manjari"
   def install
-    (share/"fonts").install "Manjari-Bold.ttf"
-    (share/"fonts").install "Manjari-Regular.ttf"
-    (share/"fonts").install "Manjari-Thin.ttf"
+    (share/"fonts").install "ofl/manjari/" + "Manjari-Bold.ttf"
+    (share/"fonts").install "ofl/manjari/" + "Manjari-Regular.ttf"
+    (share/"fonts").install "ofl/manjari/" + "Manjari-Thin.ttf"
   end
   # No zap stanza required
 

@@ -4,8 +4,8 @@ class FontPiazzolla < Formula
   desc "Serif font family for media"
   homepage "https://fonts.google.com/specimen/Piazzolla"
   def install
-    (share/"fonts").install "Piazzolla-Italic[opsz,wght].ttf"
-    (share/"fonts").install "Piazzolla[opsz,wght].ttf"
+    (share/"fonts").install "ofl/piazzolla/" + "Piazzolla-Italic[opsz,wght].ttf"
+    (share/"fonts").install "ofl/piazzolla/" + "Piazzolla[opsz,wght].ttf"
   end
   # No zap stanza required
 
