@@ -1,6 +1,6 @@
 class FontMonoidNerdFont < Formula
-  version "3.0.2"
-  sha256 "a9ff94fe7f7dc779ca5575387fa6b900cf38da87b3f7a98abea1381693bdba05"
+  version "3.1.1"
+  sha256 "3f3704711320b7b71eb780ae762becc1c882c4ed698c00aec7b2adae46f0fa38"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Monoid.zip"
   desc "Monoid Nerd Font (Monoid)"
   desc "Developer targeted fonts with a high number of glyphs"
