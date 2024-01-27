@@ -1,6 +1,6 @@
 class FontLektonNerdFont < Formula
-  version "3.0.2"
-  sha256 "5d25870dc751df2e8c487d9c2bde9fd86f7e89a5189b152da1389ed5924b071b"
+  version "3.1.1"
+  sha256 "1a74da432c6b1f806066fbaeaa9119f5e6f6c347758486067a2e20d0c6b5864e"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Lekton.zip"
   desc "Lekton Nerd Font (Lekton)"
   desc "Developer targeted fonts with a high number of glyphs"
