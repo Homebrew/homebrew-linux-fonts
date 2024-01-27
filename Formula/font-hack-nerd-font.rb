@@ -1,6 +1,6 @@
 class FontHackNerdFont < Formula
-  version "3.0.2"
-  sha256 "e9e620aa5c9a02ae60cc41e959bf74b29592f9efd64235ed9b93abfa448674a1"
+  version "3.1.1"
+  sha256 "5cffb9dab5aeba7294cab8b32a8d50c8263f63d6083b38411e4003d13424068e"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Hack.zip"
   desc "Hack Nerd Font (Hack)"
   desc "Developer targeted fonts with a high number of glyphs"
