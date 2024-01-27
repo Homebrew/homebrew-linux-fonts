@@ -1,6 +1,6 @@
 class FontDroidSansMonoNerdFont < Formula
-  version "3.0.2"
-  sha256 "d273c1b201fc511a85bb4445dbe5c61f44ff3f62b67a38d2a958b41c9b65b688"
+  version "3.1.1"
+  sha256 "9fc4a511a9e8d3fa5062a2d94398e18898a0b45916ab42b6891307fcee493485"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/DroidSansMono.zip"
   desc "DroidSansM Nerd Font (Droid Sans Mono)"
   desc "Developer targeted fonts with a high number of glyphs"
