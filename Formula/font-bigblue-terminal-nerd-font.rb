@@ -1,6 +1,6 @@
 class FontBigblueTerminalNerdFont < Formula
-  version "3.0.2"
-  sha256 "49e75438525e112e0a71ef39bc6f9465d621aae5a51d1e18087b167b39293783"
+  version "3.1.1"
+  sha256 "2cfb6baef22e33aa2ee939f35673518e9ce66a51a22e7ebd71d4d7fec8ad8db1"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/BigBlueTerminal.zip"
   desc "BigBlueTerm Nerd Font families (BigBlue Terminal)"
   desc "Developer targeted fonts with a high number of glyphs"
