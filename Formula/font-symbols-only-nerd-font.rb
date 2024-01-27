@@ -1,6 +1,6 @@
 class FontSymbolsOnlyNerdFont < Formula
-  version "3.0.2"
-  sha256 "555b355aefe0e69845697769fb0f7976f1d9e6effd06321fa5fe085d6b19ffeb"
+  version "3.1.1"
+  sha256 "8c64613efe0c5d11664a931d241e756ea422cf4ad18d799f1cb5e43171226a76"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/NerdFontsSymbolsOnly.zip"
   desc "Symbols Nerd Font (Symbols Only)"
   desc "Developer targeted fonts with a high number of glyphs"
