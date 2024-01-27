@@ -4,10 +4,10 @@ class FontAfricanSerif < Formula
   desc "African Serif"
   homepage "https://www.languagegeek.com/font/fontdownload.html"
   def install
-    (share/"fonts").install "ofl/adventpro/" + "African Serif REGULAR 938.ttf"
-    (share/"fonts").install "ofl/adventpro/" + "African Serif BOLD 938.ttf"
-    (share/"fonts").install "ofl/adventpro/" + "African Serif BOLD ITALIC 938.ttf"
-    (share/"fonts").install "ofl/adventpro/" + "African Serif ITALIC 938.ttf"
+    (share/"fonts").install "ofl/afacad/" + "African Serif REGULAR 938.ttf"
+    (share/"fonts").install "ofl/afacad/" + "African Serif BOLD 938.ttf"
+    (share/"fonts").install "ofl/afacad/" + "African Serif BOLD ITALIC 938.ttf"
+    (share/"fonts").install "ofl/afacad/" + "African Serif ITALIC 938.ttf"
   end
   # No zap stanza required
 
