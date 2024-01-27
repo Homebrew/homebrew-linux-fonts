@@ -1,8 +1,8 @@
 class FontAurulentSansMonoNerdFont < Formula
-  version "3.0.2"
-  sha256 "867b34b3ac19c999bbfef66ad0fa5a7d4574732692a4d97133f1b8e01c20f63a"
+  version "3.1.1"
+  sha256 "e547c03338def637432011e95c01c7e3aeb1ef8a5b63a0423825c8a40e2adbe7"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/AurulentSansMono.zip"
-  desc "AurulentSansMono Nerd Font (Aurulent Sans Mono)"
+  desc "AurulentSansM Nerd Font (Aurulent Sans Mono)"
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
