@@ -1,6 +1,6 @@
 class FontGoMonoNerdFont < Formula
-  version "3.0.2"
-  sha256 "cafedf095fb1147cf9399e1189637ae810b1dafe01adbe380b491a8f1a9f29c5"
+  version "3.1.1"
+  sha256 "c58440c93e674530d224cf61d9603cba9938bb4412dd2f2947819b9a052c3616"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Go-Mono.zip"
   desc "GoMono Nerd Font (Go Mono)"
   desc "Developer targeted fonts with a high number of glyphs"
