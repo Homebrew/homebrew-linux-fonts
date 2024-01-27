@@ -1,6 +1,6 @@
 class FontChironHeiHk < Formula
-  version "2.506"
-  sha256 "3a88b3b0cbe218b567f83c82f2d35dda8f7b62ea590f9c6a54b0690f96daa8c1"
+  version "2.509"
+  sha256 "fcbea8df23150df74f52507d8fa6bc4f6aa941aa7d974743794a0b10a1378012"
   url "https://github.com/chiron-fonts/chiron-hei-hk/archive/refs/tags/v#{version}.zip"
   desc "Chiron Hei HK"
   desc "昭源黑體"
