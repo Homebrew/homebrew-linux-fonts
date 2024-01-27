@@ -1,6 +1,6 @@
 class FontSpleen < Formula
-  version "2.0.0"
-  sha256 "778778b35dd48701b803db247a6ac8759154ce5fc3abd5cc0b6db98a44ba5a0c"
+  version "2.0.2"
+  sha256 "f930eb02894aa06eb50aeaaa10b00420254d72320fa28c3a40f157a8c2943755"
   url "https://github.com/fcambus/spleen/releases/download/#{version}/spleen-#{version}.tar.gz"
   desc "Spleen"
   desc "Monospaced bitmap font"
