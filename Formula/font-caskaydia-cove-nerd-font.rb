@@ -1,6 +1,6 @@
 class FontCaskaydiaCoveNerdFont < Formula
-  version "3.0.2"
-  sha256 "e68cf12cc3c14a18b9ddce0e77f66a78e3ebec4a5224423674fdd9303c5c9272"
+  version "3.1.1"
+  sha256 "321a1fa7fdeac315ea9b2273f667e03beb718e42fa5a2066b84ffbf22502d865"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/CascadiaCode.zip"
   desc "CaskaydiaCove Nerd Font (Cascadia Code)"
   desc "Developer targeted fonts with a high number of glyphs"
