@@ -1,5 +1,7 @@
 class FontAileron < Formula
-  head "https://dotcolon.net/DL/font/aileron.zip"
+  version "0.102"
+  sha256 "a93a1327f44912a7b1410ad0056fec3e904074413b0bd9da550f6175587cf958"
+  url "https://dotcolon.net/download/fonts/aileron_#{version.to_s.gsub(".", "")}.zip"
   desc "Aileron"
   homepage "https://dotcolon.net/font/aileron/"
   def install
@@ -20,6 +22,8 @@ class FontAileron < Formula
     (share/"fonts").install "Aileron-UltraLight.otf"
     (share/"fonts").install "Aileron-UltraLightItalic.otf"
   end
+  # No zap stanza required
+
   test do
   end
 end
