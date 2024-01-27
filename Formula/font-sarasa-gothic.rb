@@ -1,7 +1,7 @@
 class FontSarasaGothic < Formula
-  version "0.41.7"
-  sha256 "c602d28aa6b016f27385263d63e054e10860801df3f8e35c098141f4942b4f07"
-  url "https://github.com/be5invis/Sarasa-Gothic/releases/download/v#{version}/sarasa-gothic-ttc-#{version}.7z"
+  version "1.0.4"
+  sha256 "d9918e9bd0d1a0684a5da12f078309dfd8b83d042067dc6cbc20490c134900a9"
+  url "https://github.com/be5invis/Sarasa-Gothic/releases/download/v#{version}/Sarasa-TTC-#{version}.7z"
   desc "Sarasa Gothic"
   desc "更纱黑体"
   desc "更紗黑體"
@@ -10,16 +10,16 @@ class FontSarasaGothic < Formula
   desc "CJK programming font based on Iosevka and Source Han Sans"
   homepage "https://github.com/be5invis/Sarasa-Gothic"
   def install
-    (share/"fonts").install "ofl/sarala/" + "sarasa-bold.ttc"
-    (share/"fonts").install "ofl/sarala/" + "sarasa-bolditalic.ttc"
-    (share/"fonts").install "ofl/sarala/" + "sarasa-extralight.ttc"
-    (share/"fonts").install "ofl/sarala/" + "sarasa-extralightitalic.ttc"
-    (share/"fonts").install "ofl/sarala/" + "sarasa-italic.ttc"
-    (share/"fonts").install "ofl/sarala/" + "sarasa-light.ttc"
-    (share/"fonts").install "ofl/sarala/" + "sarasa-lightitalic.ttc"
-    (share/"fonts").install "ofl/sarala/" + "sarasa-regular.ttc"
-    (share/"fonts").install "ofl/sarala/" + "sarasa-semibold.ttc"
-    (share/"fonts").install "ofl/sarala/" + "sarasa-semibolditalic.ttc"
+    (share/"fonts").install "ofl/sarala/" + "Sarasa-Bold.ttc"
+    (share/"fonts").install "ofl/sarala/" + "Sarasa-BoldItalic.ttc"
+    (share/"fonts").install "ofl/sarala/" + "Sarasa-ExtraLight.ttc"
+    (share/"fonts").install "ofl/sarala/" + "Sarasa-ExtraLightItalic.ttc"
+    (share/"fonts").install "ofl/sarala/" + "Sarasa-Italic.ttc"
+    (share/"fonts").install "ofl/sarala/" + "Sarasa-Light.ttc"
+    (share/"fonts").install "ofl/sarala/" + "Sarasa-LightItalic.ttc"
+    (share/"fonts").install "ofl/sarala/" + "Sarasa-Regular.ttc"
+    (share/"fonts").install "ofl/sarala/" + "Sarasa-SemiBold.ttc"
+    (share/"fonts").install "ofl/sarala/" + "Sarasa-SemiBoldItalic.ttc"
   end
   # No zap stanza required
 
