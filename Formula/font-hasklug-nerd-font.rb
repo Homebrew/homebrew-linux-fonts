@@ -1,6 +1,6 @@
 class FontHasklugNerdFont < Formula
-  version "3.0.2"
-  sha256 "e4235ca3c1adcf7f7e5756695c79c4226ae7d625e19f4827f142e2758a044317"
+  version "3.1.1"
+  sha256 "a6825db98cc521dab0c18766e28c662c6f1a3ebd36e40e8b191942ad3bd439f9"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Hasklig.zip"
   desc "Hasklug Nerd Font (Hasklig)"
   desc "Developer targeted fonts with a high number of glyphs"
