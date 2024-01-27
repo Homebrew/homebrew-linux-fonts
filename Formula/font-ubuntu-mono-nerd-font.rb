@@ -1,6 +1,6 @@
 class FontUbuntuMonoNerdFont < Formula
-  version "3.0.2"
-  sha256 "2966df5b69ccf3642103c5041297cf1c648b20232d56019249978a76be018a81"
+  version "3.1.1"
+  sha256 "af7b9940dfe959712a293add9e90d0ea9d43088d9001682767a30741dc52e9b9"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/UbuntuMono.zip"
   desc "UbuntuMono Nerd Font (Ubuntu Mono)"
   desc "Developer targeted fonts with a high number of glyphs"
