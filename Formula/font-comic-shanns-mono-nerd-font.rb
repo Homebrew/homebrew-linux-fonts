@@ -1,6 +1,6 @@
 class FontComicShannsMonoNerdFont < Formula
-  version "3.0.2"
-  sha256 "064df98920365a828c85c97e805fbd8ec1ebd1d3a6d7f7145e5de7a3f4567141"
+  version "3.1.1"
+  sha256 "166ae17fc8351401d2b3b75bb6e9797077dfdee5aa275217f6a4b0e31a027327"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/ComicShannsMono.zip"
   desc "ComicShannsMono Nerd Font (Comic Shanns Mono)"
   desc "Developer targeted fonts with a high number of glyphs"
