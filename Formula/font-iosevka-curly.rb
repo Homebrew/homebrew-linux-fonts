@@ -1,20 +1,20 @@
 class FontIosevkaCurly < Formula
-  version "26.2.0"
-  sha256 "5a1ba62ab2d1730251c70b51c5bcb7069f873266873964378fc5490c5d3ea76a"
-  url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/ttc-iosevka-curly-#{version}.zip"
+  version "28.0.6"
+  sha256 "4bed079b2d9febe2db2b6dfcb637e1b08147d4be0f721404592e1b823d756ca7"
+  url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/PkgTTC-IosevkaCurly-#{version}.zip"
   desc "Iosevka Curly"
   desc "Sans-serif, slab-serif, monospace and quasi‑proportional typeface family"
   homepage "https://github.com/be5invis/Iosevka/"
   def install
-    (share/"fonts").install "iosevka-curly-bold.ttc"
-    (share/"fonts").install "iosevka-curly-extrabold.ttc"
-    (share/"fonts").install "iosevka-curly-extralight.ttc"
-    (share/"fonts").install "iosevka-curly-heavy.ttc"
-    (share/"fonts").install "iosevka-curly-light.ttc"
-    (share/"fonts").install "iosevka-curly-medium.ttc"
-    (share/"fonts").install "iosevka-curly-regular.ttc"
-    (share/"fonts").install "iosevka-curly-semibold.ttc"
-    (share/"fonts").install "iosevka-curly-thin.ttc"
+    (share/"fonts").install "IosevkaCurly-Bold.ttc"
+    (share/"fonts").install "IosevkaCurly-ExtraBold.ttc"
+    (share/"fonts").install "IosevkaCurly-ExtraLight.ttc"
+    (share/"fonts").install "IosevkaCurly-Heavy.ttc"
+    (share/"fonts").install "IosevkaCurly-Light.ttc"
+    (share/"fonts").install "IosevkaCurly-Medium.ttc"
+    (share/"fonts").install "IosevkaCurly-Regular.ttc"
+    (share/"fonts").install "IosevkaCurly-SemiBold.ttc"
+    (share/"fonts").install "IosevkaCurly-Thin.ttc"
   end
   # No zap stanza required
 
