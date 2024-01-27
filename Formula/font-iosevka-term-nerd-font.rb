@@ -1,6 +1,6 @@
 class FontIosevkaTermNerdFont < Formula
-  version "3.0.2"
-  sha256 "4a87ade2cc568bbd6ec1dd9d179675c53cfec22865063520ae93817fba83a9c9"
+  version "3.1.1"
+  sha256 "bdb8524320caad89a10be4df44e6e2fd1d02c633ea10595c72fe4b3aaa7f5417"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/IosevkaTerm.zip"
   desc "IosevkaTerm Nerd Font (Iosevka Term)"
   desc "Developer targeted fonts with a high number of glyphs"
