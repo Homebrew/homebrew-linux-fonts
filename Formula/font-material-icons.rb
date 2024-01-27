@@ -1,12 +1,13 @@
 class FontMaterialIcons < Formula
-  version "3.0.1"
-  sha256 "722e3b09121b82a3746f3da2ecd3a2db8d7d24153b8433324315695a45f06a90"
-  url "https://github.com/google/material-design-icons/archive/#{version}.zip", verified: "github.com/google/material-design-icons/"
+  head "https://github.com/google/material-design-icons.git", verified: "github.com/google/material-design-icons", branch: "master", only_path: "font"
   desc "Material Icons"
+  desc "Icons based on core Material Design principles"
   homepage "https://google.github.io/material-design-icons/"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}material-design-icons-#{version}/iconfont/MaterialIcons-Regular.ttf"
+    (share/"fonts").install "font/" + "MaterialIcons-Regular.ttf"
+    (share/"fonts").install "font/" + "MaterialIconsOutlined-Regular.otf"
+    (share/"fonts").install "font/" + "MaterialIconsSharp-Regular.otf"
+    (share/"fonts").install "font/" + "MaterialIconsTwoTone-Regular.otf"
   end
   # No zap stanza required
 
