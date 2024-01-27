@@ -1,6 +1,6 @@
 class FontShureTechMonoNerdFont < Formula
-  version "3.0.2"
-  sha256 "7fcae067ed31bb93932ac3f716f9950b9fd9cf04c98c139293b598219c02b0e9"
+  version "3.1.1"
+  sha256 "3a149876f9682f10c689ea3099e7d2e4a01d35b570ede595e4812dd308cbab8f"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/ShareTechMono.zip"
   desc "ShureTechMono Nerd Font (Share Tech Mono)"
   desc "Developer targeted fonts with a high number of glyphs"
