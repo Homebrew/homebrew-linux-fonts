@@ -20,7 +20,7 @@ end
 
 class CaskParser < Parslet::Parser
     rule(:space) {
-      match("[ \t\n\r]").repeat
+      match("[ \t\n\r]").repeat(1)
     }
     rule(:string) {
       ((str('"') >>
@@ -41,24 +41,26 @@ class CaskParser < Parslet::Parser
         (word >> str(":")).as(:left) >> space >> (string | keyword | word).as(:right)
     }
     rule(:doblock) {
-        (str("do") >> (str("end").absent? >> any).repeat >> str("end")).as(:doblock)
+        (str("do") >> space >>
+            ((space >> doblock) | (match("[ \t\n\r]+end").absent? >> any)).repeat >>
+            space >> str("end"))
     }
     rule(:heredoc) {
         (str("<<~EOS") >> (str("EOS").absent? >> any).repeat >> str("EOS")).as(:heredoc)
     }
     rule(:value) {
-        (string | keyword | pair | heredoc | doblock)
+        (string | keyword | pair | heredoc | doblock.as(:doblock))
     }
     rule(:font) {
         str("font") >> space >> string.as(:font)
     }
     rule(:command) {
-        (str("font").absent? >> word).as(:command) >> space >>
+        (str("font").absent? >> word >> str("!").maybe).as(:command) >> space >>
             value.as(:first_argument) >>
-            (space >> str(",") >> space >> value).repeat.as(:rest_arguments)
+            (str(",") >> space >> value).repeat.as(:rest_arguments)
     }
     rule(:comment) {
-      (str("#") >> (str("\n").absent? >> any).repeat >> str("\n")).as(:comment)
+      (str("#") >> (str("\n").absent? >> any).repeat).as(:comment)
     }
     rule(:cask) {
         str("cask") >> space >> string.as(:name) >> space >> str("do") >> space >>
@@ -90,7 +92,7 @@ class CaskTransform < Parslet::Transform
         left + " " + right
     }
     rule(:comment => simple(:comment)) {
-        comment.to_s
+        comment.to_s + "\n"
     }
     rule(:font   => simple(:font)) {
       afont = font.to_s
@@ -154,6 +156,8 @@ class CaskTransform < Parslet::Transform
             "head #{arguments.join(", ")}"
         elsif command == "livecheck" then
             ""
+        elsif command == "deprecate!" || command == "disable!" then
+            command + " " + arguments.join(", ").gsub(":discontinued", ":unsupported")
         else
             command + " " + replace_cask_version_properties(arguments.join(", ").to_s)
         end
@@ -162,12 +166,12 @@ end
 
 class CaskConverter
     def convert
-      transform = CaskTransform.new
+      transform = CaskTransform.new(true)
       parser = CaskParser.new
       ignores = IO.readlines('.caskignore', chomp: true)
       Dir.glob('./homebrew-cask-fonts/Casks/*.rb').select{|file|
         ignores.all? { |ignore| !File.fnmatch(ignore, file) }
-      }.each{|cask|
+      }.each do |cask|
         p "< #{cask}"
         recipe = File.read(cask)
         recipe = parser.parse(recipe)
@@ -175,7 +179,12 @@ class CaskConverter
         formula = cask.sub(%r{homebrew-cask-fonts/Casks}, 'Formula')
         File.write(formula, recipe)
         p "> #{formula}"
-      }
+      rescue Parslet::ParseFailed => failure
+        $stderr.puts failure.parse_failure_cause.ascii_tree
+        exit 1
+      end
+
+      (Dir.children("Formula") - Dir.children("homebrew-cask-fonts/Casks")).each { |file| File.delete("Formula/#{file}") }
     end
 
     def commit
@@ -192,6 +201,7 @@ class CaskConverter
     end
 end
 
+Dir.chdir(__dir__)
 converter = CaskConverter.new
 case ARGV[0]
 when "convert" then converter.convert
