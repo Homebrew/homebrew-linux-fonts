@@ -5,15 +5,15 @@ class FontLinuxLibertine < Formula
   desc "Linux Libertine"
   homepage "http://linuxlibertine.org/"
   def install
-    (share/"fonts").install "ofl/lindenhill/" + "LinLibertine_DRah.ttf"
-    (share/"fonts").install "ofl/lindenhill/" + "LinLibertine_I.ttf"
-    (share/"fonts").install "ofl/lindenhill/" + "LinLibertine_Mah.ttf"
-    (share/"fonts").install "ofl/lindenhill/" + "LinLibertine_RBIah.ttf"
-    (share/"fonts").install "ofl/lindenhill/" + "LinLibertine_RBah.ttf"
-    (share/"fonts").install "ofl/lindenhill/" + "LinLibertine_RIah.ttf"
-    (share/"fonts").install "ofl/lindenhill/" + "LinLibertine_RZIah.ttf"
-    (share/"fonts").install "ofl/lindenhill/" + "LinLibertine_RZah.ttf"
-    (share/"fonts").install "ofl/lindenhill/" + "LinLibertine_Rah.ttf"
+    (share/"fonts").install "LinLibertine_DRah.ttf"
+    (share/"fonts").install "LinLibertine_I.ttf"
+    (share/"fonts").install "LinLibertine_Mah.ttf"
+    (share/"fonts").install "LinLibertine_RBIah.ttf"
+    (share/"fonts").install "LinLibertine_RBah.ttf"
+    (share/"fonts").install "LinLibertine_RIah.ttf"
+    (share/"fonts").install "LinLibertine_RZIah.ttf"
+    (share/"fonts").install "LinLibertine_RZah.ttf"
+    (share/"fonts").install "LinLibertine_Rah.ttf"
   end
   # No zap stanza required
 
