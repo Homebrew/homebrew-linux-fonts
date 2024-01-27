@@ -1,6 +1,6 @@
 class FontTinosNerdFont < Formula
-  version "3.0.2"
-  sha256 "286260ad5d13ac23dcfb51bac780edded2f239b5c4ff7d180cb7eaa2d2e69fe9"
+  version "3.1.1"
+  sha256 "be3072b0af54b699a99385a74572a2f4b6769d6960cbcdfc691db2b22b257bfd"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Tinos.zip"
   desc "Tinos Nerd Font (Tinos)"
   desc "Developer targeted fonts with a high number of glyphs"
