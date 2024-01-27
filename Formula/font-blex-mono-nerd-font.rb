@@ -1,6 +1,6 @@
 class FontBlexMonoNerdFont < Formula
-  version "3.0.2"
-  sha256 "226eb142fed5a0afe9d58ebbc61602d614385d86c35c52bb9b0fbb52542d27ea"
+  version "3.1.1"
+  sha256 "a498fad2fa760fac041546dd8a96aaff4b8d73a5adf1d46ca1044b5fb993e388"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/IBMPlexMono.zip"
   desc "BlexMono Nerd Font (IBM Plex Mono)"
   desc "Developer targeted fonts with a high number of glyphs"
