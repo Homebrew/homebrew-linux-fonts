@@ -1,6 +1,6 @@
 class FontHurmitNerdFont < Formula
-  version "3.0.2"
-  sha256 "b35b2cda374dd1522d3831b659eb91636c943f6b158d67ec51f91b1deb31e701"
+  version "3.1.1"
+  sha256 "f8bbe43b45332a8c90700c2700f9fc5308f2ffd6218aa472f164ff5cf6060a04"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Hermit.zip"
   desc "Hurmit Nerd Font (Hermit)"
   desc "Developer targeted fonts with a high number of glyphs"
