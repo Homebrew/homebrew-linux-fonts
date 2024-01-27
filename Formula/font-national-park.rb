@@ -4,10 +4,10 @@ class FontNationalPark < Formula
   desc "National Park"
   homepage "https://nationalparktypeface.com/"
   def install
-    (share/"fonts").install "NationalPark-Thin.otf"
-    (share/"fonts").install "NationalPark-Regular.otf"
-    (share/"fonts").install "NationalPark-Outline.otf"
-    (share/"fonts").install "NationalPark-Heavy.otf"
+    (share/"fonts").install "ofl/narnoor/" + "NationalPark-Thin.otf"
+    (share/"fonts").install "ofl/narnoor/" + "NationalPark-Regular.otf"
+    (share/"fonts").install "ofl/narnoor/" + "NationalPark-Outline.otf"
+    (share/"fonts").install "ofl/narnoor/" + "NationalPark-Heavy.otf"
   end
   # No zap stanza required
 
