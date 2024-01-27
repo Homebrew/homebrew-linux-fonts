@@ -1,6 +1,6 @@
 class FontJetbrainsMonoNerdFont < Formula
-  version "3.0.2"
-  sha256 "1fa397478bfca4917dba796eeeb5a428c0834e760b1d96caffff633d6238fdce"
+  version "3.1.1"
+  sha256 "6481301aaeab1d537c7eef436698a7511e74090cad90a4a7ef6879e2848d21aa"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/JetBrainsMono.zip"
   desc "JetBrainsMono Nerd Font families (JetBrains Mono)"
   desc "Developer targeted fonts with a high number of glyphs"
