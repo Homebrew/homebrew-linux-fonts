@@ -32,7 +32,7 @@ class CaskParser < Parslet::Parser
         str("'"))).as(:string)
     }
     rule(:word) {
-        match("[0-9a-zA-Z_]").repeat(1)
+        match("[0-9a-zA-Z_!]").repeat(1)
     }
     rule(:keyword) {
         (str(":") >> word).as(:keyword)
