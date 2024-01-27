@@ -1,6 +1,6 @@
 class FontInconsolataLgcNerdFont < Formula
-  version "3.0.2"
-  sha256 "34540145366fc34f1cc558fee250894a6dcd876446ff84050f28cf2d18760811"
+  version "3.1.1"
+  sha256 "d32110c0186d9e5fdef9ce35df4f726e17324104e257bd14906ad92c30a2c19e"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/InconsolataLGC.zip"
   desc "Inconsolata LGC Nerd Font (Inconsolata LGC)"
   desc "Developer targeted fonts with a high number of glyphs"
