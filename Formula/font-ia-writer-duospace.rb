@@ -4,10 +4,12 @@ class FontIaWriterDuospace < Formula
   homepage "https://github.com/iaolo/iA-Fonts"
   def install
     parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Duospace/OTF (Mac)/iAWriterDuospace-Bold.otf"
-    (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Duospace/OTF (Mac)/iAWriterDuospace-BoldItalic.otf"
-    (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Duospace/OTF (Mac)/iAWriterDuospace-Regular.otf"
-    (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Duospace/OTF (Mac)/iAWriterDuospace-Italic.otf"
+    (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Duo/Static/iAWriterDuoS-Bold.ttf"
+    (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Duo/Static/iAWriterDuoS-BoldItalic.ttf"
+    (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Duo/Static/iAWriterDuoS-Italic.ttf"
+    (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Duo/Static/iAWriterDuoS-Regular.ttf"
+    (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Duo/Variable/iAWriterDuoV-Italic.ttf"
+    (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Duo/Variable/iAWriterDuoV.ttf"
   end
   # No zap stanza required
 
