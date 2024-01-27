@@ -1,6 +1,6 @@
 class FontLxgwNeoxihei < Formula
-  version "1.104"
-  sha256 "4766f7cdcf81c17f51bda6eac576d144757790a8791b56e71a0d193f806704c2"
+  version "1.109"
+  sha256 "2e76e41e6132c6abf55bfa9678255018728bbafeaa5f73fccd4314c71eb5b77f"
   url "https://github.com/lxgw/LxgwNeoXiHei/releases/download/v#{version}/LXGWNeoXiHei.ttf"
   desc "LXGW NeoXiHei"
   desc "霞鹜新晰黑"
