@@ -1,6 +1,6 @@
 class FontVictorMonoNerdFont < Formula
-  version "3.0.2"
-  sha256 "d5b0789cb76e12af89210eeb638450ede7349665378dbade0f8bc3c86157a6a2"
+  version "3.1.1"
+  sha256 "2b3282e1743aab07664b9dce46f09322bd473beb219b8d08774a8328210545ad"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/VictorMono.zip"
   desc "VictorMono Nerd Font (Victor Mono)"
   desc "Developer targeted fonts with a high number of glyphs"
