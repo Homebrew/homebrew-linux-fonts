@@ -1,9 +1,9 @@
 class FontNotoEmoji < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoEmoji-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
+  head "https://github.com/google/fonts/raw/main/ofl/notoemoji/NotoEmoji%5Bwght%5D.ttf", verified: "github.com/google/fonts/"
   desc "Noto Emoji"
-  homepage "https://www.google.com/get/noto/#emoji-zsye"
+  homepage "https://fonts.google.com/specimen/Noto+Emoji"
   def install
-    (share/"fonts").install "NotoEmoji-Regular.ttf"
+    (share/"fonts").install "NotoEmoji[wght].ttf"
   end
   # No zap stanza required
 
