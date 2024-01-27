@@ -1,6 +1,6 @@
 class FontFontawesome < Formula
-  version "6.4.2"
-  sha256 "30861f49309ca47d016b35d210eed41d0b782f1d185f9211345c18594c5feade"
+  version "6.5.1"
+  sha256 "88d13abdade8b24b5fbdf6fe7d3ee55507d2827be91990a066ed96b8a2a58003"
   url "https://github.com/FortAwesome/Font-Awesome/releases/download/#{version}/fontawesome-free-#{version}-desktop.zip", verified: "github.com/FortAwesome/Font-Awesome/"
   desc "Font Awesome"
   desc "Icon set and toolkit"
