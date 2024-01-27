@@ -1,8 +1,8 @@
 class FontBricolageGrotesque < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/bricolagegrotesque/BricolageGrotesque%5Bopsz%2Cwdth%2Cwght%5D.ttf"
+  head "https://github.com/google/fonts/raw/main/ofl/bricolagegrotesque/BricolageGrotesque%5Bopsz%2Cwdth%2Cwght%5D.ttf", verified: "github.com/google/fonts/"
   desc "Bricolage Grotesque"
   desc "Collage of historical sources, technical decisions and personal feelings"
-  homepage "https://github.com/ateliertriay/bricolage"
+  homepage "https://fonts.google.com/specimen/Bricolage+Grotesque"
   def install
     (share/"fonts").install "BricolageGrotesque[opsz,wdth,wght].ttf"
   end
