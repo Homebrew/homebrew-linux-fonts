@@ -1,6 +1,6 @@
 class FontOverpassNerdFont < Formula
-  version "3.0.2"
-  sha256 "073f3413b7f2dd55562e7c5c6654752f89548d22809bddaaf124ad0224358425"
+  version "3.1.1"
+  sha256 "d2ef91eb8fa3ecd06144bbb38becc34b463fb26075212f9dce306503c8329bc0"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Overpass.zip"
   desc "Overpass Nerd Font families (Overpass)"
   desc "Developer targeted fonts with a high number of glyphs"
