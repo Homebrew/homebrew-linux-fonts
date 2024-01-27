@@ -1,7 +1,10 @@
 class FontNotoSansCjkTc < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansCJKtc-hinted.zip", verified: "noto-website-2.storage.googleapis.com/"
+  version "2.004"
+  sha256 "8ea0d6feb8e092c250710cdc75c138090832ddaa98d8ccb37cd89b03b72c331b"
+  url "https://github.com/notofonts/noto-cjk/releases/download/Sans#{version}/09_NotoSansCJKtc.zip"
   desc "Noto Sans CJK TC"
-  homepage "https://www.google.com/get/noto/#sans-hant"
+  desc "Language Specific OTFs Traditional Chinese — Taiwan (繁體中文—臺灣)"
+  homepage "https://github.com/notofonts/noto-cjk/tree/main/Sans"
   def install
     (share/"fonts").install "NotoSansCJKtc-Black.otf"
     (share/"fonts").install "NotoSansCJKtc-Bold.otf"
@@ -10,8 +13,6 @@ class FontNotoSansCjkTc < Formula
     (share/"fonts").install "NotoSansCJKtc-Medium.otf"
     (share/"fonts").install "NotoSansCJKtc-Regular.otf"
     (share/"fonts").install "NotoSansCJKtc-Thin.otf"
-    (share/"fonts").install "NotoSansMonoCJKtc-Bold.otf"
-    (share/"fonts").install "NotoSansMonoCJKtc-Regular.otf"
   end
   # No zap stanza required
 
