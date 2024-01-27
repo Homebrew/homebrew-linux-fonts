@@ -1,8 +1,9 @@
 class FontUrbanist < Formula
-  version "1.321"
-  sha256 "43b9c601884e3d348016444d34c5d55ac3381d18fdbe9644432be50305fa54c3"
-  url "https://github.com/coreyhu/Urbanist/releases/download/v#{version}/Urbanist-fonts.zip"
+  version "1.330"
+  sha256 "4b808f025f020d8801bb55a7c3ea855e934527be70bf451ab4205e62bfb8fb60"
+  url "https://github.com/coreyhu/Urbanist/releases/download/#{version}/Urbanist-fonts.zip"
   desc "Urbanist"
+  desc "Geometric sans-serif font"
   homepage "https://github.com/coreyhu/Urbanist"
   def install
     parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
@@ -24,27 +25,7 @@ class FontUrbanist < Formula
     (share/"fonts").install "#{parent}Urbanist-fonts/fonts/otf/Urbanist-SemiBoldItalic.otf"
     (share/"fonts").install "#{parent}Urbanist-fonts/fonts/otf/Urbanist-Thin.otf"
     (share/"fonts").install "#{parent}Urbanist-fonts/fonts/otf/Urbanist-ThinItalic.otf"
-    (share/"fonts").install "#{parent}Urbanist-fonts/fonts/ttf/Urbanist-Black.ttf"
-    (share/"fonts").install "#{parent}Urbanist-fonts/fonts/ttf/Urbanist-BlackItalic.ttf"
-    (share/"fonts").install "#{parent}Urbanist-fonts/fonts/ttf/Urbanist-Bold.ttf"
-    (share/"fonts").install "#{parent}Urbanist-fonts/fonts/ttf/Urbanist-BoldItalic.ttf"
-    (share/"fonts").install "#{parent}Urbanist-fonts/fonts/ttf/Urbanist-ExtraBold.ttf"
-    (share/"fonts").install "#{parent}Urbanist-fonts/fonts/ttf/Urbanist-ExtraBoldItalic.ttf"
-    (share/"fonts").install "#{parent}Urbanist-fonts/fonts/ttf/Urbanist-ExtraLight.ttf"
-    (share/"fonts").install "#{parent}Urbanist-fonts/fonts/ttf/Urbanist-ExtraLightItalic.ttf"
-    (share/"fonts").install "#{parent}Urbanist-fonts/fonts/ttf/Urbanist-Italic.ttf"
-    (share/"fonts").install "#{parent}Urbanist-fonts/fonts/ttf/Urbanist-Light.ttf"
-    (share/"fonts").install "#{parent}Urbanist-fonts/fonts/ttf/Urbanist-LightItalic.ttf"
-    (share/"fonts").install "#{parent}Urbanist-fonts/fonts/ttf/Urbanist-Medium.ttf"
-    (share/"fonts").install "#{parent}Urbanist-fonts/fonts/ttf/Urbanist-MediumItalic.ttf"
-    (share/"fonts").install "#{parent}Urbanist-fonts/fonts/ttf/Urbanist-Regular.ttf"
-    (share/"fonts").install "#{parent}Urbanist-fonts/fonts/ttf/Urbanist-SemiBold.ttf"
-    (share/"fonts").install "#{parent}Urbanist-fonts/fonts/ttf/Urbanist-SemiBoldItalic.ttf"
-    (share/"fonts").install "#{parent}Urbanist-fonts/fonts/ttf/Urbanist-Thin.ttf"
-    (share/"fonts").install "#{parent}Urbanist-fonts/fonts/ttf/Urbanist-ThinItalic.ttf"
-    (share/"fonts").install "#{parent}Urbanist-fonts/fonts/variable/Urbanist-Italic[wght].ttf"
     (share/"fonts").install "#{parent}Urbanist-fonts/fonts/variable/Urbanist[ital,wght].ttf"
-    (share/"fonts").install "#{parent}Urbanist-fonts/fonts/variable/Urbanist[wght].ttf"
   end
   # No zap stanza required
 
