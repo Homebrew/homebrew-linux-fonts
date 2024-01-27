@@ -1,15 +1,19 @@
 class FontNotoSerifCjkSc < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSerifCJKsc-hinted.zip", verified: "noto-website-2.storage.googleapis.com/"
+  version "2.002"
+  sha256 "eeede72f5b88655a3630f18661155028578afc88aa9e67e55db45a8b5be46789"
+  url "https://github.com/notofonts/noto-cjk/releases/download/Serif#{version}/09_NotoSerifCJKsc.zip"
   desc "Noto Serif CJK SC"
-  homepage "https://www.google.com/get/noto/#serif-hans"
+  desc "Language Specific OTFs Simplified Chinese (简体中文)"
+  homepage "https://github.com/notofonts/noto-cjk/tree/main/Serif"
   def install
-    (share/"fonts").install "NotoSerifCJKsc-Bold.otf"
-    (share/"fonts").install "NotoSerifCJKsc-Light.otf"
-    (share/"fonts").install "NotoSerifCJKsc-Regular.otf"
-    (share/"fonts").install "NotoSerifCJKsc-Black.otf"
-    (share/"fonts").install "NotoSerifCJKsc-ExtraLight.otf"
-    (share/"fonts").install "NotoSerifCJKsc-Medium.otf"
-    (share/"fonts").install "NotoSerifCJKsc-SemiBold.otf"
+    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
+    (share/"fonts").install "#{parent}OTF/SimplifiedChinese/NotoSerifCJKsc-Black.otf"
+    (share/"fonts").install "#{parent}OTF/SimplifiedChinese/NotoSerifCJKsc-Bold.otf"
+    (share/"fonts").install "#{parent}OTF/SimplifiedChinese/NotoSerifCJKsc-ExtraLight.otf"
+    (share/"fonts").install "#{parent}OTF/SimplifiedChinese/NotoSerifCJKsc-Light.otf"
+    (share/"fonts").install "#{parent}OTF/SimplifiedChinese/NotoSerifCJKsc-Medium.otf"
+    (share/"fonts").install "#{parent}OTF/SimplifiedChinese/NotoSerifCJKsc-Regular.otf"
+    (share/"fonts").install "#{parent}OTF/SimplifiedChinese/NotoSerifCJKsc-SemiBold.otf"
   end
   # No zap stanza required
 
