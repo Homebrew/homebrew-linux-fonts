@@ -183,8 +183,6 @@ class CaskConverter
         $stderr.puts failure.parse_failure_cause.ascii_tree
         exit 1
       end
-
-      (Dir.children("Formula") - Dir.children("homebrew-cask-fonts/Casks")).each { |file| File.delete("Formula/#{file}") }
     end
 
     def commit
