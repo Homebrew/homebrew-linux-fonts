@@ -1,6 +1,6 @@
 class FontInconsolataNerdFont < Formula
-  version "3.0.2"
-  sha256 "9aef76945f51eb5a7556e8154fc588b3cdd8eb3b14452207dd2c3df0503c7019"
+  version "3.1.1"
+  sha256 "ace8f470387b42d9fb4b9df04cf6bba5289865b8db4c09a6af2b885a13deb7b1"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Inconsolata.zip"
   desc "Inconsolata Nerd Font (Inconsolata)"
   desc "Developer targeted fonts with a high number of glyphs"
