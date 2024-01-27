@@ -1,20 +1,20 @@
 class FontIosevkaSs06 < Formula
-  version "26.2.0"
-  sha256 "647705e87102f322c0362b7112f2943b6923043b63787660a3262808d63f9521"
-  url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/ttc-iosevka-ss06-#{version}.zip"
+  version "28.0.6"
+  sha256 "5e3f4f388f5feda8abf26f3ee1833c0a034b2e99ecd0f6a235ab6a25d15f48ad"
+  url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/PkgTTC-IosevkaSS06-#{version}.zip"
   desc "Iosevka SS06"
   desc "Sans-serif, slab-serif, monospace and quasi‑proportional typeface family"
   homepage "https://github.com/be5invis/Iosevka/"
   def install
-    (share/"fonts").install "iosevka-ss06-bold.ttc"
-    (share/"fonts").install "iosevka-ss06-extrabold.ttc"
-    (share/"fonts").install "iosevka-ss06-extralight.ttc"
-    (share/"fonts").install "iosevka-ss06-heavy.ttc"
-    (share/"fonts").install "iosevka-ss06-light.ttc"
-    (share/"fonts").install "iosevka-ss06-medium.ttc"
-    (share/"fonts").install "iosevka-ss06-regular.ttc"
-    (share/"fonts").install "iosevka-ss06-semibold.ttc"
-    (share/"fonts").install "iosevka-ss06-thin.ttc"
+    (share/"fonts").install "IosevkaSS06-Bold.ttc"
+    (share/"fonts").install "IosevkaSS06-ExtraBold.ttc"
+    (share/"fonts").install "IosevkaSS06-ExtraLight.ttc"
+    (share/"fonts").install "IosevkaSS06-Heavy.ttc"
+    (share/"fonts").install "IosevkaSS06-Light.ttc"
+    (share/"fonts").install "IosevkaSS06-Medium.ttc"
+    (share/"fonts").install "IosevkaSS06-Regular.ttc"
+    (share/"fonts").install "IosevkaSS06-SemiBold.ttc"
+    (share/"fonts").install "IosevkaSS06-Thin.ttc"
   end
   # No zap stanza required
 
