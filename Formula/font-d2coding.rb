@@ -8,6 +8,8 @@ class FontD2coding < Formula
     parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}D2Coding/D2Coding-Ver#{version.to_s.sub(/,.*/, "")}-#{version.to_s.sub(/.*,/, "")}.ttc"
   end
+  # No zap stanza required
+
   test do
   end
 end
