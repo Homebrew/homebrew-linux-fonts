@@ -1,6 +1,6 @@
 class FontChironSungHk < Formula
-  version "1.008"
-  sha256 "d7fd5f37676777115f20c869d331107ff2e1b519117e1e0b7425265f7c916d4d"
+  version "1.011"
+  sha256 "67334720bcc01e043b9acebcfe6aa5ad023837b89650f448e13ec4274aae9c36"
   url "https://github.com/chiron-fonts/chiron-sung-hk/archive/refs/tags/v#{version}.zip"
   desc "Chiron Sung HK"
   desc "昭源宋體"
