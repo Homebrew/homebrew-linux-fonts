@@ -1,6 +1,6 @@
 class FontMonofurNerdFont < Formula
-  version "3.0.2"
-  sha256 "f6386c934d552614ac2b2a61d45ec764b167b2015a1cd99e18a4df7e0e3ffe1e"
+  version "3.1.1"
+  sha256 "457873fbfa8de32091fd4cfd0584a51a63cce64f5f0e17c89e428383adbbb5a9"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Monofur.zip"
   desc "Monofur Nerd Font (Monofur)"
   desc "Developer targeted fonts with a high number of glyphs"
