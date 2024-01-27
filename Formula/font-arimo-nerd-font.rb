@@ -1,6 +1,6 @@
 class FontArimoNerdFont < Formula
-  version "3.0.2"
-  sha256 "5f780cb2eb07c2ee648e70da438332526b312122b6730c5a70dd10f04a89b0a2"
+  version "3.1.1"
+  sha256 "233cd23e5e0f0d7d3ca21d1274600c1dbd6842e62a24a3ee63a3c5c7875bc065"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Arimo.zip"
   desc "Arimo Nerd Font (Arimo)"
   desc "Developer targeted fonts with a high number of glyphs"
