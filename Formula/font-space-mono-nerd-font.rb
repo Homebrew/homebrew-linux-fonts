@@ -1,6 +1,6 @@
 class FontSpaceMonoNerdFont < Formula
-  version "3.0.2"
-  sha256 "9e4407fc808322e2cc98a2c234f7dde947a77ecd4712d1f2b4187d192e43dd35"
+  version "3.1.1"
+  sha256 "8f06ca6008aef5f59093e2d2ff1d7d84290d2ed84f7d6ee6a71b0d5682565c11"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/SpaceMono.zip"
   desc "SpaceMono Nerd Font (Space Mono)"
   desc "Developer targeted fonts with a high number of glyphs"
