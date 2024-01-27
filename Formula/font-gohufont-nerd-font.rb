@@ -1,6 +1,6 @@
 class FontGohufontNerdFont < Formula
-  version "3.0.2"
-  sha256 "9d2107306a78055eedd7633dfd66589dff95f74142380bf8c0d41dc7c6550245"
+  version "3.1.1"
+  sha256 "98bb2be01c1b3e955da08d4f4d7a2b351ffeec927787a84db41d4616c1eb9124"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Gohu.zip"
   desc "GohuFont  Nerd Font families (Gohu)"
   desc "Developer targeted fonts with a high number of glyphs"
