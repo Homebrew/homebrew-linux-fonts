@@ -1,6 +1,6 @@
 class FontImWritingNerdFont < Formula
-  version "3.0.2"
-  sha256 "fa546b33228790c25d640c067976f028f50ae761ebe23f305ec9e67bf292cf10"
+  version "3.1.1"
+  sha256 "3941ad78ba75a0372e996198cd3f4a051f8bedf015e91306c2c334874ab1a9f9"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/iA-Writer.zip"
   desc "IMWriting Nerd Font families (iA Writer)"
   desc "Developer targeted fonts with a high number of glyphs"
