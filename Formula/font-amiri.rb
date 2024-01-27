@@ -5,6 +5,7 @@ class FontAmiri < Formula
   desc "Amiri"
   desc "Classical Arabic typeface in Naskh style"
   homepage "https://www.amirifont.org/"
+  deprecate! date: "2023-12-17", because: :unsupported
   def install
     parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
     (share/"fonts").install "#{parent}Amiri-#{version}/Amiri-Bold.ttf"
@@ -13,10 +14,6 @@ class FontAmiri < Formula
     (share/"fonts").install "#{parent}Amiri-#{version}/Amiri-Regular.ttf"
     (share/"fonts").install "#{parent}Amiri-#{version}/AmiriQuran.ttf"
     (share/"fonts").install "#{parent}Amiri-#{version}/AmiriQuranColored.ttf"
-  end
-  def creavat; do
-    discontinued
-  end
   end
   # No zap stanza required
 
