@@ -1,6 +1,6 @@
 class FontMononokiNerdFont < Formula
-  version "3.0.2"
-  sha256 "41ddee436459b7c7ad61d5d94d06f85db629cd3583f20720bfd1722b0b0ab28e"
+  version "3.1.1"
+  sha256 "873679bba5dd2c098a896a967f4ffc1357898285ce0d7ee11f268c7470bc4da5"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Mononoki.zip"
   desc "Mononoki Nerd Font (Mononoki)"
   desc "Developer targeted fonts with a high number of glyphs"
