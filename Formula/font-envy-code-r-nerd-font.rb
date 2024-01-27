@@ -1,6 +1,6 @@
 class FontEnvyCodeRNerdFont < Formula
-  version "3.0.2"
-  sha256 "427304ca50f742ace3b0f2c1733ebbe24eb176af3b6a429ae01e9966f3cb94c7"
+  version "3.1.1"
+  sha256 "16febf27a6b9b0e8c40658efa80cf4e99cd0fabee8ae7aadf4276be0193d398e"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/EnvyCodeR.zip"
   desc "EnvyCodeR Nerd Font (Envy Code R)"
   desc "Developer targeted fonts with a high number of glyphs"
