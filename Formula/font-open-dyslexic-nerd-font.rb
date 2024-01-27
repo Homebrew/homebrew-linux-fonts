@@ -1,6 +1,6 @@
 class FontOpenDyslexicNerdFont < Formula
-  version "3.0.2"
-  sha256 "4229d3bdb482db539ad555f9cdfce5aa29db5334a50556f139e90775cb86fe2e"
+  version "3.1.1"
+  sha256 "6d4aa8ef8a3a4b1ebae9d37052d779a17b18caebd55a4e710b99f2e5d1550408"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/OpenDyslexic.zip"
   desc "OpenDyslexic Nerd Font families (OpenDyslexic)"
   desc "Developer targeted fonts with a high number of glyphs"
