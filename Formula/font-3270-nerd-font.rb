@@ -1,6 +1,6 @@
 class Font3270NerdFont < Formula
-  version "3.0.2"
-  sha256 "1c40c05d40f905f9f2b6a7633ffe1c7bf7e215eceacd9a1438dda14eedf6569c"
+  version "3.1.1"
+  sha256 "62a02e0936f9348aecdd337a03221368068272b80944d4cdbb241472ae48cba4"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/3270.zip"
   desc "3270 Nerd Font (IBM 3270)"
   desc "Developer targeted fonts with a high number of glyphs"
