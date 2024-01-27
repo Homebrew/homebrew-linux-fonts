@@ -1,6 +1,6 @@
 class FontSudo < Formula
-  version "0.72"
-  sha256 "1d6e12ea54272bc059b083d0192dd96336650102fa3ced51dfdc82da67d917f6"
+  version "0.81"
+  sha256 "7cb85250db95899ce9f894ff5559c71fe77ba8c6c7abbfaabec869d847963764"
   url "https://github.com/jenskutilek/sudo-font/releases/download/v#{version}/sudo.zip"
   desc "Sudo"
   desc "Font for programmers and command-line users"
