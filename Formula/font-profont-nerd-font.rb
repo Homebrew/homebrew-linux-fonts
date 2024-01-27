@@ -1,6 +1,6 @@
 class FontProfontNerdFont < Formula
-  version "3.0.2"
-  sha256 "3da339e48e6d152e29f78b9dc7a08b0a0338397bcd4f0137e67fe8ad0e618d9c"
+  version "3.1.1"
+  sha256 "460f9d9042a4212d307853347e78340a28da6e8ccf7bd1c113d6c0de313f7ea4"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/ProFont.zip"
   desc "ProFont Nerd Font families (ProFont)"
   desc "Developer targeted fonts with a high number of glyphs"
