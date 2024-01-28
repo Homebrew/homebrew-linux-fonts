@@ -1,8 +1,8 @@
 class FontHonk < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/honk/Honk%5BMORF%2CSHLN%5D.ttf"
+  head "https://github.com/google/fonts/raw/main/ofl/honk/Honk%5BMORF%2CSHLN%5D.ttf", verified: "github.com/google/fonts/"
   desc "Honk"
   desc "Done by taresh vohra and team ek type"
-  homepage "https://github.com/EkType/Honk"
+  homepage "https://fonts.google.com/specimen/Honk"
   def install
     (share/"fonts").install "Honk[MORF,SHLN].ttf"
   end
