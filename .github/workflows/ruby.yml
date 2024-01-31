@@ -5,6 +5,7 @@ on:
   workflow_dispatch:
 jobs:
   build:
+    if: ( github.event.schedule && github.repository == 'homebrew/homebrew-linux-fonts' ) || ! github.event.schedule
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
