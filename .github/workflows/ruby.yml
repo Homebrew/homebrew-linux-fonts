@@ -5,6 +5,7 @@ on:
   workflow_dispatch:
 jobs:
   build:
+    if: github.repository_owner == 'Homebrew' || !github.event.schedule
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
