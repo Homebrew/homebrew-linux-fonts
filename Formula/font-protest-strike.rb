@@ -1,8 +1,8 @@
 class FontProtestStrike < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/proteststrike/ProtestStrike-Regular.ttf"
+  head "https://github.com/google/fonts/raw/main/ofl/proteststrike/ProtestStrike-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Protest Strike"
   desc "Solid but peaceful sans serif typeface"
-  homepage "https://github.com/octaviopardo/Protest"
+  homepage "https://fonts.google.com/specimen/Protest+Strike"
   def install
     (share/"fonts").install "ProtestStrike-Regular.ttf"
   end
