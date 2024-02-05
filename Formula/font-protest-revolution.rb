@@ -1,7 +1,7 @@
 class FontProtestRevolution < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/protestrevolution/ProtestRevolution-Regular.ttf"
+  head "https://github.com/google/fonts/raw/main/ofl/protestrevolution/ProtestRevolution-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Protest Revolution"
-  homepage "https://github.com/octaviopardo/Protest"
+  homepage "https://fonts.google.com/specimen/Protest+Revolution"
   def install
     (share/"fonts").install "ProtestRevolution-Regular.ttf"
   end
