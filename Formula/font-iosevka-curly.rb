@@ -3,7 +3,7 @@ class FontIosevkaCurly < Formula
   sha256 "954d9ae953cb969575593917bc5a544e08b62fb357814c163eef7bf5580f196c"
   url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/PkgTTC-IosevkaCurly-#{version}.zip"
   desc "Iosevka Curly"
-  desc "Sans-serif, slab-serif, monospace and quasi‑proportional typeface family"
+  desc "Sans-serif, slab-serif, monospace and quasiproportional typeface family"
   homepage "https://github.com/be5invis/Iosevka/"
   def install
     (share/"fonts").install "IosevkaCurly-Bold.ttc"

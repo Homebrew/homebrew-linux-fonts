@@ -3,7 +3,7 @@ class FontIosevkaSs11 < Formula
   sha256 "c9fb3689d0da864ea28946628e90526d8f23563248cdff1055fb22d1425fae33"
   url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/PkgTTC-IosevkaSS11-#{version}.zip"
   desc "Iosevka SS11"
-  desc "Sans-serif, slab-serif, monospace and quasi‑proportional typeface family"
+  desc "Sans-serif, slab-serif, monospace and quasiproportional typeface family"
   homepage "https://github.com/be5invis/Iosevka/"
   def install
     (share/"fonts").install "IosevkaSS11-Bold.ttc"

@@ -3,7 +3,7 @@ class FontHaranoAji < Formula
   sha256 "27f3e553ca324fce689cc86634fcda190b4c5106cc1eaecc5a3c18ff5d16785e"
   url "https://github.com/trueroad/HaranoAjiFonts/archive/refs/tags/#{version}.zip"
   desc "Harano Aji"
-  desc "原ノ味"
+  desc ""
   desc "Japanese fonts (Source Han fonts with Adobe-Japan1 (AJ1) CIDs)"
   homepage "https://github.com/trueroad/HaranoAjiFonts"
   def install

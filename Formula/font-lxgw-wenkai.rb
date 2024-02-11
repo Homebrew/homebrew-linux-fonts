@@ -3,7 +3,7 @@ class FontLxgwWenkai < Formula
   sha256 "263952bf521911e5623aa14c2abd85fa068a4f090d8bad26b4b12ec4c5696a4d"
   url "https://github.com/lxgw/LxgwWenKai/releases/download/v#{version}/lxgw-wenkai-v#{version}.zip"
   desc "LXGW WenKai"
-  desc "霞鹜文楷"
+  desc ""
   desc "Open-source Chinese font derived from Fontworks' Klee One"
   homepage "https://github.com/lxgw/LxgwWenKai"
   def install

@@ -3,7 +3,7 @@ class FontLxgwZhenkai < Formula
   sha256 "457955ce330f2945428f92b4621c72d72435cf9028a82ac138283cfe5e1f553f"
   url "https://github.com/lxgw/LxgwZhenKai/releases/download/v#{version}/LXGWZhenKai.ttf"
   desc "LXGW ZhenKai"
-  desc "霞鹜臻楷"
+  desc ""
   desc "Bolder-weight Edition of LXGW WenKai"
   homepage "https://github.com/lxgw/LxgwZhenKai"
   def install

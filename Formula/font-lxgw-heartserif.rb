@@ -3,7 +3,7 @@ class FontLxgwHeartserif < Formula
   sha256 "a70f4bd3c6495f36b98472d0e0dfc70807e858de06a6bcf385bd5d0ffee1c539"
   url "https://github.com/lxgw/LxgwNeoZhiSong/releases/download/v#{version}/LXGWHeartSerif.ttf"
   desc "LXGW Heart Serif"
-  desc "霞鹜铭心宋"
+  desc ""
   desc "Chinese serif font derived from IPAmj Mincho"
   homepage "https://github.com/lxgw/LxgwNeoZhiSong"
   def install

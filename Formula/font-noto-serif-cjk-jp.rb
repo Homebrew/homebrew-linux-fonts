@@ -3,7 +3,7 @@ class FontNotoSerifCjkJp < Formula
   sha256 "166a03cc7725f4d52a0533f4137991089e55d1d417b9d7e15197a9d483b41de3"
   url "https://github.com/notofonts/noto-cjk/releases/download/Serif#{version}/07_NotoSerifCJKjp.zip"
   desc "Noto Serif CJK JP"
-  desc "Language Specific OTFs Japanese (日本語)"
+  desc "Language Specific OTFs Japanese ()"
   homepage "https://github.com/notofonts/noto-cjk/tree/main/Serif"
   def install
     parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
