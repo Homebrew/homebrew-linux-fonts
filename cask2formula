@@ -173,8 +173,7 @@ class CaskConverter
         ignores.all? { |ignore| !File.fnmatch(ignore, file) }
       }.each do |cask|
         p "< #{cask}"
-        recipe = File.read(cask)
-        recipe = recipe.encode("ASCII", invalid: :replace, undef: :replace, replace: "")
+        recipe = File.read(cask, encoding: 'UTF-8')
         recipe = parser.parse(recipe)
         recipe = transform.apply(recipe)
         formula = cask.sub(%r{homebrew-cask-fonts/Casks}, 'Formula')

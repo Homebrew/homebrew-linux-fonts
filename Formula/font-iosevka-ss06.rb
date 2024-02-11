@@ -3,7 +3,7 @@ class FontIosevkaSs06 < Formula
   sha256 "06ad63203743a6873f018ae815705e707b5540a04a587a3eb0ca4886616781ca"
   url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/PkgTTC-IosevkaSS06-#{version}.zip"
   desc "Iosevka SS06"
-  desc "Sans-serif, slab-serif, monospace and quasiproportional typeface family"
+  desc "Sans-serif, slab-serif, monospace and quasi‑proportional typeface family"
   homepage "https://github.com/be5invis/Iosevka/"
   def install
     (share/"fonts").install "IosevkaSS06-Bold.ttc"

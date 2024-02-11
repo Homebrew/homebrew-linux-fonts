@@ -3,7 +3,7 @@ class FontNotoSansMonoCjkSc < Formula
   sha256 "e252c39994f8a278676507600a955663c23c24a7827dc63a4300b2f7b427cd5d"
   url "https://github.com/notofonts/noto-cjk/releases/download/Sans#{version}/13_NotoSansMonoCJKsc.zip"
   desc "Noto Sans Mono CJK SC"
-  desc "Language Specific Monospace OTFs Simplified Chinese ()"
+  desc "Language Specific Monospace OTFs Simplified Chinese (简体中文)"
   homepage "https://github.com/notofonts/noto-cjk/tree/main/Sans"
   def install
     (share/"fonts").install "NotoSansMonoCJKsc-Bold.otf"

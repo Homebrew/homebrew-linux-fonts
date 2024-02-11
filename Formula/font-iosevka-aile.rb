@@ -3,7 +3,7 @@ class FontIosevkaAile < Formula
   sha256 "536a6f7387ac385037bcad6bf050832adb89299e45e40570c87e466d631b84f5"
   url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/PkgTTC-IosevkaAile-#{version}.zip"
   desc "Iosevka Aile"
-  desc "Sans-serif, slab-serif, monospace and quasiproportional typeface family"
+  desc "Sans-serif, slab-serif, monospace and quasi‑proportional typeface family"
   homepage "https://github.com/be5invis/Iosevka/"
   def install
     (share/"fonts").install "ofl/intertight/" + "IosevkaAile-Bold.ttc"

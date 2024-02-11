@@ -3,7 +3,7 @@ class FontZhuqueFangsong < Formula
   sha256 "ff7bab9764b88d58f0f4b18fe197fd1b3eac3a67c10030a240556da8dca0c60a"
   url "https://github.com/TrionesType/zhuque/releases/download/v#{version}/ZhuqueFangsong-v#{version}.zip"
   desc "Zhuque Fangsong"
-  desc ""
+  desc "朱雀仿宋"
   desc "Open source Chinese Fangsong font created by TrionesType"
   homepage "https://github.com/TrionesType/zhuque"
   def install
