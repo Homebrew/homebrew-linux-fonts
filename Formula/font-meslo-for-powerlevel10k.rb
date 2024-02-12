@@ -1,10 +1,10 @@
 class FontMesloForPowerlevel10k < Formula
-  version "1.2.1"
-  sha256 "2581fcaa4c2dd9bb4cbb5cf6df318bfce925b51a130efad5e0d04fd68c46f4e6"
-  url "https://github.com/kalip2/font-meslo-for-powerlevel10k/releases/download/v#{version}/font-meslo-for-powerlevel10k.zip"
+  version "2.3.3"
+  sha256 "4b0bb4fc457df96d17aa85cfeda4fa92268dbb0651189f2923c68342ebb67cc7"
+  url "https://github.com/romkatv/powerlevel10k-media/releases/download/v#{version}/meslo-lgs-nf.tar.gz"
   desc "Meslo Nerd Font for Powerlevel10k"
   desc "Monospace font customized for Powerlevel10k"
-  homepage "https://github.com/kalip2/font-meslo-for-powerlevel10k/"
+  homepage "https://github.com/romkatv/powerlevel10k-media"
   def install
     (share/"fonts").install "MesloLGS NF Bold Italic.ttf"
     (share/"fonts").install "MesloLGS NF Bold.ttf"
