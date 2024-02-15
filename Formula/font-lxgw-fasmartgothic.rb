@@ -1,6 +1,6 @@
 class FontLxgwFasmartgothic < Formula
-  version "1.109"
-  sha256 "d1a07df31a9dbe13302017ce70fe6fd2f245e7253af11b03d5b304ceacdc6993"
+  version "1.110"
+  sha256 "fa73da7f3402866edc03ec436dbb641fa95b0f5bac72ea4da9eb1472f264cd07"
   url "https://github.com/lxgw/LxgwNeoXiHei/releases/download/v#{version}/LXGWFasmartGothic.ttf"
   desc "LXGW FasmartGothic"
   desc "霞鹜尚智黑"
