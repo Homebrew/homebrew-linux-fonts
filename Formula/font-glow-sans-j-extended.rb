@@ -4,6 +4,7 @@ class FontGlowSansJExtended < Formula
   url "https://github.com/welai/glow-sans/releases/download/v#{version}/GlowSansJ-Extended-v#{version}.zip"
   desc "Glow Sans J Extended"
   homepage "https://github.com/welai/glow-sans"
+  deprecate! date: "2024-02-17", because: :unsupported
   def install
     (share/"fonts").install "ofl/glory/" + "GlowSansJ-Extended-Bold.otf"
     (share/"fonts").install "ofl/glory/" + "GlowSansJ-Extended-Book.otf"
