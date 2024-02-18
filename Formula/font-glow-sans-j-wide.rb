@@ -4,6 +4,7 @@ class FontGlowSansJWide < Formula
   url "https://github.com/welai/glow-sans/releases/download/v#{version}/GlowSansJ-Wide-v#{version}.zip"
   desc "Glow Sans J Wide"
   homepage "https://github.com/welai/glow-sans"
+  deprecate! date: "2024-02-17", because: :unsupported
   def install
     (share/"fonts").install "ofl/glory/" + "GlowSansJ-Wide-Bold.otf"
     (share/"fonts").install "ofl/glory/" + "GlowSansJ-Wide-Book.otf"
