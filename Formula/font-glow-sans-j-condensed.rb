@@ -4,6 +4,7 @@ class FontGlowSansJCondensed < Formula
   url "https://github.com/welai/glow-sans/releases/download/v#{version}/GlowSansJ-Condensed-v#{version}.zip"
   desc "Glow Sans J Condensed"
   homepage "https://github.com/welai/glow-sans"
+  deprecate! date: "2024-02-17", because: :unsupported
   def install
     (share/"fonts").install "ofl/glory/" + "GlowSansJ-Condensed-Bold.otf"
     (share/"fonts").install "ofl/glory/" + "GlowSansJ-Condensed-Book.otf"
