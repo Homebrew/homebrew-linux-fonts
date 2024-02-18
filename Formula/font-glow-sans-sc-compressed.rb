@@ -4,6 +4,7 @@ class FontGlowSansScCompressed < Formula
   url "https://github.com/welai/glow-sans/releases/download/v#{version}/GlowSansSC-Compressed-v#{version}.zip"
   desc "Glow Sans SC Compressed"
   homepage "https://github.com/welai/glow-sans"
+  deprecate! date: "2024-02-17", because: :unsupported
   def install
     (share/"fonts").install "ofl/glory/" + "GlowSansSC-Compressed-Bold.otf"
     (share/"fonts").install "ofl/glory/" + "GlowSansSC-Compressed-Book.otf"
