@@ -4,6 +4,7 @@ class FontGlowSansTcCondensed < Formula
   url "https://github.com/welai/glow-sans/releases/download/v#{version}/GlowSansTC-Condensed-v#{version}.zip"
   desc "Glow Sans TC Condensed"
   homepage "https://github.com/welai/glow-sans"
+  deprecate! date: "2024-02-17", because: :unsupported
   def install
     (share/"fonts").install "ofl/glory/" + "GlowSansTC-Condensed-Bold.otf"
     (share/"fonts").install "ofl/glory/" + "GlowSansTC-Condensed-Book.otf"
