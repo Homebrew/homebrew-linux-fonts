@@ -4,6 +4,7 @@ class FontGlowSansTcWide < Formula
   url "https://github.com/welai/glow-sans/releases/download/v#{version}/GlowSansTC-Wide-v#{version}.zip"
   desc "Glow Sans TC Wide"
   homepage "https://github.com/welai/glow-sans"
+  deprecate! date: "2024-02-17", because: :unsupported
   def install
     (share/"fonts").install "ofl/glory/" + "GlowSansTC-Wide-Bold.otf"
     (share/"fonts").install "ofl/glory/" + "GlowSansTC-Wide-Book.otf"
