@@ -4,6 +4,7 @@ class FontGlowSansTcExtended < Formula
   url "https://github.com/welai/glow-sans/releases/download/v#{version}/GlowSansTC-Extended-v#{version}.zip"
   desc "Glow Sans TC Extended"
   homepage "https://github.com/welai/glow-sans"
+  deprecate! date: "2024-02-17", because: :unsupported
   def install
     (share/"fonts").install "ofl/glory/" + "GlowSansTC-Extended-Bold.otf"
     (share/"fonts").install "ofl/glory/" + "GlowSansTC-Extended-Book.otf"
