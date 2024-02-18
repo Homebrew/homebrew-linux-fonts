@@ -4,6 +4,7 @@ class FontGlowSansScNormal < Formula
   url "https://github.com/welai/glow-sans/releases/download/v#{version}/GlowSansSC-Normal-v#{version}.zip"
   desc "Glow Sans SC Normal"
   homepage "https://github.com/welai/glow-sans"
+  deprecate! date: "2024-02-17", because: :unsupported
   def install
     (share/"fonts").install "ofl/glory/" + "GlowSansSC-Normal-Bold.otf"
     (share/"fonts").install "ofl/glory/" + "GlowSansSC-Normal-Book.otf"
