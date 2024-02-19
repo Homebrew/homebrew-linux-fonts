@@ -6,6 +6,7 @@ class FontLxgwZhenkai < Formula
   desc "霞鹜臻楷"
   desc "Bolder-weight Edition of LXGW WenKai"
   homepage "https://github.com/lxgw/LxgwZhenKai"
+  deprecate! date: "2024-02-18", because: :unsupported
   def install
     (share/"fonts").install "LXGWZhenKai.ttf"
   end
