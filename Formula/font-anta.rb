@@ -1,8 +1,8 @@
 class FontAnta < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/anta/Anta-Regular.ttf"
+  head "https://github.com/google/fonts/raw/main/ofl/anta/Anta-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Anta"
   desc "Particularly suitable for graphic design, but also for branding projects"
-  homepage "https://github.com/Typedesigners/Anta-Regular"
+  homepage "https://fonts.google.com/specimen/Anta"
   def install
     (share/"fonts").install "Anta-Regular.ttf"
   end
