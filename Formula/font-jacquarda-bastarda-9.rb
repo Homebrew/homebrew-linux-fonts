@@ -1,7 +1,7 @@
 class FontJacquardaBastarda9 < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/jacquardabastarda9/JacquardaBastarda9-Regular.ttf"
+  head "https://github.com/google/fonts/raw/main/ofl/jacquardabastarda9/JacquardaBastarda9-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Jacquarda Bastarda 9"
-  homepage "https://github.com/scfried/soft-type-jacquarda-bastarda"
+  homepage "https://fonts.google.com/specimen/Jacquarda+Bastarda+9"
   def install
     (share/"fonts").install "JacquardaBastarda9-Regular.ttf"
   end
