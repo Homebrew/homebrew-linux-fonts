@@ -1,9 +1,16 @@
 class FontLinuxBiolinum < Formula
-  version "5.3.0_2012_07_02"
+  version "5.3.0,2012_07_02"
   sha256 "24a593a949808d976850131a953c0c0d7a72299531dfbb348191964cc038d75d"
-  url "https://downloads.sourceforge.net/linuxlibertine/LinLibertineTTF_#{version}.tgz", verified: "downloads.sourceforge.net/linuxlibertine/"
+  url "https://downloads.sourceforge.net/linuxlibertine/LinLibertineTTF_#{version.to_s.tr(",", "_")}.tgz", verified: "downloads.sourceforge.net/linuxlibertine/"
   desc "Linux Biolinum"
+  desc "Libre multilingual sans-serif font"
   homepage "http://linuxlibertine.org/"
+  # The regex below specifically matches filenames with a version and optional
+
+  # date. One release (5.0.0) only used a date, so that will be treated as the
+
+  # newest version until it's no longer in the RSS feed.
+
   def install
     (share/"fonts").install "LinBiolinum_Kah.ttf"
     (share/"fonts").install "LinBiolinum_RBah.ttf"
