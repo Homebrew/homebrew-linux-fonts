@@ -1,7 +1,7 @@
 class FontMadimiOne < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/madimione/MadimiOne-Regular.ttf"
+  head "https://github.com/google/fonts/raw/main/ofl/madimione/MadimiOne-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Madimi One"
-  homepage "https://github.com/TaVaTake/madimi"
+  homepage "https://fonts.google.com/specimen/Madimi+One"
   def install
     (share/"fonts").install "MadimiOne-Regular.ttf"
   end
