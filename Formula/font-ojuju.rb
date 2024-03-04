@@ -1,8 +1,8 @@
 class FontOjuju < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/ojuju/Ojuju%5Bwght%5D.ttf"
+  head "https://github.com/google/fonts/raw/main/ofl/ojuju/Ojuju%5Bwght%5D.ttf", verified: "github.com/google/fonts/"
   desc "Ojuju"
   desc "Distinct with varying apertures as it moves from extra-light to bold"
-  homepage "https://github.com/jobosonchisa/ojuju"
+  homepage "https://fonts.google.com/specimen/Ojuju"
   def install
     (share/"fonts").install "Ojuju[wght].ttf"
   end
