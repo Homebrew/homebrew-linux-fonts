@@ -1,6 +1,6 @@
 class FontArkPixel10pxProportional < Formula
-  version "2023.11.26"
-  sha256 "0a43a340faf4418376de51e9111184d9a035e3450967f26243b75ae4e9c51fa4"
+  version "2024.03.22"
+  sha256 "d2343b9ad5ec76f0cee1a8d4fdbd6e5611760e042c2e812b74e2cd4886790c15"
   url "https://github.com/TakWolf/ark-pixel-font/releases/download/#{version}/ark-pixel-font-10px-proportional-otf-v#{version}.zip"
   desc "Ark Pixel 10px Proportional"
   desc "Open source Pan-CJK pixel font"
