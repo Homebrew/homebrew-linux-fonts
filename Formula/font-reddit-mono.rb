@@ -1,8 +1,8 @@
 class FontRedditMono < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/redditmono/RedditMono%5Bwght%5D.ttf"
+  head "https://github.com/google/fonts/raw/main/ofl/redditmono/RedditMono%5Bwght%5D.ttf", verified: "github.com/google/fonts/"
   desc "Reddit Mono"
   desc "Complemented by reddit sans and reddit sans condensed"
-  homepage "https://github.com/reddit/redditsans"
+  homepage "https://fonts.google.com/specimen/Reddit+Mono"
   def install
     (share/"fonts").install "RedditMono[wght].ttf"
   end
