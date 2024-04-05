@@ -1,6 +1,6 @@
 class FontHeavyDataNerdFont < Formula
-  version "3.1.1"
-  sha256 "c0c98e8c91c53381842ac3135ad3a1f09134a3279a059eb04dd8d5a83fa9765e"
+  version "3.2.0"
+  sha256 "611ef699b3c0966f50de8c1af5ec72bd63a8681e4e96d5afb425dd23ecb81992"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/HeavyData.zip"
   desc "HeavyData Nerd Font (Heavy Data)"
   desc "Developer targeted fonts with a high number of glyphs"
