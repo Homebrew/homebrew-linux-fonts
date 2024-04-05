@@ -1,6 +1,6 @@
 class FontSauceCodeProNerdFont < Formula
-  version "3.1.1"
-  sha256 "85e311005463815108602faafb4eb3ae8f21403806657f241f2fde220a45042c"
+  version "3.2.0"
+  sha256 "ab3ef453fbddd71486fad378d5f1697c5d9ff5871959e792bca52b1353e0815d"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/SourceCodePro.zip"
   desc "SauceCodePro Nerd Font (Source Code Pro)"
   desc "Developer targeted fonts with a high number of glyphs"
