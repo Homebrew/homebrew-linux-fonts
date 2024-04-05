@@ -1,6 +1,6 @@
 class FontBitstreamVeraSansMonoNerdFont < Formula
-  version "3.1.1"
-  sha256 "820916a95b4a39a7ae3ebb17290ff2060d5b2e98abed4cca378ace2bec9bca60"
+  version "3.2.0"
+  sha256 "283bfa5a0209176ce4c8de3b5d3b0e769447b6948c9ec3d38b2ad6ec96ea103f"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/BitstreamVeraSansMono.zip"
   desc "BitstromWera Nerd Font (Bitstream Vera Sans Mono)"
   desc "Developer targeted fonts with a high number of glyphs"
