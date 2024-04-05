@@ -1,6 +1,6 @@
 class FontCaskaydiaMonoNerdFont < Formula
-  version "3.1.1"
-  sha256 "dcd25e34bcb63f1d191ec184cad4ddd37674953c42d7cb88baca0b3758bf7157"
+  version "3.2.0"
+  sha256 "6278d4154dcfd795de942a31aab49de7812d17f2947692b2183458c74e672ddc"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/CascadiaMono.zip"
   desc "CaskaydiaMono Nerd Font (Cascadia Mono)"
   desc "Developer targeted fonts with a high number of glyphs"
