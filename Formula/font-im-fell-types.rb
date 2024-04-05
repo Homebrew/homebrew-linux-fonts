@@ -2,6 +2,7 @@ class FontImFellTypes < Formula
   head "https://iginomarini.com/fell/wp-content/uploads/IMFellTypesClass.zip"
   desc "IM Fell Types"
   homepage "https://iginomarini.com/fell/"
+  disable! date: "2024-04-04", because: :no_longer_available
   def install
     (share/"fonts").install "IMFeDPit29C.otf"
     (share/"fonts").install "IMFeDPrm29C.otf"
