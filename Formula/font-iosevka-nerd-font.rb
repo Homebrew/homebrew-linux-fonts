@@ -1,6 +1,6 @@
 class FontIosevkaNerdFont < Formula
-  version "3.2.0"
-  sha256 "037b09806e2a2bd0ec856ba8e1f40c6f3fbe71cd158591a690753899f8b94436"
+  version "3.2.1"
+  sha256 "40e4256822d648bcd147be0f9afbe89e9eb611b59edf3d757768d51ad593963d"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Iosevka.zip"
   desc "Iosevka Nerd Font (Iosevka)"
   desc "Developer targeted fonts with a high number of glyphs"
