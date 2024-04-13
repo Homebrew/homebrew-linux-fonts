@@ -1,6 +1,6 @@
 class FontGeistMonoNerdFont < Formula
-  version "3.2.0"
-  sha256 "c557e52876976dc2f028a2790cff62875e085fd6c201900be4a87be6a660a807"
+  version "3.2.1"
+  sha256 "87f9a0a7a585ffcf29a881002b1b5fc5ea091d5bc175b130154dc10a59fb3c76"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/GeistMono.zip"
   desc "GeistMono Nerd Font (Geist Mono)"
   desc "Developer targeted fonts with a high number of glyphs"
