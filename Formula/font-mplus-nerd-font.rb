@@ -1,6 +1,6 @@
 class FontMplusNerdFont < Formula
-  version "3.2.0"
-  sha256 "257a538526f9d9bbf79a9deb99422a3ac0a6368246321ca8c1b1fc9f619c0ae7"
+  version "3.2.1"
+  sha256 "2dfa4dedd98bbfe625ff56f0a31713aea77776aa7227bac300fd4246f2c79043"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/MPlus.zip"
   desc "M+ Nerd Font families (MPlus)"
   desc "Developer targeted fonts with a high number of glyphs"
