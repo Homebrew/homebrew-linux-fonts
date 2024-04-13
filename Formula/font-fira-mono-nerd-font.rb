@@ -1,6 +1,6 @@
 class FontFiraMonoNerdFont < Formula
-  version "3.2.0"
-  sha256 "1544c5012ac3e16c20dd00ad5321aba6b8555f767cdfcc679fd50bfe6d2aa5ab"
+  version "3.2.1"
+  sha256 "9f739a71d5b687325127b6076292bab1597efba188603b4f8cfcdfdf82e9e6fb"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/FiraMono.zip"
   desc "FiraMono Nerd Font (Fira)"
   desc "Developer targeted fonts with a high number of glyphs"
