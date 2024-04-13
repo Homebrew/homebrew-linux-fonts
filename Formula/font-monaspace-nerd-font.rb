@@ -1,6 +1,6 @@
 class FontMonaspaceNerdFont < Formula
-  version "3.2.0"
-  sha256 "334841de5bef1eebb0c5b533b2caad94261e26d628aed50b5c74420e22dd5851"
+  version "3.2.1"
+  sha256 "64ff3e00d928230576b7d0cfa443ed25438388bc5fc869c61aff267a59a18f7e"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Monaspace.zip"
   desc "Monaspice Nerd Font families (Monaspace)"
   desc "Developer targeted fonts with a high number of glyphs"
