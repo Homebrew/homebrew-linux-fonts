@@ -1,6 +1,6 @@
 class FontCousineNerdFont < Formula
-  version "3.2.0"
-  sha256 "fe3fff65e38fb80e0ee203c093667e511ce65f2e2980b57edf12d38e88831278"
+  version "3.2.1"
+  sha256 "4ebb4fe2dd2b70f9f6d8035226d15f4af61ec90f0b7f179272b3e9be12a4e3dc"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Cousine.zip"
   desc "Cousine Nerd Font (Cousine)"
   desc "Developer targeted fonts with a high number of glyphs"
