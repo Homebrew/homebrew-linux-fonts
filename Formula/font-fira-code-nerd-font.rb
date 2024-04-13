@@ -1,6 +1,6 @@
 class FontFiraCodeNerdFont < Formula
-  version "3.2.0"
-  sha256 "e70d4a8be94ed056ae0deed2c24c3389f87ccc1ecb08b4c3db9d39ce08840a54"
+  version "3.2.1"
+  sha256 "4ee8fbafecfc90460399b9828270b8ece30ccbf60b3ab875d64ff77696c6e262"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/FiraCode.zip"
   desc "FiraCode Nerd Font (Fira Code)"
   desc "Developer targeted fonts with a high number of glyphs"
