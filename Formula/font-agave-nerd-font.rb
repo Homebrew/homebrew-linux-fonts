@@ -1,6 +1,6 @@
 class FontAgaveNerdFont < Formula
-  version "3.2.0"
-  sha256 "d38bf39a125e4e3dc312ae50cbab5ac07aeca3a1738fe1ad753b0786d445982c"
+  version "3.2.1"
+  sha256 "248fdd6944f635ab1e8094cfd161d2408e64b7ff444401709734c73bdf6eb9cc"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Agave.zip"
   desc "Agave Nerd Font (Agave)"
   desc "Developer targeted fonts with a high number of glyphs"
