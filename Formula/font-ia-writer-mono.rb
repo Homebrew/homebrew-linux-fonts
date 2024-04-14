@@ -8,6 +8,8 @@ class FontIaWriterMono < Formula
     (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Mono/Static/iAWriterMonoS-BoldItalic.ttf"
     (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Mono/Static/iAWriterMonoS-Italic.ttf"
     (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Mono/Static/iAWriterMonoS-Regular.ttf"
+    (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Mono/Variable/iAWriterMonoV-Italic.ttf"
+    (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Mono/Variable/iAWriterMonoV.ttf"
   end
   # No zap stanza required
 
