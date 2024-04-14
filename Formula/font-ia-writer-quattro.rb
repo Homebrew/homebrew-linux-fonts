@@ -8,6 +8,8 @@ class FontIaWriterQuattro < Formula
     (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Quattro/Static/iAWriterQuattroS-BoldItalic.ttf"
     (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Quattro/Static/iAWriterQuattroS-Italic.ttf"
     (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Quattro/Static/iAWriterQuattroS-Regular.ttf"
+    (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Quattro/Variable/iAWriterQuattroV-Italic.ttf"
+    (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Quattro/Variable/iAWriterQuattroV.ttf"
   end
   # No zap stanza required
 
