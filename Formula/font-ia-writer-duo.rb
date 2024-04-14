@@ -8,6 +8,8 @@ class FontIaWriterDuo < Formula
     (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Duo/Static/iAWriterDuoS-BoldItalic.ttf"
     (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Duo/Static/iAWriterDuoS-Italic.ttf"
     (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Duo/Static/iAWriterDuoS-Regular.ttf"
+    (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Duo/Variable/iAWriterDuoV-Italic.ttf"
+    (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Duo/Variable/iAWriterDuoV.ttf"
   end
   # No zap stanza required
 
