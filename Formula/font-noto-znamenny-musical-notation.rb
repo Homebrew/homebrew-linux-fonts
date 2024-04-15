@@ -1,7 +1,7 @@
 class FontNotoZnamennyMusicalNotation < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/notoznamennymusicalnotation/NotoZnamennyMusicalNotation-Regular.ttf"
+  head "https://github.com/google/fonts/raw/main/ofl/notoznamennymusicalnotation/NotoZnamennyMusicalNotation-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Noto Znamenny Musical Notation"
-  homepage "https://github.com/notofonts/znamenny.git"
+  homepage "https://fonts.google.com/specimen/Noto+Znamenny+Musical+Notation"
   def install
     (share/"fonts").install "NotoZnamennyMusicalNotation-Regular.ttf"
   end
