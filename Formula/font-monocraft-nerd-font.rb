@@ -6,7 +6,7 @@ class FontMonocraftNerdFont < Formula
   desc "Monospaced font inspired by the Minecraft typeface patched to add Nerd glyphs"
   homepage "https://github.com/IdreesInc/Monocraft"
   def install
-    (share/"fonts").install "ofl/monda/" + "Monocraft-nerd-fonts-patched.ttf"
+    (share/"fonts").install "Monocraft-nerd-fonts-patched.ttf"
   end
   # No zap stanza required
 
