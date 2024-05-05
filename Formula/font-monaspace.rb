@@ -1,6 +1,6 @@
 class FontMonaspace < Formula
-  version "1.000"
-  sha256 "3e08376fd0aeca1f851fde0c08e18ca2d797f6a4c7a449670bf4d1270303c8f6"
+  version "1.100"
+  sha256 "c8f7e1a497cc128181d399b259b51e6fe332f7d0fed1fbb49bb05076a7753a9f"
   url "https://github.com/githubnext/monaspace/releases/download/v#{version}/monaspace-v#{version}.zip", verified: "github.com/githubnext/monaspace/"
   desc "Monaspace"
   desc "Superfamily of fonts for code"
