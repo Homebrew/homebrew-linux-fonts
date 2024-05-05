@@ -1,14 +1,14 @@
 class FontInter < Formula
-  version "4.0"
-  sha256 "ff970a5d4561a04f102a7cb781adbd6ac4e9b6c460914c7a101f15acb7f7d1a4"
-  url "https://github.com/rsms/inter/releases/download/v#{version}/Inter-#{version}.zip", verified: "github.com/rsms/inter/"
-  desc "Inter"
   desc "Variable font designed for display"
   homepage "https://rsms.me/inter/"
+  url "https://github.com/rsms/inter/releases/download/v#{version}/Inter-#{version}.zip", verified: "github.com/rsms/inter/"
+  version "4.0"
+  sha256 "ff970a5d4561a04f102a7cb781adbd6ac4e9b6c460914c7a101f15acb7f7d1a4"
+  name "Inter"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "ofl/intertight/" + "InterVariable-Italic.ttf"
-    (share/"fonts").install "ofl/intertight/" + "InterVariable.ttf"
+    parent = (File.dirname(Dir.pwd) == (ENV["HOMEBREW_TEMP"] || "/tmp")) ? "" : "../"
+    (share/"fonts").install "#{parent}InterVariable-Italic.ttf"
+    (share/"fonts").install "#{parent}InterVariable.ttf"
     (share/"fonts").install "#{parent}extras/otf/Inter-Black.otf"
     (share/"fonts").install "#{parent}extras/otf/Inter-BlackItalic.otf"
     (share/"fonts").install "#{parent}extras/otf/Inter-Bold.otf"
