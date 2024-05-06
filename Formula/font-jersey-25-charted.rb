@@ -1,7 +1,7 @@
 class FontJersey25Charted < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/jersey25charted/Jersey25Charted-Regular.ttf"
+  head "https://github.com/google/fonts/raw/main/ofl/jersey25charted/Jersey25Charted-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Jersey 25 Charted"
-  homepage "https://github.com/scfried/soft-type-jersey"
+  homepage "https://fonts.google.com/specimen/Jersey+25+Charted"
   def install
     (share/"fonts").install "Jersey25Charted-Regular.ttf"
   end
