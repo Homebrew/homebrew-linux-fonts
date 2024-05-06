@@ -1,8 +1,8 @@
 class FontJaini < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/jaini/Jaini-Regular.ttf"
+  head "https://github.com/google/fonts/raw/main/ofl/jaini/Jaini-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Jaini"
   desc "Typeface based on the calligraphic style of the Jain Kalpasutra manuscripts"
-  homepage "https://github.com/EkType/Jaini"
+  homepage "https://fonts.google.com/specimen/Jaini"
   def install
     (share/"fonts").install "Jaini-Regular.ttf"
   end
