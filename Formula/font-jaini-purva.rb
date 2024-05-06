@@ -1,8 +1,8 @@
 class FontJainiPurva < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/jainipurva/JainiPurva-Regular.ttf"
+  head "https://github.com/google/fonts/raw/main/ofl/jainipurva/JainiPurva-Regular.ttf", verified: "github.com/google/fonts/"
   desc "Jaini Purva"
   desc "Typeface based on the calligraphic style of the Jain Kalpasutra manuscripts"
-  homepage "https://github.com/EkType/Jaini"
+  homepage "https://fonts.google.com/specimen/Jaini+Purva"
   def install
     (share/"fonts").install "JainiPurva-Regular.ttf"
   end
