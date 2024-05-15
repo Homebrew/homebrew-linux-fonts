@@ -1,6 +1,6 @@
 class FontLxgwNeozhisong < Formula
-  version "0.921"
-  sha256 "9c553d2f384a419359d022074f43237c19a5e70be5d819fd012849fb77227370"
+  version "0.921.1"
+  sha256 "5d601c125b1d0b92e7efe09634e597625ef42f07036325af494bbd3b95857423"
   url "https://github.com/lxgw/LxgwNeoZhiSong/releases/download/v#{version}/LXGWNeoZhiSong.ttf"
   desc "LXGW Neo ZhiSong"
   desc "霞鹜新致宋"
