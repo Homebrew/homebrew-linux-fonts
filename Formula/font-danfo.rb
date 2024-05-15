@@ -1,8 +1,8 @@
 class FontDanfo < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/danfo/Danfo%5BELSH%5D.ttf"
+  head "https://github.com/google/fonts/raw/main/ofl/danfo/Danfo%5BELSH%5D.ttf", verified: "github.com/google/fonts/"
   desc "Danfo"
   desc "Elsh axis variable font with three main styles at 0,50, and 100"
-  homepage "https://github.com/Afrotype/danfo"
+  homepage "https://fonts.google.com/specimen/Danfo"
   def install
     (share/"fonts").install "Danfo[ELSH].ttf"
   end
