@@ -6,15 +6,15 @@ class FontCodeNewRomanNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "ofl/coda/" + "CodeNewRomanNerdFont-Bold.otf"
-    (share/"fonts").install "ofl/coda/" + "CodeNewRomanNerdFont-Italic.otf"
-    (share/"fonts").install "ofl/coda/" + "CodeNewRomanNerdFont-Regular.otf"
-    (share/"fonts").install "ofl/coda/" + "CodeNewRomanNerdFontMono-Bold.otf"
-    (share/"fonts").install "ofl/coda/" + "CodeNewRomanNerdFontMono-Italic.otf"
-    (share/"fonts").install "ofl/coda/" + "CodeNewRomanNerdFontMono-Regular.otf"
-    (share/"fonts").install "ofl/coda/" + "CodeNewRomanNerdFontPropo-Bold.otf"
-    (share/"fonts").install "ofl/coda/" + "CodeNewRomanNerdFontPropo-Italic.otf"
-    (share/"fonts").install "ofl/coda/" + "CodeNewRomanNerdFontPropo-Regular.otf"
+    (share/"fonts").install "CodeNewRomanNerdFont-Bold.otf"
+    (share/"fonts").install "CodeNewRomanNerdFont-Italic.otf"
+    (share/"fonts").install "CodeNewRomanNerdFont-Regular.otf"
+    (share/"fonts").install "CodeNewRomanNerdFontMono-Bold.otf"
+    (share/"fonts").install "CodeNewRomanNerdFontMono-Italic.otf"
+    (share/"fonts").install "CodeNewRomanNerdFontMono-Regular.otf"
+    (share/"fonts").install "CodeNewRomanNerdFontPropo-Bold.otf"
+    (share/"fonts").install "CodeNewRomanNerdFontPropo-Italic.otf"
+    (share/"fonts").install "CodeNewRomanNerdFontPropo-Regular.otf"
   end
   # No zap stanza required
 
