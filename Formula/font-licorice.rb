@@ -4,7 +4,7 @@ class FontLicorice < Formula
   desc "Perfect scrapbooking, cards, invitations and fun events"
   homepage "https://fonts.google.com/specimen/Licorice"
   def install
-    (share/"fonts").install "Licorice-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Licorice-Regular.ttf")[0]
   end
   # No zap stanza required
 

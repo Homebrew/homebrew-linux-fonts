@@ -6,34 +6,34 @@ class FontImWritingNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "iMWritingDuoNerdFont-Bold.ttf"
-    (share/"fonts").install "iMWritingDuoNerdFont-BoldItalic.ttf"
-    (share/"fonts").install "iMWritingDuoNerdFont-Italic.ttf"
-    (share/"fonts").install "iMWritingDuoNerdFont-Regular.ttf"
-    (share/"fonts").install "iMWritingDuoNerdFontPropo-Bold.ttf"
-    (share/"fonts").install "iMWritingDuoNerdFontPropo-BoldItalic.ttf"
-    (share/"fonts").install "iMWritingDuoNerdFontPropo-Italic.ttf"
-    (share/"fonts").install "iMWritingDuoNerdFontPropo-Regular.ttf"
-    (share/"fonts").install "iMWritingMonoNerdFont-Bold.ttf"
-    (share/"fonts").install "iMWritingMonoNerdFont-BoldItalic.ttf"
-    (share/"fonts").install "iMWritingMonoNerdFont-Italic.ttf"
-    (share/"fonts").install "iMWritingMonoNerdFont-Regular.ttf"
-    (share/"fonts").install "iMWritingMonoNerdFontMono-Bold.ttf"
-    (share/"fonts").install "iMWritingMonoNerdFontMono-BoldItalic.ttf"
-    (share/"fonts").install "iMWritingMonoNerdFontMono-Italic.ttf"
-    (share/"fonts").install "iMWritingMonoNerdFontMono-Regular.ttf"
-    (share/"fonts").install "iMWritingMonoNerdFontPropo-Bold.ttf"
-    (share/"fonts").install "iMWritingMonoNerdFontPropo-BoldItalic.ttf"
-    (share/"fonts").install "iMWritingMonoNerdFontPropo-Italic.ttf"
-    (share/"fonts").install "iMWritingMonoNerdFontPropo-Regular.ttf"
-    (share/"fonts").install "iMWritingQuatNerdFont-Bold.ttf"
-    (share/"fonts").install "iMWritingQuatNerdFont-BoldItalic.ttf"
-    (share/"fonts").install "iMWritingQuatNerdFont-Italic.ttf"
-    (share/"fonts").install "iMWritingQuatNerdFont-Regular.ttf"
-    (share/"fonts").install "iMWritingQuatNerdFontPropo-Bold.ttf"
-    (share/"fonts").install "iMWritingQuatNerdFontPropo-BoldItalic.ttf"
-    (share/"fonts").install "iMWritingQuatNerdFontPropo-Italic.ttf"
-    (share/"fonts").install "iMWritingQuatNerdFontPropo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/iMWritingDuoNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/iMWritingDuoNerdFont-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/iMWritingDuoNerdFont-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/iMWritingDuoNerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/iMWritingDuoNerdFontPropo-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/iMWritingDuoNerdFontPropo-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/iMWritingDuoNerdFontPropo-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/iMWritingDuoNerdFontPropo-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/iMWritingMonoNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/iMWritingMonoNerdFont-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/iMWritingMonoNerdFont-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/iMWritingMonoNerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/iMWritingMonoNerdFontMono-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/iMWritingMonoNerdFontMono-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/iMWritingMonoNerdFontMono-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/iMWritingMonoNerdFontMono-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/iMWritingMonoNerdFontPropo-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/iMWritingMonoNerdFontPropo-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/iMWritingMonoNerdFontPropo-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/iMWritingMonoNerdFontPropo-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/iMWritingQuatNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/iMWritingQuatNerdFont-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/iMWritingQuatNerdFont-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/iMWritingQuatNerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/iMWritingQuatNerdFontPropo-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/iMWritingQuatNerdFontPropo-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/iMWritingQuatNerdFontPropo-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/iMWritingQuatNerdFontPropo-Regular.ttf")[0]
   end
   # No zap stanza required
 

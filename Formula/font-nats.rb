@@ -3,7 +3,7 @@ class FontNats < Formula
   desc "NATS"
   homepage "https://fonts.google.com/specimen/NATS"
   def install
-    (share/"fonts").install "NATS-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NATS-Regular.ttf")[0]
   end
   # No zap stanza required
 

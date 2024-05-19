@@ -95,13 +95,15 @@ class CaskTransform < Parslet::Transform
         comment.to_s + "\n"
     }
     rule(:font   => simple(:font)) {
-      afont = font.to_s
-      afont = afont.sub(/"(.*\/)/, '"#{parent}\1')
-      if @@only_path != "" && !afont.include?('#{parent}') then
+      afont = font.to_s.sub(/^"([^"]*)"$/, '\1')
+      dirname = File.dirname(afont)
+      basename = File.basename(afont)
+      afont = File.join(dirname, "**", basename)
+      if @@only_path != "" then
         afont = "\"#{@@only_path}/\" + " + afont
       end
       afont = replace_cask_version_properties(afont)
-      "(share/\"fonts\").install #{afont}"
+      "(share/\"fonts\").install Dir.glob(\"#{afont}\")[0]"
     }
     rule(:name   => simple(:name),
          :before => sequence(:before),
@@ -110,12 +112,11 @@ class CaskTransform < Parslet::Transform
         commands1 = before.select{|c| c != ""}
         camelcase = name.to_s.gsub('"', "").gsub(/(^|-)(\w)/) { $2.upcase }
         commands2 = after.select{|c| c != ""}+["test do\n  end"]
-        parent = "parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''\n    "
         <<~EOS
         class #{camelcase} < Formula
           #{commands1.join("\n  ")}
           def install
-            #{parent if fonts.to_s.include? "\#{parent}"}#{fonts.join("\n    ")}
+            #{fonts.join("\n    ")}
           end
           #{commands2.join("\n  ")}
         end

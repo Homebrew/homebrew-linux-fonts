@@ -3,12 +3,11 @@ class FontOppoSans < Formula
   desc "OPPO Sans"
   homepage "https://www.coloros.com/index/newsDetail?id=72"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}3.0 Designer_分级/OPlusSans3-ExtraLight.ttf"
-    (share/"fonts").install "#{parent}3.0 Designer_分级/OPlusSans3-Light.ttf"
-    (share/"fonts").install "#{parent}3.0 Designer_分级/OPlusSans3-Regular.ttf"
-    (share/"fonts").install "#{parent}3.0 Designer_分级/OPlusSans3-Medium.ttf"
-    (share/"fonts").install "#{parent}3.0 Designer_分级/OPlusSans3-Bold.ttf"
+    (share/"fonts").install Dir.glob("3.0 Designer_分级/**/OPlusSans3-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob("3.0 Designer_分级/**/OPlusSans3-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("3.0 Designer_分级/**/OPlusSans3-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("3.0 Designer_分级/**/OPlusSans3-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("3.0 Designer_分级/**/OPlusSans3-Bold.ttf")[0]
   end
   # No zap stanza required
 

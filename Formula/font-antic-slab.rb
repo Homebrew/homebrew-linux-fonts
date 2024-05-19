@@ -3,7 +3,7 @@ class FontAnticSlab < Formula
   desc "Antic Slab"
   homepage "https://fonts.google.com/specimen/Antic+Slab"
   def install
-    (share/"fonts").install "AnticSlab-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/AnticSlab-Regular.ttf")[0]
   end
   # No zap stanza required
 

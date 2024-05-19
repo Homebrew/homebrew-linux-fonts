@@ -3,7 +3,7 @@ class FontNotoSansAnatolianHieroglyphs < Formula
   desc "Noto Sans Anatolian Hieroglyphs"
   homepage "https://www.google.com/get/noto/#sans-hluw"
   def install
-    (share/"fonts").install "NotoSansAnatolianHieroglyphs-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansAnatolianHieroglyphs-Regular.ttf")[0]
   end
   # No zap stanza required
 

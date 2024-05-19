@@ -3,7 +3,7 @@ class FontPasseroOne < Formula
   desc "Passero One"
   homepage "https://fonts.google.com/specimen/Passero+One"
   def install
-    (share/"fonts").install "PasseroOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/PasseroOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -6,8 +6,7 @@ class FontCalSans < Formula
   desc "Geometric sans-serif typeface"
   homepage "https://github.com/calcom/font"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}fonts/otf/CalSans-SemiBold.otf"
+    (share/"fonts").install Dir.glob("fonts/otf/**/CalSans-SemiBold.otf")[0]
   end
   # No zap stanza required
 

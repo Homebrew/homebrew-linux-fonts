@@ -3,7 +3,7 @@ class FontNotoSansNushu < Formula
   desc "Noto Sans Nushu"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Nushu"
   def install
-    (share/"fonts").install "NotoSansNushu-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansNushu-Regular.ttf")[0]
   end
   # No zap stanza required
 

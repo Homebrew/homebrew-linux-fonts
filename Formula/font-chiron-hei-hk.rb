@@ -7,9 +7,8 @@ class FontChironHeiHk < Formula
   desc "Modern, region-agnostic traditional Chinese sans serif typeface"
   homepage "https://github.com/chiron-fonts/chiron-hei-hk"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}chiron-hei-hk-#{version}/VAR/ChironHeiHKItVF.otf"
-    (share/"fonts").install "#{parent}chiron-hei-hk-#{version}/VAR/ChironHeiHKVF.otf"
+    (share/"fonts").install Dir.glob("chiron-hei-hk-#{version}/VAR/**/ChironHeiHKItVF.otf")[0]
+    (share/"fonts").install Dir.glob("chiron-hei-hk-#{version}/VAR/**/ChironHeiHKVF.otf")[0]
   end
   # No zap stanza required
 

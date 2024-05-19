@@ -3,7 +3,7 @@ class FontJacquardaBastarda9 < Formula
   desc "Jacquarda Bastarda 9"
   homepage "https://fonts.google.com/specimen/Jacquarda+Bastarda+9"
   def install
-    (share/"fonts").install "JacquardaBastarda9-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/JacquardaBastarda9-Regular.ttf")[0]
   end
   # No zap stanza required
 

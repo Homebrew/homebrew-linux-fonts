@@ -3,8 +3,8 @@ class FontNotoSansKannada < Formula
   desc "Noto Sans Kannada"
   homepage "https://www.google.com/get/noto/#sans-knda"
   def install
-    (share/"fonts").install "NotoSansKannada-Bold.ttf"
-    (share/"fonts").install "NotoSansKannada-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansKannada-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansKannada-Regular.ttf")[0]
   end
   # No zap stanza required
 

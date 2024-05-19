@@ -6,8 +6,8 @@ class FontSymbolsOnlyNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "SymbolsNerdFont-Regular.ttf"
-    (share/"fonts").install "SymbolsNerdFontMono-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/SymbolsNerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/SymbolsNerdFontMono-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -4,8 +4,7 @@ class FontPigmo01 < Formula
   desc "Cute drawing styled Japanese font"
   homepage "https://moji-waku.com/pigmo01/index.html"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}pigmo01/Pigmo-01.otf"
+    (share/"fonts").install Dir.glob("pigmo01/**/Pigmo-01.otf")[0]
   end
   # No zap stanza required
 

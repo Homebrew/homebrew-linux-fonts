@@ -3,7 +3,7 @@ class FontNotoSansSharada < Formula
   desc "Noto Sans Sharada"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Sharada"
   def install
-    (share/"fonts").install "NotoSansSharada-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansSharada-Regular.ttf")[0]
   end
   # No zap stanza required
 

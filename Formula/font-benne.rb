@@ -4,7 +4,7 @@ class FontBenne < Formula
   desc "Kannada text font developed by john harrington"
   homepage "https://fonts.google.com/specimen/Benne"
   def install
-    (share/"fonts").install "Benne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Benne-Regular.ttf")[0]
   end
   # No zap stanza required
 

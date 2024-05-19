@@ -6,9 +6,8 @@ class FontCascadiaCodeNf < Formula
   desc "Version of Cascadia Code with embedded Nerd Fonts symbols"
   homepage "https://github.com/microsoft/cascadia-code"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}ttf/CascadiaCodeNF.ttf"
-    (share/"fonts").install "#{parent}ttf/CascadiaCodeNFItalic.ttf"
+    (share/"fonts").install Dir.glob("ttf/**/CascadiaCodeNF.ttf")[0]
+    (share/"fonts").install Dir.glob("ttf/**/CascadiaCodeNFItalic.ttf")[0]
   end
   # No zap stanza required
 

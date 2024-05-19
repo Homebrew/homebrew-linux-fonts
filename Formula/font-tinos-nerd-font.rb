@@ -6,14 +6,14 @@ class FontTinosNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "TinosNerdFont-Bold.ttf"
-    (share/"fonts").install "TinosNerdFont-BoldItalic.ttf"
-    (share/"fonts").install "TinosNerdFont-Italic.ttf"
-    (share/"fonts").install "TinosNerdFont-Regular.ttf"
-    (share/"fonts").install "TinosNerdFontPropo-Bold.ttf"
-    (share/"fonts").install "TinosNerdFontPropo-BoldItalic.ttf"
-    (share/"fonts").install "TinosNerdFontPropo-Italic.ttf"
-    (share/"fonts").install "TinosNerdFontPropo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/TinosNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/TinosNerdFont-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/TinosNerdFont-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/TinosNerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/TinosNerdFontPropo-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/TinosNerdFontPropo-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/TinosNerdFontPropo-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/TinosNerdFontPropo-Regular.ttf")[0]
   end
   # No zap stanza required
 

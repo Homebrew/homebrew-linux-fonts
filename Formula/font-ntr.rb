@@ -3,7 +3,7 @@ class FontNtr < Formula
   desc "NTR"
   homepage "https://fonts.google.com/specimen/NTR"
   def install
-    (share/"fonts").install "NTR-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NTR-Regular.ttf")[0]
   end
   # No zap stanza required
 

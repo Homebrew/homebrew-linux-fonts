@@ -3,7 +3,7 @@ class FontTypographerWoodcutInitialsOne < Formula
   desc "Typographer Woodcut Initials One"
   homepage "https://www.1001fonts.com/typographerwoodcutinitialsone-font.html"
   def install
-    (share/"fonts").install "TypographerWoodcut01.ttf"
+    (share/"fonts").install Dir.glob("./**/TypographerWoodcut01.ttf")[0]
   end
   # No zap stanza required
 

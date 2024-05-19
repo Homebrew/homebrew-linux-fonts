@@ -3,7 +3,7 @@ class FontNotoSansMro < Formula
   desc "Noto Sans Mro"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Mro"
   def install
-    (share/"fonts").install "NotoSansMro-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansMro-Regular.ttf")[0]
   end
   # No zap stanza required
 

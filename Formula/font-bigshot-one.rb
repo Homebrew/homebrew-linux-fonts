@@ -3,7 +3,7 @@ class FontBigshotOne < Formula
   desc "Bigshot One"
   homepage "https://fonts.google.com/specimen/Bigshot+One"
   def install
-    (share/"fonts").install "BigshotOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/BigshotOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

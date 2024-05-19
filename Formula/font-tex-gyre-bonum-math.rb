@@ -5,8 +5,7 @@ class FontTexGyreBonumMath < Formula
   desc "Bonum Math"
   homepage "https://www.gust.org.pl/projects/e-foundry/tg-math"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}texgyrebonum-math-#{version.to_s.gsub(".", "")}/opentype/texgyrebonum-math.otf"
+    (share/"fonts").install Dir.glob("texgyrebonum-math-#{version.to_s.gsub(".", "")}/opentype/**/texgyrebonum-math.otf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontHandlee < Formula
   desc "Handlee"
   homepage "https://fonts.google.com/specimen/Handlee"
   def install
-    (share/"fonts").install "Handlee-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Handlee-Regular.ttf")[0]
   end
   # No zap stanza required
 

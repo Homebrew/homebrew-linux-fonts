@@ -3,7 +3,7 @@ class FontGrandifloraOne < Formula
   desc "Grandiflora One"
   homepage "https://fonts.google.com/specimen/Grandiflora+One"
   def install
-    (share/"fonts").install "GrandifloraOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/GrandifloraOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

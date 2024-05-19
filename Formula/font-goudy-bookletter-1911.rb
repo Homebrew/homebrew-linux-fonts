@@ -3,7 +3,7 @@ class FontGoudyBookletter1911 < Formula
   desc "Goudy Bookletter 1911"
   homepage "https://fonts.google.com/specimen/Goudy+Bookletter+1911"
   def install
-    (share/"fonts").install "GoudyBookletter1911.ttf"
+    (share/"fonts").install Dir.glob("./**/GoudyBookletter1911.ttf")[0]
   end
   # No zap stanza required
 

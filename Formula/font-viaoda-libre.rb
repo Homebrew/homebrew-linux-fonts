@@ -3,7 +3,7 @@ class FontViaodaLibre < Formula
   desc "Viaoda Libre"
   homepage "https://fonts.google.com/specimen/Viaoda+Libre"
   def install
-    (share/"fonts").install "ViaodaLibre-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/ViaodaLibre-Regular.ttf")[0]
   end
   # No zap stanza required
 

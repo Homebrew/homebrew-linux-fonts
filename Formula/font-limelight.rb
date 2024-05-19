@@ -3,7 +3,7 @@ class FontLimelight < Formula
   desc "Limelight"
   homepage "https://fonts.google.com/specimen/Limelight"
   def install
-    (share/"fonts").install "Limelight-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Limelight-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -4,15 +4,14 @@ class FontPtSans < Formula
   desc "Type family of universal use"
   homepage "https://www.paratype.com/fonts/pt/pt-sans"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}PT/PT/PT-Sans/pt-sans_bold-italic.ttf"
-    (share/"fonts").install "#{parent}PT/PT/PT-Sans/pt-sans_bold.ttf"
-    (share/"fonts").install "#{parent}PT/PT/PT-Sans/pt-sans_caption-bold.ttf"
-    (share/"fonts").install "#{parent}PT/PT/PT-Sans/pt-sans_caption-regular.ttf"
-    (share/"fonts").install "#{parent}PT/PT/PT-Sans/pt-sans_italic.ttf"
-    (share/"fonts").install "#{parent}PT/PT/PT-Sans/pt-sans_narrow-bold.ttf"
-    (share/"fonts").install "#{parent}PT/PT/PT-Sans/pt-sans_narrow-regular.ttf"
-    (share/"fonts").install "#{parent}PT/PT/PT-Sans/pt-sans_regular.ttf"
+    (share/"fonts").install Dir.glob("PT/PT/PT-Sans/**/pt-sans_bold-italic.ttf")[0]
+    (share/"fonts").install Dir.glob("PT/PT/PT-Sans/**/pt-sans_bold.ttf")[0]
+    (share/"fonts").install Dir.glob("PT/PT/PT-Sans/**/pt-sans_caption-bold.ttf")[0]
+    (share/"fonts").install Dir.glob("PT/PT/PT-Sans/**/pt-sans_caption-regular.ttf")[0]
+    (share/"fonts").install Dir.glob("PT/PT/PT-Sans/**/pt-sans_italic.ttf")[0]
+    (share/"fonts").install Dir.glob("PT/PT/PT-Sans/**/pt-sans_narrow-bold.ttf")[0]
+    (share/"fonts").install Dir.glob("PT/PT/PT-Sans/**/pt-sans_narrow-regular.ttf")[0]
+    (share/"fonts").install Dir.glob("PT/PT/PT-Sans/**/pt-sans_regular.ttf")[0]
   end
   # No zap stanza required
 

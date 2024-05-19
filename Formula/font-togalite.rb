@@ -4,13 +4,12 @@ class FontTogalite < Formula
   desc "M+ extended with thorn"
   homepage "https://moji-waku.com/togalite/index.html"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}togalite/togalite-black.otf"
-    (share/"fonts").install "#{parent}togalite/togalite-bold.otf"
-    (share/"fonts").install "#{parent}togalite/togalite-heavy.otf"
-    (share/"fonts").install "#{parent}togalite/togalite-light.otf"
-    (share/"fonts").install "#{parent}togalite/togalite-medium.otf"
-    (share/"fonts").install "#{parent}togalite/togalite-regular.otf"
+    (share/"fonts").install Dir.glob("togalite/**/togalite-black.otf")[0]
+    (share/"fonts").install Dir.glob("togalite/**/togalite-bold.otf")[0]
+    (share/"fonts").install Dir.glob("togalite/**/togalite-heavy.otf")[0]
+    (share/"fonts").install Dir.glob("togalite/**/togalite-light.otf")[0]
+    (share/"fonts").install Dir.glob("togalite/**/togalite-medium.otf")[0]
+    (share/"fonts").install Dir.glob("togalite/**/togalite-regular.otf")[0]
   end
   # No zap stanza required
 

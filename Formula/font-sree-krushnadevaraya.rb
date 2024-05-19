@@ -3,7 +3,7 @@ class FontSreeKrushnadevaraya < Formula
   desc "Sree Krushnadevaraya"
   homepage "https://fonts.google.com/specimen/Sree+Krushnadevaraya"
   def install
-    (share/"fonts").install "SreeKrushnadevaraya-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/SreeKrushnadevaraya-Regular.ttf")[0]
   end
   # No zap stanza required
 

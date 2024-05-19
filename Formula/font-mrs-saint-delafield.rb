@@ -3,7 +3,7 @@ class FontMrsSaintDelafield < Formula
   desc "Mrs Saint Delafield"
   homepage "https://fonts.google.com/specimen/Mrs+Saint+Delafield"
   def install
-    (share/"fonts").install "MrsSaintDelafield-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/MrsSaintDelafield-Regular.ttf")[0]
   end
   # No zap stanza required
 

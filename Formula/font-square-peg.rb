@@ -3,7 +3,7 @@ class FontSquarePeg < Formula
   desc "Square Peg"
   homepage "https://fonts.google.com/specimen/Square+Peg"
   def install
-    (share/"fonts").install "SquarePeg-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/SquarePeg-Regular.ttf")[0]
   end
   # No zap stanza required
 

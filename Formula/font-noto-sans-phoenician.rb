@@ -3,7 +3,7 @@ class FontNotoSansPhoenician < Formula
   desc "Noto Sans Phoenician"
   homepage "https://www.google.com/get/noto/#sans-phnx"
   def install
-    (share/"fonts").install "NotoSansPhoenician-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansPhoenician-Regular.ttf")[0]
   end
   # No zap stanza required
 

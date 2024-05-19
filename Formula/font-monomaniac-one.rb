@@ -4,7 +4,7 @@ class FontMonomaniacOne < Formula
   desc "Display font with the mood of monospaced typefaces"
   homepage "https://fonts.google.com/specimen/Monomaniac+One"
   def install
-    (share/"fonts").install "MonomaniacOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/MonomaniacOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

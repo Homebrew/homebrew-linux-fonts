@@ -4,7 +4,7 @@ class FontTacOne < Formula
   desc "Project from afrotype"
   homepage "https://fonts.google.com/specimen/Tac+One"
   def install
-    (share/"fonts").install "TacOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/TacOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontNotoSerifTangut < Formula
   desc "Noto Serif Tangut"
   homepage "https://fonts.google.com/specimen/Noto+Serif+Tangut"
   def install
-    (share/"fonts").install "NotoSerifTangut-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSerifTangut-Regular.ttf")[0]
   end
   # No zap stanza required
 

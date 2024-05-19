@@ -3,7 +3,7 @@ class FontGermaniaOne < Formula
   desc "Germania One"
   homepage "https://fonts.google.com/specimen/Germania+One"
   def install
-    (share/"fonts").install "GermaniaOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/GermaniaOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

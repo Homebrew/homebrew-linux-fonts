@@ -3,7 +3,7 @@ class FontRochester < Formula
   desc "Rochester"
   homepage "https://fonts.google.com/specimen/Rochester"
   def install
-    (share/"fonts").install "Rochester-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Rochester-Regular.ttf")[0]
   end
   # No zap stanza required
 

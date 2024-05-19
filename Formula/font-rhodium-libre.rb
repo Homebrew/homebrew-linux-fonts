@@ -3,7 +3,7 @@ class FontRhodiumLibre < Formula
   desc "Rhodium Libre"
   homepage "https://fonts.google.com/specimen/Rhodium+Libre"
   def install
-    (share/"fonts").install "RhodiumLibre-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/RhodiumLibre-Regular.ttf")[0]
   end
   # No zap stanza required
 

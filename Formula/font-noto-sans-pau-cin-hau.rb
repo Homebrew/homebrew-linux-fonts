@@ -3,7 +3,7 @@ class FontNotoSansPauCinHau < Formula
   desc "Noto Sans Pau Cin Hau"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Pau+Cin+Hau"
   def install
-    (share/"fonts").install "NotoSansPauCinHau-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansPauCinHau-Regular.ttf")[0]
   end
   # No zap stanza required
 

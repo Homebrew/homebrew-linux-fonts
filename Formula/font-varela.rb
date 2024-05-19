@@ -3,7 +3,7 @@ class FontVarela < Formula
   desc "Varela"
   homepage "https://fonts.google.com/specimen/Varela"
   def install
-    (share/"fonts").install "Varela-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Varela-Regular.ttf")[0]
   end
   # No zap stanza required
 

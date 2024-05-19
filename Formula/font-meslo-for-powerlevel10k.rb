@@ -6,10 +6,10 @@ class FontMesloForPowerlevel10k < Formula
   desc "Monospace font customized for Powerlevel10k"
   homepage "https://github.com/romkatv/powerlevel10k-media"
   def install
-    (share/"fonts").install "MesloLGS NF Bold Italic.ttf"
-    (share/"fonts").install "MesloLGS NF Bold.ttf"
-    (share/"fonts").install "MesloLGS NF Italic.ttf"
-    (share/"fonts").install "MesloLGS NF Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/MesloLGS NF Bold Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MesloLGS NF Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MesloLGS NF Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MesloLGS NF Regular.ttf")[0]
   end
   # No zap stanza required
 

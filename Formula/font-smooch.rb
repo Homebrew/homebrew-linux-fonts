@@ -4,7 +4,7 @@ class FontSmooch < Formula
   desc "Slightly bolder than other hand-lettered scripts"
   homepage "https://fonts.google.com/specimen/Smooch"
   def install
-    (share/"fonts").install "Smooch-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Smooch-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontDidactGothic < Formula
   desc "Didact Gothic"
   homepage "https://fonts.google.com/specimen/Didact+Gothic"
   def install
-    (share/"fonts").install "DidactGothic-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/DidactGothic-Regular.ttf")[0]
   end
   # No zap stanza required
 

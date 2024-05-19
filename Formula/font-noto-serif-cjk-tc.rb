@@ -6,14 +6,13 @@ class FontNotoSerifCjkTc < Formula
   desc "Language Specific OTFs Traditional Chinese — Taiwan (繁體中文—臺灣)"
   homepage "https://github.com/notofonts/noto-cjk/tree/main/Serif"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}OTF/TraditionalChinese/NotoSerifCJKtc-Black.otf"
-    (share/"fonts").install "#{parent}OTF/TraditionalChinese/NotoSerifCJKtc-Bold.otf"
-    (share/"fonts").install "#{parent}OTF/TraditionalChinese/NotoSerifCJKtc-ExtraLight.otf"
-    (share/"fonts").install "#{parent}OTF/TraditionalChinese/NotoSerifCJKtc-Light.otf"
-    (share/"fonts").install "#{parent}OTF/TraditionalChinese/NotoSerifCJKtc-Medium.otf"
-    (share/"fonts").install "#{parent}OTF/TraditionalChinese/NotoSerifCJKtc-Regular.otf"
-    (share/"fonts").install "#{parent}OTF/TraditionalChinese/NotoSerifCJKtc-SemiBold.otf"
+    (share/"fonts").install Dir.glob("OTF/TraditionalChinese/**/NotoSerifCJKtc-Black.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/TraditionalChinese/**/NotoSerifCJKtc-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/TraditionalChinese/**/NotoSerifCJKtc-ExtraLight.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/TraditionalChinese/**/NotoSerifCJKtc-Light.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/TraditionalChinese/**/NotoSerifCJKtc-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/TraditionalChinese/**/NotoSerifCJKtc-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/TraditionalChinese/**/NotoSerifCJKtc-SemiBold.otf")[0]
   end
   # No zap stanza required
 

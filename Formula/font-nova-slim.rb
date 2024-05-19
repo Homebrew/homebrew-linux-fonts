@@ -3,7 +3,7 @@ class FontNovaSlim < Formula
   desc "Nova Slim"
   homepage "https://fonts.google.com/specimen/Nova+Slim"
   def install
-    (share/"fonts").install "NovaSlim.ttf"
+    (share/"fonts").install Dir.glob("./**/NovaSlim.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,15 +3,14 @@ class FontNimbusSansL < Formula
   desc "Nimbus Sans L"
   homepage "https://fontlibrary.org/en/font/nimbus-sans-l"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}nimbus-sans-l/NimbusSanL-Bold.ttf"
-    (share/"fonts").install "#{parent}nimbus-sans-l/NimbusSanL-BoldCond.ttf"
-    (share/"fonts").install "#{parent}nimbus-sans-l/NimbusSanL-BoldCondItal.ttf"
-    (share/"fonts").install "#{parent}nimbus-sans-l/NimbusSanL-BoldItal.ttf"
-    (share/"fonts").install "#{parent}nimbus-sans-l/NimbusSanL-Regu.ttf"
-    (share/"fonts").install "#{parent}nimbus-sans-l/NimbusSanL-ReguCond.ttf"
-    (share/"fonts").install "#{parent}nimbus-sans-l/NimbusSanL-ReguCondItal.ttf"
-    (share/"fonts").install "#{parent}nimbus-sans-l/NimbusSanL-ReguItal.ttf"
+    (share/"fonts").install Dir.glob("nimbus-sans-l/**/NimbusSanL-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("nimbus-sans-l/**/NimbusSanL-BoldCond.ttf")[0]
+    (share/"fonts").install Dir.glob("nimbus-sans-l/**/NimbusSanL-BoldCondItal.ttf")[0]
+    (share/"fonts").install Dir.glob("nimbus-sans-l/**/NimbusSanL-BoldItal.ttf")[0]
+    (share/"fonts").install Dir.glob("nimbus-sans-l/**/NimbusSanL-Regu.ttf")[0]
+    (share/"fonts").install Dir.glob("nimbus-sans-l/**/NimbusSanL-ReguCond.ttf")[0]
+    (share/"fonts").install Dir.glob("nimbus-sans-l/**/NimbusSanL-ReguCondItal.ttf")[0]
+    (share/"fonts").install Dir.glob("nimbus-sans-l/**/NimbusSanL-ReguItal.ttf")[0]
   end
   # No zap stanza required
 

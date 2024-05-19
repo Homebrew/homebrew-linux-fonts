@@ -3,7 +3,7 @@ class FontSansitaOne < Formula
   desc "Sansita One"
   homepage "https://fonts.google.com/specimen/Sansita+One"
   def install
-    (share/"fonts").install "SansitaOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/SansitaOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

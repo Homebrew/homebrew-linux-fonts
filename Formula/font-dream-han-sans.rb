@@ -6,33 +6,33 @@ class FontDreamHanSans < Formula
   desc "Pan-CJK font families with range of weights"
   homepage "https://github.com/Pal3love/dream-han-cjk/"
   def install
-    (share/"fonts").install "DreamHanSans-W1.ttc"
-    (share/"fonts").install "DreamHanSans-W2.ttc"
-    (share/"fonts").install "DreamHanSans-W3.ttc"
-    (share/"fonts").install "DreamHanSans-W4.ttc"
-    (share/"fonts").install "DreamHanSans-W5.ttc"
-    (share/"fonts").install "DreamHanSans-W6.ttc"
-    (share/"fonts").install "DreamHanSans-W7.ttc"
-    (share/"fonts").install "DreamHanSans-W8.ttc"
-    (share/"fonts").install "DreamHanSans-W9.ttc"
-    (share/"fonts").install "DreamHanSans-W10.ttc"
-    (share/"fonts").install "DreamHanSans-W11.ttc"
-    (share/"fonts").install "DreamHanSans-W12.ttc"
-    (share/"fonts").install "DreamHanSans-W13.ttc"
-    (share/"fonts").install "DreamHanSans-W14.ttc"
-    (share/"fonts").install "DreamHanSans-W15.ttc"
-    (share/"fonts").install "DreamHanSans-W16.ttc"
-    (share/"fonts").install "DreamHanSans-W17.ttc"
-    (share/"fonts").install "DreamHanSans-W18.ttc"
-    (share/"fonts").install "DreamHanSans-W19.ttc"
-    (share/"fonts").install "DreamHanSans-W20.ttc"
-    (share/"fonts").install "DreamHanSans-W21.ttc"
-    (share/"fonts").install "DreamHanSans-W22.ttc"
-    (share/"fonts").install "DreamHanSans-W23.ttc"
-    (share/"fonts").install "DreamHanSans-W24.ttc"
-    (share/"fonts").install "DreamHanSans-W25.ttc"
-    (share/"fonts").install "DreamHanSans-W26.ttc"
-    (share/"fonts").install "DreamHanSans-W27.ttc"
+    (share/"fonts").install Dir.glob("./**/DreamHanSans-W1.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/DreamHanSans-W2.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/DreamHanSans-W3.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/DreamHanSans-W4.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/DreamHanSans-W5.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/DreamHanSans-W6.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/DreamHanSans-W7.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/DreamHanSans-W8.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/DreamHanSans-W9.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/DreamHanSans-W10.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/DreamHanSans-W11.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/DreamHanSans-W12.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/DreamHanSans-W13.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/DreamHanSans-W14.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/DreamHanSans-W15.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/DreamHanSans-W16.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/DreamHanSans-W17.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/DreamHanSans-W18.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/DreamHanSans-W19.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/DreamHanSans-W20.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/DreamHanSans-W21.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/DreamHanSans-W22.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/DreamHanSans-W23.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/DreamHanSans-W24.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/DreamHanSans-W25.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/DreamHanSans-W26.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/DreamHanSans-W27.ttc")[0]
   end
   # No zap stanza required
 

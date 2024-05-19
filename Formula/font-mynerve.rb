@@ -3,7 +3,7 @@ class FontMynerve < Formula
   desc "Mynerve"
   homepage "https://fonts.google.com/specimen/Mynerve"
   def install
-    (share/"fonts").install "Mynerve-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Mynerve-Regular.ttf")[0]
   end
   # No zap stanza required
 

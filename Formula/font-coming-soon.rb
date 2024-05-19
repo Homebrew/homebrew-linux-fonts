@@ -3,7 +3,7 @@ class FontComingSoon < Formula
   desc "Coming Soon"
   homepage "https://fonts.google.com/specimen/Coming+Soon"
   def install
-    (share/"fonts").install "ComingSoon-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/ComingSoon-Regular.ttf")[0]
   end
   # No zap stanza required
 

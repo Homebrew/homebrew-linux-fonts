@@ -3,7 +3,7 @@ class FontBonbon < Formula
   desc "Bonbon"
   homepage "https://fonts.google.com/specimen/Bonbon"
   def install
-    (share/"fonts").install "Bonbon-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Bonbon-Regular.ttf")[0]
   end
   # No zap stanza required
 

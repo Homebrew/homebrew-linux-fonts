@@ -3,7 +3,7 @@ class FontWalterTurncoat < Formula
   desc "Walter Turncoat"
   homepage "https://fonts.google.com/specimen/Walter+Turncoat"
   def install
-    (share/"fonts").install "WalterTurncoat-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/WalterTurncoat-Regular.ttf")[0]
   end
   # No zap stanza required
 

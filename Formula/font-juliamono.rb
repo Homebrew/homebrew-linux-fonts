@@ -6,22 +6,22 @@ class FontJuliamono < Formula
   desc "Monospaced typeface designed for programming in Julia"
   homepage "https://github.com/cormullion/juliamono"
   def install
-    (share/"fonts").install "JuliaMono-Black.ttf"
-    (share/"fonts").install "JuliaMono-BlackItalic.ttf"
-    (share/"fonts").install "JuliaMono-Bold.ttf"
-    (share/"fonts").install "JuliaMono-BoldItalic.ttf"
-    (share/"fonts").install "JuliaMono-BoldLatin.ttf"
-    (share/"fonts").install "JuliaMono-ExtraBold.ttf"
-    (share/"fonts").install "JuliaMono-ExtraBoldItalic.ttf"
-    (share/"fonts").install "JuliaMono-Light.ttf"
-    (share/"fonts").install "JuliaMono-LightItalic.ttf"
-    (share/"fonts").install "JuliaMono-Medium.ttf"
-    (share/"fonts").install "JuliaMono-MediumItalic.ttf"
-    (share/"fonts").install "JuliaMono-Regular.ttf"
-    (share/"fonts").install "JuliaMono-RegularItalic.ttf"
-    (share/"fonts").install "JuliaMono-RegularLatin.ttf"
-    (share/"fonts").install "JuliaMono-SemiBold.ttf"
-    (share/"fonts").install "JuliaMono-SemiBoldItalic.ttf"
+    (share/"fonts").install Dir.glob("./**/JuliaMono-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/JuliaMono-BlackItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/JuliaMono-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/JuliaMono-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/JuliaMono-BoldLatin.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/JuliaMono-ExtraBold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/JuliaMono-ExtraBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/JuliaMono-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/JuliaMono-LightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/JuliaMono-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/JuliaMono-MediumItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/JuliaMono-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/JuliaMono-RegularItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/JuliaMono-RegularLatin.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/JuliaMono-SemiBold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/JuliaMono-SemiBoldItalic.ttf")[0]
   end
   # No zap stanza required
 

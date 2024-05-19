@@ -6,18 +6,18 @@ class FontCommitMonoNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "CommitMonoNerdFont-Bold.otf"
-    (share/"fonts").install "CommitMonoNerdFont-BoldItalic.otf"
-    (share/"fonts").install "CommitMonoNerdFont-Italic.otf"
-    (share/"fonts").install "CommitMonoNerdFont-Regular.otf"
-    (share/"fonts").install "CommitMonoNerdFontMono-Bold.otf"
-    (share/"fonts").install "CommitMonoNerdFontMono-BoldItalic.otf"
-    (share/"fonts").install "CommitMonoNerdFontMono-Italic.otf"
-    (share/"fonts").install "CommitMonoNerdFontMono-Regular.otf"
-    (share/"fonts").install "CommitMonoNerdFontPropo-Bold.otf"
-    (share/"fonts").install "CommitMonoNerdFontPropo-BoldItalic.otf"
-    (share/"fonts").install "CommitMonoNerdFontPropo-Italic.otf"
-    (share/"fonts").install "CommitMonoNerdFontPropo-Regular.otf"
+    (share/"fonts").install Dir.glob("./**/CommitMonoNerdFont-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CommitMonoNerdFont-BoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CommitMonoNerdFont-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CommitMonoNerdFont-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CommitMonoNerdFontMono-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CommitMonoNerdFontMono-BoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CommitMonoNerdFontMono-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CommitMonoNerdFontMono-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CommitMonoNerdFontPropo-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CommitMonoNerdFontPropo-BoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CommitMonoNerdFontPropo-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CommitMonoNerdFontPropo-Regular.otf")[0]
   end
   # No zap stanza required
 

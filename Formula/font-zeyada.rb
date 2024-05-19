@@ -3,7 +3,7 @@ class FontZeyada < Formula
   desc "Zeyada"
   homepage "https://fonts.google.com/specimen/Zeyada"
   def install
-    (share/"fonts").install "Zeyada.ttf"
+    (share/"fonts").install Dir.glob("./**/Zeyada.ttf")[0]
   end
   # No zap stanza required
 

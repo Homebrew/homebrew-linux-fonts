@@ -3,7 +3,7 @@ class FontJejuMyeongjo < Formula
   desc "Jeju Myeongjo"
   homepage "https://fonts.google.com/earlyaccess"
   def install
-    (share/"fonts").install "JejuMyeongjo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/JejuMyeongjo-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -4,7 +4,7 @@ class FontEphesis < Formula
   desc "Contemporary script great for casual invitations, cards, tubes, scrapbooking"
   homepage "https://fonts.google.com/specimen/Ephesis"
   def install
-    (share/"fonts").install "Ephesis-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Ephesis-Regular.ttf")[0]
   end
   # No zap stanza required
 

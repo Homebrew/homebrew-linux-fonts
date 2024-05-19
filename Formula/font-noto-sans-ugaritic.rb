@@ -3,7 +3,7 @@ class FontNotoSansUgaritic < Formula
   desc "Noto Sans Ugaritic"
   homepage "https://www.google.com/get/noto/#sans-ugar"
   def install
-    (share/"fonts").install "NotoSansUgaritic-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansUgaritic-Regular.ttf")[0]
   end
   # No zap stanza required
 

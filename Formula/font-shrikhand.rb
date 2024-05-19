@@ -3,7 +3,7 @@ class FontShrikhand < Formula
   desc "Shrikhand"
   homepage "https://fonts.google.com/specimen/Shrikhand"
   def install
-    (share/"fonts").install "Shrikhand-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Shrikhand-Regular.ttf")[0]
   end
   # No zap stanza required
 

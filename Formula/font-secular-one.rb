@@ -3,7 +3,7 @@ class FontSecularOne < Formula
   desc "Secular One"
   homepage "https://fonts.google.com/specimen/Secular+One"
   def install
-    (share/"fonts").install "SecularOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/SecularOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

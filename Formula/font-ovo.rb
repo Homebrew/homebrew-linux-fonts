@@ -3,7 +3,7 @@ class FontOvo < Formula
   desc "Ovo"
   homepage "https://fonts.google.com/specimen/Ovo"
   def install
-    (share/"fonts").install "Ovo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Ovo-Regular.ttf")[0]
   end
   # No zap stanza required
 

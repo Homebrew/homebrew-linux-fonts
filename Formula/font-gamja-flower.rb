@@ -3,7 +3,7 @@ class FontGamjaFlower < Formula
   desc "Gamja Flower"
   homepage "https://fonts.google.com/specimen/Gamja+Flower"
   def install
-    (share/"fonts").install "GamjaFlower-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/GamjaFlower-Regular.ttf")[0]
   end
   # No zap stanza required
 

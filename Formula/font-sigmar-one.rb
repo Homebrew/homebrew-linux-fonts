@@ -3,7 +3,7 @@ class FontSigmarOne < Formula
   desc "Sigmar One"
   homepage "https://fonts.google.com/specimen/Sigmar+One"
   def install
-    (share/"fonts").install "SigmarOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/SigmarOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

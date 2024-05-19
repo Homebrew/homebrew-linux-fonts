@@ -3,7 +3,7 @@ class FontRubikMoonrocks < Formula
   desc "Rubik Moonrocks"
   homepage "https://fonts.google.com/specimen/Rubik+Moonrocks"
   def install
-    (share/"fonts").install "RubikMoonrocks-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/RubikMoonrocks-Regular.ttf")[0]
   end
   # No zap stanza required
 

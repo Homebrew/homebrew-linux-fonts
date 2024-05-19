@@ -6,14 +6,14 @@ class FontMononoki < Formula
   desc "Programming font"
   homepage "https://madmalik.github.io/mononoki/"
   def install
-    (share/"fonts").install "mononoki-Bold.otf"
-    (share/"fonts").install "mononoki-Bold.ttf"
-    (share/"fonts").install "mononoki-BoldItalic.otf"
-    (share/"fonts").install "mononoki-BoldItalic.ttf"
-    (share/"fonts").install "mononoki-Italic.otf"
-    (share/"fonts").install "mononoki-Italic.ttf"
-    (share/"fonts").install "mononoki-Regular.otf"
-    (share/"fonts").install "mononoki-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/mononoki-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/mononoki-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/mononoki-BoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/mononoki-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/mononoki-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/mononoki-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/mononoki-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/mononoki-Regular.ttf")[0]
   end
   # No zap stanza required
 

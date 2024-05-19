@@ -3,7 +3,7 @@ class FontHennyPenny < Formula
   desc "Henny Penny"
   homepage "https://fonts.google.com/specimen/Henny+Penny"
   def install
-    (share/"fonts").install "HennyPenny-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/HennyPenny-Regular.ttf")[0]
   end
   # No zap stanza required
 

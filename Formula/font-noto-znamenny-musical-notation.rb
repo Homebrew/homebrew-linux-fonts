@@ -3,7 +3,7 @@ class FontNotoZnamennyMusicalNotation < Formula
   desc "Noto Znamenny Musical Notation"
   homepage "https://fonts.google.com/specimen/Noto+Znamenny+Musical+Notation"
   def install
-    (share/"fonts").install "NotoZnamennyMusicalNotation-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoZnamennyMusicalNotation-Regular.ttf")[0]
   end
   # No zap stanza required
 

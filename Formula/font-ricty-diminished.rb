@@ -5,14 +5,14 @@ class FontRictyDiminished < Formula
   desc "Ricty Diminished"
   homepage "https://rictyfonts.github.io/diminished"
   def install
-    (share/"fonts").install "RictyDiminished-Bold.ttf"
-    (share/"fonts").install "RictyDiminished-BoldOblique.ttf"
-    (share/"fonts").install "RictyDiminished-Oblique.ttf"
-    (share/"fonts").install "RictyDiminished-Regular.ttf"
-    (share/"fonts").install "RictyDiminishedDiscord-Bold.ttf"
-    (share/"fonts").install "RictyDiminishedDiscord-BoldOblique.ttf"
-    (share/"fonts").install "RictyDiminishedDiscord-Oblique.ttf"
-    (share/"fonts").install "RictyDiminishedDiscord-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/RictyDiminished-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RictyDiminished-BoldOblique.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RictyDiminished-Oblique.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RictyDiminished-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RictyDiminishedDiscord-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RictyDiminishedDiscord-BoldOblique.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RictyDiminishedDiscord-Oblique.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RictyDiminishedDiscord-Regular.ttf")[0]
   end
   # No zap stanza required
 

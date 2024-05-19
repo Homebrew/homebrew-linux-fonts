@@ -3,7 +3,7 @@ class FontFlowCircular < Formula
   desc "Flow Circular"
   homepage "https://fonts.google.com/specimen/Flow+Circular"
   def install
-    (share/"fonts").install "FlowCircular-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/FlowCircular-Regular.ttf")[0]
   end
   # No zap stanza required
 

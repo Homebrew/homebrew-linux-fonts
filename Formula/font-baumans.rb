@@ -3,7 +3,7 @@ class FontBaumans < Formula
   desc "Baumans"
   homepage "https://fonts.google.com/specimen/Baumans"
   def install
-    (share/"fonts").install "Baumans-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Baumans-Regular.ttf")[0]
   end
   # No zap stanza required
 

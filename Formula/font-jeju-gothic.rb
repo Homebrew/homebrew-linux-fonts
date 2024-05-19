@@ -3,7 +3,7 @@ class FontJejuGothic < Formula
   desc "Jeju Gothic"
   homepage "https://fonts.google.com/earlyaccess"
   def install
-    (share/"fonts").install "JejuGothic-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/JejuGothic-Regular.ttf")[0]
   end
   # No zap stanza required
 

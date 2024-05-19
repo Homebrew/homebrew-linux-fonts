@@ -5,27 +5,27 @@ class FontGenshingothic < Formula
   desc "Gen Shin Gothic"
   homepage "http://jikasei.me/font/genshin/"
   def install
-    (share/"fonts").install "ofl/genos/" + "GenShinGothic-Bold.ttf"
-    (share/"fonts").install "ofl/genos/" + "GenShinGothic-ExtraLight.ttf"
-    (share/"fonts").install "ofl/genos/" + "GenShinGothic-Heavy.ttf"
-    (share/"fonts").install "ofl/genos/" + "GenShinGothic-Light.ttf"
-    (share/"fonts").install "ofl/genos/" + "GenShinGothic-Medium.ttf"
-    (share/"fonts").install "ofl/genos/" + "GenShinGothic-Monospace-Bold.ttf"
-    (share/"fonts").install "ofl/genos/" + "GenShinGothic-Monospace-ExtraLight.ttf"
-    (share/"fonts").install "ofl/genos/" + "GenShinGothic-Monospace-Heavy.ttf"
-    (share/"fonts").install "ofl/genos/" + "GenShinGothic-Monospace-Light.ttf"
-    (share/"fonts").install "ofl/genos/" + "GenShinGothic-Monospace-Medium.ttf"
-    (share/"fonts").install "ofl/genos/" + "GenShinGothic-Monospace-Normal.ttf"
-    (share/"fonts").install "ofl/genos/" + "GenShinGothic-Monospace-Regular.ttf"
-    (share/"fonts").install "ofl/genos/" + "GenShinGothic-Normal.ttf"
-    (share/"fonts").install "ofl/genos/" + "GenShinGothic-P-Bold.ttf"
-    (share/"fonts").install "ofl/genos/" + "GenShinGothic-P-ExtraLight.ttf"
-    (share/"fonts").install "ofl/genos/" + "GenShinGothic-P-Heavy.ttf"
-    (share/"fonts").install "ofl/genos/" + "GenShinGothic-P-Light.ttf"
-    (share/"fonts").install "ofl/genos/" + "GenShinGothic-P-Medium.ttf"
-    (share/"fonts").install "ofl/genos/" + "GenShinGothic-P-Normal.ttf"
-    (share/"fonts").install "ofl/genos/" + "GenShinGothic-P-Regular.ttf"
-    (share/"fonts").install "ofl/genos/" + "GenShinGothic-Regular.ttf"
+    (share/"fonts").install Dir.glob(""ofl/genos/" + ./**/GenShinGothic-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/genos/" + ./**/GenShinGothic-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/genos/" + ./**/GenShinGothic-Heavy.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/genos/" + ./**/GenShinGothic-Light.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/genos/" + ./**/GenShinGothic-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/genos/" + ./**/GenShinGothic-Monospace-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/genos/" + ./**/GenShinGothic-Monospace-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/genos/" + ./**/GenShinGothic-Monospace-Heavy.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/genos/" + ./**/GenShinGothic-Monospace-Light.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/genos/" + ./**/GenShinGothic-Monospace-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/genos/" + ./**/GenShinGothic-Monospace-Normal.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/genos/" + ./**/GenShinGothic-Monospace-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/genos/" + ./**/GenShinGothic-Normal.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/genos/" + ./**/GenShinGothic-P-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/genos/" + ./**/GenShinGothic-P-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/genos/" + ./**/GenShinGothic-P-Heavy.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/genos/" + ./**/GenShinGothic-P-Light.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/genos/" + ./**/GenShinGothic-P-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/genos/" + ./**/GenShinGothic-P-Normal.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/genos/" + ./**/GenShinGothic-P-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/genos/" + ./**/GenShinGothic-Regular.ttf")[0]
   end
   # No zap stanza required
 

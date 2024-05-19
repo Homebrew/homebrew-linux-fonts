@@ -3,7 +3,7 @@ class FontPatuaOne < Formula
   desc "Patua One"
   homepage "https://fonts.google.com/specimen/Patua+One"
   def install
-    (share/"fonts").install "PatuaOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/PatuaOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontSnippet < Formula
   desc "Snippet"
   homepage "https://fonts.google.com/specimen/Snippet"
   def install
-    (share/"fonts").install "Snippet.ttf"
+    (share/"fonts").install Dir.glob("./**/Snippet.ttf")[0]
   end
   # No zap stanza required
 

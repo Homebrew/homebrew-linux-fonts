@@ -4,27 +4,27 @@ class FontFoundrySterling < Formula
   desc "Foundry Sterling"
   homepage "https://fontlot.com/7134/foundry-sterling/"
   def install
-    (share/"fonts").install "FoundrySterling-Book.otf"
-    (share/"fonts").install "FoundrySterling-BookItalic.otf"
-    (share/"fonts").install "FoundrySterling-Demi.otf"
-    (share/"fonts").install "FoundrySterling-ExtraBold.otf"
-    (share/"fonts").install "FoundrySterling-Light.otf"
-    (share/"fonts").install "FoundrySterling-Medium.otf"
-    (share/"fonts").install "FoundrySterlingOT2-BkItalic.otf"
-    (share/"fonts").install "FoundrySterlingOT2-Bold.otf"
-    (share/"fonts").install "FoundrySterlingOT2-Book.otf"
-    (share/"fonts").install "FoundrySterlingOT2-Demi.otf"
-    (share/"fonts").install "FoundrySterlingOT2-ExtraBold.otf"
-    (share/"fonts").install "FoundrySterlingOT2-Light.otf"
-    (share/"fonts").install "FoundrySterlingOT2-Medium.otf"
-    (share/"fonts").install "FoundrySterlingOT3-BkItalic.otf"
-    (share/"fonts").install "FoundrySterlingOT3-Bold.otf"
-    (share/"fonts").install "FoundrySterlingOT3-Book.otf"
-    (share/"fonts").install "FoundrySterlingOT3-Demi.otf"
-    (share/"fonts").install "FoundrySterlingOT3-ExtraBold.otf"
-    (share/"fonts").install "FoundrySterlingOT3-Light.otf"
-    (share/"fonts").install "FoundrySterlingOT3-Medium.otf"
-    (share/"fonts").install "zFoundrySterling-Bold.otf"
+    (share/"fonts").install Dir.glob("./**/FoundrySterling-Book.otf")[0]
+    (share/"fonts").install Dir.glob("./**/FoundrySterling-BookItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/FoundrySterling-Demi.otf")[0]
+    (share/"fonts").install Dir.glob("./**/FoundrySterling-ExtraBold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/FoundrySterling-Light.otf")[0]
+    (share/"fonts").install Dir.glob("./**/FoundrySterling-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("./**/FoundrySterlingOT2-BkItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/FoundrySterlingOT2-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/FoundrySterlingOT2-Book.otf")[0]
+    (share/"fonts").install Dir.glob("./**/FoundrySterlingOT2-Demi.otf")[0]
+    (share/"fonts").install Dir.glob("./**/FoundrySterlingOT2-ExtraBold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/FoundrySterlingOT2-Light.otf")[0]
+    (share/"fonts").install Dir.glob("./**/FoundrySterlingOT2-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("./**/FoundrySterlingOT3-BkItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/FoundrySterlingOT3-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/FoundrySterlingOT3-Book.otf")[0]
+    (share/"fonts").install Dir.glob("./**/FoundrySterlingOT3-Demi.otf")[0]
+    (share/"fonts").install Dir.glob("./**/FoundrySterlingOT3-ExtraBold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/FoundrySterlingOT3-Light.otf")[0]
+    (share/"fonts").install Dir.glob("./**/FoundrySterlingOT3-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("./**/zFoundrySterling-Bold.otf")[0]
   end
   # No zap stanza required
 

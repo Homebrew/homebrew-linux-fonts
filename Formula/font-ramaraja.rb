@@ -3,7 +3,7 @@ class FontRamaraja < Formula
   desc "Ramaraja"
   homepage "https://fonts.google.com/specimen/Ramaraja"
   def install
-    (share/"fonts").install "Ramaraja-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Ramaraja-Regular.ttf")[0]
   end
   # No zap stanza required
 

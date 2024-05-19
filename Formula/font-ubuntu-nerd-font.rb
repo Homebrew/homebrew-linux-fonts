@@ -6,24 +6,24 @@ class FontUbuntuNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "ufl/ubuntumono/" + "UbuntuNerdFont-Bold.ttf"
-    (share/"fonts").install "ufl/ubuntumono/" + "UbuntuNerdFont-BoldItalic.ttf"
-    (share/"fonts").install "ufl/ubuntumono/" + "UbuntuNerdFont-Condensed.ttf"
-    (share/"fonts").install "ufl/ubuntumono/" + "UbuntuNerdFont-Italic.ttf"
-    (share/"fonts").install "ufl/ubuntumono/" + "UbuntuNerdFont-Light.ttf"
-    (share/"fonts").install "ufl/ubuntumono/" + "UbuntuNerdFont-LightItalic.ttf"
-    (share/"fonts").install "ufl/ubuntumono/" + "UbuntuNerdFont-Medium.ttf"
-    (share/"fonts").install "ufl/ubuntumono/" + "UbuntuNerdFont-MediumItalic.ttf"
-    (share/"fonts").install "ufl/ubuntumono/" + "UbuntuNerdFont-Regular.ttf"
-    (share/"fonts").install "ufl/ubuntumono/" + "UbuntuNerdFontPropo-Bold.ttf"
-    (share/"fonts").install "ufl/ubuntumono/" + "UbuntuNerdFontPropo-BoldItalic.ttf"
-    (share/"fonts").install "ufl/ubuntumono/" + "UbuntuNerdFontPropo-Condensed.ttf"
-    (share/"fonts").install "ufl/ubuntumono/" + "UbuntuNerdFontPropo-Italic.ttf"
-    (share/"fonts").install "ufl/ubuntumono/" + "UbuntuNerdFontPropo-Light.ttf"
-    (share/"fonts").install "ufl/ubuntumono/" + "UbuntuNerdFontPropo-LightItalic.ttf"
-    (share/"fonts").install "ufl/ubuntumono/" + "UbuntuNerdFontPropo-Medium.ttf"
-    (share/"fonts").install "ufl/ubuntumono/" + "UbuntuNerdFontPropo-MediumItalic.ttf"
-    (share/"fonts").install "ufl/ubuntumono/" + "UbuntuNerdFontPropo-Regular.ttf"
+    (share/"fonts").install Dir.glob(""ufl/ubuntumono/" + ./**/UbuntuNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob(""ufl/ubuntumono/" + ./**/UbuntuNerdFont-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob(""ufl/ubuntumono/" + ./**/UbuntuNerdFont-Condensed.ttf")[0]
+    (share/"fonts").install Dir.glob(""ufl/ubuntumono/" + ./**/UbuntuNerdFont-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob(""ufl/ubuntumono/" + ./**/UbuntuNerdFont-Light.ttf")[0]
+    (share/"fonts").install Dir.glob(""ufl/ubuntumono/" + ./**/UbuntuNerdFont-LightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob(""ufl/ubuntumono/" + ./**/UbuntuNerdFont-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob(""ufl/ubuntumono/" + ./**/UbuntuNerdFont-MediumItalic.ttf")[0]
+    (share/"fonts").install Dir.glob(""ufl/ubuntumono/" + ./**/UbuntuNerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob(""ufl/ubuntumono/" + ./**/UbuntuNerdFontPropo-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob(""ufl/ubuntumono/" + ./**/UbuntuNerdFontPropo-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob(""ufl/ubuntumono/" + ./**/UbuntuNerdFontPropo-Condensed.ttf")[0]
+    (share/"fonts").install Dir.glob(""ufl/ubuntumono/" + ./**/UbuntuNerdFontPropo-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob(""ufl/ubuntumono/" + ./**/UbuntuNerdFontPropo-Light.ttf")[0]
+    (share/"fonts").install Dir.glob(""ufl/ubuntumono/" + ./**/UbuntuNerdFontPropo-LightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob(""ufl/ubuntumono/" + ./**/UbuntuNerdFontPropo-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob(""ufl/ubuntumono/" + ./**/UbuntuNerdFontPropo-MediumItalic.ttf")[0]
+    (share/"fonts").install Dir.glob(""ufl/ubuntumono/" + ./**/UbuntuNerdFontPropo-Regular.ttf")[0]
   end
   # No zap stanza required
 

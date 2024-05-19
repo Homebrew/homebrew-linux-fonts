@@ -3,7 +3,7 @@ class FontSawarabiMincho < Formula
   desc "Sawarabi Mincho"
   homepage "https://fonts.google.com/specimen/Sawarabi+Mincho"
   def install
-    (share/"fonts").install "SawarabiMincho-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/SawarabiMincho-Regular.ttf")[0]
   end
   # No zap stanza required
 

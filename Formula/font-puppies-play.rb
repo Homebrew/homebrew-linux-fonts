@@ -4,7 +4,7 @@ class FontPuppiesPlay < Formula
   desc "Fun, bouncy script with connectors that give a playful flow"
   homepage "https://fonts.google.com/specimen/Puppies+Play"
   def install
-    (share/"fonts").install "PuppiesPlay-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/PuppiesPlay-Regular.ttf")[0]
   end
   # No zap stanza required
 

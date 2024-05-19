@@ -3,7 +3,7 @@ class FontSplash < Formula
   desc "Splash"
   homepage "https://fonts.google.com/specimen/Splash"
   def install
-    (share/"fonts").install "Splash-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Splash-Regular.ttf")[0]
   end
   # No zap stanza required
 

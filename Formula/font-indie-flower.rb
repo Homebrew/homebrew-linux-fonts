@@ -3,7 +3,7 @@ class FontIndieFlower < Formula
   desc "Indie Flower"
   homepage "https://fonts.google.com/specimen/Indie+Flower"
   def install
-    (share/"fonts").install "IndieFlower-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/IndieFlower-Regular.ttf")[0]
   end
   # No zap stanza required
 

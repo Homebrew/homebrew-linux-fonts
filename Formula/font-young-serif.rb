@@ -4,7 +4,7 @@ class FontYoungSerif < Formula
   desc "Heavy weight old style serif typeface"
   homepage "https://fonts.google.com/specimen/Young+Serif"
   def install
-    (share/"fonts").install "YoungSerif-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/YoungSerif-Regular.ttf")[0]
   end
   # No zap stanza required
 

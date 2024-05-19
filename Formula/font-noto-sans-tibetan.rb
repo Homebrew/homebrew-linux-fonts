@@ -3,8 +3,8 @@ class FontNotoSansTibetan < Formula
   desc "Noto Sans Tibetan"
   homepage "https://www.google.com/get/noto/#sans-tibt"
   def install
-    (share/"fonts").install "NotoSansTibetan-Bold.ttf"
-    (share/"fonts").install "NotoSansTibetan-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansTibetan-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansTibetan-Regular.ttf")[0]
   end
   # No zap stanza required
 

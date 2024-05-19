@@ -6,8 +6,7 @@ class FontAcademicons < Formula
   desc "Specialist icon font for academics"
   homepage "https://github.com/jpswalsh/academicons"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}academicons-#{version}/fonts/academicons.ttf"
+    (share/"fonts").install Dir.glob("academicons-#{version}/fonts/**/academicons.ttf")[0]
   end
   # No zap stanza required
 

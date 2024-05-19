@@ -4,11 +4,10 @@ class FontCamingocode < Formula
   desc "CamingoCode"
   homepage "https://www.janfromm.de/typefaces/camingomono/camingocode/"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}TTF/CamingoCode-Bold.ttf"
-    (share/"fonts").install "#{parent}TTF/CamingoCode-BoldItalic.ttf"
-    (share/"fonts").install "#{parent}TTF/CamingoCode-Italic.ttf"
-    (share/"fonts").install "#{parent}TTF/CamingoCode-Regular.ttf"
+    (share/"fonts").install Dir.glob("TTF/**/CamingoCode-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("TTF/**/CamingoCode-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("TTF/**/CamingoCode-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("TTF/**/CamingoCode-Regular.ttf")[0]
   end
   # No zap stanza required
 

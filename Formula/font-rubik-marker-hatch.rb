@@ -3,7 +3,7 @@ class FontRubikMarkerHatch < Formula
   desc "Rubik Marker Hatch"
   homepage "https://fonts.google.com/specimen/Rubik+Marker+Hatch"
   def install
-    (share/"fonts").install "RubikMarkerHatch-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/RubikMarkerHatch-Regular.ttf")[0]
   end
   # No zap stanza required
 

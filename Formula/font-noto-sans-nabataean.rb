@@ -3,7 +3,7 @@ class FontNotoSansNabataean < Formula
   desc "Noto Sans Nabataean"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Nabataean"
   def install
-    (share/"fonts").install "NotoSansNabataean-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansNabataean-Regular.ttf")[0]
   end
   # No zap stanza required
 

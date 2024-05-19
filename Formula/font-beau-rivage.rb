@@ -4,7 +4,7 @@ class FontBeauRivage < Formula
   desc "Classic calligraphic with strong contrast between thick and thin strokes"
   homepage "https://fonts.google.com/specimen/Beau+Rivage"
   def install
-    (share/"fonts").install "BeauRivage-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/BeauRivage-Regular.ttf")[0]
   end
   # No zap stanza required
 

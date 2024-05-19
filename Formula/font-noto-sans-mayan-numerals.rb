@@ -3,7 +3,7 @@ class FontNotoSansMayanNumerals < Formula
   desc "Noto Sans Mayan Numerals"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Mayan+Numerals"
   def install
-    (share/"fonts").install "NotoSansMayanNumerals-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansMayanNumerals-Regular.ttf")[0]
   end
   # No zap stanza required
 

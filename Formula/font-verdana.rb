@@ -3,10 +3,10 @@ class FontVerdana < Formula
   desc "Verdana"
   homepage "https://sourceforge.net/projects/corefonts/files/the%20fonts/final/"
   def install
-    (share/"fonts").install "Verdana.TTF"
-    (share/"fonts").install "Verdanab.TTF"
-    (share/"fonts").install "Verdanai.TTF"
-    (share/"fonts").install "Verdanaz.TTF"
+    (share/"fonts").install Dir.glob("./**/Verdana.TTF")[0]
+    (share/"fonts").install Dir.glob("./**/Verdanab.TTF")[0]
+    (share/"fonts").install Dir.glob("./**/Verdanai.TTF")[0]
+    (share/"fonts").install Dir.glob("./**/Verdanaz.TTF")[0]
   end
   # No zap stanza required
 

@@ -5,16 +5,15 @@ class FontRoutedGothic < Formula
   desc "Routed Gothic"
   homepage "https://webonastick.com/fonts/routed-gothic/"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}routed-gothic-ttf-v#{version}/routed-gothic-half-italic.ttf"
-    (share/"fonts").install "#{parent}routed-gothic-ttf-v#{version}/routed-gothic-italic.ttf"
-    (share/"fonts").install "#{parent}routed-gothic-ttf-v#{version}/routed-gothic-narrow-half-italic.ttf"
-    (share/"fonts").install "#{parent}routed-gothic-ttf-v#{version}/routed-gothic-narrow-italic.ttf"
-    (share/"fonts").install "#{parent}routed-gothic-ttf-v#{version}/routed-gothic-narrow.ttf"
-    (share/"fonts").install "#{parent}routed-gothic-ttf-v#{version}/routed-gothic-wide-half-italic.ttf"
-    (share/"fonts").install "#{parent}routed-gothic-ttf-v#{version}/routed-gothic-wide-italic.ttf"
-    (share/"fonts").install "#{parent}routed-gothic-ttf-v#{version}/routed-gothic-wide.ttf"
-    (share/"fonts").install "#{parent}routed-gothic-ttf-v#{version}/routed-gothic.ttf"
+    (share/"fonts").install Dir.glob("routed-gothic-ttf-v#{version}/**/routed-gothic-half-italic.ttf")[0]
+    (share/"fonts").install Dir.glob("routed-gothic-ttf-v#{version}/**/routed-gothic-italic.ttf")[0]
+    (share/"fonts").install Dir.glob("routed-gothic-ttf-v#{version}/**/routed-gothic-narrow-half-italic.ttf")[0]
+    (share/"fonts").install Dir.glob("routed-gothic-ttf-v#{version}/**/routed-gothic-narrow-italic.ttf")[0]
+    (share/"fonts").install Dir.glob("routed-gothic-ttf-v#{version}/**/routed-gothic-narrow.ttf")[0]
+    (share/"fonts").install Dir.glob("routed-gothic-ttf-v#{version}/**/routed-gothic-wide-half-italic.ttf")[0]
+    (share/"fonts").install Dir.glob("routed-gothic-ttf-v#{version}/**/routed-gothic-wide-italic.ttf")[0]
+    (share/"fonts").install Dir.glob("routed-gothic-ttf-v#{version}/**/routed-gothic-wide.ttf")[0]
+    (share/"fonts").install Dir.glob("routed-gothic-ttf-v#{version}/**/routed-gothic.ttf")[0]
   end
   # No zap stanza required
 

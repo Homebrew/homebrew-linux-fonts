@@ -4,7 +4,7 @@ class FontNotoSansSignwriting < Formula
   desc "Design for the sign-language signwriting script"
   homepage "https://fonts.google.com/specimen/Noto+Sans+SignWriting"
   def install
-    (share/"fonts").install "NotoSansSignWriting-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansSignWriting-Regular.ttf")[0]
   end
   # No zap stanza required
 

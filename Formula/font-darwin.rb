@@ -4,7 +4,7 @@ class FontDarwin < Formula
   desc "Typeface for books and articles with a focus on scientific writing"
   homepage "https://github.com/topological-modular-forms/Darwin-Typeface"
   def install
-    (share/"fonts").install "DarwinSerif-Regular.otf"
+    (share/"fonts").install Dir.glob("./**/DarwinSerif-Regular.otf")[0]
   end
   # No zap stanza required
 

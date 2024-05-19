@@ -3,7 +3,7 @@ class FontNotoSansBuginese < Formula
   desc "Noto Sans Buginese"
   homepage "https://www.google.com/get/noto/#sans-bugi"
   def install
-    (share/"fonts").install "NotoSansBuginese-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansBuginese-Regular.ttf")[0]
   end
   # No zap stanza required
 

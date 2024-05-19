@@ -3,7 +3,7 @@ class FontMontaga < Formula
   desc "Montaga"
   homepage "https://fonts.google.com/specimen/Montaga"
   def install
-    (share/"fonts").install "Montaga-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Montaga-Regular.ttf")[0]
   end
   # No zap stanza required
 

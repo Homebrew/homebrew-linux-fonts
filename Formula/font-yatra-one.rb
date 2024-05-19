@@ -3,7 +3,7 @@ class FontYatraOne < Formula
   desc "Yatra One"
   homepage "https://fonts.google.com/specimen/Yatra+One"
   def install
-    (share/"fonts").install "YatraOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/YatraOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

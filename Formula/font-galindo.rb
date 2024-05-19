@@ -3,7 +3,7 @@ class FontGalindo < Formula
   desc "Galindo"
   homepage "https://fonts.google.com/specimen/Galindo"
   def install
-    (share/"fonts").install "Galindo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Galindo-Regular.ttf")[0]
   end
   # No zap stanza required
 

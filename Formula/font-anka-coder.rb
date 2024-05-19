@@ -5,10 +5,10 @@ class FontAnkaCoder < Formula
   desc "Anka/Coder"
   homepage "https://code.google.com/p/anka-coder-fonts/"
   def install
-    (share/"fonts").install "AnkaCoder-b.ttf"
-    (share/"fonts").install "AnkaCoder-bi.ttf"
-    (share/"fonts").install "AnkaCoder-i.ttf"
-    (share/"fonts").install "AnkaCoder-r.ttf"
+    (share/"fonts").install Dir.glob("./**/AnkaCoder-b.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/AnkaCoder-bi.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/AnkaCoder-i.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/AnkaCoder-r.ttf")[0]
   end
   # No zap stanza required
 

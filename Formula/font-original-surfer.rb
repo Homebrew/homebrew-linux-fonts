@@ -3,7 +3,7 @@ class FontOriginalSurfer < Formula
   desc "Original Surfer"
   homepage "https://fonts.google.com/specimen/Original+Surfer"
   def install
-    (share/"fonts").install "OriginalSurfer-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/OriginalSurfer-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -6,7 +6,7 @@ class FontIpamjmincho < Formula
   desc "IPAmj明朝"
   homepage "https://moji.or.jp/mojikiban/font/"
   def install
-    (share/"fonts").install "ipamjm.ttf"
+    (share/"fonts").install Dir.glob("./**/ipamjm.ttf")[0]
   end
   # No zap stanza required
 

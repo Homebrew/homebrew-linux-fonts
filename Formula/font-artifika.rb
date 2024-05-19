@@ -3,7 +3,7 @@ class FontArtifika < Formula
   desc "Artifika"
   homepage "https://fonts.google.com/specimen/Artifika"
   def install
-    (share/"fonts").install "Artifika-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Artifika-Regular.ttf")[0]
   end
   # No zap stanza required
 

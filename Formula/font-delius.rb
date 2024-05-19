@@ -3,7 +3,7 @@ class FontDelius < Formula
   desc "Delius"
   homepage "https://fonts.google.com/specimen/Delius"
   def install
-    (share/"fonts").install "Delius-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Delius-Regular.ttf")[0]
   end
   # No zap stanza required
 

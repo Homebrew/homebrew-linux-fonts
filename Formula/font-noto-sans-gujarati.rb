@@ -3,8 +3,8 @@ class FontNotoSansGujarati < Formula
   desc "Noto Sans Gujarati"
   homepage "https://www.google.com/get/noto/#sans-gujr"
   def install
-    (share/"fonts").install "NotoSansGujarati-Bold.ttf"
-    (share/"fonts").install "NotoSansGujarati-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansGujarati-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansGujarati-Regular.ttf")[0]
   end
   # No zap stanza required
 

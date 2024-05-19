@@ -3,7 +3,7 @@ class FontUnderdog < Formula
   desc "Underdog"
   homepage "https://fonts.google.com/specimen/Underdog"
   def install
-    (share/"fonts").install "Underdog-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Underdog-Regular.ttf")[0]
   end
   # No zap stanza required
 

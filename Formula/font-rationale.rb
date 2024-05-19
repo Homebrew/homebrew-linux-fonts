@@ -3,7 +3,7 @@ class FontRationale < Formula
   desc "Rationale"
   homepage "https://fonts.google.com/specimen/Rationale"
   def install
-    (share/"fonts").install "Rationale-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Rationale-Regular.ttf")[0]
   end
   # No zap stanza required
 

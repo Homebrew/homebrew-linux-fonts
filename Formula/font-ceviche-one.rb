@@ -3,7 +3,7 @@ class FontCevicheOne < Formula
   desc "Ceviche One"
   homepage "https://fonts.google.com/specimen/Ceviche+One"
   def install
-    (share/"fonts").install "CevicheOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/CevicheOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

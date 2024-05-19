@@ -3,7 +3,7 @@ class FontNotoSansSyriacEstrangela < Formula
   desc "Noto Sans Syriac Estrangela"
   homepage "https://www.google.com/get/noto/#sans-syrc-estrangela"
   def install
-    (share/"fonts").install "NotoSansSyriacEstrangela-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansSyriacEstrangela-Regular.ttf")[0]
   end
   # No zap stanza required
 

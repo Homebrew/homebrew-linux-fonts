@@ -3,7 +3,7 @@ class FontStintUltraExpanded < Formula
   desc "Stint Ultra Expanded"
   homepage "https://fonts.google.com/specimen/Stint+Ultra+Expanded"
   def install
-    (share/"fonts").install "StintUltraExpanded-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/StintUltraExpanded-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -5,10 +5,9 @@ class FontKawkabMono < Formula
   desc "Kawkab Mono"
   homepage "https://makkuk.com/kawkab-mono"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}kawkab-mono-#{version}/KawkabMono-Bold.otf"
-    (share/"fonts").install "#{parent}kawkab-mono-#{version}/KawkabMono-Light.otf"
-    (share/"fonts").install "#{parent}kawkab-mono-#{version}/KawkabMono-Regular.otf"
+    (share/"fonts").install Dir.glob("kawkab-mono-#{version}/**/KawkabMono-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("kawkab-mono-#{version}/**/KawkabMono-Light.otf")[0]
+    (share/"fonts").install Dir.glob("kawkab-mono-#{version}/**/KawkabMono-Regular.otf")[0]
   end
   # No zap stanza required
 

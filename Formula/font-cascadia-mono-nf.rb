@@ -6,9 +6,8 @@ class FontCascadiaMonoNf < Formula
   desc "Version of Cascadia Code without ligatures and with embedded Nerd Fonts symbols"
   homepage "https://github.com/microsoft/cascadia-code"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}ttf/CascadiaMonoNF.ttf"
-    (share/"fonts").install "#{parent}ttf/CascadiaMonoNFItalic.ttf"
+    (share/"fonts").install Dir.glob("ttf/**/CascadiaMonoNF.ttf")[0]
+    (share/"fonts").install Dir.glob("ttf/**/CascadiaMonoNFItalic.ttf")[0]
   end
   # No zap stanza required
 

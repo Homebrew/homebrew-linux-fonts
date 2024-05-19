@@ -4,13 +4,12 @@ class FontPtSerif < Formula
   desc "Universal type family designed for use together with PT Sans"
   homepage "https://www.paratype.com/fonts/pt/pt-serif"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}PT/PT/PT-Serif/pt-serif_bold-italic.ttf"
-    (share/"fonts").install "#{parent}PT/PT/PT-Serif/pt-serif_bold.ttf"
-    (share/"fonts").install "#{parent}PT/PT/PT-Serif/pt-serif_caption-italic.ttf"
-    (share/"fonts").install "#{parent}PT/PT/PT-Serif/pt-serif_caption-regular.ttf"
-    (share/"fonts").install "#{parent}PT/PT/PT-Serif/pt-serif_italic.ttf"
-    (share/"fonts").install "#{parent}PT/PT/PT-Serif/pt-serif_regular.ttf"
+    (share/"fonts").install Dir.glob("PT/PT/PT-Serif/**/pt-serif_bold-italic.ttf")[0]
+    (share/"fonts").install Dir.glob("PT/PT/PT-Serif/**/pt-serif_bold.ttf")[0]
+    (share/"fonts").install Dir.glob("PT/PT/PT-Serif/**/pt-serif_caption-italic.ttf")[0]
+    (share/"fonts").install Dir.glob("PT/PT/PT-Serif/**/pt-serif_caption-regular.ttf")[0]
+    (share/"fonts").install Dir.glob("PT/PT/PT-Serif/**/pt-serif_italic.ttf")[0]
+    (share/"fonts").install Dir.glob("PT/PT/PT-Serif/**/pt-serif_regular.ttf")[0]
   end
   # No zap stanza required
 

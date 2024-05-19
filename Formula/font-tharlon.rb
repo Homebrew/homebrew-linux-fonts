@@ -3,7 +3,7 @@ class FontTharlon < Formula
   desc "Tharlon"
   homepage "https://fonts.google.com/earlyaccess"
   def install
-    (share/"fonts").install "Tharlon-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Tharlon-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -6,11 +6,10 @@ class FontCharisSil < Formula
   desc "Unicode-based font family supporting languages using Latin and Cyrillic scripts"
   homepage "https://software.sil.org/charis/"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}CharisSIL-#{version}/CharisSIL-Bold.ttf"
-    (share/"fonts").install "#{parent}CharisSIL-#{version}/CharisSIL-BoldItalic.ttf"
-    (share/"fonts").install "#{parent}CharisSIL-#{version}/CharisSIL-Italic.ttf"
-    (share/"fonts").install "#{parent}CharisSIL-#{version}/CharisSIL-Regular.ttf"
+    (share/"fonts").install Dir.glob("CharisSIL-#{version}/**/CharisSIL-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("CharisSIL-#{version}/**/CharisSIL-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("CharisSIL-#{version}/**/CharisSIL-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("CharisSIL-#{version}/**/CharisSIL-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontSarina < Formula
   desc "Sarina"
   homepage "https://fonts.google.com/specimen/Sarina"
   def install
-    (share/"fonts").install "Sarina-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Sarina-Regular.ttf")[0]
   end
   # No zap stanza required
 

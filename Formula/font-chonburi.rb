@@ -3,7 +3,7 @@ class FontChonburi < Formula
   desc "Chonburi"
   homepage "https://fonts.google.com/specimen/Chonburi"
   def install
-    (share/"fonts").install "Chonburi-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Chonburi-Regular.ttf")[0]
   end
   # No zap stanza required
 

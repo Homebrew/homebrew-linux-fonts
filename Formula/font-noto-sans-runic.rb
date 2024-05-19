@@ -3,7 +3,7 @@ class FontNotoSansRunic < Formula
   desc "Noto Sans Runic"
   homepage "https://www.google.com/get/noto/#sans-runr"
   def install
-    (share/"fonts").install "NotoSansRunic-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansRunic-Regular.ttf")[0]
   end
   # No zap stanza required
 

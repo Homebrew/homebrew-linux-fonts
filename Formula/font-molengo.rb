@@ -3,7 +3,7 @@ class FontMolengo < Formula
   desc "Molengo"
   homepage "https://fonts.google.com/specimen/Molengo"
   def install
-    (share/"fonts").install "Molengo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Molengo-Regular.ttf")[0]
   end
   # No zap stanza required
 

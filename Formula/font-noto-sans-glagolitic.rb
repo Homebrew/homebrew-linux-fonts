@@ -3,7 +3,7 @@ class FontNotoSansGlagolitic < Formula
   desc "Noto Sans Glagolitic"
   homepage "https://www.google.com/get/noto/#sans-glag"
   def install
-    (share/"fonts").install "NotoSansGlagolitic-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansGlagolitic-Regular.ttf")[0]
   end
   # No zap stanza required
 

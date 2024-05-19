@@ -6,17 +6,16 @@ class FontEbGaramond < Formula
   desc "Garamond typeface based on the 1592 Berner specimen"
   homepage "https://github.com/georgd/EB-Garamond"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}EBGaramond-#{version}/otf/EBGaramond-Initials.otf"
-    (share/"fonts").install "#{parent}EBGaramond-#{version}/otf/EBGaramond-InitialsF1.otf"
-    (share/"fonts").install "#{parent}EBGaramond-#{version}/otf/EBGaramond-InitialsF2.otf"
-    (share/"fonts").install "#{parent}EBGaramond-#{version}/otf/EBGaramond08-Italic.otf"
-    (share/"fonts").install "#{parent}EBGaramond-#{version}/otf/EBGaramond08-Regular.otf"
-    (share/"fonts").install "#{parent}EBGaramond-#{version}/otf/EBGaramond12-AllSC.otf"
-    (share/"fonts").install "#{parent}EBGaramond-#{version}/otf/EBGaramond12-Italic.otf"
-    (share/"fonts").install "#{parent}EBGaramond-#{version}/otf/EBGaramond12-Regular.otf"
-    (share/"fonts").install "#{parent}EBGaramond-#{version}/otf/EBGaramondSC08-Regular.otf"
-    (share/"fonts").install "#{parent}EBGaramond-#{version}/otf/EBGaramondSC12-Regular.otf"
+    (share/"fonts").install Dir.glob("EBGaramond-#{version}/otf/**/EBGaramond-Initials.otf")[0]
+    (share/"fonts").install Dir.glob("EBGaramond-#{version}/otf/**/EBGaramond-InitialsF1.otf")[0]
+    (share/"fonts").install Dir.glob("EBGaramond-#{version}/otf/**/EBGaramond-InitialsF2.otf")[0]
+    (share/"fonts").install Dir.glob("EBGaramond-#{version}/otf/**/EBGaramond08-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("EBGaramond-#{version}/otf/**/EBGaramond08-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("EBGaramond-#{version}/otf/**/EBGaramond12-AllSC.otf")[0]
+    (share/"fonts").install Dir.glob("EBGaramond-#{version}/otf/**/EBGaramond12-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("EBGaramond-#{version}/otf/**/EBGaramond12-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("EBGaramond-#{version}/otf/**/EBGaramondSC08-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("EBGaramond-#{version}/otf/**/EBGaramondSC12-Regular.otf")[0]
   end
   # No zap stanza required
 

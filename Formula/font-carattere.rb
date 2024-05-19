@@ -4,7 +4,7 @@ class FontCarattere < Formula
   desc "Perfect where formal elegance and beauty are essential"
   homepage "https://fonts.google.com/specimen/Carattere"
   def install
-    (share/"fonts").install "Carattere-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Carattere-Regular.ttf")[0]
   end
   # No zap stanza required
 

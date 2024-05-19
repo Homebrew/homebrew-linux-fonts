@@ -3,7 +3,7 @@ class FontMedulaOne < Formula
   desc "Medula One"
   homepage "https://fonts.google.com/specimen/Medula+One"
   def install
-    (share/"fonts").install "MedulaOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/MedulaOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

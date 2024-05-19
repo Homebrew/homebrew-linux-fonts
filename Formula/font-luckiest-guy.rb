@@ -3,7 +3,7 @@ class FontLuckiestGuy < Formula
   desc "Luckiest Guy"
   homepage "https://fonts.google.com/specimen/Luckiest+Guy"
   def install
-    (share/"fonts").install "LuckiestGuy-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/LuckiestGuy-Regular.ttf")[0]
   end
   # No zap stanza required
 

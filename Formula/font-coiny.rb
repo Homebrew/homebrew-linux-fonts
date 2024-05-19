@@ -3,7 +3,7 @@ class FontCoiny < Formula
   desc "Coiny"
   homepage "https://fonts.google.com/specimen/Coiny"
   def install
-    (share/"fonts").install "Coiny-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Coiny-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontShareTech < Formula
   desc "Share Tech"
   homepage "https://fonts.google.com/specimen/Share+Tech"
   def install
-    (share/"fonts").install "ShareTech-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/ShareTech-Regular.ttf")[0]
   end
   # No zap stanza required
 

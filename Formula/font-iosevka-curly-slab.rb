@@ -6,15 +6,15 @@ class FontIosevkaCurlySlab < Formula
   desc "Sans-serif, slab-serif, monospace and quasi‑proportional typeface family"
   homepage "https://github.com/be5invis/Iosevka/"
   def install
-    (share/"fonts").install "IosevkaCurlySlab-Bold.ttc"
-    (share/"fonts").install "IosevkaCurlySlab-ExtraBold.ttc"
-    (share/"fonts").install "IosevkaCurlySlab-ExtraLight.ttc"
-    (share/"fonts").install "IosevkaCurlySlab-Heavy.ttc"
-    (share/"fonts").install "IosevkaCurlySlab-Light.ttc"
-    (share/"fonts").install "IosevkaCurlySlab-Medium.ttc"
-    (share/"fonts").install "IosevkaCurlySlab-Regular.ttc"
-    (share/"fonts").install "IosevkaCurlySlab-SemiBold.ttc"
-    (share/"fonts").install "IosevkaCurlySlab-Thin.ttc"
+    (share/"fonts").install Dir.glob("./**/IosevkaCurlySlab-Bold.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/IosevkaCurlySlab-ExtraBold.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/IosevkaCurlySlab-ExtraLight.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/IosevkaCurlySlab-Heavy.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/IosevkaCurlySlab-Light.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/IosevkaCurlySlab-Medium.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/IosevkaCurlySlab-Regular.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/IosevkaCurlySlab-SemiBold.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/IosevkaCurlySlab-Thin.ttc")[0]
   end
   # No zap stanza required
 

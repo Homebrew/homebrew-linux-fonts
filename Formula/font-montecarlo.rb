@@ -4,7 +4,7 @@ class FontMontecarlo < Formula
   desc "Perfect for an ornate look and a readable message"
   homepage "https://fonts.google.com/specimen/MonteCarlo"
   def install
-    (share/"fonts").install "MonteCarlo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/MonteCarlo-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -4,7 +4,7 @@ class FontOi < Formula
   desc "Interjection used in various languages"
   homepage "https://fonts.google.com/specimen/Oi"
   def install
-    (share/"fonts").install "Oi-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Oi-Regular.ttf")[0]
   end
   # No zap stanza required
 

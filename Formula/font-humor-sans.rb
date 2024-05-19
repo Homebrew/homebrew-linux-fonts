@@ -5,7 +5,7 @@ class FontHumorSans < Formula
   desc "Humor Sans"
   homepage "https://xkcdsucks.blogspot.com.au/2009/03/xkcdsucks-is-proud-to-present-humor.html"
   def install
-    (share/"fonts").install "Humor-Sans-#{version}.ttf"
+    (share/"fonts").install Dir.glob("./**/Humor-Sans-#{version}.ttf")[0]
   end
   # No zap stanza required
 

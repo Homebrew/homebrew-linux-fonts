@@ -3,7 +3,7 @@ class FontFascinateInline < Formula
   desc "Fascinate Inline"
   homepage "https://fonts.google.com/specimen/Fascinate+Inline"
   def install
-    (share/"fonts").install "FascinateInline-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/FascinateInline-Regular.ttf")[0]
   end
   # No zap stanza required
 

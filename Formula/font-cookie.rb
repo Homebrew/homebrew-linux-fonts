@@ -3,7 +3,7 @@ class FontCookie < Formula
   desc "Cookie"
   homepage "https://fonts.google.com/specimen/Cookie"
   def install
-    (share/"fonts").install "Cookie-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Cookie-Regular.ttf")[0]
   end
   # No zap stanza required
 

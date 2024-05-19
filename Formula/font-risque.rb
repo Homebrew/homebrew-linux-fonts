@@ -3,7 +3,7 @@ class FontRisque < Formula
   desc "Risque"
   homepage "https://fonts.google.com/specimen/Risque"
   def install
-    (share/"fonts").install "Risque-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Risque-Regular.ttf")[0]
   end
   # No zap stanza required
 

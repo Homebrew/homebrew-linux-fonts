@@ -3,10 +3,10 @@ class FontDavidClm < Formula
   desc "David CLM"
   homepage "https://opensiddur.org/wp-content/uploads/fonts/display-font-charmap.php?fnt=DavidCLM"
   def install
-    (share/"fonts").install "DavidCLM-Bold.otf"
-    (share/"fonts").install "DavidCLM-BoldItalic.otf"
-    (share/"fonts").install "DavidCLM-Medium.otf"
-    (share/"fonts").install "DavidCLM-MediumItalic.otf"
+    (share/"fonts").install Dir.glob("./**/DavidCLM-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/DavidCLM-BoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/DavidCLM-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("./**/DavidCLM-MediumItalic.otf")[0]
   end
   # No zap stanza required
 

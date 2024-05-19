@@ -3,7 +3,7 @@ class FontMetrophobic < Formula
   desc "Metrophobic"
   homepage "https://fonts.google.com/specimen/Metrophobic"
   def install
-    (share/"fonts").install "Metrophobic-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Metrophobic-Regular.ttf")[0]
   end
   # No zap stanza required
 

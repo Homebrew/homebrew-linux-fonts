@@ -4,7 +4,7 @@ class FontBhutukaExpandedOne < Formula
   desc "Gurmukhi companion to aoife mooney’s biorhyme expanded light typeface"
   homepage "https://fonts.google.com/specimen/BhuTuka+Expanded+One"
   def install
-    (share/"fonts").install "BhuTukaExpandedOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/BhuTukaExpandedOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

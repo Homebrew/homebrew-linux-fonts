@@ -6,14 +6,14 @@ class FontArimoNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "ArimoNerdFont-Bold.ttf"
-    (share/"fonts").install "ArimoNerdFont-BoldItalic.ttf"
-    (share/"fonts").install "ArimoNerdFont-Italic.ttf"
-    (share/"fonts").install "ArimoNerdFont-Regular.ttf"
-    (share/"fonts").install "ArimoNerdFontPropo-Bold.ttf"
-    (share/"fonts").install "ArimoNerdFontPropo-BoldItalic.ttf"
-    (share/"fonts").install "ArimoNerdFontPropo-Italic.ttf"
-    (share/"fonts").install "ArimoNerdFontPropo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/ArimoNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/ArimoNerdFont-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/ArimoNerdFont-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/ArimoNerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/ArimoNerdFontPropo-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/ArimoNerdFontPropo-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/ArimoNerdFontPropo-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/ArimoNerdFontPropo-Regular.ttf")[0]
   end
   # No zap stanza required
 

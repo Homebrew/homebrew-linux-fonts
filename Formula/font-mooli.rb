@@ -4,7 +4,7 @@ class FontMooli < Formula
   desc "Derived from the mulish font family"
   homepage "https://fonts.google.com/specimen/Mooli"
   def install
-    (share/"fonts").install "Mooli-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Mooli-Regular.ttf")[0]
   end
   # No zap stanza required
 

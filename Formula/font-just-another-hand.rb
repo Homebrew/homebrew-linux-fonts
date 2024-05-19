@@ -3,7 +3,7 @@ class FontJustAnotherHand < Formula
   desc "Just Another Hand"
   homepage "https://fonts.google.com/specimen/Just+Another+Hand"
   def install
-    (share/"fonts").install "JustAnotherHand-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/JustAnotherHand-Regular.ttf")[0]
   end
   # No zap stanza required
 

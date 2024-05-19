@@ -7,11 +7,10 @@ class FontEbh < Formula
   desc "Vectorized font based on script in the Exeter Book"
   homepage "https://exeterbookhand.com/"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}EBH-v#{version}/EBH Alternates.otf"
-    (share/"fonts").install "#{parent}EBH-v#{version}/EBH Facsimile.otf"
-    (share/"fonts").install "#{parent}EBH-v#{version}/EBH Initials.otf"
-    (share/"fonts").install "#{parent}EBH-v#{version}/EBH Runes.otf"
+    (share/"fonts").install Dir.glob("EBH-v#{version}/**/EBH Alternates.otf")[0]
+    (share/"fonts").install Dir.glob("EBH-v#{version}/**/EBH Facsimile.otf")[0]
+    (share/"fonts").install Dir.glob("EBH-v#{version}/**/EBH Initials.otf")[0]
+    (share/"fonts").install Dir.glob("EBH-v#{version}/**/EBH Runes.otf")[0]
   end
   # No zap stanza required
 

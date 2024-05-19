@@ -3,7 +3,7 @@ class FontDhurjati < Formula
   desc "Dhurjati"
   homepage "https://fonts.google.com/specimen/Dhurjati"
   def install
-    (share/"fonts").install "Dhurjati-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Dhurjati-Regular.ttf")[0]
   end
   # No zap stanza required
 

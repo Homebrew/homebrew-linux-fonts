@@ -6,12 +6,12 @@ class Font3270 < Formula
   desc "Derived from the x3270 font"
   homepage "https://github.com/rbanffy/3270font"
   def install
-    (share/"fonts").install "3270-Regular.otf"
-    (share/"fonts").install "3270-Regular.ttf"
-    (share/"fonts").install "3270Condensed-Regular.otf"
-    (share/"fonts").install "3270Condensed-Regular.ttf"
-    (share/"fonts").install "3270SemiCondensed-Regular.otf"
-    (share/"fonts").install "3270SemiCondensed-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/3270-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/3270-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/3270Condensed-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/3270Condensed-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/3270SemiCondensed-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/3270SemiCondensed-Regular.ttf")[0]
   end
   # No zap stanza required
 

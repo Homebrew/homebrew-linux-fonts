@@ -3,7 +3,7 @@ class FontDrSugiyama < Formula
   desc "Dr Sugiyama"
   homepage "https://fonts.google.com/specimen/Dr+Sugiyama"
   def install
-    (share/"fonts").install "DrSugiyama-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/DrSugiyama-Regular.ttf")[0]
   end
   # No zap stanza required
 

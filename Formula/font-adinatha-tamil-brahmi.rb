@@ -3,8 +3,7 @@ class FontAdinathaTamilBrahmi < Formula
   desc "Adinatha Tamil Brahmi"
   homepage "http://www.virtualvinodh.com/wp/tamil-brahmi-font/"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}Adinatha-Tamil-Brahmi/Adinatha-Tamil-Brahmi.otf"
+    (share/"fonts").install Dir.glob("Adinatha-Tamil-Brahmi/**/Adinatha-Tamil-Brahmi.otf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontSail < Formula
   desc "Sail"
   homepage "https://fonts.google.com/specimen/Sail"
   def install
-    (share/"fonts").install "Sail-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Sail-Regular.ttf")[0]
   end
   # No zap stanza required
 

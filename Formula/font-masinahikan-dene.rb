@@ -3,9 +3,9 @@ class FontMasinahikanDene < Formula
   desc "Masinahikan Dene"
   homepage "https://www.languagegeek.com/font/fontdownload.html"
   def install
-    (share/"fonts").install "MasinahikanDene_h.ttf"
-    (share/"fonts").install "MasinahikanDene_h_Bold.ttf"
-    (share/"fonts").install "MasinahikanDene_h_Semi.ttf"
+    (share/"fonts").install Dir.glob("./**/MasinahikanDene_h.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MasinahikanDene_h_Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MasinahikanDene_h_Semi.ttf")[0]
   end
   # No zap stanza required
 

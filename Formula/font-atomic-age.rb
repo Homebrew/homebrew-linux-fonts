@@ -3,7 +3,7 @@ class FontAtomicAge < Formula
   desc "Atomic Age"
   homepage "https://fonts.google.com/specimen/Atomic+Age"
   def install
-    (share/"fonts").install "AtomicAge-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/AtomicAge-Regular.ttf")[0]
   end
   # No zap stanza required
 

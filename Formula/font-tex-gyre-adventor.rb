@@ -5,11 +5,10 @@ class FontTexGyreAdventor < Formula
   desc "TeX Gyre Adventor"
   homepage "https://www.gust.org.pl/projects/e-foundry/tex-gyre/adventor"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}qag#{version.to_s.gsub(".", "_")}otf/texgyreadventor-bold.otf"
-    (share/"fonts").install "#{parent}qag#{version.to_s.gsub(".", "_")}otf/texgyreadventor-bolditalic.otf"
-    (share/"fonts").install "#{parent}qag#{version.to_s.gsub(".", "_")}otf/texgyreadventor-italic.otf"
-    (share/"fonts").install "#{parent}qag#{version.to_s.gsub(".", "_")}otf/texgyreadventor-regular.otf"
+    (share/"fonts").install Dir.glob("qag#{version.to_s.gsub(".", "_")}otf/**/texgyreadventor-bold.otf")[0]
+    (share/"fonts").install Dir.glob("qag#{version.to_s.gsub(".", "_")}otf/**/texgyreadventor-bolditalic.otf")[0]
+    (share/"fonts").install Dir.glob("qag#{version.to_s.gsub(".", "_")}otf/**/texgyreadventor-italic.otf")[0]
+    (share/"fonts").install Dir.glob("qag#{version.to_s.gsub(".", "_")}otf/**/texgyreadventor-regular.otf")[0]
   end
   # No zap stanza required
 

@@ -3,8 +3,8 @@ class FontNotoSerifMalayalam < Formula
   desc "Noto Serif Malayalam"
   homepage "https://www.google.com/get/noto/#serif-mlym"
   def install
-    (share/"fonts").install "NotoSerifMalayalam-Bold.ttf"
-    (share/"fonts").install "NotoSerifMalayalam-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSerifMalayalam-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSerifMalayalam-Regular.ttf")[0]
   end
   # No zap stanza required
 

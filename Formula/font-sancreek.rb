@@ -3,7 +3,7 @@ class FontSancreek < Formula
   desc "Sancreek"
   homepage "https://fonts.google.com/specimen/Sancreek"
   def install
-    (share/"fonts").install "Sancreek-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Sancreek-Regular.ttf")[0]
   end
   # No zap stanza required
 

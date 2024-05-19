@@ -3,7 +3,7 @@ class FontAndagii < Formula
   desc "Andagii"
   homepage "http://www.i18nguy.com/unicode/unicode-font.html"
   def install
-    (share/"fonts").install "ANDAGII_.TTF"
+    (share/"fonts").install Dir.glob("./**/ANDAGII_.TTF")[0]
   end
   # No zap stanza required
 

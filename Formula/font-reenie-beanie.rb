@@ -3,7 +3,7 @@ class FontReenieBeanie < Formula
   desc "Reenie Beanie"
   homepage "https://fonts.google.com/specimen/Reenie+Beanie"
   def install
-    (share/"fonts").install "ReenieBeanie.ttf"
+    (share/"fonts").install Dir.glob("./**/ReenieBeanie.ttf")[0]
   end
   # No zap stanza required
 

@@ -6,18 +6,18 @@ class FontAnonymiceNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "AnonymiceProNerdFont-Bold.ttf"
-    (share/"fonts").install "AnonymiceProNerdFont-BoldItalic.ttf"
-    (share/"fonts").install "AnonymiceProNerdFont-Italic.ttf"
-    (share/"fonts").install "AnonymiceProNerdFont-Regular.ttf"
-    (share/"fonts").install "AnonymiceProNerdFontMono-Bold.ttf"
-    (share/"fonts").install "AnonymiceProNerdFontMono-BoldItalic.ttf"
-    (share/"fonts").install "AnonymiceProNerdFontMono-Italic.ttf"
-    (share/"fonts").install "AnonymiceProNerdFontMono-Regular.ttf"
-    (share/"fonts").install "AnonymiceProNerdFontPropo-Bold.ttf"
-    (share/"fonts").install "AnonymiceProNerdFontPropo-BoldItalic.ttf"
-    (share/"fonts").install "AnonymiceProNerdFontPropo-Italic.ttf"
-    (share/"fonts").install "AnonymiceProNerdFontPropo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/AnonymiceProNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/AnonymiceProNerdFont-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/AnonymiceProNerdFont-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/AnonymiceProNerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/AnonymiceProNerdFontMono-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/AnonymiceProNerdFontMono-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/AnonymiceProNerdFontMono-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/AnonymiceProNerdFontMono-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/AnonymiceProNerdFontPropo-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/AnonymiceProNerdFontPropo-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/AnonymiceProNerdFontPropo-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/AnonymiceProNerdFontPropo-Regular.ttf")[0]
   end
   # No zap stanza required
 

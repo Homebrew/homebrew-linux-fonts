@@ -3,7 +3,7 @@ class FontDawningOfANewDay < Formula
   desc "Dawning of a New Day"
   homepage "https://fonts.google.com/specimen/Dawning+of+a+New+Day"
   def install
-    (share/"fonts").install "DawningofaNewDay.ttf"
+    (share/"fonts").install Dir.glob("./**/DawningofaNewDay.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontBokor < Formula
   desc "Bokor"
   homepage "https://fonts.google.com/specimen/Bokor"
   def install
-    (share/"fonts").install "Bokor-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Bokor-Regular.ttf")[0]
   end
   # No zap stanza required
 

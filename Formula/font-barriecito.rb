@@ -3,7 +3,7 @@ class FontBarriecito < Formula
   desc "Barriecito"
   homepage "https://fonts.google.com/specimen/Barriecito"
   def install
-    (share/"fonts").install "Barriecito-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Barriecito-Regular.ttf")[0]
   end
   # No zap stanza required
 

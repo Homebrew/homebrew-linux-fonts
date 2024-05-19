@@ -3,7 +3,7 @@ class FontAmstelvarAlpha < Formula
   desc "Amstelvar Alpha"
   homepage "https://fonts.google.com/earlyaccess"
   def install
-    (share/"fonts").install "AmstelvarAlpha-VF.ttf"
+    (share/"fonts").install Dir.glob("./**/AmstelvarAlpha-VF.ttf")[0]
   end
   # No zap stanza required
 

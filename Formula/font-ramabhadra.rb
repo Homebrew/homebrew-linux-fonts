@@ -3,7 +3,7 @@ class FontRamabhadra < Formula
   desc "Ramabhadra"
   homepage "https://fonts.google.com/specimen/Ramabhadra"
   def install
-    (share/"fonts").install "Ramabhadra-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Ramabhadra-Regular.ttf")[0]
   end
   # No zap stanza required
 

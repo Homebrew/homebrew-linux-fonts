@@ -4,7 +4,7 @@ class FontNotoSerifKhitanSmallScript < Formula
   desc "Design for the historical east asian khitan small script script"
   homepage "https://fonts.google.com/specimen/Noto+Serif+Khitan+Small+Script"
   def install
-    (share/"fonts").install "NotoSerifKhitanSmallScript-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSerifKhitanSmallScript-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -6,7 +6,7 @@ class FontCozette < Formula
   desc "Bitmap programming font"
   homepage "https://github.com/slavfox/Cozette"
   def install
-    (share/"fonts").install "CozetteVector.dfont"
+    (share/"fonts").install Dir.glob("./**/CozetteVector.dfont")[0]
   end
   # No zap stanza required
 

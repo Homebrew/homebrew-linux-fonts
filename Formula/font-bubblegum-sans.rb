@@ -3,7 +3,7 @@ class FontBubblegumSans < Formula
   desc "Bubblegum Sans"
   homepage "https://fonts.google.com/specimen/Bubblegum+Sans"
   def install
-    (share/"fonts").install "BubblegumSans-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/BubblegumSans-Regular.ttf")[0]
   end
   # No zap stanza required
 

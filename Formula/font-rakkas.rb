@@ -3,7 +3,7 @@ class FontRakkas < Formula
   desc "Rakkas"
   homepage "https://fonts.google.com/specimen/Rakkas"
   def install
-    (share/"fonts").install "Rakkas-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Rakkas-Regular.ttf")[0]
   end
   # No zap stanza required
 

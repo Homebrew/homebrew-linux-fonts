@@ -3,7 +3,7 @@ class FontMetalMania < Formula
   desc "Metal Mania"
   homepage "https://fonts.google.com/specimen/Metal+Mania"
   def install
-    (share/"fonts").install "MetalMania-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/MetalMania-Regular.ttf")[0]
   end
   # No zap stanza required
 

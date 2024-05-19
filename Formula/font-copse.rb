@@ -3,7 +3,7 @@ class FontCopse < Formula
   desc "Copse"
   homepage "https://fonts.google.com/specimen/Copse"
   def install
-    (share/"fonts").install "Copse-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Copse-Regular.ttf")[0]
   end
   # No zap stanza required
 

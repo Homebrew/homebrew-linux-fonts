@@ -4,7 +4,7 @@ class FontNotoSansNandinagari < Formula
   desc "Historical indic nandinagari script"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Nandinagari"
   def install
-    (share/"fonts").install "NotoSansNandinagari-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansNandinagari-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontNothingYouCouldDo < Formula
   desc "Nothing You Could Do"
   homepage "https://fonts.google.com/specimen/Nothing+You+Could+Do"
   def install
-    (share/"fonts").install "NothingYouCouldDo.ttf"
+    (share/"fonts").install Dir.glob("./**/NothingYouCouldDo.ttf")[0]
   end
   # No zap stanza required
 

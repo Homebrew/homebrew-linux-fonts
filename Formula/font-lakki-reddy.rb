@@ -3,7 +3,7 @@ class FontLakkiReddy < Formula
   desc "Lakki Reddy"
   homepage "https://fonts.google.com/specimen/Lakki+Reddy"
   def install
-    (share/"fonts").install "LakkiReddy-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/LakkiReddy-Regular.ttf")[0]
   end
   # No zap stanza required
 

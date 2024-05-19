@@ -3,13 +3,12 @@ class FontIaWriterDuo < Formula
   desc "iA Writer Duo"
   homepage "https://github.com/iaolo/iA-Fonts"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Duo/Static/iAWriterDuoS-Bold.ttf"
-    (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Duo/Static/iAWriterDuoS-BoldItalic.ttf"
-    (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Duo/Static/iAWriterDuoS-Italic.ttf"
-    (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Duo/Static/iAWriterDuoS-Regular.ttf"
-    (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Duo/Variable/iAWriterDuoV-Italic.ttf"
-    (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Duo/Variable/iAWriterDuoV.ttf"
+    (share/"fonts").install Dir.glob("iA-Fonts-master/iA Writer Duo/Static/**/iAWriterDuoS-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("iA-Fonts-master/iA Writer Duo/Static/**/iAWriterDuoS-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("iA-Fonts-master/iA Writer Duo/Static/**/iAWriterDuoS-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("iA-Fonts-master/iA Writer Duo/Static/**/iAWriterDuoS-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("iA-Fonts-master/iA Writer Duo/Variable/**/iAWriterDuoV-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("iA-Fonts-master/iA Writer Duo/Variable/**/iAWriterDuoV.ttf")[0]
   end
   # No zap stanza required
 

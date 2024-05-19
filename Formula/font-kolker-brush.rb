@@ -4,7 +4,7 @@ class FontKolkerBrush < Formula
   desc "Never recommended to use all caps when editing copy"
   homepage "https://fonts.google.com/specimen/Kolker+Brush"
   def install
-    (share/"fonts").install "KolkerBrush-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/KolkerBrush-Regular.ttf")[0]
   end
   # No zap stanza required
 

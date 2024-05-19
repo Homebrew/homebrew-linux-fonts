@@ -3,7 +3,7 @@ class FontAbyssinicaSil < Formula
   desc "Abyssinica SIL"
   homepage "https://fonts.google.com/specimen/Abyssinica+SIL"
   def install
-    (share/"fonts").install "AbyssinicaSIL-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/AbyssinicaSIL-Regular.ttf")[0]
   end
   # No zap stanza required
 

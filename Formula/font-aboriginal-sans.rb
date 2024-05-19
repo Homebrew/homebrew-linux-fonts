@@ -3,10 +3,10 @@ class FontAboriginalSans < Formula
   desc "LanguageGeek Aboriginal Sans Serif"
   homepage "https://www.languagegeek.com/font/fontdownload.html"
   def install
-    (share/"fonts").install "AboriginalSansREGULAR.ttf"
-    (share/"fonts").install "AboriginalSansBOLD.ttf"
-    (share/"fonts").install "AboriginalSansBOLDITALIC.ttf"
-    (share/"fonts").install "AboriginalSansITALIC.ttf"
+    (share/"fonts").install Dir.glob("./**/AboriginalSansREGULAR.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/AboriginalSansBOLD.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/AboriginalSansBOLDITALIC.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/AboriginalSansITALIC.ttf")[0]
   end
   # No zap stanza required
 

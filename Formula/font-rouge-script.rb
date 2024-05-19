@@ -3,7 +3,7 @@ class FontRougeScript < Formula
   desc "Rouge Script"
   homepage "https://fonts.google.com/specimen/Rouge+Script"
   def install
-    (share/"fonts").install "RougeScript-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/RougeScript-Regular.ttf")[0]
   end
   # No zap stanza required
 

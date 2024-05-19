@@ -6,16 +6,15 @@ class FontLeagueSpartan < Formula
   desc "Geometric sans-serif revival of ATF’s classic Spartan"
   homepage "https://www.theleagueofmoveabletype.com/league-spartan"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}LeagueSpartan-#{version}/static/OTF/LeagueSpartan-ExtraLight.otf"
-    (share/"fonts").install "#{parent}LeagueSpartan-#{version}/static/OTF/LeagueSpartan-Light.otf"
-    (share/"fonts").install "#{parent}LeagueSpartan-#{version}/static/OTF/LeagueSpartan-Medium.otf"
-    (share/"fonts").install "#{parent}LeagueSpartan-#{version}/static/OTF/LeagueSpartan-Regular.otf"
-    (share/"fonts").install "#{parent}LeagueSpartan-#{version}/static/OTF/LeagueSpartan-SemiBold.otf"
-    (share/"fonts").install "#{parent}LeagueSpartan-#{version}/static/OTF/LeagueSpartan-Bold.otf"
-    (share/"fonts").install "#{parent}LeagueSpartan-#{version}/static/OTF/LeagueSpartan-ExtraBold.otf"
-    (share/"fonts").install "#{parent}LeagueSpartan-#{version}/static/OTF/LeagueSpartan-Black.otf"
-    (share/"fonts").install "#{parent}LeagueSpartan-#{version}/variable/TTF/LeagueSpartan-VF.ttf"
+    (share/"fonts").install Dir.glob("LeagueSpartan-#{version}/static/OTF/**/LeagueSpartan-ExtraLight.otf")[0]
+    (share/"fonts").install Dir.glob("LeagueSpartan-#{version}/static/OTF/**/LeagueSpartan-Light.otf")[0]
+    (share/"fonts").install Dir.glob("LeagueSpartan-#{version}/static/OTF/**/LeagueSpartan-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("LeagueSpartan-#{version}/static/OTF/**/LeagueSpartan-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("LeagueSpartan-#{version}/static/OTF/**/LeagueSpartan-SemiBold.otf")[0]
+    (share/"fonts").install Dir.glob("LeagueSpartan-#{version}/static/OTF/**/LeagueSpartan-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("LeagueSpartan-#{version}/static/OTF/**/LeagueSpartan-ExtraBold.otf")[0]
+    (share/"fonts").install Dir.glob("LeagueSpartan-#{version}/static/OTF/**/LeagueSpartan-Black.otf")[0]
+    (share/"fonts").install Dir.glob("LeagueSpartan-#{version}/variable/TTF/**/LeagueSpartan-VF.ttf")[0]
   end
   # No zap stanza required
 

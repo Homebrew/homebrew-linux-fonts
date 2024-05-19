@@ -3,7 +3,7 @@ class FontNosifer < Formula
   desc "Nosifer"
   homepage "https://fonts.google.com/specimen/Nosifer"
   def install
-    (share/"fonts").install "Nosifer-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Nosifer-Regular.ttf")[0]
   end
   # No zap stanza required
 

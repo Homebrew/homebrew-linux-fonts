@@ -3,7 +3,7 @@ class FontUchen < Formula
   desc "Uchen"
   homepage "https://fonts.google.com/specimen/Uchen"
   def install
-    (share/"fonts").install "Uchen-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Uchen-Regular.ttf")[0]
   end
   # No zap stanza required
 

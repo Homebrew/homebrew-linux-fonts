@@ -5,11 +5,10 @@ class FontTexGyrePagella < Formula
   desc "TeX Gyre Pagella"
   homepage "https://www.gust.org.pl/projects/e-foundry/tex-gyre/pagella"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}qpl#{version.to_s.gsub(".", "_")}otf/texgyrepagella-bold.otf"
-    (share/"fonts").install "#{parent}qpl#{version.to_s.gsub(".", "_")}otf/texgyrepagella-bolditalic.otf"
-    (share/"fonts").install "#{parent}qpl#{version.to_s.gsub(".", "_")}otf/texgyrepagella-italic.otf"
-    (share/"fonts").install "#{parent}qpl#{version.to_s.gsub(".", "_")}otf/texgyrepagella-regular.otf"
+    (share/"fonts").install Dir.glob("qpl#{version.to_s.gsub(".", "_")}otf/**/texgyrepagella-bold.otf")[0]
+    (share/"fonts").install Dir.glob("qpl#{version.to_s.gsub(".", "_")}otf/**/texgyrepagella-bolditalic.otf")[0]
+    (share/"fonts").install Dir.glob("qpl#{version.to_s.gsub(".", "_")}otf/**/texgyrepagella-italic.otf")[0]
+    (share/"fonts").install Dir.glob("qpl#{version.to_s.gsub(".", "_")}otf/**/texgyrepagella-regular.otf")[0]
   end
   # No zap stanza required
 

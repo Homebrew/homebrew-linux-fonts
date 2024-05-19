@@ -3,7 +3,7 @@ class FontArchivoBlack < Formula
   desc "Archivo Black"
   homepage "https://fonts.google.com/specimen/Archivo+Black"
   def install
-    (share/"fonts").install "ArchivoBlack-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/ArchivoBlack-Regular.ttf")[0]
   end
   # No zap stanza required
 

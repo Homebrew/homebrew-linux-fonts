@@ -3,7 +3,7 @@ class FontRalewayDots < Formula
   desc "Raleway Dots"
   homepage "https://fonts.google.com/specimen/Raleway+Dots"
   def install
-    (share/"fonts").install "RalewayDots-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/RalewayDots-Regular.ttf")[0]
   end
   # No zap stanza required
 

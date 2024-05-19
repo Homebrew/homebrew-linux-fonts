@@ -3,7 +3,7 @@ class FontKatibeh < Formula
   desc "Katibeh"
   homepage "https://fonts.google.com/specimen/Katibeh"
   def install
-    (share/"fonts").install "Katibeh-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Katibeh-Regular.ttf")[0]
   end
   # No zap stanza required
 

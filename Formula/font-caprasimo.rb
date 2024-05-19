@@ -4,7 +4,7 @@ class FontCaprasimo < Formula
   desc "Based on fraunces"
   homepage "https://fonts.google.com/specimen/Caprasimo"
   def install
-    (share/"fonts").install "Caprasimo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Caprasimo-Regular.ttf")[0]
   end
   # No zap stanza required
 

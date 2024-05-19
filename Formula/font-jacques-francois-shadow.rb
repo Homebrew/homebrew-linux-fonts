@@ -3,7 +3,7 @@ class FontJacquesFrancoisShadow < Formula
   desc "Jacques Francois Shadow"
   homepage "https://fonts.google.com/specimen/Jacques+Francois+Shadow"
   def install
-    (share/"fonts").install "JacquesFrancoisShadow-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/JacquesFrancoisShadow-Regular.ttf")[0]
   end
   # No zap stanza required
 

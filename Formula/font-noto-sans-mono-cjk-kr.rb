@@ -6,8 +6,8 @@ class FontNotoSansMonoCjkKr < Formula
   desc "Language Specific Monospace OTFs Korean (한국어)"
   homepage "https://github.com/notofonts/noto-cjk/tree/main/Sans"
   def install
-    (share/"fonts").install "NotoSansMonoCJKkr-Bold.otf"
-    (share/"fonts").install "NotoSansMonoCJKkr-Regular.otf"
+    (share/"fonts").install Dir.glob("./**/NotoSansMonoCJKkr-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansMonoCJKkr-Regular.otf")[0]
   end
   # No zap stanza required
 

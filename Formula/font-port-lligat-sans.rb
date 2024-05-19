@@ -3,7 +3,7 @@ class FontPortLligatSans < Formula
   desc "Port Lligat Sans"
   homepage "https://fonts.google.com/specimen/Port+Lligat+Sans"
   def install
-    (share/"fonts").install "PortLligatSans-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/PortLligatSans-Regular.ttf")[0]
   end
   # No zap stanza required
 

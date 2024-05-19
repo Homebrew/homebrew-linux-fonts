@@ -3,7 +3,7 @@ class FontHammersmithOne < Formula
   desc "Hammersmith One"
   homepage "https://fonts.google.com/specimen/Hammersmith+One"
   def install
-    (share/"fonts").install "HammersmithOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/HammersmithOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

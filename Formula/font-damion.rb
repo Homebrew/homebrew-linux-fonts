@@ -3,7 +3,7 @@ class FontDamion < Formula
   desc "Damion"
   homepage "https://fonts.google.com/specimen/Damion"
   def install
-    (share/"fonts").install "Damion-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Damion-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontShanti < Formula
   desc "Shanti"
   homepage "https://fonts.google.com/specimen/Shanti"
   def install
-    (share/"fonts").install "Shanti-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Shanti-Regular.ttf")[0]
   end
   # No zap stanza required
 

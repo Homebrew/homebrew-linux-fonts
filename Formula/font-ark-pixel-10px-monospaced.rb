@@ -6,13 +6,13 @@ class FontArkPixel10pxMonospaced < Formula
   desc "Open source Pan-CJK pixel font"
   homepage "https://github.com/TakWolf/ark-pixel-font"
   def install
-    (share/"fonts").install "ark-pixel-10px-monospaced-ja.otf"
-    (share/"fonts").install "ark-pixel-10px-monospaced-ko.otf"
-    (share/"fonts").install "ark-pixel-10px-monospaced-latin.otf"
-    (share/"fonts").install "ark-pixel-10px-monospaced-zh_cn.otf"
-    (share/"fonts").install "ark-pixel-10px-monospaced-zh_hk.otf"
-    (share/"fonts").install "ark-pixel-10px-monospaced-zh_tr.otf"
-    (share/"fonts").install "ark-pixel-10px-monospaced-zh_tw.otf"
+    (share/"fonts").install Dir.glob("./**/ark-pixel-10px-monospaced-ja.otf")[0]
+    (share/"fonts").install Dir.glob("./**/ark-pixel-10px-monospaced-ko.otf")[0]
+    (share/"fonts").install Dir.glob("./**/ark-pixel-10px-monospaced-latin.otf")[0]
+    (share/"fonts").install Dir.glob("./**/ark-pixel-10px-monospaced-zh_cn.otf")[0]
+    (share/"fonts").install Dir.glob("./**/ark-pixel-10px-monospaced-zh_hk.otf")[0]
+    (share/"fonts").install Dir.glob("./**/ark-pixel-10px-monospaced-zh_tr.otf")[0]
+    (share/"fonts").install Dir.glob("./**/ark-pixel-10px-monospaced-zh_tw.otf")[0]
   end
   # No zap stanza required
 

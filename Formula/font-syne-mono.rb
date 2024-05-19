@@ -4,7 +4,7 @@ class FontSyneMono < Formula
   desc "Another take on letting go of control"
   homepage "https://fonts.google.com/specimen/Syne+Mono"
   def install
-    (share/"fonts").install "SyneMono-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/SyneMono-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontMuktiNarrow < Formula
   desc "Mukti Narrow"
   homepage "https://www.omicronlab.com/bangla-fonts.html"
   def install
-    (share/"fonts").install "muktinarrow.ttf"
+    (share/"fonts").install Dir.glob("./**/muktinarrow.ttf")[0]
   end
   # No zap stanza required
 

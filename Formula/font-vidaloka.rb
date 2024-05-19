@@ -3,7 +3,7 @@ class FontVidaloka < Formula
   desc "Vidaloka"
   homepage "https://fonts.google.com/specimen/Vidaloka"
   def install
-    (share/"fonts").install "Vidaloka-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Vidaloka-Regular.ttf")[0]
   end
   # No zap stanza required
 

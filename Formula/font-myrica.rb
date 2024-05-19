@@ -6,8 +6,7 @@ class FontMyrica < Formula
   desc "Programming font"
   homepage "https://myrica.estable.jp/"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}Myrica-#{version}/Myrica.TTC"
+    (share/"fonts").install Dir.glob("Myrica-#{version}/**/Myrica.TTC")[0]
   end
   # No zap stanza required
 

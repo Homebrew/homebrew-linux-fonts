@@ -3,7 +3,7 @@ class FontCroissantOne < Formula
   desc "Croissant One"
   homepage "https://fonts.google.com/specimen/Croissant+One"
   def install
-    (share/"fonts").install "CroissantOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/CroissantOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

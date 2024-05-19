@@ -3,7 +3,7 @@ class FontNanumBrushScript < Formula
   desc "Nanum Brush Script"
   homepage "https://fonts.google.com/specimen/Nanum+Brush+Script"
   def install
-    (share/"fonts").install "NanumBrushScript-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NanumBrushScript-Regular.ttf")[0]
   end
   # No zap stanza required
 

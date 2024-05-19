@@ -3,7 +3,7 @@ class FontLuxuriousScript < Formula
   desc "Luxurious Script"
   homepage "https://fonts.google.com/specimen/Luxurious+Script"
   def install
-    (share/"fonts").install "LuxuriousScript-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/LuxuriousScript-Regular.ttf")[0]
   end
   # No zap stanza required
 

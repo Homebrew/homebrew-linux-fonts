@@ -3,7 +3,7 @@ class FontMarcellus < Formula
   desc "Marcellus"
   homepage "https://fonts.google.com/specimen/Marcellus"
   def install
-    (share/"fonts").install "Marcellus-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Marcellus-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontGreyQo < Formula
   desc "Grey Qo"
   homepage "https://fonts.google.com/specimen/Grey+Qo"
   def install
-    (share/"fonts").install "GreyQo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/GreyQo-Regular.ttf")[0]
   end
   # No zap stanza required
 

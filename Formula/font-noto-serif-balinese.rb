@@ -3,7 +3,7 @@ class FontNotoSerifBalinese < Formula
   desc "Noto Serif Balinese"
   homepage "https://fonts.google.com/specimen/Noto+Serif+Balinese"
   def install
-    (share/"fonts").install "NotoSerifBalinese-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSerifBalinese-Regular.ttf")[0]
   end
   # No zap stanza required
 

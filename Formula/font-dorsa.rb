@@ -3,7 +3,7 @@ class FontDorsa < Formula
   desc "Dorsa"
   homepage "https://fonts.google.com/specimen/Dorsa"
   def install
-    (share/"fonts").install "Dorsa-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Dorsa-Regular.ttf")[0]
   end
   # No zap stanza required
 

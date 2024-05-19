@@ -3,7 +3,7 @@ class FontNewRocker < Formula
   desc "New Rocker"
   homepage "https://fonts.google.com/specimen/New+Rocker"
   def install
-    (share/"fonts").install "NewRocker-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NewRocker-Regular.ttf")[0]
   end
   # No zap stanza required
 

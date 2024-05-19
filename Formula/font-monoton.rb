@@ -3,7 +3,7 @@ class FontMonoton < Formula
   desc "Monoton"
   homepage "https://fonts.google.com/specimen/Monoton"
   def install
-    (share/"fonts").install "Monoton-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Monoton-Regular.ttf")[0]
   end
   # No zap stanza required
 

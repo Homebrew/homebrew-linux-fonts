@@ -3,11 +3,10 @@ class FontCourierPrime < Formula
   desc "Courier Prime"
   homepage "https://quoteunquoteapps.com/courierprime/"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}Courier Prime/Courier Prime.ttf"
-    (share/"fonts").install "#{parent}Courier Prime/Courier Prime Bold.ttf"
-    (share/"fonts").install "#{parent}Courier Prime/Courier Prime Bold Italic.ttf"
-    (share/"fonts").install "#{parent}Courier Prime/Courier Prime Italic.ttf"
+    (share/"fonts").install Dir.glob("Courier Prime/**/Courier Prime.ttf")[0]
+    (share/"fonts").install Dir.glob("Courier Prime/**/Courier Prime Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("Courier Prime/**/Courier Prime Bold Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("Courier Prime/**/Courier Prime Italic.ttf")[0]
   end
   # No zap stanza required
 

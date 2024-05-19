@@ -3,7 +3,7 @@ class FontNotoSansAdlamUnjoined < Formula
   desc "Noto Sans Adlam Unjoined"
   homepage "https://www.google.com/get/noto/#sans-adlm-unjoined"
   def install
-    (share/"fonts").install "NotoSansAdlamUnjoined-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansAdlamUnjoined-Regular.ttf")[0]
   end
   # No zap stanza required
 

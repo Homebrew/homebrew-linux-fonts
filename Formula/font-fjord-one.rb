@@ -3,7 +3,7 @@ class FontFjordOne < Formula
   desc "Fjord One"
   homepage "https://fonts.google.com/specimen/Fjord+One"
   def install
-    (share/"fonts").install "FjordOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/FjordOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -6,18 +6,18 @@ class FontInconsolataLgcNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "InconsolataLGCNerdFont-Bold.ttf"
-    (share/"fonts").install "InconsolataLGCNerdFont-BoldItalic.ttf"
-    (share/"fonts").install "InconsolataLGCNerdFont-Italic.ttf"
-    (share/"fonts").install "InconsolataLGCNerdFont-Regular.ttf"
-    (share/"fonts").install "InconsolataLGCNerdFontMono-Bold.ttf"
-    (share/"fonts").install "InconsolataLGCNerdFontMono-BoldItalic.ttf"
-    (share/"fonts").install "InconsolataLGCNerdFontMono-Italic.ttf"
-    (share/"fonts").install "InconsolataLGCNerdFontMono-Regular.ttf"
-    (share/"fonts").install "InconsolataLGCNerdFontPropo-Bold.ttf"
-    (share/"fonts").install "InconsolataLGCNerdFontPropo-BoldItalic.ttf"
-    (share/"fonts").install "InconsolataLGCNerdFontPropo-Italic.ttf"
-    (share/"fonts").install "InconsolataLGCNerdFontPropo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/InconsolataLGCNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/InconsolataLGCNerdFont-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/InconsolataLGCNerdFont-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/InconsolataLGCNerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/InconsolataLGCNerdFontMono-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/InconsolataLGCNerdFontMono-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/InconsolataLGCNerdFontMono-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/InconsolataLGCNerdFontMono-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/InconsolataLGCNerdFontPropo-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/InconsolataLGCNerdFontPropo-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/InconsolataLGCNerdFontPropo-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/InconsolataLGCNerdFontPropo-Regular.ttf")[0]
   end
   # No zap stanza required
 

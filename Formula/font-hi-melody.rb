@@ -3,7 +3,7 @@ class FontHiMelody < Formula
   desc "Hi Melody"
   homepage "https://fonts.google.com/specimen/Hi+Melody"
   def install
-    (share/"fonts").install "HiMelody-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/HiMelody-Regular.ttf")[0]
   end
   # No zap stanza required
 

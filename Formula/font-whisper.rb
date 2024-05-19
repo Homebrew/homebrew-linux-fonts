@@ -3,7 +3,7 @@ class FontWhisper < Formula
   desc "Whisper"
   homepage "https://fonts.google.com/specimen/Whisper"
   def install
-    (share/"fonts").install "Whisper-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Whisper-Regular.ttf")[0]
   end
   # No zap stanza required
 

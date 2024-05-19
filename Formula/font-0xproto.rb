@@ -6,8 +6,8 @@ class Font0xproto < Formula
   desc "Programming font focused on source code legibility"
   homepage "https://github.com/0xType/0xProto"
   def install
-    (share/"fonts").install "0xProto-Regular.otf"
-    (share/"fonts").install "0xProto-Italic.otf"
+    (share/"fonts").install Dir.glob("./**/0xProto-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/0xProto-Italic.otf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontRubikMonoOne < Formula
   desc "Rubik Mono One"
   homepage "https://fonts.google.com/specimen/Rubik+Mono+One"
   def install
-    (share/"fonts").install "RubikMonoOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/RubikMonoOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

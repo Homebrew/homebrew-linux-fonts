@@ -3,7 +3,7 @@ class FontBowlbyOneSc < Formula
   desc "Bowlby One SC"
   homepage "https://fonts.google.com/specimen/Bowlby+One+SC"
   def install
-    (share/"fonts").install "BowlbyOneSC-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/BowlbyOneSC-Regular.ttf")[0]
   end
   # No zap stanza required
 

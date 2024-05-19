@@ -3,7 +3,7 @@ class FontNotoSansOlChiki < Formula
   desc "Noto Sans Ol Chiki"
   homepage "https://www.google.com/get/noto/#sans-olck"
   def install
-    (share/"fonts").install "NotoSansOlChiki-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansOlChiki-Regular.ttf")[0]
   end
   # No zap stanza required
 

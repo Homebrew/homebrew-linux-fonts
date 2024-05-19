@@ -6,14 +6,13 @@ class FontNotoSerifCjkSc < Formula
   desc "Language Specific OTFs Simplified Chinese (简体中文)"
   homepage "https://github.com/notofonts/noto-cjk/tree/main/Serif"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}OTF/SimplifiedChinese/NotoSerifCJKsc-Black.otf"
-    (share/"fonts").install "#{parent}OTF/SimplifiedChinese/NotoSerifCJKsc-Bold.otf"
-    (share/"fonts").install "#{parent}OTF/SimplifiedChinese/NotoSerifCJKsc-ExtraLight.otf"
-    (share/"fonts").install "#{parent}OTF/SimplifiedChinese/NotoSerifCJKsc-Light.otf"
-    (share/"fonts").install "#{parent}OTF/SimplifiedChinese/NotoSerifCJKsc-Medium.otf"
-    (share/"fonts").install "#{parent}OTF/SimplifiedChinese/NotoSerifCJKsc-Regular.otf"
-    (share/"fonts").install "#{parent}OTF/SimplifiedChinese/NotoSerifCJKsc-SemiBold.otf"
+    (share/"fonts").install Dir.glob("OTF/SimplifiedChinese/**/NotoSerifCJKsc-Black.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/SimplifiedChinese/**/NotoSerifCJKsc-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/SimplifiedChinese/**/NotoSerifCJKsc-ExtraLight.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/SimplifiedChinese/**/NotoSerifCJKsc-Light.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/SimplifiedChinese/**/NotoSerifCJKsc-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/SimplifiedChinese/**/NotoSerifCJKsc-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/SimplifiedChinese/**/NotoSerifCJKsc-SemiBold.otf")[0]
   end
   # No zap stanza required
 

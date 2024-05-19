@@ -3,7 +3,7 @@ class FontVampiroOne < Formula
   desc "Vampiro One"
   homepage "https://fonts.google.com/specimen/Vampiro+One"
   def install
-    (share/"fonts").install "VampiroOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/VampiroOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

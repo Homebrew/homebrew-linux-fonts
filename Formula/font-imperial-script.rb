@@ -4,7 +4,7 @@ class FontImperialScript < Formula
   desc "Formal script font with clean connections and an elegant look"
   homepage "https://fonts.google.com/specimen/Imperial+Script"
   def install
-    (share/"fonts").install "ImperialScript-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/ImperialScript-Regular.ttf")[0]
   end
   # No zap stanza required
 

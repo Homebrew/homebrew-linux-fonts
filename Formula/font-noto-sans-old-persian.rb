@@ -3,7 +3,7 @@ class FontNotoSansOldPersian < Formula
   desc "Noto Sans Old Persian"
   homepage "https://www.google.com/get/noto/#sans-xpeo"
   def install
-    (share/"fonts").install "NotoSansOldPersian-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansOldPersian-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,8 +3,7 @@ class FontSansForgetica < Formula
   desc "Sans Forgetica"
   homepage "https://sansforgetica.rmit.edu.au/"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}Sans Forgetica/SansForgetica-Regular.otf"
+    (share/"fonts").install Dir.glob("Sans Forgetica/**/SansForgetica-Regular.otf")[0]
   end
   # No zap stanza required
 

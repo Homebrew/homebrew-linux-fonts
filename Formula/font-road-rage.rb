@@ -4,7 +4,7 @@ class FontRoadRage < Formula
   desc "Return to the days of grunge"
   homepage "https://fonts.google.com/specimen/Road+Rage"
   def install
-    (share/"fonts").install "RoadRage-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/RoadRage-Regular.ttf")[0]
   end
   # No zap stanza required
 

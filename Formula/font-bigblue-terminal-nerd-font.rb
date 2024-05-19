@@ -6,12 +6,12 @@ class FontBigblueTerminalNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "BigBlueTerm437NerdFont-Regular.ttf"
-    (share/"fonts").install "BigBlueTerm437NerdFontMono-Regular.ttf"
-    (share/"fonts").install "BigBlueTerm437NerdFontPropo-Regular.ttf"
-    (share/"fonts").install "BigBlueTermPlusNerdFont-Regular.ttf"
-    (share/"fonts").install "BigBlueTermPlusNerdFontMono-Regular.ttf"
-    (share/"fonts").install "BigBlueTermPlusNerdFontPropo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/BigBlueTerm437NerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/BigBlueTerm437NerdFontMono-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/BigBlueTerm437NerdFontPropo-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/BigBlueTermPlusNerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/BigBlueTermPlusNerdFontMono-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/BigBlueTermPlusNerdFontPropo-Regular.ttf")[0]
   end
   # No zap stanza required
 

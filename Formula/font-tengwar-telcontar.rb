@@ -6,8 +6,8 @@ class FontTengwarTelcontar < Formula
   desc "Tengwar Telcontar - a Unicode Tengwar font"
   homepage "http://freetengwar.sourceforge.net/tengtelc.html"
   def install
-    (share/"fonts").install "tengtelc.ttf"
-    (share/"fonts").install "tengtelcb.ttf"
+    (share/"fonts").install Dir.glob("./**/tengtelc.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/tengtelcb.ttf")[0]
   end
   # No zap stanza required
 

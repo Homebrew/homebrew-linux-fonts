@@ -3,7 +3,7 @@ class FontRubikDoodleShadow < Formula
   desc "Rubik Doodle Shadow"
   homepage "https://fonts.google.com/specimen/Rubik+Doodle+Shadow"
   def install
-    (share/"fonts").install "RubikDoodleShadow-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/RubikDoodleShadow-Regular.ttf")[0]
   end
   # No zap stanza required
 

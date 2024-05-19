@@ -6,7 +6,7 @@ class FontChomsky < Formula
   desc "New York Times masthead, reimagined as a full font"
   homepage "https://github.com/ctrlcctrlv/chomsky"
   def install
-    (share/"fonts").install "Chomsky.otf"
+    (share/"fonts").install Dir.glob("./**/Chomsky.otf")[0]
   end
   # No zap stanza required
 

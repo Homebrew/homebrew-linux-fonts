@@ -7,7 +7,7 @@ class FontLxgwNeozhisong < Formula
   desc "Chinese serif font derived from IPAmj Mincho"
   homepage "https://github.com/lxgw/LxgwNeoZhiSong"
   def install
-    (share/"fonts").install "LXGWNeoZhiSong.ttf"
+    (share/"fonts").install Dir.glob("./**/LXGWNeoZhiSong.ttf")[0]
   end
   # No zap stanza required
 

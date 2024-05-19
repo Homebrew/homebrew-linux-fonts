@@ -3,7 +3,7 @@ class FontReggaeOne < Formula
   desc "Reggae One"
   homepage "https://fonts.google.com/specimen/Reggae+One"
   def install
-    (share/"fonts").install "ReggaeOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/ReggaeOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

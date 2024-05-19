@@ -3,7 +3,7 @@ class FontFlowBlock < Formula
   desc "Flow Block"
   homepage "https://fonts.google.com/specimen/Flow+Block"
   def install
-    (share/"fonts").install "FlowBlock-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/FlowBlock-Regular.ttf")[0]
   end
   # No zap stanza required
 

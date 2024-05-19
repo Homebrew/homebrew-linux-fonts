@@ -3,10 +3,10 @@ class FontMiriamMonoClm < Formula
   desc "Miriam Mono CLM"
   homepage "https://opensiddur.org/wp-content/uploads/fonts/display-font-charmap.php?fnt=MiriamMonoCLM"
   def install
-    (share/"fonts").install "MiriamMonoCLM-Bold.ttf"
-    (share/"fonts").install "MiriamMonoCLM-BoldOblique.ttf"
-    (share/"fonts").install "MiriamMonoCLM-Book.ttf"
-    (share/"fonts").install "MiriamMonoCLM-BookOblique.ttf"
+    (share/"fonts").install Dir.glob("./**/MiriamMonoCLM-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MiriamMonoCLM-BoldOblique.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MiriamMonoCLM-Book.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MiriamMonoCLM-BookOblique.ttf")[0]
   end
   # No zap stanza required
 

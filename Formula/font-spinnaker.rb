@@ -3,7 +3,7 @@ class FontSpinnaker < Formula
   desc "Spinnaker"
   homepage "https://fonts.google.com/specimen/Spinnaker"
   def install
-    (share/"fonts").install "Spinnaker-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Spinnaker-Regular.ttf")[0]
   end
   # No zap stanza required
 

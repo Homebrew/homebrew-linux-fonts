@@ -6,14 +6,13 @@ class FontLilex < Formula
   desc "Programming font"
   homepage "https://github.com/mishamyrt/Lilex"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}ttf/Lilex-Bold.ttf"
-    (share/"fonts").install "#{parent}ttf/Lilex-ExtraLight.ttf"
-    (share/"fonts").install "#{parent}ttf/Lilex-ExtraThick.ttf"
-    (share/"fonts").install "#{parent}ttf/Lilex-Medium.ttf"
-    (share/"fonts").install "#{parent}ttf/Lilex-Regular.ttf"
-    (share/"fonts").install "#{parent}ttf/Lilex-Thin.ttf"
-    (share/"fonts").install "#{parent}variable/Lilex-VF.ttf"
+    (share/"fonts").install Dir.glob("ttf/**/Lilex-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ttf/**/Lilex-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob("ttf/**/Lilex-ExtraThick.ttf")[0]
+    (share/"fonts").install Dir.glob("ttf/**/Lilex-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("ttf/**/Lilex-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ttf/**/Lilex-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("variable/**/Lilex-VF.ttf")[0]
   end
   # No zap stanza required
 

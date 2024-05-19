@@ -3,7 +3,7 @@ class FontNotoSansRejang < Formula
   desc "Noto Sans Rejang"
   homepage "https://www.google.com/get/noto/#sans-rjng"
   def install
-    (share/"fonts").install "NotoSansRejang-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansRejang-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -6,18 +6,18 @@ class FontBitstreamVeraSansMonoNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "ofl/biryani/" + "BitstromWeraNerdFont-Bold.ttf"
-    (share/"fonts").install "ofl/biryani/" + "BitstromWeraNerdFont-BoldOblique.ttf"
-    (share/"fonts").install "ofl/biryani/" + "BitstromWeraNerdFont-Oblique.ttf"
-    (share/"fonts").install "ofl/biryani/" + "BitstromWeraNerdFont-Regular.ttf"
-    (share/"fonts").install "ofl/biryani/" + "BitstromWeraNerdFontMono-Bold.ttf"
-    (share/"fonts").install "ofl/biryani/" + "BitstromWeraNerdFontMono-BoldOblique.ttf"
-    (share/"fonts").install "ofl/biryani/" + "BitstromWeraNerdFontMono-Oblique.ttf"
-    (share/"fonts").install "ofl/biryani/" + "BitstromWeraNerdFontMono-Regular.ttf"
-    (share/"fonts").install "ofl/biryani/" + "BitstromWeraNerdFontPropo-Bold.ttf"
-    (share/"fonts").install "ofl/biryani/" + "BitstromWeraNerdFontPropo-BoldOblique.ttf"
-    (share/"fonts").install "ofl/biryani/" + "BitstromWeraNerdFontPropo-Oblique.ttf"
-    (share/"fonts").install "ofl/biryani/" + "BitstromWeraNerdFontPropo-Regular.ttf"
+    (share/"fonts").install Dir.glob(""ofl/biryani/" + ./**/BitstromWeraNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/biryani/" + ./**/BitstromWeraNerdFont-BoldOblique.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/biryani/" + ./**/BitstromWeraNerdFont-Oblique.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/biryani/" + ./**/BitstromWeraNerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/biryani/" + ./**/BitstromWeraNerdFontMono-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/biryani/" + ./**/BitstromWeraNerdFontMono-BoldOblique.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/biryani/" + ./**/BitstromWeraNerdFontMono-Oblique.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/biryani/" + ./**/BitstromWeraNerdFontMono-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/biryani/" + ./**/BitstromWeraNerdFontPropo-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/biryani/" + ./**/BitstromWeraNerdFontPropo-BoldOblique.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/biryani/" + ./**/BitstromWeraNerdFontPropo-Oblique.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/biryani/" + ./**/BitstromWeraNerdFontPropo-Regular.ttf")[0]
   end
   # No zap stanza required
 

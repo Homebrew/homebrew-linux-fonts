@@ -6,8 +6,7 @@ class FontTengwarFormalCsur < Formula
   desc "Tengwar Unicode font compliant with CSUR"
   homepage "http://freetengwar.sourceforge.net/formal.html"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}TengwarFormalCSUR#{version}/TengwarFormalCSUR.ttf"
+    (share/"fonts").install Dir.glob("TengwarFormalCSUR#{version}/**/TengwarFormalCSUR.ttf")[0]
   end
   # No zap stanza required
 

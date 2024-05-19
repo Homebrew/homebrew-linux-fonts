@@ -3,7 +3,7 @@ class FontLeckerliOne < Formula
   desc "Leckerli One"
   homepage "https://fonts.google.com/specimen/Leckerli+One"
   def install
-    (share/"fonts").install "LeckerliOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/LeckerliOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

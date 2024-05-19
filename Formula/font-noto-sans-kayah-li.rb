@@ -3,7 +3,7 @@ class FontNotoSansKayahLi < Formula
   desc "Noto Sans Kayah Li"
   homepage "https://www.google.com/get/noto/#sans-kali"
   def install
-    (share/"fonts").install "NotoSansKayahLi-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansKayahLi-Regular.ttf")[0]
   end
   # No zap stanza required
 

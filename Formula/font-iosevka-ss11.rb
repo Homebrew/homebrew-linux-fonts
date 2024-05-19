@@ -6,15 +6,15 @@ class FontIosevkaSs11 < Formula
   desc "Sans-serif, slab-serif, monospace and quasi‑proportional typeface family"
   homepage "https://github.com/be5invis/Iosevka/"
   def install
-    (share/"fonts").install "IosevkaSS11-Bold.ttc"
-    (share/"fonts").install "IosevkaSS11-ExtraBold.ttc"
-    (share/"fonts").install "IosevkaSS11-ExtraLight.ttc"
-    (share/"fonts").install "IosevkaSS11-Heavy.ttc"
-    (share/"fonts").install "IosevkaSS11-Light.ttc"
-    (share/"fonts").install "IosevkaSS11-Medium.ttc"
-    (share/"fonts").install "IosevkaSS11-Regular.ttc"
-    (share/"fonts").install "IosevkaSS11-SemiBold.ttc"
-    (share/"fonts").install "IosevkaSS11-Thin.ttc"
+    (share/"fonts").install Dir.glob("./**/IosevkaSS11-Bold.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/IosevkaSS11-ExtraBold.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/IosevkaSS11-ExtraLight.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/IosevkaSS11-Heavy.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/IosevkaSS11-Light.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/IosevkaSS11-Medium.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/IosevkaSS11-Regular.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/IosevkaSS11-SemiBold.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/IosevkaSS11-Thin.ttc")[0]
   end
   # No zap stanza required
 

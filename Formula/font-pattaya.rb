@@ -3,7 +3,7 @@ class FontPattaya < Formula
   desc "Pattaya"
   homepage "https://fonts.google.com/specimen/Pattaya"
   def install
-    (share/"fonts").install "Pattaya-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Pattaya-Regular.ttf")[0]
   end
   # No zap stanza required
 

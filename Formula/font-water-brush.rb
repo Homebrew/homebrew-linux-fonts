@@ -4,7 +4,7 @@ class FontWaterBrush < Formula
   desc "Camel hair brush filled with color on a watercolor textured paper"
   homepage "https://fonts.google.com/specimen/Water+Brush"
   def install
-    (share/"fonts").install "WaterBrush-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/WaterBrush-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontLedger < Formula
   desc "Ledger"
   homepage "https://fonts.google.com/specimen/Ledger"
   def install
-    (share/"fonts").install "Ledger-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Ledger-Regular.ttf")[0]
   end
   # No zap stanza required
 

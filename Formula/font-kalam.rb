@@ -5,9 +5,9 @@ class FontKalam < Formula
   desc "Kalam"
   homepage "https://github.com/itfoundry/kalam"
   def install
-    (share/"fonts").install "Kalam-Bold.otf"
-    (share/"fonts").install "Kalam-Light.otf"
-    (share/"fonts").install "Kalam-Regular.otf"
+    (share/"fonts").install Dir.glob("./**/Kalam-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Kalam-Light.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Kalam-Regular.otf")[0]
   end
   # No zap stanza required
 

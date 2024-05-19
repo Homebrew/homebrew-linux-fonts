@@ -3,7 +3,7 @@ class FontKavivanar < Formula
   desc "Kavivanar"
   homepage "https://fonts.google.com/specimen/Kavivanar"
   def install
-    (share/"fonts").install "Kavivanar-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Kavivanar-Regular.ttf")[0]
   end
   # No zap stanza required
 

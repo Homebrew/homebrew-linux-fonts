@@ -3,7 +3,7 @@ class FontGruppo < Formula
   desc "Gruppo"
   homepage "https://fonts.google.com/specimen/Gruppo"
   def install
-    (share/"fonts").install "Gruppo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Gruppo-Regular.ttf")[0]
   end
   # No zap stanza required
 

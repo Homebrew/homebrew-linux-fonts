@@ -4,7 +4,7 @@ class FontGulzar < Formula
   desc "Nasta’liq type for which an original latin counterpart was designed"
   homepage "https://fonts.google.com/specimen/Gulzar"
   def install
-    (share/"fonts").install "Gulzar-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Gulzar-Regular.ttf")[0]
   end
   # No zap stanza required
 

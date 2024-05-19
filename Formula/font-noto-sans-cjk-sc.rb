@@ -6,13 +6,13 @@ class FontNotoSansCjkSc < Formula
   desc "Language Specific OTFs Simplified Chinese (简体中文)"
   homepage "https://github.com/notofonts/noto-cjk/tree/main/Sans"
   def install
-    (share/"fonts").install "NotoSansCJKsc-Black.otf"
-    (share/"fonts").install "NotoSansCJKsc-Bold.otf"
-    (share/"fonts").install "NotoSansCJKsc-DemiLight.otf"
-    (share/"fonts").install "NotoSansCJKsc-Light.otf"
-    (share/"fonts").install "NotoSansCJKsc-Medium.otf"
-    (share/"fonts").install "NotoSansCJKsc-Regular.otf"
-    (share/"fonts").install "NotoSansCJKsc-Thin.otf"
+    (share/"fonts").install Dir.glob("./**/NotoSansCJKsc-Black.otf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansCJKsc-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansCJKsc-DemiLight.otf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansCJKsc-Light.otf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansCJKsc-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansCJKsc-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansCJKsc-Thin.otf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontGiveYouGlory < Formula
   desc "Give You Glory"
   homepage "https://fonts.google.com/specimen/Give+You+Glory"
   def install
-    (share/"fonts").install "GiveYouGlory.ttf"
+    (share/"fonts").install Dir.glob("./**/GiveYouGlory.ttf")[0]
   end
   # No zap stanza required
 

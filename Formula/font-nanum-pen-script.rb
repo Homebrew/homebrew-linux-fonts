@@ -3,7 +3,7 @@ class FontNanumPenScript < Formula
   desc "Nanum Pen Script"
   homepage "https://fonts.google.com/specimen/Nanum+Pen+Script"
   def install
-    (share/"fonts").install "NanumPenScript-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NanumPenScript-Regular.ttf")[0]
   end
   # No zap stanza required
 

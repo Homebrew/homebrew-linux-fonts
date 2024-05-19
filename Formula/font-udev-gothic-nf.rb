@@ -6,23 +6,22 @@ class FontUdevGothicNf < Formula
   desc "Integrate fonts from BIZ UD Gothic and JetBrains Mono"
   homepage "https://github.com/yuru7/udev-gothic"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}UDEVGothic_NF_v#{version}/UDEVGothic35NF-Bold.ttf"
-    (share/"fonts").install "#{parent}UDEVGothic_NF_v#{version}/UDEVGothic35NF-BoldItalic.ttf"
-    (share/"fonts").install "#{parent}UDEVGothic_NF_v#{version}/UDEVGothic35NF-Italic.ttf"
-    (share/"fonts").install "#{parent}UDEVGothic_NF_v#{version}/UDEVGothic35NF-Regular.ttf"
-    (share/"fonts").install "#{parent}UDEVGothic_NF_v#{version}/UDEVGothic35NFLG-Bold.ttf"
-    (share/"fonts").install "#{parent}UDEVGothic_NF_v#{version}/UDEVGothic35NFLG-BoldItalic.ttf"
-    (share/"fonts").install "#{parent}UDEVGothic_NF_v#{version}/UDEVGothic35NFLG-Italic.ttf"
-    (share/"fonts").install "#{parent}UDEVGothic_NF_v#{version}/UDEVGothic35NFLG-Regular.ttf"
-    (share/"fonts").install "#{parent}UDEVGothic_NF_v#{version}/UDEVGothicNF-Bold.ttf"
-    (share/"fonts").install "#{parent}UDEVGothic_NF_v#{version}/UDEVGothicNF-BoldItalic.ttf"
-    (share/"fonts").install "#{parent}UDEVGothic_NF_v#{version}/UDEVGothicNF-Italic.ttf"
-    (share/"fonts").install "#{parent}UDEVGothic_NF_v#{version}/UDEVGothicNF-Regular.ttf"
-    (share/"fonts").install "#{parent}UDEVGothic_NF_v#{version}/UDEVGothicNFLG-Bold.ttf"
-    (share/"fonts").install "#{parent}UDEVGothic_NF_v#{version}/UDEVGothicNFLG-BoldItalic.ttf"
-    (share/"fonts").install "#{parent}UDEVGothic_NF_v#{version}/UDEVGothicNFLG-Italic.ttf"
-    (share/"fonts").install "#{parent}UDEVGothic_NF_v#{version}/UDEVGothicNFLG-Regular.ttf"
+    (share/"fonts").install Dir.glob("UDEVGothic_NF_v#{version}/**/UDEVGothic35NF-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("UDEVGothic_NF_v#{version}/**/UDEVGothic35NF-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("UDEVGothic_NF_v#{version}/**/UDEVGothic35NF-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("UDEVGothic_NF_v#{version}/**/UDEVGothic35NF-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("UDEVGothic_NF_v#{version}/**/UDEVGothic35NFLG-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("UDEVGothic_NF_v#{version}/**/UDEVGothic35NFLG-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("UDEVGothic_NF_v#{version}/**/UDEVGothic35NFLG-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("UDEVGothic_NF_v#{version}/**/UDEVGothic35NFLG-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("UDEVGothic_NF_v#{version}/**/UDEVGothicNF-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("UDEVGothic_NF_v#{version}/**/UDEVGothicNF-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("UDEVGothic_NF_v#{version}/**/UDEVGothicNF-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("UDEVGothic_NF_v#{version}/**/UDEVGothicNF-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("UDEVGothic_NF_v#{version}/**/UDEVGothicNFLG-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("UDEVGothic_NF_v#{version}/**/UDEVGothicNFLG-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("UDEVGothic_NF_v#{version}/**/UDEVGothicNFLG-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("UDEVGothic_NF_v#{version}/**/UDEVGothicNFLG-Regular.ttf")[0]
   end
   # No zap stanza required
 

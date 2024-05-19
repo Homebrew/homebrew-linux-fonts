@@ -3,7 +3,7 @@ class FontProtestRiot < Formula
   desc "Protest Riot"
   homepage "https://fonts.google.com/specimen/Protest+Riot"
   def install
-    (share/"fonts").install "ProtestRiot-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/ProtestRiot-Regular.ttf")[0]
   end
   # No zap stanza required
 

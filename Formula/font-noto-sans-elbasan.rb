@@ -3,7 +3,7 @@ class FontNotoSansElbasan < Formula
   desc "Noto Sans Elbasan"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Elbasan"
   def install
-    (share/"fonts").install "NotoSansElbasan-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansElbasan-Regular.ttf")[0]
   end
   # No zap stanza required
 

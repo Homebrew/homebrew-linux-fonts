@@ -3,7 +3,7 @@ class FontNotoSansWancho < Formula
   desc "Noto Sans Wancho"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Wancho"
   def install
-    (share/"fonts").install "NotoSansWancho-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansWancho-Regular.ttf")[0]
   end
   # No zap stanza required
 

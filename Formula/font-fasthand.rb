@@ -3,7 +3,7 @@ class FontFasthand < Formula
   desc "Fasthand"
   homepage "https://fonts.google.com/specimen/Fasthand"
   def install
-    (share/"fonts").install "Fasthand-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Fasthand-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontUncialAntiqua < Formula
   desc "Uncial Antiqua"
   homepage "https://fonts.google.com/specimen/Uncial+Antiqua"
   def install
-    (share/"fonts").install "UncialAntiqua-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/UncialAntiqua-Regular.ttf")[0]
   end
   # No zap stanza required
 

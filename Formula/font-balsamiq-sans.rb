@@ -3,11 +3,10 @@ class FontBalsamiqSans < Formula
   desc "Balsamiq Sans"
   homepage "https://balsamiq.com/givingback/opensource/font/"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}balsamiqsans-master/fonts/ttf/BalsamiqSans-Bold.ttf"
-    (share/"fonts").install "#{parent}balsamiqsans-master/fonts/ttf/BalsamiqSans-BoldItalic.ttf"
-    (share/"fonts").install "#{parent}balsamiqsans-master/fonts/ttf/BalsamiqSans-Italic.ttf"
-    (share/"fonts").install "#{parent}balsamiqsans-master/fonts/ttf/BalsamiqSans-Regular.ttf"
+    (share/"fonts").install Dir.glob("balsamiqsans-master/fonts/ttf/**/BalsamiqSans-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("balsamiqsans-master/fonts/ttf/**/BalsamiqSans-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("balsamiqsans-master/fonts/ttf/**/BalsamiqSans-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("balsamiqsans-master/fonts/ttf/**/BalsamiqSans-Regular.ttf")[0]
   end
   # No zap stanza required
 

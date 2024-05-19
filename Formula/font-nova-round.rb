@@ -3,7 +3,7 @@ class FontNovaRound < Formula
   desc "Nova Round"
   homepage "https://fonts.google.com/specimen/Nova+Round"
   def install
-    (share/"fonts").install "NovaRound.ttf"
+    (share/"fonts").install Dir.glob("./**/NovaRound.ttf")[0]
   end
   # No zap stanza required
 

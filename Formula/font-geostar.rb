@@ -3,7 +3,7 @@ class FontGeostar < Formula
   desc "Geostar"
   homepage "https://fonts.google.com/specimen/Geostar"
   def install
-    (share/"fonts").install "Geostar-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Geostar-Regular.ttf")[0]
   end
   # No zap stanza required
 

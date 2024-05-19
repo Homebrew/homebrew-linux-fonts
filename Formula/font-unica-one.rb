@@ -3,7 +3,7 @@ class FontUnicaOne < Formula
   desc "Unica One"
   homepage "https://fonts.google.com/specimen/Unica+One"
   def install
-    (share/"fonts").install "UnicaOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/UnicaOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

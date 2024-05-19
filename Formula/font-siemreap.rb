@@ -3,7 +3,7 @@ class FontSiemreap < Formula
   desc "Siemreap"
   homepage "https://fonts.google.com/specimen/Siemreap"
   def install
-    (share/"fonts").install "Siemreap.ttf"
+    (share/"fonts").install Dir.glob("./**/Siemreap.ttf")[0]
   end
   # No zap stanza required
 

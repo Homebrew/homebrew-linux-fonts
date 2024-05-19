@@ -4,7 +4,7 @@ class FontYujiBoku < Formula
   desc "New and joyful design"
   homepage "https://fonts.google.com/specimen/Yuji+Boku"
   def install
-    (share/"fonts").install "YujiBoku-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/YujiBoku-Regular.ttf")[0]
   end
   # No zap stanza required
 

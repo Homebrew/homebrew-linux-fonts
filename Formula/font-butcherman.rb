@@ -3,7 +3,7 @@ class FontButcherman < Formula
   desc "Butcherman"
   homepage "https://fonts.google.com/specimen/Butcherman"
   def install
-    (share/"fonts").install "Butcherman-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Butcherman-Regular.ttf")[0]
   end
   # No zap stanza required
 

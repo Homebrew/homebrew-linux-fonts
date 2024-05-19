@@ -5,8 +5,8 @@ class FontHanamina < Formula
   desc "HanaMinA"
   homepage "https://fonts.jp/hanazono/"
   def install
-    (share/"fonts").install "HanaMinA.ttf"
-    (share/"fonts").install "HanaMinB.ttf"
+    (share/"fonts").install Dir.glob("./**/HanaMinA.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/HanaMinB.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontQahiri < Formula
   desc "Qahiri"
   homepage "https://fonts.google.com/specimen/Qahiri"
   def install
-    (share/"fonts").install "Qahiri-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Qahiri-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontCambo < Formula
   desc "Cambo"
   homepage "https://fonts.google.com/specimen/Cambo"
   def install
-    (share/"fonts").install "Cambo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Cambo-Regular.ttf")[0]
   end
   # No zap stanza required
 

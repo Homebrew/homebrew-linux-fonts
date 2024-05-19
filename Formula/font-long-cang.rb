@@ -3,7 +3,7 @@ class FontLongCang < Formula
   desc "Long Cang"
   homepage "https://fonts.google.com/specimen/Long+Cang"
   def install
-    (share/"fonts").install "LongCang-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/LongCang-Regular.ttf")[0]
   end
   # No zap stanza required
 

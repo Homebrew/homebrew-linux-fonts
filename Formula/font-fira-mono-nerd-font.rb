@@ -6,15 +6,15 @@ class FontFiraMonoNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "FiraMono/" + "FiraMonoNerdFont-Bold.otf"
-    (share/"fonts").install "FiraMono/" + "FiraMonoNerdFont-Medium.otf"
-    (share/"fonts").install "FiraMono/" + "FiraMonoNerdFont-Regular.otf"
-    (share/"fonts").install "FiraMono/" + "FiraMonoNerdFontMono-Bold.otf"
-    (share/"fonts").install "FiraMono/" + "FiraMonoNerdFontMono-Medium.otf"
-    (share/"fonts").install "FiraMono/" + "FiraMonoNerdFontMono-Regular.otf"
-    (share/"fonts").install "FiraMono/" + "FiraMonoNerdFontPropo-Bold.otf"
-    (share/"fonts").install "FiraMono/" + "FiraMonoNerdFontPropo-Medium.otf"
-    (share/"fonts").install "FiraMono/" + "FiraMonoNerdFontPropo-Regular.otf"
+    (share/"fonts").install Dir.glob(""FiraMono/" + ./**/FiraMonoNerdFont-Bold.otf")[0]
+    (share/"fonts").install Dir.glob(""FiraMono/" + ./**/FiraMonoNerdFont-Medium.otf")[0]
+    (share/"fonts").install Dir.glob(""FiraMono/" + ./**/FiraMonoNerdFont-Regular.otf")[0]
+    (share/"fonts").install Dir.glob(""FiraMono/" + ./**/FiraMonoNerdFontMono-Bold.otf")[0]
+    (share/"fonts").install Dir.glob(""FiraMono/" + ./**/FiraMonoNerdFontMono-Medium.otf")[0]
+    (share/"fonts").install Dir.glob(""FiraMono/" + ./**/FiraMonoNerdFontMono-Regular.otf")[0]
+    (share/"fonts").install Dir.glob(""FiraMono/" + ./**/FiraMonoNerdFontPropo-Bold.otf")[0]
+    (share/"fonts").install Dir.glob(""FiraMono/" + ./**/FiraMonoNerdFontPropo-Medium.otf")[0]
+    (share/"fonts").install Dir.glob(""FiraMono/" + ./**/FiraMonoNerdFontPropo-Regular.otf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontCalligraffitti < Formula
   desc "Calligraffitti"
   homepage "https://fonts.google.com/specimen/Calligraffitti"
   def install
-    (share/"fonts").install "Calligraffitti-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Calligraffitti-Regular.ttf")[0]
   end
   # No zap stanza required
 

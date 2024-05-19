@@ -3,7 +3,7 @@ class FontKranky < Formula
   desc "Kranky"
   homepage "https://fonts.google.com/specimen/Kranky"
   def install
-    (share/"fonts").install "Kranky-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Kranky-Regular.ttf")[0]
   end
   # No zap stanza required
 

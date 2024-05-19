@@ -3,7 +3,7 @@ class FontRubik80sFade < Formula
   desc "Rubik 80s Fade"
   homepage "https://fonts.google.com/specimen/Rubik+80s+Fade"
   def install
-    (share/"fonts").install "Rubik80sFade-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Rubik80sFade-Regular.ttf")[0]
   end
   # No zap stanza required
 

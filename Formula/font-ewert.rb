@@ -3,7 +3,7 @@ class FontEwert < Formula
   desc "Ewert"
   homepage "https://fonts.google.com/specimen/Ewert"
   def install
-    (share/"fonts").install "Ewert-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Ewert-Regular.ttf")[0]
   end
   # No zap stanza required
 

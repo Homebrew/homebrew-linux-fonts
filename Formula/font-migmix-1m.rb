@@ -5,9 +5,8 @@ class FontMigmix1m < Formula
   desc "MigMix 1M"
   homepage "https://mix-mplus-ipa.osdn.jp/migmix/#migmix1m"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}migmix-1m-#{version}/migmix-1m-bold.ttf"
-    (share/"fonts").install "#{parent}migmix-1m-#{version}/migmix-1m-regular.ttf"
+    (share/"fonts").install Dir.glob("migmix-1m-#{version}/**/migmix-1m-bold.ttf")[0]
+    (share/"fonts").install Dir.glob("migmix-1m-#{version}/**/migmix-1m-regular.ttf")[0]
   end
   # No zap stanza required
 

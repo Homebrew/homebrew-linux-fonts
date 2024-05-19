@@ -3,8 +3,8 @@ class FontNotoSansOriya < Formula
   desc "Noto Sans Oriya"
   homepage "https://www.google.com/get/noto/#sans-orya"
   def install
-    (share/"fonts").install "NotoSansOriya-Bold.ttf"
-    (share/"fonts").install "NotoSansOriya-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansOriya-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansOriya-Regular.ttf")[0]
   end
   # No zap stanza required
 

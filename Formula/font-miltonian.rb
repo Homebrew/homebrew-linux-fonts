@@ -3,7 +3,7 @@ class FontMiltonian < Formula
   desc "Miltonian"
   homepage "https://fonts.google.com/specimen/Miltonian"
   def install
-    (share/"fonts").install "Miltonian-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Miltonian-Regular.ttf")[0]
   end
   # No zap stanza required
 

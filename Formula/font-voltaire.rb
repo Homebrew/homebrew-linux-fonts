@@ -3,7 +3,7 @@ class FontVoltaire < Formula
   desc "Voltaire"
   homepage "https://fonts.google.com/specimen/Voltaire"
   def install
-    (share/"fonts").install "Voltaire-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Voltaire-Regular.ttf")[0]
   end
   # No zap stanza required
 

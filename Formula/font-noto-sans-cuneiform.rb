@@ -3,7 +3,7 @@ class FontNotoSansCuneiform < Formula
   desc "Noto Sans Cuneiform"
   homepage "https://www.google.com/get/noto/#sans-xsux"
   def install
-    (share/"fonts").install "NotoSansCuneiform-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansCuneiform-Regular.ttf")[0]
   end
   # No zap stanza required
 

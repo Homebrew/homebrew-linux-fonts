@@ -3,7 +3,7 @@ class FontAkronim < Formula
   desc "Akronim"
   homepage "https://fonts.google.com/specimen/Akronim"
   def install
-    (share/"fonts").install "Akronim-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Akronim-Regular.ttf")[0]
   end
   # No zap stanza required
 

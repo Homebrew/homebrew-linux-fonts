@@ -3,7 +3,7 @@ class FontIranianSerif < Formula
   desc "Iranian Serif"
   homepage "https://fontlibrary.org/en/font/iranian-serif"
   def install
-    (share/"fonts").install "irseri.ttf"
+    (share/"fonts").install Dir.glob("./**/irseri.ttf")[0]
   end
   # No zap stanza required
 

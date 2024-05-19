@@ -3,7 +3,7 @@ class FontBreeSerif < Formula
   desc "Bree Serif"
   homepage "https://fonts.google.com/specimen/Bree+Serif"
   def install
-    (share/"fonts").install "BreeSerif-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/BreeSerif-Regular.ttf")[0]
   end
   # No zap stanza required
 

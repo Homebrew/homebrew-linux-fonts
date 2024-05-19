@@ -6,12 +6,12 @@ class FontHermit < Formula
   desc "Monospace font designed to be clear, pragmatic and very readable"
   homepage "https://pcaro.es/p/hermit/"
   def install
-    (share/"fonts").install "Hermit-Bold.otf"
-    (share/"fonts").install "Hermit-RegularItalic.otf"
-    (share/"fonts").install "Hermit-LightItalic.otf"
-    (share/"fonts").install "Hermit-Light.otf"
-    (share/"fonts").install "Hermit-Regular.otf"
-    (share/"fonts").install "Hermit-BoldItalic.otf"
+    (share/"fonts").install Dir.glob("./**/Hermit-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Hermit-RegularItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Hermit-LightItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Hermit-Light.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Hermit-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Hermit-BoldItalic.otf")[0]
   end
   # No zap stanza required
 

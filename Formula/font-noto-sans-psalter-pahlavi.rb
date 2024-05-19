@@ -3,7 +3,7 @@ class FontNotoSansPsalterPahlavi < Formula
   desc "Noto Sans Psalter Pahlavi"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Psalter+Pahlavi"
   def install
-    (share/"fonts").install "NotoSansPsalterPahlavi-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansPsalterPahlavi-Regular.ttf")[0]
   end
   # No zap stanza required
 

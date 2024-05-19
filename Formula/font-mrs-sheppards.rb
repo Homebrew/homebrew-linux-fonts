@@ -3,7 +3,7 @@ class FontMrsSheppards < Formula
   desc "Mrs Sheppards"
   homepage "https://fonts.google.com/specimen/Mrs+Sheppards"
   def install
-    (share/"fonts").install "MrsSheppards-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/MrsSheppards-Regular.ttf")[0]
   end
   # No zap stanza required
 

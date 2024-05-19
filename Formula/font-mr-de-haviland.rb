@@ -3,7 +3,7 @@ class FontMrDeHaviland < Formula
   desc "Mr De Haviland"
   homepage "https://fonts.google.com/specimen/Mr+De+Haviland"
   def install
-    (share/"fonts").install "MrDeHaviland-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/MrDeHaviland-Regular.ttf")[0]
   end
   # No zap stanza required
 

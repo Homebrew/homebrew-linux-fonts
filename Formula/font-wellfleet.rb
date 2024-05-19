@@ -3,7 +3,7 @@ class FontWellfleet < Formula
   desc "Wellfleet"
   homepage "https://fonts.google.com/specimen/Wellfleet"
   def install
-    (share/"fonts").install "Wellfleet-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Wellfleet-Regular.ttf")[0]
   end
   # No zap stanza required
 

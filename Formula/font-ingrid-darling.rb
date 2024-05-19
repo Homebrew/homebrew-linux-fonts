@@ -4,7 +4,7 @@ class FontIngridDarling < Formula
   desc "Based on a cursive hand writing style that has a playful, whimsical appeal"
   homepage "https://fonts.google.com/specimen/Ingrid+Darling"
   def install
-    (share/"fonts").install "IngridDarling-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/IngridDarling-Regular.ttf")[0]
   end
   # No zap stanza required
 

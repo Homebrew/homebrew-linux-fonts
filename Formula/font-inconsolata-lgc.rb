@@ -6,11 +6,10 @@ class FontInconsolataLgc < Formula
   desc "Inconsolata LGC is a modified version of Inconsolata with Cyrillic alphabet"
   homepage "https://github.com/MihailJP/Inconsolata-LGC"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}InconsolataLGC/Inconsolata-LGC.ttf"
-    (share/"fonts").install "#{parent}InconsolataLGC/Inconsolata-LGC-Bold.ttf"
-    (share/"fonts").install "#{parent}InconsolataLGC/Inconsolata-LGC-Italic.ttf"
-    (share/"fonts").install "#{parent}InconsolataLGC/Inconsolata-LGC-BoldItalic.ttf"
+    (share/"fonts").install Dir.glob("InconsolataLGC/**/Inconsolata-LGC.ttf")[0]
+    (share/"fonts").install Dir.glob("InconsolataLGC/**/Inconsolata-LGC-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("InconsolataLGC/**/Inconsolata-LGC-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("InconsolataLGC/**/Inconsolata-LGC-BoldItalic.ttf")[0]
   end
   # No zap stanza required
 

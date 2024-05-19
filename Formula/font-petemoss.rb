@@ -4,7 +4,7 @@ class FontPetemoss < Formula
   desc "Inspired by the forms created using a pentel color brush"
   homepage "https://fonts.google.com/specimen/Petemoss"
   def install
-    (share/"fonts").install "Petemoss-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Petemoss-Regular.ttf")[0]
   end
   # No zap stanza required
 

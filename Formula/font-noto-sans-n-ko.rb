@@ -3,7 +3,7 @@ class FontNotoSansNKo < Formula
   desc "Noto Sans NKo"
   homepage "https://www.google.com/get/noto/#sans-nkoo"
   def install
-    (share/"fonts").install "NotoSansNKo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansNKo-Regular.ttf")[0]
   end
   # No zap stanza required
 

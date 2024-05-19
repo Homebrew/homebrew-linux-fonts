@@ -3,7 +3,7 @@ class FontBentham < Formula
   desc "Bentham"
   homepage "https://fonts.google.com/specimen/Bentham"
   def install
-    (share/"fonts").install "Bentham-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Bentham-Regular.ttf")[0]
   end
   # No zap stanza required
 

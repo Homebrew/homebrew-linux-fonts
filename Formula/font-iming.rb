@@ -9,13 +9,12 @@ class FontIming < Formula
   desc "Traditional Chinese typefaces in TrueType"
   homepage "https://github.com/ichitenfont/I.Ming"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}I.Ming-#{version}/#{version}/I.Ming-#{version}.ttf"
-    (share/"fonts").install "#{parent}I.Ming-#{version}/#{version}/I.MingCP-#{version}.ttf"
-    (share/"fonts").install "#{parent}I.Ming-#{version}/#{version}/I.MingVar-#{version}.ttf"
-    (share/"fonts").install "#{parent}I.Ming-#{version}/#{version}/I.MingVarCP-#{version}.ttf"
-    (share/"fonts").install "#{parent}I.Ming-#{version}/#{version}/PMingI.U-#{version}.ttf"
-    (share/"fonts").install "#{parent}I.Ming-#{version}/#{version}/PMingI.UVar-#{version}.ttf"
+    (share/"fonts").install Dir.glob("I.Ming-#{version}/#{version}/**/I.Ming-#{version}.ttf")[0]
+    (share/"fonts").install Dir.glob("I.Ming-#{version}/#{version}/**/I.MingCP-#{version}.ttf")[0]
+    (share/"fonts").install Dir.glob("I.Ming-#{version}/#{version}/**/I.MingVar-#{version}.ttf")[0]
+    (share/"fonts").install Dir.glob("I.Ming-#{version}/#{version}/**/I.MingVarCP-#{version}.ttf")[0]
+    (share/"fonts").install Dir.glob("I.Ming-#{version}/#{version}/**/PMingI.U-#{version}.ttf")[0]
+    (share/"fonts").install Dir.glob("I.Ming-#{version}/#{version}/**/PMingI.UVar-#{version}.ttf")[0]
   end
   # No zap stanza required
 

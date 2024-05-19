@@ -6,18 +6,18 @@ class FontTerminessTtfNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "TerminessNerdFont-Bold.ttf"
-    (share/"fonts").install "TerminessNerdFont-BoldItalic.ttf"
-    (share/"fonts").install "TerminessNerdFont-Italic.ttf"
-    (share/"fonts").install "TerminessNerdFont-Regular.ttf"
-    (share/"fonts").install "TerminessNerdFontMono-Bold.ttf"
-    (share/"fonts").install "TerminessNerdFontMono-BoldItalic.ttf"
-    (share/"fonts").install "TerminessNerdFontMono-Italic.ttf"
-    (share/"fonts").install "TerminessNerdFontMono-Regular.ttf"
-    (share/"fonts").install "TerminessNerdFontPropo-Bold.ttf"
-    (share/"fonts").install "TerminessNerdFontPropo-BoldItalic.ttf"
-    (share/"fonts").install "TerminessNerdFontPropo-Italic.ttf"
-    (share/"fonts").install "TerminessNerdFontPropo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/TerminessNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/TerminessNerdFont-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/TerminessNerdFont-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/TerminessNerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/TerminessNerdFontMono-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/TerminessNerdFontMono-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/TerminessNerdFontMono-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/TerminessNerdFontMono-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/TerminessNerdFontPropo-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/TerminessNerdFontPropo-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/TerminessNerdFontPropo-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/TerminessNerdFontPropo-Regular.ttf")[0]
   end
   # No zap stanza required
 

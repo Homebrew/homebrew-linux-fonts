@@ -3,8 +3,8 @@ class FontNotoSansTelugu < Formula
   desc "Noto Sans Telugu"
   homepage "https://www.google.com/get/noto/#sans-telu"
   def install
-    (share/"fonts").install "NotoSansTelugu-Regular.ttf"
-    (share/"fonts").install "NotoSansTelugu-Bold.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansTelugu-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansTelugu-Bold.ttf")[0]
   end
   # No zap stanza required
 

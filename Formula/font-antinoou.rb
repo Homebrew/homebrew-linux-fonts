@@ -4,9 +4,8 @@ class FontAntinoou < Formula
   desc "Antinoou"
   homepage "https://www.evertype.com/fonts/coptic/"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}AntinoouFont-#{version}/Antinoou.ttf"
-    (share/"fonts").install "#{parent}AntinoouFont-#{version}/AntinoouItalic.ttf"
+    (share/"fonts").install Dir.glob("AntinoouFont-#{version}/**/Antinoou.ttf")[0]
+    (share/"fonts").install Dir.glob("AntinoouFont-#{version}/**/AntinoouItalic.ttf")[0]
   end
   # No zap stanza required
 

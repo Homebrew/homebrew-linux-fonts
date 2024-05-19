@@ -4,7 +4,7 @@ class FontTwinkleStar < Formula
   desc "Cute and fun juvenile script"
   homepage "https://fonts.google.com/specimen/Twinkle+Star"
   def install
-    (share/"fonts").install "TwinkleStar-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/TwinkleStar-Regular.ttf")[0]
   end
   # No zap stanza required
 

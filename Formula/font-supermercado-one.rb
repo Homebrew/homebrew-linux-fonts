@@ -3,7 +3,7 @@ class FontSupermercadoOne < Formula
   desc "Supermercado One"
   homepage "https://fonts.google.com/specimen/Supermercado+One"
   def install
-    (share/"fonts").install "SupermercadoOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/SupermercadoOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

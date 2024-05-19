@@ -4,7 +4,7 @@ class FontBacasimeAntique < Formula
   desc "Stylistically a transitional design"
   homepage "https://fonts.google.com/specimen/Bacasime+Antique"
   def install
-    (share/"fonts").install "BacasimeAntique-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/BacasimeAntique-Regular.ttf")[0]
   end
   # No zap stanza required
 

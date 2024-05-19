@@ -3,7 +3,7 @@ class FontSongMyung < Formula
   desc "Song Myung"
   homepage "https://fonts.google.com/specimen/Song+Myung"
   def install
-    (share/"fonts").install "SongMyung-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/SongMyung-Regular.ttf")[0]
   end
   # No zap stanza required
 

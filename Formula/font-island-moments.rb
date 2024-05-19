@@ -3,7 +3,7 @@ class FontIslandMoments < Formula
   desc "Island Moments"
   homepage "https://fonts.google.com/specimen/Island+Moments"
   def install
-    (share/"fonts").install "IslandMoments-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/IslandMoments-Regular.ttf")[0]
   end
   # No zap stanza required
 

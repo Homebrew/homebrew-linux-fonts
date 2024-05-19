@@ -3,7 +3,7 @@ class FontGraduate < Formula
   desc "Graduate"
   homepage "https://fonts.google.com/specimen/Graduate"
   def install
-    (share/"fonts").install "Graduate-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Graduate-Regular.ttf")[0]
   end
   # No zap stanza required
 

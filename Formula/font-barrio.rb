@@ -3,7 +3,7 @@ class FontBarrio < Formula
   desc "Barrio"
   homepage "https://fonts.google.com/specimen/Barrio"
   def install
-    (share/"fonts").install "Barrio-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Barrio-Regular.ttf")[0]
   end
   # No zap stanza required
 

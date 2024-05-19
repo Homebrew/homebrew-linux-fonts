@@ -3,7 +3,7 @@ class FontMako < Formula
   desc "Mako"
   homepage "https://fonts.google.com/specimen/Mako"
   def install
-    (share/"fonts").install "Mako-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Mako-Regular.ttf")[0]
   end
   # No zap stanza required
 

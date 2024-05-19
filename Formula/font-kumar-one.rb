@@ -3,7 +3,7 @@ class FontKumarOne < Formula
   desc "Kumar One"
   homepage "https://fonts.google.com/specimen/Kumar+One"
   def install
-    (share/"fonts").install "KumarOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/KumarOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontAnnieUseYourTelescope < Formula
   desc "Annie Use Your Telescope"
   homepage "https://fonts.google.com/specimen/Annie+Use+Your+Telescope"
   def install
-    (share/"fonts").install "AnnieUseYourTelescope-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/AnnieUseYourTelescope-Regular.ttf")[0]
   end
   # No zap stanza required
 

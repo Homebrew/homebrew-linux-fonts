@@ -3,7 +3,7 @@ class FontSchoolbell < Formula
   desc "Schoolbell"
   homepage "https://fonts.google.com/specimen/Schoolbell"
   def install
-    (share/"fonts").install "Schoolbell-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Schoolbell-Regular.ttf")[0]
   end
   # No zap stanza required
 

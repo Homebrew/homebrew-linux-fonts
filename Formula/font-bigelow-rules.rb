@@ -3,7 +3,7 @@ class FontBigelowRules < Formula
   desc "Bigelow Rules"
   homepage "https://fonts.google.com/specimen/Bigelow+Rules"
   def install
-    (share/"fonts").install "BigelowRules-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/BigelowRules-Regular.ttf")[0]
   end
   # No zap stanza required
 

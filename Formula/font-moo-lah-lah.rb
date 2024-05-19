@@ -3,7 +3,7 @@ class FontMooLahLah < Formula
   desc "Moo Lah Lah"
   homepage "https://fonts.google.com/specimen/Moo+Lah+Lah"
   def install
-    (share/"fonts").install "MooLahLah-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/MooLahLah-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontGasoekOne < Formula
   desc "Gasoek One"
   homepage "https://fonts.google.com/specimen/Gasoek+One"
   def install
-    (share/"fonts").install "GasoekOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/GasoekOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

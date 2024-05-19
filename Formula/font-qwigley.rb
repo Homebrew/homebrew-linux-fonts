@@ -3,7 +3,7 @@ class FontQwigley < Formula
   desc "Qwigley"
   homepage "https://fonts.google.com/specimen/Qwigley"
   def install
-    (share/"fonts").install "Qwigley-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Qwigley-Regular.ttf")[0]
   end
   # No zap stanza required
 

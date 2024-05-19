@@ -3,7 +3,7 @@ class FontYellowtail < Formula
   desc "Yellowtail"
   homepage "https://fonts.google.com/specimen/Yellowtail"
   def install
-    (share/"fonts").install "Yellowtail-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Yellowtail-Regular.ttf")[0]
   end
   # No zap stanza required
 

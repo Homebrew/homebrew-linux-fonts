@@ -3,7 +3,7 @@ class FontRubikSprayPaint < Formula
   desc "Rubik Spray Paint"
   homepage "https://fonts.google.com/specimen/Rubik+Spray+Paint"
   def install
-    (share/"fonts").install "RubikSprayPaint-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/RubikSprayPaint-Regular.ttf")[0]
   end
   # No zap stanza required
 

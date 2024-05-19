@@ -3,8 +3,8 @@ class FontNotoSerifBengali < Formula
   desc "Noto Serif Bengali"
   homepage "https://www.google.com/get/noto/#serif-beng"
   def install
-    (share/"fonts").install "NotoSerifBengali-Bold.ttf"
-    (share/"fonts").install "NotoSerifBengali-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSerifBengali-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSerifBengali-Regular.ttf")[0]
   end
   # No zap stanza required
 

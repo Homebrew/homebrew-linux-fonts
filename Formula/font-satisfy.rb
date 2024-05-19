@@ -3,7 +3,7 @@ class FontSatisfy < Formula
   desc "Satisfy"
   homepage "https://fonts.google.com/specimen/Satisfy"
   def install
-    (share/"fonts").install "Satisfy-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Satisfy-Regular.ttf")[0]
   end
   # No zap stanza required
 

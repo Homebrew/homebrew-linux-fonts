@@ -12,10 +12,10 @@ class FontLinuxBiolinum < Formula
   # newest version until it's no longer in the RSS feed.
 
   def install
-    (share/"fonts").install "LinBiolinum_Kah.ttf"
-    (share/"fonts").install "LinBiolinum_RBah.ttf"
-    (share/"fonts").install "LinBiolinum_RIah.ttf"
-    (share/"fonts").install "LinBiolinum_Rah.ttf"
+    (share/"fonts").install Dir.glob("./**/LinBiolinum_Kah.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LinBiolinum_RBah.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LinBiolinum_RIah.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LinBiolinum_Rah.ttf")[0]
   end
   # No zap stanza required
 

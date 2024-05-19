@@ -3,7 +3,7 @@ class FontBelleza < Formula
   desc "Belleza"
   homepage "https://fonts.google.com/specimen/Belleza"
   def install
-    (share/"fonts").install "Belleza-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Belleza-Regular.ttf")[0]
   end
   # No zap stanza required
 

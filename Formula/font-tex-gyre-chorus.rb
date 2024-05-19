@@ -5,7 +5,7 @@ class FontTexGyreChorus < Formula
   desc "TeX Gyre Chorus"
   homepage "https://www.gust.org.pl/projects/e-foundry/tex-gyre/chorus"
   def install
-    (share/"fonts").install "texgyrechorus-mediumitalic.otf"
+    (share/"fonts").install Dir.glob("./**/texgyrechorus-mediumitalic.otf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontNotoSansTirhuta < Formula
   desc "Noto Sans Tirhuta"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Tirhuta"
   def install
-    (share/"fonts").install "NotoSansTirhuta-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansTirhuta-Regular.ttf")[0]
   end
   # No zap stanza required
 

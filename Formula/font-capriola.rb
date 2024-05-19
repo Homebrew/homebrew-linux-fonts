@@ -3,7 +3,7 @@ class FontCapriola < Formula
   desc "Capriola"
   homepage "https://fonts.google.com/specimen/Capriola"
   def install
-    (share/"fonts").install "Capriola-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Capriola-Regular.ttf")[0]
   end
   # No zap stanza required
 

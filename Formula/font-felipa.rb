@@ -3,7 +3,7 @@ class FontFelipa < Formula
   desc "Felipa"
   homepage "https://fonts.google.com/specimen/Felipa"
   def install
-    (share/"fonts").install "Felipa-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Felipa-Regular.ttf")[0]
   end
   # No zap stanza required
 

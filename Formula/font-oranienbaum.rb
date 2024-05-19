@@ -3,7 +3,7 @@ class FontOranienbaum < Formula
   desc "Oranienbaum"
   homepage "https://fonts.google.com/specimen/Oranienbaum"
   def install
-    (share/"fonts").install "Oranienbaum-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Oranienbaum-Regular.ttf")[0]
   end
   # No zap stanza required
 

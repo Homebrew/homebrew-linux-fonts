@@ -3,7 +3,7 @@ class FontPetitFormalScript < Formula
   desc "Petit Formal Script"
   homepage "https://fonts.google.com/specimen/Petit+Formal+Script"
   def install
-    (share/"fonts").install "PetitFormalScript-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/PetitFormalScript-Regular.ttf")[0]
   end
   # No zap stanza required
 

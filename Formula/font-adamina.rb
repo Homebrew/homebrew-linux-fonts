@@ -3,7 +3,7 @@ class FontAdamina < Formula
   desc "Adamina"
   homepage "https://fonts.google.com/specimen/Adamina"
   def install
-    (share/"fonts").install "Adamina-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Adamina-Regular.ttf")[0]
   end
   # No zap stanza required
 

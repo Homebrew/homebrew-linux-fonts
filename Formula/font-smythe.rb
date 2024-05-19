@@ -3,7 +3,7 @@ class FontSmythe < Formula
   desc "Smythe"
   homepage "https://fonts.google.com/specimen/Smythe"
   def install
-    (share/"fonts").install "Smythe-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Smythe-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontHannari < Formula
   desc "Hannari"
   homepage "https://fonts.google.com/specimen/Hannari"
   def install
-    (share/"fonts").install "Hannari-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Hannari-Regular.ttf")[0]
   end
   # No zap stanza required
 

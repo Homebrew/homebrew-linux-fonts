@@ -3,7 +3,7 @@ class FontMicro5Charted < Formula
   desc "Micro 5 Charted"
   homepage "https://fonts.google.com/specimen/Micro+5+Charted"
   def install
-    (share/"fonts").install "Micro5Charted-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Micro5Charted-Regular.ttf")[0]
   end
   # No zap stanza required
 

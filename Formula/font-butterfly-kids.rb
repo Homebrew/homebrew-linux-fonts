@@ -3,7 +3,7 @@ class FontButterflyKids < Formula
   desc "Butterfly Kids"
   homepage "https://fonts.google.com/specimen/Butterfly+Kids"
   def install
-    (share/"fonts").install "ButterflyKids-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/ButterflyKids-Regular.ttf")[0]
   end
   # No zap stanza required
 

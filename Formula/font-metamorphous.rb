@@ -3,7 +3,7 @@ class FontMetamorphous < Formula
   desc "Metamorphous"
   homepage "https://fonts.google.com/specimen/Metamorphous"
   def install
-    (share/"fonts").install "Metamorphous-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Metamorphous-Regular.ttf")[0]
   end
   # No zap stanza required
 

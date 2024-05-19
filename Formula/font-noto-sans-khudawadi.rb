@@ -3,7 +3,7 @@ class FontNotoSansKhudawadi < Formula
   desc "Noto Sans Khudawadi"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Khudawadi"
   def install
-    (share/"fonts").install "NotoSansKhudawadi-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansKhudawadi-Regular.ttf")[0]
   end
   # No zap stanza required
 

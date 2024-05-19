@@ -6,25 +6,25 @@ class FontOpenDyslexicNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "OpenDyslexicAltNerdFont-Bold.otf"
-    (share/"fonts").install "OpenDyslexicAltNerdFont-BoldItalic.otf"
-    (share/"fonts").install "OpenDyslexicAltNerdFont-Italic.otf"
-    (share/"fonts").install "OpenDyslexicAltNerdFont-Regular.otf"
-    (share/"fonts").install "OpenDyslexicAltNerdFontPropo-Bold.otf"
-    (share/"fonts").install "OpenDyslexicAltNerdFontPropo-BoldItalic.otf"
-    (share/"fonts").install "OpenDyslexicAltNerdFontPropo-Italic.otf"
-    (share/"fonts").install "OpenDyslexicAltNerdFontPropo-Regular.otf"
-    (share/"fonts").install "OpenDyslexicMNerdFont-Regular.otf"
-    (share/"fonts").install "OpenDyslexicMNerdFontMono-Regular.otf"
-    (share/"fonts").install "OpenDyslexicMNerdFontPropo-Regular.otf"
-    (share/"fonts").install "OpenDyslexicNerdFont-Bold.otf"
-    (share/"fonts").install "OpenDyslexicNerdFont-BoldItalic.otf"
-    (share/"fonts").install "OpenDyslexicNerdFont-Italic.otf"
-    (share/"fonts").install "OpenDyslexicNerdFont-Regular.otf"
-    (share/"fonts").install "OpenDyslexicNerdFontPropo-Bold.otf"
-    (share/"fonts").install "OpenDyslexicNerdFontPropo-BoldItalic.otf"
-    (share/"fonts").install "OpenDyslexicNerdFontPropo-Italic.otf"
-    (share/"fonts").install "OpenDyslexicNerdFontPropo-Regular.otf"
+    (share/"fonts").install Dir.glob("./**/OpenDyslexicAltNerdFont-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/OpenDyslexicAltNerdFont-BoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/OpenDyslexicAltNerdFont-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/OpenDyslexicAltNerdFont-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/OpenDyslexicAltNerdFontPropo-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/OpenDyslexicAltNerdFontPropo-BoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/OpenDyslexicAltNerdFontPropo-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/OpenDyslexicAltNerdFontPropo-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/OpenDyslexicMNerdFont-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/OpenDyslexicMNerdFontMono-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/OpenDyslexicMNerdFontPropo-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/OpenDyslexicNerdFont-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/OpenDyslexicNerdFont-BoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/OpenDyslexicNerdFont-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/OpenDyslexicNerdFont-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/OpenDyslexicNerdFontPropo-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/OpenDyslexicNerdFontPropo-BoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/OpenDyslexicNerdFontPropo-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/OpenDyslexicNerdFontPropo-Regular.otf")[0]
   end
   # No zap stanza required
 

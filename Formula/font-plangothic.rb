@@ -6,9 +6,8 @@ class FontPlangothic < Formula
   desc "Plangothic is a sans-serif font that covers CJK Unified Ideographs"
   homepage "https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic-Project"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}Plangothic-Project-#{version}/PlangothicP1-Regular (allideo).ttf"
-    (share/"fonts").install "#{parent}Plangothic-Project-#{version}/PlangothicP2-Regular.ttf"
+    (share/"fonts").install Dir.glob("Plangothic-Project-#{version}/**/PlangothicP1-Regular (allideo).ttf")[0]
+    (share/"fonts").install Dir.glob("Plangothic-Project-#{version}/**/PlangothicP2-Regular.ttf")[0]
   end
   # No zap stanza required
 

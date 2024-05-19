@@ -3,7 +3,7 @@ class FontAnton < Formula
   desc "Anton"
   homepage "https://fonts.google.com/specimen/Anton"
   def install
-    (share/"fonts").install "Anton-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Anton-Regular.ttf")[0]
   end
   # No zap stanza required
 

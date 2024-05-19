@@ -5,11 +5,10 @@ class FontHack < Formula
   desc "Hack"
   homepage "https://sourcefoundry.org/hack/"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}ttf/Hack-Regular.ttf"
-    (share/"fonts").install "#{parent}ttf/Hack-Italic.ttf"
-    (share/"fonts").install "#{parent}ttf/Hack-Bold.ttf"
-    (share/"fonts").install "#{parent}ttf/Hack-BoldItalic.ttf"
+    (share/"fonts").install Dir.glob("ttf/**/Hack-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ttf/**/Hack-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ttf/**/Hack-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ttf/**/Hack-BoldItalic.ttf")[0]
   end
   # No zap stanza required
 

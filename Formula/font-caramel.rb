@@ -4,7 +4,7 @@ class FontCaramel < Formula
   desc "Fun, hand lettered script with three variations"
   homepage "https://fonts.google.com/specimen/Caramel"
   def install
-    (share/"fonts").install "Caramel-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Caramel-Regular.ttf")[0]
   end
   # No zap stanza required
 

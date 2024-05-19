@@ -5,8 +5,7 @@ class FontTexGyreTermesMath < Formula
   desc "Termes Math"
   homepage "https://www.gust.org.pl/projects/e-foundry/tg-math"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}texgyretermes-math-1543/opentype/texgyretermes-math.otf"
+    (share/"fonts").install Dir.glob("texgyretermes-math-1543/opentype/**/texgyretermes-math.otf")[0]
   end
   # No zap stanza required
 

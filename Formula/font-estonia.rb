@@ -4,7 +4,7 @@ class FontEstonia < Formula
   desc "Based on the calligraphic style found in the east european country of estonia"
   homepage "https://fonts.google.com/specimen/Estonia"
   def install
-    (share/"fonts").install "Estonia-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Estonia-Regular.ttf")[0]
   end
   # No zap stanza required
 

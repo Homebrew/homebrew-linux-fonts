@@ -6,9 +6,9 @@ class FontShureTechMonoNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "ShureTechMonoNerdFont-Regular.ttf"
-    (share/"fonts").install "ShureTechMonoNerdFontMono-Regular.ttf"
-    (share/"fonts").install "ShureTechMonoNerdFontPropo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/ShureTechMonoNerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/ShureTechMonoNerdFontMono-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/ShureTechMonoNerdFontPropo-Regular.ttf")[0]
   end
   # No zap stanza required
 

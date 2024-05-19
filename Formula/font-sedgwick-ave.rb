@@ -3,7 +3,7 @@ class FontSedgwickAve < Formula
   desc "Sedgwick Ave"
   homepage "https://fonts.google.com/specimen/Sedgwick+Ave"
   def install
-    (share/"fonts").install "SedgwickAve-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/SedgwickAve-Regular.ttf")[0]
   end
   # No zap stanza required
 

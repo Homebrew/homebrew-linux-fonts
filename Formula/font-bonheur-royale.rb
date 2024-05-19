@@ -3,7 +3,7 @@ class FontBonheurRoyale < Formula
   desc "Bonheur Royale"
   homepage "https://fonts.google.com/specimen/Bonheur+Royale"
   def install
-    (share/"fonts").install "BonheurRoyale-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/BonheurRoyale-Regular.ttf")[0]
   end
   # No zap stanza required
 

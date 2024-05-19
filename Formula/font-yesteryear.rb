@@ -3,7 +3,7 @@ class FontYesteryear < Formula
   desc "Yesteryear"
   homepage "https://fonts.google.com/specimen/Yesteryear"
   def install
-    (share/"fonts").install "Yesteryear-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Yesteryear-Regular.ttf")[0]
   end
   # No zap stanza required
 

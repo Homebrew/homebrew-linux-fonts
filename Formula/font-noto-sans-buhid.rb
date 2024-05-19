@@ -3,7 +3,7 @@ class FontNotoSansBuhid < Formula
   desc "Noto Sans Buhid"
   homepage "https://www.google.com/get/noto/#sans-buhd"
   def install
-    (share/"fonts").install "NotoSansBuhid-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansBuhid-Regular.ttf")[0]
   end
   # No zap stanza required
 

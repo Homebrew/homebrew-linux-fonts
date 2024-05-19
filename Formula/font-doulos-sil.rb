@@ -6,8 +6,7 @@ class FontDoulosSil < Formula
   desc "Unicode-based font family supporting languages using Latin and Cyrillic scripts"
   homepage "https://software.sil.org/doulos/"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}DoulosSIL-#{version}/DoulosSIL-Regular.ttf"
+    (share/"fonts").install Dir.glob("DoulosSIL-#{version}/**/DoulosSIL-Regular.ttf")[0]
   end
   # No zap stanza required
 

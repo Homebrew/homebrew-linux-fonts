@@ -3,7 +3,7 @@ class FontJunge < Formula
   desc "Junge"
   homepage "https://fonts.google.com/specimen/Junge"
   def install
-    (share/"fonts").install "Junge-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Junge-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontElectrolize < Formula
   desc "Electrolize"
   homepage "https://fonts.google.com/specimen/Electrolize"
   def install
-    (share/"fonts").install "Electrolize-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Electrolize-Regular.ttf")[0]
   end
   # No zap stanza required
 

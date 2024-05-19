@@ -4,7 +4,7 @@ class FontLuxuriousRoman < Formula
   desc "Semi-hand lettered font with inconsistent serifs"
   homepage "https://fonts.google.com/specimen/Luxurious+Roman"
   def install
-    (share/"fonts").install "LuxuriousRoman-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/LuxuriousRoman-Regular.ttf")[0]
   end
   # No zap stanza required
 

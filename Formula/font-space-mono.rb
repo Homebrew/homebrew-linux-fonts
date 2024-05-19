@@ -3,11 +3,10 @@ class FontSpaceMono < Formula
   desc "Space Mono"
   homepage "https://github.com/googlefonts/spacemono"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}spacemono-main/fonts/SpaceMono-Bold.ttf"
-    (share/"fonts").install "#{parent}spacemono-main/fonts/SpaceMono-BoldItalic.ttf"
-    (share/"fonts").install "#{parent}spacemono-main/fonts/SpaceMono-Italic.ttf"
-    (share/"fonts").install "#{parent}spacemono-main/fonts/SpaceMono-Regular.ttf"
+    (share/"fonts").install Dir.glob("spacemono-main/fonts/**/SpaceMono-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("spacemono-main/fonts/**/SpaceMono-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("spacemono-main/fonts/**/SpaceMono-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("spacemono-main/fonts/**/SpaceMono-Regular.ttf")[0]
   end
   # No zap stanza required
 

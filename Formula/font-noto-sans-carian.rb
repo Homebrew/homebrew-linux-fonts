@@ -3,7 +3,7 @@ class FontNotoSansCarian < Formula
   desc "Noto Sans Carian"
   homepage "https://www.google.com/get/noto/#sans-cari"
   def install
-    (share/"fonts").install "NotoSansCarian-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansCarian-Regular.ttf")[0]
   end
   # No zap stanza required
 

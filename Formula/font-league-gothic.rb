@@ -6,11 +6,10 @@ class FontLeagueGothic < Formula
   desc "Revival of an old classic, Alternate Gothic #1"
   homepage "https://www.theleagueofmoveabletype.com/league-gothic"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}LeagueGothic-#{version}/static/OTF/LeagueGothic-Regular.otf"
-    (share/"fonts").install "#{parent}LeagueGothic-#{version}/static/OTF/LeagueGothic-Italic.otf"
-    (share/"fonts").install "#{parent}LeagueGothic-#{version}/static/OTF/LeagueGothic-Condensed.otf"
-    (share/"fonts").install "#{parent}LeagueGothic-#{version}/static/OTF/LeagueGothic-CondensedItalic.otf"
+    (share/"fonts").install Dir.glob("LeagueGothic-#{version}/static/OTF/**/LeagueGothic-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("LeagueGothic-#{version}/static/OTF/**/LeagueGothic-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("LeagueGothic-#{version}/static/OTF/**/LeagueGothic-Condensed.otf")[0]
+    (share/"fonts").install Dir.glob("LeagueGothic-#{version}/static/OTF/**/LeagueGothic-CondensedItalic.otf")[0]
   end
   # No zap stanza required
 

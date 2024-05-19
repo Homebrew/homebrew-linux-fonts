@@ -3,7 +3,7 @@ class FontCourgette < Formula
   desc "Courgette"
   homepage "https://fonts.google.com/specimen/Courgette"
   def install
-    (share/"fonts").install "Courgette-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Courgette-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -4,7 +4,7 @@ class FontLugrasimo < Formula
   desc "Typeface in calligraphic lettering style"
   homepage "https://fonts.google.com/specimen/Lugrasimo"
   def install
-    (share/"fonts").install "Lugrasimo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Lugrasimo-Regular.ttf")[0]
   end
   # No zap stanza required
 

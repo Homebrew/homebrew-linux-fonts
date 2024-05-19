@@ -3,7 +3,7 @@ class FontOrelegaOne < Formula
   desc "Orelega One"
   homepage "https://fonts.google.com/specimen/Orelega+One"
   def install
-    (share/"fonts").install "OrelegaOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/OrelegaOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

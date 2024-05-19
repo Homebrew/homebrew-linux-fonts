@@ -3,7 +3,7 @@ class FontLibreBarcode128 < Formula
   desc "Libre Barcode 128"
   homepage "https://fonts.google.com/specimen/Libre+Barcode+128"
   def install
-    (share/"fonts").install "LibreBarcode128-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/LibreBarcode128-Regular.ttf")[0]
   end
   # No zap stanza required
 

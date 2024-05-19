@@ -3,7 +3,7 @@ class FontAmarante < Formula
   desc "Amarante"
   homepage "https://fonts.google.com/specimen/Amarante"
   def install
-    (share/"fonts").install "Amarante-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Amarante-Regular.ttf")[0]
   end
   # No zap stanza required
 

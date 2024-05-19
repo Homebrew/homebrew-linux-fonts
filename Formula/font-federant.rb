@@ -3,7 +3,7 @@ class FontFederant < Formula
   desc "Federant"
   homepage "https://fonts.google.com/specimen/Federant"
   def install
-    (share/"fonts").install "Federant-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Federant-Regular.ttf")[0]
   end
   # No zap stanza required
 

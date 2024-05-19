@@ -3,7 +3,7 @@ class FontGidugu < Formula
   desc "Gidugu"
   homepage "https://fonts.google.com/specimen/Gidugu"
   def install
-    (share/"fonts").install "Gidugu-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Gidugu-Regular.ttf")[0]
   end
   # No zap stanza required
 

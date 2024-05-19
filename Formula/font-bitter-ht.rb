@@ -4,24 +4,24 @@ class FontBitterHt < Formula
   desc "Slab-serif typeface optimized for e-ink screens"
   homepage "https://www.huertatipografica.com/fonts/bitter-ht"
   def install
-    (share/"fonts").install "BitterPro-Black.ttf"
-    (share/"fonts").install "BitterPro-BlackItalic.ttf"
-    (share/"fonts").install "BitterPro-Bold.ttf"
-    (share/"fonts").install "BitterPro-BoldItalic.ttf"
-    (share/"fonts").install "BitterPro-ExtraBold.ttf"
-    (share/"fonts").install "BitterPro-ExtraBoldItalic.ttf"
-    (share/"fonts").install "BitterPro-ExtraLight.ttf"
-    (share/"fonts").install "BitterPro-ExtraLightItalic.ttf"
-    (share/"fonts").install "BitterPro-Italic.ttf"
-    (share/"fonts").install "BitterPro-Light.ttf"
-    (share/"fonts").install "BitterPro-LightItalic.ttf"
-    (share/"fonts").install "BitterPro-Medium.ttf"
-    (share/"fonts").install "BitterPro-MediumItalic.ttf"
-    (share/"fonts").install "BitterPro-Regular.ttf"
-    (share/"fonts").install "BitterPro-SemiBold.ttf"
-    (share/"fonts").install "BitterPro-SemiBoldItalic.ttf"
-    (share/"fonts").install "BitterPro-Thin.ttf"
-    (share/"fonts").install "BitterPro-ThinItalic.ttf"
+    (share/"fonts").install Dir.glob("./**/BitterPro-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/BitterPro-BlackItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/BitterPro-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/BitterPro-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/BitterPro-ExtraBold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/BitterPro-ExtraBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/BitterPro-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/BitterPro-ExtraLightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/BitterPro-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/BitterPro-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/BitterPro-LightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/BitterPro-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/BitterPro-MediumItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/BitterPro-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/BitterPro-SemiBold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/BitterPro-SemiBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/BitterPro-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/BitterPro-ThinItalic.ttf")[0]
   end
   # No zap stanza required
 

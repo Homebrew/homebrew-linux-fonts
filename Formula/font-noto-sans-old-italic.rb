@@ -3,7 +3,7 @@ class FontNotoSansOldItalic < Formula
   desc "Noto Sans Old Italic"
   homepage "https://www.google.com/get/noto/#sans-ital"
   def install
-    (share/"fonts").install "NotoSansOldItalic-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansOldItalic-Regular.ttf")[0]
   end
   # No zap stanza required
 

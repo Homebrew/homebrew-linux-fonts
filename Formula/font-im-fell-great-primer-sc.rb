@@ -3,7 +3,7 @@ class FontImFellGreatPrimerSc < Formula
   desc "IM Fell Great Primer SC"
   homepage "https://fonts.google.com/specimen/IM+Fell+Great+Primer+SC"
   def install
-    (share/"fonts").install "IMFeGPsc28P.ttf"
+    (share/"fonts").install Dir.glob("./**/IMFeGPsc28P.ttf")[0]
   end
   # No zap stanza required
 

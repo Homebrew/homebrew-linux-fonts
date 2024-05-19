@@ -3,7 +3,7 @@ class FontKristi < Formula
   desc "Kristi"
   homepage "https://fonts.google.com/specimen/Kristi"
   def install
-    (share/"fonts").install "Kristi-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Kristi-Regular.ttf")[0]
   end
   # No zap stanza required
 

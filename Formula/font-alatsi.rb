@@ -3,7 +3,7 @@ class FontAlatsi < Formula
   desc "Alatsi"
   homepage "https://fonts.google.com/specimen/Alatsi"
   def install
-    (share/"fonts").install "Alatsi-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Alatsi-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontOverTheRainbow < Formula
   desc "Over the Rainbow"
   homepage "https://fonts.google.com/specimen/Over+the+Rainbow"
   def install
-    (share/"fonts").install "OvertheRainbow.ttf"
+    (share/"fonts").install Dir.glob("./**/OvertheRainbow.ttf")[0]
   end
   # No zap stanza required
 

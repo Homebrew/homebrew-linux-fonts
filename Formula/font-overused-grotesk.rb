@@ -6,24 +6,23 @@ class FontOverusedGrotesk < Formula
   desc "Variable sans serif typeface inspired by the classic neo-grotesk Swiss design"
   homepage "https://github.com/RandomMaerks/Overused-Grotesk"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}otf/OverusedGrotesk-Black.otf"
-    (share/"fonts").install "#{parent}otf/OverusedGrotesk-BlackItalic.otf"
-    (share/"fonts").install "#{parent}otf/OverusedGrotesk-Bold.otf"
-    (share/"fonts").install "#{parent}otf/OverusedGrotesk-BoldItalic.otf"
-    (share/"fonts").install "#{parent}otf/OverusedGrotesk-Book.otf"
-    (share/"fonts").install "#{parent}otf/OverusedGrotesk-BookItalic.otf"
-    (share/"fonts").install "#{parent}otf/OverusedGrotesk-ExtraBold.otf"
-    (share/"fonts").install "#{parent}otf/OverusedGrotesk-ExtraBoldItalic.otf"
-    (share/"fonts").install "#{parent}otf/OverusedGrotesk-Italic.otf"
-    (share/"fonts").install "#{parent}otf/OverusedGrotesk-Light.otf"
-    (share/"fonts").install "#{parent}otf/OverusedGrotesk-LightItalic.otf"
-    (share/"fonts").install "#{parent}otf/OverusedGrotesk-Medium.otf"
-    (share/"fonts").install "#{parent}otf/OverusedGrotesk-MediumItalic.otf"
-    (share/"fonts").install "#{parent}otf/OverusedGrotesk-Roman.otf"
-    (share/"fonts").install "#{parent}otf/OverusedGrotesk-SemiBold.otf"
-    (share/"fonts").install "#{parent}otf/OverusedGrotesk-SemiBoldItalic.otf"
-    (share/"fonts").install "#{parent}variable/OverusedGrotesk-VF.ttf"
+    (share/"fonts").install Dir.glob("otf/**/OverusedGrotesk-Black.otf")[0]
+    (share/"fonts").install Dir.glob("otf/**/OverusedGrotesk-BlackItalic.otf")[0]
+    (share/"fonts").install Dir.glob("otf/**/OverusedGrotesk-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("otf/**/OverusedGrotesk-BoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("otf/**/OverusedGrotesk-Book.otf")[0]
+    (share/"fonts").install Dir.glob("otf/**/OverusedGrotesk-BookItalic.otf")[0]
+    (share/"fonts").install Dir.glob("otf/**/OverusedGrotesk-ExtraBold.otf")[0]
+    (share/"fonts").install Dir.glob("otf/**/OverusedGrotesk-ExtraBoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("otf/**/OverusedGrotesk-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("otf/**/OverusedGrotesk-Light.otf")[0]
+    (share/"fonts").install Dir.glob("otf/**/OverusedGrotesk-LightItalic.otf")[0]
+    (share/"fonts").install Dir.glob("otf/**/OverusedGrotesk-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("otf/**/OverusedGrotesk-MediumItalic.otf")[0]
+    (share/"fonts").install Dir.glob("otf/**/OverusedGrotesk-Roman.otf")[0]
+    (share/"fonts").install Dir.glob("otf/**/OverusedGrotesk-SemiBold.otf")[0]
+    (share/"fonts").install Dir.glob("otf/**/OverusedGrotesk-SemiBoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("variable/**/OverusedGrotesk-VF.ttf")[0]
   end
   # No zap stanza required
 

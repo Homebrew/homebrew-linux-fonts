@@ -4,7 +4,7 @@ class FontComforter < Formula
   desc "Appealing for many usages"
   homepage "https://fonts.google.com/specimen/Comforter"
   def install
-    (share/"fonts").install "Comforter-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Comforter-Regular.ttf")[0]
   end
   # No zap stanza required
 

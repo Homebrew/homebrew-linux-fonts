@@ -3,7 +3,7 @@ class FontMarmelad < Formula
   desc "Marmelad"
   homepage "https://fonts.google.com/specimen/Marmelad"
   def install
-    (share/"fonts").install "Marmelad-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Marmelad-Regular.ttf")[0]
   end
   # No zap stanza required
 

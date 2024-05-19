@@ -6,12 +6,11 @@ class FontSpleen < Formula
   desc "Monospaced bitmap font"
   homepage "https://github.com/fcambus/spleen"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}spleen-#{version}/spleen-6x12.otf"
-    (share/"fonts").install "#{parent}spleen-#{version}/spleen-8x16.otf"
-    (share/"fonts").install "#{parent}spleen-#{version}/spleen-12x24.otf"
-    (share/"fonts").install "#{parent}spleen-#{version}/spleen-16x32.otf"
-    (share/"fonts").install "#{parent}spleen-#{version}/spleen-32x64.otf"
+    (share/"fonts").install Dir.glob("spleen-#{version}/**/spleen-6x12.otf")[0]
+    (share/"fonts").install Dir.glob("spleen-#{version}/**/spleen-8x16.otf")[0]
+    (share/"fonts").install Dir.glob("spleen-#{version}/**/spleen-12x24.otf")[0]
+    (share/"fonts").install Dir.glob("spleen-#{version}/**/spleen-16x32.otf")[0]
+    (share/"fonts").install Dir.glob("spleen-#{version}/**/spleen-32x64.otf")[0]
   end
   # No zap stanza required
 

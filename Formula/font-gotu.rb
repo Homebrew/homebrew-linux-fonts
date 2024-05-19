@@ -3,7 +3,7 @@ class FontGotu < Formula
   desc "Gotu"
   homepage "https://fonts.google.com/specimen/Gotu"
   def install
-    (share/"fonts").install "Gotu-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Gotu-Regular.ttf")[0]
   end
   # No zap stanza required
 

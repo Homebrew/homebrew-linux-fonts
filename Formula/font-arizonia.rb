@@ -3,7 +3,7 @@ class FontArizonia < Formula
   desc "Arizonia"
   homepage "https://fonts.google.com/specimen/Arizonia"
   def install
-    (share/"fonts").install "Arizonia-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Arizonia-Regular.ttf")[0]
   end
   # No zap stanza required
 

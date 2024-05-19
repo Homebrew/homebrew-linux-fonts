@@ -3,7 +3,7 @@ class FontChocolateClassicalSans < Formula
   desc "Chocolate Classical Sans"
   homepage "https://github.com/aaronbell/ChocolateSans"
   def install
-    (share/"fonts").install "ChocolateClassicalSans-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/ChocolateClassicalSans-Regular.ttf")[0]
   end
   # No zap stanza required
 

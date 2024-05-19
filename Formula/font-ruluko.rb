@@ -3,7 +3,7 @@ class FontRuluko < Formula
   desc "Ruluko"
   homepage "https://fonts.google.com/specimen/Ruluko"
   def install
-    (share/"fonts").install "Ruluko-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Ruluko-Regular.ttf")[0]
   end
   # No zap stanza required
 

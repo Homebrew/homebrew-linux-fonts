@@ -3,7 +3,7 @@ class FontJockeyOne < Formula
   desc "Jockey One"
   homepage "https://fonts.google.com/specimen/Jockey+One"
   def install
-    (share/"fonts").install "JockeyOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/JockeyOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

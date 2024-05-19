@@ -6,13 +6,12 @@ class FontDelugiaBook < Formula
   desc "Cascadia Code + Nerd Fonts, minor difference between Caskaydia Cove Nerd Font"
   homepage "https://github.com/adam7/delugia-code"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}delugia-book/DelugiaBook-Bold.ttf"
-    (share/"fonts").install "#{parent}delugia-book/DelugiaBook-BoldItalic.ttf"
-    (share/"fonts").install "#{parent}delugia-book/DelugiaBook-Italic.ttf"
-    (share/"fonts").install "#{parent}delugia-book/DelugiaBook.ttf"
-    (share/"fonts").install "#{parent}delugia-book/DelugiaBookLight-Italic.ttf"
-    (share/"fonts").install "#{parent}delugia-book/DelugiaBookLight.ttf"
+    (share/"fonts").install Dir.glob("delugia-book/**/DelugiaBook-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("delugia-book/**/DelugiaBook-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("delugia-book/**/DelugiaBook-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("delugia-book/**/DelugiaBook.ttf")[0]
+    (share/"fonts").install Dir.glob("delugia-book/**/DelugiaBookLight-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("delugia-book/**/DelugiaBookLight.ttf")[0]
   end
   # No zap stanza required
 

@@ -4,19 +4,19 @@ class FontImFellTypes < Formula
   homepage "https://iginomarini.com/fell/"
   disable! date: "2024-04-04", because: :no_longer_available
   def install
-    (share/"fonts").install "IMFeDPit29C.otf"
-    (share/"fonts").install "IMFeDPrm29C.otf"
-    (share/"fonts").install "IMFeENit29C.otf"
-    (share/"fonts").install "IMFeENrm29C.otf"
-    (share/"fonts").install "IMFeFCit29C.otf"
-    (share/"fonts").install "IMFeFCrm29C.otf"
-    (share/"fonts").install "IMFeFlow1.otf"
-    (share/"fonts").install "IMFeFlow2.otf"
-    (share/"fonts").install "IMFeGPit29C.otf"
-    (share/"fonts").install "IMFeGPrm29C.otf"
-    (share/"fonts").install "IMFePIit29C.otf"
-    (share/"fonts").install "IMFePIrm29C.otf"
-    (share/"fonts").install "IMFeTLrm29C.otf"
+    (share/"fonts").install Dir.glob("./**/IMFeDPit29C.otf")[0]
+    (share/"fonts").install Dir.glob("./**/IMFeDPrm29C.otf")[0]
+    (share/"fonts").install Dir.glob("./**/IMFeENit29C.otf")[0]
+    (share/"fonts").install Dir.glob("./**/IMFeENrm29C.otf")[0]
+    (share/"fonts").install Dir.glob("./**/IMFeFCit29C.otf")[0]
+    (share/"fonts").install Dir.glob("./**/IMFeFCrm29C.otf")[0]
+    (share/"fonts").install Dir.glob("./**/IMFeFlow1.otf")[0]
+    (share/"fonts").install Dir.glob("./**/IMFeFlow2.otf")[0]
+    (share/"fonts").install Dir.glob("./**/IMFeGPit29C.otf")[0]
+    (share/"fonts").install Dir.glob("./**/IMFeGPrm29C.otf")[0]
+    (share/"fonts").install Dir.glob("./**/IMFePIit29C.otf")[0]
+    (share/"fonts").install Dir.glob("./**/IMFePIrm29C.otf")[0]
+    (share/"fonts").install Dir.glob("./**/IMFeTLrm29C.otf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontAlice < Formula
   desc "Alice"
   homepage "https://fonts.google.com/specimen/Alice"
   def install
-    (share/"fonts").install "Alice-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Alice-Regular.ttf")[0]
   end
   # No zap stanza required
 

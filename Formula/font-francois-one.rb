@@ -3,7 +3,7 @@ class FontFrancoisOne < Formula
   desc "Francois One"
   homepage "https://fonts.google.com/specimen/Francois+One"
   def install
-    (share/"fonts").install "FrancoisOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/FrancoisOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

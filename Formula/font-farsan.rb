@@ -3,7 +3,7 @@ class FontFarsan < Formula
   desc "Farsan"
   homepage "https://fonts.google.com/specimen/Farsan"
   def install
-    (share/"fonts").install "Farsan-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Farsan-Regular.ttf")[0]
   end
   # No zap stanza required
 

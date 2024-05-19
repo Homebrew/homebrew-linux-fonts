@@ -4,7 +4,7 @@ class FontNeonderthaw < Formula
   desc "Single weight script that simulates neon"
   homepage "https://fonts.google.com/specimen/Neonderthaw"
   def install
-    (share/"fonts").install "Neonderthaw-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Neonderthaw-Regular.ttf")[0]
   end
   # No zap stanza required
 

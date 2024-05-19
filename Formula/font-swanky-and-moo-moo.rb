@@ -3,7 +3,7 @@ class FontSwankyAndMooMoo < Formula
   desc "Swanky and Moo Moo"
   homepage "https://fonts.google.com/specimen/Swanky+and+Moo+Moo"
   def install
-    (share/"fonts").install "SwankyandMooMoo.ttf"
+    (share/"fonts").install Dir.glob("./**/SwankyandMooMoo.ttf")[0]
   end
   # No zap stanza required
 

@@ -5,13 +5,13 @@ class FontGenryumin < Formula
   desc "GenRyuMin"
   homepage "https://github.com/ButTaiwan/genryu-font"
   def install
-    (share/"fonts").install "ofl/genos/" + "GenRyuMin-B.ttc"
-    (share/"fonts").install "ofl/genos/" + "GenRyuMin-EL.ttc"
-    (share/"fonts").install "ofl/genos/" + "GenRyuMin-H.ttc"
-    (share/"fonts").install "ofl/genos/" + "GenRyuMin-L.ttc"
-    (share/"fonts").install "ofl/genos/" + "GenRyuMin-M.ttc"
-    (share/"fonts").install "ofl/genos/" + "GenRyuMin-R.ttc"
-    (share/"fonts").install "ofl/genos/" + "GenRyuMin-SB.ttc"
+    (share/"fonts").install Dir.glob(""ofl/genos/" + ./**/GenRyuMin-B.ttc")[0]
+    (share/"fonts").install Dir.glob(""ofl/genos/" + ./**/GenRyuMin-EL.ttc")[0]
+    (share/"fonts").install Dir.glob(""ofl/genos/" + ./**/GenRyuMin-H.ttc")[0]
+    (share/"fonts").install Dir.glob(""ofl/genos/" + ./**/GenRyuMin-L.ttc")[0]
+    (share/"fonts").install Dir.glob(""ofl/genos/" + ./**/GenRyuMin-M.ttc")[0]
+    (share/"fonts").install Dir.glob(""ofl/genos/" + ./**/GenRyuMin-R.ttc")[0]
+    (share/"fonts").install Dir.glob(""ofl/genos/" + ./**/GenRyuMin-SB.ttc")[0]
   end
   # No zap stanza required
 

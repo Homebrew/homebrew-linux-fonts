@@ -3,7 +3,7 @@ class FontNotoSansBatak < Formula
   desc "Noto Sans Batak"
   homepage "https://www.google.com/get/noto/#sans-batk"
   def install
-    (share/"fonts").install "NotoSansBatak-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansBatak-Regular.ttf")[0]
   end
   # No zap stanza required
 

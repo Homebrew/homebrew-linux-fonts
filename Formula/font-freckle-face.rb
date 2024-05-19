@@ -3,7 +3,7 @@ class FontFreckleFace < Formula
   desc "Freckle Face"
   homepage "https://fonts.google.com/specimen/Freckle+Face"
   def install
-    (share/"fonts").install "FreckleFace-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/FreckleFace-Regular.ttf")[0]
   end
   # No zap stanza required
 

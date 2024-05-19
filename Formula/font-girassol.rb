@@ -3,7 +3,7 @@ class FontGirassol < Formula
   desc "Girassol"
   homepage "https://fonts.google.com/specimen/Girassol"
   def install
-    (share/"fonts").install "Girassol-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Girassol-Regular.ttf")[0]
   end
   # No zap stanza required
 

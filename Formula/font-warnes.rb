@@ -3,7 +3,7 @@ class FontWarnes < Formula
   desc "Warnes"
   homepage "https://fonts.google.com/specimen/Warnes"
   def install
-    (share/"fonts").install "Warnes-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Warnes-Regular.ttf")[0]
   end
   # No zap stanza required
 

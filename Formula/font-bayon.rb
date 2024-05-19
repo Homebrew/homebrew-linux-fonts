@@ -3,7 +3,7 @@ class FontBayon < Formula
   desc "Bayon"
   homepage "https://fonts.google.com/specimen/Bayon"
   def install
-    (share/"fonts").install "Bayon-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Bayon-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontMonsieurLaDoulaise < Formula
   desc "Monsieur La Doulaise"
   homepage "https://fonts.google.com/specimen/Monsieur+La+Doulaise"
   def install
-    (share/"fonts").install "MonsieurLaDoulaise-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/MonsieurLaDoulaise-Regular.ttf")[0]
   end
   # No zap stanza required
 

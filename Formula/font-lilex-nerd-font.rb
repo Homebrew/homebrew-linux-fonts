@@ -6,24 +6,24 @@ class FontLilexNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "LilexNerdFont-Bold.ttf"
-    (share/"fonts").install "LilexNerdFont-ExtraLight.ttf"
-    (share/"fonts").install "LilexNerdFont-ExtraThick.ttf"
-    (share/"fonts").install "LilexNerdFont-Medium.ttf"
-    (share/"fonts").install "LilexNerdFont-Regular.ttf"
-    (share/"fonts").install "LilexNerdFont-Thin.ttf"
-    (share/"fonts").install "LilexNerdFontMono-Bold.ttf"
-    (share/"fonts").install "LilexNerdFontMono-ExtraLight.ttf"
-    (share/"fonts").install "LilexNerdFontMono-ExtraThick.ttf"
-    (share/"fonts").install "LilexNerdFontMono-Medium.ttf"
-    (share/"fonts").install "LilexNerdFontMono-Regular.ttf"
-    (share/"fonts").install "LilexNerdFontMono-Thin.ttf"
-    (share/"fonts").install "LilexNerdFontPropo-Bold.ttf"
-    (share/"fonts").install "LilexNerdFontPropo-ExtraLight.ttf"
-    (share/"fonts").install "LilexNerdFontPropo-ExtraThick.ttf"
-    (share/"fonts").install "LilexNerdFontPropo-Medium.ttf"
-    (share/"fonts").install "LilexNerdFontPropo-Regular.ttf"
-    (share/"fonts").install "LilexNerdFontPropo-Thin.ttf"
+    (share/"fonts").install Dir.glob("./**/LilexNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LilexNerdFont-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LilexNerdFont-ExtraThick.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LilexNerdFont-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LilexNerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LilexNerdFont-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LilexNerdFontMono-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LilexNerdFontMono-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LilexNerdFontMono-ExtraThick.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LilexNerdFontMono-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LilexNerdFontMono-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LilexNerdFontMono-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LilexNerdFontPropo-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LilexNerdFontPropo-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LilexNerdFontPropo-ExtraThick.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LilexNerdFontPropo-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LilexNerdFontPropo-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LilexNerdFontPropo-Thin.ttf")[0]
   end
   # No zap stanza required
 

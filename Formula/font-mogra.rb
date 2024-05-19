@@ -3,7 +3,7 @@ class FontMogra < Formula
   desc "Mogra"
   homepage "https://fonts.google.com/specimen/Mogra"
   def install
-    (share/"fonts").install "Mogra-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Mogra-Regular.ttf")[0]
   end
   # No zap stanza required
 

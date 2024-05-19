@@ -3,7 +3,7 @@ class FontNotoSansSoyombo < Formula
   desc "Noto Sans Soyombo"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Soyombo"
   def install
-    (share/"fonts").install "NotoSansSoyombo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansSoyombo-Regular.ttf")[0]
   end
   # No zap stanza required
 

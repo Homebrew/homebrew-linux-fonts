@@ -3,7 +3,7 @@ class FontGafata < Formula
   desc "Gafata"
   homepage "https://fonts.google.com/specimen/Gafata"
   def install
-    (share/"fonts").install "Gafata-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Gafata-Regular.ttf")[0]
   end
   # No zap stanza required
 

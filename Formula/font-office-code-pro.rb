@@ -5,23 +5,22 @@ class FontOfficeCodePro < Formula
   desc "Office Code Pro"
   homepage "https://github.com/nathco/Office-Code-Pro"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}Office-Code-Pro-1.004/Fonts/Office Code Pro D/OTF/OfficeCodeProD-Bold.otf"
-    (share/"fonts").install "#{parent}Office-Code-Pro-1.004/Fonts/Office Code Pro D/OTF/OfficeCodeProD-BoldItalic.otf"
-    (share/"fonts").install "#{parent}Office-Code-Pro-1.004/Fonts/Office Code Pro D/OTF/OfficeCodeProD-Light.otf"
-    (share/"fonts").install "#{parent}Office-Code-Pro-1.004/Fonts/Office Code Pro D/OTF/OfficeCodeProD-LightItalic.otf"
-    (share/"fonts").install "#{parent}Office-Code-Pro-1.004/Fonts/Office Code Pro D/OTF/OfficeCodeProD-Medium.otf"
-    (share/"fonts").install "#{parent}Office-Code-Pro-1.004/Fonts/Office Code Pro D/OTF/OfficeCodeProD-MediumItalic.otf"
-    (share/"fonts").install "#{parent}Office-Code-Pro-1.004/Fonts/Office Code Pro D/OTF/OfficeCodeProD-Regular.otf"
-    (share/"fonts").install "#{parent}Office-Code-Pro-1.004/Fonts/Office Code Pro D/OTF/OfficeCodeProD-RegularItalic.otf"
-    (share/"fonts").install "#{parent}Office-Code-Pro-1.004/Fonts/Office Code Pro/OTF/OfficeCodePro-Bold.otf"
-    (share/"fonts").install "#{parent}Office-Code-Pro-1.004/Fonts/Office Code Pro/OTF/OfficeCodePro-BoldItalic.otf"
-    (share/"fonts").install "#{parent}Office-Code-Pro-1.004/Fonts/Office Code Pro/OTF/OfficeCodePro-Light.otf"
-    (share/"fonts").install "#{parent}Office-Code-Pro-1.004/Fonts/Office Code Pro/OTF/OfficeCodePro-LightItalic.otf"
-    (share/"fonts").install "#{parent}Office-Code-Pro-1.004/Fonts/Office Code Pro/OTF/OfficeCodePro-Medium.otf"
-    (share/"fonts").install "#{parent}Office-Code-Pro-1.004/Fonts/Office Code Pro/OTF/OfficeCodePro-MediumItalic.otf"
-    (share/"fonts").install "#{parent}Office-Code-Pro-1.004/Fonts/Office Code Pro/OTF/OfficeCodePro-Regular.otf"
-    (share/"fonts").install "#{parent}Office-Code-Pro-1.004/Fonts/Office Code Pro/OTF/OfficeCodePro-RegularItalic.otf"
+    (share/"fonts").install Dir.glob("Office-Code-Pro-1.004/Fonts/Office Code Pro D/OTF/**/OfficeCodeProD-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("Office-Code-Pro-1.004/Fonts/Office Code Pro D/OTF/**/OfficeCodeProD-BoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("Office-Code-Pro-1.004/Fonts/Office Code Pro D/OTF/**/OfficeCodeProD-Light.otf")[0]
+    (share/"fonts").install Dir.glob("Office-Code-Pro-1.004/Fonts/Office Code Pro D/OTF/**/OfficeCodeProD-LightItalic.otf")[0]
+    (share/"fonts").install Dir.glob("Office-Code-Pro-1.004/Fonts/Office Code Pro D/OTF/**/OfficeCodeProD-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("Office-Code-Pro-1.004/Fonts/Office Code Pro D/OTF/**/OfficeCodeProD-MediumItalic.otf")[0]
+    (share/"fonts").install Dir.glob("Office-Code-Pro-1.004/Fonts/Office Code Pro D/OTF/**/OfficeCodeProD-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("Office-Code-Pro-1.004/Fonts/Office Code Pro D/OTF/**/OfficeCodeProD-RegularItalic.otf")[0]
+    (share/"fonts").install Dir.glob("Office-Code-Pro-1.004/Fonts/Office Code Pro/OTF/**/OfficeCodePro-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("Office-Code-Pro-1.004/Fonts/Office Code Pro/OTF/**/OfficeCodePro-BoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("Office-Code-Pro-1.004/Fonts/Office Code Pro/OTF/**/OfficeCodePro-Light.otf")[0]
+    (share/"fonts").install Dir.glob("Office-Code-Pro-1.004/Fonts/Office Code Pro/OTF/**/OfficeCodePro-LightItalic.otf")[0]
+    (share/"fonts").install Dir.glob("Office-Code-Pro-1.004/Fonts/Office Code Pro/OTF/**/OfficeCodePro-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("Office-Code-Pro-1.004/Fonts/Office Code Pro/OTF/**/OfficeCodePro-MediumItalic.otf")[0]
+    (share/"fonts").install Dir.glob("Office-Code-Pro-1.004/Fonts/Office Code Pro/OTF/**/OfficeCodePro-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("Office-Code-Pro-1.004/Fonts/Office Code Pro/OTF/**/OfficeCodePro-RegularItalic.otf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontMacondoSwashCaps < Formula
   desc "Macondo Swash Caps"
   homepage "https://fonts.google.com/specimen/Macondo+Swash+Caps"
   def install
-    (share/"fonts").install "MacondoSwashCaps-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/MacondoSwashCaps-Regular.ttf")[0]
   end
   # No zap stanza required
 

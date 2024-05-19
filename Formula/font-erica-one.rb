@@ -3,7 +3,7 @@ class FontEricaOne < Formula
   desc "Erica One"
   homepage "https://fonts.google.com/specimen/Erica+One"
   def install
-    (share/"fonts").install "EricaOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/EricaOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

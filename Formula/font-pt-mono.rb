@@ -4,9 +4,8 @@ class FontPtMono < Formula
   desc "Monospaced font of the PT Project series"
   homepage "https://www.paratype.com/fonts/pt/pt-mono"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}PT/PT/PT-Mono/pt-mono_bold.ttf"
-    (share/"fonts").install "#{parent}PT/PT/PT-Mono/pt-mono_regular.ttf"
+    (share/"fonts").install Dir.glob("PT/PT/PT-Mono/**/pt-mono_bold.ttf")[0]
+    (share/"fonts").install Dir.glob("PT/PT/PT-Mono/**/pt-mono_regular.ttf")[0]
   end
   # No zap stanza required
 

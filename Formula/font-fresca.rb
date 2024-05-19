@@ -3,7 +3,7 @@ class FontFresca < Formula
   desc "Fresca"
   homepage "https://fonts.google.com/specimen/Fresca"
   def install
-    (share/"fonts").install "Fresca-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Fresca-Regular.ttf")[0]
   end
   # No zap stanza required
 

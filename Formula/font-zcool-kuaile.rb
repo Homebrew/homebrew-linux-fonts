@@ -3,7 +3,7 @@ class FontZcoolKuaile < Formula
   desc "ZCOOL KuaiLe"
   homepage "https://fonts.google.com/specimen/ZCOOL+KuaiLe"
   def install
-    (share/"fonts").install "ZCOOLKuaiLe-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/ZCOOLKuaiLe-Regular.ttf")[0]
   end
   # No zap stanza required
 

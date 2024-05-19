@@ -3,7 +3,7 @@ class FontHerrVonMuellerhoff < Formula
   desc "Herr Von Muellerhoff"
   homepage "https://fonts.google.com/specimen/Herr+Von+Muellerhoff"
   def install
-    (share/"fonts").install "HerrVonMuellerhoff-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/HerrVonMuellerhoff-Regular.ttf")[0]
   end
   # No zap stanza required
 

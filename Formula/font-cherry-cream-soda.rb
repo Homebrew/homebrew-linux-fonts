@@ -3,7 +3,7 @@ class FontCherryCreamSoda < Formula
   desc "Cherry Cream Soda"
   homepage "https://fonts.google.com/specimen/Cherry+Cream+Soda"
   def install
-    (share/"fonts").install "CherryCreamSoda-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/CherryCreamSoda-Regular.ttf")[0]
   end
   # No zap stanza required
 

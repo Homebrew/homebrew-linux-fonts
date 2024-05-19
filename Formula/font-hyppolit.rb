@@ -3,7 +3,7 @@ class FontHyppolit < Formula
   desc "Hyppolit"
   homepage "https://www.1001fonts.com/hyppolit-font.html"
   def install
-    (share/"fonts").install "Hyppolit.ttf"
+    (share/"fonts").install Dir.glob("./**/Hyppolit.ttf")[0]
   end
   # No zap stanza required
 

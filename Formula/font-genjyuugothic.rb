@@ -5,27 +5,27 @@ class FontGenjyuugothic < Formula
   desc "Gen Jyuu Gothic"
   homepage "http://jikasei.me/font/genjyuu/"
   def install
-    (share/"fonts").install "GenJyuuGothic-Bold.ttf"
-    (share/"fonts").install "GenJyuuGothic-ExtraLight.ttf"
-    (share/"fonts").install "GenJyuuGothic-Heavy.ttf"
-    (share/"fonts").install "GenJyuuGothic-Light.ttf"
-    (share/"fonts").install "GenJyuuGothic-Medium.ttf"
-    (share/"fonts").install "GenJyuuGothic-Monospace-Bold.ttf"
-    (share/"fonts").install "GenJyuuGothic-Monospace-ExtraLight.ttf"
-    (share/"fonts").install "GenJyuuGothic-Monospace-Heavy.ttf"
-    (share/"fonts").install "GenJyuuGothic-Monospace-Light.ttf"
-    (share/"fonts").install "GenJyuuGothic-Monospace-Medium.ttf"
-    (share/"fonts").install "GenJyuuGothic-Monospace-Normal.ttf"
-    (share/"fonts").install "GenJyuuGothic-Monospace-Regular.ttf"
-    (share/"fonts").install "GenJyuuGothic-Normal.ttf"
-    (share/"fonts").install "GenJyuuGothic-P-Bold.ttf"
-    (share/"fonts").install "GenJyuuGothic-P-ExtraLight.ttf"
-    (share/"fonts").install "GenJyuuGothic-P-Heavy.ttf"
-    (share/"fonts").install "GenJyuuGothic-P-Light.ttf"
-    (share/"fonts").install "GenJyuuGothic-P-Medium.ttf"
-    (share/"fonts").install "GenJyuuGothic-P-Normal.ttf"
-    (share/"fonts").install "GenJyuuGothic-P-Regular.ttf"
-    (share/"fonts").install "GenJyuuGothic-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/GenJyuuGothic-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GenJyuuGothic-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GenJyuuGothic-Heavy.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GenJyuuGothic-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GenJyuuGothic-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GenJyuuGothic-Monospace-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GenJyuuGothic-Monospace-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GenJyuuGothic-Monospace-Heavy.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GenJyuuGothic-Monospace-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GenJyuuGothic-Monospace-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GenJyuuGothic-Monospace-Normal.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GenJyuuGothic-Monospace-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GenJyuuGothic-Normal.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GenJyuuGothic-P-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GenJyuuGothic-P-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GenJyuuGothic-P-Heavy.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GenJyuuGothic-P-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GenJyuuGothic-P-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GenJyuuGothic-P-Normal.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GenJyuuGothic-P-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GenJyuuGothic-Regular.ttf")[0]
   end
   # No zap stanza required
 

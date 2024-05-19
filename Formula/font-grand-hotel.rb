@@ -3,7 +3,7 @@ class FontGrandHotel < Formula
   desc "Grand Hotel"
   homepage "https://fonts.google.com/specimen/Grand+Hotel"
   def install
-    (share/"fonts").install "GrandHotel-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/GrandHotel-Regular.ttf")[0]
   end
   # No zap stanza required
 

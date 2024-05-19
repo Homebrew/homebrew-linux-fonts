@@ -3,7 +3,7 @@ class FontPressStart2p < Formula
   desc "Press Start 2P"
   homepage "https://fonts.google.com/specimen/Press+Start+2P"
   def install
-    (share/"fonts").install "PressStart2P-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/PressStart2P-Regular.ttf")[0]
   end
   # No zap stanza required
 

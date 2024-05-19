@@ -4,7 +4,7 @@ class FontOrbit < Formula
   desc "Recommended to use bright writing on a dark background, below 10pt"
   homepage "https://fonts.google.com/specimen/Orbit"
   def install
-    (share/"fonts").install "Orbit-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Orbit-Regular.ttf")[0]
   end
   # No zap stanza required
 

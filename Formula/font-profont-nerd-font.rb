@@ -6,12 +6,12 @@ class FontProfontNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "ProFontIIxNerdFont-Regular.ttf"
-    (share/"fonts").install "ProFontIIxNerdFontMono-Regular.ttf"
-    (share/"fonts").install "ProFontIIxNerdFontPropo-Regular.ttf"
-    (share/"fonts").install "ProFontWindowsNerdFont-Regular.ttf"
-    (share/"fonts").install "ProFontWindowsNerdFontMono-Regular.ttf"
-    (share/"fonts").install "ProFontWindowsNerdFontPropo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/ProFontIIxNerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/ProFontIIxNerdFontMono-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/ProFontIIxNerdFontPropo-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/ProFontWindowsNerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/ProFontWindowsNerdFontMono-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/ProFontWindowsNerdFontPropo-Regular.ttf")[0]
   end
   # No zap stanza required
 

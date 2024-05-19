@@ -3,7 +3,7 @@ class FontMilonga < Formula
   desc "Milonga"
   homepage "https://fonts.google.com/specimen/Milonga"
   def install
-    (share/"fonts").install "Milonga-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Milonga-Regular.ttf")[0]
   end
   # No zap stanza required
 

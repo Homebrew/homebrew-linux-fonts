@@ -3,7 +3,7 @@ class FontEdlo < Formula
   desc "Edlo"
   homepage "https://ehamiter.github.io/Edlo/"
   def install
-    (share/"fonts").install "edlo.ttf"
+    (share/"fonts").install Dir.glob("./**/edlo.ttf")[0]
   end
   # No zap stanza required
 

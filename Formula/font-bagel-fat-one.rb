@@ -3,7 +3,7 @@ class FontBagelFatOne < Formula
   desc "Bagel Fat One"
   homepage "https://fonts.google.com/specimen/Bagel+Fat+One"
   def install
-    (share/"fonts").install "BagelFatOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/BagelFatOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

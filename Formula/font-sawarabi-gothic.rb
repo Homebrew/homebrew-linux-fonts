@@ -3,7 +3,7 @@ class FontSawarabiGothic < Formula
   desc "Sawarabi Gothic"
   homepage "https://fonts.google.com/specimen/Sawarabi+Gothic"
   def install
-    (share/"fonts").install "SawarabiGothic-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/SawarabiGothic-Regular.ttf")[0]
   end
   # No zap stanza required
 

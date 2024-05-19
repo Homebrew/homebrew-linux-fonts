@@ -3,7 +3,7 @@ class FontNotoSansTaiViet < Formula
   desc "Noto Sans Tai Viet"
   homepage "https://www.google.com/get/noto/#sans-tavt"
   def install
-    (share/"fonts").install "NotoSansTaiViet-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansTaiViet-Regular.ttf")[0]
   end
   # No zap stanza required
 

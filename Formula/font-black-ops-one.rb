@@ -3,7 +3,7 @@ class FontBlackOpsOne < Formula
   desc "Black Ops One"
   homepage "https://fonts.google.com/specimen/Black+Ops+One"
   def install
-    (share/"fonts").install "BlackOpsOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/BlackOpsOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

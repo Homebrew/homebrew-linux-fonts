@@ -7,13 +7,12 @@ class FontLxgwWenkaiGb < Formula
   desc "Open-source Simplified Chinese font derived from Fontworks' Klee One"
   homepage "https://github.com/lxgw/LxgwWenkaiGB"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}lxgw-wenkai-gb-v#{version}/LXGWWenKaiMonoGB-Bold.ttf"
-    (share/"fonts").install "#{parent}lxgw-wenkai-gb-v#{version}/LXGWWenKaiMonoGB-Light.ttf"
-    (share/"fonts").install "#{parent}lxgw-wenkai-gb-v#{version}/LXGWWenKaiMonoGB-Regular.ttf"
-    (share/"fonts").install "#{parent}lxgw-wenkai-gb-v#{version}/LXGWWenKaiGB-Bold.ttf"
-    (share/"fonts").install "#{parent}lxgw-wenkai-gb-v#{version}/LXGWWenKaiGB-Light.ttf"
-    (share/"fonts").install "#{parent}lxgw-wenkai-gb-v#{version}/LXGWWenKaiGB-Regular.ttf"
+    (share/"fonts").install Dir.glob("lxgw-wenkai-gb-v#{version}/**/LXGWWenKaiMonoGB-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("lxgw-wenkai-gb-v#{version}/**/LXGWWenKaiMonoGB-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("lxgw-wenkai-gb-v#{version}/**/LXGWWenKaiMonoGB-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("lxgw-wenkai-gb-v#{version}/**/LXGWWenKaiGB-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("lxgw-wenkai-gb-v#{version}/**/LXGWWenKaiGB-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("lxgw-wenkai-gb-v#{version}/**/LXGWWenKaiGB-Regular.ttf")[0]
   end
   # No zap stanza required
 

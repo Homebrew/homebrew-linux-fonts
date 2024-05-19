@@ -4,8 +4,7 @@ class FontAlbertella < Formula
   desc "Ancient biology styled font inspired by trilobite"
   homepage "https://moji-waku.com/albertella/index.html"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}albertella/Albertella-Light.otf"
+    (share/"fonts").install Dir.glob("albertella/**/Albertella-Light.otf")[0]
   end
   # No zap stanza required
 

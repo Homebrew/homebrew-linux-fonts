@@ -3,7 +3,7 @@ class FontNotoSansPhagsPa < Formula
   desc "Noto Sans Phags Pa"
   homepage "https://www.google.com/get/noto/#sans-phag"
   def install
-    (share/"fonts").install "NotoSansPhagsPa-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansPhagsPa-Regular.ttf")[0]
   end
   # No zap stanza required
 

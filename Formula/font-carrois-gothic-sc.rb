@@ -3,7 +3,7 @@ class FontCarroisGothicSc < Formula
   desc "Carrois Gothic SC"
   homepage "https://fonts.google.com/specimen/Carrois+Gothic+SC"
   def install
-    (share/"fonts").install "CarroisGothicSC-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/CarroisGothicSC-Regular.ttf")[0]
   end
   # No zap stanza required
 

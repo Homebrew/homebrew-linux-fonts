@@ -3,7 +3,7 @@ class FontMadimiOne < Formula
   desc "Madimi One"
   homepage "https://fonts.google.com/specimen/Madimi+One"
   def install
-    (share/"fonts").install "MadimiOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/MadimiOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

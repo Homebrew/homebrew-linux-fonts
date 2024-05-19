@@ -3,7 +3,7 @@ class FontAlikeAngular < Formula
   desc "Alike Angular"
   homepage "https://fonts.google.com/specimen/Alike+Angular"
   def install
-    (share/"fonts").install "AlikeAngular-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/AlikeAngular-Regular.ttf")[0]
   end
   # No zap stanza required
 

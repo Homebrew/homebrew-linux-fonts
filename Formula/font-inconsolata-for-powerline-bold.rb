@@ -3,7 +3,7 @@ class FontInconsolataForPowerlineBold < Formula
   desc "Inconsolata Bold for Powerline"
   homepage "https://github.com/powerline/fonts/tree/master/Inconsolata"
   def install
-    (share/"fonts").install "Inconsolata Bold for Powerline.ttf"
+    (share/"fonts").install Dir.glob("./**/Inconsolata Bold for Powerline.ttf")[0]
   end
   # No zap stanza required
 

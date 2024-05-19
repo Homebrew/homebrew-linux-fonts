@@ -6,14 +6,13 @@ class FontNotoSerifCjkKr < Formula
   desc "Language Specific OTFs Korean (한국어)"
   homepage "https://github.com/notofonts/noto-cjk/tree/main/Serif"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}OTF/Korean/NotoSerifCJKkr-Black.otf"
-    (share/"fonts").install "#{parent}OTF/Korean/NotoSerifCJKkr-Bold.otf"
-    (share/"fonts").install "#{parent}OTF/Korean/NotoSerifCJKkr-ExtraLight.otf"
-    (share/"fonts").install "#{parent}OTF/Korean/NotoSerifCJKkr-Light.otf"
-    (share/"fonts").install "#{parent}OTF/Korean/NotoSerifCJKkr-Medium.otf"
-    (share/"fonts").install "#{parent}OTF/Korean/NotoSerifCJKkr-Regular.otf"
-    (share/"fonts").install "#{parent}OTF/Korean/NotoSerifCJKkr-SemiBold.otf"
+    (share/"fonts").install Dir.glob("OTF/Korean/**/NotoSerifCJKkr-Black.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/Korean/**/NotoSerifCJKkr-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/Korean/**/NotoSerifCJKkr-ExtraLight.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/Korean/**/NotoSerifCJKkr-Light.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/Korean/**/NotoSerifCJKkr-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/Korean/**/NotoSerifCJKkr-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/Korean/**/NotoSerifCJKkr-SemiBold.otf")[0]
   end
   # No zap stanza required
 

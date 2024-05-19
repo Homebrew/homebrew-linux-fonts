@@ -3,7 +3,7 @@ class FontTimmana < Formula
   desc "Timmana"
   homepage "https://fonts.google.com/specimen/Timmana"
   def install
-    (share/"fonts").install "Timmana-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Timmana-Regular.ttf")[0]
   end
   # No zap stanza required
 

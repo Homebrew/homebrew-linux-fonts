@@ -6,12 +6,12 @@ class FontInconsolataGoNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "InconsolataGoNerdFont-Bold.ttf"
-    (share/"fonts").install "InconsolataGoNerdFont-Regular.ttf"
-    (share/"fonts").install "InconsolataGoNerdFontMono-Bold.ttf"
-    (share/"fonts").install "InconsolataGoNerdFontMono-Regular.ttf"
-    (share/"fonts").install "InconsolataGoNerdFontPropo-Bold.ttf"
-    (share/"fonts").install "InconsolataGoNerdFontPropo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/InconsolataGoNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/InconsolataGoNerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/InconsolataGoNerdFontMono-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/InconsolataGoNerdFontMono-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/InconsolataGoNerdFontPropo-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/InconsolataGoNerdFontPropo-Regular.ttf")[0]
   end
   # No zap stanza required
 

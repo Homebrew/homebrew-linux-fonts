@@ -3,7 +3,7 @@ class FontQuintessential < Formula
   desc "Quintessential"
   homepage "https://fonts.google.com/specimen/Quintessential"
   def install
-    (share/"fonts").install "Quintessential-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Quintessential-Regular.ttf")[0]
   end
   # No zap stanza required
 

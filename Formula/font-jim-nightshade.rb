@@ -3,7 +3,7 @@ class FontJimNightshade < Formula
   desc "Jim Nightshade"
   homepage "https://fonts.google.com/specimen/Jim+Nightshade"
   def install
-    (share/"fonts").install "JimNightshade-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/JimNightshade-Regular.ttf")[0]
   end
   # No zap stanza required
 

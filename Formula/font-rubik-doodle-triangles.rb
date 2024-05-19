@@ -3,7 +3,7 @@ class FontRubikDoodleTriangles < Formula
   desc "Rubik Doodle Triangles"
   homepage "https://fonts.google.com/specimen/Rubik+Doodle+Triangles"
   def install
-    (share/"fonts").install "RubikDoodleTriangles-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/RubikDoodleTriangles-Regular.ttf")[0]
   end
   # No zap stanza required
 

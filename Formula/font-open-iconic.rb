@@ -5,8 +5,7 @@ class FontOpenIconic < Formula
   desc "Open Iconic"
   homepage "https://useiconic.com/open/"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}open-iconic-#{version}/font/fonts/open-iconic.ttf"
+    (share/"fonts").install Dir.glob("open-iconic-#{version}/font/fonts/**/open-iconic.ttf")[0]
   end
   # No zap stanza required
 

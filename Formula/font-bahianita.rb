@@ -3,7 +3,7 @@ class FontBahianita < Formula
   desc "Bahianita"
   homepage "https://fonts.google.com/specimen/Bahianita"
   def install
-    (share/"fonts").install "Bahianita-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Bahianita-Regular.ttf")[0]
   end
   # No zap stanza required
 

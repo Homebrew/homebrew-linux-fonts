@@ -3,7 +3,7 @@ class FontSuravaram < Formula
   desc "Suravaram"
   homepage "https://fonts.google.com/specimen/Suravaram"
   def install
-    (share/"fonts").install "Suravaram-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Suravaram-Regular.ttf")[0]
   end
   # No zap stanza required
 

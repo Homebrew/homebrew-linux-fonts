@@ -3,7 +3,7 @@ class FontGajrajOne < Formula
   desc "Gajraj One"
   homepage "https://fonts.google.com/specimen/Gajraj+One"
   def install
-    (share/"fonts").install "GajrajOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/GajrajOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

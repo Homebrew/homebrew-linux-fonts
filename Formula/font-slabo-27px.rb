@@ -3,7 +3,7 @@ class FontSlabo27px < Formula
   desc "Slabo 27px"
   homepage "https://fonts.google.com/specimen/Slabo+27px"
   def install
-    (share/"fonts").install "Slabo27px-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Slabo27px-Regular.ttf")[0]
   end
   # No zap stanza required
 

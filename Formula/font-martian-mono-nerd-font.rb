@@ -6,24 +6,24 @@ class FontMartianMonoNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "ofl/martel/" + "MartianMonoNerdFont-Bold.ttf"
-    (share/"fonts").install "ofl/martel/" + "MartianMonoNerdFont-CondensedBold.ttf"
-    (share/"fonts").install "ofl/martel/" + "MartianMonoNerdFont-CondensedMedium.ttf"
-    (share/"fonts").install "ofl/martel/" + "MartianMonoNerdFont-CondensedRegular.ttf"
-    (share/"fonts").install "ofl/martel/" + "MartianMonoNerdFont-Medium.ttf"
-    (share/"fonts").install "ofl/martel/" + "MartianMonoNerdFont-Regular.ttf"
-    (share/"fonts").install "ofl/martel/" + "MartianMonoNerdFontMono-Bold.ttf"
-    (share/"fonts").install "ofl/martel/" + "MartianMonoNerdFontMono-CondensedBold.ttf"
-    (share/"fonts").install "ofl/martel/" + "MartianMonoNerdFontMono-CondensedMedium.ttf"
-    (share/"fonts").install "ofl/martel/" + "MartianMonoNerdFontMono-CondensedRegular.ttf"
-    (share/"fonts").install "ofl/martel/" + "MartianMonoNerdFontMono-Medium.ttf"
-    (share/"fonts").install "ofl/martel/" + "MartianMonoNerdFontMono-Regular.ttf"
-    (share/"fonts").install "ofl/martel/" + "MartianMonoNerdFontPropo-Bold.ttf"
-    (share/"fonts").install "ofl/martel/" + "MartianMonoNerdFontPropo-CondensedBold.ttf"
-    (share/"fonts").install "ofl/martel/" + "MartianMonoNerdFontPropo-CondensedMedium.ttf"
-    (share/"fonts").install "ofl/martel/" + "MartianMonoNerdFontPropo-CondensedRegular.ttf"
-    (share/"fonts").install "ofl/martel/" + "MartianMonoNerdFontPropo-Medium.ttf"
-    (share/"fonts").install "ofl/martel/" + "MartianMonoNerdFontPropo-Regular.ttf"
+    (share/"fonts").install Dir.glob(""ofl/martel/" + ./**/MartianMonoNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/martel/" + ./**/MartianMonoNerdFont-CondensedBold.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/martel/" + ./**/MartianMonoNerdFont-CondensedMedium.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/martel/" + ./**/MartianMonoNerdFont-CondensedRegular.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/martel/" + ./**/MartianMonoNerdFont-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/martel/" + ./**/MartianMonoNerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/martel/" + ./**/MartianMonoNerdFontMono-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/martel/" + ./**/MartianMonoNerdFontMono-CondensedBold.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/martel/" + ./**/MartianMonoNerdFontMono-CondensedMedium.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/martel/" + ./**/MartianMonoNerdFontMono-CondensedRegular.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/martel/" + ./**/MartianMonoNerdFontMono-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/martel/" + ./**/MartianMonoNerdFontMono-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/martel/" + ./**/MartianMonoNerdFontPropo-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/martel/" + ./**/MartianMonoNerdFontPropo-CondensedBold.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/martel/" + ./**/MartianMonoNerdFontPropo-CondensedMedium.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/martel/" + ./**/MartianMonoNerdFontPropo-CondensedRegular.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/martel/" + ./**/MartianMonoNerdFontPropo-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob(""ofl/martel/" + ./**/MartianMonoNerdFontPropo-Regular.ttf")[0]
   end
   # No zap stanza required
 

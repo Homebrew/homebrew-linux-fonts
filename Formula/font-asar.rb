@@ -3,7 +3,7 @@ class FontAsar < Formula
   desc "Asar"
   homepage "https://fonts.google.com/specimen/Asar"
   def install
-    (share/"fonts").install "Asar-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Asar-Regular.ttf")[0]
   end
   # No zap stanza required
 

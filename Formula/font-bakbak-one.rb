@@ -4,7 +4,7 @@ class FontBakbakOne < Formula
   desc "Render anything from a warning to a mockery"
   homepage "https://fonts.google.com/specimen/Bakbak+One"
   def install
-    (share/"fonts").install "BakbakOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/BakbakOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

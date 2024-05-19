@@ -3,7 +3,7 @@ class FontNotable < Formula
   desc "Notable"
   homepage "https://fonts.google.com/specimen/Notable"
   def install
-    (share/"fonts").install "Notable-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Notable-Regular.ttf")[0]
   end
   # No zap stanza required
 

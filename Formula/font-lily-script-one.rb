@@ -3,7 +3,7 @@ class FontLilyScriptOne < Formula
   desc "Lily Script One"
   homepage "https://fonts.google.com/specimen/Lily+Script+One"
   def install
-    (share/"fonts").install "LilyScriptOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/LilyScriptOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

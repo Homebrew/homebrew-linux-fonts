@@ -3,7 +3,7 @@ class FontVujahdayScript < Formula
   desc "Vujahday Script"
   homepage "https://fonts.google.com/specimen/Vujahday+Script"
   def install
-    (share/"fonts").install "VujahdayScript-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/VujahdayScript-Regular.ttf")[0]
   end
   # No zap stanza required
 

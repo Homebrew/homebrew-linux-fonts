@@ -6,12 +6,12 @@ class FontComicShannsMonoNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "ComicShannsMonoNerdFont-Bold.otf"
-    (share/"fonts").install "ComicShannsMonoNerdFont-Regular.otf"
-    (share/"fonts").install "ComicShannsMonoNerdFontMono-Bold.otf"
-    (share/"fonts").install "ComicShannsMonoNerdFontMono-Regular.otf"
-    (share/"fonts").install "ComicShannsMonoNerdFontPropo-Bold.otf"
-    (share/"fonts").install "ComicShannsMonoNerdFontPropo-Regular.otf"
+    (share/"fonts").install Dir.glob("./**/ComicShannsMonoNerdFont-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/ComicShannsMonoNerdFont-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/ComicShannsMonoNerdFontMono-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/ComicShannsMonoNerdFontMono-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/ComicShannsMonoNerdFontPropo-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/ComicShannsMonoNerdFontPropo-Regular.otf")[0]
   end
   # No zap stanza required
 

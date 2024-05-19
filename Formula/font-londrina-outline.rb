@@ -3,7 +3,7 @@ class FontLondrinaOutline < Formula
   desc "Londrina Outline"
   homepage "https://fonts.google.com/specimen/Londrina+Outline"
   def install
-    (share/"fonts").install "LondrinaOutline-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/LondrinaOutline-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontRockSalt < Formula
   desc "Rock Salt"
   homepage "https://fonts.google.com/specimen/Rock+Salt"
   def install
-    (share/"fonts").install "RockSalt-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/RockSalt-Regular.ttf")[0]
   end
   # No zap stanza required
 

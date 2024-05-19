@@ -5,8 +5,7 @@ class FontAndronScriptorWeb < Formula
   desc "Andron Scriptor Web"
   homepage "https://folk.uib.no/hnooh/mufi/fonts/"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}AND_SCR_WEB_#{version}/Andron Scriptor Web.ttf"
+    (share/"fonts").install Dir.glob("AND_SCR_WEB_#{version}/**/Andron Scriptor Web.ttf")[0]
   end
   # No zap stanza required
 

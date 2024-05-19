@@ -3,7 +3,7 @@ class FontMiniver < Formula
   desc "Miniver"
   homepage "https://fonts.google.com/specimen/Miniver"
   def install
-    (share/"fonts").install "Miniver-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Miniver-Regular.ttf")[0]
   end
   # No zap stanza required
 

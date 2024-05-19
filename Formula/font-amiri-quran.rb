@@ -3,7 +3,7 @@ class FontAmiriQuran < Formula
   desc "Amiri Quran"
   homepage "https://fonts.google.com/specimen/Amiri+Quran"
   def install
-    (share/"fonts").install "AmiriQuran-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/AmiriQuran-Regular.ttf")[0]
   end
   # No zap stanza required
 

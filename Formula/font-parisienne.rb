@@ -3,7 +3,7 @@ class FontParisienne < Formula
   desc "Parisienne"
   homepage "https://fonts.google.com/specimen/Parisienne"
   def install
-    (share/"fonts").install "Parisienne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Parisienne-Regular.ttf")[0]
   end
   # No zap stanza required
 

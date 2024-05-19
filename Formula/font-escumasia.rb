@@ -4,8 +4,7 @@ class FontEscumasia < Formula
   desc "Ancient biology styled font inspired by escumasia"
   homepage "https://moji-waku.com/escumasia/index.html"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}escumasia/Escumasia-Regular.otf"
+    (share/"fonts").install Dir.glob("escumasia/**/Escumasia-Regular.otf")[0]
   end
   # No zap stanza required
 

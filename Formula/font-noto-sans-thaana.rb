@@ -3,8 +3,8 @@ class FontNotoSansThaana < Formula
   desc "Noto Sans Thaana"
   homepage "https://www.google.com/get/noto/#sans-thaa"
   def install
-    (share/"fonts").install "NotoSansThaana-Bold.ttf"
-    (share/"fonts").install "NotoSansThaana-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansThaana-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansThaana-Regular.ttf")[0]
   end
   # No zap stanza required
 

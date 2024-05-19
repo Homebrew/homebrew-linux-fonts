@@ -3,7 +3,7 @@ class FontCalistoga < Formula
   desc "Calistoga"
   homepage "https://fonts.google.com/specimen/Calistoga"
   def install
-    (share/"fonts").install "Calistoga-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Calistoga-Regular.ttf")[0]
   end
   # No zap stanza required
 

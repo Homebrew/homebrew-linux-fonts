@@ -4,7 +4,7 @@ class FontNotoSansPhagspa < Formula
   desc "Sans-serif for texts in the historical central asian phags-pa script"
   homepage "https://github.com/notofonts/phags-pa.git"
   def install
-    (share/"fonts").install "NotoSansPhagsPa-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansPhagsPa-Regular.ttf")[0]
   end
   # No zap stanza required
 

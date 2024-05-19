@@ -3,7 +3,7 @@ class FontJustMeAgainDownHere < Formula
   desc "Just Me Again Down Here"
   homepage "https://fonts.google.com/specimen/Just+Me+Again+Down+Here"
   def install
-    (share/"fonts").install "JustMeAgainDownHere.ttf"
+    (share/"fonts").install Dir.glob("./**/JustMeAgainDownHere.ttf")[0]
   end
   # No zap stanza required
 

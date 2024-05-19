@@ -3,7 +3,7 @@ class FontLeagueScript < Formula
   desc "League Script"
   homepage "https://fonts.google.com/specimen/League+Script"
   def install
-    (share/"fonts").install "LeagueScript-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/LeagueScript-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -4,7 +4,7 @@ class FontMingzat < Formula
   desc "Unicode font based on jason glavy's jg lepcha custom-encoded font"
   homepage "https://fonts.google.com/specimen/Mingzat"
   def install
-    (share/"fonts").install "Mingzat-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Mingzat-Regular.ttf")[0]
   end
   # No zap stanza required
 

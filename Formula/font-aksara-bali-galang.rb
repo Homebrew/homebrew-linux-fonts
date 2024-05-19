@@ -3,7 +3,7 @@ class FontAksaraBaliGalang < Formula
   desc "Aksara Bali Galang"
   homepage "https://fonts.google.com/specimen/Aksara+Bali+Galang"
   def install
-    (share/"fonts").install "AksaraBaliGalang-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/AksaraBaliGalang-Regular.ttf")[0]
   end
   # No zap stanza required
 

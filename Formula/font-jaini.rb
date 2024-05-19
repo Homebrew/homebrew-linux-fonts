@@ -4,7 +4,7 @@ class FontJaini < Formula
   desc "Typeface based on the calligraphic style of the Jain Kalpasutra manuscripts"
   homepage "https://fonts.google.com/specimen/Jaini"
   def install
-    (share/"fonts").install "Jaini-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Jaini-Regular.ttf")[0]
   end
   # No zap stanza required
 

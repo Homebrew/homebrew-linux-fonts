@@ -3,7 +3,7 @@ class FontRuthie < Formula
   desc "Ruthie"
   homepage "https://fonts.google.com/specimen/Ruthie"
   def install
-    (share/"fonts").install "Ruthie-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Ruthie-Regular.ttf")[0]
   end
   # No zap stanza required
 

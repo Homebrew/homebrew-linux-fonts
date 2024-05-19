@@ -3,7 +3,7 @@ class FontNotoSansInscriptionalParthian < Formula
   desc "Noto Sans Inscriptional Parthian"
   homepage "https://www.google.com/get/noto/#sans-prti"
   def install
-    (share/"fonts").install "NotoSansInscriptionalParthian-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansInscriptionalParthian-Regular.ttf")[0]
   end
   # No zap stanza required
 

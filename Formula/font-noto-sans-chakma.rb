@@ -3,7 +3,7 @@ class FontNotoSansChakma < Formula
   desc "Noto Sans Chakma"
   homepage "https://www.google.com/get/noto/#sans-cakm"
   def install
-    (share/"fonts").install "NotoSansChakma-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansChakma-Regular.ttf")[0]
   end
   # No zap stanza required
 

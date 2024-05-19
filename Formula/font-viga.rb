@@ -3,7 +3,7 @@ class FontViga < Formula
   desc "Viga"
   homepage "https://fonts.google.com/specimen/Viga"
   def install
-    (share/"fonts").install "Viga-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Viga-Regular.ttf")[0]
   end
   # No zap stanza required
 

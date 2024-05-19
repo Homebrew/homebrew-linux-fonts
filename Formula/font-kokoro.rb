@@ -3,7 +3,7 @@ class FontKokoro < Formula
   desc "Kokoro"
   homepage "https://fonts.google.com/specimen/Kokoro"
   def install
-    (share/"fonts").install "Kokoro-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Kokoro-Regular.ttf")[0]
   end
   # No zap stanza required
 

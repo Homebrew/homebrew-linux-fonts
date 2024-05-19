@@ -3,7 +3,7 @@ class FontPompiere < Formula
   desc "Pompiere"
   homepage "https://fonts.google.com/specimen/Pompiere"
   def install
-    (share/"fonts").install "Pompiere-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Pompiere-Regular.ttf")[0]
   end
   # No zap stanza required
 

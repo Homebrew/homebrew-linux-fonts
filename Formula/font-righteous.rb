@@ -3,7 +3,7 @@ class FontRighteous < Formula
   desc "Righteous"
   homepage "https://fonts.google.com/specimen/Righteous"
   def install
-    (share/"fonts").install "Righteous-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Righteous-Regular.ttf")[0]
   end
   # No zap stanza required
 

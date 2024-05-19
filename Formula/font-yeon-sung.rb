@@ -3,7 +3,7 @@ class FontYeonSung < Formula
   desc "Yeon Sung"
   homepage "https://fonts.google.com/specimen/Yeon+Sung"
   def install
-    (share/"fonts").install "YeonSung-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/YeonSung-Regular.ttf")[0]
   end
   # No zap stanza required
 

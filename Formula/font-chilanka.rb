@@ -3,7 +3,7 @@ class FontChilanka < Formula
   desc "Chilanka"
   homepage "https://fonts.google.com/specimen/Chilanka"
   def install
-    (share/"fonts").install "Chilanka-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Chilanka-Regular.ttf")[0]
   end
   # No zap stanza required
 

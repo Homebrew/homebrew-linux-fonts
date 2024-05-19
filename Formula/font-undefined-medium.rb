@@ -6,8 +6,7 @@ class FontUndefinedMedium < Formula
   desc "Pixel grid-based monospace typeface"
   homepage "https://github.com/andirueckel/undefined-medium"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}undefined-medium-#{version}/fonts/otf/undefined-medium.otf"
+    (share/"fonts").install Dir.glob("undefined-medium-#{version}/fonts/otf/**/undefined-medium.otf")[0]
   end
   # No zap stanza required
 

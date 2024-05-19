@@ -3,7 +3,7 @@ class FontTiny5 < Formula
   desc "Tiny5"
   homepage "https://github.com/Gissio/font_tiny5"
   def install
-    (share/"fonts").install "Tiny5-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Tiny5-Regular.ttf")[0]
   end
   # No zap stanza required
 

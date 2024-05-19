@@ -3,7 +3,7 @@ class FontMajorMonoDisplay < Formula
   desc "Major Mono Display"
   homepage "https://fonts.google.com/specimen/Major+Mono+Display"
   def install
-    (share/"fonts").install "MajorMonoDisplay-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/MajorMonoDisplay-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,18 +3,18 @@ class FontGo < Formula
   desc "Go"
   homepage "https://go.googlesource.com/image/+/master/font/gofont/ttfs/README"
   def install
-    (share/"fonts").install "Go-Bold-Italic.ttf"
-    (share/"fonts").install "Go-Bold.ttf"
-    (share/"fonts").install "Go-Italic.ttf"
-    (share/"fonts").install "Go-Medium-Italic.ttf"
-    (share/"fonts").install "Go-Medium.ttf"
-    (share/"fonts").install "Go-Mono-Bold-Italic.ttf"
-    (share/"fonts").install "Go-Mono-Bold.ttf"
-    (share/"fonts").install "Go-Mono-Italic.ttf"
-    (share/"fonts").install "Go-Mono.ttf"
-    (share/"fonts").install "Go-Regular.ttf"
-    (share/"fonts").install "Go-Smallcaps-Italic.ttf"
-    (share/"fonts").install "Go-Smallcaps.ttf"
+    (share/"fonts").install Dir.glob("./**/Go-Bold-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Go-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Go-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Go-Medium-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Go-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Go-Mono-Bold-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Go-Mono-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Go-Mono-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Go-Mono.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Go-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Go-Smallcaps-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Go-Smallcaps.ttf")[0]
   end
   # No zap stanza required
 

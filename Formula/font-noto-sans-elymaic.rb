@@ -3,7 +3,7 @@ class FontNotoSansElymaic < Formula
   desc "Noto Sans Elymaic"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Elymaic"
   def install
-    (share/"fonts").install "NotoSansElymaic-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansElymaic-Regular.ttf")[0]
   end
   # No zap stanza required
 

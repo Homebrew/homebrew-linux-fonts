@@ -3,7 +3,7 @@ class FontIrishGrover < Formula
   desc "Irish Grover"
   homepage "https://fonts.google.com/specimen/Irish+Grover"
   def install
-    (share/"fonts").install "IrishGrover-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/IrishGrover-Regular.ttf")[0]
   end
   # No zap stanza required
 

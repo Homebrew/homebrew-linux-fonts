@@ -3,7 +3,7 @@ class FontKoulen < Formula
   desc "Koulen"
   homepage "https://fonts.google.com/specimen/Koulen"
   def install
-    (share/"fonts").install "Koulen-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Koulen-Regular.ttf")[0]
   end
   # No zap stanza required
 

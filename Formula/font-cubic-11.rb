@@ -7,8 +7,7 @@ class FontCubic11 < Formula
   desc "Open-source 11x11 Traditional Chinese bitmap font"
   homepage "https://github.com/ACh-K/Cubic-11"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}fonts/ttf/Cubic_11_#{version}_R.ttf"
+    (share/"fonts").install Dir.glob("fonts/ttf/**/Cubic_11_#{version}_R.ttf")[0]
   end
   # No zap stanza required
 

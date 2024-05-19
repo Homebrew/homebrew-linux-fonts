@@ -4,8 +4,8 @@ class FontMuseo < Formula
   desc "Museo"
   homepage "http://www.abstractfonts.com/font/14890"
   def install
-    (share/"fonts").install "Museo300-Regular.otf"
-    (share/"fonts").install "Museo700-Regular.otf"
+    (share/"fonts").install Dir.glob("./**/Museo300-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Museo700-Regular.otf")[0]
   end
   # No zap stanza required
 

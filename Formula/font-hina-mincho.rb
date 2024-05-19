@@ -3,7 +3,7 @@ class FontHinaMincho < Formula
   desc "Hina Mincho"
   homepage "https://fonts.google.com/specimen/Hina+Mincho"
   def install
-    (share/"fonts").install "HinaMincho-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/HinaMincho-Regular.ttf")[0]
   end
   # No zap stanza required
 

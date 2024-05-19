@@ -6,11 +6,10 @@ class FontHackgenNerd < Formula
   desc "Japanese programming font which is a composed of Hack and GenJyuu-Gothic"
   homepage "https://github.com/yuru7/HackGen"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}HackGen_NF_v#{version}/HackGen35ConsoleNF-Bold.ttf"
-    (share/"fonts").install "#{parent}HackGen_NF_v#{version}/HackGen35ConsoleNF-Regular.ttf"
-    (share/"fonts").install "#{parent}HackGen_NF_v#{version}/HackGenConsoleNF-Bold.ttf"
-    (share/"fonts").install "#{parent}HackGen_NF_v#{version}/HackGenConsoleNF-Regular.ttf"
+    (share/"fonts").install Dir.glob("HackGen_NF_v#{version}/**/HackGen35ConsoleNF-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("HackGen_NF_v#{version}/**/HackGen35ConsoleNF-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("HackGen_NF_v#{version}/**/HackGenConsoleNF-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("HackGen_NF_v#{version}/**/HackGenConsoleNF-Regular.ttf")[0]
   end
   # No zap stanza required
 

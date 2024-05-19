@@ -3,7 +3,7 @@ class FontPonnala < Formula
   desc "Ponnala"
   homepage "https://fonts.google.com/specimen/Ponnala"
   def install
-    (share/"fonts").install "Ponnala-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Ponnala-Regular.ttf")[0]
   end
   # No zap stanza required
 

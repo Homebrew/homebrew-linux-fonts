@@ -3,7 +3,7 @@ class FontSpirax < Formula
   desc "Spirax"
   homepage "https://fonts.google.com/specimen/Spirax"
   def install
-    (share/"fonts").install "Spirax-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Spirax-Regular.ttf")[0]
   end
   # No zap stanza required
 

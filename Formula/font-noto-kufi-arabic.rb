@@ -3,8 +3,8 @@ class FontNotoKufiArabic < Formula
   desc "Noto Kufi Arabic"
   homepage "https://www.google.com/get/noto/#kufi-arab"
   def install
-    (share/"fonts").install "NotoKufiArabic-Bold.ttf"
-    (share/"fonts").install "NotoKufiArabic-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoKufiArabic-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoKufiArabic-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontBalthazar < Formula
   desc "Balthazar"
   homepage "https://fonts.google.com/specimen/Balthazar"
   def install
-    (share/"fonts").install "Balthazar-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Balthazar-Regular.ttf")[0]
   end
   # No zap stanza required
 

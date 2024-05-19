@@ -3,25 +3,24 @@ class FontLato < Formula
   desc "Lato"
   homepage "https://www.latofonts.com/"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}Lato2OFL/Lato-Black.ttf"
-    (share/"fonts").install "#{parent}Lato2OFL/Lato-BlackItalic.ttf"
-    (share/"fonts").install "#{parent}Lato2OFL/Lato-Bold.ttf"
-    (share/"fonts").install "#{parent}Lato2OFL/Lato-BoldItalic.ttf"
-    (share/"fonts").install "#{parent}Lato2OFL/Lato-Hairline.ttf"
-    (share/"fonts").install "#{parent}Lato2OFL/Lato-HairlineItalic.ttf"
-    (share/"fonts").install "#{parent}Lato2OFL/Lato-Heavy.ttf"
-    (share/"fonts").install "#{parent}Lato2OFL/Lato-HeavyItalic.ttf"
-    (share/"fonts").install "#{parent}Lato2OFL/Lato-Italic.ttf"
-    (share/"fonts").install "#{parent}Lato2OFL/Lato-Light.ttf"
-    (share/"fonts").install "#{parent}Lato2OFL/Lato-LightItalic.ttf"
-    (share/"fonts").install "#{parent}Lato2OFL/Lato-Medium.ttf"
-    (share/"fonts").install "#{parent}Lato2OFL/Lato-MediumItalic.ttf"
-    (share/"fonts").install "#{parent}Lato2OFL/Lato-Regular.ttf"
-    (share/"fonts").install "#{parent}Lato2OFL/Lato-Semibold.ttf"
-    (share/"fonts").install "#{parent}Lato2OFL/Lato-SemiboldItalic.ttf"
-    (share/"fonts").install "#{parent}Lato2OFL/Lato-Thin.ttf"
-    (share/"fonts").install "#{parent}Lato2OFL/Lato-ThinItalic.ttf"
+    (share/"fonts").install Dir.glob("Lato2OFL/**/Lato-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("Lato2OFL/**/Lato-BlackItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("Lato2OFL/**/Lato-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("Lato2OFL/**/Lato-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("Lato2OFL/**/Lato-Hairline.ttf")[0]
+    (share/"fonts").install Dir.glob("Lato2OFL/**/Lato-HairlineItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("Lato2OFL/**/Lato-Heavy.ttf")[0]
+    (share/"fonts").install Dir.glob("Lato2OFL/**/Lato-HeavyItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("Lato2OFL/**/Lato-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("Lato2OFL/**/Lato-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("Lato2OFL/**/Lato-LightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("Lato2OFL/**/Lato-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("Lato2OFL/**/Lato-MediumItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("Lato2OFL/**/Lato-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("Lato2OFL/**/Lato-Semibold.ttf")[0]
+    (share/"fonts").install Dir.glob("Lato2OFL/**/Lato-SemiboldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("Lato2OFL/**/Lato-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("Lato2OFL/**/Lato-ThinItalic.ttf")[0]
   end
   # No zap stanza required
 

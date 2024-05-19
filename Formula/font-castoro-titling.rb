@@ -3,7 +3,7 @@ class FontCastoroTitling < Formula
   desc "Castoro Titling"
   homepage "https://fonts.google.com/specimen/Castoro+Titling"
   def install
-    (share/"fonts").install "CastoroTitling-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/CastoroTitling-Regular.ttf")[0]
   end
   # No zap stanza required
 

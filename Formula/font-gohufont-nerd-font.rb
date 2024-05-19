@@ -6,18 +6,18 @@ class FontGohufontNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "GohuFont11NerdFont-Regular.ttf"
-    (share/"fonts").install "GohuFont11NerdFontMono-Regular.ttf"
-    (share/"fonts").install "GohuFont11NerdFontPropo-Regular.ttf"
-    (share/"fonts").install "GohuFont14NerdFont-Regular.ttf"
-    (share/"fonts").install "GohuFont14NerdFontMono-Regular.ttf"
-    (share/"fonts").install "GohuFont14NerdFontPropo-Regular.ttf"
-    (share/"fonts").install "GohuFontuni11NerdFont-Regular.ttf"
-    (share/"fonts").install "GohuFontuni11NerdFontMono-Regular.ttf"
-    (share/"fonts").install "GohuFontuni11NerdFontPropo-Regular.ttf"
-    (share/"fonts").install "GohuFontuni14NerdFont-Regular.ttf"
-    (share/"fonts").install "GohuFontuni14NerdFontMono-Regular.ttf"
-    (share/"fonts").install "GohuFontuni14NerdFontPropo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/GohuFont11NerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GohuFont11NerdFontMono-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GohuFont11NerdFontPropo-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GohuFont14NerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GohuFont14NerdFontMono-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GohuFont14NerdFontPropo-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GohuFontuni11NerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GohuFontuni11NerdFontMono-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GohuFontuni11NerdFontPropo-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GohuFontuni14NerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GohuFontuni14NerdFontMono-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GohuFontuni14NerdFontPropo-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontLaBelleAurore < Formula
   desc "La Belle Aurore"
   homepage "https://fonts.google.com/specimen/La+Belle+Aurore"
   def install
-    (share/"fonts").install "LaBelleAurore.ttf"
+    (share/"fonts").install Dir.glob("./**/LaBelleAurore.ttf")[0]
   end
   # No zap stanza required
 

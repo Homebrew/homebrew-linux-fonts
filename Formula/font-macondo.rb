@@ -3,7 +3,7 @@ class FontMacondo < Formula
   desc "Macondo"
   homepage "https://fonts.google.com/specimen/Macondo"
   def install
-    (share/"fonts").install "Macondo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Macondo-Regular.ttf")[0]
   end
   # No zap stanza required
 

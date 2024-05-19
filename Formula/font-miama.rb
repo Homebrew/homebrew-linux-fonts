@@ -3,7 +3,7 @@ class FontMiama < Formula
   desc "Miama"
   homepage "https://fonts.google.com/specimen/Miama"
   def install
-    (share/"fonts").install "Miama-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Miama-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontHomemadeApple < Formula
   desc "Homemade Apple"
   homepage "https://fonts.google.com/specimen/Homemade+Apple"
   def install
-    (share/"fonts").install "HomemadeApple-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/HomemadeApple-Regular.ttf")[0]
   end
   # No zap stanza required
 

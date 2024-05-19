@@ -6,18 +6,18 @@ class FontDejavuSansMonoNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "DejaVuSansMono/" + "DejaVuSansMNerdFont-Bold.ttf"
-    (share/"fonts").install "DejaVuSansMono/" + "DejaVuSansMNerdFont-BoldOblique.ttf"
-    (share/"fonts").install "DejaVuSansMono/" + "DejaVuSansMNerdFont-Oblique.ttf"
-    (share/"fonts").install "DejaVuSansMono/" + "DejaVuSansMNerdFont-Regular.ttf"
-    (share/"fonts").install "DejaVuSansMono/" + "DejaVuSansMNerdFontMono-Bold.ttf"
-    (share/"fonts").install "DejaVuSansMono/" + "DejaVuSansMNerdFontMono-BoldOblique.ttf"
-    (share/"fonts").install "DejaVuSansMono/" + "DejaVuSansMNerdFontMono-Oblique.ttf"
-    (share/"fonts").install "DejaVuSansMono/" + "DejaVuSansMNerdFontMono-Regular.ttf"
-    (share/"fonts").install "DejaVuSansMono/" + "DejaVuSansMNerdFontPropo-Bold.ttf"
-    (share/"fonts").install "DejaVuSansMono/" + "DejaVuSansMNerdFontPropo-BoldOblique.ttf"
-    (share/"fonts").install "DejaVuSansMono/" + "DejaVuSansMNerdFontPropo-Oblique.ttf"
-    (share/"fonts").install "DejaVuSansMono/" + "DejaVuSansMNerdFontPropo-Regular.ttf"
+    (share/"fonts").install Dir.glob(""DejaVuSansMono/" + ./**/DejaVuSansMNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob(""DejaVuSansMono/" + ./**/DejaVuSansMNerdFont-BoldOblique.ttf")[0]
+    (share/"fonts").install Dir.glob(""DejaVuSansMono/" + ./**/DejaVuSansMNerdFont-Oblique.ttf")[0]
+    (share/"fonts").install Dir.glob(""DejaVuSansMono/" + ./**/DejaVuSansMNerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob(""DejaVuSansMono/" + ./**/DejaVuSansMNerdFontMono-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob(""DejaVuSansMono/" + ./**/DejaVuSansMNerdFontMono-BoldOblique.ttf")[0]
+    (share/"fonts").install Dir.glob(""DejaVuSansMono/" + ./**/DejaVuSansMNerdFontMono-Oblique.ttf")[0]
+    (share/"fonts").install Dir.glob(""DejaVuSansMono/" + ./**/DejaVuSansMNerdFontMono-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob(""DejaVuSansMono/" + ./**/DejaVuSansMNerdFontPropo-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob(""DejaVuSansMono/" + ./**/DejaVuSansMNerdFontPropo-BoldOblique.ttf")[0]
+    (share/"fonts").install Dir.glob(""DejaVuSansMono/" + ./**/DejaVuSansMNerdFontPropo-Oblique.ttf")[0]
+    (share/"fonts").install Dir.glob(""DejaVuSansMono/" + ./**/DejaVuSansMNerdFontPropo-Regular.ttf")[0]
   end
   # No zap stanza required
 

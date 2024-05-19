@@ -3,7 +3,7 @@ class FontShipporiAntique < Formula
   desc "Shippori Antique"
   homepage "https://fonts.google.com/specimen/Shippori+Antique"
   def install
-    (share/"fonts").install "ShipporiAntique-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/ShipporiAntique-Regular.ttf")[0]
   end
   # No zap stanza required
 

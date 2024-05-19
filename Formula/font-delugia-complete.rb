@@ -6,13 +6,12 @@ class FontDelugiaComplete < Formula
   desc "Cascadia Code + Nerd Fonts, minor difference between Caskaydia Cove Nerd Font"
   homepage "https://github.com/adam7/delugia-code"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}delugia-complete/DelugiaComplete-Bold.ttf"
-    (share/"fonts").install "#{parent}delugia-complete/DelugiaComplete-BoldItalic.ttf"
-    (share/"fonts").install "#{parent}delugia-complete/DelugiaComplete-Italic.ttf"
-    (share/"fonts").install "#{parent}delugia-complete/DelugiaComplete.ttf"
-    (share/"fonts").install "#{parent}delugia-complete/DelugiaCompleteLight-Italic.ttf"
-    (share/"fonts").install "#{parent}delugia-complete/DelugiaCompleteLight.ttf"
+    (share/"fonts").install Dir.glob("delugia-complete/**/DelugiaComplete-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("delugia-complete/**/DelugiaComplete-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("delugia-complete/**/DelugiaComplete-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("delugia-complete/**/DelugiaComplete.ttf")[0]
+    (share/"fonts").install Dir.glob("delugia-complete/**/DelugiaCompleteLight-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("delugia-complete/**/DelugiaCompleteLight.ttf")[0]
   end
   # No zap stanza required
 

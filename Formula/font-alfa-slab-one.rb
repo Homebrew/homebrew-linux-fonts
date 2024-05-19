@@ -3,7 +3,7 @@ class FontAlfaSlabOne < Formula
   desc "Alfa Slab One"
   homepage "https://fonts.google.com/specimen/Alfa+Slab+One"
   def install
-    (share/"fonts").install "AlfaSlabOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/AlfaSlabOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

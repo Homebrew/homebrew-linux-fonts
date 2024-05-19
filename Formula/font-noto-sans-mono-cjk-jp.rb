@@ -6,8 +6,8 @@ class FontNotoSansMonoCjkJp < Formula
   desc "Language Specific Monospace OTFs Japanese (日本語)"
   homepage "https://github.com/notofonts/noto-cjk/tree/main/Sans"
   def install
-    (share/"fonts").install "NotoSansMonoCJKjp-Bold.otf"
-    (share/"fonts").install "NotoSansMonoCJKjp-Regular.otf"
+    (share/"fonts").install Dir.glob("./**/NotoSansMonoCJKjp-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansMonoCJKjp-Regular.otf")[0]
   end
   # No zap stanza required
 

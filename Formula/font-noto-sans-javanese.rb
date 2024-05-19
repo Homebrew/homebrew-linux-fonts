@@ -3,7 +3,7 @@ class FontNotoSansJavanese < Formula
   desc "Noto Sans Javanese"
   homepage "https://www.google.com/get/noto/#sans-java"
   def install
-    (share/"fonts").install "NotoSansJavanese-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansJavanese-Regular.ttf")[0]
   end
   # No zap stanza required
 

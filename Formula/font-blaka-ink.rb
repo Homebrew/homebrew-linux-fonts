@@ -3,7 +3,7 @@ class FontBlakaInk < Formula
   desc "Blaka Ink"
   homepage "https://fonts.google.com/specimen/Blaka+Ink"
   def install
-    (share/"fonts").install "BlakaInk-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/BlakaInk-Regular.ttf")[0]
   end
   # No zap stanza required
 

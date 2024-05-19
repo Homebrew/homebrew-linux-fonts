@@ -3,7 +3,7 @@ class FontGreatVibes < Formula
   desc "Great Vibes"
   homepage "https://fonts.google.com/specimen/Great+Vibes"
   def install
-    (share/"fonts").install "GreatVibes-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/GreatVibes-Regular.ttf")[0]
   end
   # No zap stanza required
 

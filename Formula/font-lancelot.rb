@@ -3,7 +3,7 @@ class FontLancelot < Formula
   desc "Lancelot"
   homepage "https://fonts.google.com/specimen/Lancelot"
   def install
-    (share/"fonts").install "Lancelot-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Lancelot-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontDekko < Formula
   desc "Dekko"
   homepage "https://fonts.google.com/specimen/Dekko"
   def install
-    (share/"fonts").install "Dekko-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Dekko-Regular.ttf")[0]
   end
   # No zap stanza required
 

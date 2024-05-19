@@ -4,8 +4,7 @@ class FontAhuramzda < Formula
   desc "Ahuramzda"
   homepage "https://fontlibrary.org/font/ahuramazda/"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}Ahuramazda-Avestan-Font-1.0/ahuramazda.ttf"
+    (share/"fonts").install Dir.glob("Ahuramazda-Avestan-Font-1.0/**/ahuramazda.ttf")[0]
   end
   # No zap stanza required
 

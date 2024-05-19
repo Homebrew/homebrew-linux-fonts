@@ -7,13 +7,12 @@ class FontAmiri < Formula
   homepage "https://www.amirifont.org/"
   deprecate! date: "2023-12-17", because: :unsupported
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}Amiri-#{version}/Amiri-Bold.ttf"
-    (share/"fonts").install "#{parent}Amiri-#{version}/Amiri-BoldItalic.ttf"
-    (share/"fonts").install "#{parent}Amiri-#{version}/Amiri-Italic.ttf"
-    (share/"fonts").install "#{parent}Amiri-#{version}/Amiri-Regular.ttf"
-    (share/"fonts").install "#{parent}Amiri-#{version}/AmiriQuran.ttf"
-    (share/"fonts").install "#{parent}Amiri-#{version}/AmiriQuranColored.ttf"
+    (share/"fonts").install Dir.glob("Amiri-#{version}/**/Amiri-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("Amiri-#{version}/**/Amiri-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("Amiri-#{version}/**/Amiri-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("Amiri-#{version}/**/Amiri-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("Amiri-#{version}/**/AmiriQuran.ttf")[0]
+    (share/"fonts").install Dir.glob("Amiri-#{version}/**/AmiriQuranColored.ttf")[0]
   end
   # No zap stanza required
 

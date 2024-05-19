@@ -3,7 +3,7 @@ class FontNotoSansTagbanwa < Formula
   desc "Noto Sans Tagbanwa"
   homepage "https://www.google.com/get/noto/#sans-tagb"
   def install
-    (share/"fonts").install "NotoSansTagbanwa-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansTagbanwa-Regular.ttf")[0]
   end
   # No zap stanza required
 

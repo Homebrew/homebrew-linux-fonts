@@ -3,7 +3,7 @@ class FontAllerta < Formula
   desc "Allerta"
   homepage "https://fonts.google.com/specimen/Allerta"
   def install
-    (share/"fonts").install "Allerta-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Allerta-Regular.ttf")[0]
   end
   # No zap stanza required
 

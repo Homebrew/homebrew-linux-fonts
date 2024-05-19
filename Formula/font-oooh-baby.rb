@@ -3,7 +3,7 @@ class FontOoohBaby < Formula
   desc "Oooh Baby"
   homepage "https://fonts.google.com/specimen/Oooh+Baby"
   def install
-    (share/"fonts").install "OoohBaby-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/OoohBaby-Regular.ttf")[0]
   end
   # No zap stanza required
 

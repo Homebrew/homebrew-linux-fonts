@@ -3,7 +3,7 @@ class FontMallanna < Formula
   desc "Mallanna"
   homepage "https://fonts.google.com/specimen/Mallanna"
   def install
-    (share/"fonts").install "Mallanna-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Mallanna-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontRibeye < Formula
   desc "Ribeye"
   homepage "https://fonts.google.com/specimen/Ribeye"
   def install
-    (share/"fonts").install "Ribeye-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Ribeye-Regular.ttf")[0]
   end
   # No zap stanza required
 

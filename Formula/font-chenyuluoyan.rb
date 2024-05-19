@@ -7,7 +7,7 @@ class FontChenyuluoyan < Formula
   desc "Open-source traditional Chinese handwritten font"
   homepage "https://github.com/Chenyu-otf/chenyuluoyan_thin"
   def install
-    (share/"fonts").install "ChenYuluoyan-Thin-Monospaced.ttf"
+    (share/"fonts").install Dir.glob("./**/ChenYuluoyan-Thin-Monospaced.ttf")[0]
   end
   # No zap stanza required
 

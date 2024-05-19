@@ -5,14 +5,13 @@ class FontOcr < Formula
   desc "OCR"
   homepage "https://ansuz.sooke.bc.ca/page/fonts#ocra"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}ocr-#{version}/OCRA.otf"
-    (share/"fonts").install "#{parent}ocr-#{version}/OCRB.otf"
-    (share/"fonts").install "#{parent}ocr-#{version}/OCRBE.otf"
-    (share/"fonts").install "#{parent}ocr-#{version}/OCRBF.otf"
-    (share/"fonts").install "#{parent}ocr-#{version}/OCRBL.otf"
-    (share/"fonts").install "#{parent}ocr-#{version}/OCRBS.otf"
-    (share/"fonts").install "#{parent}ocr-#{version}/OCRBX.otf"
+    (share/"fonts").install Dir.glob("ocr-#{version}/**/OCRA.otf")[0]
+    (share/"fonts").install Dir.glob("ocr-#{version}/**/OCRB.otf")[0]
+    (share/"fonts").install Dir.glob("ocr-#{version}/**/OCRBE.otf")[0]
+    (share/"fonts").install Dir.glob("ocr-#{version}/**/OCRBF.otf")[0]
+    (share/"fonts").install Dir.glob("ocr-#{version}/**/OCRBL.otf")[0]
+    (share/"fonts").install Dir.glob("ocr-#{version}/**/OCRBS.otf")[0]
+    (share/"fonts").install Dir.glob("ocr-#{version}/**/OCRBX.otf")[0]
   end
   # No zap stanza required
 

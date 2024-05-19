@@ -3,7 +3,7 @@ class FontTelex < Formula
   desc "Telex"
   homepage "https://fonts.google.com/specimen/Telex"
   def install
-    (share/"fonts").install "Telex-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Telex-Regular.ttf")[0]
   end
   # No zap stanza required
 

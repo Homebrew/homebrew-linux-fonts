@@ -6,7 +6,7 @@ class FontMonocraft < Formula
   desc "Monospaced programming font inspired by the Minecraft typeface"
   homepage "https://github.com/IdreesInc/Monocraft"
   def install
-    (share/"fonts").install "Monocraft.ttf"
+    (share/"fonts").install Dir.glob("./**/Monocraft.ttf")[0]
   end
   # No zap stanza required
 

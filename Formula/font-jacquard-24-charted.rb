@@ -3,7 +3,7 @@ class FontJacquard24Charted < Formula
   desc "Jacquard 24 Charted"
   homepage "https://fonts.google.com/specimen/Jacquard+24+Charted"
   def install
-    (share/"fonts").install "Jacquard24Charted-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Jacquard24Charted-Regular.ttf")[0]
   end
   # No zap stanza required
 

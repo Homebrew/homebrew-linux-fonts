@@ -4,7 +4,7 @@ class FontTapestry < Formula
   desc "Roman calligraphic family with a slight rustic and country appearance"
   homepage "https://fonts.google.com/specimen/Tapestry"
   def install
-    (share/"fonts").install "Tapestry-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Tapestry-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -6,8 +6,8 @@ class FontNotoSansMonoCjkTc < Formula
   desc "Language Specific Monospace OTFs Traditional Chinese — Taiwan (繁體中文—臺灣)"
   homepage "https://github.com/notofonts/noto-cjk/tree/main/Sans"
   def install
-    (share/"fonts").install "NotoSansMonoCJKtc-Bold.otf"
-    (share/"fonts").install "NotoSansMonoCJKtc-Regular.otf"
+    (share/"fonts").install Dir.glob("./**/NotoSansMonoCJKtc-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansMonoCJKtc-Regular.otf")[0]
   end
   # No zap stanza required
 

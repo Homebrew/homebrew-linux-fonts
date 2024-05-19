@@ -6,9 +6,8 @@ class FontCascadiaCodePl < Formula
   desc "Version of Cascadia Code with embedded Powerline symbols"
   homepage "https://github.com/microsoft/cascadia-code"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}ttf/CascadiaCodePL.ttf"
-    (share/"fonts").install "#{parent}ttf/CascadiaCodePLItalic.ttf"
+    (share/"fonts").install Dir.glob("ttf/**/CascadiaCodePL.ttf")[0]
+    (share/"fonts").install Dir.glob("ttf/**/CascadiaCodePLItalic.ttf")[0]
   end
   # No zap stanza required
 

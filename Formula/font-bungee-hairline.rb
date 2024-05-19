@@ -3,7 +3,7 @@ class FontBungeeHairline < Formula
   desc "Bungee Hairline"
   homepage "https://fonts.google.com/specimen/Bungee+Hairline"
   def install
-    (share/"fonts").install "BungeeHairline-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/BungeeHairline-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontJuliusSansOne < Formula
   desc "Julius Sans One"
   homepage "https://fonts.google.com/specimen/Julius+Sans+One"
   def install
-    (share/"fonts").install "JuliusSansOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/JuliusSansOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontPlaster < Formula
   desc "Plaster"
   homepage "https://fonts.google.com/specimen/Plaster"
   def install
-    (share/"fonts").install "Plaster-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Plaster-Regular.ttf")[0]
   end
   # No zap stanza required
 

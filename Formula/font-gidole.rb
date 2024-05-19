@@ -3,9 +3,8 @@ class FontGidole < Formula
   desc "Gidole"
   homepage "https://gidole.github.io/"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}GidoleFont/Gidole-Regular.ttf"
-    (share/"fonts").install "#{parent}GidoleFont/Gidolinya-Regular.otf"
+    (share/"fonts").install Dir.glob("GidoleFont/**/Gidole-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("GidoleFont/**/Gidolinya-Regular.otf")[0]
   end
   # No zap stanza required
 

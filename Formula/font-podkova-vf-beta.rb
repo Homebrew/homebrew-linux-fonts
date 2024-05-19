@@ -3,7 +3,7 @@ class FontPodkovaVfBeta < Formula
   desc "Podkova VF Beta"
   homepage "https://fonts.google.com/earlyaccess"
   def install
-    (share/"fonts").install "PodkovaVFBeta.ttf"
+    (share/"fonts").install Dir.glob("./**/PodkovaVFBeta.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontPowerlineSymbols < Formula
   desc "Powerline Symbols"
   homepage "https://github.com/powerline/powerline"
   def install
-    (share/"fonts").install "PowerlineSymbols.otf"
+    (share/"fonts").install Dir.glob("./**/PowerlineSymbols.otf")[0]
   end
   # No zap stanza required
 

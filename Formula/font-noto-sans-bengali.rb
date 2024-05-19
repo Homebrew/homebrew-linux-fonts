@@ -3,24 +3,24 @@ class FontNotoSansBengali < Formula
   desc "Noto Sans Bengali"
   homepage "https://www.google.com/get/noto/#sans-beng"
   def install
-    (share/"fonts").install "NotoSansBengali-Black.ttf"
-    (share/"fonts").install "NotoSansBengali-Bold.ttf"
-    (share/"fonts").install "NotoSansBengali-ExtraBold.ttf"
-    (share/"fonts").install "NotoSansBengali-ExtraLight.ttf"
-    (share/"fonts").install "NotoSansBengali-Light.ttf"
-    (share/"fonts").install "NotoSansBengali-Medium.ttf"
-    (share/"fonts").install "NotoSansBengali-Regular.ttf"
-    (share/"fonts").install "NotoSansBengali-SemiBold.ttf"
-    (share/"fonts").install "NotoSansBengali-Thin.ttf"
-    (share/"fonts").install "NotoSansBengaliUI-Black.ttf"
-    (share/"fonts").install "NotoSansBengaliUI-Bold.ttf"
-    (share/"fonts").install "NotoSansBengaliUI-ExtraBold.ttf"
-    (share/"fonts").install "NotoSansBengaliUI-ExtraLight.ttf"
-    (share/"fonts").install "NotoSansBengaliUI-Light.ttf"
-    (share/"fonts").install "NotoSansBengaliUI-Medium.ttf"
-    (share/"fonts").install "NotoSansBengaliUI-Regular.ttf"
-    (share/"fonts").install "NotoSansBengaliUI-SemiBold.ttf"
-    (share/"fonts").install "NotoSansBengaliUI-Thin.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansBengali-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansBengali-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansBengali-ExtraBold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansBengali-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansBengali-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansBengali-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansBengali-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansBengali-SemiBold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansBengali-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansBengaliUI-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansBengaliUI-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansBengaliUI-ExtraBold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansBengaliUI-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansBengaliUI-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansBengaliUI-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansBengaliUI-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansBengaliUI-SemiBold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansBengaliUI-Thin.ttf")[0]
   end
   # No zap stanza required
 

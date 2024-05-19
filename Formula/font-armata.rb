@@ -3,7 +3,7 @@ class FontArmata < Formula
   desc "Armata"
   homepage "https://fonts.google.com/specimen/Armata"
   def install
-    (share/"fonts").install "Armata-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Armata-Regular.ttf")[0]
   end
   # No zap stanza required
 

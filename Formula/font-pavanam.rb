@@ -3,7 +3,7 @@ class FontPavanam < Formula
   desc "Pavanam"
   homepage "https://fonts.google.com/specimen/Pavanam"
   def install
-    (share/"fonts").install "Pavanam-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Pavanam-Regular.ttf")[0]
   end
   # No zap stanza required
 

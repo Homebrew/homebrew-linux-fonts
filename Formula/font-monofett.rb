@@ -3,7 +3,7 @@ class FontMonofett < Formula
   desc "Monofett"
   homepage "https://fonts.google.com/specimen/Monofett"
   def install
-    (share/"fonts").install "Monofett-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Monofett-Regular.ttf")[0]
   end
   # No zap stanza required
 

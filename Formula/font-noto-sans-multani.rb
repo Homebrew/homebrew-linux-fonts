@@ -3,7 +3,7 @@ class FontNotoSansMultani < Formula
   desc "Noto Sans Multani"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Multani"
   def install
-    (share/"fonts").install "NotoSansMultani-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansMultani-Regular.ttf")[0]
   end
   # No zap stanza required
 

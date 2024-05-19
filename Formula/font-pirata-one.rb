@@ -3,7 +3,7 @@ class FontPirataOne < Formula
   desc "Pirata One"
   homepage "https://fonts.google.com/specimen/Pirata+One"
   def install
-    (share/"fonts").install "PirataOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/PirataOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

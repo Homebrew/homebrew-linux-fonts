@@ -4,7 +4,7 @@ class FontDeliciousHandrawn < Formula
   desc "Font inspired by agung rohmat's handwriting"
   homepage "https://fonts.google.com/specimen/Delicious+Handrawn"
   def install
-    (share/"fonts").install "DeliciousHandrawn-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/DeliciousHandrawn-Regular.ttf")[0]
   end
   # No zap stanza required
 

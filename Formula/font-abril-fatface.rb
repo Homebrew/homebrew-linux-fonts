@@ -3,7 +3,7 @@ class FontAbrilFatface < Formula
   desc "Abril Fatface"
   homepage "https://fonts.google.com/specimen/Abril+Fatface"
   def install
-    (share/"fonts").install "AbrilFatface-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/AbrilFatface-Regular.ttf")[0]
   end
   # No zap stanza required
 

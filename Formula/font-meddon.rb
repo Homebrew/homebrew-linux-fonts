@@ -3,7 +3,7 @@ class FontMeddon < Formula
   desc "Meddon"
   homepage "https://fonts.google.com/specimen/Meddon"
   def install
-    (share/"fonts").install "Meddon.ttf"
+    (share/"fonts").install Dir.glob("./**/Meddon.ttf")[0]
   end
   # No zap stanza required
 

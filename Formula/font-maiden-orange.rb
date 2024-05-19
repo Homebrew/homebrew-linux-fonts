@@ -3,7 +3,7 @@ class FontMaidenOrange < Formula
   desc "Maiden Orange"
   homepage "https://fonts.google.com/specimen/Maiden+Orange"
   def install
-    (share/"fonts").install "MaidenOrange-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/MaidenOrange-Regular.ttf")[0]
   end
   # No zap stanza required
 

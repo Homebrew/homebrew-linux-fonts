@@ -4,7 +4,7 @@ class FontShalimar < Formula
   desc "Upright script inspired by the calligraphic strokes of a flat nib pen"
   homepage "https://fonts.google.com/specimen/Shalimar"
   def install
-    (share/"fonts").install "Shalimar-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Shalimar-Regular.ttf")[0]
   end
   # No zap stanza required
 

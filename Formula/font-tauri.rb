@@ -3,7 +3,7 @@ class FontTauri < Formula
   desc "Tauri"
   homepage "https://fonts.google.com/specimen/Tauri"
   def install
-    (share/"fonts").install "Tauri-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Tauri-Regular.ttf")[0]
   end
   # No zap stanza required
 

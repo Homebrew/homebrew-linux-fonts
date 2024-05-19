@@ -4,7 +4,7 @@ class FontLavishlyYours < Formula
   desc "Charming calligraphic script"
   homepage "https://fonts.google.com/specimen/Lavishly+Yours"
   def install
-    (share/"fonts").install "LavishlyYours-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/LavishlyYours-Regular.ttf")[0]
   end
   # No zap stanza required
 

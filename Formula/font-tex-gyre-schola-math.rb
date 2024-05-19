@@ -5,8 +5,7 @@ class FontTexGyreScholaMath < Formula
   desc "Schola Math"
   homepage "https://www.gust.org.pl/projects/e-foundry/tg-math"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}texgyreschola-math-1533/opentype/texgyreschola-math.otf"
+    (share/"fonts").install Dir.glob("texgyreschola-math-1533/opentype/**/texgyreschola-math.otf")[0]
   end
   # No zap stanza required
 

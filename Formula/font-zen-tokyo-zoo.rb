@@ -3,7 +3,7 @@ class FontZenTokyoZoo < Formula
   desc "Zen Tokyo Zoo"
   homepage "https://fonts.google.com/specimen/Zen+Tokyo+Zoo"
   def install
-    (share/"fonts").install "ZenTokyoZoo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/ZenTokyoZoo-Regular.ttf")[0]
   end
   # No zap stanza required
 

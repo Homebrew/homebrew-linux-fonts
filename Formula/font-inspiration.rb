@@ -3,7 +3,7 @@ class FontInspiration < Formula
   desc "Inspiration"
   homepage "https://fonts.google.com/specimen/Inspiration"
   def install
-    (share/"fonts").install "Inspiration-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Inspiration-Regular.ttf")[0]
   end
   # No zap stanza required
 

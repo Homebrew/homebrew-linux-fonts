@@ -3,7 +3,7 @@ class FontPassionsConflict < Formula
   desc "Passions Conflict"
   homepage "https://fonts.google.com/specimen/Passions+Conflict"
   def install
-    (share/"fonts").install "PassionsConflict-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/PassionsConflict-Regular.ttf")[0]
   end
   # No zap stanza required
 
