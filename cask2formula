@@ -169,14 +169,14 @@ class CaskConverter
       transform = CaskTransform.new(true)
       parser = CaskParser.new
       ignores = IO.readlines('.caskignore', chomp: true)
-      Dir.glob('./homebrew-cask-fonts/Casks/*.rb').select{|file|
+      Dir.glob('./homebrew-cask-fonts/Casks/font/*/*.rb').select{|file|
         ignores.all? { |ignore| !File.fnmatch(ignore, file) }
       }.each do |cask|
         p "< #{cask}"
         recipe = File.read(cask, encoding: 'UTF-8')
         recipe = parser.parse(recipe)
         recipe = transform.apply(recipe)
-        formula = cask.sub(%r{homebrew-cask-fonts/Casks}, 'Formula')
+        formula = cask.sub(%r{homebrew-cask-fonts/Casks/font/font-[0-9a-zA-Z]/}, 'Formula/')
         File.write(formula, recipe)
         p "> #{formula}"
       rescue Parslet::ParseFailed => failure

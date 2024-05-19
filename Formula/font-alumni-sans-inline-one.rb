@@ -1,0 +1,13 @@
+class FontAlumniSansInlineOne < Formula
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/alumnisansinlineone"
+  desc "Alumni Sans Inline One"
+  homepage "https://fonts.google.com/specimen/Alumni+Sans+Inline+One"
+  def install
+    (share/"fonts").install "ofl/alumnisansinlineone/" + "AlumniSansInlineOne-Italic.ttf"
+    (share/"fonts").install "ofl/alumnisansinlineone/" + "AlumniSansInlineOne-Regular.ttf"
+  end
+  # No zap stanza required
+
+  test do
+  end
+end

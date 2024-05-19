@@ -1,0 +1,13 @@
+class FontMerriweatherSans < Formula
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/merriweathersans"
+  desc "Merriweather Sans"
+  homepage "https://fonts.google.com/specimen/Merriweather+Sans"
+  def install
+    (share/"fonts").install "ofl/merriweathersans/" + "MerriweatherSans-Italic[wght].ttf"
+    (share/"fonts").install "ofl/merriweathersans/" + "MerriweatherSans[wght].ttf"
+  end
+  # No zap stanza required
+
+  test do
+  end
+end
