@@ -3,6 +3,9 @@ on:
   schedule:
     - cron: 0 0 * * *
   workflow_dispatch:
+  pull_request:
+    paths:
+      - .github/workflows/ruby.y*ml
 jobs:
   build:
     if: github.repository_owner == 'Homebrew' || !github.event.schedule
@@ -14,7 +17,7 @@ jobs:
     - name: Set up Ruby 3
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 3.2
+        ruby-version: 3.3
     - name: Configure git
       run: |
         git config user.email 'ta2gch@gmail.com'
@@ -28,8 +31,9 @@ jobs:
         bundle exec ruby cask2formula commit
     - name: Clean Formula directory
       run: |
-        comm -23 --nocheck-order <(ls -1 Formula) <(ls -1 homebrew-cask-fonts/Casks) | xargs -I{} sh -c 'git rm ./Formula/{} && git commit -m "Remove {}"'
+        comm -23 --nocheck-order <(ls -1 Formula) <(ls -1 homebrew-cask/Casks/font/) | xargs -I{} sh -c 'git rm ./Formula/{} && git commit -m "Remove {}"'
     - name: Publish to GitHub
+      if: github.event_name != 'pull_request'
       env:
         TOKEN: ${{ secrets.PUSH_TOKEN }}
       run: |
