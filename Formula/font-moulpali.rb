@@ -3,7 +3,7 @@ class FontMoulpali < Formula
   desc "Moulpali"
   homepage "https://fonts.google.com/specimen/Moulpali"
   def install
-    (share/"fonts").install "Moulpali-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Moulpali-Regular.ttf")[0]
   end
   # No zap stanza required
 

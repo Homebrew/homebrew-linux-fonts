@@ -3,7 +3,7 @@ class FontCarme < Formula
   desc "Carme"
   homepage "https://fonts.google.com/specimen/Carme"
   def install
-    (share/"fonts").install "Carme-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Carme-Regular.ttf")[0]
   end
   # No zap stanza required
 

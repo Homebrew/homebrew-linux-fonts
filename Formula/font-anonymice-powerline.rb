@@ -3,10 +3,10 @@ class FontAnonymicePowerline < Formula
   desc "Anonymice Powerline"
   homepage "https://github.com/powerline/fonts/tree/master/AnonymousPro"
   def install
-    (share/"fonts").install "AnonymousPro/" + "Anonymice Powerline Bold Italic.ttf"
-    (share/"fonts").install "AnonymousPro/" + "Anonymice Powerline Bold.ttf"
-    (share/"fonts").install "AnonymousPro/" + "Anonymice Powerline Italic.ttf"
-    (share/"fonts").install "AnonymousPro/" + "Anonymice Powerline.ttf"
+    (share/"fonts").install Dir.glob("AnonymousPro/./**/Anonymice Powerline Bold Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("AnonymousPro/./**/Anonymice Powerline Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("AnonymousPro/./**/Anonymice Powerline Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("AnonymousPro/./**/Anonymice Powerline.ttf")[0]
   end
   # No zap stanza required
 

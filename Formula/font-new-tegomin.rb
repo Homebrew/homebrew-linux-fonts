@@ -3,7 +3,7 @@ class FontNewTegomin < Formula
   desc "New Tegomin"
   homepage "https://fonts.google.com/specimen/New+Tegomin"
   def install
-    (share/"fonts").install "NewTegomin-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NewTegomin-Regular.ttf")[0]
   end
   # No zap stanza required
 

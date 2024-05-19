@@ -3,7 +3,7 @@ class FontOdibeeSans < Formula
   desc "Odibee Sans"
   homepage "https://fonts.google.com/specimen/Odibee+Sans"
   def install
-    (share/"fonts").install "OdibeeSans-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/OdibeeSans-Regular.ttf")[0]
   end
   # No zap stanza required
 

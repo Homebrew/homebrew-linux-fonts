@@ -3,7 +3,7 @@ class FontEagleLake < Formula
   desc "Eagle Lake"
   homepage "https://fonts.google.com/specimen/Eagle+Lake"
   def install
-    (share/"fonts").install "EagleLake-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/EagleLake-Regular.ttf")[0]
   end
   # No zap stanza required
 

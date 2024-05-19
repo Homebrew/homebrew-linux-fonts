@@ -3,7 +3,7 @@ class FontRubikMaps < Formula
   desc "Rubik Maps"
   homepage "https://fonts.google.com/specimen/Rubik+Maps"
   def install
-    (share/"fonts").install "RubikMaps-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/RubikMaps-Regular.ttf")[0]
   end
   # No zap stanza required
 

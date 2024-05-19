@@ -3,7 +3,7 @@ class FontMeeraInimai < Formula
   desc "Meera Inimai"
   homepage "https://fonts.google.com/specimen/Meera+Inimai"
   def install
-    (share/"fonts").install "MeeraInimai-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/MeeraInimai-Regular.ttf")[0]
   end
   # No zap stanza required
 

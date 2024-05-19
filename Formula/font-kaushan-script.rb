@@ -3,7 +3,7 @@ class FontKaushanScript < Formula
   desc "Kaushan Script"
   homepage "https://fonts.google.com/specimen/Kaushan+Script"
   def install
-    (share/"fonts").install "KaushanScript-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/KaushanScript-Regular.ttf")[0]
   end
   # No zap stanza required
 

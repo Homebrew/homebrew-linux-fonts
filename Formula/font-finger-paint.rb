@@ -3,7 +3,7 @@ class FontFingerPaint < Formula
   desc "Finger Paint"
   homepage "https://fonts.google.com/specimen/Finger+Paint"
   def install
-    (share/"fonts").install "FingerPaint-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/FingerPaint-Regular.ttf")[0]
   end
   # No zap stanza required
 

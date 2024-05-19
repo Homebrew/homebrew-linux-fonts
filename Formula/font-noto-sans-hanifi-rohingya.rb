@@ -3,7 +3,7 @@ class FontNotoSansHanifiRohingya < Formula
   desc "Noto Sans Hanifi Rohingya"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Hanifi+Rohingya"
   def install
-    (share/"fonts").install "NotoSansHanifiRohingya[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansHanifiRohingya\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

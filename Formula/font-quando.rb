@@ -3,7 +3,7 @@ class FontQuando < Formula
   desc "Quando"
   homepage "https://fonts.google.com/specimen/Quando"
   def install
-    (share/"fonts").install "Quando-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Quando-Regular.ttf")[0]
   end
   # No zap stanza required
 

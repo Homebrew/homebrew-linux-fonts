@@ -3,7 +3,7 @@ class FontBlackHanSans < Formula
   desc "Black Han Sans"
   homepage "https://fonts.google.com/specimen/Black+Han+Sans"
   def install
-    (share/"fonts").install "BlackHanSans-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/BlackHanSans-Regular.ttf")[0]
   end
   # No zap stanza required
 

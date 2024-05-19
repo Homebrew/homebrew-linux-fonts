@@ -3,8 +3,8 @@ class FontLora < Formula
   desc "Lora"
   homepage "https://fonts.google.com/specimen/Lora"
   def install
-    (share/"fonts").install "ofl/lora/" + "Lora-Italic[wght].ttf"
-    (share/"fonts").install "ofl/lora/" + "Lora[wght].ttf"
+    (share/"fonts").install Dir.glob("ofl/lora/./**/Lora-Italic\\[wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/lora/./**/Lora\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

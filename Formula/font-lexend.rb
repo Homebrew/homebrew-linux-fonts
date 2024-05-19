@@ -4,7 +4,7 @@ class FontLexend < Formula
   desc "Expanded by font bureau with a range of 8 weights"
   homepage "https://fonts.google.com/specimen/Lexend"
   def install
-    (share/"fonts").install "Lexend[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/Lexend\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

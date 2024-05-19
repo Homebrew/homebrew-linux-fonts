@@ -3,7 +3,7 @@ class FontNikukyu < Formula
   desc "Nikukyu"
   homepage "https://fonts.google.com/specimen/Nikukyu"
   def install
-    (share/"fonts").install "Nikukyu-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Nikukyu-Regular.ttf")[0]
   end
   # No zap stanza required
 

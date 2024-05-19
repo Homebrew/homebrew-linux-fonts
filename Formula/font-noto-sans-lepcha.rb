@@ -3,7 +3,7 @@ class FontNotoSansLepcha < Formula
   desc "Noto Sans Lepcha"
   homepage "https://www.google.com/get/noto/#sans-lepc"
   def install
-    (share/"fonts").install "NotoSansLepcha-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansLepcha-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontElMessiri < Formula
   desc "El Messiri"
   homepage "https://fonts.google.com/specimen/El+Messiri"
   def install
-    (share/"fonts").install "ElMessiri[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/ElMessiri\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

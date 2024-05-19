@@ -5,28 +5,27 @@ class FontVictorMono < Formula
   desc "Monospaced font with cursive italics and programming symbol ligatures"
   homepage "https://rubjo.github.io/victor-mono/"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}OTF/VictorMono-Thin.otf"
-    (share/"fonts").install "#{parent}OTF/VictorMono-ExtraLight.otf"
-    (share/"fonts").install "#{parent}OTF/VictorMono-Light.otf"
-    (share/"fonts").install "#{parent}OTF/VictorMono-Regular.otf"
-    (share/"fonts").install "#{parent}OTF/VictorMono-Medium.otf"
-    (share/"fonts").install "#{parent}OTF/VictorMono-SemiBold.otf"
-    (share/"fonts").install "#{parent}OTF/VictorMono-Bold.otf"
-    (share/"fonts").install "#{parent}OTF/VictorMono-ThinOblique.otf"
-    (share/"fonts").install "#{parent}OTF/VictorMono-ExtraLightOblique.otf"
-    (share/"fonts").install "#{parent}OTF/VictorMono-LightOblique.otf"
-    (share/"fonts").install "#{parent}OTF/VictorMono-Oblique.otf"
-    (share/"fonts").install "#{parent}OTF/VictorMono-MediumOblique.otf"
-    (share/"fonts").install "#{parent}OTF/VictorMono-SemiBoldOblique.otf"
-    (share/"fonts").install "#{parent}OTF/VictorMono-BoldOblique.otf"
-    (share/"fonts").install "#{parent}OTF/VictorMono-ThinItalic.otf"
-    (share/"fonts").install "#{parent}OTF/VictorMono-ExtraLightItalic.otf"
-    (share/"fonts").install "#{parent}OTF/VictorMono-LightItalic.otf"
-    (share/"fonts").install "#{parent}OTF/VictorMono-Italic.otf"
-    (share/"fonts").install "#{parent}OTF/VictorMono-MediumItalic.otf"
-    (share/"fonts").install "#{parent}OTF/VictorMono-SemiBoldItalic.otf"
-    (share/"fonts").install "#{parent}OTF/VictorMono-BoldItalic.otf"
+    (share/"fonts").install Dir.glob("OTF/**/VictorMono-Thin.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/**/VictorMono-ExtraLight.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/**/VictorMono-Light.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/**/VictorMono-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/**/VictorMono-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/**/VictorMono-SemiBold.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/**/VictorMono-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/**/VictorMono-ThinOblique.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/**/VictorMono-ExtraLightOblique.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/**/VictorMono-LightOblique.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/**/VictorMono-Oblique.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/**/VictorMono-MediumOblique.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/**/VictorMono-SemiBoldOblique.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/**/VictorMono-BoldOblique.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/**/VictorMono-ThinItalic.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/**/VictorMono-ExtraLightItalic.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/**/VictorMono-LightItalic.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/**/VictorMono-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/**/VictorMono-MediumItalic.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/**/VictorMono-SemiBoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/**/VictorMono-BoldItalic.otf")[0]
   end
   # No zap stanza required
 

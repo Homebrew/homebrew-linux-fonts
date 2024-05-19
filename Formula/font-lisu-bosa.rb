@@ -3,22 +3,22 @@ class FontLisuBosa < Formula
   desc "Lisu Bosa"
   homepage "https://fonts.google.com/specimen/Lisu+Bosa"
   def install
-    (share/"fonts").install "ofl/lisubosa/" + "LisuBosa-Black.ttf"
-    (share/"fonts").install "ofl/lisubosa/" + "LisuBosa-BlackItalic.ttf"
-    (share/"fonts").install "ofl/lisubosa/" + "LisuBosa-Bold.ttf"
-    (share/"fonts").install "ofl/lisubosa/" + "LisuBosa-BoldItalic.ttf"
-    (share/"fonts").install "ofl/lisubosa/" + "LisuBosa-ExtraBold.ttf"
-    (share/"fonts").install "ofl/lisubosa/" + "LisuBosa-ExtraBoldItalic.ttf"
-    (share/"fonts").install "ofl/lisubosa/" + "LisuBosa-ExtraLight.ttf"
-    (share/"fonts").install "ofl/lisubosa/" + "LisuBosa-ExtraLightItalic.ttf"
-    (share/"fonts").install "ofl/lisubosa/" + "LisuBosa-Italic.ttf"
-    (share/"fonts").install "ofl/lisubosa/" + "LisuBosa-Light.ttf"
-    (share/"fonts").install "ofl/lisubosa/" + "LisuBosa-LightItalic.ttf"
-    (share/"fonts").install "ofl/lisubosa/" + "LisuBosa-Medium.ttf"
-    (share/"fonts").install "ofl/lisubosa/" + "LisuBosa-MediumItalic.ttf"
-    (share/"fonts").install "ofl/lisubosa/" + "LisuBosa-Regular.ttf"
-    (share/"fonts").install "ofl/lisubosa/" + "LisuBosa-SemiBold.ttf"
-    (share/"fonts").install "ofl/lisubosa/" + "LisuBosa-SemiBoldItalic.ttf"
+    (share/"fonts").install Dir.glob("ofl/lisubosa/./**/LisuBosa-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/lisubosa/./**/LisuBosa-BlackItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/lisubosa/./**/LisuBosa-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/lisubosa/./**/LisuBosa-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/lisubosa/./**/LisuBosa-ExtraBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/lisubosa/./**/LisuBosa-ExtraBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/lisubosa/./**/LisuBosa-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/lisubosa/./**/LisuBosa-ExtraLightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/lisubosa/./**/LisuBosa-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/lisubosa/./**/LisuBosa-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/lisubosa/./**/LisuBosa-LightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/lisubosa/./**/LisuBosa-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/lisubosa/./**/LisuBosa-MediumItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/lisubosa/./**/LisuBosa-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/lisubosa/./**/LisuBosa-SemiBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/lisubosa/./**/LisuBosa-SemiBoldItalic.ttf")[0]
   end
   # No zap stanza required
 

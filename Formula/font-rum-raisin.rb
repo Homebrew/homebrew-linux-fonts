@@ -3,7 +3,7 @@ class FontRumRaisin < Formula
   desc "Rum Raisin"
   homepage "https://fonts.google.com/specimen/Rum+Raisin"
   def install
-    (share/"fonts").install "RumRaisin-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/RumRaisin-Regular.ttf")[0]
   end
   # No zap stanza required
 

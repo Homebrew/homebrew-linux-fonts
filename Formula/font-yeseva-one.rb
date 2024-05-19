@@ -3,7 +3,7 @@ class FontYesevaOne < Formula
   desc "Yeseva One"
   homepage "https://fonts.google.com/specimen/Yeseva+One"
   def install
-    (share/"fonts").install "YesevaOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/YesevaOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

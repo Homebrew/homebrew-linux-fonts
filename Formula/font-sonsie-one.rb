@@ -3,7 +3,7 @@ class FontSonsieOne < Formula
   desc "Sonsie One"
   homepage "https://fonts.google.com/specimen/Sonsie+One"
   def install
-    (share/"fonts").install "SonsieOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/SonsieOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

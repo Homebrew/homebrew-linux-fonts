@@ -3,7 +3,7 @@ class FontEuphoriaScript < Formula
   desc "Euphoria Script"
   homepage "https://fonts.google.com/specimen/Euphoria+Script"
   def install
-    (share/"fonts").install "EuphoriaScript-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/EuphoriaScript-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,12 +3,12 @@ class FontAveriaSansLibre < Formula
   desc "Averia Sans Libre"
   homepage "https://fonts.google.com/specimen/Averia+Sans+Libre"
   def install
-    (share/"fonts").install "ofl/averiasanslibre/" + "AveriaSansLibre-Bold.ttf"
-    (share/"fonts").install "ofl/averiasanslibre/" + "AveriaSansLibre-BoldItalic.ttf"
-    (share/"fonts").install "ofl/averiasanslibre/" + "AveriaSansLibre-Italic.ttf"
-    (share/"fonts").install "ofl/averiasanslibre/" + "AveriaSansLibre-Light.ttf"
-    (share/"fonts").install "ofl/averiasanslibre/" + "AveriaSansLibre-LightItalic.ttf"
-    (share/"fonts").install "ofl/averiasanslibre/" + "AveriaSansLibre-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/averiasanslibre/./**/AveriaSansLibre-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/averiasanslibre/./**/AveriaSansLibre-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/averiasanslibre/./**/AveriaSansLibre-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/averiasanslibre/./**/AveriaSansLibre-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/averiasanslibre/./**/AveriaSansLibre-LightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/averiasanslibre/./**/AveriaSansLibre-Regular.ttf")[0]
   end
   # No zap stanza required
 

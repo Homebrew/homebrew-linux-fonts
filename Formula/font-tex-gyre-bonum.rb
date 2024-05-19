@@ -5,10 +5,10 @@ class FontTexGyreBonum < Formula
   desc "TeX Gyre Bonum"
   homepage "https://www.gust.org.pl/projects/e-foundry/tex-gyre/bonum"
   def install
-    (share/"fonts").install "texgyrebonum-bold.otf"
-    (share/"fonts").install "texgyrebonum-bolditalic.otf"
-    (share/"fonts").install "texgyrebonum-italic.otf"
-    (share/"fonts").install "texgyrebonum-regular.otf"
+    (share/"fonts").install Dir.glob("./**/texgyrebonum-bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/texgyrebonum-bolditalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/texgyrebonum-italic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/texgyrebonum-regular.otf")[0]
   end
   # No zap stanza required
 

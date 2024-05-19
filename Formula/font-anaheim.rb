@@ -3,7 +3,8 @@ class FontAnaheim < Formula
   desc "Anaheim"
   homepage "https://fonts.google.com/specimen/Anaheim"
   def install
-    (share/"fonts").install "Anaheim[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/Anaheim\\[wght\\].ttf")[0]
+
   end
   # No zap stanza required
 

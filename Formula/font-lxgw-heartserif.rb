@@ -7,7 +7,7 @@ class FontLxgwHeartserif < Formula
   desc "Chinese serif font derived from IPAmj Mincho"
   homepage "https://github.com/lxgw/LxgwNeoZhiSong"
   def install
-    (share/"fonts").install "LXGWHeartSerif.ttf"
+    (share/"fonts").install Dir.glob("./**/LXGWHeartSerif.ttf")[0]
   end
   # No zap stanza required
 

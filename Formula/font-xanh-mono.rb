@@ -4,8 +4,8 @@ class FontXanhMono < Formula
   desc "Mono-serif typeface, designed by lam bao and duy dao"
   homepage "https://fonts.google.com/specimen/Xanh+Mono"
   def install
-    (share/"fonts").install "ofl/xanhmono/" + "XanhMono-Italic.ttf"
-    (share/"fonts").install "ofl/xanhmono/" + "XanhMono-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/xanhmono/./**/XanhMono-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/xanhmono/./**/XanhMono-Regular.ttf")[0]
   end
   # No zap stanza required
 

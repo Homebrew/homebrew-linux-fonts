@@ -3,8 +3,8 @@ class FontOflSortsMillGoudyTt < Formula
   desc "OFL Sorts Mill Goudy TT"
   homepage "https://fonts.google.com/specimen/Sorts+Mill+Goudy"
   def install
-    (share/"fonts").install "ofl/oflsortsmillgoudytt/" + "OFLGoudyStMTT-Italic.ttf"
-    (share/"fonts").install "ofl/oflsortsmillgoudytt/" + "OFLGoudyStMTT.ttf"
+    (share/"fonts").install Dir.glob("ofl/oflsortsmillgoudytt/./**/OFLGoudyStMTT-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/oflsortsmillgoudytt/./**/OFLGoudyStMTT.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontPeralta < Formula
   desc "Peralta"
   homepage "https://fonts.google.com/specimen/Peralta"
   def install
-    (share/"fonts").install "Peralta-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Peralta-Regular.ttf")[0]
   end
   # No zap stanza required
 

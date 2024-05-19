@@ -3,7 +3,7 @@ class FontOldenburg < Formula
   desc "Oldenburg"
   homepage "https://fonts.google.com/specimen/Oldenburg"
   def install
-    (share/"fonts").install "Oldenburg-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Oldenburg-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -4,7 +4,7 @@ class FontGloock < Formula
   desc "Smooth relationship between the thin and thick strokes"
   homepage "https://fonts.google.com/specimen/Gloock"
   def install
-    (share/"fonts").install "Gloock-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Gloock-Regular.ttf")[0]
   end
   # No zap stanza required
 

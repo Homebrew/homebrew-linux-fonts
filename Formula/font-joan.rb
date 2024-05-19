@@ -4,7 +4,7 @@ class FontJoan < Formula
   desc "Under development"
   homepage "https://fonts.google.com/specimen/Joan"
   def install
-    (share/"fonts").install "Joan-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Joan-Regular.ttf")[0]
   end
   # No zap stanza required
 

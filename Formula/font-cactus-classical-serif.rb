@@ -3,7 +3,7 @@ class FontCactusClassicalSerif < Formula
   desc "Cactus Classical Serif"
   homepage "https://github.com/aaronbell/CactusSerif"
   def install
-    (share/"fonts").install "CactusClassicalSerif-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/CactusClassicalSerif-Regular.ttf")[0]
   end
   # No zap stanza required
 

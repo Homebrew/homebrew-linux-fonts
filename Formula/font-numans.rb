@@ -3,7 +3,7 @@ class FontNumans < Formula
   desc "Numans"
   homepage "https://fonts.google.com/specimen/Numans"
   def install
-    (share/"fonts").install "Numans-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Numans-Regular.ttf")[0]
   end
   # No zap stanza required
 

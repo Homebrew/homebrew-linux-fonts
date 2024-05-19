@@ -3,7 +3,7 @@ class FontPrata < Formula
   desc "Prata"
   homepage "https://fonts.google.com/specimen/Prata"
   def install
-    (share/"fonts").install "Prata-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Prata-Regular.ttf")[0]
   end
   # No zap stanza required
 

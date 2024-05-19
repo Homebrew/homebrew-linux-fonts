@@ -5,10 +5,10 @@ class FontTexGyreSchola < Formula
   desc "TeX Gyre Schola"
   homepage "https://www.gust.org.pl/projects/e-foundry/tex-gyre/schola"
   def install
-    (share/"fonts").install "texgyreschola-bold.otf"
-    (share/"fonts").install "texgyreschola-bolditalic.otf"
-    (share/"fonts").install "texgyreschola-italic.otf"
-    (share/"fonts").install "texgyreschola-regular.otf"
+    (share/"fonts").install Dir.glob("./**/texgyreschola-bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/texgyreschola-bolditalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/texgyreschola-italic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/texgyreschola-regular.otf")[0]
   end
   # No zap stanza required
 

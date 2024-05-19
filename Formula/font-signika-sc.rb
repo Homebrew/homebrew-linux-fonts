@@ -4,7 +4,7 @@ class FontSignikaSc < Formula
   desc "Small-caps version of the Signika font"
   homepage "https://fonts.google.com/specimen/Signika+SC"
   def install
-    (share/"fonts").install "SignikaSC[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/SignikaSC\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

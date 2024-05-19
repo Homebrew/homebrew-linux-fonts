@@ -4,7 +4,7 @@ class FontFreeman < Formula
   desc "Re-interpretation of the traditional display sans serif gothic typeface"
   homepage "https://fonts.google.com/specimen/Freeman"
   def install
-    (share/"fonts").install "Freeman-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Freeman-Regular.ttf")[0]
   end
   # No zap stanza required
 

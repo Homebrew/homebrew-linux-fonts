@@ -3,7 +3,7 @@ class FontZenAntiqueSoft < Formula
   desc "Zen Antique Soft"
   homepage "https://fonts.google.com/specimen/Zen+Antique+Soft"
   def install
-    (share/"fonts").install "ZenAntiqueSoft-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/ZenAntiqueSoft-Regular.ttf")[0]
   end
   # No zap stanza required
 

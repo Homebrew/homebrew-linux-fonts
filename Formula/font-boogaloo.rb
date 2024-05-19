@@ -3,7 +3,7 @@ class FontBoogaloo < Formula
   desc "Boogaloo"
   homepage "https://fonts.google.com/specimen/Boogaloo"
   def install
-    (share/"fonts").install "Boogaloo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Boogaloo-Regular.ttf")[0]
   end
   # No zap stanza required
 

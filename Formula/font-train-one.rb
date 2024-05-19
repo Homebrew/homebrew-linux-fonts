@@ -3,7 +3,7 @@ class FontTrainOne < Formula
   desc "Train One"
   homepage "https://fonts.google.com/specimen/Train+One"
   def install
-    (share/"fonts").install "TrainOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/TrainOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

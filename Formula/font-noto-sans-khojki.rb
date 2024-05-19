@@ -3,7 +3,7 @@ class FontNotoSansKhojki < Formula
   desc "Noto Sans Khojki"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Khojki"
   def install
-    (share/"fonts").install "NotoSansKhojki-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansKhojki-Regular.ttf")[0]
   end
   # No zap stanza required
 

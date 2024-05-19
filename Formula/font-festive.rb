@@ -3,7 +3,7 @@ class FontFestive < Formula
   desc "Festive"
   homepage "https://fonts.google.com/specimen/Festive"
   def install
-    (share/"fonts").install "Festive-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Festive-Regular.ttf")[0]
   end
   # No zap stanza required
 

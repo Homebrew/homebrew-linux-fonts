@@ -3,7 +3,7 @@ class FontNotoSansBalinese < Formula
   desc "Noto Sans Balinese"
   homepage "https://www.google.com/get/noto/#sans-bali"
   def install
-    (share/"fonts").install "NotoSansBalinese-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansBalinese-Regular.ttf")[0]
   end
   # No zap stanza required
 

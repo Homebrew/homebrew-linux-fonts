@@ -5,19 +5,18 @@ class FontLiberation < Formula
   desc "Liberation"
   homepage "https://github.com/liberationfonts/liberation-fonts"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}liberation-fonts-ttf-#{version.to_s.sub(/,.*/, "")}/LiberationMono-Bold.ttf"
-    (share/"fonts").install "#{parent}liberation-fonts-ttf-#{version.to_s.sub(/,.*/, "")}/LiberationMono-BoldItalic.ttf"
-    (share/"fonts").install "#{parent}liberation-fonts-ttf-#{version.to_s.sub(/,.*/, "")}/LiberationMono-Italic.ttf"
-    (share/"fonts").install "#{parent}liberation-fonts-ttf-#{version.to_s.sub(/,.*/, "")}/LiberationMono-Regular.ttf"
-    (share/"fonts").install "#{parent}liberation-fonts-ttf-#{version.to_s.sub(/,.*/, "")}/LiberationSans-Bold.ttf"
-    (share/"fonts").install "#{parent}liberation-fonts-ttf-#{version.to_s.sub(/,.*/, "")}/LiberationSans-BoldItalic.ttf"
-    (share/"fonts").install "#{parent}liberation-fonts-ttf-#{version.to_s.sub(/,.*/, "")}/LiberationSans-Italic.ttf"
-    (share/"fonts").install "#{parent}liberation-fonts-ttf-#{version.to_s.sub(/,.*/, "")}/LiberationSans-Regular.ttf"
-    (share/"fonts").install "#{parent}liberation-fonts-ttf-#{version.to_s.sub(/,.*/, "")}/LiberationSerif-Bold.ttf"
-    (share/"fonts").install "#{parent}liberation-fonts-ttf-#{version.to_s.sub(/,.*/, "")}/LiberationSerif-BoldItalic.ttf"
-    (share/"fonts").install "#{parent}liberation-fonts-ttf-#{version.to_s.sub(/,.*/, "")}/LiberationSerif-Italic.ttf"
-    (share/"fonts").install "#{parent}liberation-fonts-ttf-#{version.to_s.sub(/,.*/, "")}/LiberationSerif-Regular.ttf"
+    (share/"fonts").install Dir.glob("liberation-fonts-ttf-#{version.to_s.sub(/,.*/, "")}/**/LiberationMono-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("liberation-fonts-ttf-#{version.to_s.sub(/,.*/, "")}/**/LiberationMono-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("liberation-fonts-ttf-#{version.to_s.sub(/,.*/, "")}/**/LiberationMono-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("liberation-fonts-ttf-#{version.to_s.sub(/,.*/, "")}/**/LiberationMono-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("liberation-fonts-ttf-#{version.to_s.sub(/,.*/, "")}/**/LiberationSans-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("liberation-fonts-ttf-#{version.to_s.sub(/,.*/, "")}/**/LiberationSans-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("liberation-fonts-ttf-#{version.to_s.sub(/,.*/, "")}/**/LiberationSans-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("liberation-fonts-ttf-#{version.to_s.sub(/,.*/, "")}/**/LiberationSans-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("liberation-fonts-ttf-#{version.to_s.sub(/,.*/, "")}/**/LiberationSerif-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("liberation-fonts-ttf-#{version.to_s.sub(/,.*/, "")}/**/LiberationSerif-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("liberation-fonts-ttf-#{version.to_s.sub(/,.*/, "")}/**/LiberationSerif-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("liberation-fonts-ttf-#{version.to_s.sub(/,.*/, "")}/**/LiberationSerif-Regular.ttf")[0]
   end
   # No zap stanza required
 

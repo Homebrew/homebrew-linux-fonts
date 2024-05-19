@@ -5,11 +5,11 @@ class FontJunicode < Formula
   desc "Junicode"
   homepage "https://junicode.sourceforge.io/"
   def install
-    (share/"fonts").install "FoulisGreek.ttf"
-    (share/"fonts").install "Junicode-Bold.ttf"
-    (share/"fonts").install "Junicode-BoldItalic.ttf"
-    (share/"fonts").install "Junicode-Italic.ttf"
-    (share/"fonts").install "Junicode.ttf"
+    (share/"fonts").install Dir.glob("./**/FoulisGreek.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Junicode-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Junicode-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Junicode-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Junicode.ttf")[0]
   end
   # No zap stanza required
 

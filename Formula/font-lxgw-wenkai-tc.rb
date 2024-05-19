@@ -7,13 +7,12 @@ class FontLxgwWenkaiTc < Formula
   desc "Open-source traditional Chinese font derived from Fontworks' Klee One"
   homepage "https://github.com/lxgw/LxgwWenkaiTC"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}lxgw-wenkai-tc-v#{version}/LXGWWenKaiMonoTC-Bold.ttf"
-    (share/"fonts").install "#{parent}lxgw-wenkai-tc-v#{version}/LXGWWenKaiMonoTC-Light.ttf"
-    (share/"fonts").install "#{parent}lxgw-wenkai-tc-v#{version}/LXGWWenKaiMonoTC-Regular.ttf"
-    (share/"fonts").install "#{parent}lxgw-wenkai-tc-v#{version}/LXGWWenKaiTC-Bold.ttf"
-    (share/"fonts").install "#{parent}lxgw-wenkai-tc-v#{version}/LXGWWenKaiTC-Light.ttf"
-    (share/"fonts").install "#{parent}lxgw-wenkai-tc-v#{version}/LXGWWenKaiTC-Regular.ttf"
+    (share/"fonts").install Dir.glob("lxgw-wenkai-tc-v#{version}/**/LXGWWenKaiMonoTC-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("lxgw-wenkai-tc-v#{version}/**/LXGWWenKaiMonoTC-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("lxgw-wenkai-tc-v#{version}/**/LXGWWenKaiMonoTC-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("lxgw-wenkai-tc-v#{version}/**/LXGWWenKaiTC-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("lxgw-wenkai-tc-v#{version}/**/LXGWWenKaiTC-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("lxgw-wenkai-tc-v#{version}/**/LXGWWenKaiTC-Regular.ttf")[0]
   end
   # No zap stanza required
 

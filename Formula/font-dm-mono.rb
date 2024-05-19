@@ -3,12 +3,12 @@ class FontDmMono < Formula
   desc "DM Mono"
   homepage "https://fonts.google.com/specimen/DM+Mono"
   def install
-    (share/"fonts").install "ofl/dmmono/" + "DMMono-Italic.ttf"
-    (share/"fonts").install "ofl/dmmono/" + "DMMono-Light.ttf"
-    (share/"fonts").install "ofl/dmmono/" + "DMMono-LightItalic.ttf"
-    (share/"fonts").install "ofl/dmmono/" + "DMMono-Medium.ttf"
-    (share/"fonts").install "ofl/dmmono/" + "DMMono-MediumItalic.ttf"
-    (share/"fonts").install "ofl/dmmono/" + "DMMono-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/dmmono/./**/DMMono-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/dmmono/./**/DMMono-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/dmmono/./**/DMMono-LightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/dmmono/./**/DMMono-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/dmmono/./**/DMMono-MediumItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/dmmono/./**/DMMono-Regular.ttf")[0]
   end
   # No zap stanza required
 

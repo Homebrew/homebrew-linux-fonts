@@ -4,7 +4,7 @@ class FontFuggles < Formula
   desc "Powerful script that can be used for sophisticated commercial design"
   homepage "https://fonts.google.com/specimen/Fuggles"
   def install
-    (share/"fonts").install "Fuggles-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Fuggles-Regular.ttf")[0]
   end
   # No zap stanza required
 

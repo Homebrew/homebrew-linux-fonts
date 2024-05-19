@@ -6,13 +6,12 @@ class FontLxgwBrightTc < Formula
   desc "Merged font of Ysabeau Office and LXGW WenKai TC"
   homepage "https://github.com/lxgw/LxgwBright"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}LXGWBrightTC/LXGWBrightTC-Medium.ttf"
-    (share/"fonts").install "#{parent}LXGWBrightTC/LXGWBrightTC-MediumItalic.ttf"
-    (share/"fonts").install "#{parent}LXGWBrightTC/LXGWBrightTC-Regular.ttf"
-    (share/"fonts").install "#{parent}LXGWBrightTC/LXGWBrightTC-Italic.ttf"
-    (share/"fonts").install "#{parent}LXGWBrightTC/LXGWBrightTC-SemiLight.ttf"
-    (share/"fonts").install "#{parent}LXGWBrightTC/LXGWBrightTC-SemiLightItalic.ttf"
+    (share/"fonts").install Dir.glob("LXGWBrightTC/**/LXGWBrightTC-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("LXGWBrightTC/**/LXGWBrightTC-MediumItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("LXGWBrightTC/**/LXGWBrightTC-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("LXGWBrightTC/**/LXGWBrightTC-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("LXGWBrightTC/**/LXGWBrightTC-SemiLight.ttf")[0]
+    (share/"fonts").install Dir.glob("LXGWBrightTC/**/LXGWBrightTC-SemiLightItalic.ttf")[0]
   end
   # No zap stanza required
 

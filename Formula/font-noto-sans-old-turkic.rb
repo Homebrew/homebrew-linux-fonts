@@ -3,7 +3,7 @@ class FontNotoSansOldTurkic < Formula
   desc "Noto Sans Old Turkic"
   homepage "https://www.google.com/get/noto/#sans-orkh"
   def install
-    (share/"fonts").install "NotoSansOldTurkic-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansOldTurkic-Regular.ttf")[0]
   end
   # No zap stanza required
 

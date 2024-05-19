@@ -3,7 +3,7 @@ class FontDaysOne < Formula
   desc "Days One"
   homepage "https://fonts.google.com/specimen/Days+One"
   def install
-    (share/"fonts").install "DaysOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/DaysOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

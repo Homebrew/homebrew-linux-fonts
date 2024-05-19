@@ -7,14 +7,13 @@ class FontZhudouSans < Formula
   desc "CJK symbols and punctuation derived from Noto Sans"
   homepage "https://github.com/Buernia/Zhudou-Sans"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}otf/ZhudouSans-Bold.otf"
-    (share/"fonts").install "#{parent}otf/ZhudouSans-ExtraLight.otf"
-    (share/"fonts").install "#{parent}otf/ZhudouSans-Heavy.otf"
-    (share/"fonts").install "#{parent}otf/ZhudouSans-Light.otf"
-    (share/"fonts").install "#{parent}otf/ZhudouSans-Medium.otf"
-    (share/"fonts").install "#{parent}otf/ZhudouSans-Normal.otf"
-    (share/"fonts").install "#{parent}otf/ZhudouSans-Regular.otf"
+    (share/"fonts").install Dir.glob("otf/**/ZhudouSans-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("otf/**/ZhudouSans-ExtraLight.otf")[0]
+    (share/"fonts").install Dir.glob("otf/**/ZhudouSans-Heavy.otf")[0]
+    (share/"fonts").install Dir.glob("otf/**/ZhudouSans-Light.otf")[0]
+    (share/"fonts").install Dir.glob("otf/**/ZhudouSans-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("otf/**/ZhudouSans-Normal.otf")[0]
+    (share/"fonts").install Dir.glob("otf/**/ZhudouSans-Regular.otf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontHurricane < Formula
   desc "Hurricane"
   homepage "https://fonts.google.com/specimen/Hurricane"
   def install
-    (share/"fonts").install "Hurricane-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Hurricane-Regular.ttf")[0]
   end
   # No zap stanza required
 

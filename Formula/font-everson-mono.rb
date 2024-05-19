@@ -4,11 +4,10 @@ class FontEversonMono < Formula
   desc "Everson Mono"
   homepage "https://www.evertype.com/emono/"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}evermono-#{version}/Everson Mono.ttf"
-    (share/"fonts").install "#{parent}evermono-#{version}/Everson Mono Bold.ttf"
-    (share/"fonts").install "#{parent}evermono-#{version}/Everson Mono Bold Oblique.ttf"
-    (share/"fonts").install "#{parent}evermono-#{version}/Everson Mono Oblique.ttf"
+    (share/"fonts").install Dir.glob("evermono-#{version}/**/Everson Mono.ttf")[0]
+    (share/"fonts").install Dir.glob("evermono-#{version}/**/Everson Mono Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("evermono-#{version}/**/Everson Mono Bold Oblique.ttf")[0]
+    (share/"fonts").install Dir.glob("evermono-#{version}/**/Everson Mono Oblique.ttf")[0]
   end
   # No zap stanza required
 

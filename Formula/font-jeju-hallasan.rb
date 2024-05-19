@@ -3,7 +3,7 @@ class FontJejuHallasan < Formula
   desc "Jeju Hallasan"
   homepage "https://fonts.google.com/earlyaccess"
   def install
-    (share/"fonts").install "JejuHallasan-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/JejuHallasan-Regular.ttf")[0]
   end
   # No zap stanza required
 

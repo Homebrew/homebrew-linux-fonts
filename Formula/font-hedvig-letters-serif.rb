@@ -4,7 +4,7 @@ class FontHedvigLettersSerif < Formula
   desc "Perfect when it’s not"
   homepage "https://fonts.google.com/specimen/Hedvig+Letters+Serif"
   def install
-    (share/"fonts").install "HedvigLettersSerif[opsz].ttf"
+    (share/"fonts").install Dir.glob("./**/HedvigLettersSerif\\[opsz\\].ttf")[0]
   end
   # No zap stanza required
 

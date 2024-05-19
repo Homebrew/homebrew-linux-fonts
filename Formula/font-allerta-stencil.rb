@@ -3,7 +3,7 @@ class FontAllertaStencil < Formula
   desc "Allerta Stencil"
   homepage "https://fonts.google.com/specimen/Allerta+Stencil"
   def install
-    (share/"fonts").install "AllertaStencil-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/AllertaStencil-Regular.ttf")[0]
   end
   # No zap stanza required
 

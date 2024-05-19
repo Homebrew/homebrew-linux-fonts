@@ -3,7 +3,7 @@ class FontRedressed < Formula
   desc "Redressed"
   homepage "https://fonts.google.com/specimen/Redressed"
   def install
-    (share/"fonts").install "Redressed-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Redressed-Regular.ttf")[0]
   end
   # No zap stanza required
 

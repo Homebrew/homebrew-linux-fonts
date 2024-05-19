@@ -4,7 +4,7 @@ class FontZenKurenaido < Formula
   desc "Japanese font with a handwritten feeling"
   homepage "https://fonts.google.com/specimen/Zen+Kurenaido"
   def install
-    (share/"fonts").install "ZenKurenaido-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/ZenKurenaido-Regular.ttf")[0]
   end
   # No zap stanza required
 

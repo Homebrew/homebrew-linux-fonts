@@ -4,7 +4,7 @@ class FontLangar < Formula
   desc "One-weight latin/gurmukhi display font based on informal, playful letterforms"
   homepage "https://fonts.google.com/specimen/Langar"
   def install
-    (share/"fonts").install "Langar-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Langar-Regular.ttf")[0]
   end
   # No zap stanza required
 

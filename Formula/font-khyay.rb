@@ -3,7 +3,7 @@ class FontKhyay < Formula
   desc "Khyay"
   homepage "https://fonts.google.com/earlyaccess"
   def install
-    (share/"fonts").install "Khyay-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Khyay-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontLilitaOne < Formula
   desc "Lilita One"
   homepage "https://fonts.google.com/specimen/Lilita+One"
   def install
-    (share/"fonts").install "LilitaOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/LilitaOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

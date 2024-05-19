@@ -3,7 +3,7 @@ class FontZhiMangXing < Formula
   desc "Zhi Mang Xing"
   homepage "https://fonts.google.com/specimen/Zhi+Mang+Xing"
   def install
-    (share/"fonts").install "ZhiMangXing-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/ZhiMangXing-Regular.ttf")[0]
   end
   # No zap stanza required
 

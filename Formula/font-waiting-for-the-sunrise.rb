@@ -3,7 +3,7 @@ class FontWaitingForTheSunrise < Formula
   desc "Waiting for the Sunrise"
   homepage "https://fonts.google.com/specimen/Waiting+for+the+Sunrise"
   def install
-    (share/"fonts").install "WaitingfortheSunrise.ttf"
+    (share/"fonts").install Dir.glob("./**/WaitingfortheSunrise.ttf")[0]
   end
   # No zap stanza required
 

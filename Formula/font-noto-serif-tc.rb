@@ -4,7 +4,7 @@ class FontNotoSerifTc < Formula
   desc "Modulated (“serif”) design for languages in taiwan, hong kong and macau"
   homepage "https://fonts.google.com/specimen/Noto+Serif+TC"
   def install
-    (share/"fonts").install "NotoSerifTC[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSerifTC\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

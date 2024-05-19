@@ -6,15 +6,15 @@ class FontIosevkaAile < Formula
   desc "Sans-serif, slab-serif, monospace and quasi‑proportional typeface family"
   homepage "https://github.com/be5invis/Iosevka/"
   def install
-    (share/"fonts").install "ofl/intertight/" + "IosevkaAile-Bold.ttc"
-    (share/"fonts").install "ofl/intertight/" + "IosevkaAile-ExtraBold.ttc"
-    (share/"fonts").install "ofl/intertight/" + "IosevkaAile-ExtraLight.ttc"
-    (share/"fonts").install "ofl/intertight/" + "IosevkaAile-Heavy.ttc"
-    (share/"fonts").install "ofl/intertight/" + "IosevkaAile-Light.ttc"
-    (share/"fonts").install "ofl/intertight/" + "IosevkaAile-Medium.ttc"
-    (share/"fonts").install "ofl/intertight/" + "IosevkaAile-Regular.ttc"
-    (share/"fonts").install "ofl/intertight/" + "IosevkaAile-SemiBold.ttc"
-    (share/"fonts").install "ofl/intertight/" + "IosevkaAile-Thin.ttc"
+    (share/"fonts").install Dir.glob("./**/IosevkaAile-Bold.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/IosevkaAile-ExtraBold.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/IosevkaAile-ExtraLight.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/IosevkaAile-Heavy.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/IosevkaAile-Light.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/IosevkaAile-Medium.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/IosevkaAile-Regular.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/IosevkaAile-SemiBold.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/IosevkaAile-Thin.ttc")[0]
   end
   # No zap stanza required
 

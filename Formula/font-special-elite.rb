@@ -3,7 +3,7 @@ class FontSpecialElite < Formula
   desc "Special Elite"
   homepage "https://fonts.google.com/specimen/Special+Elite"
   def install
-    (share/"fonts").install "SpecialElite-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/SpecialElite-Regular.ttf")[0]
   end
   # No zap stanza required
 

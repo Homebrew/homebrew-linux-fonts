@@ -6,13 +6,12 @@ class FontFiraCode < Formula
   desc "Free monospaced font with programming ligatures"
   homepage "https://github.com/tonsky/FiraCode"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}ttf/FiraCode-Bold.ttf"
-    (share/"fonts").install "#{parent}ttf/FiraCode-Light.ttf"
-    (share/"fonts").install "#{parent}ttf/FiraCode-Medium.ttf"
-    (share/"fonts").install "#{parent}ttf/FiraCode-Regular.ttf"
-    (share/"fonts").install "#{parent}ttf/FiraCode-Retina.ttf"
-    (share/"fonts").install "#{parent}ttf/FiraCode-SemiBold.ttf"
+    (share/"fonts").install Dir.glob("ttf/**/FiraCode-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ttf/**/FiraCode-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ttf/**/FiraCode-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("ttf/**/FiraCode-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ttf/**/FiraCode-Retina.ttf")[0]
+    (share/"fonts").install Dir.glob("ttf/**/FiraCode-SemiBold.ttf")[0]
   end
   # No zap stanza required
 

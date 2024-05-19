@@ -3,7 +3,7 @@ class FontRye < Formula
   desc "Rye"
   homepage "https://fonts.google.com/specimen/Rye"
   def install
-    (share/"fonts").install "Rye-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Rye-Regular.ttf")[0]
   end
   # No zap stanza required
 

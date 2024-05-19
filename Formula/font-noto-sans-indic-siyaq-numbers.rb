@@ -3,7 +3,7 @@ class FontNotoSansIndicSiyaqNumbers < Formula
   desc "Noto Sans Indic Siyaq Numbers"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Indic+Siyaq+Numbers"
   def install
-    (share/"fonts").install "NotoSansIndicSiyaqNumbers-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansIndicSiyaqNumbers-Regular.ttf")[0]
   end
   # No zap stanza required
 

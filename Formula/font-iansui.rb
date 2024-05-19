@@ -6,7 +6,7 @@ class FontIansui < Formula
   desc "Chinese font derived from Klee One"
   homepage "https://github.com/ButTaiwan/iansui"
   def install
-    (share/"fonts").install "Iansui-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Iansui-Regular.ttf")[0]
   end
   # No zap stanza required
 

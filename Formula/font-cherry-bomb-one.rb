@@ -3,7 +3,7 @@ class FontCherryBombOne < Formula
   desc "Cherry Bomb One"
   homepage "https://fonts.google.com/specimen/Cherry+Bomb+One"
   def install
-    (share/"fonts").install "CherryBombOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/CherryBombOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -6,21 +6,20 @@ class FontLibertinus < Formula
   desc "Proportional serif typeface inspired by 19th century book type"
   homepage "https://github.com/alerque/libertinus"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}Libertinus-#{version}/static/OTF/LibertinusKeyboard-Regular.otf"
-    (share/"fonts").install "#{parent}Libertinus-#{version}/static/OTF/LibertinusMath-Regular.otf"
-    (share/"fonts").install "#{parent}Libertinus-#{version}/static/OTF/LibertinusMono-Regular.otf"
-    (share/"fonts").install "#{parent}Libertinus-#{version}/static/OTF/LibertinusSans-Bold.otf"
-    (share/"fonts").install "#{parent}Libertinus-#{version}/static/OTF/LibertinusSans-Italic.otf"
-    (share/"fonts").install "#{parent}Libertinus-#{version}/static/OTF/LibertinusSans-Regular.otf"
-    (share/"fonts").install "#{parent}Libertinus-#{version}/static/OTF/LibertinusSerif-Bold.otf"
-    (share/"fonts").install "#{parent}Libertinus-#{version}/static/OTF/LibertinusSerif-BoldItalic.otf"
-    (share/"fonts").install "#{parent}Libertinus-#{version}/static/OTF/LibertinusSerif-Italic.otf"
-    (share/"fonts").install "#{parent}Libertinus-#{version}/static/OTF/LibertinusSerif-Regular.otf"
-    (share/"fonts").install "#{parent}Libertinus-#{version}/static/OTF/LibertinusSerif-Semibold.otf"
-    (share/"fonts").install "#{parent}Libertinus-#{version}/static/OTF/LibertinusSerif-SemiboldItalic.otf"
-    (share/"fonts").install "#{parent}Libertinus-#{version}/static/OTF/LibertinusSerifDisplay-Regular.otf"
-    (share/"fonts").install "#{parent}Libertinus-#{version}/static/OTF/LibertinusSerifInitials-Regular.otf"
+    (share/"fonts").install Dir.glob("Libertinus-#{version}/static/OTF/**/LibertinusKeyboard-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("Libertinus-#{version}/static/OTF/**/LibertinusMath-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("Libertinus-#{version}/static/OTF/**/LibertinusMono-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("Libertinus-#{version}/static/OTF/**/LibertinusSans-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("Libertinus-#{version}/static/OTF/**/LibertinusSans-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("Libertinus-#{version}/static/OTF/**/LibertinusSans-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("Libertinus-#{version}/static/OTF/**/LibertinusSerif-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("Libertinus-#{version}/static/OTF/**/LibertinusSerif-BoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("Libertinus-#{version}/static/OTF/**/LibertinusSerif-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("Libertinus-#{version}/static/OTF/**/LibertinusSerif-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("Libertinus-#{version}/static/OTF/**/LibertinusSerif-Semibold.otf")[0]
+    (share/"fonts").install Dir.glob("Libertinus-#{version}/static/OTF/**/LibertinusSerif-SemiboldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("Libertinus-#{version}/static/OTF/**/LibertinusSerifDisplay-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("Libertinus-#{version}/static/OTF/**/LibertinusSerifInitials-Regular.otf")[0]
   end
   # No zap stanza required
 

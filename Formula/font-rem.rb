@@ -4,8 +4,8 @@ class FontRem < Formula
   desc "Acronym for rapid eye movement"
   homepage "https://fonts.google.com/specimen/REM"
   def install
-    (share/"fonts").install "ofl/rem/" + "REM-Italic[wght].ttf"
-    (share/"fonts").install "ofl/rem/" + "REM[wght].ttf"
+    (share/"fonts").install Dir.glob("ofl/rem/./**/REM-Italic\\[wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/rem/./**/REM\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

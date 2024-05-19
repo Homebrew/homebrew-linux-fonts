@@ -3,13 +3,12 @@ class FontIaWriterQuattro < Formula
   desc "iA Writer Quattro"
   homepage "https://github.com/iaolo/iA-Fonts"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Quattro/Static/iAWriterQuattroS-Bold.ttf"
-    (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Quattro/Static/iAWriterQuattroS-BoldItalic.ttf"
-    (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Quattro/Static/iAWriterQuattroS-Italic.ttf"
-    (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Quattro/Static/iAWriterQuattroS-Regular.ttf"
-    (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Quattro/Variable/iAWriterQuattroV-Italic.ttf"
-    (share/"fonts").install "#{parent}iA-Fonts-master/iA Writer Quattro/Variable/iAWriterQuattroV.ttf"
+    (share/"fonts").install Dir.glob("iA-Fonts-master/iA Writer Quattro/Static/**/iAWriterQuattroS-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("iA-Fonts-master/iA Writer Quattro/Static/**/iAWriterQuattroS-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("iA-Fonts-master/iA Writer Quattro/Static/**/iAWriterQuattroS-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("iA-Fonts-master/iA Writer Quattro/Static/**/iAWriterQuattroS-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("iA-Fonts-master/iA Writer Quattro/Variable/**/iAWriterQuattroV-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("iA-Fonts-master/iA Writer Quattro/Variable/**/iAWriterQuattroV.ttf")[0]
   end
   # No zap stanza required
 

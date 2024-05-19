@@ -4,7 +4,7 @@ class FontBabylonica < Formula
   desc "Interrupted by upright or back-slanted forms giving it an interrupted stress"
   homepage "https://fonts.google.com/specimen/Babylonica"
   def install
-    (share/"fonts").install "Babylonica-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Babylonica-Regular.ttf")[0]
   end
   # No zap stanza required
 

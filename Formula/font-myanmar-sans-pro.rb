@@ -3,7 +3,7 @@ class FontMyanmarSansPro < Formula
   desc "Myanmar Sans Pro"
   homepage "https://fonts.google.com/earlyaccess"
   def install
-    (share/"fonts").install "MyanmarSansPro-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/MyanmarSansPro-Regular.ttf")[0]
   end
   # No zap stanza required
 

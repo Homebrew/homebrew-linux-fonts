@@ -3,7 +3,7 @@ class FontEater < Formula
   desc "Eater"
   homepage "https://fonts.google.com/specimen/Eater"
   def install
-    (share/"fonts").install "Eater-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Eater-Regular.ttf")[0]
   end
   # No zap stanza required
 

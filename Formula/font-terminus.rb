@@ -6,11 +6,10 @@ class FontTerminus < Formula
   desc "Fixed-width bitmap font"
   homepage "https://files.ax86.net/terminus-ttf/"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}terminus-ttf-#{version}/TerminusTTF-#{version}.ttf"
-    (share/"fonts").install "#{parent}terminus-ttf-#{version}/TerminusTTF-Bold-#{version}.ttf"
-    (share/"fonts").install "#{parent}terminus-ttf-#{version}/TerminusTTF-Bold-Italic-#{version}.ttf"
-    (share/"fonts").install "#{parent}terminus-ttf-#{version}/TerminusTTF-Italic-#{version}.ttf"
+    (share/"fonts").install Dir.glob("terminus-ttf-#{version}/**/TerminusTTF-#{version}.ttf")[0]
+    (share/"fonts").install Dir.glob("terminus-ttf-#{version}/**/TerminusTTF-Bold-#{version}.ttf")[0]
+    (share/"fonts").install Dir.glob("terminus-ttf-#{version}/**/TerminusTTF-Bold-Italic-#{version}.ttf")[0]
+    (share/"fonts").install Dir.glob("terminus-ttf-#{version}/**/TerminusTTF-Italic-#{version}.ttf")[0]
   end
   # No zap stanza required
 

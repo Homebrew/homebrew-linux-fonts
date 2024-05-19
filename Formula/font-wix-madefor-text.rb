@@ -6,9 +6,8 @@ class FontWixMadeforText < Formula
   desc "Typeface with wide geometric proportions, clean curves, and grotesk terminals"
   homepage "https://www.wix.com/typeface/madefor"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}wixmadefor-fonts/fonts/variable/WixMadeforText[wght].ttf"
-    (share/"fonts").install "#{parent}wixmadefor-fonts/fonts/variable/WixMadeforText-Italic[wght].ttf"
+    (share/"fonts").install Dir.glob("wixmadefor-fonts/fonts/variable/**/WixMadeforText\\[wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("wixmadefor-fonts/fonts/variable/**/WixMadeforText-Italic\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

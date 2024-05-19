@@ -3,12 +3,12 @@ class FontNobile < Formula
   desc "Nobile"
   homepage "https://fonts.google.com/specimen/Nobile"
   def install
-    (share/"fonts").install "ofl/nobile/" + "Nobile-Bold.ttf"
-    (share/"fonts").install "ofl/nobile/" + "Nobile-BoldItalic.ttf"
-    (share/"fonts").install "ofl/nobile/" + "Nobile-Italic.ttf"
-    (share/"fonts").install "ofl/nobile/" + "Nobile-Medium.ttf"
-    (share/"fonts").install "ofl/nobile/" + "Nobile-MediumItalic.ttf"
-    (share/"fonts").install "ofl/nobile/" + "Nobile-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/nobile/./**/Nobile-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/nobile/./**/Nobile-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/nobile/./**/Nobile-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/nobile/./**/Nobile-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/nobile/./**/Nobile-MediumItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/nobile/./**/Nobile-Regular.ttf")[0]
   end
   # No zap stanza required
 

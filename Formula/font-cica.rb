@@ -5,10 +5,10 @@ class FontCica < Formula
   desc "Cica"
   homepage "https://github.com/miiton/Cica"
   def install
-    (share/"fonts").install "Cica-Bold.ttf"
-    (share/"fonts").install "Cica-BoldItalic.ttf"
-    (share/"fonts").install "Cica-Regular.ttf"
-    (share/"fonts").install "Cica-RegularItalic.ttf"
+    (share/"fonts").install Dir.glob("./**/Cica-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Cica-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Cica-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Cica-RegularItalic.ttf")[0]
   end
   # No zap stanza required
 

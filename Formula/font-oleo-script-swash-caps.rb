@@ -3,8 +3,8 @@ class FontOleoScriptSwashCaps < Formula
   desc "Oleo Script Swash Caps"
   homepage "https://fonts.google.com/specimen/Oleo+Script+Swash+Caps"
   def install
-    (share/"fonts").install "ofl/oleoscriptswashcaps/" + "OleoScriptSwashCaps-Bold.ttf"
-    (share/"fonts").install "ofl/oleoscriptswashcaps/" + "OleoScriptSwashCaps-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/oleoscriptswashcaps/./**/OleoScriptSwashCaps-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/oleoscriptswashcaps/./**/OleoScriptSwashCaps-Regular.ttf")[0]
   end
   # No zap stanza required
 

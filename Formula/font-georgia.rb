@@ -3,10 +3,10 @@ class FontGeorgia < Formula
   desc "Georgia"
   homepage "https://sourceforge.net/projects/corefonts/files/the%20fonts/final/"
   def install
-    (share/"fonts").install "Georgiaz.TTF"
-    (share/"fonts").install "Georgiab.TTF"
-    (share/"fonts").install "Georgiai.TTF"
-    (share/"fonts").install "Georgia.TTF"
+    (share/"fonts").install Dir.glob("./**/Georgiaz.TTF")[0]
+    (share/"fonts").install Dir.glob("./**/Georgiab.TTF")[0]
+    (share/"fonts").install Dir.glob("./**/Georgiai.TTF")[0]
+    (share/"fonts").install Dir.glob("./**/Georgia.TTF")[0]
   end
   # No zap stanza required
 

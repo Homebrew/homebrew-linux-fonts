@@ -3,7 +3,7 @@ class FontReemKufi < Formula
   desc "Reem Kufi"
   homepage "https://fonts.google.com/specimen/Reem+Kufi"
   def install
-    (share/"fonts").install "ReemKufi[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/ReemKufi\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

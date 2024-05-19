@@ -6,15 +6,15 @@ class FontGlowSansScCondensed < Formula
   homepage "https://github.com/welai/glow-sans"
   deprecate! date: "2024-02-17", because: :unsupported
   def install
-    (share/"fonts").install "ofl/glory/" + "GlowSansSC-Condensed-Bold.otf"
-    (share/"fonts").install "ofl/glory/" + "GlowSansSC-Condensed-Book.otf"
-    (share/"fonts").install "ofl/glory/" + "GlowSansSC-Condensed-ExtraBold.otf"
-    (share/"fonts").install "ofl/glory/" + "GlowSansSC-Condensed-ExtraLight.otf"
-    (share/"fonts").install "ofl/glory/" + "GlowSansSC-Condensed-Heavy.otf"
-    (share/"fonts").install "ofl/glory/" + "GlowSansSC-Condensed-Light.otf"
-    (share/"fonts").install "ofl/glory/" + "GlowSansSC-Condensed-Medium.otf"
-    (share/"fonts").install "ofl/glory/" + "GlowSansSC-Condensed-Regular.otf"
-    (share/"fonts").install "ofl/glory/" + "GlowSansSC-Condensed-Thin.otf"
+    (share/"fonts").install Dir.glob("./**/GlowSansSC-Condensed-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GlowSansSC-Condensed-Book.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GlowSansSC-Condensed-ExtraBold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GlowSansSC-Condensed-ExtraLight.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GlowSansSC-Condensed-Heavy.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GlowSansSC-Condensed-Light.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GlowSansSC-Condensed-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GlowSansSC-Condensed-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GlowSansSC-Condensed-Thin.otf")[0]
   end
   # No zap stanza required
 

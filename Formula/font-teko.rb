@@ -3,7 +3,7 @@ class FontTeko < Formula
   desc "Teko"
   homepage "https://fonts.google.com/specimen/Teko"
   def install
-    (share/"fonts").install "Teko[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/Teko\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

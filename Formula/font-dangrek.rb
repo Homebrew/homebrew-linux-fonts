@@ -3,7 +3,7 @@ class FontDangrek < Formula
   desc "Dangrek"
   homepage "https://fonts.google.com/specimen/Dangrek"
   def install
-    (share/"fonts").install "Dangrek-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Dangrek-Regular.ttf")[0]
   end
   # No zap stanza required
 

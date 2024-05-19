@@ -3,8 +3,8 @@ class FontPlay < Formula
   desc "Play"
   homepage "https://fonts.google.com/specimen/Play"
   def install
-    (share/"fonts").install "ofl/play/" + "Play-Bold.ttf"
-    (share/"fonts").install "ofl/play/" + "Play-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/play/./**/Play-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/play/./**/Play-Regular.ttf")[0]
   end
   # No zap stanza required
 

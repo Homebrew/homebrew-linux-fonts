@@ -3,7 +3,7 @@ class FontTaprom < Formula
   desc "Taprom"
   homepage "https://fonts.google.com/specimen/Taprom"
   def install
-    (share/"fonts").install "Taprom-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Taprom-Regular.ttf")[0]
   end
   # No zap stanza required
 

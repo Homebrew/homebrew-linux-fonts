@@ -3,7 +3,7 @@ class FontMochiyPopOne < Formula
   desc "Mochiy Pop One"
   homepage "https://fonts.google.com/specimen/Mochiy+Pop+One"
   def install
-    (share/"fonts").install "MochiyPopOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/MochiyPopOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

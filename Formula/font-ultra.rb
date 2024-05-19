@@ -3,7 +3,7 @@ class FontUltra < Formula
   desc "Ultra"
   homepage "https://fonts.google.com/specimen/Ultra"
   def install
-    (share/"fonts").install "Ultra-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Ultra-Regular.ttf")[0]
   end
   # No zap stanza required
 

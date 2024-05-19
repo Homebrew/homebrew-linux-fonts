@@ -5,8 +5,8 @@ class FontGilbert < Formula
   desc "Gilbert"
   homepage "https://typewithpride.com/"
   def install
-    (share/"fonts").install "Gilbert-Bold Preview#{version.to_s.sub(/,.*/, "").sub(/.*\./, "").tr("00", "")}.otf"
-    (share/"fonts").install "Gilbert-Color Bold Preview#{version.to_s.sub(/,.*/, "").sub(/.*\./, "").tr("00", "")}.otf"
+    (share/"fonts").install Dir.glob("./**/"Gilbert-Bold Preview#{version.to_s.sub(/,.*/, "").sub(/.*\./, "").tr("00", "")}.otf"")[0]
+    (share/"fonts").install Dir.glob("./**/"Gilbert-Color Bold Preview#{version.to_s.sub(/,.*/, "").sub(/.*\./, "").tr("00", "")}.otf"")[0]
   end
   # No zap stanza required
 

@@ -3,10 +3,9 @@ class FontBlackout < Formula
   desc "Blackout"
   homepage "https://www.theleagueofmoveabletype.com/blackout"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}blackout-master/Blackout 2 AM.ttf"
-    (share/"fonts").install "#{parent}blackout-master/Blackout Midnight.ttf"
-    (share/"fonts").install "#{parent}blackout-master/Blackout Sunrise.ttf"
+    (share/"fonts").install Dir.glob("blackout-master/**/Blackout 2 AM.ttf")[0]
+    (share/"fonts").install Dir.glob("blackout-master/**/Blackout Midnight.ttf")[0]
+    (share/"fonts").install Dir.glob("blackout-master/**/Blackout Sunrise.ttf")[0]
   end
   # No zap stanza required
 

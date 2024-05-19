@@ -4,7 +4,7 @@ class FontMeowScript < Formula
   desc "Monoline font with a number of alternate forms in six stylistic sets"
   homepage "https://fonts.google.com/specimen/Meow+Script"
   def install
-    (share/"fonts").install "MeowScript-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/MeowScript-Regular.ttf")[0]
   end
   # No zap stanza required
 

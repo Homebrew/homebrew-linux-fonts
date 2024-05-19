@@ -8,12 +8,12 @@ class FontMaple < Formula
   desc "Nerd Font font with round corners"
   homepage "https://github.com/subframe7536/Maple-font"
   def install
-    (share/"fonts").install "ofl/manuale/" + "MapleMono-Bold.otf"
-    (share/"fonts").install "ofl/manuale/" + "MapleMono-BoldItalic.otf"
-    (share/"fonts").install "ofl/manuale/" + "MapleMono-Italic.otf"
-    (share/"fonts").install "ofl/manuale/" + "MapleMono-Light.otf"
-    (share/"fonts").install "ofl/manuale/" + "MapleMono-LightItalic.otf"
-    (share/"fonts").install "ofl/manuale/" + "MapleMono-Regular.otf"
+    (share/"fonts").install Dir.glob("./**/MapleMono-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/MapleMono-BoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/MapleMono-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/MapleMono-Light.otf")[0]
+    (share/"fonts").install Dir.glob("./**/MapleMono-LightItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/MapleMono-Regular.otf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontPangolin < Formula
   desc "Pangolin"
   homepage "https://fonts.google.com/specimen/Pangolin"
   def install
-    (share/"fonts").install "Pangolin-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Pangolin-Regular.ttf")[0]
   end
   # No zap stanza required
 

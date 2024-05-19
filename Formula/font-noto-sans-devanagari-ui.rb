@@ -3,15 +3,15 @@ class FontNotoSansDevanagariUi < Formula
   desc "Noto Sans Devanagari UI"
   homepage "https://fonts.google.com/noto/specimen/Noto+Sans+Devanagari"
   def install
-    (share/"fonts").install "ofl/notosansdevanagariui/" + "NotoSansDevanagariUI-Black.ttf"
-    (share/"fonts").install "ofl/notosansdevanagariui/" + "NotoSansDevanagariUI-Bold.ttf"
-    (share/"fonts").install "ofl/notosansdevanagariui/" + "NotoSansDevanagariUI-ExtraBold.ttf"
-    (share/"fonts").install "ofl/notosansdevanagariui/" + "NotoSansDevanagariUI-ExtraLight.ttf"
-    (share/"fonts").install "ofl/notosansdevanagariui/" + "NotoSansDevanagariUI-Light.ttf"
-    (share/"fonts").install "ofl/notosansdevanagariui/" + "NotoSansDevanagariUI-Medium.ttf"
-    (share/"fonts").install "ofl/notosansdevanagariui/" + "NotoSansDevanagariUI-Regular.ttf"
-    (share/"fonts").install "ofl/notosansdevanagariui/" + "NotoSansDevanagariUI-SemiBold.ttf"
-    (share/"fonts").install "ofl/notosansdevanagariui/" + "NotoSansDevanagariUI-Thin.ttf"
+    (share/"fonts").install Dir.glob("ofl/notosansdevanagariui/./**/NotoSansDevanagariUI-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/notosansdevanagariui/./**/NotoSansDevanagariUI-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/notosansdevanagariui/./**/NotoSansDevanagariUI-ExtraBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/notosansdevanagariui/./**/NotoSansDevanagariUI-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/notosansdevanagariui/./**/NotoSansDevanagariUI-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/notosansdevanagariui/./**/NotoSansDevanagariUI-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/notosansdevanagariui/./**/NotoSansDevanagariUI-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/notosansdevanagariui/./**/NotoSansDevanagariUI-SemiBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/notosansdevanagariui/./**/NotoSansDevanagariUI-Thin.ttf")[0]
   end
   # No zap stanza required
 

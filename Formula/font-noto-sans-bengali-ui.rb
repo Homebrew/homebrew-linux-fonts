@@ -3,7 +3,7 @@ class FontNotoSansBengaliUi < Formula
   desc "Noto Sans Bengali UI"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Bengali+UI"
   def install
-    (share/"fonts").install "NotoSansBengaliUI[wdth,wght].ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansBengaliUI\\[wdth,wght\\].ttf")[0]
   end
   # No zap stanza required
 

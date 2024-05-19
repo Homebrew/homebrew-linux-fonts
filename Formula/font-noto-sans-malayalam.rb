@@ -3,8 +3,8 @@ class FontNotoSansMalayalam < Formula
   desc "Noto Sans Malayalam"
   homepage "https://www.google.com/get/noto/#sans-mlym"
   def install
-    (share/"fonts").install "NotoSansMalayalam-Regular.ttf"
-    (share/"fonts").install "NotoSansMalayalam-Bold.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansMalayalam-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansMalayalam-Bold.ttf")[0]
   end
   # No zap stanza required
 

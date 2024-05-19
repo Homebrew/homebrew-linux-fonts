@@ -3,7 +3,7 @@ class FontActor < Formula
   desc "Actor"
   homepage "https://fonts.google.com/specimen/Actor"
   def install
-    (share/"fonts").install "Actor-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Actor-Regular.ttf")[0]
   end
   # No zap stanza required
 

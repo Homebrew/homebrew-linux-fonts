@@ -3,7 +3,7 @@ class FontRussoOne < Formula
   desc "Russo One"
   homepage "https://fonts.google.com/specimen/Russo+One"
   def install
-    (share/"fonts").install "RussoOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/RussoOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

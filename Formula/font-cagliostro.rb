@@ -3,7 +3,7 @@ class FontCagliostro < Formula
   desc "Cagliostro"
   homepage "https://fonts.google.com/specimen/Cagliostro"
   def install
-    (share/"fonts").install "Cagliostro-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Cagliostro-Regular.ttf")[0]
   end
   # No zap stanza required
 

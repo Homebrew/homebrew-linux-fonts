@@ -3,20 +3,20 @@ class FontIbmPlexSerif < Formula
   desc "IBM Plex Serif"
   homepage "https://fonts.google.com/specimen/IBM+Plex+Serif"
   def install
-    (share/"fonts").install "ofl/ibmplexserif/" + "IBMPlexSerif-Bold.ttf"
-    (share/"fonts").install "ofl/ibmplexserif/" + "IBMPlexSerif-BoldItalic.ttf"
-    (share/"fonts").install "ofl/ibmplexserif/" + "IBMPlexSerif-ExtraLight.ttf"
-    (share/"fonts").install "ofl/ibmplexserif/" + "IBMPlexSerif-ExtraLightItalic.ttf"
-    (share/"fonts").install "ofl/ibmplexserif/" + "IBMPlexSerif-Italic.ttf"
-    (share/"fonts").install "ofl/ibmplexserif/" + "IBMPlexSerif-Light.ttf"
-    (share/"fonts").install "ofl/ibmplexserif/" + "IBMPlexSerif-LightItalic.ttf"
-    (share/"fonts").install "ofl/ibmplexserif/" + "IBMPlexSerif-Medium.ttf"
-    (share/"fonts").install "ofl/ibmplexserif/" + "IBMPlexSerif-MediumItalic.ttf"
-    (share/"fonts").install "ofl/ibmplexserif/" + "IBMPlexSerif-Regular.ttf"
-    (share/"fonts").install "ofl/ibmplexserif/" + "IBMPlexSerif-SemiBold.ttf"
-    (share/"fonts").install "ofl/ibmplexserif/" + "IBMPlexSerif-SemiBoldItalic.ttf"
-    (share/"fonts").install "ofl/ibmplexserif/" + "IBMPlexSerif-Thin.ttf"
-    (share/"fonts").install "ofl/ibmplexserif/" + "IBMPlexSerif-ThinItalic.ttf"
+    (share/"fonts").install Dir.glob("ofl/ibmplexserif/./**/IBMPlexSerif-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibmplexserif/./**/IBMPlexSerif-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibmplexserif/./**/IBMPlexSerif-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibmplexserif/./**/IBMPlexSerif-ExtraLightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibmplexserif/./**/IBMPlexSerif-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibmplexserif/./**/IBMPlexSerif-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibmplexserif/./**/IBMPlexSerif-LightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibmplexserif/./**/IBMPlexSerif-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibmplexserif/./**/IBMPlexSerif-MediumItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibmplexserif/./**/IBMPlexSerif-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibmplexserif/./**/IBMPlexSerif-SemiBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibmplexserif/./**/IBMPlexSerif-SemiBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibmplexserif/./**/IBMPlexSerif-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibmplexserif/./**/IBMPlexSerif-ThinItalic.ttf")[0]
   end
   # No zap stanza required
 

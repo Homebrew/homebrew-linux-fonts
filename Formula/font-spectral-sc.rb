@@ -3,20 +3,20 @@ class FontSpectralSc < Formula
   desc "Spectral SC"
   homepage "https://fonts.google.com/specimen/Spectral+SC"
   def install
-    (share/"fonts").install "ofl/spectralsc/" + "SpectralSC-Bold.ttf"
-    (share/"fonts").install "ofl/spectralsc/" + "SpectralSC-BoldItalic.ttf"
-    (share/"fonts").install "ofl/spectralsc/" + "SpectralSC-ExtraBold.ttf"
-    (share/"fonts").install "ofl/spectralsc/" + "SpectralSC-ExtraBoldItalic.ttf"
-    (share/"fonts").install "ofl/spectralsc/" + "SpectralSC-ExtraLight.ttf"
-    (share/"fonts").install "ofl/spectralsc/" + "SpectralSC-ExtraLightItalic.ttf"
-    (share/"fonts").install "ofl/spectralsc/" + "SpectralSC-Italic.ttf"
-    (share/"fonts").install "ofl/spectralsc/" + "SpectralSC-Light.ttf"
-    (share/"fonts").install "ofl/spectralsc/" + "SpectralSC-LightItalic.ttf"
-    (share/"fonts").install "ofl/spectralsc/" + "SpectralSC-Medium.ttf"
-    (share/"fonts").install "ofl/spectralsc/" + "SpectralSC-MediumItalic.ttf"
-    (share/"fonts").install "ofl/spectralsc/" + "SpectralSC-Regular.ttf"
-    (share/"fonts").install "ofl/spectralsc/" + "SpectralSC-SemiBold.ttf"
-    (share/"fonts").install "ofl/spectralsc/" + "SpectralSC-SemiBoldItalic.ttf"
+    (share/"fonts").install Dir.glob("ofl/spectralsc/./**/SpectralSC-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/spectralsc/./**/SpectralSC-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/spectralsc/./**/SpectralSC-ExtraBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/spectralsc/./**/SpectralSC-ExtraBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/spectralsc/./**/SpectralSC-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/spectralsc/./**/SpectralSC-ExtraLightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/spectralsc/./**/SpectralSC-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/spectralsc/./**/SpectralSC-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/spectralsc/./**/SpectralSC-LightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/spectralsc/./**/SpectralSC-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/spectralsc/./**/SpectralSC-MediumItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/spectralsc/./**/SpectralSC-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/spectralsc/./**/SpectralSC-SemiBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/spectralsc/./**/SpectralSC-SemiBoldItalic.ttf")[0]
   end
   # No zap stanza required
 

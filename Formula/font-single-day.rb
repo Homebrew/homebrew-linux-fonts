@@ -3,7 +3,7 @@ class FontSingleDay < Formula
   desc "Single Day"
   homepage "https://fonts.google.com/specimen/Single+Day"
   def install
-    (share/"fonts").install "SingleDay-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/SingleDay-Regular.ttf")[0]
   end
   # No zap stanza required
 

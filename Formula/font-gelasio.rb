@@ -3,8 +3,8 @@ class FontGelasio < Formula
   desc "Gelasio"
   homepage "https://fonts.google.com/specimen/Gelasio"
   def install
-    (share/"fonts").install "ofl/gelasio/" + "Gelasio-Italic[wght].ttf"
-    (share/"fonts").install "ofl/gelasio/" + "Gelasio[wght].ttf"
+    (share/"fonts").install Dir.glob("ofl/gelasio/./**/Gelasio-Italic\\[wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/gelasio/./**/Gelasio\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

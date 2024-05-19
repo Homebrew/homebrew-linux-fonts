@@ -3,20 +3,20 @@ class FontIbmPlexSans < Formula
   desc "IBM Plex Sans"
   homepage "https://fonts.google.com/specimen/IBM+Plex+Sans"
   def install
-    (share/"fonts").install "ofl/ibmplexsans/" + "IBMPlexSans-Bold.ttf"
-    (share/"fonts").install "ofl/ibmplexsans/" + "IBMPlexSans-BoldItalic.ttf"
-    (share/"fonts").install "ofl/ibmplexsans/" + "IBMPlexSans-ExtraLight.ttf"
-    (share/"fonts").install "ofl/ibmplexsans/" + "IBMPlexSans-ExtraLightItalic.ttf"
-    (share/"fonts").install "ofl/ibmplexsans/" + "IBMPlexSans-Italic.ttf"
-    (share/"fonts").install "ofl/ibmplexsans/" + "IBMPlexSans-Light.ttf"
-    (share/"fonts").install "ofl/ibmplexsans/" + "IBMPlexSans-LightItalic.ttf"
-    (share/"fonts").install "ofl/ibmplexsans/" + "IBMPlexSans-Medium.ttf"
-    (share/"fonts").install "ofl/ibmplexsans/" + "IBMPlexSans-MediumItalic.ttf"
-    (share/"fonts").install "ofl/ibmplexsans/" + "IBMPlexSans-Regular.ttf"
-    (share/"fonts").install "ofl/ibmplexsans/" + "IBMPlexSans-SemiBold.ttf"
-    (share/"fonts").install "ofl/ibmplexsans/" + "IBMPlexSans-SemiBoldItalic.ttf"
-    (share/"fonts").install "ofl/ibmplexsans/" + "IBMPlexSans-Thin.ttf"
-    (share/"fonts").install "ofl/ibmplexsans/" + "IBMPlexSans-ThinItalic.ttf"
+    (share/"fonts").install Dir.glob("ofl/ibmplexsans/./**/IBMPlexSans-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibmplexsans/./**/IBMPlexSans-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibmplexsans/./**/IBMPlexSans-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibmplexsans/./**/IBMPlexSans-ExtraLightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibmplexsans/./**/IBMPlexSans-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibmplexsans/./**/IBMPlexSans-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibmplexsans/./**/IBMPlexSans-LightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibmplexsans/./**/IBMPlexSans-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibmplexsans/./**/IBMPlexSans-MediumItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibmplexsans/./**/IBMPlexSans-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibmplexsans/./**/IBMPlexSans-SemiBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibmplexsans/./**/IBMPlexSans-SemiBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibmplexsans/./**/IBMPlexSans-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibmplexsans/./**/IBMPlexSans-ThinItalic.ttf")[0]
   end
   # No zap stanza required
 

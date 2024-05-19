@@ -6,13 +6,12 @@ class FontDelugiaPowerline < Formula
   desc "Cascadia Code + Nerd Fonts, minor difference between Caskaydia Cove Nerd Font"
   homepage "https://github.com/adam7/delugia-code"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}delugia-powerline/DelugiaPL-Bold.ttf"
-    (share/"fonts").install "#{parent}delugia-powerline/DelugiaPL-BoldItalic.ttf"
-    (share/"fonts").install "#{parent}delugia-powerline/DelugiaPL-Italic.ttf"
-    (share/"fonts").install "#{parent}delugia-powerline/DelugiaPL.ttf"
-    (share/"fonts").install "#{parent}delugia-powerline/DelugiaPLLight-Italic.ttf"
-    (share/"fonts").install "#{parent}delugia-powerline/DelugiaPLLight.ttf"
+    (share/"fonts").install Dir.glob("delugia-powerline/**/DelugiaPL-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("delugia-powerline/**/DelugiaPL-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("delugia-powerline/**/DelugiaPL-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("delugia-powerline/**/DelugiaPL.ttf")[0]
+    (share/"fonts").install Dir.glob("delugia-powerline/**/DelugiaPLLight-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("delugia-powerline/**/DelugiaPLLight.ttf")[0]
   end
   # No zap stanza required
 

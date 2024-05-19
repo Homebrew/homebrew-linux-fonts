@@ -3,7 +3,7 @@ class FontNotoSansCanadianAboriginal < Formula
   desc "Noto Sans Canadian Aboriginal"
   homepage "https://www.google.com/get/noto/#sans-cans"
   def install
-    (share/"fonts").install "NotoSansCanadianAboriginal-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansCanadianAboriginal-Regular.ttf")[0]
   end
   # No zap stanza required
 

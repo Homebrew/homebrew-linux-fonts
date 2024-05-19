@@ -3,7 +3,7 @@ class FontDuruSans < Formula
   desc "Duru Sans"
   homepage "https://fonts.google.com/specimen/Duru+Sans"
   def install
-    (share/"fonts").install "DuruSans-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/DuruSans-Regular.ttf")[0]
   end
   # No zap stanza required
 

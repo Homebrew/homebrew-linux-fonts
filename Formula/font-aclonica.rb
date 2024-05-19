@@ -3,7 +3,7 @@ class FontAclonica < Formula
   desc "Aclonica"
   homepage "https://fonts.google.com/specimen/Aclonica"
   def install
-    (share/"fonts").install "Aclonica-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Aclonica-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontNotoSansTeluguUi < Formula
   desc "Noto Sans Telugu UI"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Telugu+UI"
   def install
-    (share/"fonts").install "NotoSansTeluguUI[wdth,wght].ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansTeluguUI\\[wdth,wght\\].ttf")[0]
   end
   # No zap stanza required
 

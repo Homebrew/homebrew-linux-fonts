@@ -3,7 +3,7 @@ class FontTiltWarp < Formula
   desc "Tilt Warp"
   homepage "https://fonts.google.com/specimen/Tilt+Warp"
   def install
-    (share/"fonts").install "TiltWarp[XROT,YROT].ttf"
+    (share/"fonts").install Dir.glob("./**/TiltWarp\\[XROT,YROT\\].ttf")[0]
   end
   # No zap stanza required
 

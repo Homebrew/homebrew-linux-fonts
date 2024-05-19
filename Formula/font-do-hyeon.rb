@@ -3,7 +3,7 @@ class FontDoHyeon < Formula
   desc "Do Hyeon"
   homepage "https://fonts.google.com/specimen/Do+Hyeon"
   def install
-    (share/"fonts").install "DoHyeon-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/DoHyeon-Regular.ttf")[0]
   end
   # No zap stanza required
 

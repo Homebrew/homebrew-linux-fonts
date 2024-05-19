@@ -3,8 +3,8 @@ class FontArefRuqaa < Formula
   desc "Aref Ruqaa"
   homepage "https://fonts.google.com/specimen/Aref+Ruqaa"
   def install
-    (share/"fonts").install "ofl/arefruqaa/" + "ArefRuqaa-Bold.ttf"
-    (share/"fonts").install "ofl/arefruqaa/" + "ArefRuqaa-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/arefruqaa/./**/ArefRuqaa-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/arefruqaa/./**/ArefRuqaa-Regular.ttf")[0]
   end
   # No zap stanza required
 

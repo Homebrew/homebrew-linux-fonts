@@ -7,7 +7,7 @@ class FontLxgwFasmartgothic < Formula
   desc "Chinese sans-serif font derived from IPAex Gothic"
   homepage "https://github.com/lxgw/LxgwNeoXiHei"
   def install
-    (share/"fonts").install "LXGWFasmartGothic.ttf"
+    (share/"fonts").install Dir.glob("./**/LXGWFasmartGothic.ttf")[0]
   end
   # No zap stanza required
 

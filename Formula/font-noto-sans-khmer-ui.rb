@@ -3,7 +3,7 @@ class FontNotoSansKhmerUi < Formula
   desc "Noto Sans Khmer UI"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Khmer+UI"
   def install
-    (share/"fonts").install "NotoSansKhmerUI[wdth,wght].ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansKhmerUI\\[wdth,wght\\].ttf")[0]
   end
   # No zap stanza required
 

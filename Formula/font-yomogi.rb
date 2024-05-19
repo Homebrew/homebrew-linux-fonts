@@ -3,7 +3,7 @@ class FontYomogi < Formula
   desc "Yomogi"
   homepage "https://fonts.google.com/specimen/Yomogi"
   def install
-    (share/"fonts").install "Yomogi-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Yomogi-Regular.ttf")[0]
   end
   # No zap stanza required
 

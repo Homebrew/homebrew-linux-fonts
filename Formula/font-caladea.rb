@@ -3,10 +3,10 @@ class FontCaladea < Formula
   desc "Caladea"
   homepage "https://fonts.google.com/specimen/Caladea"
   def install
-    (share/"fonts").install "ofl/caladea/" + "Caladea-Bold.ttf"
-    (share/"fonts").install "ofl/caladea/" + "Caladea-BoldItalic.ttf"
-    (share/"fonts").install "ofl/caladea/" + "Caladea-Italic.ttf"
-    (share/"fonts").install "ofl/caladea/" + "Caladea-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/caladea/./**/Caladea-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/caladea/./**/Caladea-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/caladea/./**/Caladea-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/caladea/./**/Caladea-Regular.ttf")[0]
   end
   # No zap stanza required
 

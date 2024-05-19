@@ -3,7 +3,7 @@ class FontNotoSansTagalog < Formula
   desc "Noto Sans Tagalog"
   homepage "https://www.google.com/get/noto/#sans-tglg"
   def install
-    (share/"fonts").install "NotoSansTagalog-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansTagalog-Regular.ttf")[0]
   end
   # No zap stanza required
 

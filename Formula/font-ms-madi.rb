@@ -4,7 +4,7 @@ class FontMsMadi < Formula
   desc "Never a good idea to use this font in all capital letters"
   homepage "https://fonts.google.com/specimen/Ms+Madi"
   def install
-    (share/"fonts").install "MsMadi-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/MsMadi-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -4,7 +4,7 @@ class FontNotoSansCyproMinoan < Formula
   desc "Design for the historical european cypro-minoan script"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Cypro+Minoan"
   def install
-    (share/"fonts").install "NotoSansCyproMinoan-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansCyproMinoan-Regular.ttf")[0]
   end
   # No zap stanza required
 

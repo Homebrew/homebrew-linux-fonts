@@ -3,11 +3,10 @@ class FontCochineal < Formula
   desc "Cochineal"
   homepage "https://ctan.org/pkg/cochineal"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}cochineal/opentype/Cochineal-Bold.otf"
-    (share/"fonts").install "#{parent}cochineal/opentype/Cochineal-BoldItalic.otf"
-    (share/"fonts").install "#{parent}cochineal/opentype/Cochineal-Italic.otf"
-    (share/"fonts").install "#{parent}cochineal/opentype/Cochineal-Roman.otf"
+    (share/"fonts").install Dir.glob("cochineal/opentype/**/Cochineal-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("cochineal/opentype/**/Cochineal-BoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("cochineal/opentype/**/Cochineal-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("cochineal/opentype/**/Cochineal-Roman.otf")[0]
   end
   # No zap stanza required
 

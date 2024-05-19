@@ -3,7 +3,7 @@ class FontMeieScript < Formula
   desc "Meie Script"
   homepage "https://fonts.google.com/specimen/Meie+Script"
   def install
-    (share/"fonts").install "MeieScript-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/MeieScript-Regular.ttf")[0]
   end
   # No zap stanza required
 

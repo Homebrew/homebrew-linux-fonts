@@ -3,7 +3,7 @@ class FontRampartOne < Formula
   desc "Rampart One"
   homepage "https://fonts.google.com/specimen/Rampart+One"
   def install
-    (share/"fonts").install "RampartOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/RampartOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontNotoSansMiao < Formula
   desc "Noto Sans Miao"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Miao"
   def install
-    (share/"fonts").install "NotoSansMiao-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansMiao-Regular.ttf")[0]
   end
   # No zap stanza required
 

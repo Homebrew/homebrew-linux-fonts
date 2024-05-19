@@ -3,8 +3,8 @@ class FontDmSans < Formula
   desc "DM Sans"
   homepage "https://fonts.google.com/specimen/DM+Sans"
   def install
-    (share/"fonts").install "ofl/dmsans/" + "DMSans-Italic[opsz,wght].ttf"
-    (share/"fonts").install "ofl/dmsans/" + "DMSans[opsz,wght].ttf"
+    (share/"fonts").install Dir.glob("ofl/dmsans/./**/DMSans-Italic\\[opsz,wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/dmsans/./**/DMSans\\[opsz,wght\\].ttf")[0]
   end
   # No zap stanza required
 

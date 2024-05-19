@@ -3,7 +3,7 @@ class FontNotoSansManichaean < Formula
   desc "Noto Sans Manichaean"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Manichaean"
   def install
-    (share/"fonts").install "NotoSansManichaean-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansManichaean-Regular.ttf")[0]
   end
   # No zap stanza required
 

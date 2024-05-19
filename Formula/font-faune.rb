@@ -4,13 +4,12 @@ class FontFaune < Formula
   desc "Faune"
   homepage "http://www.cnap.graphismeenfrance.fr/faune/en.html"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}Faune_Fonts/Otf/Faune-DisplayBlack.otf"
-    (share/"fonts").install "#{parent}Faune_Fonts/Otf/Faune-DisplayBoldItalic.otf"
-    (share/"fonts").install "#{parent}Faune_Fonts/Otf/Faune-DisplayThin.otf"
-    (share/"fonts").install "#{parent}Faune_Fonts/Otf/Faune-TextBold.otf"
-    (share/"fonts").install "#{parent}Faune_Fonts/Otf/Faune-TextItalic.otf"
-    (share/"fonts").install "#{parent}Faune_Fonts/Otf/Faune-TextRegular.otf"
+    (share/"fonts").install Dir.glob("Faune_Fonts/Otf/**/Faune-DisplayBlack.otf")[0]
+    (share/"fonts").install Dir.glob("Faune_Fonts/Otf/**/Faune-DisplayBoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("Faune_Fonts/Otf/**/Faune-DisplayThin.otf")[0]
+    (share/"fonts").install Dir.glob("Faune_Fonts/Otf/**/Faune-TextBold.otf")[0]
+    (share/"fonts").install Dir.glob("Faune_Fonts/Otf/**/Faune-TextItalic.otf")[0]
+    (share/"fonts").install Dir.glob("Faune_Fonts/Otf/**/Faune-TextRegular.otf")[0]
   end
   # No zap stanza required
 

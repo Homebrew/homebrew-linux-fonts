@@ -3,7 +3,7 @@ class FontHeadlandOne < Formula
   desc "Headland One"
   homepage "https://fonts.google.com/specimen/Headland+One"
   def install
-    (share/"fonts").install "HeadlandOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/HeadlandOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -4,7 +4,7 @@ class FontKumbhSans < Formula
   desc "Geometric sans-serif multi-purpose font"
   homepage "https://fonts.google.com/specimen/Kumbh+Sans"
   def install
-    (share/"fonts").install "KumbhSans[YOPQ,wght].ttf"
+    (share/"fonts").install Dir.glob("./**/KumbhSans\\[YOPQ,wght\\].ttf")[0]
   end
   # No zap stanza required
 

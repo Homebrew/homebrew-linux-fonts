@@ -3,7 +3,7 @@ class FontNotoSerifDogra < Formula
   desc "Noto Serif Dogra"
   homepage "https://fonts.google.com/specimen/Noto+Serif+Dogra"
   def install
-    (share/"fonts").install "NotoSerifDogra-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSerifDogra-Regular.ttf")[0]
   end
   # No zap stanza required
 

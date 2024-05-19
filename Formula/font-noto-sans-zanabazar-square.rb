@@ -3,7 +3,7 @@ class FontNotoSansZanabazarSquare < Formula
   desc "Noto Sans Zanabazar Square"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Zanabazar+Square"
   def install
-    (share/"fonts").install "NotoSansZanabazarSquare-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansZanabazarSquare-Regular.ttf")[0]
   end
   # No zap stanza required
 

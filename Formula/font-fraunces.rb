@@ -4,8 +4,8 @@ class FontFraunces < Formula
   desc "Variable font with four axes"
   homepage "https://fonts.google.com/specimen/Fraunces"
   def install
-    (share/"fonts").install "ofl/fraunces/" + "Fraunces-Italic[SOFT,WONK,opsz,wght].ttf"
-    (share/"fonts").install "ofl/fraunces/" + "Fraunces[SOFT,WONK,opsz,wght].ttf"
+    (share/"fonts").install Dir.glob("ofl/fraunces/./**/Fraunces-Italic\\[SOFT,WONK,opsz,wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/fraunces/./**/Fraunces\\[SOFT,WONK,opsz,wght\\].ttf")[0]
   end
   # No zap stanza required
 

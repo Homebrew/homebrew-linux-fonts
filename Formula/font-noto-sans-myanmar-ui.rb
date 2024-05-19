@@ -3,15 +3,15 @@ class FontNotoSansMyanmarUi < Formula
   desc "Noto Sans Myanmar UI"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Myanmar"
   def install
-    (share/"fonts").install "ofl/notosansmyanmarui/" + "NotoSansMyanmarUI-Black.ttf"
-    (share/"fonts").install "ofl/notosansmyanmarui/" + "NotoSansMyanmarUI-Bold.ttf"
-    (share/"fonts").install "ofl/notosansmyanmarui/" + "NotoSansMyanmarUI-ExtraBold.ttf"
-    (share/"fonts").install "ofl/notosansmyanmarui/" + "NotoSansMyanmarUI-ExtraLight.ttf"
-    (share/"fonts").install "ofl/notosansmyanmarui/" + "NotoSansMyanmarUI-Light.ttf"
-    (share/"fonts").install "ofl/notosansmyanmarui/" + "NotoSansMyanmarUI-Medium.ttf"
-    (share/"fonts").install "ofl/notosansmyanmarui/" + "NotoSansMyanmarUI-Regular.ttf"
-    (share/"fonts").install "ofl/notosansmyanmarui/" + "NotoSansMyanmarUI-SemiBold.ttf"
-    (share/"fonts").install "ofl/notosansmyanmarui/" + "NotoSansMyanmarUI-Thin.ttf"
+    (share/"fonts").install Dir.glob("ofl/notosansmyanmarui/./**/NotoSansMyanmarUI-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/notosansmyanmarui/./**/NotoSansMyanmarUI-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/notosansmyanmarui/./**/NotoSansMyanmarUI-ExtraBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/notosansmyanmarui/./**/NotoSansMyanmarUI-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/notosansmyanmarui/./**/NotoSansMyanmarUI-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/notosansmyanmarui/./**/NotoSansMyanmarUI-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/notosansmyanmarui/./**/NotoSansMyanmarUI-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/notosansmyanmarui/./**/NotoSansMyanmarUI-SemiBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/notosansmyanmarui/./**/NotoSansMyanmarUI-Thin.ttf")[0]
   end
   # No zap stanza required
 

@@ -4,9 +4,9 @@ class FontKaiseiDecol < Formula
   desc "Designed with the same element in kanji, the little dot at the end of the stroke"
   homepage "https://fonts.google.com/specimen/Kaisei+Decol"
   def install
-    (share/"fonts").install "ofl/kaiseidecol/" + "KaiseiDecol-Bold.ttf"
-    (share/"fonts").install "ofl/kaiseidecol/" + "KaiseiDecol-Medium.ttf"
-    (share/"fonts").install "ofl/kaiseidecol/" + "KaiseiDecol-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/kaiseidecol/./**/KaiseiDecol-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/kaiseidecol/./**/KaiseiDecol-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/kaiseidecol/./**/KaiseiDecol-Regular.ttf")[0]
   end
   # No zap stanza required
 

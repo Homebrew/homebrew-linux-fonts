@@ -3,7 +3,7 @@ class FontMervaleScript < Formula
   desc "Mervale Script"
   homepage "https://fonts.google.com/specimen/Mervale+Script"
   def install
-    (share/"fonts").install "MervaleScript-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/MervaleScript-Regular.ttf")[0]
   end
   # No zap stanza required
 

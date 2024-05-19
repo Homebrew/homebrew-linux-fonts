@@ -3,7 +3,7 @@ class FontSassyFrass < Formula
   desc "Sassy Frass"
   homepage "https://fonts.google.com/specimen/Sassy+Frass"
   def install
-    (share/"fonts").install "SassyFrass-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/SassyFrass-Regular.ttf")[0]
   end
   # No zap stanza required
 

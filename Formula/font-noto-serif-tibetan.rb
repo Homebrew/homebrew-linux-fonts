@@ -3,7 +3,7 @@ class FontNotoSerifTibetan < Formula
   desc "Noto Serif Tibetan"
   homepage "https://fonts.google.com/specimen/Noto+Serif+Tibetan"
   def install
-    (share/"fonts").install "NotoSerifTibetan[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSerifTibetan\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

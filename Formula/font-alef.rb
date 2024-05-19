@@ -3,9 +3,8 @@ class FontAlef < Formula
   desc "Alef"
   homepage "http://alef.hagilda.com/"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}TTF/Alef-Bold.ttf"
-    (share/"fonts").install "#{parent}TTF/Alef-Regular.ttf"
+    (share/"fonts").install Dir.glob("TTF/**/Alef-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("TTF/**/Alef-Regular.ttf")[0]
   end
   # No zap stanza required
 

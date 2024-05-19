@@ -3,7 +3,7 @@ class FontStaatliches < Formula
   desc "Staatliches"
   homepage "https://fonts.google.com/specimen/Staatliches"
   def install
-    (share/"fonts").install "Staatliches-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Staatliches-Regular.ttf")[0]
   end
   # No zap stanza required
 

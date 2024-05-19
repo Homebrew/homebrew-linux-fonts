@@ -3,7 +3,7 @@ class FontDiplomataSc < Formula
   desc "Diplomata SC"
   homepage "https://fonts.google.com/specimen/Diplomata+SC"
   def install
-    (share/"fonts").install "DiplomataSC-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/DiplomataSC-Regular.ttf")[0]
   end
   # No zap stanza required
 

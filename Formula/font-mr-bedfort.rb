@@ -3,7 +3,7 @@ class FontMrBedfort < Formula
   desc "Mr Bedfort"
   homepage "https://fonts.google.com/specimen/Mr+Bedfort"
   def install
-    (share/"fonts").install "MrBedfort-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/MrBedfort-Regular.ttf")[0]
   end
   # No zap stanza required
 

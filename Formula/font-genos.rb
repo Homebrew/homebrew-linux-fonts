@@ -4,8 +4,8 @@ class FontGenos < Formula
   desc "Modern display font with a futuristic feel"
   homepage "https://fonts.google.com/specimen/Genos"
   def install
-    (share/"fonts").install "ofl/genos/" + "Genos-Italic[wght].ttf"
-    (share/"fonts").install "ofl/genos/" + "Genos[wght].ttf"
+    (share/"fonts").install Dir.glob("ofl/genos/./**/Genos-Italic\\[wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/genos/./**/Genos\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

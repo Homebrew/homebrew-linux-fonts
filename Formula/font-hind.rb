@@ -5,11 +5,11 @@ class FontHind < Formula
   desc "Hind"
   homepage "https://github.com/itfoundry/hind"
   def install
-    (share/"fonts").install "ofl/hindvadodara/" + "Hind-Bold.otf"
-    (share/"fonts").install "ofl/hindvadodara/" + "Hind-Light.otf"
-    (share/"fonts").install "ofl/hindvadodara/" + "Hind-Medium.otf"
-    (share/"fonts").install "ofl/hindvadodara/" + "Hind-Regular.otf"
-    (share/"fonts").install "ofl/hindvadodara/" + "Hind-SemiBold.otf"
+    (share/"fonts").install Dir.glob("./**/Hind-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Hind-Light.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Hind-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Hind-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Hind-SemiBold.otf")[0]
   end
   # No zap stanza required
 

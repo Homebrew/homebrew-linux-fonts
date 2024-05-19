@@ -3,7 +3,7 @@ class FontCreepsterCaps < Formula
   desc "Creepster Caps"
   homepage "https://fonts.google.com/specimen/Creepster+Caps"
   def install
-    (share/"fonts").install "CreepsterCaps-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/CreepsterCaps-Regular.ttf")[0]
   end
   # No zap stanza required
 

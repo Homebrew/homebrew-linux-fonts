@@ -3,7 +3,7 @@ class FontPinyonScript < Formula
   desc "Pinyon Script"
   homepage "https://fonts.google.com/specimen/Pinyon+Script"
   def install
-    (share/"fonts").install "PinyonScript-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/PinyonScript-Regular.ttf")[0]
   end
   # No zap stanza required
 

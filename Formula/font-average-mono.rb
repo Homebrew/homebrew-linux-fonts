@@ -3,11 +3,10 @@ class FontAverageMono < Formula
   desc "Average Mono"
   homepage "https://fontlibrary.org/en/font/average-mono"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}AverageMono/AverageMono.otf"
-    (share/"fonts").install "#{parent}AverageMono/AverageMonoBold.otf"
-    (share/"fonts").install "#{parent}AverageMono/AverageMonoItalic.otf"
-    (share/"fonts").install "#{parent}AverageMono/AverageMonoBoldItalic.otf"
+    (share/"fonts").install Dir.glob("AverageMono/**/AverageMono.otf")[0]
+    (share/"fonts").install Dir.glob("AverageMono/**/AverageMonoBold.otf")[0]
+    (share/"fonts").install Dir.glob("AverageMono/**/AverageMonoItalic.otf")[0]
+    (share/"fonts").install Dir.glob("AverageMono/**/AverageMonoBoldItalic.otf")[0]
   end
   # No zap stanza required
 

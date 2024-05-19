@@ -3,7 +3,7 @@ class FontPatrickHand < Formula
   desc "Patrick Hand"
   homepage "https://fonts.google.com/specimen/Patrick+Hand"
   def install
-    (share/"fonts").install "PatrickHand-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/PatrickHand-Regular.ttf")[0]
   end
   # No zap stanza required
 

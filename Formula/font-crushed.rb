@@ -3,7 +3,7 @@ class FontCrushed < Formula
   desc "Crushed"
   homepage "https://fonts.google.com/specimen/Crushed"
   def install
-    (share/"fonts").install "Crushed-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Crushed-Regular.ttf")[0]
   end
   # No zap stanza required
 

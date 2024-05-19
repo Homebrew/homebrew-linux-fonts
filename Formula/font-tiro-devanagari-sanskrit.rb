@@ -4,8 +4,8 @@ class FontTiroDevanagariSanskrit < Formula
   desc "Broader proportions, generous counters, and strong diagonal strokes"
   homepage "https://fonts.google.com/specimen/Tiro+Devanagari+Sanskrit"
   def install
-    (share/"fonts").install "ofl/tirodevanagarisanskrit/" + "TiroDevanagariSanskrit-Italic.ttf"
-    (share/"fonts").install "ofl/tirodevanagarisanskrit/" + "TiroDevanagariSanskrit-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/tirodevanagarisanskrit/./**/TiroDevanagariSanskrit-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/tirodevanagarisanskrit/./**/TiroDevanagariSanskrit-Regular.ttf")[0]
   end
   # No zap stanza required
 

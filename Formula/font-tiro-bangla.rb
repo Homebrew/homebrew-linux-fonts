@@ -4,8 +4,8 @@ class FontTiroBangla < Formula
   desc "Suited to traditional literary publishing"
   homepage "https://fonts.google.com/specimen/Tiro+Bangla"
   def install
-    (share/"fonts").install "ofl/tirobangla/" + "TiroBangla-Italic.ttf"
-    (share/"fonts").install "ofl/tirobangla/" + "TiroBangla-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/tirobangla/./**/TiroBangla-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/tirobangla/./**/TiroBangla-Regular.ttf")[0]
   end
   # No zap stanza required
 

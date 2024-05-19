@@ -3,7 +3,7 @@ class FontFrijole < Formula
   desc "Frijole"
   homepage "https://fonts.google.com/specimen/Frijole"
   def install
-    (share/"fonts").install "Frijole-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Frijole-Regular.ttf")[0]
   end
   # No zap stanza required
 

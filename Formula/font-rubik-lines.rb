@@ -3,7 +3,7 @@ class FontRubikLines < Formula
   desc "Rubik Lines"
   homepage "https://fonts.google.com/specimen/Rubik+Lines"
   def install
-    (share/"fonts").install "RubikLines-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/RubikLines-Regular.ttf")[0]
   end
   # No zap stanza required
 

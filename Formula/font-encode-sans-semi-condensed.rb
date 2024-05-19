@@ -3,15 +3,15 @@ class FontEncodeSansSemiCondensed < Formula
   desc "Encode Sans Semi Condensed"
   homepage "https://fonts.google.com/specimen/Encode+Sans+Semi+Condensed"
   def install
-    (share/"fonts").install "ofl/encodesanssemicondensed/" + "EncodeSansSemiCondensed-Black.ttf"
-    (share/"fonts").install "ofl/encodesanssemicondensed/" + "EncodeSansSemiCondensed-Bold.ttf"
-    (share/"fonts").install "ofl/encodesanssemicondensed/" + "EncodeSansSemiCondensed-ExtraBold.ttf"
-    (share/"fonts").install "ofl/encodesanssemicondensed/" + "EncodeSansSemiCondensed-ExtraLight.ttf"
-    (share/"fonts").install "ofl/encodesanssemicondensed/" + "EncodeSansSemiCondensed-Light.ttf"
-    (share/"fonts").install "ofl/encodesanssemicondensed/" + "EncodeSansSemiCondensed-Medium.ttf"
-    (share/"fonts").install "ofl/encodesanssemicondensed/" + "EncodeSansSemiCondensed-Regular.ttf"
-    (share/"fonts").install "ofl/encodesanssemicondensed/" + "EncodeSansSemiCondensed-SemiBold.ttf"
-    (share/"fonts").install "ofl/encodesanssemicondensed/" + "EncodeSansSemiCondensed-Thin.ttf"
+    (share/"fonts").install Dir.glob("ofl/encodesanssemicondensed/./**/EncodeSansSemiCondensed-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/encodesanssemicondensed/./**/EncodeSansSemiCondensed-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/encodesanssemicondensed/./**/EncodeSansSemiCondensed-ExtraBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/encodesanssemicondensed/./**/EncodeSansSemiCondensed-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/encodesanssemicondensed/./**/EncodeSansSemiCondensed-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/encodesanssemicondensed/./**/EncodeSansSemiCondensed-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/encodesanssemicondensed/./**/EncodeSansSemiCondensed-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/encodesanssemicondensed/./**/EncodeSansSemiCondensed-SemiBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/encodesanssemicondensed/./**/EncodeSansSemiCondensed-Thin.ttf")[0]
   end
   # No zap stanza required
 

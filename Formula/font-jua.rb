@@ -3,7 +3,7 @@ class FontJua < Formula
   desc "Jua"
   homepage "https://fonts.google.com/specimen/Jua"
   def install
-    (share/"fonts").install "Jua-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Jua-Regular.ttf")[0]
   end
   # No zap stanza required
 

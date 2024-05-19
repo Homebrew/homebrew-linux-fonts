@@ -3,13 +3,13 @@ class FontMuktaMalar < Formula
   desc "Mukta Malar"
   homepage "https://fonts.google.com/specimen/Mukta+Malar"
   def install
-    (share/"fonts").install "ofl/muktamalar/" + "MuktaMalar-Bold.ttf"
-    (share/"fonts").install "ofl/muktamalar/" + "MuktaMalar-ExtraBold.ttf"
-    (share/"fonts").install "ofl/muktamalar/" + "MuktaMalar-ExtraLight.ttf"
-    (share/"fonts").install "ofl/muktamalar/" + "MuktaMalar-Light.ttf"
-    (share/"fonts").install "ofl/muktamalar/" + "MuktaMalar-Medium.ttf"
-    (share/"fonts").install "ofl/muktamalar/" + "MuktaMalar-Regular.ttf"
-    (share/"fonts").install "ofl/muktamalar/" + "MuktaMalar-SemiBold.ttf"
+    (share/"fonts").install Dir.glob("ofl/muktamalar/./**/MuktaMalar-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/muktamalar/./**/MuktaMalar-ExtraBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/muktamalar/./**/MuktaMalar-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/muktamalar/./**/MuktaMalar-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/muktamalar/./**/MuktaMalar-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/muktamalar/./**/MuktaMalar-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/muktamalar/./**/MuktaMalar-SemiBold.ttf")[0]
   end
   # No zap stanza required
 

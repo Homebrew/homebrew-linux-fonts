@@ -3,7 +3,7 @@ class FontBilbo < Formula
   desc "Bilbo"
   homepage "https://fonts.google.com/specimen/Bilbo"
   def install
-    (share/"fonts").install "Bilbo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Bilbo-Regular.ttf")[0]
   end
   # No zap stanza required
 

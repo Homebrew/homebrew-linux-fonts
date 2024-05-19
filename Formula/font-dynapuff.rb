@@ -3,7 +3,7 @@ class FontDynapuff < Formula
   desc "DynaPuff"
   homepage "https://fonts.google.com/specimen/DynaPuff"
   def install
-    (share/"fonts").install "DynaPuff[wdth,wght].ttf"
+    (share/"fonts").install Dir.glob("./**/DynaPuff\\[wdth,wght\\].ttf")[0]
   end
   # No zap stanza required
 

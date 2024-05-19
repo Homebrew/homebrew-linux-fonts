@@ -3,7 +3,7 @@ class FontMergeOne < Formula
   desc "Merge One"
   homepage "https://fonts.google.com/specimen/Merge+One"
   def install
-    (share/"fonts").install "MergeOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/MergeOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

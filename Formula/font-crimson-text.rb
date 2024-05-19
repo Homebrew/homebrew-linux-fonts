@@ -3,12 +3,12 @@ class FontCrimsonText < Formula
   desc "Crimson Text"
   homepage "https://fonts.google.com/specimen/Crimson+Text"
   def install
-    (share/"fonts").install "ofl/crimsontext/" + "CrimsonText-Bold.ttf"
-    (share/"fonts").install "ofl/crimsontext/" + "CrimsonText-BoldItalic.ttf"
-    (share/"fonts").install "ofl/crimsontext/" + "CrimsonText-Italic.ttf"
-    (share/"fonts").install "ofl/crimsontext/" + "CrimsonText-Regular.ttf"
-    (share/"fonts").install "ofl/crimsontext/" + "CrimsonText-SemiBold.ttf"
-    (share/"fonts").install "ofl/crimsontext/" + "CrimsonText-SemiBoldItalic.ttf"
+    (share/"fonts").install Dir.glob("ofl/crimsontext/./**/CrimsonText-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/crimsontext/./**/CrimsonText-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/crimsontext/./**/CrimsonText-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/crimsontext/./**/CrimsonText-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/crimsontext/./**/CrimsonText-SemiBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/crimsontext/./**/CrimsonText-SemiBoldItalic.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,8 +3,8 @@ class FontPlaywriteGbS < Formula
   desc "Playwrite GB S"
   homepage "https://github.com/TypeTogether/Playwrite/"
   def install
-    (share/"fonts").install "ofl/playwritegbs/" + "PlaywriteGBS-Italic[wght].ttf"
-    (share/"fonts").install "ofl/playwritegbs/" + "PlaywriteGBS[wght].ttf"
+    (share/"fonts").install Dir.glob("ofl/playwritegbs/./**/PlaywriteGBS-Italic\\[wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/playwritegbs/./**/PlaywriteGBS\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

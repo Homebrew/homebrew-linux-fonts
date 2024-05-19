@@ -4,7 +4,7 @@ class FontMeaCulpa < Formula
   desc "Beautiful formal script with flourished capitals"
   homepage "https://fonts.google.com/specimen/Mea+Culpa"
   def install
-    (share/"fonts").install "MeaCulpa-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/MeaCulpa-Regular.ttf")[0]
   end
   # No zap stanza required
 

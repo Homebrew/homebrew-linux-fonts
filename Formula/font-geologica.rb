@@ -3,7 +3,7 @@ class FontGeologica < Formula
   desc "Geologica"
   homepage "https://fonts.google.com/specimen/Geologica"
   def install
-    (share/"fonts").install "Geologica[CRSV,SHRP,slnt,wght].ttf"
+    (share/"fonts").install Dir.glob("./**/Geologica\\[CRSV,SHRP,slnt,wght\\].ttf")[0]
   end
   # No zap stanza required
 

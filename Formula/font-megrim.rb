@@ -3,7 +3,7 @@ class FontMegrim < Formula
   desc "Megrim"
   homepage "https://fonts.google.com/specimen/Megrim"
   def install
-    (share/"fonts").install "Megrim.ttf"
+    (share/"fonts").install Dir.glob("./**/Megrim.ttf")[0]
   end
   # No zap stanza required
 

@@ -4,10 +4,10 @@ class FontKayPhoDu < Formula
   desc "Font family for the kayah li script"
   homepage "https://fonts.google.com/specimen/Kay+Pho+Du"
   def install
-    (share/"fonts").install "ofl/kayphodu/" + "KayPhoDu-Bold.ttf"
-    (share/"fonts").install "ofl/kayphodu/" + "KayPhoDu-Medium.ttf"
-    (share/"fonts").install "ofl/kayphodu/" + "KayPhoDu-Regular.ttf"
-    (share/"fonts").install "ofl/kayphodu/" + "KayPhoDu-SemiBold.ttf"
+    (share/"fonts").install Dir.glob("ofl/kayphodu/./**/KayPhoDu-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/kayphodu/./**/KayPhoDu-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/kayphodu/./**/KayPhoDu-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/kayphodu/./**/KayPhoDu-SemiBold.ttf")[0]
   end
   # No zap stanza required
 

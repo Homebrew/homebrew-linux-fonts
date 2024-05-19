@@ -3,7 +3,7 @@ class FontPaletteMosaic < Formula
   desc "Palette Mosaic"
   homepage "https://fonts.google.com/specimen/Palette+Mosaic"
   def install
-    (share/"fonts").install "PaletteMosaic-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/PaletteMosaic-Regular.ttf")[0]
   end
   # No zap stanza required
 

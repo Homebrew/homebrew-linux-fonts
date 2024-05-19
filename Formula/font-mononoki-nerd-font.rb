@@ -6,18 +6,18 @@ class FontMononokiNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "MononokiNerdFont-Bold.ttf"
-    (share/"fonts").install "MononokiNerdFont-BoldItalic.ttf"
-    (share/"fonts").install "MononokiNerdFont-Italic.ttf"
-    (share/"fonts").install "MononokiNerdFont-Regular.ttf"
-    (share/"fonts").install "MononokiNerdFontMono-Bold.ttf"
-    (share/"fonts").install "MononokiNerdFontMono-BoldItalic.ttf"
-    (share/"fonts").install "MononokiNerdFontMono-Italic.ttf"
-    (share/"fonts").install "MononokiNerdFontMono-Regular.ttf"
-    (share/"fonts").install "MononokiNerdFontPropo-Bold.ttf"
-    (share/"fonts").install "MononokiNerdFontPropo-BoldItalic.ttf"
-    (share/"fonts").install "MononokiNerdFontPropo-Italic.ttf"
-    (share/"fonts").install "MononokiNerdFontPropo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/MononokiNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MononokiNerdFont-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MononokiNerdFont-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MononokiNerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MononokiNerdFontMono-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MononokiNerdFontMono-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MononokiNerdFontMono-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MononokiNerdFontMono-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MononokiNerdFontPropo-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MononokiNerdFontPropo-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MononokiNerdFontPropo-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MononokiNerdFontPropo-Regular.ttf")[0]
   end
   # No zap stanza required
 

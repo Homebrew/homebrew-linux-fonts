@@ -6,13 +6,12 @@ class FontDelugiaMonoPowerline < Formula
   desc "Cascadia Code + Nerd Fonts, minor difference between Caskaydia Cove Nerd Font"
   homepage "https://github.com/adam7/delugia-code"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}delugia-mono-powerline/DelugiaMonoPL-Bold.ttf"
-    (share/"fonts").install "#{parent}delugia-mono-powerline/DelugiaMonoPL-BoldItalic.ttf"
-    (share/"fonts").install "#{parent}delugia-mono-powerline/DelugiaMonoPL-Italic.ttf"
-    (share/"fonts").install "#{parent}delugia-mono-powerline/DelugiaMonoPL.ttf"
-    (share/"fonts").install "#{parent}delugia-mono-powerline/DelugiaMonoPLLight-Italic.ttf"
-    (share/"fonts").install "#{parent}delugia-mono-powerline/DelugiaMonoPLLight.ttf"
+    (share/"fonts").install Dir.glob("delugia-mono-powerline/**/DelugiaMonoPL-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("delugia-mono-powerline/**/DelugiaMonoPL-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("delugia-mono-powerline/**/DelugiaMonoPL-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("delugia-mono-powerline/**/DelugiaMonoPL.ttf")[0]
+    (share/"fonts").install Dir.glob("delugia-mono-powerline/**/DelugiaMonoPLLight-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("delugia-mono-powerline/**/DelugiaMonoPLLight.ttf")[0]
   end
   # No zap stanza required
 

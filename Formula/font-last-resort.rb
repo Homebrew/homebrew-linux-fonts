@@ -6,7 +6,7 @@ class FontLastResort < Formula
   desc "Special-purpose font, providing glyphs to represent types of Unicode characters"
   homepage "https://github.com/unicode-org/last-resort-font"
   def install
-    (share/"fonts").install "LastResort-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/LastResort-Regular.ttf")[0]
   end
   # No zap stanza required
 

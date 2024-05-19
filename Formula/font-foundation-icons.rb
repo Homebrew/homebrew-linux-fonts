@@ -3,8 +3,7 @@ class FontFoundationIcons < Formula
   desc "Foundation Icons"
   homepage "https://zurb.com/playground/foundation-icon-fonts-3"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}foundation-icons/foundation-icons.ttf"
+    (share/"fonts").install Dir.glob("foundation-icons/**/foundation-icons.ttf")[0]
   end
   # No zap stanza required
 

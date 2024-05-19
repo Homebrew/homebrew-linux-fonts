@@ -3,7 +3,7 @@ class FontRibeyeMarrow < Formula
   desc "Ribeye Marrow"
   homepage "https://fonts.google.com/specimen/Ribeye+Marrow"
   def install
-    (share/"fonts").install "RibeyeMarrow-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/RibeyeMarrow-Regular.ttf")[0]
   end
   # No zap stanza required
 

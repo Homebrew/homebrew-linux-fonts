@@ -3,7 +3,7 @@ class FontAbel < Formula
   desc "Abel"
   homepage "https://fonts.google.com/specimen/Abel"
   def install
-    (share/"fonts").install "Abel-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Abel-Regular.ttf")[0]
   end
   # No zap stanza required
 

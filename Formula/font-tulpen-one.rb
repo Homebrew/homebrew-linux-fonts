@@ -3,7 +3,7 @@ class FontTulpenOne < Formula
   desc "Tulpen One"
   homepage "https://fonts.google.com/specimen/Tulpen+One"
   def install
-    (share/"fonts").install "TulpenOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/TulpenOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

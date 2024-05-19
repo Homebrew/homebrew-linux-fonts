@@ -3,7 +3,7 @@ class FontGloriaHallelujah < Formula
   desc "Gloria Hallelujah"
   homepage "https://fonts.google.com/specimen/Gloria+Hallelujah"
   def install
-    (share/"fonts").install "GloriaHallelujah.ttf"
+    (share/"fonts").install Dir.glob("./**/GloriaHallelujah.ttf")[0]
   end
   # No zap stanza required
 

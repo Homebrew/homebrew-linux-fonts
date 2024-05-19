@@ -3,8 +3,8 @@ class FontCorben < Formula
   desc "Corben"
   homepage "https://fonts.google.com/specimen/Corben"
   def install
-    (share/"fonts").install "ofl/corben/" + "Corben-Bold.ttf"
-    (share/"fonts").install "ofl/corben/" + "Corben-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/corben/./**/Corben-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/corben/./**/Corben-Regular.ttf")[0]
   end
   # No zap stanza required
 

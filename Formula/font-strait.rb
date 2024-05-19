@@ -3,7 +3,7 @@ class FontStrait < Formula
   desc "Strait"
   homepage "https://fonts.google.com/specimen/Strait"
   def install
-    (share/"fonts").install "Strait-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Strait-Regular.ttf")[0]
   end
   # No zap stanza required
 

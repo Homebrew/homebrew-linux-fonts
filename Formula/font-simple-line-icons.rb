@@ -5,8 +5,7 @@ class FontSimpleLineIcons < Formula
   desc "Simple Line Icons"
   homepage "https://simplelineicons.github.io/"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}simple-line-icons-#{version}/fonts/Simple-Line-Icons.ttf"
+    (share/"fonts").install Dir.glob("simple-line-icons-#{version}/fonts/**/Simple-Line-Icons.ttf")[0]
   end
   # No zap stanza required
 

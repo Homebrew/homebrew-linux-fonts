@@ -3,7 +3,7 @@ class FontNotoSansAvestan < Formula
   desc "Noto Sans Avestan"
   homepage "https://www.google.com/get/noto/#sans-avst"
   def install
-    (share/"fonts").install "NotoSansAvestan-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansAvestan-Regular.ttf")[0]
   end
   # No zap stanza required
 

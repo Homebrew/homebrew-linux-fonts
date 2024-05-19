@@ -3,8 +3,8 @@ class FontMagra < Formula
   desc "Magra"
   homepage "https://fonts.google.com/specimen/Magra"
   def install
-    (share/"fonts").install "ofl/magra/" + "Magra-Bold.ttf"
-    (share/"fonts").install "ofl/magra/" + "Magra-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/magra/./**/Magra-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/magra/./**/Magra-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontBlakaHollow < Formula
   desc "Blaka Hollow"
   homepage "https://fonts.google.com/specimen/Blaka+Hollow"
   def install
-    (share/"fonts").install "BlakaHollow-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/BlakaHollow-Regular.ttf")[0]
   end
   # No zap stanza required
 

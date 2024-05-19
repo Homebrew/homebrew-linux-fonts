@@ -6,21 +6,20 @@ class FontHasklig < Formula
   desc "Code font with monospaced ligatures"
   homepage "https://github.com/i-tu/Hasklig"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}OTF/Hasklig-Black.otf"
-    (share/"fonts").install "#{parent}OTF/Hasklig-BlackIt.otf"
-    (share/"fonts").install "#{parent}OTF/Hasklig-Bold.otf"
-    (share/"fonts").install "#{parent}OTF/Hasklig-BoldIt.otf"
-    (share/"fonts").install "#{parent}OTF/Hasklig-ExtraLight.otf"
-    (share/"fonts").install "#{parent}OTF/Hasklig-ExtraLightIt.otf"
-    (share/"fonts").install "#{parent}OTF/Hasklig-It.otf"
-    (share/"fonts").install "#{parent}OTF/Hasklig-Light.otf"
-    (share/"fonts").install "#{parent}OTF/Hasklig-LightIt.otf"
-    (share/"fonts").install "#{parent}OTF/Hasklig-Medium.otf"
-    (share/"fonts").install "#{parent}OTF/Hasklig-MediumIt.otf"
-    (share/"fonts").install "#{parent}OTF/Hasklig-Regular.otf"
-    (share/"fonts").install "#{parent}OTF/Hasklig-Semibold.otf"
-    (share/"fonts").install "#{parent}OTF/Hasklig-SemiboldIt.otf"
+    (share/"fonts").install Dir.glob("OTF/**/Hasklig-Black.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/**/Hasklig-BlackIt.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/**/Hasklig-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/**/Hasklig-BoldIt.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/**/Hasklig-ExtraLight.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/**/Hasklig-ExtraLightIt.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/**/Hasklig-It.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/**/Hasklig-Light.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/**/Hasklig-LightIt.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/**/Hasklig-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/**/Hasklig-MediumIt.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/**/Hasklig-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/**/Hasklig-Semibold.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/**/Hasklig-SemiboldIt.otf")[0]
   end
   # No zap stanza required
 

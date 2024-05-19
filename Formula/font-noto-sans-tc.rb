@@ -4,7 +4,7 @@ class FontNotoSansTc < Formula
   desc "Unmodulated (“sans serif”) design for languages in taiwan and macau"
   homepage "https://fonts.google.com/specimen/Noto+Sans+TC"
   def install
-    (share/"fonts").install "NotoSansTC[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansTC\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

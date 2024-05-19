@@ -3,7 +3,7 @@ class FontEsteban < Formula
   desc "Esteban"
   homepage "https://fonts.google.com/specimen/Esteban"
   def install
-    (share/"fonts").install "Esteban-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Esteban-Regular.ttf")[0]
   end
   # No zap stanza required
 

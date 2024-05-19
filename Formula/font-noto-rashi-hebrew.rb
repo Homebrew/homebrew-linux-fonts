@@ -3,7 +3,7 @@ class FontNotoRashiHebrew < Formula
   desc "Noto Rashi Hebrew"
   homepage "https://fonts.google.com/specimen/Noto+Rashi+Hebrew"
   def install
-    (share/"fonts").install "NotoRashiHebrew[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/NotoRashiHebrew\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

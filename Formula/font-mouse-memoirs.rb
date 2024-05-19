@@ -3,7 +3,7 @@ class FontMouseMemoirs < Formula
   desc "Mouse Memoirs"
   homepage "https://fonts.google.com/specimen/Mouse+Memoirs"
   def install
-    (share/"fonts").install "MouseMemoirs-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/MouseMemoirs-Regular.ttf")[0]
   end
   # No zap stanza required
 

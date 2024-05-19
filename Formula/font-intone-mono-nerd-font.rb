@@ -6,30 +6,30 @@ class FontIntoneMonoNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "ofl/intertight/" + "IntoneMonoNerdFont-Bold.ttf"
-    (share/"fonts").install "ofl/intertight/" + "IntoneMonoNerdFont-BoldItalic.ttf"
-    (share/"fonts").install "ofl/intertight/" + "IntoneMonoNerdFont-Italic.ttf"
-    (share/"fonts").install "ofl/intertight/" + "IntoneMonoNerdFont-Light.ttf"
-    (share/"fonts").install "ofl/intertight/" + "IntoneMonoNerdFont-LightItalic.ttf"
-    (share/"fonts").install "ofl/intertight/" + "IntoneMonoNerdFont-Medium.ttf"
-    (share/"fonts").install "ofl/intertight/" + "IntoneMonoNerdFont-MediumItalic.ttf"
-    (share/"fonts").install "ofl/intertight/" + "IntoneMonoNerdFont-Regular.ttf"
-    (share/"fonts").install "ofl/intertight/" + "IntoneMonoNerdFontMono-Bold.ttf"
-    (share/"fonts").install "ofl/intertight/" + "IntoneMonoNerdFontMono-BoldItalic.ttf"
-    (share/"fonts").install "ofl/intertight/" + "IntoneMonoNerdFontMono-Italic.ttf"
-    (share/"fonts").install "ofl/intertight/" + "IntoneMonoNerdFontMono-Light.ttf"
-    (share/"fonts").install "ofl/intertight/" + "IntoneMonoNerdFontMono-LightItalic.ttf"
-    (share/"fonts").install "ofl/intertight/" + "IntoneMonoNerdFontMono-Medium.ttf"
-    (share/"fonts").install "ofl/intertight/" + "IntoneMonoNerdFontMono-MediumItalic.ttf"
-    (share/"fonts").install "ofl/intertight/" + "IntoneMonoNerdFontMono-Regular.ttf"
-    (share/"fonts").install "ofl/intertight/" + "IntoneMonoNerdFontPropo-Bold.ttf"
-    (share/"fonts").install "ofl/intertight/" + "IntoneMonoNerdFontPropo-BoldItalic.ttf"
-    (share/"fonts").install "ofl/intertight/" + "IntoneMonoNerdFontPropo-Italic.ttf"
-    (share/"fonts").install "ofl/intertight/" + "IntoneMonoNerdFontPropo-Light.ttf"
-    (share/"fonts").install "ofl/intertight/" + "IntoneMonoNerdFontPropo-LightItalic.ttf"
-    (share/"fonts").install "ofl/intertight/" + "IntoneMonoNerdFontPropo-Medium.ttf"
-    (share/"fonts").install "ofl/intertight/" + "IntoneMonoNerdFontPropo-MediumItalic.ttf"
-    (share/"fonts").install "ofl/intertight/" + "IntoneMonoNerdFontPropo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/IntoneMonoNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/IntoneMonoNerdFont-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/IntoneMonoNerdFont-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/IntoneMonoNerdFont-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/IntoneMonoNerdFont-LightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/IntoneMonoNerdFont-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/IntoneMonoNerdFont-MediumItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/IntoneMonoNerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/IntoneMonoNerdFontMono-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/IntoneMonoNerdFontMono-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/IntoneMonoNerdFontMono-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/IntoneMonoNerdFontMono-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/IntoneMonoNerdFontMono-LightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/IntoneMonoNerdFontMono-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/IntoneMonoNerdFontMono-MediumItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/IntoneMonoNerdFontMono-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/IntoneMonoNerdFontPropo-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/IntoneMonoNerdFontPropo-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/IntoneMonoNerdFontPropo-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/IntoneMonoNerdFontPropo-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/IntoneMonoNerdFontPropo-LightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/IntoneMonoNerdFontPropo-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/IntoneMonoNerdFontPropo-MediumItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/IntoneMonoNerdFontPropo-Regular.ttf")[0]
   end
   # No zap stanza required
 

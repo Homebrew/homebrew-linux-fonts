@@ -4,7 +4,7 @@ class FontSplineSans < Formula
   desc "Original typeface initiated by the spline team"
   homepage "https://fonts.google.com/specimen/Spline+Sans"
   def install
-    (share/"fonts").install "SplineSans[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/SplineSans\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

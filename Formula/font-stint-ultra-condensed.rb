@@ -3,7 +3,7 @@ class FontStintUltraCondensed < Formula
   desc "Stint Ultra Condensed"
   homepage "https://fonts.google.com/specimen/Stint+Ultra+Condensed"
   def install
-    (share/"fonts").install "StintUltraCondensed-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/StintUltraCondensed-Regular.ttf")[0]
   end
   # No zap stanza required
 

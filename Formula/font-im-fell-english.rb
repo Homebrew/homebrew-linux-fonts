@@ -3,8 +3,8 @@ class FontImFellEnglish < Formula
   desc "IM Fell English"
   homepage "https://fonts.google.com/specimen/IM+Fell+English"
   def install
-    (share/"fonts").install "ofl/imfellenglish/" + "IMFeENit28P.ttf"
-    (share/"fonts").install "ofl/imfellenglish/" + "IMFeENrm28P.ttf"
+    (share/"fonts").install Dir.glob("ofl/imfellenglish/./**/IMFeENit28P.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/imfellenglish/./**/IMFeENrm28P.ttf")[0]
   end
   # No zap stanza required
 

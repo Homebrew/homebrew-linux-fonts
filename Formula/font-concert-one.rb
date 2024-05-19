@@ -3,7 +3,7 @@ class FontConcertOne < Formula
   desc "Concert One"
   homepage "https://fonts.google.com/specimen/Concert+One"
   def install
-    (share/"fonts").install "ConcertOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/ConcertOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

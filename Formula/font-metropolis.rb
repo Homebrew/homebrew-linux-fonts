@@ -4,24 +4,24 @@ class FontMetropolis < Formula
   desc "Modern, geometric typeface"
   homepage "https://www.1001fonts.com/metropolis-font.html"
   def install
-    (share/"fonts").install "Metropolis-Black.otf"
-    (share/"fonts").install "Metropolis-BlackItalic.otf"
-    (share/"fonts").install "Metropolis-Bold.otf"
-    (share/"fonts").install "Metropolis-BoldItalic.otf"
-    (share/"fonts").install "Metropolis-ExtraBold.otf"
-    (share/"fonts").install "Metropolis-ExtraBoldItalic.otf"
-    (share/"fonts").install "Metropolis-ExtraLight.otf"
-    (share/"fonts").install "Metropolis-ExtraLightItalic.otf"
-    (share/"fonts").install "Metropolis-Light.otf"
-    (share/"fonts").install "Metropolis-LightItalic.otf"
-    (share/"fonts").install "Metropolis-Medium.otf"
-    (share/"fonts").install "Metropolis-MediumItalic.otf"
-    (share/"fonts").install "Metropolis-Regular.otf"
-    (share/"fonts").install "Metropolis-RegularItalic.otf"
-    (share/"fonts").install "Metropolis-SemiBold.otf"
-    (share/"fonts").install "Metropolis-SemiBoldItalic.otf"
-    (share/"fonts").install "Metropolis-Thin.otf"
-    (share/"fonts").install "Metropolis-ThinItalic.otf"
+    (share/"fonts").install Dir.glob("./**/Metropolis-Black.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Metropolis-BlackItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Metropolis-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Metropolis-BoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Metropolis-ExtraBold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Metropolis-ExtraBoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Metropolis-ExtraLight.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Metropolis-ExtraLightItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Metropolis-Light.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Metropolis-LightItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Metropolis-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Metropolis-MediumItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Metropolis-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Metropolis-RegularItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Metropolis-SemiBold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Metropolis-SemiBoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Metropolis-Thin.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Metropolis-ThinItalic.otf")[0]
   end
   # No zap stanza required
 

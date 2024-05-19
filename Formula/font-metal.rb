@@ -3,7 +3,7 @@ class FontMetal < Formula
   desc "Metal"
   homepage "https://fonts.google.com/specimen/Metal"
   def install
-    (share/"fonts").install "Metal-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Metal-Regular.ttf")[0]
   end
   # No zap stanza required
 

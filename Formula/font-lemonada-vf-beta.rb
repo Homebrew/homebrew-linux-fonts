@@ -3,7 +3,7 @@ class FontLemonadaVfBeta < Formula
   desc "Lemonada VF Beta"
   homepage "https://fonts.google.com/specimen/Lemonada+VF+Beta"
   def install
-    (share/"fonts").install "LemonadaVFBeta.ttf"
+    (share/"fonts").install Dir.glob("./**/LemonadaVFBeta.ttf")[0]
   end
   # No zap stanza required
 

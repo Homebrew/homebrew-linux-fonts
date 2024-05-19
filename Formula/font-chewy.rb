@@ -3,7 +3,7 @@ class FontChewy < Formula
   desc "Chewy"
   homepage "https://fonts.google.com/specimen/Chewy"
   def install
-    (share/"fonts").install "Chewy-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Chewy-Regular.ttf")[0]
   end
   # No zap stanza required
 

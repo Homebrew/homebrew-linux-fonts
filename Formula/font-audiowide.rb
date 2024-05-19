@@ -3,7 +3,7 @@ class FontAudiowide < Formula
   desc "Audiowide"
   homepage "https://fonts.google.com/specimen/Audiowide"
   def install
-    (share/"fonts").install "Audiowide-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Audiowide-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -4,7 +4,7 @@ class FontGrechenFuemen < Formula
   desc "Playful font with an unorthodox use of thick and thin weights"
   homepage "https://fonts.google.com/specimen/Grechen+Fuemen"
   def install
-    (share/"fonts").install "GrechenFuemen-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/GrechenFuemen-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,8 +3,8 @@ class FontPlaywriteGbJ < Formula
   desc "Playwrite GB J"
   homepage "https://github.com/TypeTogether/Playwrite"
   def install
-    (share/"fonts").install "ofl/playwritegbj/" + "PlaywriteGBJ-Italic[wght].ttf"
-    (share/"fonts").install "ofl/playwritegbj/" + "PlaywriteGBJ[wght].ttf"
+    (share/"fonts").install Dir.glob("ofl/playwritegbj/./**/PlaywriteGBJ-Italic\\[wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/playwritegbj/./**/PlaywriteGBJ\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

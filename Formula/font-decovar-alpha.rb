@@ -3,7 +3,7 @@ class FontDecovarAlpha < Formula
   desc "Decovar Alpha"
   homepage "https://fonts.google.com/earlyaccess"
   def install
-    (share/"fonts").install "DecovarAlpha-VF.ttf"
+    (share/"fonts").install Dir.glob("./**/DecovarAlpha-VF.ttf")[0]
   end
   # No zap stanza required
 

@@ -4,7 +4,7 @@ class FontNerkoOne < Formula
   desc "Chunky ‘marker’ effect font"
   homepage "https://fonts.google.com/specimen/Nerko+One"
   def install
-    (share/"fonts").install "NerkoOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NerkoOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

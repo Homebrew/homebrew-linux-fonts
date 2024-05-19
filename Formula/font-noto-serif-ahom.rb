@@ -3,7 +3,7 @@ class FontNotoSerifAhom < Formula
   desc "Noto Serif Ahom"
   homepage "https://fonts.google.com/specimen/Noto+Serif+Ahom"
   def install
-    (share/"fonts").install "NotoSerifAhom-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSerifAhom-Regular.ttf")[0]
   end
   # No zap stanza required
 

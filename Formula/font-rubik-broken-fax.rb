@@ -3,7 +3,7 @@ class FontRubikBrokenFax < Formula
   desc "Rubik Broken Fax"
   homepage "https://fonts.google.com/specimen/Rubik+Broken+Fax"
   def install
-    (share/"fonts").install "RubikBrokenFax-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/RubikBrokenFax-Regular.ttf")[0]
   end
   # No zap stanza required
 

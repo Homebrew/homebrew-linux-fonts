@@ -5,17 +5,16 @@ class FontBitstreamVera < Formula
   desc "Bitstream Vera"
   homepage "https://www.gnome.org/fonts/"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}ttf-bitstream-vera-1.10/Vera.ttf"
-    (share/"fonts").install "#{parent}ttf-bitstream-vera-1.10/VeraBI.ttf"
-    (share/"fonts").install "#{parent}ttf-bitstream-vera-1.10/VeraBd.ttf"
-    (share/"fonts").install "#{parent}ttf-bitstream-vera-1.10/VeraIt.ttf"
-    (share/"fonts").install "#{parent}ttf-bitstream-vera-1.10/VeraMoBI.ttf"
-    (share/"fonts").install "#{parent}ttf-bitstream-vera-1.10/VeraMoBd.ttf"
-    (share/"fonts").install "#{parent}ttf-bitstream-vera-1.10/VeraMoIt.ttf"
-    (share/"fonts").install "#{parent}ttf-bitstream-vera-1.10/VeraMono.ttf"
-    (share/"fonts").install "#{parent}ttf-bitstream-vera-1.10/VeraSe.ttf"
-    (share/"fonts").install "#{parent}ttf-bitstream-vera-1.10/VeraSeBd.ttf"
+    (share/"fonts").install Dir.glob("ttf-bitstream-vera-1.10/**/Vera.ttf")[0]
+    (share/"fonts").install Dir.glob("ttf-bitstream-vera-1.10/**/VeraBI.ttf")[0]
+    (share/"fonts").install Dir.glob("ttf-bitstream-vera-1.10/**/VeraBd.ttf")[0]
+    (share/"fonts").install Dir.glob("ttf-bitstream-vera-1.10/**/VeraIt.ttf")[0]
+    (share/"fonts").install Dir.glob("ttf-bitstream-vera-1.10/**/VeraMoBI.ttf")[0]
+    (share/"fonts").install Dir.glob("ttf-bitstream-vera-1.10/**/VeraMoBd.ttf")[0]
+    (share/"fonts").install Dir.glob("ttf-bitstream-vera-1.10/**/VeraMoIt.ttf")[0]
+    (share/"fonts").install Dir.glob("ttf-bitstream-vera-1.10/**/VeraMono.ttf")[0]
+    (share/"fonts").install Dir.glob("ttf-bitstream-vera-1.10/**/VeraSe.ttf")[0]
+    (share/"fonts").install Dir.glob("ttf-bitstream-vera-1.10/**/VeraSeBd.ttf")[0]
   end
   # No zap stanza required
 

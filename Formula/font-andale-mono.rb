@@ -3,7 +3,7 @@ class FontAndaleMono < Formula
   desc "Andale Mono"
   homepage "https://sourceforge.net/projects/corefonts/files/the%20fonts/final/"
   def install
-    (share/"fonts").install "AndaleMo.TTF"
+    (share/"fonts").install Dir.glob("./**/AndaleMo.TTF")[0]
   end
   # No zap stanza required
 

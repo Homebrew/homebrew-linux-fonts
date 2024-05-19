@@ -4,7 +4,7 @@ class FontNotoSerifOriya < Formula
   desc "Modulated (“serif”) design for texts in the indic odia (oriya) script"
   homepage "https://fonts.google.com/specimen/Noto+Serif+Oriya"
   def install
-    (share/"fonts").install "NotoSerifOriya[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSerifOriya\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

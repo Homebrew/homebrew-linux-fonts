@@ -4,7 +4,7 @@ class FontGabarito < Formula
   desc "Geometric sans typeface with 6 weights ranging from regular to black"
   homepage "https://fonts.google.com/specimen/Gabarito"
   def install
-    (share/"fonts").install "Gabarito[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/Gabarito\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

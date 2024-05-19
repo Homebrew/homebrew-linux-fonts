@@ -3,8 +3,8 @@ class FontCorinthia < Formula
   desc "Corinthia"
   homepage "https://fonts.google.com/specimen/Corinthia"
   def install
-    (share/"fonts").install "ofl/corinthia/" + "Corinthia-Bold.ttf"
-    (share/"fonts").install "ofl/corinthia/" + "Corinthia-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/corinthia/./**/Corinthia-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/corinthia/./**/Corinthia-Regular.ttf")[0]
   end
   # No zap stanza required
 

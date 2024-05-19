@@ -3,7 +3,7 @@ class FontNotoSansOldSouthArabian < Formula
   desc "Noto Sans Old South Arabian"
   homepage "https://www.google.com/get/noto/#sans-sarb"
   def install
-    (share/"fonts").install "NotoSansOldSouthArabian-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansOldSouthArabian-Regular.ttf")[0]
   end
   # No zap stanza required
 

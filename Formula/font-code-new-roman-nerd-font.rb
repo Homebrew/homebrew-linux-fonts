@@ -6,15 +6,15 @@ class FontCodeNewRomanNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "ofl/coda/" + "CodeNewRomanNerdFont-Bold.otf"
-    (share/"fonts").install "ofl/coda/" + "CodeNewRomanNerdFont-Italic.otf"
-    (share/"fonts").install "ofl/coda/" + "CodeNewRomanNerdFont-Regular.otf"
-    (share/"fonts").install "ofl/coda/" + "CodeNewRomanNerdFontMono-Bold.otf"
-    (share/"fonts").install "ofl/coda/" + "CodeNewRomanNerdFontMono-Italic.otf"
-    (share/"fonts").install "ofl/coda/" + "CodeNewRomanNerdFontMono-Regular.otf"
-    (share/"fonts").install "ofl/coda/" + "CodeNewRomanNerdFontPropo-Bold.otf"
-    (share/"fonts").install "ofl/coda/" + "CodeNewRomanNerdFontPropo-Italic.otf"
-    (share/"fonts").install "ofl/coda/" + "CodeNewRomanNerdFontPropo-Regular.otf"
+    (share/"fonts").install Dir.glob("./**/CodeNewRomanNerdFont-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CodeNewRomanNerdFont-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CodeNewRomanNerdFont-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CodeNewRomanNerdFontMono-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CodeNewRomanNerdFontMono-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CodeNewRomanNerdFontMono-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CodeNewRomanNerdFontPropo-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CodeNewRomanNerdFontPropo-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CodeNewRomanNerdFontPropo-Regular.otf")[0]
   end
   # No zap stanza required
 

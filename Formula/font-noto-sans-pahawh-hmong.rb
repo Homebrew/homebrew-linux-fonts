@@ -3,7 +3,7 @@ class FontNotoSansPahawhHmong < Formula
   desc "Noto Sans Pahawh Hmong"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Pahawh+Hmong"
   def install
-    (share/"fonts").install "NotoSansPahawhHmong-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansPahawhHmong-Regular.ttf")[0]
   end
   # No zap stanza required
 

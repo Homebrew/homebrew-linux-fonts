@@ -3,7 +3,7 @@ class FontNotoSansWarangCiti < Formula
   desc "Noto Sans Warang Citi"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Warang+Citi"
   def install
-    (share/"fonts").install "NotoSansWarangCiti-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansWarangCiti-Regular.ttf")[0]
   end
   # No zap stanza required
 

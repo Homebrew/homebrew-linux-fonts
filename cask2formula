@@ -72,10 +72,11 @@ class CaskParser < Parslet::Parser
     root :cask
 end
 
+$my_latest = false
+$my_no_check = false
+$my_only_path = ""
+
 class CaskTransform < Parslet::Transform
-    @@no_check = false
-    @@latest = false
-    @@only_path = ""
     rule(:string => simple(:string)) {
         string.to_s.sub(/^'([^"]*)'$/) { '"'+$1+'"' }
     }
@@ -95,13 +96,16 @@ class CaskTransform < Parslet::Transform
         comment.to_s + "\n"
     }
     rule(:font   => simple(:font)) {
-      afont = font.to_s
-      afont = afont.sub(/"(.*\/)/, '"#{parent}\1')
-      if @@only_path != "" && !afont.include?('#{parent}') then
-        afont = "\"#{@@only_path}/\" + " + afont
+      afont = font.to_s.sub(/^"([^"]*)"$/, '\1')
+      dirname = File.dirname(afont)
+      basename = File.basename(afont)
+      afont = File.join(dirname, "**", basename)
+      if $my_only_path then
+        afont = File.join($my_only_path, afont)
       end
       afont = replace_cask_version_properties(afont)
-      "(share/\"fonts\").install #{afont}"
+      afont = afont.sub(/\[/, '\\\\\\\\[').sub(/\]/, '\\\\\\\\]')
+      "(share/\"fonts\").install Dir.glob(\"#{afont}\")[0]"
     }
     rule(:name   => simple(:name),
          :before => sequence(:before),
@@ -110,12 +114,11 @@ class CaskTransform < Parslet::Transform
         commands1 = before.select{|c| c != ""}
         camelcase = name.to_s.gsub('"', "").gsub(/(^|-)(\w)/) { $2.upcase }
         commands2 = after.select{|c| c != ""}+["test do\n  end"]
-        parent = "parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''\n    "
         <<~EOS
         class #{camelcase} < Formula
           #{commands1.join("\n  ")}
           def install
-            #{parent if fonts.to_s.include? "\#{parent}"}#{fonts.join("\n    ")}
+            #{fonts.join("\n    ")}
           end
           #{commands2.join("\n  ")}
         end
@@ -135,23 +138,18 @@ class CaskTransform < Parslet::Transform
             ""
         elsif command == "appcast" || command == "container" then #TODO: "container type:""
             ""
-        elsif command == "sha256" && arguments.join(", ") == ":no_check" then
-            @@no_check = true
+        elsif command == "sha256" && arguments.join(", ").include?(":no_check") then
+            $my_no_check = true
             ""
-        elsif command == "version" && arguments.join(", ") == ":latest" then
-            @@latest = true
+        elsif command == "version" && arguments.join(", ").include?(":latest") then
+            $my_latest = true
             ""
-        elsif command == "url" && @@latest && @@no_check then
-            @@latest = false
-            @@no_check = false
-            if arguments.find{ |arg| arg.to_s.include? "only_path" } then
-              @@only_path = arguments
-                .find{ |arg| arg.to_s.include? "only_path" }
-                .to_s
-                .gsub(/only_path:\s*"(.*)"/, '\1')
-              p @@only_path
-            else
-              @@only_path = ""
+        elsif command == "url" && $my_latest && $my_no_check then
+            if arguments.join(", ").include? "only_path" then
+                $my_only_path = arguments
+                    .find{ |arg| arg.to_s.include? "only_path" }
+                    .to_s
+                    .gsub(/only_path:\s*"(.*)"/, '\1')
             end
             "head #{arguments.join(", ")}"
         elsif command == "livecheck" then
@@ -166,19 +164,21 @@ end
 
 class CaskConverter
     def convert
+      ignores = IO.readlines('.caskignore', chomp: true)
       transform = CaskTransform.new(true)
       parser = CaskParser.new
-      ignores = IO.readlines('.caskignore', chomp: true)
       Dir.glob('./homebrew-cask-fonts/Casks/font/*/*.rb').select{|file|
         ignores.all? { |ignore| !File.fnmatch(ignore, file) }
       }.each do |cask|
         p "< #{cask}"
         recipe = File.read(cask, encoding: 'UTF-8')
+        $my_latest = false
+        $my_no_check = false
+        $my_only_path = nil
         recipe = parser.parse(recipe)
         recipe = transform.apply(recipe)
         formula = cask.sub(%r{homebrew-cask-fonts/Casks/font/font-[0-9a-zA-Z]/}, 'Formula/')
         File.write(formula, recipe)
-        p "> #{formula}"
       rescue Parslet::ParseFailed => failure
         $stderr.puts failure.parse_failure_cause.ascii_tree
         exit 1

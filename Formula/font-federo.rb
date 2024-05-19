@@ -3,7 +3,7 @@ class FontFedero < Formula
   desc "Federo"
   homepage "https://fonts.google.com/specimen/Federo"
   def install
-    (share/"fonts").install "Federo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Federo-Regular.ttf")[0]
   end
   # No zap stanza required
 

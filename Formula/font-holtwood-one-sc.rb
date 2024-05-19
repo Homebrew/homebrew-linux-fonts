@@ -3,7 +3,7 @@ class FontHoltwoodOneSc < Formula
   desc "Holtwood One SC"
   homepage "https://fonts.google.com/specimen/Holtwood+One+SC"
   def install
-    (share/"fonts").install "HoltwoodOneSC-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/HoltwoodOneSC-Regular.ttf")[0]
   end
   # No zap stanza required
 

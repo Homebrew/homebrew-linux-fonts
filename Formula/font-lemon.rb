@@ -3,7 +3,7 @@ class FontLemon < Formula
   desc "Lemon"
   homepage "https://fonts.google.com/specimen/Lemon"
   def install
-    (share/"fonts").install "Lemon-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Lemon-Regular.ttf")[0]
   end
   # No zap stanza required
 

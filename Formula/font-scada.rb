@@ -3,10 +3,10 @@ class FontScada < Formula
   desc "Scada"
   homepage "https://fonts.google.com/specimen/Scada"
   def install
-    (share/"fonts").install "ofl/scada/" + "Scada-Bold.ttf"
-    (share/"fonts").install "ofl/scada/" + "Scada-BoldItalic.ttf"
-    (share/"fonts").install "ofl/scada/" + "Scada-Italic.ttf"
-    (share/"fonts").install "ofl/scada/" + "Scada-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/scada/./**/Scada-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/scada/./**/Scada-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/scada/./**/Scada-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/scada/./**/Scada-Regular.ttf")[0]
   end
   # No zap stanza required
 

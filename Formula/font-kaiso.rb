@@ -4,8 +4,7 @@ class FontKaiso < Formula
   desc "Modern fantasize Japanese font"
   homepage "https://moji-waku.com/kaiso/index.html"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}kaiso_next/Kaiso-Next-B.otf"
+    (share/"fonts").install Dir.glob("kaiso_next/**/Kaiso-Next-B.otf")[0]
   end
   # No zap stanza required
 

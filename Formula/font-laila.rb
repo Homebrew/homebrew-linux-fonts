@@ -5,11 +5,11 @@ class FontLaila < Formula
   desc "Laila"
   homepage "https://github.com/itfoundry/laila"
   def install
-    (share/"fonts").install "Laila-Bold.otf"
-    (share/"fonts").install "Laila-Light.otf"
-    (share/"fonts").install "Laila-Medium.otf"
-    (share/"fonts").install "Laila-Regular.otf"
-    (share/"fonts").install "Laila-SemiBold.otf"
+    (share/"fonts").install Dir.glob("./**/Laila-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Laila-Light.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Laila-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Laila-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Laila-SemiBold.otf")[0]
   end
   # No zap stanza required
 

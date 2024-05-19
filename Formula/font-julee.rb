@@ -3,7 +3,7 @@ class FontJulee < Formula
   desc "Julee"
   homepage "https://fonts.google.com/specimen/Julee"
   def install
-    (share/"fonts").install "Julee-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Julee-Regular.ttf")[0]
   end
   # No zap stanza required
 

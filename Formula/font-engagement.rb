@@ -3,7 +3,7 @@ class FontEngagement < Formula
   desc "Engagement"
   homepage "https://fonts.google.com/specimen/Engagement"
   def install
-    (share/"fonts").install "Engagement-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Engagement-Regular.ttf")[0]
   end
   # No zap stanza required
 

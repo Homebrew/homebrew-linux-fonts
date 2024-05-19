@@ -3,7 +3,7 @@ class FontChicle < Formula
   desc "Chicle"
   homepage "https://fonts.google.com/specimen/Chicle"
   def install
-    (share/"fonts").install "Chicle-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Chicle-Regular.ttf")[0]
   end
   # No zap stanza required
 

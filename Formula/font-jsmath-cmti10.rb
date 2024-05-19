@@ -3,7 +3,7 @@ class FontJsmathCmti10 < Formula
   desc "jsMath cmti10"
   homepage "https://fonts.google.com/specimen/jsMath+cmti10"
   def install
-    (share/"fonts").install "jsMath-cmti10.ttf"
+    (share/"fonts").install Dir.glob("./**/jsMath-cmti10.ttf")[0]
   end
   # No zap stanza required
 

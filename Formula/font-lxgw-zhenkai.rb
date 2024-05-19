@@ -8,7 +8,7 @@ class FontLxgwZhenkai < Formula
   homepage "https://github.com/lxgw/LxgwZhenKai"
   deprecate! date: "2024-02-18", because: :unsupported
   def install
-    (share/"fonts").install "ofl/lxgwwenkaimonotc/" + "LXGWZhenKai.ttf"
+    (share/"fonts").install Dir.glob("./**/LXGWZhenKai.ttf")[0]
   end
   # No zap stanza required
 

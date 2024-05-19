@@ -3,7 +3,7 @@ class FontNotoSansImperialAramaic < Formula
   desc "Noto Sans Imperial Aramaic"
   homepage "https://www.google.com/get/noto/#sans-armi"
   def install
-    (share/"fonts").install "NotoSansImperialAramaic-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansImperialAramaic-Regular.ttf")[0]
   end
   # No zap stanza required
 

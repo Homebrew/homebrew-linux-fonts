@@ -4,23 +4,22 @@ class FontTwilioSansMono < Formula
   desc "Programming font"
   homepage "https://github.com/twilio/twilio-sans-mono"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}Twilio-Sans-Mono/OTF/TwilioSansMono-Bold.otf"
-    (share/"fonts").install "#{parent}Twilio-Sans-Mono/OTF/TwilioSansMono-BoldItl.otf"
-    (share/"fonts").install "#{parent}Twilio-Sans-Mono/OTF/TwilioSansMono-Extrabold.otf"
-    (share/"fonts").install "#{parent}Twilio-Sans-Mono/OTF/TwilioSansMono-ExtraboldItl.otf"
-    (share/"fonts").install "#{parent}Twilio-Sans-Mono/OTF/TwilioSansMono-Heavy.otf"
-    (share/"fonts").install "#{parent}Twilio-Sans-Mono/OTF/TwilioSansMono-HeavyItl.otf"
-    (share/"fonts").install "#{parent}Twilio-Sans-Mono/OTF/TwilioSansMono-Light.otf"
-    (share/"fonts").install "#{parent}Twilio-Sans-Mono/OTF/TwilioSansMono-LightItl.otf"
-    (share/"fonts").install "#{parent}Twilio-Sans-Mono/OTF/TwilioSansMono-Medium.otf"
-    (share/"fonts").install "#{parent}Twilio-Sans-Mono/OTF/TwilioSansMono-MediumItl.otf"
-    (share/"fonts").install "#{parent}Twilio-Sans-Mono/OTF/TwilioSansMono-Regular.otf"
-    (share/"fonts").install "#{parent}Twilio-Sans-Mono/OTF/TwilioSansMono-RegularItl.otf"
-    (share/"fonts").install "#{parent}Twilio-Sans-Mono/OTF/TwilioSansMono-Retina.otf"
-    (share/"fonts").install "#{parent}Twilio-Sans-Mono/OTF/TwilioSansMono-RetinaItl.otf"
-    (share/"fonts").install "#{parent}Twilio-Sans-Mono/OTF/TwilioSansMono-Semibold.otf"
-    (share/"fonts").install "#{parent}Twilio-Sans-Mono/OTF/TwilioSansMono-SemiboldItl.otf"
+    (share/"fonts").install Dir.glob("Twilio-Sans-Mono/OTF/**/TwilioSansMono-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("Twilio-Sans-Mono/OTF/**/TwilioSansMono-BoldItl.otf")[0]
+    (share/"fonts").install Dir.glob("Twilio-Sans-Mono/OTF/**/TwilioSansMono-Extrabold.otf")[0]
+    (share/"fonts").install Dir.glob("Twilio-Sans-Mono/OTF/**/TwilioSansMono-ExtraboldItl.otf")[0]
+    (share/"fonts").install Dir.glob("Twilio-Sans-Mono/OTF/**/TwilioSansMono-Heavy.otf")[0]
+    (share/"fonts").install Dir.glob("Twilio-Sans-Mono/OTF/**/TwilioSansMono-HeavyItl.otf")[0]
+    (share/"fonts").install Dir.glob("Twilio-Sans-Mono/OTF/**/TwilioSansMono-Light.otf")[0]
+    (share/"fonts").install Dir.glob("Twilio-Sans-Mono/OTF/**/TwilioSansMono-LightItl.otf")[0]
+    (share/"fonts").install Dir.glob("Twilio-Sans-Mono/OTF/**/TwilioSansMono-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("Twilio-Sans-Mono/OTF/**/TwilioSansMono-MediumItl.otf")[0]
+    (share/"fonts").install Dir.glob("Twilio-Sans-Mono/OTF/**/TwilioSansMono-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("Twilio-Sans-Mono/OTF/**/TwilioSansMono-RegularItl.otf")[0]
+    (share/"fonts").install Dir.glob("Twilio-Sans-Mono/OTF/**/TwilioSansMono-Retina.otf")[0]
+    (share/"fonts").install Dir.glob("Twilio-Sans-Mono/OTF/**/TwilioSansMono-RetinaItl.otf")[0]
+    (share/"fonts").install Dir.glob("Twilio-Sans-Mono/OTF/**/TwilioSansMono-Semibold.otf")[0]
+    (share/"fonts").install Dir.glob("Twilio-Sans-Mono/OTF/**/TwilioSansMono-SemiboldItl.otf")[0]
   end
   # No zap stanza required
 

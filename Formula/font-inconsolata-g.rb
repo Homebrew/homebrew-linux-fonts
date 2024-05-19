@@ -3,7 +3,7 @@ class FontInconsolataG < Formula
   desc "Inconsolata-g"
   homepage "https://leonardo-m.livejournal.com/77079.html"
   def install
-    (share/"fonts").install "Inconsolata-g.otf"
+    (share/"fonts").install Dir.glob("./**/Inconsolata-g.otf")[0]
   end
   # No zap stanza required
 

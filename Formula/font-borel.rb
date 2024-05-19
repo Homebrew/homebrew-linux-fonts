@@ -4,7 +4,7 @@ class FontBorel < Formula
   desc "French cursive primer"
   homepage "https://fonts.google.com/specimen/Borel"
   def install
-    (share/"fonts").install "Borel-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Borel-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -6,24 +6,24 @@ class FontHurmitNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "HurmitNerdFont-Bold.otf"
-    (share/"fonts").install "HurmitNerdFont-BoldItalic.otf"
-    (share/"fonts").install "HurmitNerdFont-Italic.otf"
-    (share/"fonts").install "HurmitNerdFont-Light.otf"
-    (share/"fonts").install "HurmitNerdFont-LightItalic.otf"
-    (share/"fonts").install "HurmitNerdFont-Regular.otf"
-    (share/"fonts").install "HurmitNerdFontMono-Bold.otf"
-    (share/"fonts").install "HurmitNerdFontMono-BoldItalic.otf"
-    (share/"fonts").install "HurmitNerdFontMono-Italic.otf"
-    (share/"fonts").install "HurmitNerdFontMono-Light.otf"
-    (share/"fonts").install "HurmitNerdFontMono-LightItalic.otf"
-    (share/"fonts").install "HurmitNerdFontMono-Regular.otf"
-    (share/"fonts").install "HurmitNerdFontPropo-Bold.otf"
-    (share/"fonts").install "HurmitNerdFontPropo-BoldItalic.otf"
-    (share/"fonts").install "HurmitNerdFontPropo-Italic.otf"
-    (share/"fonts").install "HurmitNerdFontPropo-Light.otf"
-    (share/"fonts").install "HurmitNerdFontPropo-LightItalic.otf"
-    (share/"fonts").install "HurmitNerdFontPropo-Regular.otf"
+    (share/"fonts").install Dir.glob("./**/HurmitNerdFont-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/HurmitNerdFont-BoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/HurmitNerdFont-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/HurmitNerdFont-Light.otf")[0]
+    (share/"fonts").install Dir.glob("./**/HurmitNerdFont-LightItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/HurmitNerdFont-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/HurmitNerdFontMono-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/HurmitNerdFontMono-BoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/HurmitNerdFontMono-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/HurmitNerdFontMono-Light.otf")[0]
+    (share/"fonts").install Dir.glob("./**/HurmitNerdFontMono-LightItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/HurmitNerdFontMono-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/HurmitNerdFontPropo-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/HurmitNerdFontPropo-BoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/HurmitNerdFontPropo-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/HurmitNerdFontPropo-Light.otf")[0]
+    (share/"fonts").install Dir.glob("./**/HurmitNerdFontPropo-LightItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/HurmitNerdFontPropo-Regular.otf")[0]
   end
   # No zap stanza required
 

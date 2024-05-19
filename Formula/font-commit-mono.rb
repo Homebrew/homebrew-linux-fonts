@@ -6,11 +6,10 @@ class FontCommitMono < Formula
   desc "Neutral programming typeface"
   homepage "https://commitmono.com/"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}CommitMono-#{version}/CommitMono-400-Italic.otf"
-    (share/"fonts").install "#{parent}CommitMono-#{version}/CommitMono-400-Regular.otf"
-    (share/"fonts").install "#{parent}CommitMono-#{version}/CommitMono-700-Italic.otf"
-    (share/"fonts").install "#{parent}CommitMono-#{version}/CommitMono-700-Regular.otf"
+    (share/"fonts").install Dir.glob("CommitMono-#{version}/**/CommitMono-400-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("CommitMono-#{version}/**/CommitMono-400-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("CommitMono-#{version}/**/CommitMono-700-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("CommitMono-#{version}/**/CommitMono-700-Regular.otf")[0]
   end
   # No zap stanza required
 

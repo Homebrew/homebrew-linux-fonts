@@ -3,7 +3,7 @@ class FontIceberg < Formula
   desc "Iceberg"
   homepage "https://fonts.google.com/specimen/Iceberg"
   def install
-    (share/"fonts").install "Iceberg-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Iceberg-Regular.ttf")[0]
   end
   # No zap stanza required
 

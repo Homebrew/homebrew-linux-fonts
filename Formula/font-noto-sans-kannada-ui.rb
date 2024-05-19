@@ -3,7 +3,7 @@ class FontNotoSansKannadaUi < Formula
   desc "Noto Sans Kannada UI"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Kannada+UI"
   def install
-    (share/"fonts").install "NotoSansKannadaUI[wdth,wght].ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansKannadaUI\\[wdth,wght\\].ttf")[0]
   end
   # No zap stanza required
 

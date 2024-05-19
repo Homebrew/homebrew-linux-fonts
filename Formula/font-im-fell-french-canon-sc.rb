@@ -3,7 +3,7 @@ class FontImFellFrenchCanonSc < Formula
   desc "IM Fell French Canon SC"
   homepage "https://fonts.google.com/specimen/IM+Fell+French+Canon+SC"
   def install
-    (share/"fonts").install "IMFeFCsc28P.ttf"
+    (share/"fonts").install Dir.glob("./**/IMFeFCsc28P.ttf")[0]
   end
   # No zap stanza required
 

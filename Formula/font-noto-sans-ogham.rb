@@ -3,7 +3,7 @@ class FontNotoSansOgham < Formula
   desc "Noto Sans Ogham"
   homepage "https://www.google.com/get/noto/#sans-ogam"
   def install
-    (share/"fonts").install "NotoSansOgham-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansOgham-Regular.ttf")[0]
   end
   # No zap stanza required
 

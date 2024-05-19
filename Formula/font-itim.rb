@@ -3,7 +3,7 @@ class FontItim < Formula
   desc "Itim"
   homepage "https://fonts.google.com/specimen/Itim"
   def install
-    (share/"fonts").install "Itim-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Itim-Regular.ttf")[0]
   end
   # No zap stanza required
 

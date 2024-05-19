@@ -3,7 +3,7 @@ class FontSalsa < Formula
   desc "Salsa"
   homepage "https://fonts.google.com/specimen/Salsa"
   def install
-    (share/"fonts").install "Salsa-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Salsa-Regular.ttf")[0]
   end
   # No zap stanza required
 

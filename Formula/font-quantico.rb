@@ -3,10 +3,10 @@ class FontQuantico < Formula
   desc "Quantico"
   homepage "https://fonts.google.com/specimen/Quantico"
   def install
-    (share/"fonts").install "ofl/quantico/" + "Quantico-Bold.ttf"
-    (share/"fonts").install "ofl/quantico/" + "Quantico-BoldItalic.ttf"
-    (share/"fonts").install "ofl/quantico/" + "Quantico-Italic.ttf"
-    (share/"fonts").install "ofl/quantico/" + "Quantico-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/quantico/./**/Quantico-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/quantico/./**/Quantico-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/quantico/./**/Quantico-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/quantico/./**/Quantico-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -6,13 +6,13 @@ class FontNotoSansCjkJp < Formula
   desc "Language Specific OTFs Japanese (日本語)"
   homepage "https://github.com/notofonts/noto-cjk/tree/main/Sans"
   def install
-    (share/"fonts").install "NotoSansCJKjp-Black.otf"
-    (share/"fonts").install "NotoSansCJKjp-Bold.otf"
-    (share/"fonts").install "NotoSansCJKjp-DemiLight.otf"
-    (share/"fonts").install "NotoSansCJKjp-Light.otf"
-    (share/"fonts").install "NotoSansCJKjp-Medium.otf"
-    (share/"fonts").install "NotoSansCJKjp-Regular.otf"
-    (share/"fonts").install "NotoSansCJKjp-Thin.otf"
+    (share/"fonts").install Dir.glob("./**/NotoSansCJKjp-Black.otf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansCJKjp-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansCJKjp-DemiLight.otf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansCJKjp-Light.otf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansCJKjp-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansCJKjp-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansCJKjp-Thin.otf")[0]
   end
   # No zap stanza required
 

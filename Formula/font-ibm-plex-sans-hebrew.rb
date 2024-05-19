@@ -3,13 +3,13 @@ class FontIbmPlexSansHebrew < Formula
   desc "IBM Plex Sans Hebrew"
   homepage "https://fonts.google.com/specimen/IBM+Plex+Sans+Hebrew"
   def install
-    (share/"fonts").install "ofl/ibmplexsanshebrew/" + "IBMPlexSansHebrew-Bold.ttf"
-    (share/"fonts").install "ofl/ibmplexsanshebrew/" + "IBMPlexSansHebrew-ExtraLight.ttf"
-    (share/"fonts").install "ofl/ibmplexsanshebrew/" + "IBMPlexSansHebrew-Light.ttf"
-    (share/"fonts").install "ofl/ibmplexsanshebrew/" + "IBMPlexSansHebrew-Medium.ttf"
-    (share/"fonts").install "ofl/ibmplexsanshebrew/" + "IBMPlexSansHebrew-Regular.ttf"
-    (share/"fonts").install "ofl/ibmplexsanshebrew/" + "IBMPlexSansHebrew-SemiBold.ttf"
-    (share/"fonts").install "ofl/ibmplexsanshebrew/" + "IBMPlexSansHebrew-Thin.ttf"
+    (share/"fonts").install Dir.glob("ofl/ibmplexsanshebrew/./**/IBMPlexSansHebrew-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibmplexsanshebrew/./**/IBMPlexSansHebrew-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibmplexsanshebrew/./**/IBMPlexSansHebrew-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibmplexsanshebrew/./**/IBMPlexSansHebrew-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibmplexsanshebrew/./**/IBMPlexSansHebrew-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibmplexsanshebrew/./**/IBMPlexSansHebrew-SemiBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibmplexsanshebrew/./**/IBMPlexSansHebrew-Thin.ttf")[0]
   end
   # No zap stanza required
 

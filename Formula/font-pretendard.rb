@@ -6,16 +6,15 @@ class FontPretendard < Formula
   desc "Alternative font to system-ui for all platforms"
   homepage "https://github.com/orioncactus/pretendard"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}public/static/Pretendard-Black.otf"
-    (share/"fonts").install "#{parent}public/static/Pretendard-Bold.otf"
-    (share/"fonts").install "#{parent}public/static/Pretendard-ExtraBold.otf"
-    (share/"fonts").install "#{parent}public/static/Pretendard-ExtraLight.otf"
-    (share/"fonts").install "#{parent}public/static/Pretendard-Light.otf"
-    (share/"fonts").install "#{parent}public/static/Pretendard-Medium.otf"
-    (share/"fonts").install "#{parent}public/static/Pretendard-Regular.otf"
-    (share/"fonts").install "#{parent}public/static/Pretendard-SemiBold.otf"
-    (share/"fonts").install "#{parent}public/static/Pretendard-Thin.otf"
+    (share/"fonts").install Dir.glob("public/static/**/Pretendard-Black.otf")[0]
+    (share/"fonts").install Dir.glob("public/static/**/Pretendard-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("public/static/**/Pretendard-ExtraBold.otf")[0]
+    (share/"fonts").install Dir.glob("public/static/**/Pretendard-ExtraLight.otf")[0]
+    (share/"fonts").install Dir.glob("public/static/**/Pretendard-Light.otf")[0]
+    (share/"fonts").install Dir.glob("public/static/**/Pretendard-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("public/static/**/Pretendard-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("public/static/**/Pretendard-SemiBold.otf")[0]
+    (share/"fonts").install Dir.glob("public/static/**/Pretendard-Thin.otf")[0]
   end
   # No zap stanza required
 

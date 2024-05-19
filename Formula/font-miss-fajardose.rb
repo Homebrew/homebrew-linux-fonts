@@ -3,7 +3,7 @@ class FontMissFajardose < Formula
   desc "Miss Fajardose"
   homepage "https://fonts.google.com/specimen/Miss+Fajardose"
   def install
-    (share/"fonts").install "MissFajardose-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/MissFajardose-Regular.ttf")[0]
   end
   # No zap stanza required
 

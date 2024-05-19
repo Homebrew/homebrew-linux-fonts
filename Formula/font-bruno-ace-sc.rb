@@ -3,7 +3,7 @@ class FontBrunoAceSc < Formula
   desc "Bruno Ace SC"
   homepage "https://fonts.google.com/specimen/Bruno+Ace+SC"
   def install
-    (share/"fonts").install "BrunoAceSC-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/BrunoAceSC-Regular.ttf")[0]
   end
   # No zap stanza required
 

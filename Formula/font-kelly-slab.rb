@@ -3,7 +3,7 @@ class FontKellySlab < Formula
   desc "Kelly Slab"
   homepage "https://fonts.google.com/specimen/Kelly+Slab"
   def install
-    (share/"fonts").install "KellySlab-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/KellySlab-Regular.ttf")[0]
   end
   # No zap stanza required
 

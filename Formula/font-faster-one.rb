@@ -3,7 +3,7 @@ class FontFasterOne < Formula
   desc "Faster One"
   homepage "https://fonts.google.com/specimen/Faster+One"
   def install
-    (share/"fonts").install "FasterOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/FasterOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

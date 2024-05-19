@@ -3,7 +3,7 @@ class FontKeaniaOne < Formula
   desc "Keania One"
   homepage "https://fonts.google.com/specimen/Keania+One"
   def install
-    (share/"fonts").install "KeaniaOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/KeaniaOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

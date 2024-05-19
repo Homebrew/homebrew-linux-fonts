@@ -6,15 +6,15 @@ class FontLektonNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "LektonNerdFont-Bold.ttf"
-    (share/"fonts").install "LektonNerdFont-Italic.ttf"
-    (share/"fonts").install "LektonNerdFont-Regular.ttf"
-    (share/"fonts").install "LektonNerdFontMono-Bold.ttf"
-    (share/"fonts").install "LektonNerdFontMono-Italic.ttf"
-    (share/"fonts").install "LektonNerdFontMono-Regular.ttf"
-    (share/"fonts").install "LektonNerdFontPropo-Bold.ttf"
-    (share/"fonts").install "LektonNerdFontPropo-Italic.ttf"
-    (share/"fonts").install "LektonNerdFontPropo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/LektonNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LektonNerdFont-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LektonNerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LektonNerdFontMono-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LektonNerdFontMono-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LektonNerdFontMono-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LektonNerdFontPropo-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LektonNerdFontPropo-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LektonNerdFontPropo-Regular.ttf")[0]
   end
   # No zap stanza required
 

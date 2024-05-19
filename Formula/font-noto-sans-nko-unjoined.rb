@@ -3,7 +3,7 @@ class FontNotoSansNkoUnjoined < Formula
   desc "Noto Sans NKo Unjoined"
   homepage "https://fonts.google.com/specimen/Noto+Sans+NKo+Unjoined"
   def install
-    (share/"fonts").install "NotoSansNKoUnjoined[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansNKoUnjoined\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

@@ -3,16 +3,16 @@ class FontAlegreyaSc < Formula
   desc "Alegreya SC"
   homepage "https://fonts.google.com/specimen/Alegreya+SC"
   def install
-    (share/"fonts").install "ofl/alegreyasc/" + "AlegreyaSC-Black.ttf"
-    (share/"fonts").install "ofl/alegreyasc/" + "AlegreyaSC-BlackItalic.ttf"
-    (share/"fonts").install "ofl/alegreyasc/" + "AlegreyaSC-Bold.ttf"
-    (share/"fonts").install "ofl/alegreyasc/" + "AlegreyaSC-BoldItalic.ttf"
-    (share/"fonts").install "ofl/alegreyasc/" + "AlegreyaSC-ExtraBold.ttf"
-    (share/"fonts").install "ofl/alegreyasc/" + "AlegreyaSC-ExtraBoldItalic.ttf"
-    (share/"fonts").install "ofl/alegreyasc/" + "AlegreyaSC-Italic.ttf"
-    (share/"fonts").install "ofl/alegreyasc/" + "AlegreyaSC-Medium.ttf"
-    (share/"fonts").install "ofl/alegreyasc/" + "AlegreyaSC-MediumItalic.ttf"
-    (share/"fonts").install "ofl/alegreyasc/" + "AlegreyaSC-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/alegreyasc/./**/AlegreyaSC-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/alegreyasc/./**/AlegreyaSC-BlackItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/alegreyasc/./**/AlegreyaSC-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/alegreyasc/./**/AlegreyaSC-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/alegreyasc/./**/AlegreyaSC-ExtraBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/alegreyasc/./**/AlegreyaSC-ExtraBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/alegreyasc/./**/AlegreyaSC-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/alegreyasc/./**/AlegreyaSC-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/alegreyasc/./**/AlegreyaSC-MediumItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/alegreyasc/./**/AlegreyaSC-Regular.ttf")[0]
   end
   # No zap stanza required
 

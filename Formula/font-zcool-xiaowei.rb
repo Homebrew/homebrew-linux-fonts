@@ -3,7 +3,7 @@ class FontZcoolXiaowei < Formula
   desc "ZCOOL XiaoWei"
   homepage "https://fonts.google.com/specimen/ZCOOL+XiaoWei"
   def install
-    (share/"fonts").install "ZCOOLXiaoWei-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/ZCOOLXiaoWei-Regular.ttf")[0]
   end
   # No zap stanza required
 

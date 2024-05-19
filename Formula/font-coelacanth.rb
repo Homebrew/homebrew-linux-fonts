@@ -6,46 +6,46 @@ class FontCoelacanth < Formula
   desc "Serif typeface inspired by Bruce Rogers' Centaur"
   homepage "https://github.com/Fuzzypeg/Coelacanth"
   def install
-    (share/"fonts").install "ofl/codystar/" + "Coelacanth.otf"
-    (share/"fonts").install "ofl/codystar/" + "CoelacanthBold.otf"
-    (share/"fonts").install "ofl/codystar/" + "CoelacanthCaption.otf"
-    (share/"fonts").install "ofl/codystar/" + "CoelacanthCaptionBold.otf"
-    (share/"fonts").install "ofl/codystar/" + "CoelacanthCaptionExtraLt.otf"
-    (share/"fonts").install "ofl/codystar/" + "CoelacanthCaptionHeavy.otf"
-    (share/"fonts").install "ofl/codystar/" + "CoelacanthCaptionIt.otf"
-    (share/"fonts").install "ofl/codystar/" + "CoelacanthCaptionLt.otf"
-    (share/"fonts").install "ofl/codystar/" + "CoelacanthCaptionSemibd.otf"
-    (share/"fonts").install "ofl/codystar/" + "CoelacanthDisplay.otf"
-    (share/"fonts").install "ofl/codystar/" + "CoelacanthDisplayBold.otf"
-    (share/"fonts").install "ofl/codystar/" + "CoelacanthDisplayExtraLt.otf"
-    (share/"fonts").install "ofl/codystar/" + "CoelacanthDisplayHeavy.otf"
-    (share/"fonts").install "ofl/codystar/" + "CoelacanthDisplayLt.otf"
-    (share/"fonts").install "ofl/codystar/" + "CoelacanthDisplaySemibd.otf"
-    (share/"fonts").install "ofl/codystar/" + "CoelacanthExtraLt.otf"
-    (share/"fonts").install "ofl/codystar/" + "CoelacanthHeavy.otf"
-    (share/"fonts").install "ofl/codystar/" + "CoelacanthIt.otf"
-    (share/"fonts").install "ofl/codystar/" + "CoelacanthLt.otf"
-    (share/"fonts").install "ofl/codystar/" + "CoelacanthPearl.otf"
-    (share/"fonts").install "ofl/codystar/" + "CoelacanthPearlBold.otf"
-    (share/"fonts").install "ofl/codystar/" + "CoelacanthPearlExtraLt.otf"
-    (share/"fonts").install "ofl/codystar/" + "CoelacanthPearlHeavy.otf"
-    (share/"fonts").install "ofl/codystar/" + "CoelacanthPearlIt.otf"
-    (share/"fonts").install "ofl/codystar/" + "CoelacanthPearlLt.otf"
-    (share/"fonts").install "ofl/codystar/" + "CoelacanthPearlSemibd.otf"
-    (share/"fonts").install "ofl/codystar/" + "CoelacanthSemibd.otf"
-    (share/"fonts").install "ofl/codystar/" + "CoelacanthSubcapt.otf"
-    (share/"fonts").install "ofl/codystar/" + "CoelacanthSubcaptBold.otf"
-    (share/"fonts").install "ofl/codystar/" + "CoelacanthSubcaptExtraLt.otf"
-    (share/"fonts").install "ofl/codystar/" + "CoelacanthSubcaptHeavy.otf"
-    (share/"fonts").install "ofl/codystar/" + "CoelacanthSubcaptIt.otf"
-    (share/"fonts").install "ofl/codystar/" + "CoelacanthSubcaptLt.otf"
-    (share/"fonts").install "ofl/codystar/" + "CoelacanthSubcaptSemibd.otf"
-    (share/"fonts").install "ofl/codystar/" + "CoelacanthSubhd.otf"
-    (share/"fonts").install "ofl/codystar/" + "CoelacanthSubhdBold.otf"
-    (share/"fonts").install "ofl/codystar/" + "CoelacanthSubhdExtraLt.otf"
-    (share/"fonts").install "ofl/codystar/" + "CoelacanthSubhdHeavy.otf"
-    (share/"fonts").install "ofl/codystar/" + "CoelacanthSubhdLt.otf"
-    (share/"fonts").install "ofl/codystar/" + "CoelacanthSubhdSemibd.otf"
+    (share/"fonts").install Dir.glob("./**/Coelacanth.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CoelacanthBold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CoelacanthCaption.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CoelacanthCaptionBold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CoelacanthCaptionExtraLt.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CoelacanthCaptionHeavy.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CoelacanthCaptionIt.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CoelacanthCaptionLt.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CoelacanthCaptionSemibd.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CoelacanthDisplay.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CoelacanthDisplayBold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CoelacanthDisplayExtraLt.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CoelacanthDisplayHeavy.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CoelacanthDisplayLt.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CoelacanthDisplaySemibd.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CoelacanthExtraLt.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CoelacanthHeavy.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CoelacanthIt.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CoelacanthLt.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CoelacanthPearl.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CoelacanthPearlBold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CoelacanthPearlExtraLt.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CoelacanthPearlHeavy.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CoelacanthPearlIt.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CoelacanthPearlLt.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CoelacanthPearlSemibd.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CoelacanthSemibd.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CoelacanthSubcapt.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CoelacanthSubcaptBold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CoelacanthSubcaptExtraLt.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CoelacanthSubcaptHeavy.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CoelacanthSubcaptIt.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CoelacanthSubcaptLt.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CoelacanthSubcaptSemibd.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CoelacanthSubhd.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CoelacanthSubhdBold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CoelacanthSubhdExtraLt.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CoelacanthSubhdHeavy.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CoelacanthSubhdLt.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CoelacanthSubhdSemibd.otf")[0]
   end
   # No zap stanza required
 

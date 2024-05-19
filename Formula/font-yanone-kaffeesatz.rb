@@ -3,7 +3,7 @@ class FontYanoneKaffeesatz < Formula
   desc "Yanone Kaffeesatz"
   homepage "https://fonts.google.com/specimen/Yanone+Kaffeesatz"
   def install
-    (share/"fonts").install "YanoneKaffeesatz[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/YanoneKaffeesatz\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

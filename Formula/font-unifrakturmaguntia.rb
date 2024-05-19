@@ -3,7 +3,7 @@ class FontUnifrakturmaguntia < Formula
   desc "UnifrakturMaguntia"
   homepage "https://fonts.google.com/specimen/UnifrakturMaguntia"
   def install
-    (share/"fonts").install "UnifrakturMaguntia-Book.ttf"
+    (share/"fonts").install Dir.glob("./**/UnifrakturMaguntia-Book.ttf")[0]
   end
   # No zap stanza required
 

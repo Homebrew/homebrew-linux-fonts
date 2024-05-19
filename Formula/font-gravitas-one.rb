@@ -3,7 +3,7 @@ class FontGravitasOne < Formula
   desc "Gravitas One"
   homepage "https://fonts.google.com/specimen/Gravitas+One"
   def install
-    (share/"fonts").install "GravitasOne.ttf"
+    (share/"fonts").install Dir.glob("./**/GravitasOne.ttf")[0]
   end
   # No zap stanza required
 

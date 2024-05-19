@@ -5,9 +5,8 @@ class FontIpaexfont < Formula
   desc "IPAex Fonts"
   homepage "https://moji.or.jp/ipafont/"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}IPAexfont#{version.to_s.gsub(".", "")}/ipaexg.ttf"
-    (share/"fonts").install "#{parent}IPAexfont#{version.to_s.gsub(".", "")}/ipaexm.ttf"
+    (share/"fonts").install Dir.glob("IPAexfont#{version.to_s.gsub(".", "")}/**/ipaexg.ttf")[0]
+    (share/"fonts").install Dir.glob("IPAexfont#{version.to_s.gsub(".", "")}/**/ipaexm.ttf")[0]
   end
   # No zap stanza required
 

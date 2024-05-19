@@ -3,7 +3,7 @@ class FontBm < Formula
   desc "BM"
   homepage "https://fonts.google.com/earlyaccess"
   def install
-    (share/"fonts").install "BM-HANNA.ttf"
+    (share/"fonts").install Dir.glob("./**/BM-HANNA.ttf")[0]
   end
   # No zap stanza required
 

@@ -4,7 +4,7 @@ class FontBricolageGrotesque < Formula
   desc "Collage of historical sources, technical decisions and personal feelings"
   homepage "https://fonts.google.com/specimen/Bricolage+Grotesque"
   def install
-    (share/"fonts").install "BricolageGrotesque[opsz,wdth,wght].ttf"
+    (share/"fonts").install Dir.glob("./**/BricolageGrotesque\\[opsz,wdth,wght\\].ttf")[0]
   end
   # No zap stanza required
 

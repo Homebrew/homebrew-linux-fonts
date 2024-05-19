@@ -3,9 +3,9 @@ class FontCinzelDecorative < Formula
   desc "Cinzel Decorative"
   homepage "https://fonts.google.com/specimen/Cinzel+Decorative"
   def install
-    (share/"fonts").install "ofl/cinzeldecorative/" + "CinzelDecorative-Black.ttf"
-    (share/"fonts").install "ofl/cinzeldecorative/" + "CinzelDecorative-Bold.ttf"
-    (share/"fonts").install "ofl/cinzeldecorative/" + "CinzelDecorative-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/cinzeldecorative/./**/CinzelDecorative-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/cinzeldecorative/./**/CinzelDecorative-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/cinzeldecorative/./**/CinzelDecorative-Regular.ttf")[0]
   end
   # No zap stanza required
 

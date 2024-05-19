@@ -3,7 +3,7 @@ class FontSmoochSans < Formula
   desc "Smooch Sans"
   homepage "https://fonts.google.com/specimen/Smooch+Sans"
   def install
-    (share/"fonts").install "SmoochSans[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/SmoochSans\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

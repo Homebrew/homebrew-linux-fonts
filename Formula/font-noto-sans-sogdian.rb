@@ -3,7 +3,7 @@ class FontNotoSansSogdian < Formula
   desc "Noto Sans Sogdian"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Sogdian"
   def install
-    (share/"fonts").install "NotoSansSogdian-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansSogdian-Regular.ttf")[0]
   end
   # No zap stanza required
 

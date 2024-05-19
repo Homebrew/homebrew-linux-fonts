@@ -4,7 +4,7 @@ class FontAlexandria < Formula
   desc "9 weights font family made in matching to the latin type Montserrat"
   homepage "https://fonts.google.com/specimen/Alexandria"
   def install
-    (share/"fonts").install "Alexandria[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/Alexandria\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

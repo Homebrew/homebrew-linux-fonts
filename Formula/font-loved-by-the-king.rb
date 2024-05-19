@@ -3,7 +3,7 @@ class FontLovedByTheKing < Formula
   desc "Loved by the King"
   homepage "https://fonts.google.com/specimen/Loved+by+the+King"
   def install
-    (share/"fonts").install "LovedbytheKing.ttf"
+    (share/"fonts").install Dir.glob("./**/LovedbytheKing.ttf")[0]
   end
   # No zap stanza required
 

@@ -6,11 +6,10 @@ class FontAndika < Formula
   desc "Sans-serif font family designed and optimized for literacy use"
   homepage "https://software.sil.org/andika/"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}Andika-#{version}/Andika-Bold.ttf"
-    (share/"fonts").install "#{parent}Andika-#{version}/Andika-BoldItalic.ttf"
-    (share/"fonts").install "#{parent}Andika-#{version}/Andika-Italic.ttf"
-    (share/"fonts").install "#{parent}Andika-#{version}/Andika-Regular.ttf"
+    (share/"fonts").install Dir.glob("Andika-#{version}/**/Andika-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("Andika-#{version}/**/Andika-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("Andika-#{version}/**/Andika-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("Andika-#{version}/**/Andika-Regular.ttf")[0]
   end
   # No zap stanza required
 

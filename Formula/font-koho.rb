@@ -3,18 +3,18 @@ class FontKoho < Formula
   desc "KoHo"
   homepage "https://fonts.google.com/specimen/KoHo"
   def install
-    (share/"fonts").install "ofl/koho/" + "KoHo-Bold.ttf"
-    (share/"fonts").install "ofl/koho/" + "KoHo-BoldItalic.ttf"
-    (share/"fonts").install "ofl/koho/" + "KoHo-ExtraLight.ttf"
-    (share/"fonts").install "ofl/koho/" + "KoHo-ExtraLightItalic.ttf"
-    (share/"fonts").install "ofl/koho/" + "KoHo-Italic.ttf"
-    (share/"fonts").install "ofl/koho/" + "KoHo-Light.ttf"
-    (share/"fonts").install "ofl/koho/" + "KoHo-LightItalic.ttf"
-    (share/"fonts").install "ofl/koho/" + "KoHo-Medium.ttf"
-    (share/"fonts").install "ofl/koho/" + "KoHo-MediumItalic.ttf"
-    (share/"fonts").install "ofl/koho/" + "KoHo-Regular.ttf"
-    (share/"fonts").install "ofl/koho/" + "KoHo-SemiBold.ttf"
-    (share/"fonts").install "ofl/koho/" + "KoHo-SemiBoldItalic.ttf"
+    (share/"fonts").install Dir.glob("ofl/koho/./**/KoHo-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/koho/./**/KoHo-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/koho/./**/KoHo-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/koho/./**/KoHo-ExtraLightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/koho/./**/KoHo-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/koho/./**/KoHo-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/koho/./**/KoHo-LightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/koho/./**/KoHo-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/koho/./**/KoHo-MediumItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/koho/./**/KoHo-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/koho/./**/KoHo-SemiBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/koho/./**/KoHo-SemiBoldItalic.ttf")[0]
   end
   # No zap stanza required
 

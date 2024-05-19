@@ -3,15 +3,15 @@ class FontNotoSansCherokee < Formula
   desc "Noto Sans Cherokee"
   homepage "https://www.google.com/get/noto/#sans-cher"
   def install
-    (share/"fonts").install "NotoSansCherokee-Black.ttf"
-    (share/"fonts").install "NotoSansCherokee-Bold.ttf"
-    (share/"fonts").install "NotoSansCherokee-ExtraBold.ttf"
-    (share/"fonts").install "NotoSansCherokee-ExtraLight.ttf"
-    (share/"fonts").install "NotoSansCherokee-Light.ttf"
-    (share/"fonts").install "NotoSansCherokee-Medium.ttf"
-    (share/"fonts").install "NotoSansCherokee-Regular.ttf"
-    (share/"fonts").install "NotoSansCherokee-SemiBold.ttf"
-    (share/"fonts").install "NotoSansCherokee-Thin.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansCherokee-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansCherokee-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansCherokee-ExtraBold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansCherokee-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansCherokee-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansCherokee-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansCherokee-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansCherokee-SemiBold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansCherokee-Thin.ttf")[0]
   end
   # No zap stanza required
 

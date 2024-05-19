@@ -3,7 +3,7 @@ class FontBalooPaaji2 < Formula
   desc "Baloo Paaji 2"
   homepage "https://fonts.google.com/specimen/Baloo+Paaji+2"
   def install
-    (share/"fonts").install "BalooPaaji2[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/BalooPaaji2\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

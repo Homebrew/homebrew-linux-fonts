@@ -3,8 +3,8 @@ class FontFaustina < Formula
   desc "Faustina"
   homepage "https://fonts.google.com/specimen/Faustina"
   def install
-    (share/"fonts").install "ofl/faustina/" + "Faustina-Italic[wght].ttf"
-    (share/"fonts").install "ofl/faustina/" + "Faustina[wght].ttf"
+    (share/"fonts").install Dir.glob("ofl/faustina/./**/Faustina-Italic\\[wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/faustina/./**/Faustina\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

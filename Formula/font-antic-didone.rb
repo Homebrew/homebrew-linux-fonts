@@ -3,7 +3,7 @@ class FontAnticDidone < Formula
   desc "Antic Didone"
   homepage "https://fonts.google.com/specimen/Antic+Didone"
   def install
-    (share/"fonts").install "AnticDidone-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/AnticDidone-Regular.ttf")[0]
   end
   # No zap stanza required
 

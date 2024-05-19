@@ -3,7 +3,7 @@ class FontAssistant < Formula
   desc "Assistant"
   homepage "https://fonts.google.com/specimen/Assistant"
   def install
-    (share/"fonts").install "Assistant[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/Assistant\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

@@ -5,7 +5,7 @@ class FontJoscelyn < Formula
   desc "Joscelyn"
   homepage "https://github.com/psb1558/Joscelyn-font"
   def install
-    (share/"fonts").install "Joscelyn.otf"
+    (share/"fonts").install Dir.glob("./**/Joscelyn.otf")[0]
   end
   # No zap stanza required
 

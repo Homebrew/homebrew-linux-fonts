@@ -4,7 +4,7 @@ class FontKdamThmorPro < Formula
   desc "Used as the latin counterpart in the project"
   homepage "https://fonts.google.com/specimen/Kdam+Thmor+Pro"
   def install
-    (share/"fonts").install "KdamThmorPro-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/KdamThmorPro-Regular.ttf")[0]
   end
   # No zap stanza required
 

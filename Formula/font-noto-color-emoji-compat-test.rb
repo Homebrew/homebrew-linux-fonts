@@ -3,7 +3,7 @@ class FontNotoColorEmojiCompatTest < Formula
   desc "Noto Color Emoji Compat Test"
   homepage "https://fonts.google.com/specimen/Noto+Color+Emoji+Compat+Test"
   def install
-    (share/"fonts").install "NotoColorEmojiCompatTest-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoColorEmojiCompatTest-Regular.ttf")[0]
   end
   # No zap stanza required
 

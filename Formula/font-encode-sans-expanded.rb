@@ -3,15 +3,15 @@ class FontEncodeSansExpanded < Formula
   desc "Encode Sans Expanded"
   homepage "https://fonts.google.com/specimen/Encode+Sans+Expanded"
   def install
-    (share/"fonts").install "ofl/encodesansexpanded/" + "EncodeSansExpanded-Black.ttf"
-    (share/"fonts").install "ofl/encodesansexpanded/" + "EncodeSansExpanded-Bold.ttf"
-    (share/"fonts").install "ofl/encodesansexpanded/" + "EncodeSansExpanded-ExtraBold.ttf"
-    (share/"fonts").install "ofl/encodesansexpanded/" + "EncodeSansExpanded-ExtraLight.ttf"
-    (share/"fonts").install "ofl/encodesansexpanded/" + "EncodeSansExpanded-Light.ttf"
-    (share/"fonts").install "ofl/encodesansexpanded/" + "EncodeSansExpanded-Medium.ttf"
-    (share/"fonts").install "ofl/encodesansexpanded/" + "EncodeSansExpanded-Regular.ttf"
-    (share/"fonts").install "ofl/encodesansexpanded/" + "EncodeSansExpanded-SemiBold.ttf"
-    (share/"fonts").install "ofl/encodesansexpanded/" + "EncodeSansExpanded-Thin.ttf"
+    (share/"fonts").install Dir.glob("ofl/encodesansexpanded/./**/EncodeSansExpanded-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/encodesansexpanded/./**/EncodeSansExpanded-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/encodesansexpanded/./**/EncodeSansExpanded-ExtraBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/encodesansexpanded/./**/EncodeSansExpanded-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/encodesansexpanded/./**/EncodeSansExpanded-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/encodesansexpanded/./**/EncodeSansExpanded-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/encodesansexpanded/./**/EncodeSansExpanded-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/encodesansexpanded/./**/EncodeSansExpanded-SemiBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/encodesansexpanded/./**/EncodeSansExpanded-Thin.ttf")[0]
   end
   # No zap stanza required
 

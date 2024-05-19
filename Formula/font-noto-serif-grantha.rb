@@ -3,7 +3,7 @@ class FontNotoSerifGrantha < Formula
   desc "Noto Serif Grantha"
   homepage "https://fonts.google.com/specimen/Noto+Serif+Grantha"
   def install
-    (share/"fonts").install "NotoSerifGrantha-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSerifGrantha-Regular.ttf")[0]
   end
   # No zap stanza required
 

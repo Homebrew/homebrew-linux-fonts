@@ -3,7 +3,7 @@ class FontJotiOne < Formula
   desc "Joti One"
   homepage "https://fonts.google.com/specimen/Joti+One"
   def install
-    (share/"fonts").install "JotiOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/JotiOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

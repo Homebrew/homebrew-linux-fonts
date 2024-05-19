@@ -3,7 +3,7 @@ class FontSuezOne < Formula
   desc "Suez One"
   homepage "https://fonts.google.com/specimen/Suez+One"
   def install
-    (share/"fonts").install "SuezOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/SuezOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

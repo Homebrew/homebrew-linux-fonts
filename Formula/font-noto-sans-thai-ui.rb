@@ -3,7 +3,7 @@ class FontNotoSansThaiUi < Formula
   desc "Noto Sans Thai UI"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Thai+UI"
   def install
-    (share/"fonts").install "NotoSansThaiUI[wdth,wght].ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansThaiUI\\[wdth,wght\\].ttf")[0]
   end
   # No zap stanza required
 

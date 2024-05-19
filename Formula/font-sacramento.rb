@@ -3,7 +3,7 @@ class FontSacramento < Formula
   desc "Sacramento"
   homepage "https://fonts.google.com/specimen/Sacramento"
   def install
-    (share/"fonts").install "Sacramento-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Sacramento-Regular.ttf")[0]
   end
   # No zap stanza required
 

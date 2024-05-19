@@ -6,9 +6,8 @@ class FontFreeMonoTengwar < Formula
   desc "Unicode tengwar monospaced font"
   homepage "http://freetengwar.sourceforge.net/freemonotengwar.html"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}FreeMonoTengwar.#{version}/FreeMonoTengwar-embedding.ttf"
-    (share/"fonts").install "#{parent}FreeMonoTengwar.#{version}/FreeMonoTengwar.ttf"
+    (share/"fonts").install Dir.glob("FreeMonoTengwar.#{version}/**/FreeMonoTengwar-embedding.ttf")[0]
+    (share/"fonts").install Dir.glob("FreeMonoTengwar.#{version}/**/FreeMonoTengwar.ttf")[0]
   end
   # No zap stanza required
 

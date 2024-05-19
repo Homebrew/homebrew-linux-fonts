@@ -7,8 +7,8 @@ class FontMengshenRegular < Formula
   desc "OpenSource Pinyin font that supports homograph"
   homepage "https://github.com/MaruTama/Mengshen-pinyin-font"
   def install
-    (share/"fonts").install "Mengshen-HanSerif.ttf"
-    (share/"fonts").install "Mengshen-Handwritten.ttf"
+    (share/"fonts").install Dir.glob("./**/Mengshen-HanSerif.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Mengshen-Handwritten.ttf")[0]
   end
   # No zap stanza required
 

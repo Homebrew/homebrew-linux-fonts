@@ -6,7 +6,7 @@ class FontNotoSansCjk < Formula
   desc "Static Super OTC"
   homepage "https://github.com/notofonts/noto-cjk/tree/main/Sans"
   def install
-    (share/"fonts").install "NotoSansCJK.ttc"
+    (share/"fonts").install Dir.glob("./**/NotoSansCJK.ttc")[0]
   end
   # No zap stanza required
 

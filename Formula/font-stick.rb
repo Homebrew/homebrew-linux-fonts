@@ -4,7 +4,7 @@ class FontStick < Formula
   desc "Designed with straight lines that create a cute and playful feel"
   homepage "https://fonts.google.com/specimen/Stick"
   def install
-    (share/"fonts").install "Stick-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Stick-Regular.ttf")[0]
   end
   # No zap stanza required
 

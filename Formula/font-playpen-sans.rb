@@ -4,7 +4,7 @@ class FontPlaypenSans < Formula
   desc "Variable font with a weight range from thin to extrabold"
   homepage "https://fonts.google.com/specimen/Playpen+Sans"
   def install
-    (share/"fonts").install "PlaypenSans[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/PlaypenSans\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

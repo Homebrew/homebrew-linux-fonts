@@ -4,10 +4,10 @@ class FontArchitypeRenner < Formula
   desc "Architype Renner"
   homepage "https://fontlot.com/4598/architype-renner/"
   def install
-    (share/"fonts").install "ArchitypeRenner-Bold.otf"
-    (share/"fonts").install "ArchitypeRenner-Demi.otf"
-    (share/"fonts").install "ArchitypeRenner-Medium.otf"
-    (share/"fonts").install "ArchitypeRenner-Regular.otf"
+    (share/"fonts").install Dir.glob("./**/ArchitypeRenner-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/ArchitypeRenner-Demi.otf")[0]
+    (share/"fonts").install Dir.glob("./**/ArchitypeRenner-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("./**/ArchitypeRenner-Regular.otf")[0]
   end
   # No zap stanza required
 

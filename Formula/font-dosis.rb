@@ -3,7 +3,7 @@ class FontDosis < Formula
   desc "Dosis"
   homepage "https://fonts.google.com/specimen/Dosis"
   def install
-    (share/"fonts").install "Dosis[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/Dosis\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

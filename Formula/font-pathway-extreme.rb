@@ -4,8 +4,8 @@ class FontPathwayExtreme < Formula
   desc "Very popular historic typographic style"
   homepage "https://fonts.google.com/specimen/Pathway+Extreme"
   def install
-    (share/"fonts").install "ofl/pathwayextreme/" + "PathwayExtreme-Italic[opsz,wdth,wght].ttf"
-    (share/"fonts").install "ofl/pathwayextreme/" + "PathwayExtreme[opsz,wdth,wght].ttf"
+    (share/"fonts").install Dir.glob("ofl/pathwayextreme/./**/PathwayExtreme-Italic\\[opsz,wdth,wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/pathwayextreme/./**/PathwayExtreme\\[opsz,wdth,wght\\].ttf")[0]
   end
   # No zap stanza required
 

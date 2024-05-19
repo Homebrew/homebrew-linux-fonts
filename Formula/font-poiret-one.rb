@@ -3,7 +3,7 @@ class FontPoiretOne < Formula
   desc "Poiret One"
   homepage "https://fonts.google.com/specimen/Poiret+One"
   def install
-    (share/"fonts").install "PoiretOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/PoiretOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontAubrey < Formula
   desc "Aubrey"
   homepage "https://fonts.google.com/specimen/Aubrey"
   def install
-    (share/"fonts").install "Aubrey-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Aubrey-Regular.ttf")[0]
   end
   # No zap stanza required
 

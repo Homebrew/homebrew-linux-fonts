@@ -4,7 +4,7 @@ class FontMicro5 < Formula
   desc "Teeny-tiny typeface that can fit anywhere on your project"
   homepage "https://fonts.google.com/specimen/Micro+5"
   def install
-    (share/"fonts").install "Micro5-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Micro5-Regular.ttf")[0]
   end
   # No zap stanza required
 

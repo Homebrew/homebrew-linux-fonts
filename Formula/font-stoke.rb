@@ -3,8 +3,8 @@ class FontStoke < Formula
   desc "Stoke"
   homepage "https://fonts.google.com/specimen/Stoke"
   def install
-    (share/"fonts").install "ofl/stoke/" + "Stoke-Light.ttf"
-    (share/"fonts").install "ofl/stoke/" + "Stoke-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/stoke/./**/Stoke-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/stoke/./**/Stoke-Regular.ttf")[0]
   end
   # No zap stanza required
 

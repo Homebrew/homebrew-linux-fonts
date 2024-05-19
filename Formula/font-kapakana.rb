@@ -4,7 +4,7 @@ class FontKapakana < Formula
   desc "Two weight font and available both as static instances and as a variable font"
   homepage "https://fonts.google.com/specimen/Kapakana"
   def install
-    (share/"fonts").install "Kapakana[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/Kapakana\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

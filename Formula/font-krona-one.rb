@@ -3,7 +3,7 @@ class FontKronaOne < Formula
   desc "Krona One"
   homepage "https://fonts.google.com/specimen/Krona+One"
   def install
-    (share/"fonts").install "KronaOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/KronaOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

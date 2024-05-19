@@ -3,7 +3,7 @@ class FontWendyOne < Formula
   desc "Wendy One"
   homepage "https://fonts.google.com/specimen/Wendy+One"
   def install
-    (share/"fonts").install "WendyOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/WendyOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

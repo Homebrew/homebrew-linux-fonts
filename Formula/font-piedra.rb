@@ -3,7 +3,7 @@ class FontPiedra < Formula
   desc "Piedra"
   homepage "https://fonts.google.com/specimen/Piedra"
   def install
-    (share/"fonts").install "Piedra-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Piedra-Regular.ttf")[0]
   end
   # No zap stanza required
 

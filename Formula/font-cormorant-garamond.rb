@@ -3,16 +3,16 @@ class FontCormorantGaramond < Formula
   desc "Cormorant Garamond"
   homepage "https://fonts.google.com/specimen/Cormorant+Garamond"
   def install
-    (share/"fonts").install "ofl/cormorantgaramond/" + "CormorantGaramond-Bold.ttf"
-    (share/"fonts").install "ofl/cormorantgaramond/" + "CormorantGaramond-BoldItalic.ttf"
-    (share/"fonts").install "ofl/cormorantgaramond/" + "CormorantGaramond-Italic.ttf"
-    (share/"fonts").install "ofl/cormorantgaramond/" + "CormorantGaramond-Light.ttf"
-    (share/"fonts").install "ofl/cormorantgaramond/" + "CormorantGaramond-LightItalic.ttf"
-    (share/"fonts").install "ofl/cormorantgaramond/" + "CormorantGaramond-Medium.ttf"
-    (share/"fonts").install "ofl/cormorantgaramond/" + "CormorantGaramond-MediumItalic.ttf"
-    (share/"fonts").install "ofl/cormorantgaramond/" + "CormorantGaramond-Regular.ttf"
-    (share/"fonts").install "ofl/cormorantgaramond/" + "CormorantGaramond-SemiBold.ttf"
-    (share/"fonts").install "ofl/cormorantgaramond/" + "CormorantGaramond-SemiBoldItalic.ttf"
+    (share/"fonts").install Dir.glob("ofl/cormorantgaramond/./**/CormorantGaramond-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/cormorantgaramond/./**/CormorantGaramond-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/cormorantgaramond/./**/CormorantGaramond-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/cormorantgaramond/./**/CormorantGaramond-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/cormorantgaramond/./**/CormorantGaramond-LightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/cormorantgaramond/./**/CormorantGaramond-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/cormorantgaramond/./**/CormorantGaramond-MediumItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/cormorantgaramond/./**/CormorantGaramond-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/cormorantgaramond/./**/CormorantGaramond-SemiBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/cormorantgaramond/./**/CormorantGaramond-SemiBoldItalic.ttf")[0]
   end
   # No zap stanza required
 

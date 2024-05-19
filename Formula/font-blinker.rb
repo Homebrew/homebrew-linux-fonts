@@ -3,14 +3,14 @@ class FontBlinker < Formula
   desc "Blinker"
   homepage "https://fonts.google.com/specimen/Blinker"
   def install
-    (share/"fonts").install "ofl/blinker/" + "Blinker-Black.ttf"
-    (share/"fonts").install "ofl/blinker/" + "Blinker-Bold.ttf"
-    (share/"fonts").install "ofl/blinker/" + "Blinker-ExtraBold.ttf"
-    (share/"fonts").install "ofl/blinker/" + "Blinker-ExtraLight.ttf"
-    (share/"fonts").install "ofl/blinker/" + "Blinker-Light.ttf"
-    (share/"fonts").install "ofl/blinker/" + "Blinker-Regular.ttf"
-    (share/"fonts").install "ofl/blinker/" + "Blinker-SemiBold.ttf"
-    (share/"fonts").install "ofl/blinker/" + "Blinker-Thin.ttf"
+    (share/"fonts").install Dir.glob("ofl/blinker/./**/Blinker-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/blinker/./**/Blinker-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/blinker/./**/Blinker-ExtraBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/blinker/./**/Blinker-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/blinker/./**/Blinker-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/blinker/./**/Blinker-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/blinker/./**/Blinker-SemiBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/blinker/./**/Blinker-Thin.ttf")[0]
   end
   # No zap stanza required
 

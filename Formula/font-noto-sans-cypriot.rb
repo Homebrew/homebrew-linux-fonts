@@ -3,7 +3,7 @@ class FontNotoSansCypriot < Formula
   desc "Noto Sans Cypriot"
   homepage "https://www.google.com/get/noto/#sans-cprt"
   def install
-    (share/"fonts").install "NotoSansCypriot-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansCypriot-Regular.ttf")[0]
   end
   # No zap stanza required
 

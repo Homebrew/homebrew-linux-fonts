@@ -3,7 +3,7 @@ class FontTextMeOne < Formula
   desc "Text Me One"
   homepage "https://fonts.google.com/specimen/Text+Me+One"
   def install
-    (share/"fonts").install "TextMeOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/TextMeOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

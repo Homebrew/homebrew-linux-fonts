@@ -3,7 +3,7 @@ class FontSeymourOne < Formula
   desc "Seymour One"
   homepage "https://fonts.google.com/specimen/Seymour+One"
   def install
-    (share/"fonts").install "SeymourOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/SeymourOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

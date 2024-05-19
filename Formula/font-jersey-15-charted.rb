@@ -3,7 +3,7 @@ class FontJersey15Charted < Formula
   desc "Jersey 15 Charted"
   homepage "https://fonts.google.com/specimen/Jersey+15+Charted"
   def install
-    (share/"fonts").install "Jersey15Charted-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Jersey15Charted-Regular.ttf")[0]
   end
   # No zap stanza required
 

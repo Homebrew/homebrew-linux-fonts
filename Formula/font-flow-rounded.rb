@@ -3,7 +3,7 @@ class FontFlowRounded < Formula
   desc "Flow Rounded"
   homepage "https://fonts.google.com/specimen/Flow+Rounded"
   def install
-    (share/"fonts").install "FlowRounded-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/FlowRounded-Regular.ttf")[0]
   end
   # No zap stanza required
 

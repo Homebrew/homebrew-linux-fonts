@@ -3,24 +3,24 @@ class FontGrenze < Formula
   desc "Grenze"
   homepage "https://fonts.google.com/specimen/Grenze"
   def install
-    (share/"fonts").install "ofl/grenze/" + "Grenze-Black.ttf"
-    (share/"fonts").install "ofl/grenze/" + "Grenze-BlackItalic.ttf"
-    (share/"fonts").install "ofl/grenze/" + "Grenze-Bold.ttf"
-    (share/"fonts").install "ofl/grenze/" + "Grenze-BoldItalic.ttf"
-    (share/"fonts").install "ofl/grenze/" + "Grenze-ExtraBold.ttf"
-    (share/"fonts").install "ofl/grenze/" + "Grenze-ExtraBoldItalic.ttf"
-    (share/"fonts").install "ofl/grenze/" + "Grenze-ExtraLight.ttf"
-    (share/"fonts").install "ofl/grenze/" + "Grenze-ExtraLightItalic.ttf"
-    (share/"fonts").install "ofl/grenze/" + "Grenze-Italic.ttf"
-    (share/"fonts").install "ofl/grenze/" + "Grenze-Light.ttf"
-    (share/"fonts").install "ofl/grenze/" + "Grenze-LightItalic.ttf"
-    (share/"fonts").install "ofl/grenze/" + "Grenze-Medium.ttf"
-    (share/"fonts").install "ofl/grenze/" + "Grenze-MediumItalic.ttf"
-    (share/"fonts").install "ofl/grenze/" + "Grenze-Regular.ttf"
-    (share/"fonts").install "ofl/grenze/" + "Grenze-SemiBold.ttf"
-    (share/"fonts").install "ofl/grenze/" + "Grenze-SemiBoldItalic.ttf"
-    (share/"fonts").install "ofl/grenze/" + "Grenze-Thin.ttf"
-    (share/"fonts").install "ofl/grenze/" + "Grenze-ThinItalic.ttf"
+    (share/"fonts").install Dir.glob("ofl/grenze/./**/Grenze-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/grenze/./**/Grenze-BlackItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/grenze/./**/Grenze-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/grenze/./**/Grenze-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/grenze/./**/Grenze-ExtraBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/grenze/./**/Grenze-ExtraBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/grenze/./**/Grenze-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/grenze/./**/Grenze-ExtraLightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/grenze/./**/Grenze-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/grenze/./**/Grenze-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/grenze/./**/Grenze-LightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/grenze/./**/Grenze-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/grenze/./**/Grenze-MediumItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/grenze/./**/Grenze-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/grenze/./**/Grenze-SemiBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/grenze/./**/Grenze-SemiBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/grenze/./**/Grenze-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/grenze/./**/Grenze-ThinItalic.ttf")[0]
   end
   # No zap stanza required
 

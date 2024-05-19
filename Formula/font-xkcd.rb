@@ -3,7 +3,7 @@ class FontXkcd < Formula
   desc "xkcd"
   homepage "https://github.com/ipython/xkcd-font"
   def install
-    (share/"fonts").install "xkcd.otf"
+    (share/"fonts").install Dir.glob("./**/xkcd.otf")[0]
   end
   # No zap stanza required
 

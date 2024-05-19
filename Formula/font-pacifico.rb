@@ -3,7 +3,7 @@ class FontPacifico < Formula
   desc "Pacifico"
   homepage "https://fonts.google.com/specimen/Pacifico"
   def install
-    (share/"fonts").install "Pacifico-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Pacifico-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontPaprika < Formula
   desc "Paprika"
   homepage "https://fonts.google.com/specimen/Paprika"
   def install
-    (share/"fonts").install "Paprika-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Paprika-Regular.ttf")[0]
   end
   # No zap stanza required
 

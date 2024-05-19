@@ -6,15 +6,14 @@ class FontIntelOneMono < Formula
   desc "Expressive monospaced font family"
   homepage "https://github.com/intel/intel-one-mono"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}otf/IntelOneMono-Bold.otf"
-    (share/"fonts").install "#{parent}otf/IntelOneMono-BoldItalic.otf"
-    (share/"fonts").install "#{parent}otf/IntelOneMono-Italic.otf"
-    (share/"fonts").install "#{parent}otf/IntelOneMono-Light.otf"
-    (share/"fonts").install "#{parent}otf/IntelOneMono-LightItalic.otf"
-    (share/"fonts").install "#{parent}otf/IntelOneMono-Medium.otf"
-    (share/"fonts").install "#{parent}otf/IntelOneMono-MediumItalic.otf"
-    (share/"fonts").install "#{parent}otf/IntelOneMono-Regular.otf"
+    (share/"fonts").install Dir.glob("otf/**/IntelOneMono-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("otf/**/IntelOneMono-BoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("otf/**/IntelOneMono-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("otf/**/IntelOneMono-Light.otf")[0]
+    (share/"fonts").install Dir.glob("otf/**/IntelOneMono-LightItalic.otf")[0]
+    (share/"fonts").install Dir.glob("otf/**/IntelOneMono-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("otf/**/IntelOneMono-MediumItalic.otf")[0]
+    (share/"fonts").install Dir.glob("otf/**/IntelOneMono-Regular.otf")[0]
   end
   # No zap stanza required
 

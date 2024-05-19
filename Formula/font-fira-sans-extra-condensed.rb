@@ -3,24 +3,24 @@ class FontFiraSansExtraCondensed < Formula
   desc "Fira Sans Extra Condensed"
   homepage "https://fonts.google.com/specimen/Fira+Sans+Extra+Condensed"
   def install
-    (share/"fonts").install "ofl/firasansextracondensed/" + "FiraSansExtraCondensed-Black.ttf"
-    (share/"fonts").install "ofl/firasansextracondensed/" + "FiraSansExtraCondensed-BlackItalic.ttf"
-    (share/"fonts").install "ofl/firasansextracondensed/" + "FiraSansExtraCondensed-Bold.ttf"
-    (share/"fonts").install "ofl/firasansextracondensed/" + "FiraSansExtraCondensed-BoldItalic.ttf"
-    (share/"fonts").install "ofl/firasansextracondensed/" + "FiraSansExtraCondensed-ExtraBold.ttf"
-    (share/"fonts").install "ofl/firasansextracondensed/" + "FiraSansExtraCondensed-ExtraBoldItalic.ttf"
-    (share/"fonts").install "ofl/firasansextracondensed/" + "FiraSansExtraCondensed-ExtraLight.ttf"
-    (share/"fonts").install "ofl/firasansextracondensed/" + "FiraSansExtraCondensed-ExtraLightItalic.ttf"
-    (share/"fonts").install "ofl/firasansextracondensed/" + "FiraSansExtraCondensed-Italic.ttf"
-    (share/"fonts").install "ofl/firasansextracondensed/" + "FiraSansExtraCondensed-Light.ttf"
-    (share/"fonts").install "ofl/firasansextracondensed/" + "FiraSansExtraCondensed-LightItalic.ttf"
-    (share/"fonts").install "ofl/firasansextracondensed/" + "FiraSansExtraCondensed-Medium.ttf"
-    (share/"fonts").install "ofl/firasansextracondensed/" + "FiraSansExtraCondensed-MediumItalic.ttf"
-    (share/"fonts").install "ofl/firasansextracondensed/" + "FiraSansExtraCondensed-Regular.ttf"
-    (share/"fonts").install "ofl/firasansextracondensed/" + "FiraSansExtraCondensed-SemiBold.ttf"
-    (share/"fonts").install "ofl/firasansextracondensed/" + "FiraSansExtraCondensed-SemiBoldItalic.ttf"
-    (share/"fonts").install "ofl/firasansextracondensed/" + "FiraSansExtraCondensed-Thin.ttf"
-    (share/"fonts").install "ofl/firasansextracondensed/" + "FiraSansExtraCondensed-ThinItalic.ttf"
+    (share/"fonts").install Dir.glob("ofl/firasansextracondensed/./**/FiraSansExtraCondensed-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/firasansextracondensed/./**/FiraSansExtraCondensed-BlackItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/firasansextracondensed/./**/FiraSansExtraCondensed-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/firasansextracondensed/./**/FiraSansExtraCondensed-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/firasansextracondensed/./**/FiraSansExtraCondensed-ExtraBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/firasansextracondensed/./**/FiraSansExtraCondensed-ExtraBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/firasansextracondensed/./**/FiraSansExtraCondensed-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/firasansextracondensed/./**/FiraSansExtraCondensed-ExtraLightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/firasansextracondensed/./**/FiraSansExtraCondensed-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/firasansextracondensed/./**/FiraSansExtraCondensed-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/firasansextracondensed/./**/FiraSansExtraCondensed-LightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/firasansextracondensed/./**/FiraSansExtraCondensed-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/firasansextracondensed/./**/FiraSansExtraCondensed-MediumItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/firasansextracondensed/./**/FiraSansExtraCondensed-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/firasansextracondensed/./**/FiraSansExtraCondensed-SemiBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/firasansextracondensed/./**/FiraSansExtraCondensed-SemiBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/firasansextracondensed/./**/FiraSansExtraCondensed-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/firasansextracondensed/./**/FiraSansExtraCondensed-ThinItalic.ttf")[0]
   end
   # No zap stanza required
 

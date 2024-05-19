@@ -3,8 +3,8 @@ class FontCharmonman < Formula
   desc "Charmonman"
   homepage "https://fonts.google.com/specimen/Charmonman"
   def install
-    (share/"fonts").install "ofl/charmonman/" + "Charmonman-Bold.ttf"
-    (share/"fonts").install "ofl/charmonman/" + "Charmonman-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/charmonman/./**/Charmonman-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/charmonman/./**/Charmonman-Regular.ttf")[0]
   end
   # No zap stanza required
 

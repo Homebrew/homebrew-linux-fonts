@@ -3,7 +3,7 @@ class FontPlayball < Formula
   desc "Playball"
   homepage "https://fonts.google.com/specimen/Playball"
   def install
-    (share/"fonts").install "Playball-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Playball-Regular.ttf")[0]
   end
   # No zap stanza required
 

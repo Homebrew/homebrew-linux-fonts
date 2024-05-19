@@ -3,16 +3,16 @@ class FontCormorantInfant < Formula
   desc "Cormorant Infant"
   homepage "https://fonts.google.com/specimen/Cormorant+Infant"
   def install
-    (share/"fonts").install "ofl/cormorantinfant/" + "CormorantInfant-Bold.ttf"
-    (share/"fonts").install "ofl/cormorantinfant/" + "CormorantInfant-BoldItalic.ttf"
-    (share/"fonts").install "ofl/cormorantinfant/" + "CormorantInfant-Italic.ttf"
-    (share/"fonts").install "ofl/cormorantinfant/" + "CormorantInfant-Light.ttf"
-    (share/"fonts").install "ofl/cormorantinfant/" + "CormorantInfant-LightItalic.ttf"
-    (share/"fonts").install "ofl/cormorantinfant/" + "CormorantInfant-Medium.ttf"
-    (share/"fonts").install "ofl/cormorantinfant/" + "CormorantInfant-MediumItalic.ttf"
-    (share/"fonts").install "ofl/cormorantinfant/" + "CormorantInfant-Regular.ttf"
-    (share/"fonts").install "ofl/cormorantinfant/" + "CormorantInfant-SemiBold.ttf"
-    (share/"fonts").install "ofl/cormorantinfant/" + "CormorantInfant-SemiBoldItalic.ttf"
+    (share/"fonts").install Dir.glob("ofl/cormorantinfant/./**/CormorantInfant-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/cormorantinfant/./**/CormorantInfant-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/cormorantinfant/./**/CormorantInfant-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/cormorantinfant/./**/CormorantInfant-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/cormorantinfant/./**/CormorantInfant-LightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/cormorantinfant/./**/CormorantInfant-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/cormorantinfant/./**/CormorantInfant-MediumItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/cormorantinfant/./**/CormorantInfant-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/cormorantinfant/./**/CormorantInfant-SemiBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/cormorantinfant/./**/CormorantInfant-SemiBoldItalic.ttf")[0]
   end
   # No zap stanza required
 

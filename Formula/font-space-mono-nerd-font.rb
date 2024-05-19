@@ -6,18 +6,18 @@ class FontSpaceMonoNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "ofl/sourceserif4/" + "SpaceMonoNerdFont-Bold.ttf"
-    (share/"fonts").install "ofl/sourceserif4/" + "SpaceMonoNerdFont-BoldItalic.ttf"
-    (share/"fonts").install "ofl/sourceserif4/" + "SpaceMonoNerdFont-Italic.ttf"
-    (share/"fonts").install "ofl/sourceserif4/" + "SpaceMonoNerdFont-Regular.ttf"
-    (share/"fonts").install "ofl/sourceserif4/" + "SpaceMonoNerdFontMono-Bold.ttf"
-    (share/"fonts").install "ofl/sourceserif4/" + "SpaceMonoNerdFontMono-BoldItalic.ttf"
-    (share/"fonts").install "ofl/sourceserif4/" + "SpaceMonoNerdFontMono-Italic.ttf"
-    (share/"fonts").install "ofl/sourceserif4/" + "SpaceMonoNerdFontMono-Regular.ttf"
-    (share/"fonts").install "ofl/sourceserif4/" + "SpaceMonoNerdFontPropo-Bold.ttf"
-    (share/"fonts").install "ofl/sourceserif4/" + "SpaceMonoNerdFontPropo-BoldItalic.ttf"
-    (share/"fonts").install "ofl/sourceserif4/" + "SpaceMonoNerdFontPropo-Italic.ttf"
-    (share/"fonts").install "ofl/sourceserif4/" + "SpaceMonoNerdFontPropo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/SpaceMonoNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/SpaceMonoNerdFont-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/SpaceMonoNerdFont-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/SpaceMonoNerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/SpaceMonoNerdFontMono-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/SpaceMonoNerdFontMono-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/SpaceMonoNerdFontMono-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/SpaceMonoNerdFontMono-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/SpaceMonoNerdFontPropo-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/SpaceMonoNerdFontPropo-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/SpaceMonoNerdFontPropo-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/SpaceMonoNerdFontPropo-Regular.ttf")[0]
   end
   # No zap stanza required
 

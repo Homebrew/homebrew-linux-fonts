@@ -3,7 +3,7 @@ class FontCondiment < Formula
   desc "Condiment"
   homepage "https://fonts.google.com/specimen/Condiment"
   def install
-    (share/"fonts").install "Condiment-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Condiment-Regular.ttf")[0]
   end
   # No zap stanza required
 

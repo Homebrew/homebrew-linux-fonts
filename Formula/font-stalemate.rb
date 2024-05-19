@@ -3,7 +3,7 @@ class FontStalemate < Formula
   desc "Stalemate"
   homepage "https://fonts.google.com/specimen/Stalemate"
   def install
-    (share/"fonts").install "Stalemate-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Stalemate-Regular.ttf")[0]
   end
   # No zap stanza required
 

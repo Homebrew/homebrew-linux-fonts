@@ -3,7 +3,7 @@ class FontPermanentMarker < Formula
   desc "Permanent Marker"
   homepage "https://fonts.google.com/specimen/Permanent+Marker"
   def install
-    (share/"fonts").install "PermanentMarker-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/PermanentMarker-Regular.ttf")[0]
   end
   # No zap stanza required
 

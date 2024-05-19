@@ -3,7 +3,7 @@ class FontLacquer < Formula
   desc "Lacquer"
   homepage "https://fonts.google.com/specimen/Lacquer"
   def install
-    (share/"fonts").install "Lacquer-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Lacquer-Regular.ttf")[0]
   end
   # No zap stanza required
 

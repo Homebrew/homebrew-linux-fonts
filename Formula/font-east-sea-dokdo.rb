@@ -3,7 +3,7 @@ class FontEastSeaDokdo < Formula
   desc "East Sea Dokdo"
   homepage "https://fonts.google.com/specimen/East+Sea+Dokdo"
   def install
-    (share/"fonts").install "EastSeaDokdo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/EastSeaDokdo-Regular.ttf")[0]
   end
   # No zap stanza required
 

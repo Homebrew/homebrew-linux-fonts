@@ -3,7 +3,7 @@ class FontOrienta < Formula
   desc "Orienta"
   homepage "https://fonts.google.com/specimen/Orienta"
   def install
-    (share/"fonts").install "Orienta-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Orienta-Regular.ttf")[0]
   end
   # No zap stanza required
 

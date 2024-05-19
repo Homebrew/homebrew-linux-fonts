@@ -3,7 +3,7 @@ class FontVt323 < Formula
   desc "VT323"
   homepage "https://fonts.google.com/specimen/VT323"
   def install
-    (share/"fonts").install "VT323-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/VT323-Regular.ttf")[0]
   end
   # No zap stanza required
 

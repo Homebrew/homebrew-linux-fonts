@@ -3,7 +3,7 @@ class FontRubikStorm < Formula
   desc "Rubik Storm"
   homepage "https://fonts.google.com/specimen/Rubik+Storm"
   def install
-    (share/"fonts").install "RubikStorm-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/RubikStorm-Regular.ttf")[0]
   end
   # No zap stanza required
 

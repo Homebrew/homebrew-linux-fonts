@@ -3,7 +3,7 @@ class FontNotoSansCaucasianAlbanian < Formula
   desc "Noto Sans Caucasian Albanian"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Caucasian+Albanian"
   def install
-    (share/"fonts").install "NotoSansCaucasianAlbanian-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansCaucasianAlbanian-Regular.ttf")[0]
   end
   # No zap stanza required
 

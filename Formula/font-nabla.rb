@@ -4,7 +4,7 @@ class FontNabla < Formula
   desc "Color font inspired by isometric computer games, built using the colrv1 format"
   homepage "https://fonts.google.com/specimen/Nabla"
   def install
-    (share/"fonts").install "Nabla[EDPT,EHLT].ttf"
+    (share/"fonts").install Dir.glob("./**/Nabla\\[EDPT,EHLT\\].ttf")[0]
   end
   # No zap stanza required
 

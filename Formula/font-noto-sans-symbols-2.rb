@@ -3,7 +3,7 @@ class FontNotoSansSymbols2 < Formula
   desc "Noto Sans Symbols 2"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Symbols+2"
   def install
-    (share/"fonts").install "NotoSansSymbols2-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansSymbols2-Regular.ttf")[0]
   end
   # No zap stanza required
 

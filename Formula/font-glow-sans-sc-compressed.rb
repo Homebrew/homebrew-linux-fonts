@@ -6,14 +6,14 @@ class FontGlowSansScCompressed < Formula
   homepage "https://github.com/welai/glow-sans"
   deprecate! date: "2024-02-17", because: :unsupported
   def install
-    (share/"fonts").install "ofl/glory/" + "GlowSansSC-Compressed-Bold.otf"
-    (share/"fonts").install "ofl/glory/" + "GlowSansSC-Compressed-Book.otf"
-    (share/"fonts").install "ofl/glory/" + "GlowSansSC-Compressed-ExtraBold.otf"
-    (share/"fonts").install "ofl/glory/" + "GlowSansSC-Compressed-ExtraLight.otf"
-    (share/"fonts").install "ofl/glory/" + "GlowSansSC-Compressed-Light.otf"
-    (share/"fonts").install "ofl/glory/" + "GlowSansSC-Compressed-Medium.otf"
-    (share/"fonts").install "ofl/glory/" + "GlowSansSC-Compressed-Regular.otf"
-    (share/"fonts").install "ofl/glory/" + "GlowSansSC-Compressed-Thin.otf"
+    (share/"fonts").install Dir.glob("./**/GlowSansSC-Compressed-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GlowSansSC-Compressed-Book.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GlowSansSC-Compressed-ExtraBold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GlowSansSC-Compressed-ExtraLight.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GlowSansSC-Compressed-Light.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GlowSansSC-Compressed-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GlowSansSC-Compressed-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GlowSansSC-Compressed-Thin.otf")[0]
   end
   # No zap stanza required
 

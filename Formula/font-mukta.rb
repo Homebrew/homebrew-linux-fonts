@@ -3,13 +3,13 @@ class FontMukta < Formula
   desc "Mukta"
   homepage "https://fonts.google.com/specimen/Mukta"
   def install
-    (share/"fonts").install "ofl/mukta/" + "Mukta-Bold.ttf"
-    (share/"fonts").install "ofl/mukta/" + "Mukta-ExtraBold.ttf"
-    (share/"fonts").install "ofl/mukta/" + "Mukta-ExtraLight.ttf"
-    (share/"fonts").install "ofl/mukta/" + "Mukta-Light.ttf"
-    (share/"fonts").install "ofl/mukta/" + "Mukta-Medium.ttf"
-    (share/"fonts").install "ofl/mukta/" + "Mukta-Regular.ttf"
-    (share/"fonts").install "ofl/mukta/" + "Mukta-SemiBold.ttf"
+    (share/"fonts").install Dir.glob("ofl/mukta/./**/Mukta-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/mukta/./**/Mukta-ExtraBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/mukta/./**/Mukta-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/mukta/./**/Mukta-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/mukta/./**/Mukta-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/mukta/./**/Mukta-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/mukta/./**/Mukta-SemiBold.ttf")[0]
   end
   # No zap stanza required
 

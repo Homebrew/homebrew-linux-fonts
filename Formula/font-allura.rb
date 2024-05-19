@@ -3,7 +3,7 @@ class FontAllura < Formula
   desc "Allura"
   homepage "https://fonts.google.com/specimen/Allura"
   def install
-    (share/"fonts").install "Allura-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Allura-Regular.ttf")[0]
   end
   # No zap stanza required
 

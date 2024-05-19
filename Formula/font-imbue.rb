@@ -4,7 +4,7 @@ class FontImbue < Formula
   desc "Variable condensed Didone font"
   homepage "https://fonts.google.com/specimen/Imbue"
   def install
-    (share/"fonts").install "Imbue[opsz,wght].ttf"
+    (share/"fonts").install Dir.glob("./**/Imbue\\[opsz,wght\\].ttf")[0]
   end
   # No zap stanza required
 

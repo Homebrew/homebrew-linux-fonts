@@ -3,7 +3,7 @@ class FontAverage < Formula
   desc "Average"
   homepage "https://fonts.google.com/specimen/Average"
   def install
-    (share/"fonts").install "Average-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Average-Regular.ttf")[0]
   end
   # No zap stanza required
 

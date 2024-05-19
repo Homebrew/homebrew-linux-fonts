@@ -4,7 +4,7 @@ class FontAllison < Formula
   desc "Casual handwriting script"
   homepage "https://fonts.google.com/specimen/Allison"
   def install
-    (share/"fonts").install "Allison-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Allison-Regular.ttf")[0]
   end
   # No zap stanza required
 

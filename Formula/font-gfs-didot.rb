@@ -3,7 +3,7 @@ class FontGfsDidot < Formula
   desc "GFS Didot"
   homepage "https://fonts.google.com/specimen/GFS+Didot"
   def install
-    (share/"fonts").install "GFSDidot-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/GFSDidot-Regular.ttf")[0]
   end
   # No zap stanza required
 

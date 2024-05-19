@@ -3,8 +3,8 @@ class FontRedHatDisplay < Formula
   desc "Red Hat Display"
   homepage "https://fonts.google.com/specimen/Red+Hat+Display"
   def install
-    (share/"fonts").install "ofl/redhatdisplay/" + "RedHatDisplay-Italic[wght].ttf"
-    (share/"fonts").install "ofl/redhatdisplay/" + "RedHatDisplay[wght].ttf"
+    (share/"fonts").install Dir.glob("ofl/redhatdisplay/./**/RedHatDisplay-Italic\\[wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/redhatdisplay/./**/RedHatDisplay\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

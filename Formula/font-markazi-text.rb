@@ -4,7 +4,7 @@ class FontMarkaziText < Formula
   desc "Contemporary and highly readable typeface"
   homepage "https://fonts.google.com/specimen/Markazi+Text"
   def install
-    (share/"fonts").install "MarkaziText[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/MarkaziText\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

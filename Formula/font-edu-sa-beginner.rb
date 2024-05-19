@@ -3,7 +3,7 @@ class FontEduSaBeginner < Formula
   desc "Edu SA Beginner"
   homepage "https://fonts.google.com/specimen/Edu+SA+Beginner"
   def install
-    (share/"fonts").install "EduSABeginner[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/EduSABeginner\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

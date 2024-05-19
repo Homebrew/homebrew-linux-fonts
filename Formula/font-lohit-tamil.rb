@@ -3,7 +3,7 @@ class FontLohitTamil < Formula
   desc "Lohit Tamil"
   homepage "https://fonts.google.com/specimen/Lohit+Tamil"
   def install
-    (share/"fonts").install "Lohit-Tamil.ttf"
+    (share/"fonts").install Dir.glob("./**/Lohit-Tamil.ttf")[0]
   end
   # No zap stanza required
 

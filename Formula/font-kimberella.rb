@@ -4,8 +4,7 @@ class FontKimberella < Formula
   desc "Ancient biology styled font inspired by kimberella"
   homepage "https://moji-waku.com/kimberella/index.html"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}kimberella/Kimberella-Regular.otf"
+    (share/"fonts").install Dir.glob("kimberella/**/Kimberella-Regular.otf")[0]
   end
   # No zap stanza required
 

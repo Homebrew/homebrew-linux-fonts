@@ -3,8 +3,8 @@ class FontWorkSans < Formula
   desc "Work Sans"
   homepage "https://fonts.google.com/specimen/Work+Sans"
   def install
-    (share/"fonts").install "ofl/worksans/" + "WorkSans-Italic[wght].ttf"
-    (share/"fonts").install "ofl/worksans/" + "WorkSans[wght].ttf"
+    (share/"fonts").install Dir.glob("ofl/worksans/./**/WorkSans-Italic\\[wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/worksans/./**/WorkSans\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

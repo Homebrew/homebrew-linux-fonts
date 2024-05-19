@@ -6,12 +6,11 @@ class FontGnuUnifont < Formula
   desc "Unicode bitmap font"
   homepage "https://unifoundry.com/unifont.html"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}unifont-#{version}/font/precompiled/unifont-#{version}.otf"
-    (share/"fonts").install "#{parent}unifont-#{version}/font/precompiled/unifont_upper-#{version}.otf"
-    (share/"fonts").install "#{parent}unifont-#{version}/font/precompiled/unifont_sample-#{version}.otf"
-    (share/"fonts").install "#{parent}unifont-#{version}/font/precompiled/unifont_jp-#{version}.otf"
-    (share/"fonts").install "#{parent}unifont-#{version}/font/precompiled/unifont_csur-#{version}.otf"
+    (share/"fonts").install Dir.glob("unifont-#{version}/font/precompiled/**/unifont-#{version}.otf")[0]
+    (share/"fonts").install Dir.glob("unifont-#{version}/font/precompiled/**/unifont_upper-#{version}.otf")[0]
+    (share/"fonts").install Dir.glob("unifont-#{version}/font/precompiled/**/unifont_sample-#{version}.otf")[0]
+    (share/"fonts").install Dir.glob("unifont-#{version}/font/precompiled/**/unifont_jp-#{version}.otf")[0]
+    (share/"fonts").install Dir.glob("unifont-#{version}/font/precompiled/**/unifont_csur-#{version}.otf")[0]
   end
   # No zap stanza required
 

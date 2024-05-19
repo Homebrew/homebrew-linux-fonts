@@ -3,7 +3,7 @@ class FontStixTwoMath < Formula
   desc "STIX Two Math"
   homepage "https://fonts.google.com/specimen/STIX+Two+Math"
   def install
-    (share/"fonts").install "STIXTwoMath-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/STIXTwoMath-Regular.ttf")[0]
   end
   # No zap stanza required
 

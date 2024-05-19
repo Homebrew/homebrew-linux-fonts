@@ -4,7 +4,7 @@ class FontOjuju < Formula
   desc "Distinct with varying apertures as it moves from extra-light to bold"
   homepage "https://fonts.google.com/specimen/Ojuju"
   def install
-    (share/"fonts").install "Ojuju[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/Ojuju\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

@@ -3,8 +3,7 @@ class FontLigatureSymbols < Formula
   desc "Ligature Symbols"
   homepage "https://kudakurage.com/ligature_symbols/"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}LigatureSymbols/LigatureSymbols-2.11.otf"
+    (share/"fonts").install Dir.glob("LigatureSymbols/**/LigatureSymbols-2.11.otf")[0]
   end
   # No zap stanza required
 

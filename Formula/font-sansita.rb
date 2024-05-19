@@ -3,14 +3,14 @@ class FontSansita < Formula
   desc "Sansita"
   homepage "https://fonts.google.com/specimen/Sansita"
   def install
-    (share/"fonts").install "ofl/sansita/" + "Sansita-Black.ttf"
-    (share/"fonts").install "ofl/sansita/" + "Sansita-BlackItalic.ttf"
-    (share/"fonts").install "ofl/sansita/" + "Sansita-Bold.ttf"
-    (share/"fonts").install "ofl/sansita/" + "Sansita-BoldItalic.ttf"
-    (share/"fonts").install "ofl/sansita/" + "Sansita-ExtraBold.ttf"
-    (share/"fonts").install "ofl/sansita/" + "Sansita-ExtraBoldItalic.ttf"
-    (share/"fonts").install "ofl/sansita/" + "Sansita-Italic.ttf"
-    (share/"fonts").install "ofl/sansita/" + "Sansita-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/sansita/./**/Sansita-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sansita/./**/Sansita-BlackItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sansita/./**/Sansita-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sansita/./**/Sansita-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sansita/./**/Sansita-ExtraBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sansita/./**/Sansita-ExtraBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sansita/./**/Sansita-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sansita/./**/Sansita-Regular.ttf")[0]
   end
   # No zap stanza required
 

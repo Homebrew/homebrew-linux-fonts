@@ -4,7 +4,7 @@ class FontAgbalumo < Formula
   desc "Single weight font"
   homepage "https://fonts.google.com/specimen/Agbalumo"
   def install
-    (share/"fonts").install "Agbalumo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Agbalumo-Regular.ttf")[0]
   end
   # No zap stanza required
 

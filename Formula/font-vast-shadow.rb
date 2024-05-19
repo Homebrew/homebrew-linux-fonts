@@ -3,7 +3,7 @@ class FontVastShadow < Formula
   desc "Vast Shadow"
   homepage "https://fonts.google.com/specimen/Vast+Shadow"
   def install
-    (share/"fonts").install "VastShadow-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/VastShadow-Regular.ttf")[0]
   end
   # No zap stanza required
 

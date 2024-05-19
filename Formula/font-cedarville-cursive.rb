@@ -3,7 +3,7 @@ class FontCedarvilleCursive < Formula
   desc "Cedarville Cursive"
   homepage "https://fonts.google.com/specimen/Cedarville+Cursive"
   def install
-    (share/"fonts").install "Cedarville-Cursive.ttf"
+    (share/"fonts").install Dir.glob("./**/Cedarville-Cursive.ttf")[0]
   end
   # No zap stanza required
 

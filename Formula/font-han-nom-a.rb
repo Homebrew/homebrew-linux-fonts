@@ -4,8 +4,8 @@ class FontHanNomA < Formula
   desc "HAN NOM A"
   homepage "https://sourceforge.net/projects/vietunicode/files/hannom/hannom%20v2005/"
   def install
-    (share/"fonts").install "HAN NOM A.ttf"
-    (share/"fonts").install "HAN NOM B.ttf"
+    (share/"fonts").install Dir.glob("./**/HAN NOM A.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/HAN NOM B.ttf")[0]
   end
   # No zap stanza required
 

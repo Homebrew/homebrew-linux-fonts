@@ -3,7 +3,7 @@ class FontFzshusongZ01 < Formula
   desc "Fangzheng Shusong GBK"
   homepage "https://www.foundertype.com/index.php/FontInfo/index.html?id=151"
   def install
-    (share/"fonts").install "FZSSK.ttf"
+    (share/"fonts").install Dir.glob("./**/FZSSK.ttf")[0]
   end
   # No zap stanza required
 

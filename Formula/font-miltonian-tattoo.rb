@@ -3,7 +3,7 @@ class FontMiltonianTattoo < Formula
   desc "Miltonian Tattoo"
   homepage "https://fonts.google.com/specimen/Miltonian+Tattoo"
   def install
-    (share/"fonts").install "MiltonianTattoo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/MiltonianTattoo-Regular.ttf")[0]
   end
   # No zap stanza required
 

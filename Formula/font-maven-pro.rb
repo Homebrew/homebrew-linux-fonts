@@ -3,7 +3,7 @@ class FontMavenPro < Formula
   desc "Maven Pro"
   homepage "https://fonts.google.com/specimen/Maven+Pro"
   def install
-    (share/"fonts").install "MavenPro[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/MavenPro\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

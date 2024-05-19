@@ -3,7 +3,7 @@ class FontCatamaran < Formula
   desc "Catamaran"
   homepage "https://fonts.google.com/specimen/Catamaran"
   def install
-    (share/"fonts").install "Catamaran[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/Catamaran\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

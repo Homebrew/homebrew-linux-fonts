@@ -3,7 +3,7 @@ class FontChelseaMarket < Formula
   desc "Chelsea Market"
   homepage "https://fonts.google.com/specimen/Chelsea+Market"
   def install
-    (share/"fonts").install "ChelseaMarket-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/ChelseaMarket-Regular.ttf")[0]
   end
   # No zap stanza required
 

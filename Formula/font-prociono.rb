@@ -3,7 +3,7 @@ class FontProciono < Formula
   desc "Prociono"
   homepage "https://fonts.google.com/specimen/Prociono"
   def install
-    (share/"fonts").install "Prociono-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Prociono-Regular.ttf")[0]
   end
   # No zap stanza required
 

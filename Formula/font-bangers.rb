@@ -3,7 +3,7 @@ class FontBangers < Formula
   desc "Bangers"
   homepage "https://fonts.google.com/specimen/Bangers"
   def install
-    (share/"fonts").install "Bangers-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Bangers-Regular.ttf")[0]
   end
   # No zap stanza required
 

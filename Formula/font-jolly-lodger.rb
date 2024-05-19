@@ -3,7 +3,7 @@ class FontJollyLodger < Formula
   desc "Jolly Lodger"
   homepage "https://fonts.google.com/specimen/Jolly+Lodger"
   def install
-    (share/"fonts").install "JollyLodger-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/JollyLodger-Regular.ttf")[0]
   end
   # No zap stanza required
 

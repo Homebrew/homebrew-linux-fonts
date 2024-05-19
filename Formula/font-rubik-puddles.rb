@@ -3,7 +3,7 @@ class FontRubikPuddles < Formula
   desc "Rubik Puddles"
   homepage "https://fonts.google.com/specimen/Rubik+Puddles"
   def install
-    (share/"fonts").install "RubikPuddles-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/RubikPuddles-Regular.ttf")[0]
   end
   # No zap stanza required
 

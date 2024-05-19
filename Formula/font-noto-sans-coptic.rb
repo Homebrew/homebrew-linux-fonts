@@ -3,7 +3,7 @@ class FontNotoSansCoptic < Formula
   desc "Noto Sans Coptic"
   homepage "https://www.google.com/get/noto/#sans-copt"
   def install
-    (share/"fonts").install "NotoSansCoptic-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansCoptic-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontGurajada < Formula
   desc "Gurajada"
   homepage "https://fonts.google.com/specimen/Gurajada"
   def install
-    (share/"fonts").install "Gurajada-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Gurajada-Regular.ttf")[0]
   end
   # No zap stanza required
 

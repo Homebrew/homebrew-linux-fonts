@@ -3,7 +3,7 @@ class FontCarterOne < Formula
   desc "Carter One"
   homepage "https://fonts.google.com/specimen/Carter+One"
   def install
-    (share/"fonts").install "CarterOne.ttf"
+    (share/"fonts").install Dir.glob("./**/CarterOne.ttf")[0]
   end
   # No zap stanza required
 

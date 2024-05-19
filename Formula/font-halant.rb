@@ -5,11 +5,11 @@ class FontHalant < Formula
   desc "Halant"
   homepage "https://github.com/itfoundry/halant"
   def install
-    (share/"fonts").install "Halant-Bold.otf"
-    (share/"fonts").install "Halant-Light.otf"
-    (share/"fonts").install "Halant-Medium.otf"
-    (share/"fonts").install "Halant-Regular.otf"
-    (share/"fonts").install "Halant-SemiBold.otf"
+    (share/"fonts").install Dir.glob("./**/Halant-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Halant-Light.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Halant-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Halant-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Halant-SemiBold.otf")[0]
   end
   # No zap stanza required
 

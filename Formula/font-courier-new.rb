@@ -3,10 +3,10 @@ class FontCourierNew < Formula
   desc "Courier New"
   homepage "https://sourceforge.net/projects/corefonts/files/the%20fonts/final/"
   def install
-    (share/"fonts").install "cour.ttf"
-    (share/"fonts").install "courbd.ttf"
-    (share/"fonts").install "courbi.ttf"
-    (share/"fonts").install "couri.ttf"
+    (share/"fonts").install Dir.glob("./**/cour.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/courbd.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/courbi.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/couri.ttf")[0]
   end
   # No zap stanza required
 

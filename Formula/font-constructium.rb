@@ -3,7 +3,7 @@ class FontConstructium < Formula
   desc "Constructium"
   homepage "https://www.kreativekorp.com/software/fonts/constructium.shtml"
   def install
-    (share/"fonts").install "Constructium.ttf"
+    (share/"fonts").install Dir.glob("./**/Constructium.ttf")[0]
   end
   # No zap stanza required
 

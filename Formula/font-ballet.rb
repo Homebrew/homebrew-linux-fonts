@@ -4,7 +4,7 @@ class FontBallet < Formula
   desc "Designed by maximiliano sproviero and developed by eduardo tunni"
   homepage "https://fonts.google.com/specimen/Ballet"
   def install
-    (share/"fonts").install "Ballet[opsz].ttf"
+    (share/"fonts").install Dir.glob("./**/Ballet\\[opsz\\].ttf")[0]
   end
   # No zap stanza required
 

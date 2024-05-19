@@ -3,7 +3,7 @@ class FontNotoSansGunjalaGondi < Formula
   desc "Noto Sans Gunjala Gondi"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Gunjala+Gondi"
   def install
-    (share/"fonts").install "NotoSansGunjalaGondi[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansGunjalaGondi\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

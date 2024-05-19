@@ -4,7 +4,7 @@ class FontTrispace < Formula
   desc "Designed by tyler finck (etc)"
   homepage "https://fonts.google.com/specimen/Trispace"
   def install
-    (share/"fonts").install "Trispace[wdth,wght].ttf"
+    (share/"fonts").install Dir.glob("./**/Trispace\\[wdth,wght\\].ttf")[0]
   end
   # No zap stanza required
 

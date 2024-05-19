@@ -4,7 +4,7 @@ class FontDashicons < Formula
   homepage "https://developer.wordpress.org/resource/dashicons"
   deprecate! date: "2024-02-18", because: :unsupported
   def install
-    (share/"fonts").install "dashicons.ttf"
+    (share/"fonts").install Dir.glob("./**/dashicons.ttf")[0]
   end
   # No zap stanza required
 

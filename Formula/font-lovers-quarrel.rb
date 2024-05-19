@@ -3,7 +3,7 @@ class FontLoversQuarrel < Formula
   desc "Lovers Quarrel"
   homepage "https://fonts.google.com/specimen/Lovers+Quarrel"
   def install
-    (share/"fonts").install "LoversQuarrel-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/LoversQuarrel-Regular.ttf")[0]
   end
   # No zap stanza required
 

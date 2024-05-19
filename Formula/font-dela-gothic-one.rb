@@ -3,7 +3,7 @@ class FontDelaGothicOne < Formula
   desc "Dela Gothic One"
   homepage "https://fonts.google.com/specimen/Dela+Gothic+One"
   def install
-    (share/"fonts").install "DelaGothicOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/DelaGothicOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

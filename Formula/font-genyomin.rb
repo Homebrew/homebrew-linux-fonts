@@ -5,13 +5,13 @@ class FontGenyomin < Formula
   desc "GenYoMin"
   homepage "https://github.com/ButTaiwan/genyo-font"
   def install
-    (share/"fonts").install "ofl/gentiumbookplus/" + "GenYoMin-B.ttc"
-    (share/"fonts").install "ofl/gentiumbookplus/" + "GenYoMin-EL.ttc"
-    (share/"fonts").install "ofl/gentiumbookplus/" + "GenYoMin-H.ttc"
-    (share/"fonts").install "ofl/gentiumbookplus/" + "GenYoMin-L.ttc"
-    (share/"fonts").install "ofl/gentiumbookplus/" + "GenYoMin-M.ttc"
-    (share/"fonts").install "ofl/gentiumbookplus/" + "GenYoMin-R.ttc"
-    (share/"fonts").install "ofl/gentiumbookplus/" + "GenYoMin-SB.ttc"
+    (share/"fonts").install Dir.glob("./**/GenYoMin-B.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/GenYoMin-EL.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/GenYoMin-H.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/GenYoMin-L.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/GenYoMin-M.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/GenYoMin-R.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/GenYoMin-SB.ttc")[0]
   end
   # No zap stanza required
 

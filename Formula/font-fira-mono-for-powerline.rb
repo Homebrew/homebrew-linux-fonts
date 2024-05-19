@@ -3,9 +3,9 @@ class FontFiraMonoForPowerline < Formula
   desc "Fira Mono for Powerline"
   homepage "https://github.com/powerline/fonts/tree/master/FiraMono"
   def install
-    (share/"fonts").install "FiraMono/" + "FuraMono-Bold Powerline.otf"
-    (share/"fonts").install "FiraMono/" + "FuraMono-Medium Powerline.otf"
-    (share/"fonts").install "FiraMono/" + "FuraMono-Regular Powerline.otf"
+    (share/"fonts").install Dir.glob("FiraMono/./**/FuraMono-Bold Powerline.otf")[0]
+    (share/"fonts").install Dir.glob("FiraMono/./**/FuraMono-Medium Powerline.otf")[0]
+    (share/"fonts").install Dir.glob("FiraMono/./**/FuraMono-Regular Powerline.otf")[0]
   end
   # No zap stanza required
 

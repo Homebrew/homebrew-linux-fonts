@@ -4,8 +4,8 @@ class FontAnnapurnaSil < Formula
   desc "Unicode-based font with support for systems that use the devanagari script"
   homepage "https://fonts.google.com/specimen/Annapurna+SIL"
   def install
-    (share/"fonts").install "ofl/annapurnasil/" + "AnnapurnaSIL-Bold.ttf"
-    (share/"fonts").install "ofl/annapurnasil/" + "AnnapurnaSIL-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/annapurnasil/./**/AnnapurnaSIL-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/annapurnasil/./**/AnnapurnaSIL-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontTradeWinds < Formula
   desc "Trade Winds"
   homepage "https://fonts.google.com/specimen/Trade+Winds"
   def install
-    (share/"fonts").install "TradeWinds-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/TradeWinds-Regular.ttf")[0]
   end
   # No zap stanza required
 

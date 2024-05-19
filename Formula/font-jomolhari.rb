@@ -3,7 +3,7 @@ class FontJomolhari < Formula
   desc "Jomolhari"
   homepage "https://fonts.google.com/specimen/Jomolhari"
   def install
-    (share/"fonts").install "Jomolhari-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Jomolhari-Regular.ttf")[0]
   end
   # No zap stanza required
 

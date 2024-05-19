@@ -3,7 +3,7 @@ class FontAntonio < Formula
   desc "Antonio"
   homepage "https://fonts.google.com/specimen/Antonio"
   def install
-    (share/"fonts").install "Antonio[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/Antonio\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

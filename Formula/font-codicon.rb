@@ -6,7 +6,7 @@ class FontCodicon < Formula
   desc "Icon font for Visual Studio Code"
   homepage "https://github.com/microsoft/vscode-codicons"
   def install
-    (share/"fonts").install "codicon.ttf"
+    (share/"fonts").install Dir.glob("./**/codicon.ttf")[0]
   end
   # No zap stanza required
 

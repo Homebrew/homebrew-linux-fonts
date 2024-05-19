@@ -3,7 +3,7 @@ class FontProtestRevolution < Formula
   desc "Protest Revolution"
   homepage "https://fonts.google.com/specimen/Protest+Revolution"
   def install
-    (share/"fonts").install "ProtestRevolution-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/ProtestRevolution-Regular.ttf")[0]
   end
   # No zap stanza required
 

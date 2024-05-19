@@ -5,10 +5,10 @@ class FontTexGyreTermes < Formula
   desc "TeX Gyre Termes"
   homepage "https://www.gust.org.pl/projects/e-foundry/tex-gyre/termes"
   def install
-    (share/"fonts").install "texgyretermes-bold.otf"
-    (share/"fonts").install "texgyretermes-bolditalic.otf"
-    (share/"fonts").install "texgyretermes-italic.otf"
-    (share/"fonts").install "texgyretermes-regular.otf"
+    (share/"fonts").install Dir.glob("./**/texgyretermes-bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/texgyretermes-bolditalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/texgyretermes-italic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/texgyretermes-regular.otf")[0]
   end
   # No zap stanza required
 

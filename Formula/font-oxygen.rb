@@ -3,9 +3,9 @@ class FontOxygen < Formula
   desc "Oxygen"
   homepage "https://fonts.google.com/specimen/Oxygen"
   def install
-    (share/"fonts").install "ofl/oxygen/" + "Oxygen-Bold.ttf"
-    (share/"fonts").install "ofl/oxygen/" + "Oxygen-Light.ttf"
-    (share/"fonts").install "ofl/oxygen/" + "Oxygen-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/oxygen/./**/Oxygen-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/oxygen/./**/Oxygen-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/oxygen/./**/Oxygen-Regular.ttf")[0]
   end
   # No zap stanza required
 

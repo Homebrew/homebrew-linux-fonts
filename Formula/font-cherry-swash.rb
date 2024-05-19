@@ -3,8 +3,8 @@ class FontCherrySwash < Formula
   desc "Cherry Swash"
   homepage "https://fonts.google.com/specimen/Cherry+Swash"
   def install
-    (share/"fonts").install "ofl/cherryswash/" + "CherrySwash-Bold.ttf"
-    (share/"fonts").install "ofl/cherryswash/" + "CherrySwash-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/cherryswash/./**/CherrySwash-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/cherryswash/./**/CherrySwash-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -4,7 +4,7 @@ class FontNotoSansHk < Formula
   desc "Sans-serif design using the traditional chinese variant of the han ideograms"
   homepage "https://fonts.google.com/specimen/Noto+Sans+HK"
   def install
-    (share/"fonts").install "NotoSansHK[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansHK\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

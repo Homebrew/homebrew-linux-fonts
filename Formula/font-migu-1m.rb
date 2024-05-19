@@ -5,9 +5,8 @@ class FontMigu1m < Formula
   desc "Migu 1M"
   homepage "https://mix-mplus-ipa.osdn.jp/migu/#migu1m"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}migu-1m-#{version}/migu-1m-bold.ttf"
-    (share/"fonts").install "#{parent}migu-1m-#{version}/migu-1m-regular.ttf"
+    (share/"fonts").install Dir.glob("migu-1m-#{version}/**/migu-1m-bold.ttf")[0]
+    (share/"fonts").install Dir.glob("migu-1m-#{version}/**/migu-1m-regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,22 +3,22 @@ class FontAsapCondensed < Formula
   desc "Asap Condensed"
   homepage "https://fonts.google.com/specimen/Asap+Condensed"
   def install
-    (share/"fonts").install "ofl/asapcondensed/" + "AsapCondensed-Black.ttf"
-    (share/"fonts").install "ofl/asapcondensed/" + "AsapCondensed-BlackItalic.ttf"
-    (share/"fonts").install "ofl/asapcondensed/" + "AsapCondensed-Bold.ttf"
-    (share/"fonts").install "ofl/asapcondensed/" + "AsapCondensed-BoldItalic.ttf"
-    (share/"fonts").install "ofl/asapcondensed/" + "AsapCondensed-ExtraBold.ttf"
-    (share/"fonts").install "ofl/asapcondensed/" + "AsapCondensed-ExtraBoldItalic.ttf"
-    (share/"fonts").install "ofl/asapcondensed/" + "AsapCondensed-ExtraLight.ttf"
-    (share/"fonts").install "ofl/asapcondensed/" + "AsapCondensed-ExtraLightItalic.ttf"
-    (share/"fonts").install "ofl/asapcondensed/" + "AsapCondensed-Italic.ttf"
-    (share/"fonts").install "ofl/asapcondensed/" + "AsapCondensed-Light.ttf"
-    (share/"fonts").install "ofl/asapcondensed/" + "AsapCondensed-LightItalic.ttf"
-    (share/"fonts").install "ofl/asapcondensed/" + "AsapCondensed-Medium.ttf"
-    (share/"fonts").install "ofl/asapcondensed/" + "AsapCondensed-MediumItalic.ttf"
-    (share/"fonts").install "ofl/asapcondensed/" + "AsapCondensed-Regular.ttf"
-    (share/"fonts").install "ofl/asapcondensed/" + "AsapCondensed-SemiBold.ttf"
-    (share/"fonts").install "ofl/asapcondensed/" + "AsapCondensed-SemiBoldItalic.ttf"
+    (share/"fonts").install Dir.glob("ofl/asapcondensed/./**/AsapCondensed-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/asapcondensed/./**/AsapCondensed-BlackItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/asapcondensed/./**/AsapCondensed-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/asapcondensed/./**/AsapCondensed-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/asapcondensed/./**/AsapCondensed-ExtraBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/asapcondensed/./**/AsapCondensed-ExtraBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/asapcondensed/./**/AsapCondensed-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/asapcondensed/./**/AsapCondensed-ExtraLightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/asapcondensed/./**/AsapCondensed-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/asapcondensed/./**/AsapCondensed-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/asapcondensed/./**/AsapCondensed-LightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/asapcondensed/./**/AsapCondensed-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/asapcondensed/./**/AsapCondensed-MediumItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/asapcondensed/./**/AsapCondensed-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/asapcondensed/./**/AsapCondensed-SemiBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/asapcondensed/./**/AsapCondensed-SemiBoldItalic.ttf")[0]
   end
   # No zap stanza required
 

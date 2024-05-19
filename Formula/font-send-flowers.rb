@@ -4,7 +4,7 @@ class FontSendFlowers < Formula
   desc "Appropriate for an older audience"
   homepage "https://fonts.google.com/specimen/Send+Flowers"
   def install
-    (share/"fonts").install "SendFlowers-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/SendFlowers-Regular.ttf")[0]
   end
   # No zap stanza required
 

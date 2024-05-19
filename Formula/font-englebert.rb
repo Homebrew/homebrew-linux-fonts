@@ -3,7 +3,7 @@ class FontEnglebert < Formula
   desc "Englebert"
   homepage "https://fonts.google.com/specimen/Englebert"
   def install
-    (share/"fonts").install "Englebert-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Englebert-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontPoorStory < Formula
   desc "Poor Story"
   homepage "https://fonts.google.com/specimen/Poor+Story"
   def install
-    (share/"fonts").install "PoorStory-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/PoorStory-Regular.ttf")[0]
   end
   # No zap stanza required
 

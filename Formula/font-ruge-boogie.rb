@@ -3,7 +3,7 @@ class FontRugeBoogie < Formula
   desc "Ruge Boogie"
   homepage "https://fonts.google.com/specimen/Ruge+Boogie"
   def install
-    (share/"fonts").install "RugeBoogie-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/RugeBoogie-Regular.ttf")[0]
   end
   # No zap stanza required
 

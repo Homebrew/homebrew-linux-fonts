@@ -3,7 +3,7 @@ class FontDonegalOne < Formula
   desc "Donegal One"
   homepage "https://fonts.google.com/specimen/Donegal+One"
   def install
-    (share/"fonts").install "DonegalOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/DonegalOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

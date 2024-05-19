@@ -3,7 +3,7 @@ class FontTheGirlNextDoor < Formula
   desc "The Girl Next Door"
   homepage "https://fonts.google.com/specimen/The+Girl+Next+Door"
   def install
-    (share/"fonts").install "TheGirlNextDoor.ttf"
+    (share/"fonts").install Dir.glob("./**/TheGirlNextDoor.ttf")[0]
   end
   # No zap stanza required
 

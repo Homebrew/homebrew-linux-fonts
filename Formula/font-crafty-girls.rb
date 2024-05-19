@@ -3,7 +3,7 @@ class FontCraftyGirls < Formula
   desc "Crafty Girls"
   homepage "https://fonts.google.com/specimen/Crafty+Girls"
   def install
-    (share/"fonts").install "CraftyGirls-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/CraftyGirls-Regular.ttf")[0]
   end
   # No zap stanza required
 

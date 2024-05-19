@@ -5,10 +5,10 @@ class FontBrill < Formula
   desc "Brill"
   homepage "https://brill.com/page/BrillFont/"
   def install
-    (share/"fonts").install "Brill-Bold.ttf"
-    (share/"fonts").install "Brill-BoldItalic.ttf"
-    (share/"fonts").install "Brill-Italic.ttf"
-    (share/"fonts").install "Brill-Roman.ttf"
+    (share/"fonts").install Dir.glob("./**/Brill-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Brill-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Brill-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Brill-Roman.ttf")[0]
   end
   # No zap stanza required
 

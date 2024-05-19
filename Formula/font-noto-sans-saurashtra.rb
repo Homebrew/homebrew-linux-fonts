@@ -3,7 +3,7 @@ class FontNotoSansSaurashtra < Formula
   desc "Noto Sans Saurashtra"
   homepage "https://www.google.com/get/noto/#sans-saur"
   def install
-    (share/"fonts").install "NotoSansSaurashtra-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansSaurashtra-Regular.ttf")[0]
   end
   # No zap stanza required
 

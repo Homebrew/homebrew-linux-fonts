@@ -4,7 +4,7 @@ class FontNotoSerifJp < Formula
   desc "Modulated (“serif”) design for the japanese language"
   homepage "https://fonts.google.com/specimen/Noto+Serif+JP"
   def install
-    (share/"fonts").install "NotoSerifJP[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSerifJP\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

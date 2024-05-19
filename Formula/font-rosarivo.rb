@@ -3,8 +3,8 @@ class FontRosarivo < Formula
   desc "Rosarivo"
   homepage "https://fonts.google.com/specimen/Rosarivo"
   def install
-    (share/"fonts").install "ofl/rosarivo/" + "Rosarivo-Italic.ttf"
-    (share/"fonts").install "ofl/rosarivo/" + "Rosarivo-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/rosarivo/./**/Rosarivo-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/rosarivo/./**/Rosarivo-Regular.ttf")[0]
   end
   # No zap stanza required
 

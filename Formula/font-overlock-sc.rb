@@ -3,7 +3,7 @@ class FontOverlockSc < Formula
   desc "Overlock SC"
   homepage "https://fonts.google.com/specimen/Overlock+SC"
   def install
-    (share/"fonts").install "OverlockSC-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/OverlockSC-Regular.ttf")[0]
   end
   # No zap stanza required
 

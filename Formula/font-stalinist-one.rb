@@ -3,7 +3,7 @@ class FontStalinistOne < Formula
   desc "Stalinist One"
   homepage "https://fonts.google.com/specimen/Stalinist+One"
   def install
-    (share/"fonts").install "StalinistOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/StalinistOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

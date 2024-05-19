@@ -3,7 +3,7 @@ class FontNotoSerifNpHmong < Formula
   desc "Noto Serif NP Hmong"
   homepage "https://fonts.google.com/specimen/Noto+Serif+NP+Hmong"
   def install
-    (share/"fonts").install "NotoSerifNPHmong[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSerifNPHmong\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

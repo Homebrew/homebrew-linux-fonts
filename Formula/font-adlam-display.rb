@@ -3,7 +3,7 @@ class FontAdlamDisplay < Formula
   desc "ADLaM Display"
   homepage "https://fonts.google.com/specimen/ADLaM+Display"
   def install
-    (share/"fonts").install "ADLaMDisplay-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/ADLaMDisplay-Regular.ttf")[0]
   end
   # No zap stanza required
 

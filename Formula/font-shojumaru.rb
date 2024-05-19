@@ -3,7 +3,7 @@ class FontShojumaru < Formula
   desc "Shojumaru"
   homepage "https://fonts.google.com/specimen/Shojumaru"
   def install
-    (share/"fonts").install "Shojumaru-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Shojumaru-Regular.ttf")[0]
   end
   # No zap stanza required
 

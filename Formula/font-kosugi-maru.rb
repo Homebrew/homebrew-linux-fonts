@@ -4,7 +4,7 @@ class FontKosugiMaru < Formula
   desc "Available as kosugi"
   homepage "https://fonts.google.com/specimen/Kosugi+Maru"
   def install
-    (share/"fonts").install "KosugiMaru-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/KosugiMaru-Regular.ttf")[0]
   end
   # No zap stanza required
 

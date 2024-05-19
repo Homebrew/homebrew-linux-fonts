@@ -4,7 +4,7 @@ class FontAreYouSerious < Formula
   desc "Fun playful font with a very joyful spirit"
   homepage "https://fonts.google.com/specimen/Are+You+Serious"
   def install
-    (share/"fonts").install "AreYouSerious-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/AreYouSerious-Regular.ttf")[0]
   end
   # No zap stanza required
 

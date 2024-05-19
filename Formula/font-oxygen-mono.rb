@@ -3,7 +3,7 @@ class FontOxygenMono < Formula
   desc "Oxygen Mono"
   homepage "https://fonts.google.com/specimen/Oxygen+Mono"
   def install
-    (share/"fonts").install "OxygenMono-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/OxygenMono-Regular.ttf")[0]
   end
   # No zap stanza required
 

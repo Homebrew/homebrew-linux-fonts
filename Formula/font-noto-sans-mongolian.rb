@@ -3,7 +3,7 @@ class FontNotoSansMongolian < Formula
   desc "Noto Sans Mongolian"
   homepage "https://www.google.com/get/noto/#sans-mong"
   def install
-    (share/"fonts").install "NotoSansMongolian-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansMongolian-Regular.ttf")[0]
   end
   # No zap stanza required
 

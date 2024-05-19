@@ -3,7 +3,7 @@ class FontBubblerOne < Formula
   desc "Bubbler One"
   homepage "https://fonts.google.com/specimen/Bubbler+One"
   def install
-    (share/"fonts").install "BubblerOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/BubblerOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

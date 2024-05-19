@@ -3,7 +3,7 @@ class FontSlackey < Formula
   desc "Slackey"
   homepage "https://fonts.google.com/specimen/Slackey"
   def install
-    (share/"fonts").install "Slackey-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Slackey-Regular.ttf")[0]
   end
   # No zap stanza required
 

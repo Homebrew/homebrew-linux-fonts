@@ -4,7 +4,7 @@ class FontHedvigLettersSans < Formula
   desc "Perfect when it’s not"
   homepage "https://fonts.google.com/specimen/Hedvig+Letters+Sans"
   def install
-    (share/"fonts").install "HedvigLettersSans-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/HedvigLettersSans-Regular.ttf")[0]
   end
   # No zap stanza required
 

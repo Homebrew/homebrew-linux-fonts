@@ -4,7 +4,7 @@ class FontComforterBrush < Formula
   desc "Brushy companion of comforter, a bouncy, upright brush style script"
   homepage "https://fonts.google.com/specimen/Comforter+Brush"
   def install
-    (share/"fonts").install "ComforterBrush-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/ComforterBrush-Regular.ttf")[0]
   end
   # No zap stanza required
 

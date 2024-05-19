@@ -3,8 +3,8 @@ class FontAmaticSc < Formula
   desc "Amatic SC"
   homepage "https://fonts.google.com/specimen/Amatic+SC"
   def install
-    (share/"fonts").install "ofl/amaticsc/" + "AmaticSC-Bold.ttf"
-    (share/"fonts").install "ofl/amaticsc/" + "AmaticSC-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/amaticsc/./**/AmaticSC-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/amaticsc/./**/AmaticSC-Regular.ttf")[0]
   end
   # No zap stanza required
 

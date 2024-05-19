@@ -3,8 +3,8 @@ class FontFinlandica < Formula
   desc "Finlandica"
   homepage "https://fonts.google.com/specimen/Finlandica"
   def install
-    (share/"fonts").install "ofl/finlandica/" + "Finlandica-Italic[wght].ttf"
-    (share/"fonts").install "ofl/finlandica/" + "Finlandica[wght].ttf"
+    (share/"fonts").install Dir.glob("ofl/finlandica/./**/Finlandica-Italic\\[wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/finlandica/./**/Finlandica\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

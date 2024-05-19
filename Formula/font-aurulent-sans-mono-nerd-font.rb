@@ -6,9 +6,9 @@ class FontAurulentSansMonoNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "AurulentSansMNerdFont-Regular.otf"
-    (share/"fonts").install "AurulentSansMNerdFontMono-Regular.otf"
-    (share/"fonts").install "AurulentSansMNerdFontPropo-Regular.otf"
+    (share/"fonts").install Dir.glob("./**/AurulentSansMNerdFont-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/AurulentSansMNerdFontMono-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/AurulentSansMNerdFontPropo-Regular.otf")[0]
   end
   # No zap stanza required
 

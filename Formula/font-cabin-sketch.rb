@@ -3,8 +3,8 @@ class FontCabinSketch < Formula
   desc "Cabin Sketch"
   homepage "https://fonts.google.com/specimen/Cabin+Sketch"
   def install
-    (share/"fonts").install "ofl/cabinsketch/" + "CabinSketch-Bold.ttf"
-    (share/"fonts").install "ofl/cabinsketch/" + "CabinSketch-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/cabinsketch/./**/CabinSketch-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/cabinsketch/./**/CabinSketch-Regular.ttf")[0]
   end
   # No zap stanza required
 

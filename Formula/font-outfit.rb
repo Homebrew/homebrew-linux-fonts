@@ -3,7 +3,7 @@ class FontOutfit < Formula
   desc "Outfit"
   homepage "https://fonts.google.com/specimen/Outfit"
   def install
-    (share/"fonts").install "Outfit[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/Outfit\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

@@ -3,11 +3,10 @@ class FontRedacted < Formula
   desc "Redacted"
   homepage "https://github.com/christiannaths/Redacted-Font"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}Redacted-Font-old-sources/fonts/redacted-regular.ttf"
-    (share/"fonts").install "#{parent}Redacted-Font-old-sources/fonts/redacted-script-bold.ttf"
-    (share/"fonts").install "#{parent}Redacted-Font-old-sources/fonts/redacted-script-light.ttf"
-    (share/"fonts").install "#{parent}Redacted-Font-old-sources/fonts/redacted-script-regular.ttf"
+    (share/"fonts").install Dir.glob("Redacted-Font-old-sources/fonts/**/redacted-regular.ttf")[0]
+    (share/"fonts").install Dir.glob("Redacted-Font-old-sources/fonts/**/redacted-script-bold.ttf")[0]
+    (share/"fonts").install Dir.glob("Redacted-Font-old-sources/fonts/**/redacted-script-light.ttf")[0]
+    (share/"fonts").install Dir.glob("Redacted-Font-old-sources/fonts/**/redacted-script-regular.ttf")[0]
   end
   # No zap stanza required
 

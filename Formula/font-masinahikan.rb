@@ -3,9 +3,9 @@ class FontMasinahikan < Formula
   desc "Masinahikan"
   homepage "https://www.languagegeek.com/font/fontdownload.html"
   def install
-    (share/"fonts").install "Masinahikan_h.ttf"
-    (share/"fonts").install "Masinahikan_h_Bold.ttf"
-    (share/"fonts").install "Masinahikan_h_Semi.ttf"
+    (share/"fonts").install Dir.glob("./**/Masinahikan_h.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Masinahikan_h_Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Masinahikan_h_Semi.ttf")[0]
   end
   # No zap stanza required
 

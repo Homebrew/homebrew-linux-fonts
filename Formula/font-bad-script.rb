@@ -3,7 +3,7 @@ class FontBadScript < Formula
   desc "Bad Script"
   homepage "https://fonts.google.com/specimen/Bad+Script"
   def install
-    (share/"fonts").install "BadScript-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/BadScript-Regular.ttf")[0]
   end
   # No zap stanza required
 

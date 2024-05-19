@@ -4,7 +4,7 @@ class FontArOneSans < Formula
   desc "Type family is for use in augmented reality environments and user interfaces"
   homepage "https://fonts.google.com/specimen/AR+One+Sans"
   def install
-    (share/"fonts").install "AROneSans[ARRR,wght].ttf"
+    (share/"fonts").install Dir.glob("./**/AROneSans\\[ARRR,wght\\].ttf")[0]
   end
   # No zap stanza required
 

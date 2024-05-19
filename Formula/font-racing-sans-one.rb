@@ -3,7 +3,7 @@ class FontRacingSansOne < Formula
   desc "Racing Sans One"
   homepage "https://fonts.google.com/specimen/Racing+Sans+One"
   def install
-    (share/"fonts").install "RacingSansOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/RacingSansOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

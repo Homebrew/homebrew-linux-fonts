@@ -3,7 +3,7 @@ class FontRubikScribble < Formula
   desc "Rubik Scribble"
   homepage "https://fonts.google.com/specimen/Rubik+Scribble"
   def install
-    (share/"fonts").install "RubikScribble-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/RubikScribble-Regular.ttf")[0]
   end
   # No zap stanza required
 

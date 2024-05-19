@@ -3,7 +3,7 @@ class FontPaytoneOne < Formula
   desc "Paytone One"
   homepage "https://fonts.google.com/specimen/Paytone+One"
   def install
-    (share/"fonts").install "PaytoneOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/PaytoneOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

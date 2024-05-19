@@ -5,29 +5,28 @@ class FontMeltho < Formula
   desc "Meltho Fonts"
   homepage "https://bethmardutho.org/syriacmac/"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}melthofonts-1/melthofonts-#{version.to_s.sub(/,.*/, "")}/SyrCOMAdiabene.otf"
-    (share/"fonts").install "#{parent}melthofonts-1/melthofonts-#{version.to_s.sub(/,.*/, "")}/SyrCOMAntioch.otf"
-    (share/"fonts").install "#{parent}melthofonts-1/melthofonts-#{version.to_s.sub(/,.*/, "")}/SyrCOMBatnan.otf"
-    (share/"fonts").install "#{parent}melthofonts-1/melthofonts-#{version.to_s.sub(/,.*/, "")}/SyrCOMBatnanBold.otf"
-    (share/"fonts").install "#{parent}melthofonts-1/melthofonts-#{version.to_s.sub(/,.*/, "")}/SyrCOMCtesiphon.otf"
-    (share/"fonts").install "#{parent}melthofonts-1/melthofonts-#{version.to_s.sub(/,.*/, "")}/SyrCOMEdessa.otf"
-    (share/"fonts").install "#{parent}melthofonts-1/melthofonts-#{version.to_s.sub(/,.*/, "")}/SyrCOMJerusalem.otf"
-    (share/"fonts").install "#{parent}melthofonts-1/melthofonts-#{version.to_s.sub(/,.*/, "")}/SyrCOMJerusalemBold.otf"
-    (share/"fonts").install "#{parent}melthofonts-1/melthofonts-#{version.to_s.sub(/,.*/, "")}/SyrCOMJerusalemItalic.otf"
-    (share/"fonts").install "#{parent}melthofonts-1/melthofonts-#{version.to_s.sub(/,.*/, "")}/SyrCOMJerusalemOutline.otf"
-    (share/"fonts").install "#{parent}melthofonts-1/melthofonts-#{version.to_s.sub(/,.*/, "")}/SyrCOMKharput.otf"
-    (share/"fonts").install "#{parent}melthofonts-1/melthofonts-#{version.to_s.sub(/,.*/, "")}/SyrCOMMalankara.otf"
-    (share/"fonts").install "#{parent}melthofonts-1/melthofonts-#{version.to_s.sub(/,.*/, "")}/SyrCOMMardin.otf"
-    (share/"fonts").install "#{parent}melthofonts-1/melthofonts-#{version.to_s.sub(/,.*/, "")}/SyrCOMMardinBold.otf"
-    (share/"fonts").install "#{parent}melthofonts-1/melthofonts-#{version.to_s.sub(/,.*/, "")}/SyrCOMMidyat.otf"
-    (share/"fonts").install "#{parent}melthofonts-1/melthofonts-#{version.to_s.sub(/,.*/, "")}/SyrCOMNisibin.otf"
-    (share/"fonts").install "#{parent}melthofonts-1/melthofonts-#{version.to_s.sub(/,.*/, "")}/SyrCOMNisibinOutline.otf"
-    (share/"fonts").install "#{parent}melthofonts-1/melthofonts-#{version.to_s.sub(/,.*/, "")}/SyrCOMQenNeshrin.otf"
-    (share/"fonts").install "#{parent}melthofonts-1/melthofonts-#{version.to_s.sub(/,.*/, "")}/SyrCOMTalada.otf"
-    (share/"fonts").install "#{parent}melthofonts-1/melthofonts-#{version.to_s.sub(/,.*/, "")}/SyrCOMTurAbdin.otf"
-    (share/"fonts").install "#{parent}melthofonts-1/melthofonts-#{version.to_s.sub(/,.*/, "")}/SyrCOMUrhoy.otf"
-    (share/"fonts").install "#{parent}melthofonts-1/melthofonts-#{version.to_s.sub(/,.*/, "")}/SyrCOMUrhoyBold.otf"
+    (share/"fonts").install Dir.glob("melthofonts-1/melthofonts-#{version.to_s.sub(/,.*/, "")}/**/SyrCOMAdiabene.otf")[0]
+    (share/"fonts").install Dir.glob("melthofonts-1/melthofonts-#{version.to_s.sub(/,.*/, "")}/**/SyrCOMAntioch.otf")[0]
+    (share/"fonts").install Dir.glob("melthofonts-1/melthofonts-#{version.to_s.sub(/,.*/, "")}/**/SyrCOMBatnan.otf")[0]
+    (share/"fonts").install Dir.glob("melthofonts-1/melthofonts-#{version.to_s.sub(/,.*/, "")}/**/SyrCOMBatnanBold.otf")[0]
+    (share/"fonts").install Dir.glob("melthofonts-1/melthofonts-#{version.to_s.sub(/,.*/, "")}/**/SyrCOMCtesiphon.otf")[0]
+    (share/"fonts").install Dir.glob("melthofonts-1/melthofonts-#{version.to_s.sub(/,.*/, "")}/**/SyrCOMEdessa.otf")[0]
+    (share/"fonts").install Dir.glob("melthofonts-1/melthofonts-#{version.to_s.sub(/,.*/, "")}/**/SyrCOMJerusalem.otf")[0]
+    (share/"fonts").install Dir.glob("melthofonts-1/melthofonts-#{version.to_s.sub(/,.*/, "")}/**/SyrCOMJerusalemBold.otf")[0]
+    (share/"fonts").install Dir.glob("melthofonts-1/melthofonts-#{version.to_s.sub(/,.*/, "")}/**/SyrCOMJerusalemItalic.otf")[0]
+    (share/"fonts").install Dir.glob("melthofonts-1/melthofonts-#{version.to_s.sub(/,.*/, "")}/**/SyrCOMJerusalemOutline.otf")[0]
+    (share/"fonts").install Dir.glob("melthofonts-1/melthofonts-#{version.to_s.sub(/,.*/, "")}/**/SyrCOMKharput.otf")[0]
+    (share/"fonts").install Dir.glob("melthofonts-1/melthofonts-#{version.to_s.sub(/,.*/, "")}/**/SyrCOMMalankara.otf")[0]
+    (share/"fonts").install Dir.glob("melthofonts-1/melthofonts-#{version.to_s.sub(/,.*/, "")}/**/SyrCOMMardin.otf")[0]
+    (share/"fonts").install Dir.glob("melthofonts-1/melthofonts-#{version.to_s.sub(/,.*/, "")}/**/SyrCOMMardinBold.otf")[0]
+    (share/"fonts").install Dir.glob("melthofonts-1/melthofonts-#{version.to_s.sub(/,.*/, "")}/**/SyrCOMMidyat.otf")[0]
+    (share/"fonts").install Dir.glob("melthofonts-1/melthofonts-#{version.to_s.sub(/,.*/, "")}/**/SyrCOMNisibin.otf")[0]
+    (share/"fonts").install Dir.glob("melthofonts-1/melthofonts-#{version.to_s.sub(/,.*/, "")}/**/SyrCOMNisibinOutline.otf")[0]
+    (share/"fonts").install Dir.glob("melthofonts-1/melthofonts-#{version.to_s.sub(/,.*/, "")}/**/SyrCOMQenNeshrin.otf")[0]
+    (share/"fonts").install Dir.glob("melthofonts-1/melthofonts-#{version.to_s.sub(/,.*/, "")}/**/SyrCOMTalada.otf")[0]
+    (share/"fonts").install Dir.glob("melthofonts-1/melthofonts-#{version.to_s.sub(/,.*/, "")}/**/SyrCOMTurAbdin.otf")[0]
+    (share/"fonts").install Dir.glob("melthofonts-1/melthofonts-#{version.to_s.sub(/,.*/, "")}/**/SyrCOMUrhoy.otf")[0]
+    (share/"fonts").install Dir.glob("melthofonts-1/melthofonts-#{version.to_s.sub(/,.*/, "")}/**/SyrCOMUrhoyBold.otf")[0]
   end
   # No zap stanza required
 

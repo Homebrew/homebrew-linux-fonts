@@ -4,7 +4,7 @@ class FontSono < Formula
   desc "Fixed-width (and obviously not kerned)"
   homepage "https://fonts.google.com/specimen/Sono"
   def install
-    (share/"fonts").install "Sono[MONO,wght].ttf"
+    (share/"fonts").install Dir.glob("./**/Sono\\[MONO,wght\\].ttf")[0]
   end
   # No zap stanza required
 

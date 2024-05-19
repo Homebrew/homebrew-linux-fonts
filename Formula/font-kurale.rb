@@ -3,7 +3,7 @@ class FontKurale < Formula
   desc "Kurale"
   homepage "https://fonts.google.com/specimen/Kurale"
   def install
-    (share/"fonts").install "Kurale-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Kurale-Regular.ttf")[0]
   end
   # No zap stanza required
 

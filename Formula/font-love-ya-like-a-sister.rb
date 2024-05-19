@@ -3,7 +3,7 @@ class FontLoveYaLikeASister < Formula
   desc "Love Ya Like A Sister"
   homepage "https://fonts.google.com/specimen/Love+Ya+Like+A+Sister"
   def install
-    (share/"fonts").install "LoveYaLikeASister.ttf"
+    (share/"fonts").install Dir.glob("./**/LoveYaLikeASister.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontWallpoet < Formula
   desc "Wallpoet"
   homepage "https://fonts.google.com/specimen/Wallpoet"
   def install
-    (share/"fonts").install "Wallpoet-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Wallpoet-Regular.ttf")[0]
   end
   # No zap stanza required
 

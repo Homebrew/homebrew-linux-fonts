@@ -3,7 +3,7 @@ class FontGemunuLibre < Formula
   desc "Gemunu Libre"
   homepage "https://fonts.google.com/specimen/Gemunu+Libre"
   def install
-    (share/"fonts").install "GemunuLibre[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/GemunuLibre\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

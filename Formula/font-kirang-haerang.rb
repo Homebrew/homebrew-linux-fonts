@@ -3,7 +3,7 @@ class FontKirangHaerang < Formula
   desc "Kirang Haerang"
   homepage "https://fonts.google.com/specimen/Kirang+Haerang"
   def install
-    (share/"fonts").install "KirangHaerang-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/KirangHaerang-Regular.ttf")[0]
   end
   # No zap stanza required
 

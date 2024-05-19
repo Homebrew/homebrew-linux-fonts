@@ -3,7 +3,7 @@ class FontPorterSansBlock < Formula
   desc "Porter Sans Block"
   homepage "https://fonts.google.com/specimen/Porter+Sans+Block"
   def install
-    (share/"fonts").install "PorterSansBlock-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/PorterSansBlock-Regular.ttf")[0]
   end
   # No zap stanza required
 

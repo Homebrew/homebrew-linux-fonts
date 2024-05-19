@@ -4,15 +4,14 @@ class FontFandol < Formula
   desc "Fandol"
   homepage "https://ctan.org/pkg/fandol"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}fandol/FandolBraille-Display.otf"
-    (share/"fonts").install "#{parent}fandol/FandolBraille-Regular.otf"
-    (share/"fonts").install "#{parent}fandol/FandolFang-Regular.otf"
-    (share/"fonts").install "#{parent}fandol/FandolHei-Bold.otf"
-    (share/"fonts").install "#{parent}fandol/FandolHei-Regular.otf"
-    (share/"fonts").install "#{parent}fandol/FandolKai-Regular.otf"
-    (share/"fonts").install "#{parent}fandol/FandolSong-Bold.otf"
-    (share/"fonts").install "#{parent}fandol/FandolSong-Regular.otf"
+    (share/"fonts").install Dir.glob("fandol/**/FandolBraille-Display.otf")[0]
+    (share/"fonts").install Dir.glob("fandol/**/FandolBraille-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("fandol/**/FandolFang-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("fandol/**/FandolHei-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("fandol/**/FandolHei-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("fandol/**/FandolKai-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("fandol/**/FandolSong-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("fandol/**/FandolSong-Regular.otf")[0]
   end
   # No zap stanza required
 

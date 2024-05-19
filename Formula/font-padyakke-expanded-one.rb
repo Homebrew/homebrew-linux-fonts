@@ -3,7 +3,7 @@ class FontPadyakkeExpandedOne < Formula
   desc "Padyakke Expanded One"
   homepage "https://fonts.google.com/specimen/Padyakke+Expanded+One"
   def install
-    (share/"fonts").install "PadyakkeExpandedOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/PadyakkeExpandedOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

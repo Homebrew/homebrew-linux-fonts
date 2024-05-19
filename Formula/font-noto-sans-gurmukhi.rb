@@ -3,8 +3,8 @@ class FontNotoSansGurmukhi < Formula
   desc "Noto Sans Gurmukhi"
   homepage "https://www.google.com/get/noto/#sans-guru"
   def install
-    (share/"fonts").install "NotoSansGurmukhi-Bold.ttf"
-    (share/"fonts").install "NotoSansGurmukhi-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansGurmukhi-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansGurmukhi-Regular.ttf")[0]
   end
   # No zap stanza required
 

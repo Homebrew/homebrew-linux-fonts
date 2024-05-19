@@ -3,7 +3,7 @@ class FontOverpassMono < Formula
   desc "Overpass Mono"
   homepage "https://fonts.google.com/specimen/Overpass+Mono"
   def install
-    (share/"fonts").install "OverpassMono[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/OverpassMono\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

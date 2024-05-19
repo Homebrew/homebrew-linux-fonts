@@ -3,7 +3,7 @@ class FontRocknrollOne < Formula
   desc "RocknRoll One"
   homepage "https://fonts.google.com/specimen/RocknRoll+One"
   def install
-    (share/"fonts").install "RocknRollOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/RocknRollOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

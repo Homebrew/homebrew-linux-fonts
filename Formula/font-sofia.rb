@@ -3,7 +3,7 @@ class FontSofia < Formula
   desc "Sofia"
   homepage "https://fonts.google.com/specimen/Sofia"
   def install
-    (share/"fonts").install "Sofia-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Sofia-Regular.ttf")[0]
   end
   # No zap stanza required
 

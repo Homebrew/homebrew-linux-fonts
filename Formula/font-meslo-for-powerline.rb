@@ -5,13 +5,12 @@ class FontMesloForPowerline < Formula
   desc "Meslo for Powerline"
   homepage "https://github.com/powerline/fonts"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}fonts-#{version}/Meslo/Meslo LG L DZ Regular for Powerline.otf"
-    (share/"fonts").install "#{parent}fonts-#{version}/Meslo/Meslo LG L Regular for Powerline.otf"
-    (share/"fonts").install "#{parent}fonts-#{version}/Meslo/Meslo LG M DZ Regular for Powerline.otf"
-    (share/"fonts").install "#{parent}fonts-#{version}/Meslo/Meslo LG M Regular for Powerline.otf"
-    (share/"fonts").install "#{parent}fonts-#{version}/Meslo/Meslo LG S DZ Regular for Powerline.otf"
-    (share/"fonts").install "#{parent}fonts-#{version}/Meslo/Meslo LG S Regular for Powerline.otf"
+    (share/"fonts").install Dir.glob("fonts-#{version}/Meslo/**/Meslo LG L DZ Regular for Powerline.otf")[0]
+    (share/"fonts").install Dir.glob("fonts-#{version}/Meslo/**/Meslo LG L Regular for Powerline.otf")[0]
+    (share/"fonts").install Dir.glob("fonts-#{version}/Meslo/**/Meslo LG M DZ Regular for Powerline.otf")[0]
+    (share/"fonts").install Dir.glob("fonts-#{version}/Meslo/**/Meslo LG M Regular for Powerline.otf")[0]
+    (share/"fonts").install Dir.glob("fonts-#{version}/Meslo/**/Meslo LG S DZ Regular for Powerline.otf")[0]
+    (share/"fonts").install Dir.glob("fonts-#{version}/Meslo/**/Meslo LG S Regular for Powerline.otf")[0]
   end
   # No zap stanza required
 

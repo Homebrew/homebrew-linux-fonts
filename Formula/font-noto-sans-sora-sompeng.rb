@@ -3,7 +3,7 @@ class FontNotoSansSoraSompeng < Formula
   desc "Noto Sans Sora Sompeng"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Sora+Sompeng"
   def install
-    (share/"fonts").install "NotoSansSoraSompeng[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansSoraSompeng\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

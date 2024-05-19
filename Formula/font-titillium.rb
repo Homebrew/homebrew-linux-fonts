@@ -5,23 +5,22 @@ class FontTitillium < Formula
   desc "Titillium"
   homepage "http://nta.accademiadiurbino.it/titillium/"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}Titillium_roman_upright_italic_#{version.to_s.sub(/,.*/, "").gsub(".", "_")}_OT/Titillium-Black.otf"
-    (share/"fonts").install "#{parent}Titillium_roman_upright_italic_#{version.to_s.sub(/,.*/, "").gsub(".", "_")}_OT/Titillium-Bold.otf"
-    (share/"fonts").install "#{parent}Titillium_roman_upright_italic_#{version.to_s.sub(/,.*/, "").gsub(".", "_")}_OT/Titillium-BoldItalic.otf"
-    (share/"fonts").install "#{parent}Titillium_roman_upright_italic_#{version.to_s.sub(/,.*/, "").gsub(".", "_")}_OT/Titillium-BoldUpright.otf"
-    (share/"fonts").install "#{parent}Titillium_roman_upright_italic_#{version.to_s.sub(/,.*/, "").gsub(".", "_")}_OT/Titillium-Light.otf"
-    (share/"fonts").install "#{parent}Titillium_roman_upright_italic_#{version.to_s.sub(/,.*/, "").gsub(".", "_")}_OT/Titillium-LightItalic.otf"
-    (share/"fonts").install "#{parent}Titillium_roman_upright_italic_#{version.to_s.sub(/,.*/, "").gsub(".", "_")}_OT/Titillium-LightUpright.otf"
-    (share/"fonts").install "#{parent}Titillium_roman_upright_italic_#{version.to_s.sub(/,.*/, "").gsub(".", "_")}_OT/Titillium-Regular.otf"
-    (share/"fonts").install "#{parent}Titillium_roman_upright_italic_#{version.to_s.sub(/,.*/, "").gsub(".", "_")}_OT/Titillium-RegularItalic.otf"
-    (share/"fonts").install "#{parent}Titillium_roman_upright_italic_#{version.to_s.sub(/,.*/, "").gsub(".", "_")}_OT/Titillium-RegularUpright.otf"
-    (share/"fonts").install "#{parent}Titillium_roman_upright_italic_#{version.to_s.sub(/,.*/, "").gsub(".", "_")}_OT/Titillium-Semibold.otf"
-    (share/"fonts").install "#{parent}Titillium_roman_upright_italic_#{version.to_s.sub(/,.*/, "").gsub(".", "_")}_OT/Titillium-SemiboldItalic.otf"
-    (share/"fonts").install "#{parent}Titillium_roman_upright_italic_#{version.to_s.sub(/,.*/, "").gsub(".", "_")}_OT/Titillium-SemiboldUpright.otf"
-    (share/"fonts").install "#{parent}Titillium_roman_upright_italic_#{version.to_s.sub(/,.*/, "").gsub(".", "_")}_OT/Titillium-Thin.otf"
-    (share/"fonts").install "#{parent}Titillium_roman_upright_italic_#{version.to_s.sub(/,.*/, "").gsub(".", "_")}_OT/Titillium-ThinItalic.otf"
-    (share/"fonts").install "#{parent}Titillium_roman_upright_italic_#{version.to_s.sub(/,.*/, "").gsub(".", "_")}_OT/Titillium-ThinUpright.otf"
+    (share/"fonts").install Dir.glob("Titillium_roman_upright_italic_#{version.to_s.sub(/,.*/, "").gsub(".", "_")}_OT/**/Titillium-Black.otf")[0]
+    (share/"fonts").install Dir.glob("Titillium_roman_upright_italic_#{version.to_s.sub(/,.*/, "").gsub(".", "_")}_OT/**/Titillium-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("Titillium_roman_upright_italic_#{version.to_s.sub(/,.*/, "").gsub(".", "_")}_OT/**/Titillium-BoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("Titillium_roman_upright_italic_#{version.to_s.sub(/,.*/, "").gsub(".", "_")}_OT/**/Titillium-BoldUpright.otf")[0]
+    (share/"fonts").install Dir.glob("Titillium_roman_upright_italic_#{version.to_s.sub(/,.*/, "").gsub(".", "_")}_OT/**/Titillium-Light.otf")[0]
+    (share/"fonts").install Dir.glob("Titillium_roman_upright_italic_#{version.to_s.sub(/,.*/, "").gsub(".", "_")}_OT/**/Titillium-LightItalic.otf")[0]
+    (share/"fonts").install Dir.glob("Titillium_roman_upright_italic_#{version.to_s.sub(/,.*/, "").gsub(".", "_")}_OT/**/Titillium-LightUpright.otf")[0]
+    (share/"fonts").install Dir.glob("Titillium_roman_upright_italic_#{version.to_s.sub(/,.*/, "").gsub(".", "_")}_OT/**/Titillium-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("Titillium_roman_upright_italic_#{version.to_s.sub(/,.*/, "").gsub(".", "_")}_OT/**/Titillium-RegularItalic.otf")[0]
+    (share/"fonts").install Dir.glob("Titillium_roman_upright_italic_#{version.to_s.sub(/,.*/, "").gsub(".", "_")}_OT/**/Titillium-RegularUpright.otf")[0]
+    (share/"fonts").install Dir.glob("Titillium_roman_upright_italic_#{version.to_s.sub(/,.*/, "").gsub(".", "_")}_OT/**/Titillium-Semibold.otf")[0]
+    (share/"fonts").install Dir.glob("Titillium_roman_upright_italic_#{version.to_s.sub(/,.*/, "").gsub(".", "_")}_OT/**/Titillium-SemiboldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("Titillium_roman_upright_italic_#{version.to_s.sub(/,.*/, "").gsub(".", "_")}_OT/**/Titillium-SemiboldUpright.otf")[0]
+    (share/"fonts").install Dir.glob("Titillium_roman_upright_italic_#{version.to_s.sub(/,.*/, "").gsub(".", "_")}_OT/**/Titillium-Thin.otf")[0]
+    (share/"fonts").install Dir.glob("Titillium_roman_upright_italic_#{version.to_s.sub(/,.*/, "").gsub(".", "_")}_OT/**/Titillium-ThinItalic.otf")[0]
+    (share/"fonts").install Dir.glob("Titillium_roman_upright_italic_#{version.to_s.sub(/,.*/, "").gsub(".", "_")}_OT/**/Titillium-ThinUpright.otf")[0]
   end
   # No zap stanza required
 

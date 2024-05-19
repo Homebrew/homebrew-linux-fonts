@@ -3,7 +3,7 @@ class FontVinaSans < Formula
   desc "Vina Sans"
   homepage "https://fonts.google.com/specimen/Vina+Sans"
   def install
-    (share/"fonts").install "VinaSans-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/VinaSans-Regular.ttf")[0]
   end
   # No zap stanza required
 

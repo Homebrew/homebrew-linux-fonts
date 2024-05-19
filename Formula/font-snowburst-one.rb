@@ -3,7 +3,7 @@ class FontSnowburstOne < Formula
   desc "Snowburst One"
   homepage "https://fonts.google.com/specimen/Snowburst+One"
   def install
-    (share/"fonts").install "SnowburstOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/SnowburstOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

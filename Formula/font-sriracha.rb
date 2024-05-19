@@ -3,7 +3,7 @@ class FontSriracha < Formula
   desc "Sriracha"
   homepage "https://fonts.google.com/specimen/Sriracha"
   def install
-    (share/"fonts").install "Sriracha-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Sriracha-Regular.ttf")[0]
   end
   # No zap stanza required
 

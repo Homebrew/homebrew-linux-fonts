@@ -3,7 +3,7 @@ class FontManrope < Formula
   desc "Manrope"
   homepage "https://fonts.google.com/specimen/Manrope"
   def install
-    (share/"fonts").install "Manrope[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/Manrope\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

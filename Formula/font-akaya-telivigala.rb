@@ -3,7 +3,7 @@ class FontAkayaTelivigala < Formula
   desc "Akaya Telivigala"
   homepage "https://fonts.google.com/specimen/Akaya+Telivigala"
   def install
-    (share/"fonts").install "AkayaTelivigala-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/AkayaTelivigala-Regular.ttf")[0]
   end
   # No zap stanza required
 

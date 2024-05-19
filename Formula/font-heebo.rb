@@ -3,7 +3,7 @@ class FontHeebo < Formula
   desc "Heebo"
   homepage "https://fonts.google.com/specimen/Heebo"
   def install
-    (share/"fonts").install "Heebo[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/Heebo\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

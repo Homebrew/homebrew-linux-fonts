@@ -3,7 +3,7 @@ class FontChelaOne < Formula
   desc "Chela One"
   homepage "https://fonts.google.com/specimen/Chela+One"
   def install
-    (share/"fonts").install "ChelaOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/ChelaOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

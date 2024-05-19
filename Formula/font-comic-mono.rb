@@ -4,9 +4,8 @@ class FontComicMono < Formula
   desc "Legible monospace font"
   homepage "https://dtinth.github.io/comic-mono-font/"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}comic-mono-font-master/ComicMono.ttf"
-    (share/"fonts").install "#{parent}comic-mono-font-master/ComicMono-Bold.ttf"
+    (share/"fonts").install Dir.glob("comic-mono-font-master/**/ComicMono.ttf")[0]
+    (share/"fonts").install Dir.glob("comic-mono-font-master/**/ComicMono-Bold.ttf")[0]
   end
   # No zap stanza required
 

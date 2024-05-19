@@ -4,8 +4,8 @@ class FontAgdasima < Formula
   desc "Based on big shoulders, a condensed american gothic sans-serif font family"
   homepage "https://fonts.google.com/specimen/Agdasima"
   def install
-    (share/"fonts").install "ofl/agdasima/" + "Agdasima-Bold.ttf"
-    (share/"fonts").install "ofl/agdasima/" + "Agdasima-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/agdasima/./**/Agdasima-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/agdasima/./**/Agdasima-Regular.ttf")[0]
   end
   # No zap stanza required
 

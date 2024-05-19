@@ -6,15 +6,15 @@ class Font3270NerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "3270NerdFont-Condensed.ttf"
-    (share/"fonts").install "3270NerdFont-Regular.ttf"
-    (share/"fonts").install "3270NerdFont-SemiCondensed.ttf"
-    (share/"fonts").install "3270NerdFontMono-Condensed.ttf"
-    (share/"fonts").install "3270NerdFontMono-Regular.ttf"
-    (share/"fonts").install "3270NerdFontMono-SemiCondensed.ttf"
-    (share/"fonts").install "3270NerdFontPropo-Condensed.ttf"
-    (share/"fonts").install "3270NerdFontPropo-Regular.ttf"
-    (share/"fonts").install "3270NerdFontPropo-SemiCondensed.ttf"
+    (share/"fonts").install Dir.glob("./**/3270NerdFont-Condensed.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/3270NerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/3270NerdFont-SemiCondensed.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/3270NerdFontMono-Condensed.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/3270NerdFontMono-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/3270NerdFontMono-SemiCondensed.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/3270NerdFontPropo-Condensed.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/3270NerdFontPropo-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/3270NerdFontPropo-SemiCondensed.ttf")[0]
   end
   # No zap stanza required
 

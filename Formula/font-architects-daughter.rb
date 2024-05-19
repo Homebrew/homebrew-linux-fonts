@@ -3,7 +3,7 @@ class FontArchitectsDaughter < Formula
   desc "Architects Daughter"
   homepage "https://fonts.google.com/specimen/Architects+Daughter"
   def install
-    (share/"fonts").install "ArchitectsDaughter-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/ArchitectsDaughter-Regular.ttf")[0]
   end
   # No zap stanza required
 

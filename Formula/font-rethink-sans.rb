@@ -4,8 +4,8 @@ class FontRethinkSans < Formula
   desc "Sans-serif type family"
   homepage "https://fonts.google.com/specimen/Rethink+Sans"
   def install
-    (share/"fonts").install "ofl/rethinksans/" + "RethinkSans-Italic[wght].ttf"
-    (share/"fonts").install "ofl/rethinksans/" + "RethinkSans[wght].ttf"
+    (share/"fonts").install Dir.glob("ofl/rethinksans/./**/RethinkSans-Italic\\[wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/rethinksans/./**/RethinkSans\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

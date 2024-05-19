@@ -5,10 +5,10 @@ class FontTexGyreCursor < Formula
   desc "TeX Gyre Cursor"
   homepage "https://www.gust.org.pl/projects/e-foundry/tex-gyre/cursor"
   def install
-    (share/"fonts").install "texgyrecursor-bold.otf"
-    (share/"fonts").install "texgyrecursor-bolditalic.otf"
-    (share/"fonts").install "texgyrecursor-italic.otf"
-    (share/"fonts").install "texgyrecursor-regular.otf"
+    (share/"fonts").install Dir.glob("./**/texgyrecursor-bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/texgyrecursor-bolditalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/texgyrecursor-italic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/texgyrecursor-regular.otf")[0]
   end
   # No zap stanza required
 

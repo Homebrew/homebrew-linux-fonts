@@ -4,7 +4,7 @@ class FontPontanoSans < Formula
   desc "Minimalist and light-weighted sans serif"
   homepage "https://fonts.google.com/specimen/Pontano+Sans"
   def install
-    (share/"fonts").install "PontanoSans[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/PontanoSans\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

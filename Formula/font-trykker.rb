@@ -3,7 +3,7 @@ class FontTrykker < Formula
   desc "Trykker"
   homepage "https://fonts.google.com/specimen/Trykker"
   def install
-    (share/"fonts").install "Trykker-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Trykker-Regular.ttf")[0]
   end
   # No zap stanza required
 

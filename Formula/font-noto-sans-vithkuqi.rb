@@ -4,7 +4,7 @@ class FontNotoSansVithkuqi < Formula
   desc "Design for the historical european vithkuqi script"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Vithkuqi"
   def install
-    (share/"fonts").install "NotoSansVithkuqi[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansVithkuqi\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontRomanesco < Formula
   desc "Romanesco"
   homepage "https://fonts.google.com/specimen/Romanesco"
   def install
-    (share/"fonts").install "Romanesco-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Romanesco-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,8 +3,8 @@ class FontPoly < Formula
   desc "Poly"
   homepage "https://fonts.google.com/specimen/Poly"
   def install
-    (share/"fonts").install "ofl/poly/" + "Poly-Italic.ttf"
-    (share/"fonts").install "ofl/poly/" + "Poly-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/poly/./**/Poly-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/poly/./**/Poly-Regular.ttf")[0]
   end
   # No zap stanza required
 

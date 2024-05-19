@@ -4,7 +4,7 @@ class FontNotoSansLaoLooped < Formula
   desc "Looped variant of the southeast asian lao script"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Lao+Looped"
   def install
-    (share/"fonts").install "NotoSansLaoLooped[wdth,wght].ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansLaoLooped\\[wdth,wght\\].ttf")[0]
   end
   # No zap stanza required
 

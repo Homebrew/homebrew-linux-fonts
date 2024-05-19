@@ -3,7 +3,7 @@ class FontImFellDwPicaSc < Formula
   desc "IM Fell DW Pica SC"
   homepage "https://fonts.google.com/specimen/IM+Fell+DW+Pica+SC"
   def install
-    (share/"fonts").install "IMFePIsc28P.ttf"
+    (share/"fonts").install Dir.glob("./**/IMFePIsc28P.ttf")[0]
   end
   # No zap stanza required
 

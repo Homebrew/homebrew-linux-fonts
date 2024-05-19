@@ -3,7 +3,7 @@ class FontClickerScript < Formula
   desc "Clicker Script"
   homepage "https://fonts.google.com/specimen/Clicker+Script"
   def install
-    (share/"fonts").install "ClickerScript-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/ClickerScript-Regular.ttf")[0]
   end
   # No zap stanza required
 

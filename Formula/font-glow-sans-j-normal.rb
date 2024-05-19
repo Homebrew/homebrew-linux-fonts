@@ -6,15 +6,15 @@ class FontGlowSansJNormal < Formula
   homepage "https://github.com/welai/glow-sans"
   deprecate! date: "2024-02-17", because: :unsupported
   def install
-    (share/"fonts").install "ofl/glory/" + "GlowSansJ-Normal-Bold.otf"
-    (share/"fonts").install "ofl/glory/" + "GlowSansJ-Normal-Book.otf"
-    (share/"fonts").install "ofl/glory/" + "GlowSansJ-Normal-ExtraBold.otf"
-    (share/"fonts").install "ofl/glory/" + "GlowSansJ-Normal-ExtraLight.otf"
-    (share/"fonts").install "ofl/glory/" + "GlowSansJ-Normal-Heavy.otf"
-    (share/"fonts").install "ofl/glory/" + "GlowSansJ-Normal-Light.otf"
-    (share/"fonts").install "ofl/glory/" + "GlowSansJ-Normal-Medium.otf"
-    (share/"fonts").install "ofl/glory/" + "GlowSansJ-Normal-Regular.otf"
-    (share/"fonts").install "ofl/glory/" + "GlowSansJ-Normal-Thin.otf"
+    (share/"fonts").install Dir.glob("./**/GlowSansJ-Normal-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GlowSansJ-Normal-Book.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GlowSansJ-Normal-ExtraBold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GlowSansJ-Normal-ExtraLight.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GlowSansJ-Normal-Heavy.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GlowSansJ-Normal-Light.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GlowSansJ-Normal-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GlowSansJ-Normal-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GlowSansJ-Normal-Thin.otf")[0]
   end
   # No zap stanza required
 

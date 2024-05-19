@@ -3,9 +3,9 @@ class FontPassionOne < Formula
   desc "Passion One"
   homepage "https://fonts.google.com/specimen/Passion+One"
   def install
-    (share/"fonts").install "ofl/passionone/" + "PassionOne-Black.ttf"
-    (share/"fonts").install "ofl/passionone/" + "PassionOne-Bold.ttf"
-    (share/"fonts").install "ofl/passionone/" + "PassionOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/passionone/./**/PassionOne-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/passionone/./**/PassionOne-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/passionone/./**/PassionOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

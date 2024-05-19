@@ -5,27 +5,26 @@ class FontOverpass < Formula
   desc "Overpass"
   homepage "https://overpassfont.org/"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}Overpass-#{version}/desktop-fonts/overpass/overpass-bold-italic.otf"
-    (share/"fonts").install "#{parent}Overpass-#{version}/desktop-fonts/overpass/overpass-bold.otf"
-    (share/"fonts").install "#{parent}Overpass-#{version}/desktop-fonts/overpass/overpass-extrabold-italic.otf"
-    (share/"fonts").install "#{parent}Overpass-#{version}/desktop-fonts/overpass/overpass-extrabold.otf"
-    (share/"fonts").install "#{parent}Overpass-#{version}/desktop-fonts/overpass/overpass-extralight-italic.otf"
-    (share/"fonts").install "#{parent}Overpass-#{version}/desktop-fonts/overpass/overpass-extralight.otf"
-    (share/"fonts").install "#{parent}Overpass-#{version}/desktop-fonts/overpass/overpass-heavy-italic.otf"
-    (share/"fonts").install "#{parent}Overpass-#{version}/desktop-fonts/overpass/overpass-heavy.otf"
-    (share/"fonts").install "#{parent}Overpass-#{version}/desktop-fonts/overpass/overpass-italic.otf"
-    (share/"fonts").install "#{parent}Overpass-#{version}/desktop-fonts/overpass/overpass-light-italic.otf"
-    (share/"fonts").install "#{parent}Overpass-#{version}/desktop-fonts/overpass/overpass-light.otf"
-    (share/"fonts").install "#{parent}Overpass-#{version}/desktop-fonts/overpass/overpass-regular.otf"
-    (share/"fonts").install "#{parent}Overpass-#{version}/desktop-fonts/overpass/overpass-semibold-italic.otf"
-    (share/"fonts").install "#{parent}Overpass-#{version}/desktop-fonts/overpass/overpass-semibold.otf"
-    (share/"fonts").install "#{parent}Overpass-#{version}/desktop-fonts/overpass/overpass-thin-italic.otf"
-    (share/"fonts").install "#{parent}Overpass-#{version}/desktop-fonts/overpass/overpass-thin.otf"
-    (share/"fonts").install "#{parent}Overpass-#{version}/desktop-fonts/overpass-mono/overpass-mono-bold.otf"
-    (share/"fonts").install "#{parent}Overpass-#{version}/desktop-fonts/overpass-mono/overpass-mono-light.otf"
-    (share/"fonts").install "#{parent}Overpass-#{version}/desktop-fonts/overpass-mono/overpass-mono-regular.otf"
-    (share/"fonts").install "#{parent}Overpass-#{version}/desktop-fonts/overpass-mono/overpass-mono-semibold.otf"
+    (share/"fonts").install Dir.glob("Overpass-#{version}/desktop-fonts/overpass/**/overpass-bold-italic.otf")[0]
+    (share/"fonts").install Dir.glob("Overpass-#{version}/desktop-fonts/overpass/**/overpass-bold.otf")[0]
+    (share/"fonts").install Dir.glob("Overpass-#{version}/desktop-fonts/overpass/**/overpass-extrabold-italic.otf")[0]
+    (share/"fonts").install Dir.glob("Overpass-#{version}/desktop-fonts/overpass/**/overpass-extrabold.otf")[0]
+    (share/"fonts").install Dir.glob("Overpass-#{version}/desktop-fonts/overpass/**/overpass-extralight-italic.otf")[0]
+    (share/"fonts").install Dir.glob("Overpass-#{version}/desktop-fonts/overpass/**/overpass-extralight.otf")[0]
+    (share/"fonts").install Dir.glob("Overpass-#{version}/desktop-fonts/overpass/**/overpass-heavy-italic.otf")[0]
+    (share/"fonts").install Dir.glob("Overpass-#{version}/desktop-fonts/overpass/**/overpass-heavy.otf")[0]
+    (share/"fonts").install Dir.glob("Overpass-#{version}/desktop-fonts/overpass/**/overpass-italic.otf")[0]
+    (share/"fonts").install Dir.glob("Overpass-#{version}/desktop-fonts/overpass/**/overpass-light-italic.otf")[0]
+    (share/"fonts").install Dir.glob("Overpass-#{version}/desktop-fonts/overpass/**/overpass-light.otf")[0]
+    (share/"fonts").install Dir.glob("Overpass-#{version}/desktop-fonts/overpass/**/overpass-regular.otf")[0]
+    (share/"fonts").install Dir.glob("Overpass-#{version}/desktop-fonts/overpass/**/overpass-semibold-italic.otf")[0]
+    (share/"fonts").install Dir.glob("Overpass-#{version}/desktop-fonts/overpass/**/overpass-semibold.otf")[0]
+    (share/"fonts").install Dir.glob("Overpass-#{version}/desktop-fonts/overpass/**/overpass-thin-italic.otf")[0]
+    (share/"fonts").install Dir.glob("Overpass-#{version}/desktop-fonts/overpass/**/overpass-thin.otf")[0]
+    (share/"fonts").install Dir.glob("Overpass-#{version}/desktop-fonts/overpass-mono/**/overpass-mono-bold.otf")[0]
+    (share/"fonts").install Dir.glob("Overpass-#{version}/desktop-fonts/overpass-mono/**/overpass-mono-light.otf")[0]
+    (share/"fonts").install Dir.glob("Overpass-#{version}/desktop-fonts/overpass-mono/**/overpass-mono-regular.otf")[0]
+    (share/"fonts").install Dir.glob("Overpass-#{version}/desktop-fonts/overpass-mono/**/overpass-mono-semibold.otf")[0]
   end
   # No zap stanza required
 

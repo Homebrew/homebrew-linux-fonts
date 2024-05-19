@@ -3,9 +3,9 @@ class FontDongle < Formula
   desc "Dongle"
   homepage "https://fonts.google.com/specimen/Dongle"
   def install
-    (share/"fonts").install "ofl/dongle/" + "Dongle-Bold.ttf"
-    (share/"fonts").install "ofl/dongle/" + "Dongle-Light.ttf"
-    (share/"fonts").install "ofl/dongle/" + "Dongle-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/dongle/./**/Dongle-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/dongle/./**/Dongle-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/dongle/./**/Dongle-Regular.ttf")[0]
   end
   # No zap stanza required
 

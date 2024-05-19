@@ -6,15 +6,15 @@ class FontProggyCleanTtNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "ProggyCleanCENerdFont-Regular.ttf"
-    (share/"fonts").install "ProggyCleanCENerdFontMono-Regular.ttf"
-    (share/"fonts").install "ProggyCleanCENerdFontPropo-Regular.ttf"
-    (share/"fonts").install "ProggyCleanNerdFont-Regular.ttf"
-    (share/"fonts").install "ProggyCleanNerdFontMono-Regular.ttf"
-    (share/"fonts").install "ProggyCleanNerdFontPropo-Regular.ttf"
-    (share/"fonts").install "ProggyCleanSZNerdFont-Regular.ttf"
-    (share/"fonts").install "ProggyCleanSZNerdFontMono-Regular.ttf"
-    (share/"fonts").install "ProggyCleanSZNerdFontPropo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/ProggyCleanCENerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/ProggyCleanCENerdFontMono-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/ProggyCleanCENerdFontPropo-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/ProggyCleanNerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/ProggyCleanNerdFontMono-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/ProggyCleanNerdFontPropo-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/ProggyCleanSZNerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/ProggyCleanSZNerdFontMono-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/ProggyCleanSZNerdFontPropo-Regular.ttf")[0]
   end
   # No zap stanza required
 

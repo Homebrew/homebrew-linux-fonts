@@ -5,22 +5,21 @@ class FontChurchSlavonic < Formula
   desc "Church Slavonic Fonts"
   homepage "https://github.com/typiconman/fonts-cu"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}fonts-churchslavonic/Acathist-Regular.otf"
-    (share/"fonts").install "#{parent}fonts-churchslavonic/CathismaUnicode.otf"
-    (share/"fonts").install "#{parent}fonts-churchslavonic/FedorovskUnicode.otf"
-    (share/"fonts").install "#{parent}fonts-churchslavonic/IndictionUnicode.otf"
-    (share/"fonts").install "#{parent}fonts-churchslavonic/MenaionUnicode.otf"
-    (share/"fonts").install "#{parent}fonts-churchslavonic/MezenetsUnicode.otf"
-    (share/"fonts").install "#{parent}fonts-churchslavonic/MonomakhUnicode.otf"
-    (share/"fonts").install "#{parent}fonts-churchslavonic/OglavieUnicode.otf"
-    (share/"fonts").install "#{parent}fonts-churchslavonic/PochaevskUnicode.otf"
-    (share/"fonts").install "#{parent}fonts-churchslavonic/PomorskyUnicode.otf"
-    (share/"fonts").install "#{parent}fonts-churchslavonic/PonomarUnicode.otf"
-    (share/"fonts").install "#{parent}fonts-churchslavonic/Shafarik-Regular.otf"
-    (share/"fonts").install "#{parent}fonts-churchslavonic/TriodionUnicode.otf"
-    (share/"fonts").install "#{parent}fonts-churchslavonic/VertogradUnicode.otf"
-    (share/"fonts").install "#{parent}fonts-churchslavonic/Voskresensky-Regular.otf"
+    (share/"fonts").install Dir.glob("fonts-churchslavonic/**/Acathist-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("fonts-churchslavonic/**/CathismaUnicode.otf")[0]
+    (share/"fonts").install Dir.glob("fonts-churchslavonic/**/FedorovskUnicode.otf")[0]
+    (share/"fonts").install Dir.glob("fonts-churchslavonic/**/IndictionUnicode.otf")[0]
+    (share/"fonts").install Dir.glob("fonts-churchslavonic/**/MenaionUnicode.otf")[0]
+    (share/"fonts").install Dir.glob("fonts-churchslavonic/**/MezenetsUnicode.otf")[0]
+    (share/"fonts").install Dir.glob("fonts-churchslavonic/**/MonomakhUnicode.otf")[0]
+    (share/"fonts").install Dir.glob("fonts-churchslavonic/**/OglavieUnicode.otf")[0]
+    (share/"fonts").install Dir.glob("fonts-churchslavonic/**/PochaevskUnicode.otf")[0]
+    (share/"fonts").install Dir.glob("fonts-churchslavonic/**/PomorskyUnicode.otf")[0]
+    (share/"fonts").install Dir.glob("fonts-churchslavonic/**/PonomarUnicode.otf")[0]
+    (share/"fonts").install Dir.glob("fonts-churchslavonic/**/Shafarik-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("fonts-churchslavonic/**/TriodionUnicode.otf")[0]
+    (share/"fonts").install Dir.glob("fonts-churchslavonic/**/VertogradUnicode.otf")[0]
+    (share/"fonts").install Dir.glob("fonts-churchslavonic/**/Voskresensky-Regular.otf")[0]
   end
   # No zap stanza required
 

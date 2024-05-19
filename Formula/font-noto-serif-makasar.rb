@@ -4,7 +4,7 @@ class FontNotoSerifMakasar < Formula
   desc "Design for the historical southeast asian makasar script"
   homepage "https://fonts.google.com/specimen/Noto+Serif+Makasar"
   def install
-    (share/"fonts").install "NotoSerifMakasar-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSerifMakasar-Regular.ttf")[0]
   end
   # No zap stanza required
 

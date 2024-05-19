@@ -3,7 +3,7 @@ class FontItaliana < Formula
   desc "Italiana"
   homepage "https://fonts.google.com/specimen/Italiana"
   def install
-    (share/"fonts").install "Italiana-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Italiana-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,10 +3,10 @@ class FontB612Mono < Formula
   desc "B612 Mono"
   homepage "https://fonts.google.com/specimen/B612+Mono"
   def install
-    (share/"fonts").install "ofl/b612mono/" + "B612Mono-Bold.ttf"
-    (share/"fonts").install "ofl/b612mono/" + "B612Mono-BoldItalic.ttf"
-    (share/"fonts").install "ofl/b612mono/" + "B612Mono-Italic.ttf"
-    (share/"fonts").install "ofl/b612mono/" + "B612Mono-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/b612mono/./**/B612Mono-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/b612mono/./**/B612Mono-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/b612mono/./**/B612Mono-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/b612mono/./**/B612Mono-Regular.ttf")[0]
   end
   # No zap stanza required
 

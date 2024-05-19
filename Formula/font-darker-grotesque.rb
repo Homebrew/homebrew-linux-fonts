@@ -3,7 +3,7 @@ class FontDarkerGrotesque < Formula
   desc "Darker Grotesque"
   homepage "https://fonts.google.com/specimen/Darker+Grotesque"
   def install
-    (share/"fonts").install "DarkerGrotesque[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/DarkerGrotesque\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

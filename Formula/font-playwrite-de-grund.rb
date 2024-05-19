@@ -3,7 +3,7 @@ class FontPlaywriteDeGrund < Formula
   desc "Playwrite DE Grund"
   homepage "https://github.com/TypeTogether/Playwrite/"
   def install
-    (share/"fonts").install "PlaywriteDEGrund[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/PlaywriteDEGrund\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

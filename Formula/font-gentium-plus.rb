@@ -6,15 +6,14 @@ class FontGentiumPlus < Formula
   desc "Multilingual font"
   homepage "https://software.sil.org/gentium/"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}GentiumPlus-#{version}/GentiumBookPlus-Bold.ttf"
-    (share/"fonts").install "#{parent}GentiumPlus-#{version}/GentiumBookPlus-BoldItalic.ttf"
-    (share/"fonts").install "#{parent}GentiumPlus-#{version}/GentiumBookPlus-Italic.ttf"
-    (share/"fonts").install "#{parent}GentiumPlus-#{version}/GentiumBookPlus-Regular.ttf"
-    (share/"fonts").install "#{parent}GentiumPlus-#{version}/GentiumPlus-Bold.ttf"
-    (share/"fonts").install "#{parent}GentiumPlus-#{version}/GentiumPlus-BoldItalic.ttf"
-    (share/"fonts").install "#{parent}GentiumPlus-#{version}/GentiumPlus-Italic.ttf"
-    (share/"fonts").install "#{parent}GentiumPlus-#{version}/GentiumPlus-Regular.ttf"
+    (share/"fonts").install Dir.glob("GentiumPlus-#{version}/**/GentiumBookPlus-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("GentiumPlus-#{version}/**/GentiumBookPlus-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("GentiumPlus-#{version}/**/GentiumBookPlus-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("GentiumPlus-#{version}/**/GentiumBookPlus-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("GentiumPlus-#{version}/**/GentiumPlus-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("GentiumPlus-#{version}/**/GentiumPlus-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("GentiumPlus-#{version}/**/GentiumPlus-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("GentiumPlus-#{version}/**/GentiumPlus-Regular.ttf")[0]
   end
   # No zap stanza required
 

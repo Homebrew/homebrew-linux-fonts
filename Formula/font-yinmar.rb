@@ -3,7 +3,7 @@ class FontYinmar < Formula
   desc "Yinmar"
   homepage "https://fonts.google.com/specimen/Yinmar"
   def install
-    (share/"fonts").install "Yinmar-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Yinmar-Regular.ttf")[0]
   end
   # No zap stanza required
 

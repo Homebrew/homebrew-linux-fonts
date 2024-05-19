@@ -3,7 +3,7 @@ class FontJomhuria < Formula
   desc "Jomhuria"
   homepage "https://fonts.google.com/specimen/Jomhuria"
   def install
-    (share/"fonts").install "Jomhuria-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Jomhuria-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -5,11 +5,11 @@ class FontRajdhani < Formula
   desc "Rajdhani"
   homepage "https://github.com/itfoundry/rajdhani"
   def install
-    (share/"fonts").install "ofl/radley/" + "Rajdhani-Bold.otf"
-    (share/"fonts").install "ofl/radley/" + "Rajdhani-Light.otf"
-    (share/"fonts").install "ofl/radley/" + "Rajdhani-Medium.otf"
-    (share/"fonts").install "ofl/radley/" + "Rajdhani-Regular.otf"
-    (share/"fonts").install "ofl/radley/" + "Rajdhani-SemiBold.otf"
+    (share/"fonts").install Dir.glob("./**/Rajdhani-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Rajdhani-Light.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Rajdhani-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Rajdhani-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Rajdhani-SemiBold.otf")[0]
   end
   # No zap stanza required
 

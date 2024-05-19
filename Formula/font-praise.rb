@@ -4,7 +4,7 @@ class FontPraise < Formula
   desc "Versatile script with variations from casual (non-connecting) to formal appeal"
   homepage "https://fonts.google.com/specimen/Praise"
   def install
-    (share/"fonts").install "Praise-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Praise-Regular.ttf")[0]
   end
   # No zap stanza required
 

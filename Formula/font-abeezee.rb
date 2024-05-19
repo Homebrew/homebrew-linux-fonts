@@ -3,8 +3,8 @@ class FontAbeezee < Formula
   desc "ABeeZee"
   homepage "https://fonts.google.com/specimen/ABeeZee"
   def install
-    (share/"fonts").install "ofl/abeezee/" + "ABeeZee-Italic.ttf"
-    (share/"fonts").install "ofl/abeezee/" + "ABeeZee-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/abeezee/./**/ABeeZee-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/abeezee/./**/ABeeZee-Regular.ttf")[0]
   end
   # No zap stanza required
 

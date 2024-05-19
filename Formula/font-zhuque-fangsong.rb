@@ -7,7 +7,7 @@ class FontZhuqueFangsong < Formula
   desc "Open source Chinese Fangsong font created by TrionesType"
   homepage "https://github.com/TrionesType/zhuque"
   def install
-    (share/"fonts").install "ZhuqueFangsong-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/ZhuqueFangsong-Regular.ttf")[0]
   end
   # No zap stanza required
 

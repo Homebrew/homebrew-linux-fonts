@@ -4,7 +4,7 @@ class FontBigShouldersStencilText < Formula
   desc "Superfamily of condensed American Gothic typefaces"
   homepage "https://fonts.google.com/specimen/Big+Shoulders+Stencil+Text"
   def install
-    (share/"fonts").install "BigShouldersStencilText[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/BigShouldersStencilText\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontOrbitron < Formula
   desc "Orbitron"
   homepage "https://fonts.google.com/specimen/Orbitron"
   def install
-    (share/"fonts").install "Orbitron[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/Orbitron\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

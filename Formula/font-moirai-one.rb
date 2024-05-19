@@ -3,7 +3,7 @@ class FontMoiraiOne < Formula
   desc "Moirai One"
   homepage "https://fonts.google.com/specimen/Moirai+One"
   def install
-    (share/"fonts").install "MoiraiOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/MoiraiOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

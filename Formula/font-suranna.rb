@@ -3,7 +3,7 @@ class FontSuranna < Formula
   desc "Suranna"
   homepage "https://fonts.google.com/specimen/Suranna"
   def install
-    (share/"fonts").install "Suranna-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Suranna-Regular.ttf")[0]
   end
   # No zap stanza required
 

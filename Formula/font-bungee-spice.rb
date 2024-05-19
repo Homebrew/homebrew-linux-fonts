@@ -4,7 +4,7 @@ class FontBungeeSpice < Formula
   desc "Released under the sil open font license"
   homepage "https://fonts.google.com/specimen/Bungee+Spice"
   def install
-    (share/"fonts").install "BungeeSpice-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/BungeeSpice-Regular.ttf")[0]
   end
   # No zap stanza required
 

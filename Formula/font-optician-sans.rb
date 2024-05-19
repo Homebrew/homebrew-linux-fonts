@@ -3,7 +3,7 @@ class FontOpticianSans < Formula
   desc "Optician Sans"
   homepage "https://optician-sans.com/"
   def install
-    (share/"fonts").install "Optician-Sans.otf"
+    (share/"fonts").install Dir.glob("./**/Optician-Sans.otf")[0]
   end
   # No zap stanza required
 

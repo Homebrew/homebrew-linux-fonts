@@ -3,9 +3,9 @@ class FontLekton < Formula
   desc "Lekton"
   homepage "https://fonts.google.com/specimen/Lekton"
   def install
-    (share/"fonts").install "ofl/lekton/" + "Lekton-Bold.ttf"
-    (share/"fonts").install "ofl/lekton/" + "Lekton-Italic.ttf"
-    (share/"fonts").install "ofl/lekton/" + "Lekton-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/lekton/./**/Lekton-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/lekton/./**/Lekton-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/lekton/./**/Lekton-Regular.ttf")[0]
   end
   # No zap stanza required
 

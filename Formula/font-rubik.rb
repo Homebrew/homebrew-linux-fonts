@@ -3,8 +3,8 @@ class FontRubik < Formula
   desc "Rubik"
   homepage "https://fonts.google.com/specimen/Rubik"
   def install
-    (share/"fonts").install "ofl/rubik/" + "Rubik-Italic[wght].ttf"
-    (share/"fonts").install "ofl/rubik/" + "Rubik[wght].ttf"
+    (share/"fonts").install Dir.glob("ofl/rubik/./**/Rubik-Italic\\[wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/rubik/./**/Rubik\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

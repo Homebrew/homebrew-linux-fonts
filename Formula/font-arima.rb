@@ -4,7 +4,7 @@ class FontArima < Formula
   desc "Led by ndiscover, a type design foundry based in portugal"
   homepage "https://fonts.google.com/specimen/Arima"
   def install
-    (share/"fonts").install "Arima[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/Arima\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

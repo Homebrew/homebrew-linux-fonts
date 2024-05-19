@@ -3,7 +3,7 @@ class FontDigitalNumbers < Formula
   desc "Digital Numbers"
   homepage "https://fonts.google.com/specimen/Digital+Numbers"
   def install
-    (share/"fonts").install "DigitalNumbers-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/DigitalNumbers-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -6,18 +6,18 @@ class FontFantasqueSansMonoNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "ofl/familjengrotesk/" + "FantasqueSansMNerdFont-Bold.ttf"
-    (share/"fonts").install "ofl/familjengrotesk/" + "FantasqueSansMNerdFont-BoldItalic.ttf"
-    (share/"fonts").install "ofl/familjengrotesk/" + "FantasqueSansMNerdFont-Italic.ttf"
-    (share/"fonts").install "ofl/familjengrotesk/" + "FantasqueSansMNerdFont-Regular.ttf"
-    (share/"fonts").install "ofl/familjengrotesk/" + "FantasqueSansMNerdFontMono-Bold.ttf"
-    (share/"fonts").install "ofl/familjengrotesk/" + "FantasqueSansMNerdFontMono-BoldItalic.ttf"
-    (share/"fonts").install "ofl/familjengrotesk/" + "FantasqueSansMNerdFontMono-Italic.ttf"
-    (share/"fonts").install "ofl/familjengrotesk/" + "FantasqueSansMNerdFontMono-Regular.ttf"
-    (share/"fonts").install "ofl/familjengrotesk/" + "FantasqueSansMNerdFontPropo-Bold.ttf"
-    (share/"fonts").install "ofl/familjengrotesk/" + "FantasqueSansMNerdFontPropo-BoldItalic.ttf"
-    (share/"fonts").install "ofl/familjengrotesk/" + "FantasqueSansMNerdFontPropo-Italic.ttf"
-    (share/"fonts").install "ofl/familjengrotesk/" + "FantasqueSansMNerdFontPropo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/FantasqueSansMNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/FantasqueSansMNerdFont-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/FantasqueSansMNerdFont-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/FantasqueSansMNerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/FantasqueSansMNerdFontMono-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/FantasqueSansMNerdFontMono-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/FantasqueSansMNerdFontMono-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/FantasqueSansMNerdFontMono-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/FantasqueSansMNerdFontPropo-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/FantasqueSansMNerdFontPropo-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/FantasqueSansMNerdFontPropo-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/FantasqueSansMNerdFontPropo-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontNicoMoji < Formula
   desc "Nico Moji"
   homepage "https://fonts.google.com/specimen/Nico+Moji"
   def install
-    (share/"fonts").install "NicoMoji-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NicoMoji-Regular.ttf")[0]
   end
   # No zap stanza required
 

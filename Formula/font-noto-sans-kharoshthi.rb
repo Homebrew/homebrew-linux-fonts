@@ -3,7 +3,7 @@ class FontNotoSansKharoshthi < Formula
   desc "Noto Sans Kharoshthi"
   homepage "https://www.google.com/get/noto/#sans-khar"
   def install
-    (share/"fonts").install "NotoSansKharoshthi-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansKharoshthi-Regular.ttf")[0]
   end
   # No zap stanza required
 

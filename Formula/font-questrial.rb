@@ -3,7 +3,7 @@ class FontQuestrial < Formula
   desc "Questrial"
   homepage "https://fonts.google.com/specimen/Questrial"
   def install
-    (share/"fonts").install "Questrial-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Questrial-Regular.ttf")[0]
   end
   # No zap stanza required
 

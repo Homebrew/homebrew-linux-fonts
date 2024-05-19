@@ -3,7 +3,7 @@ class FontConvergence < Formula
   desc "Convergence"
   homepage "https://fonts.google.com/specimen/Convergence"
   def install
-    (share/"fonts").install "Convergence-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Convergence-Regular.ttf")[0]
   end
   # No zap stanza required
 

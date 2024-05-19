@@ -3,7 +3,7 @@ class FontNotoSansBhaiksuki < Formula
   desc "Noto Sans Bhaiksuki"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Bhaiksuki"
   def install
-    (share/"fonts").install "NotoSansBhaiksuki-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansBhaiksuki-Regular.ttf")[0]
   end
   # No zap stanza required
 

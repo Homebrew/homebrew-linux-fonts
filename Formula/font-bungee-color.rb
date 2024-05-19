@@ -4,7 +4,7 @@ class FontBungeeColor < Formula
   desc "Led by david jonathan ross, a type designer based in the usa"
   homepage "https://fonts.google.com/specimen/Bungee+Color"
   def install
-    (share/"fonts").install "BungeeColor-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/BungeeColor-Regular.ttf")[0]
   end
   # No zap stanza required
 

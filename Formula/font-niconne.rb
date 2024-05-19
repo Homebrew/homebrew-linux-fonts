@@ -3,7 +3,7 @@ class FontNiconne < Formula
   desc "Niconne"
   homepage "https://fonts.google.com/specimen/Niconne"
   def install
-    (share/"fonts").install "Niconne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Niconne-Regular.ttf")[0]
   end
   # No zap stanza required
 

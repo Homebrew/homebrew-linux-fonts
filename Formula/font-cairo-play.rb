@@ -4,7 +4,7 @@ class FontCairoPlay < Formula
   desc "Color font version of cairo which features colored marks"
   homepage "https://fonts.google.com/specimen/Cairo+Play"
   def install
-    (share/"fonts").install "CairoPlay[slnt,wght].ttf"
+    (share/"fonts").install Dir.glob("./**/CairoPlay\\[slnt,wght\\].ttf")[0]
   end
   # No zap stanza required
 

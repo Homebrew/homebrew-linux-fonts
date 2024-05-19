@@ -3,7 +3,7 @@ class FontCandal < Formula
   desc "Candal"
   homepage "https://fonts.google.com/specimen/Candal"
   def install
-    (share/"fonts").install "Candal.ttf"
+    (share/"fonts").install Dir.glob("./**/Candal.ttf")[0]
   end
   # No zap stanza required
 

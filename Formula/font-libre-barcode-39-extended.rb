@@ -3,7 +3,7 @@ class FontLibreBarcode39Extended < Formula
   desc "Libre Barcode 39 Extended"
   homepage "https://fonts.google.com/specimen/Libre+Barcode+39+Extended"
   def install
-    (share/"fonts").install "LibreBarcode39Extended-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/LibreBarcode39Extended-Regular.ttf")[0]
   end
   # No zap stanza required
 

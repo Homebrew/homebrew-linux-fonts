@@ -3,7 +3,7 @@ class FontDynalight < Formula
   desc "Dynalight"
   homepage "https://fonts.google.com/specimen/Dynalight"
   def install
-    (share/"fonts").install "Dynalight-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Dynalight-Regular.ttf")[0]
   end
   # No zap stanza required
 

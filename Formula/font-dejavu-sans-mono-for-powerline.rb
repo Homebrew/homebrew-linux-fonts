@@ -3,10 +3,10 @@ class FontDejavuSansMonoForPowerline < Formula
   desc "DejaVu Sans Mono for Powerline"
   homepage "https://github.com/powerline/fonts/tree/master/DejaVuSansMono"
   def install
-    (share/"fonts").install "DejaVuSansMono/" + "DejaVu Sans Mono for Powerline.ttf"
-    (share/"fonts").install "DejaVuSansMono/" + "DejaVu Sans Mono Bold for Powerline.ttf"
-    (share/"fonts").install "DejaVuSansMono/" + "DejaVu Sans Mono Oblique for Powerline.ttf"
-    (share/"fonts").install "DejaVuSansMono/" + "DejaVu Sans Mono Bold Oblique for Powerline.ttf"
+    (share/"fonts").install Dir.glob("DejaVuSansMono/./**/DejaVu Sans Mono for Powerline.ttf")[0]
+    (share/"fonts").install Dir.glob("DejaVuSansMono/./**/DejaVu Sans Mono Bold for Powerline.ttf")[0]
+    (share/"fonts").install Dir.glob("DejaVuSansMono/./**/DejaVu Sans Mono Oblique for Powerline.ttf")[0]
+    (share/"fonts").install Dir.glob("DejaVuSansMono/./**/DejaVu Sans Mono Bold Oblique for Powerline.ttf")[0]
   end
   # No zap stanza required
 

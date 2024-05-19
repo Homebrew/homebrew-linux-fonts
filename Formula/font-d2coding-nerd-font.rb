@@ -6,12 +6,12 @@ class FontD2codingNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "D2CodingLigatureNerdFont-Bold.ttf"
-    (share/"fonts").install "D2CodingLigatureNerdFont-Regular.ttf"
-    (share/"fonts").install "D2CodingLigatureNerdFontMono-Bold.ttf"
-    (share/"fonts").install "D2CodingLigatureNerdFontMono-Regular.ttf"
-    (share/"fonts").install "D2CodingLigatureNerdFontPropo-Bold.ttf"
-    (share/"fonts").install "D2CodingLigatureNerdFontPropo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/D2CodingLigatureNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/D2CodingLigatureNerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/D2CodingLigatureNerdFontMono-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/D2CodingLigatureNerdFontMono-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/D2CodingLigatureNerdFontPropo-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/D2CodingLigatureNerdFontPropo-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontCuteFont < Formula
   desc "Cute Font"
   homepage "https://fonts.google.com/specimen/Cute+Font"
   def install
-    (share/"fonts").install "CuteFont-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/CuteFont-Regular.ttf")[0]
   end
   # No zap stanza required
 

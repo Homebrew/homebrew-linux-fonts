@@ -3,7 +3,7 @@ class FontAngkor < Formula
   desc "Angkor"
   homepage "https://fonts.google.com/specimen/Angkor"
   def install
-    (share/"fonts").install "Angkor-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Angkor-Regular.ttf")[0]
   end
   # No zap stanza required
 

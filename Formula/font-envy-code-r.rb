@@ -5,10 +5,9 @@ class FontEnvyCodeR < Formula
   desc "Envy Code R"
   homepage "https://damieng.com/blog/tag/envy-code/"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}Envy Code R PR7/Envy Code R Bold.ttf"
-    (share/"fonts").install "#{parent}Envy Code R PR7/Envy Code R Italic.ttf"
-    (share/"fonts").install "#{parent}Envy Code R PR7/Envy Code R.ttf"
+    (share/"fonts").install Dir.glob("Envy Code R PR7/**/Envy Code R Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("Envy Code R PR7/**/Envy Code R Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("Envy Code R PR7/**/Envy Code R.ttf")[0]
   end
   # No zap stanza required
 

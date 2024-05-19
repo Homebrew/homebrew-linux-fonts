@@ -3,7 +3,7 @@ class FontClimateCrisis < Formula
   desc "Climate Crisis"
   homepage "https://fonts.google.com/specimen/Climate+Crisis"
   def install
-    (share/"fonts").install "ClimateCrisis[YEAR].ttf"
+    (share/"fonts").install Dir.glob("./**/ClimateCrisis\\[YEAR\\].ttf")[0]
   end
   # No zap stanza required
 

@@ -5,16 +5,15 @@ class FontOpenDyslexic < Formula
   desc "OpenDyslexic"
   homepage "https://github.com/antijingoist/open-dyslexic"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}open-dyslexic-#{version}/otf/OpenDyslexic-Bold.otf"
-    (share/"fonts").install "#{parent}open-dyslexic-#{version}/otf/OpenDyslexic-BoldItalic.otf"
-    (share/"fonts").install "#{parent}open-dyslexic-#{version}/otf/OpenDyslexic-Italic.otf"
-    (share/"fonts").install "#{parent}open-dyslexic-#{version}/otf/OpenDyslexic-Regular.otf"
-    (share/"fonts").install "#{parent}open-dyslexic-#{version}/otf/OpenDyslexicAlta-Bold.otf"
-    (share/"fonts").install "#{parent}open-dyslexic-#{version}/otf/OpenDyslexicAlta-BoldItalic.otf"
-    (share/"fonts").install "#{parent}open-dyslexic-#{version}/otf/OpenDyslexicAlta-Italic.otf"
-    (share/"fonts").install "#{parent}open-dyslexic-#{version}/otf/OpenDyslexicAlta-Regular.otf"
-    (share/"fonts").install "#{parent}open-dyslexic-#{version}/otf/OpenDyslexicMono-Regular.otf"
+    (share/"fonts").install Dir.glob("open-dyslexic-#{version}/otf/**/OpenDyslexic-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("open-dyslexic-#{version}/otf/**/OpenDyslexic-BoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("open-dyslexic-#{version}/otf/**/OpenDyslexic-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("open-dyslexic-#{version}/otf/**/OpenDyslexic-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("open-dyslexic-#{version}/otf/**/OpenDyslexicAlta-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("open-dyslexic-#{version}/otf/**/OpenDyslexicAlta-BoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("open-dyslexic-#{version}/otf/**/OpenDyslexicAlta-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("open-dyslexic-#{version}/otf/**/OpenDyslexicAlta-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("open-dyslexic-#{version}/otf/**/OpenDyslexicMono-Regular.otf")[0]
   end
   # No zap stanza required
 

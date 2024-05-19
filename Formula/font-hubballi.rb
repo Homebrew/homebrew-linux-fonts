@@ -4,7 +4,7 @@ class FontHubballi < Formula
   desc "Monolinear typeface with an informal, friendly appearance"
   homepage "https://fonts.google.com/specimen/Hubballi"
   def install
-    (share/"fonts").install "Hubballi-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Hubballi-Regular.ttf")[0]
   end
   # No zap stanza required
 

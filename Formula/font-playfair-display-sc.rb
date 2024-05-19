@@ -3,12 +3,12 @@ class FontPlayfairDisplaySc < Formula
   desc "Playfair Display SC"
   homepage "https://fonts.google.com/specimen/Playfair+Display+SC"
   def install
-    (share/"fonts").install "ofl/playfairdisplaysc/" + "PlayfairDisplaySC-Black.ttf"
-    (share/"fonts").install "ofl/playfairdisplaysc/" + "PlayfairDisplaySC-BlackItalic.ttf"
-    (share/"fonts").install "ofl/playfairdisplaysc/" + "PlayfairDisplaySC-Bold.ttf"
-    (share/"fonts").install "ofl/playfairdisplaysc/" + "PlayfairDisplaySC-BoldItalic.ttf"
-    (share/"fonts").install "ofl/playfairdisplaysc/" + "PlayfairDisplaySC-Italic.ttf"
-    (share/"fonts").install "ofl/playfairdisplaysc/" + "PlayfairDisplaySC-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/playfairdisplaysc/./**/PlayfairDisplaySC-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/playfairdisplaysc/./**/PlayfairDisplaySC-BlackItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/playfairdisplaysc/./**/PlayfairDisplaySC-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/playfairdisplaysc/./**/PlayfairDisplaySC-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/playfairdisplaysc/./**/PlayfairDisplaySC-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/playfairdisplaysc/./**/PlayfairDisplaySC-Regular.ttf")[0]
   end
   # No zap stanza required
 

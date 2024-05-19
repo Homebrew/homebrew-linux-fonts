@@ -3,7 +3,7 @@ class FontAlmendraDisplay < Formula
   desc "Almendra Display"
   homepage "https://fonts.google.com/specimen/Almendra+Display"
   def install
-    (share/"fonts").install "AlmendraDisplay-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/AlmendraDisplay-Regular.ttf")[0]
   end
   # No zap stanza required
 

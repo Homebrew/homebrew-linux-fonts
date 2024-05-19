@@ -6,8 +6,8 @@ class FontHeavyDataNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "HeavyDataNerdFont-Regular.ttf"
-    (share/"fonts").install "HeavyDataNerdFontPropo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/HeavyDataNerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/HeavyDataNerdFontPropo-Regular.ttf")[0]
   end
   # No zap stanza required
 

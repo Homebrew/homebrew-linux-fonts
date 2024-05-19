@@ -3,10 +3,10 @@ class FontAmaranth < Formula
   desc "Amaranth"
   homepage "https://fonts.google.com/specimen/Amaranth"
   def install
-    (share/"fonts").install "ofl/amaranth/" + "Amaranth-Bold.ttf"
-    (share/"fonts").install "ofl/amaranth/" + "Amaranth-BoldItalic.ttf"
-    (share/"fonts").install "ofl/amaranth/" + "Amaranth-Italic.ttf"
-    (share/"fonts").install "ofl/amaranth/" + "Amaranth-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/amaranth/./**/Amaranth-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/amaranth/./**/Amaranth-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/amaranth/./**/Amaranth-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/amaranth/./**/Amaranth-Regular.ttf")[0]
   end
   # No zap stanza required
 

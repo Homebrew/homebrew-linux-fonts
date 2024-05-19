@@ -3,7 +3,7 @@ class FontSmokum < Formula
   desc "Smokum"
   homepage "https://fonts.google.com/specimen/Smokum"
   def install
-    (share/"fonts").install "Smokum-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Smokum-Regular.ttf")[0]
   end
   # No zap stanza required
 

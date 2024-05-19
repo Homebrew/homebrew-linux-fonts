@@ -3,8 +3,8 @@ class FontQuattrocento < Formula
   desc "Quattrocento"
   homepage "https://fonts.google.com/specimen/Quattrocento"
   def install
-    (share/"fonts").install "ofl/quattrocento/" + "Quattrocento-Bold.ttf"
-    (share/"fonts").install "ofl/quattrocento/" + "Quattrocento-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/quattrocento/./**/Quattrocento-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/quattrocento/./**/Quattrocento-Regular.ttf")[0]
   end
   # No zap stanza required
 

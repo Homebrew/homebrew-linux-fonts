@@ -4,11 +4,11 @@ class FontKohSantepheap < Formula
   desc "Khmer font for body text"
   homepage "https://fonts.google.com/specimen/Koh+Santepheap"
   def install
-    (share/"fonts").install "ofl/kohsantepheap/" + "KohSantepheap-Black.ttf"
-    (share/"fonts").install "ofl/kohsantepheap/" + "KohSantepheap-Bold.ttf"
-    (share/"fonts").install "ofl/kohsantepheap/" + "KohSantepheap-Light.ttf"
-    (share/"fonts").install "ofl/kohsantepheap/" + "KohSantepheap-Regular.ttf"
-    (share/"fonts").install "ofl/kohsantepheap/" + "KohSantepheap-Thin.ttf"
+    (share/"fonts").install Dir.glob("ofl/kohsantepheap/./**/KohSantepheap-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/kohsantepheap/./**/KohSantepheap-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/kohsantepheap/./**/KohSantepheap-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/kohsantepheap/./**/KohSantepheap-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/kohsantepheap/./**/KohSantepheap-Thin.ttf")[0]
   end
   # No zap stanza required
 

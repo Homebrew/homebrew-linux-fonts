@@ -3,7 +3,7 @@ class FontDeliusSwashCaps < Formula
   desc "Delius Swash Caps"
   homepage "https://fonts.google.com/specimen/Delius+Swash+Caps"
   def install
-    (share/"fonts").install "DeliusSwashCaps-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/DeliusSwashCaps-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontSen < Formula
   desc "Sen"
   homepage "https://fonts.google.com/specimen/Sen"
   def install
-    (share/"fonts").install "Sen[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/Sen\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

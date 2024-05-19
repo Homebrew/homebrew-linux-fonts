@@ -3,7 +3,7 @@ class FontNotoSansMeroitic < Formula
   desc "Noto Sans Meroitic"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Meroitic"
   def install
-    (share/"fonts").install "NotoSansMeroitic-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansMeroitic-Regular.ttf")[0]
   end
   # No zap stanza required
 

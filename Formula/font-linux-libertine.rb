@@ -12,15 +12,15 @@ class FontLinuxLibertine < Formula
   # newest version until it's no longer in the RSS feed.
 
   def install
-    (share/"fonts").install "LinLibertine_DRah.ttf"
-    (share/"fonts").install "LinLibertine_I.ttf"
-    (share/"fonts").install "LinLibertine_Mah.ttf"
-    (share/"fonts").install "LinLibertine_RBIah.ttf"
-    (share/"fonts").install "LinLibertine_RBah.ttf"
-    (share/"fonts").install "LinLibertine_RIah.ttf"
-    (share/"fonts").install "LinLibertine_RZIah.ttf"
-    (share/"fonts").install "LinLibertine_RZah.ttf"
-    (share/"fonts").install "LinLibertine_Rah.ttf"
+    (share/"fonts").install Dir.glob("./**/LinLibertine_DRah.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LinLibertine_I.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LinLibertine_Mah.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LinLibertine_RBIah.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LinLibertine_RBah.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LinLibertine_RIah.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LinLibertine_RZIah.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LinLibertine_RZah.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LinLibertine_Rah.ttf")[0]
   end
   # No zap stanza required
 

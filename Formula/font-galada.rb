@@ -3,7 +3,7 @@ class FontGalada < Formula
   desc "Galada"
   homepage "https://fonts.google.com/specimen/Galada"
   def install
-    (share/"fonts").install "Galada-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Galada-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontCode2002 < Formula
   desc "Code2002"
   homepage "https://www.ffonts.net/Code2002.font.download"
   def install
-    (share/"fonts").install "CODE2002.TTF"
+    (share/"fonts").install Dir.glob("./**/CODE2002.TTF")[0]
   end
   # No zap stanza required
 

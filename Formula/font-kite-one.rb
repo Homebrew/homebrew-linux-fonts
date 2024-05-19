@@ -3,7 +3,7 @@ class FontKiteOne < Formula
   desc "Kite One"
   homepage "https://fonts.google.com/specimen/Kite+One"
   def install
-    (share/"fonts").install "KiteOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/KiteOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

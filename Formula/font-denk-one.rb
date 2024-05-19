@@ -3,7 +3,7 @@ class FontDenkOne < Formula
   desc "Denk One"
   homepage "https://fonts.google.com/specimen/Denk+One"
   def install
-    (share/"fonts").install "DenkOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/DenkOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontUnlock < Formula
   desc "Unlock"
   homepage "https://fonts.google.com/specimen/Unlock"
   def install
-    (share/"fonts").install "Unlock-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Unlock-Regular.ttf")[0]
   end
   # No zap stanza required
 

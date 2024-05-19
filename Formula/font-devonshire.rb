@@ -3,7 +3,7 @@ class FontDevonshire < Formula
   desc "Devonshire"
   homepage "https://fonts.google.com/specimen/Devonshire"
   def install
-    (share/"fonts").install "Devonshire-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Devonshire-Regular.ttf")[0]
   end
   # No zap stanza required
 

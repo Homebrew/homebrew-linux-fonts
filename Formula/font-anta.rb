@@ -4,7 +4,7 @@ class FontAnta < Formula
   desc "Particularly suitable for graphic design, but also for branding projects"
   homepage "https://fonts.google.com/specimen/Anta"
   def install
-    (share/"fonts").install "Anta-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Anta-Regular.ttf")[0]
   end
   # No zap stanza required
 

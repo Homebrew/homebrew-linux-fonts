@@ -5,8 +5,7 @@ class FontDevicons < Formula
   desc "Devicons"
   homepage "https://vorillaz.github.io/devicons/"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}devicons-#{version}/fonts/devicons.ttf"
+    (share/"fonts").install Dir.glob("devicons-#{version}/fonts/**/devicons.ttf")[0]
   end
   # No zap stanza required
 

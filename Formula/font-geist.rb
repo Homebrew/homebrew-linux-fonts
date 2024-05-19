@@ -6,17 +6,16 @@ class FontGeist < Formula
   desc "Sans-serif typeface"
   homepage "https://vercel.com/font/sans"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}Geist-#{version}/statics-otf/Geist-Black.otf"
-    (share/"fonts").install "#{parent}Geist-#{version}/statics-otf/Geist-Bold.otf"
-    (share/"fonts").install "#{parent}Geist-#{version}/statics-otf/Geist-Light.otf"
-    (share/"fonts").install "#{parent}Geist-#{version}/statics-otf/Geist-Medium.otf"
-    (share/"fonts").install "#{parent}Geist-#{version}/statics-otf/Geist-Regular.otf"
-    (share/"fonts").install "#{parent}Geist-#{version}/statics-otf/Geist-SemiBold.otf"
-    (share/"fonts").install "#{parent}Geist-#{version}/statics-otf/Geist-Thin.otf"
-    (share/"fonts").install "#{parent}Geist-#{version}/statics-otf/Geist-UltraBlack.otf"
-    (share/"fonts").install "#{parent}Geist-#{version}/statics-otf/Geist-UltraLight.otf"
-    (share/"fonts").install "#{parent}Geist-#{version}/variable-ttf/GeistVF.ttf"
+    (share/"fonts").install Dir.glob("Geist-#{version}/statics-otf/**/Geist-Black.otf")[0]
+    (share/"fonts").install Dir.glob("Geist-#{version}/statics-otf/**/Geist-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("Geist-#{version}/statics-otf/**/Geist-Light.otf")[0]
+    (share/"fonts").install Dir.glob("Geist-#{version}/statics-otf/**/Geist-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("Geist-#{version}/statics-otf/**/Geist-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("Geist-#{version}/statics-otf/**/Geist-SemiBold.otf")[0]
+    (share/"fonts").install Dir.glob("Geist-#{version}/statics-otf/**/Geist-Thin.otf")[0]
+    (share/"fonts").install Dir.glob("Geist-#{version}/statics-otf/**/Geist-UltraBlack.otf")[0]
+    (share/"fonts").install Dir.glob("Geist-#{version}/statics-otf/**/Geist-UltraLight.otf")[0]
+    (share/"fonts").install Dir.glob("Geist-#{version}/variable-ttf/**/GeistVF.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,8 +3,8 @@ class FontAlumniSansPinstripe < Formula
   desc "Alumni Sans Pinstripe"
   homepage "https://fonts.google.com/specimen/Alumni+Sans+Pinstripe"
   def install
-    (share/"fonts").install "ofl/alumnisanspinstripe/" + "AlumniSansPinstripe-Italic.ttf"
-    (share/"fonts").install "ofl/alumnisanspinstripe/" + "AlumniSansPinstripe-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/alumnisanspinstripe/./**/AlumniSansPinstripe-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/alumnisanspinstripe/./**/AlumniSansPinstripe-Regular.ttf")[0]
   end
   # No zap stanza required
 

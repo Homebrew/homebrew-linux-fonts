@@ -3,7 +3,7 @@ class FontFontdinerSwanky < Formula
   desc "Fontdiner Swanky"
   homepage "https://fonts.google.com/specimen/Fontdiner+Swanky"
   def install
-    (share/"fonts").install "FontdinerSwanky-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/FontdinerSwanky-Regular.ttf")[0]
   end
   # No zap stanza required
 

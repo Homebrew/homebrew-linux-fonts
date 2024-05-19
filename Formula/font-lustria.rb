@@ -3,7 +3,7 @@ class FontLustria < Formula
   desc "Lustria"
   homepage "https://fonts.google.com/specimen/Lustria"
   def install
-    (share/"fonts").install "Lustria-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Lustria-Regular.ttf")[0]
   end
   # No zap stanza required
 

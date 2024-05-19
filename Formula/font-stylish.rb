@@ -3,7 +3,7 @@ class FontStylish < Formula
   desc "Stylish"
   homepage "https://fonts.google.com/specimen/Stylish"
   def install
-    (share/"fonts").install "Stylish-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Stylish-Regular.ttf")[0]
   end
   # No zap stanza required
 

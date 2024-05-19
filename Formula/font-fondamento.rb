@@ -3,8 +3,8 @@ class FontFondamento < Formula
   desc "Fondamento"
   homepage "https://fonts.google.com/specimen/Fondamento"
   def install
-    (share/"fonts").install "ofl/fondamento/" + "Fondamento-Italic.ttf"
-    (share/"fonts").install "ofl/fondamento/" + "Fondamento-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/fondamento/./**/Fondamento-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/fondamento/./**/Fondamento-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontYarndings12 < Formula
   desc "Yarndings 12"
   homepage "https://fonts.google.com/specimen/Yarndings+12"
   def install
-    (share/"fonts").install "Yarndings12-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Yarndings12-Regular.ttf")[0]
   end
   # No zap stanza required
 

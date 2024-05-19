@@ -3,7 +3,7 @@ class FontAmethysta < Formula
   desc "Amethysta"
   homepage "https://fonts.google.com/specimen/Amethysta"
   def install
-    (share/"fonts").install "Amethysta-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Amethysta-Regular.ttf")[0]
   end
   # No zap stanza required
 

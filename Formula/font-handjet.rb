@@ -4,7 +4,7 @@ class FontHandjet < Formula
   desc "Font tailored to work well with handjet printers"
   homepage "https://fonts.google.com/specimen/Handjet"
   def install
-    (share/"fonts").install "Handjet[ELGR,ELSH,wght].ttf"
+    (share/"fonts").install Dir.glob("./**/Handjet\\[ELGR,ELSH,wght\\].ttf")[0]
   end
   # No zap stanza required
 

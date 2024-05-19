@@ -4,9 +4,9 @@ class FontDavidLibre < Formula
   desc "Led by meir sadan, a type designer based in tel aviv, israel"
   homepage "https://fonts.google.com/specimen/David+Libre"
   def install
-    (share/"fonts").install "ofl/davidlibre/" + "DavidLibre-Bold.ttf"
-    (share/"fonts").install "ofl/davidlibre/" + "DavidLibre-Medium.ttf"
-    (share/"fonts").install "ofl/davidlibre/" + "DavidLibre-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/davidlibre/./**/DavidLibre-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/davidlibre/./**/DavidLibre-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/davidlibre/./**/DavidLibre-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -4,7 +4,7 @@ class FontUnbounded < Formula
   desc "Possibly the first on-chain funded font in the world"
   homepage "https://fonts.google.com/specimen/Unbounded"
   def install
-    (share/"fonts").install "Unbounded[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/Unbounded\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

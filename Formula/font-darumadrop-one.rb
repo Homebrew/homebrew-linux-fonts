@@ -3,7 +3,7 @@ class FontDarumadropOne < Formula
   desc "Darumadrop One"
   homepage "https://fonts.google.com/specimen/Darumadrop+One"
   def install
-    (share/"fonts").install "DarumadropOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/DarumadropOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

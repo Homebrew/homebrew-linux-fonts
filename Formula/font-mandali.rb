@@ -3,7 +3,7 @@ class FontMandali < Formula
   desc "Mandali"
   homepage "https://fonts.google.com/specimen/Mandali"
   def install
-    (share/"fonts").install "Mandali-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Mandali-Regular.ttf")[0]
   end
   # No zap stanza required
 

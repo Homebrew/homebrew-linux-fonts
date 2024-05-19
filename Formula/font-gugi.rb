@@ -3,7 +3,7 @@ class FontGugi < Formula
   desc "Gugi"
   homepage "https://fonts.google.com/specimen/Gugi"
   def install
-    (share/"fonts").install "Gugi-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Gugi-Regular.ttf")[0]
   end
   # No zap stanza required
 

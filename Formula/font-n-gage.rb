@@ -3,7 +3,7 @@ class FontNGage < Formula
   desc "N-Gage"
   homepage "https://www.dafont.com/n-gage.font"
   def install
-    (share/"fonts").install "N-Gage.ttf"
+    (share/"fonts").install Dir.glob("./**/N-Gage.ttf")[0]
   end
   # No zap stanza required
 

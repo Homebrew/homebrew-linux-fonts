@@ -4,7 +4,7 @@ class FontWaterfall < Formula
   desc "Calligraphic script"
   homepage "https://fonts.google.com/specimen/Waterfall"
   def install
-    (share/"fonts").install "Waterfall-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Waterfall-Regular.ttf")[0]
   end
   # No zap stanza required
 

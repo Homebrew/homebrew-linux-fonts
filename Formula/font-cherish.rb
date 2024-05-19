@@ -4,7 +4,7 @@ class FontCherish < Formula
   desc "Dry brush style that adds expression and sophistication"
   homepage "https://fonts.google.com/specimen/Cherish"
   def install
-    (share/"fonts").install "Cherish-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Cherish-Regular.ttf")[0]
   end
   # No zap stanza required
 

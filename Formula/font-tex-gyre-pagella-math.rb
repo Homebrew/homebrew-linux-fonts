@@ -5,8 +5,7 @@ class FontTexGyrePagellaMath < Formula
   desc "Pagella Math"
   homepage "https://www.gust.org.pl/projects/e-foundry/tg-math"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}texgyrepagella-math-#{version.to_s.gsub(".", "")}/opentype/texgyrepagella-math.otf"
+    (share/"fonts").install Dir.glob("texgyrepagella-math-#{version.to_s.gsub(".", "")}/opentype/**/texgyrepagella-math.otf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontOtomanopeeOne < Formula
   desc "Otomanopee One"
   homepage "https://fonts.google.com/specimen/Otomanopee+One"
   def install
-    (share/"fonts").install "OtomanopeeOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/OtomanopeeOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

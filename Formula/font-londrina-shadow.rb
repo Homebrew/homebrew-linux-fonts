@@ -3,7 +3,7 @@ class FontLondrinaShadow < Formula
   desc "Londrina Shadow"
   homepage "https://fonts.google.com/specimen/Londrina+Shadow"
   def install
-    (share/"fonts").install "LondrinaShadow-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/LondrinaShadow-Regular.ttf")[0]
   end
   # No zap stanza required
 

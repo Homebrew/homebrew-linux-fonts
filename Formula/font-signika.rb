@@ -4,7 +4,7 @@ class FontSignika < Formula
   desc "Sans-serif signage typeface with a gentle character"
   homepage "https://fonts.google.com/specimen/Signika"
   def install
-    (share/"fonts").install "Signika[GRAD,wght].ttf"
+    (share/"fonts").install Dir.glob("./**/Signika\\[GRAD,wght\\].ttf")[0]
   end
   # No zap stanza required
 

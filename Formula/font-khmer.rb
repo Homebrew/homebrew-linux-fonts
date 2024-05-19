@@ -3,7 +3,7 @@ class FontKhmer < Formula
   desc "Khmer"
   homepage "https://fonts.google.com/specimen/Khmer"
   def install
-    (share/"fonts").install "Khmer.ttf"
+    (share/"fonts").install Dir.glob("./**/Khmer.ttf")[0]
   end
   # No zap stanza required
 

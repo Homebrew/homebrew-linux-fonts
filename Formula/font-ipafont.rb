@@ -5,11 +5,10 @@ class FontIpafont < Formula
   desc "IPA Fonts"
   homepage "https://moji.or.jp/ipafont/"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}IPAfont#{version.to_s.gsub(".", "")}/ipag.ttf"
-    (share/"fonts").install "#{parent}IPAfont#{version.to_s.gsub(".", "")}/ipagp.ttf"
-    (share/"fonts").install "#{parent}IPAfont#{version.to_s.gsub(".", "")}/ipam.ttf"
-    (share/"fonts").install "#{parent}IPAfont#{version.to_s.gsub(".", "")}/ipamp.ttf"
+    (share/"fonts").install Dir.glob("IPAfont#{version.to_s.gsub(".", "")}/**/ipag.ttf")[0]
+    (share/"fonts").install Dir.glob("IPAfont#{version.to_s.gsub(".", "")}/**/ipagp.ttf")[0]
+    (share/"fonts").install Dir.glob("IPAfont#{version.to_s.gsub(".", "")}/**/ipam.ttf")[0]
+    (share/"fonts").install Dir.glob("IPAfont#{version.to_s.gsub(".", "")}/**/ipamp.ttf")[0]
   end
   # No zap stanza required
 

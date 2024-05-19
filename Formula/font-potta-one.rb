@@ -4,7 +4,7 @@ class FontPottaOne < Formula
   desc "Single style font family featuring letterforms inspired by brush lettering"
   homepage "https://fonts.google.com/specimen/Potta+One"
   def install
-    (share/"fonts").install "PottaOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/PottaOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

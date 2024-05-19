@@ -5,10 +5,9 @@ class FontJaapokki < Formula
   desc "Jaapokki"
   homepage "https://mikkonuuttila.com/jaapokki/"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}Jaapokki-font-package-#{version}/Regular/Jaapokki-Regular.otf"
-    (share/"fonts").install "#{parent}Jaapokki-font-package-#{version}/enchance/Jaapokkienchance-Regular.otf"
-    (share/"fonts").install "#{parent}Jaapokki-font-package-#{version}/subtract/Jaapokkisubtract-Regular.otf"
+    (share/"fonts").install Dir.glob("Jaapokki-font-package-#{version}/Regular/**/Jaapokki-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("Jaapokki-font-package-#{version}/enchance/**/Jaapokkienchance-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("Jaapokki-font-package-#{version}/subtract/**/Jaapokkisubtract-Regular.otf")[0]
   end
   # No zap stanza required
 

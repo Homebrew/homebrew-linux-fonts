@@ -3,7 +3,7 @@ class FontPreahvihear < Formula
   desc "Preahvihear"
   homepage "https://fonts.google.com/specimen/Preahvihear"
   def install
-    (share/"fonts").install "Preahvihear-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Preahvihear-Regular.ttf")[0]
   end
   # No zap stanza required
 

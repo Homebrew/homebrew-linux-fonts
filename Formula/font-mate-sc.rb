@@ -3,7 +3,7 @@ class FontMateSc < Formula
   desc "Mate SC"
   homepage "https://fonts.google.com/specimen/Mate+SC"
   def install
-    (share/"fonts").install "MateSC-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/MateSC-Regular.ttf")[0]
   end
   # No zap stanza required
 

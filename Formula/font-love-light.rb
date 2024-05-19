@@ -4,7 +4,7 @@ class FontLoveLight < Formula
   desc "Adaptation of another font"
   homepage "https://fonts.google.com/specimen/Love+Light"
   def install
-    (share/"fonts").install "LoveLight-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/LoveLight-Regular.ttf")[0]
   end
   # No zap stanza required
 

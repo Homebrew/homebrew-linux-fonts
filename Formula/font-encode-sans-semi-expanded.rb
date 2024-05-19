@@ -3,15 +3,15 @@ class FontEncodeSansSemiExpanded < Formula
   desc "Encode Sans Semi Expanded"
   homepage "https://fonts.google.com/specimen/Encode+Sans+Semi+Expanded"
   def install
-    (share/"fonts").install "ofl/encodesanssemiexpanded/" + "EncodeSansSemiExpanded-Black.ttf"
-    (share/"fonts").install "ofl/encodesanssemiexpanded/" + "EncodeSansSemiExpanded-Bold.ttf"
-    (share/"fonts").install "ofl/encodesanssemiexpanded/" + "EncodeSansSemiExpanded-ExtraBold.ttf"
-    (share/"fonts").install "ofl/encodesanssemiexpanded/" + "EncodeSansSemiExpanded-ExtraLight.ttf"
-    (share/"fonts").install "ofl/encodesanssemiexpanded/" + "EncodeSansSemiExpanded-Light.ttf"
-    (share/"fonts").install "ofl/encodesanssemiexpanded/" + "EncodeSansSemiExpanded-Medium.ttf"
-    (share/"fonts").install "ofl/encodesanssemiexpanded/" + "EncodeSansSemiExpanded-Regular.ttf"
-    (share/"fonts").install "ofl/encodesanssemiexpanded/" + "EncodeSansSemiExpanded-SemiBold.ttf"
-    (share/"fonts").install "ofl/encodesanssemiexpanded/" + "EncodeSansSemiExpanded-Thin.ttf"
+    (share/"fonts").install Dir.glob("ofl/encodesanssemiexpanded/./**/EncodeSansSemiExpanded-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/encodesanssemiexpanded/./**/EncodeSansSemiExpanded-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/encodesanssemiexpanded/./**/EncodeSansSemiExpanded-ExtraBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/encodesanssemiexpanded/./**/EncodeSansSemiExpanded-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/encodesanssemiexpanded/./**/EncodeSansSemiExpanded-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/encodesanssemiexpanded/./**/EncodeSansSemiExpanded-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/encodesanssemiexpanded/./**/EncodeSansSemiExpanded-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/encodesanssemiexpanded/./**/EncodeSansSemiExpanded-SemiBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/encodesanssemiexpanded/./**/EncodeSansSemiExpanded-Thin.ttf")[0]
   end
   # No zap stanza required
 

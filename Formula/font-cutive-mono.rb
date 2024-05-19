@@ -3,7 +3,7 @@ class FontCutiveMono < Formula
   desc "Cutive Mono"
   homepage "https://fonts.google.com/specimen/Cutive+Mono"
   def install
-    (share/"fonts").install "CutiveMono-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/CutiveMono-Regular.ttf")[0]
   end
   # No zap stanza required
 

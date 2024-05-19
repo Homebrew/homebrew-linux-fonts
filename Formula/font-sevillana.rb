@@ -3,7 +3,7 @@ class FontSevillana < Formula
   desc "Sevillana"
   homepage "https://fonts.google.com/specimen/Sevillana"
   def install
-    (share/"fonts").install "Sevillana-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Sevillana-Regular.ttf")[0]
   end
   # No zap stanza required
 

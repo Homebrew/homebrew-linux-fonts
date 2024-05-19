@@ -3,18 +3,18 @@ class FontKodchasan < Formula
   desc "Kodchasan"
   homepage "https://fonts.google.com/specimen/Kodchasan"
   def install
-    (share/"fonts").install "ofl/kodchasan/" + "Kodchasan-Bold.ttf"
-    (share/"fonts").install "ofl/kodchasan/" + "Kodchasan-BoldItalic.ttf"
-    (share/"fonts").install "ofl/kodchasan/" + "Kodchasan-ExtraLight.ttf"
-    (share/"fonts").install "ofl/kodchasan/" + "Kodchasan-ExtraLightItalic.ttf"
-    (share/"fonts").install "ofl/kodchasan/" + "Kodchasan-Italic.ttf"
-    (share/"fonts").install "ofl/kodchasan/" + "Kodchasan-Light.ttf"
-    (share/"fonts").install "ofl/kodchasan/" + "Kodchasan-LightItalic.ttf"
-    (share/"fonts").install "ofl/kodchasan/" + "Kodchasan-Medium.ttf"
-    (share/"fonts").install "ofl/kodchasan/" + "Kodchasan-MediumItalic.ttf"
-    (share/"fonts").install "ofl/kodchasan/" + "Kodchasan-Regular.ttf"
-    (share/"fonts").install "ofl/kodchasan/" + "Kodchasan-SemiBold.ttf"
-    (share/"fonts").install "ofl/kodchasan/" + "Kodchasan-SemiBoldItalic.ttf"
+    (share/"fonts").install Dir.glob("ofl/kodchasan/./**/Kodchasan-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/kodchasan/./**/Kodchasan-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/kodchasan/./**/Kodchasan-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/kodchasan/./**/Kodchasan-ExtraLightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/kodchasan/./**/Kodchasan-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/kodchasan/./**/Kodchasan-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/kodchasan/./**/Kodchasan-LightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/kodchasan/./**/Kodchasan-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/kodchasan/./**/Kodchasan-MediumItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/kodchasan/./**/Kodchasan-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/kodchasan/./**/Kodchasan-SemiBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/kodchasan/./**/Kodchasan-SemiBoldItalic.ttf")[0]
   end
   # No zap stanza required
 

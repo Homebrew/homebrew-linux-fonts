@@ -3,7 +3,7 @@ class FontNotoSansMarchen < Formula
   desc "Noto Sans Marchen"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Marchen"
   def install
-    (share/"fonts").install "NotoSansMarchen-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansMarchen-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -5,10 +5,10 @@ class FontTimesNewerRoman < Formula
   desc "Looks just like Times New Roman, but characters are 5-10% wider"
   homepage "https://timesnewerroman.com/"
   def install
-    (share/"fonts").install "TimesNewerRoman-Bold.otf"
-    (share/"fonts").install "TimesNewerRoman-BoldItalic.otf"
-    (share/"fonts").install "TimesNewerRoman-Italic.otf"
-    (share/"fonts").install "TimesNewerRoman-Regular.otf"
+    (share/"fonts").install Dir.glob("./**/TimesNewerRoman-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/TimesNewerRoman-BoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/TimesNewerRoman-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/TimesNewerRoman-Regular.otf")[0]
   end
   # No zap stanza required
 

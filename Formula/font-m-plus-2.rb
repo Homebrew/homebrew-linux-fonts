@@ -3,7 +3,7 @@ class FontMPlus2 < Formula
   desc "M PLUS 2"
   homepage "https://fonts.google.com/specimen/M+PLUS+2"
   def install
-    (share/"fonts").install "MPLUS2[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/MPLUS2\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

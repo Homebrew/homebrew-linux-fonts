@@ -3,7 +3,7 @@ class FontMedievalsharp < Formula
   desc "MedievalSharp"
   homepage "https://fonts.google.com/specimen/MedievalSharp"
   def install
-    (share/"fonts").install "MedievalSharp.ttf"
+    (share/"fonts").install Dir.glob("./**/MedievalSharp.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontQuicksand < Formula
   desc "Quicksand"
   homepage "https://fonts.google.com/specimen/Quicksand"
   def install
-    (share/"fonts").install "Quicksand[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/Quicksand\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

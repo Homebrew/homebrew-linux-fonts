@@ -3,10 +3,10 @@ class FontCousine < Formula
   desc "Cousine"
   homepage "https://fonts.google.com/specimen/Cousine"
   def install
-    (share/"fonts").install "apache/cousine/" + "Cousine-Bold.ttf"
-    (share/"fonts").install "apache/cousine/" + "Cousine-BoldItalic.ttf"
-    (share/"fonts").install "apache/cousine/" + "Cousine-Italic.ttf"
-    (share/"fonts").install "apache/cousine/" + "Cousine-Regular.ttf"
+    (share/"fonts").install Dir.glob("apache/cousine/./**/Cousine-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("apache/cousine/./**/Cousine-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("apache/cousine/./**/Cousine-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("apache/cousine/./**/Cousine-Regular.ttf")[0]
   end
   # No zap stanza required
 

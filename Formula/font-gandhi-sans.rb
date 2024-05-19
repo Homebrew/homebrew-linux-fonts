@@ -3,10 +3,10 @@ class FontGandhiSans < Formula
   desc "Gandhi Sans"
   homepage "https://www.fontsquirrel.com/fonts/gandhi-sans"
   def install
-    (share/"fonts").install "GandhiSans-Regular.otf"
-    (share/"fonts").install "GandhiSans-Italic.otf"
-    (share/"fonts").install "GandhiSans-Bold.otf"
-    (share/"fonts").install "GandhiSans-BoldItalic.otf"
+    (share/"fonts").install Dir.glob("./**/GandhiSans-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GandhiSans-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GandhiSans-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GandhiSans-BoldItalic.otf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontRubikMicrobe < Formula
   desc "Rubik Microbe"
   homepage "https://fonts.google.com/specimen/Rubik+Microbe"
   def install
-    (share/"fonts").install "RubikMicrobe-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/RubikMicrobe-Regular.ttf")[0]
   end
   # No zap stanza required
 

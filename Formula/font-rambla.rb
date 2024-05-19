@@ -3,10 +3,10 @@ class FontRambla < Formula
   desc "Rambla"
   homepage "https://fonts.google.com/specimen/Rambla"
   def install
-    (share/"fonts").install "ofl/rambla/" + "Rambla-Bold.ttf"
-    (share/"fonts").install "ofl/rambla/" + "Rambla-BoldItalic.ttf"
-    (share/"fonts").install "ofl/rambla/" + "Rambla-Italic.ttf"
-    (share/"fonts").install "ofl/rambla/" + "Rambla-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/rambla/./**/Rambla-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/rambla/./**/Rambla-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/rambla/./**/Rambla-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/rambla/./**/Rambla-Regular.ttf")[0]
   end
   # No zap stanza required
 

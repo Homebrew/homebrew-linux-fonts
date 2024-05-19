@@ -3,8 +3,8 @@ class FontFanwoodText < Formula
   desc "Fanwood Text"
   homepage "https://fonts.google.com/specimen/Fanwood+Text"
   def install
-    (share/"fonts").install "ofl/fanwoodtext/" + "FanwoodText-Italic.ttf"
-    (share/"fonts").install "ofl/fanwoodtext/" + "FanwoodText-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/fanwoodtext/./**/FanwoodText-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/fanwoodtext/./**/FanwoodText-Regular.ttf")[0]
   end
   # No zap stanza required
 

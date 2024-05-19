@@ -4,7 +4,7 @@ class FontNotoSerifOldUyghur < Formula
   desc "Design for the historical central asian old uyghur script"
   homepage "https://fonts.google.com/specimen/Noto+Serif+Old+Uyghur"
   def install
-    (share/"fonts").install "NotoSerifOldUyghur-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSerifOldUyghur-Regular.ttf")[0]
   end
   # No zap stanza required
 

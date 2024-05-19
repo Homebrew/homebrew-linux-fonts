@@ -6,9 +6,8 @@ class FontElstobd < Formula
   desc "Variable font for medievalists"
   homepage "https://github.com/psb1558/Elstob-font"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}Elstob_font/variable/Elstob-Italic.ttf"
-    (share/"fonts").install "#{parent}Elstob_font/variable/Elstob.ttf"
+    (share/"fonts").install Dir.glob("Elstob_font/variable/**/Elstob-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("Elstob_font/variable/**/Elstob.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,11 +3,11 @@ class FontChathura < Formula
   desc "Chathura"
   homepage "https://fonts.google.com/specimen/Chathura"
   def install
-    (share/"fonts").install "ofl/chathura/" + "Chathura-Bold.ttf"
-    (share/"fonts").install "ofl/chathura/" + "Chathura-ExtraBold.ttf"
-    (share/"fonts").install "ofl/chathura/" + "Chathura-Light.ttf"
-    (share/"fonts").install "ofl/chathura/" + "Chathura-Regular.ttf"
-    (share/"fonts").install "ofl/chathura/" + "Chathura-Thin.ttf"
+    (share/"fonts").install Dir.glob("ofl/chathura/./**/Chathura-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/chathura/./**/Chathura-ExtraBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/chathura/./**/Chathura-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/chathura/./**/Chathura-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/chathura/./**/Chathura-Thin.ttf")[0]
   end
   # No zap stanza required
 

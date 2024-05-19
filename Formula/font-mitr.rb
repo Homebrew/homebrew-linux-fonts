@@ -3,12 +3,12 @@ class FontMitr < Formula
   desc "Mitr"
   homepage "https://fonts.google.com/specimen/Mitr"
   def install
-    (share/"fonts").install "ofl/mitr/" + "Mitr-Bold.ttf"
-    (share/"fonts").install "ofl/mitr/" + "Mitr-ExtraLight.ttf"
-    (share/"fonts").install "ofl/mitr/" + "Mitr-Light.ttf"
-    (share/"fonts").install "ofl/mitr/" + "Mitr-Medium.ttf"
-    (share/"fonts").install "ofl/mitr/" + "Mitr-Regular.ttf"
-    (share/"fonts").install "ofl/mitr/" + "Mitr-SemiBold.ttf"
+    (share/"fonts").install Dir.glob("ofl/mitr/./**/Mitr-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/mitr/./**/Mitr-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/mitr/./**/Mitr-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/mitr/./**/Mitr-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/mitr/./**/Mitr-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/mitr/./**/Mitr-SemiBold.ttf")[0]
   end
   # No zap stanza required
 

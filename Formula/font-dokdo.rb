@@ -3,7 +3,7 @@ class FontDokdo < Formula
   desc "Dokdo"
   homepage "https://fonts.google.com/specimen/Dokdo"
   def install
-    (share/"fonts").install "Dokdo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Dokdo-Regular.ttf")[0]
   end
   # No zap stanza required
 

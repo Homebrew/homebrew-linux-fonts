@@ -4,8 +4,8 @@ class FontVollkorn < Formula
   desc "Quiet, modest and high quality serif typeface"
   homepage "https://fonts.google.com/specimen/Vollkorn"
   def install
-    (share/"fonts").install "ofl/vollkorn/" + "Vollkorn-Italic[wght].ttf"
-    (share/"fonts").install "ofl/vollkorn/" + "Vollkorn[wght].ttf"
+    (share/"fonts").install Dir.glob("ofl/vollkorn/./**/Vollkorn-Italic\\[wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/vollkorn/./**/Vollkorn\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

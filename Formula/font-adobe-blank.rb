@@ -3,7 +3,7 @@ class FontAdobeBlank < Formula
   desc "Adobe Blank"
   homepage "https://fonts.google.com/specimen/Adobe+Blank"
   def install
-    (share/"fonts").install "AdobeBlank-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/AdobeBlank-Regular.ttf")[0]
   end
   # No zap stanza required
 

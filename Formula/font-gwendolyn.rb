@@ -3,8 +3,8 @@ class FontGwendolyn < Formula
   desc "Gwendolyn"
   homepage "https://fonts.google.com/specimen/Gwendolyn"
   def install
-    (share/"fonts").install "ofl/gwendolyn/" + "Gwendolyn-Bold.ttf"
-    (share/"fonts").install "ofl/gwendolyn/" + "Gwendolyn-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/gwendolyn/./**/Gwendolyn-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/gwendolyn/./**/Gwendolyn-Regular.ttf")[0]
   end
   # No zap stanza required
 

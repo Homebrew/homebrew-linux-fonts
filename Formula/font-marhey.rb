@@ -4,7 +4,7 @@ class FontMarhey < Formula
   desc "Playful display typeface, custom hand lettering with contrast strokes"
   homepage "https://fonts.google.com/specimen/Marhey"
   def install
-    (share/"fonts").install "Marhey[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/Marhey\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontFrederickaTheGreat < Formula
   desc "Fredericka the Great"
   homepage "https://fonts.google.com/specimen/Fredericka+the+Great"
   def install
-    (share/"fonts").install "FrederickatheGreat-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/FrederickatheGreat-Regular.ttf")[0]
   end
   # No zap stanza required
 

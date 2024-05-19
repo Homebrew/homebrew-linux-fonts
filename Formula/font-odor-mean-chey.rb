@@ -3,7 +3,7 @@ class FontOdorMeanChey < Formula
   desc "Odor Mean Chey"
   homepage "https://fonts.google.com/specimen/Odor+Mean+Chey"
   def install
-    (share/"fonts").install "OdorMeanChey-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/OdorMeanChey-Regular.ttf")[0]
   end
   # No zap stanza required
 

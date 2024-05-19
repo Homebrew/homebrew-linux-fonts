@@ -3,7 +3,7 @@ class FontYujiMai < Formula
   desc "Yuji Mai"
   homepage "https://fonts.google.com/specimen/Yuji+Mai"
   def install
-    (share/"fonts").install "YujiMai-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/YujiMai-Regular.ttf")[0]
   end
   # No zap stanza required
 

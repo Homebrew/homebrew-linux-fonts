@@ -6,8 +6,7 @@ class FontTwitterColorEmoji < Formula
   desc "Twitter Unicode emoji color OpenType-SVG font"
   homepage "https://github.com/eosrei/twemoji-color-font/"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}TwitterColorEmoji-SVGinOT-#{version}/TwitterColorEmoji-SVGinOT.ttf"
+    (share/"fonts").install Dir.glob("TwitterColorEmoji-SVGinOT-#{version}/**/TwitterColorEmoji-SVGinOT.ttf")[0]
   end
   # No zap stanza required
 

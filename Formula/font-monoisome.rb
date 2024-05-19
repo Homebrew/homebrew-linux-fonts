@@ -4,7 +4,7 @@ class FontMonoisome < Formula
   desc "Monoisome"
   homepage "https://larsenwork.com/monoid/"
   def install
-    (share/"fonts").install "Monofur/" + "Monoisome-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Monoisome-Regular.ttf")[0]
   end
   # No zap stanza required
 

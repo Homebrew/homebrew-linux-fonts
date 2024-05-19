@@ -6,9 +6,8 @@ class FontBodoniModa < Formula
   desc "Serif typeface with high contrast"
   homepage "https://indestructibletype.com/Bodoni.html"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}Bodoni-master/fonts/variable/Bodoni-Italic-VF.ttf"
-    (share/"fonts").install "#{parent}Bodoni-master/fonts/variable/Bodoni-VF.ttf"
+    (share/"fonts").install Dir.glob("Bodoni-master/fonts/variable/**/Bodoni-Italic-VF.ttf")[0]
+    (share/"fonts").install Dir.glob("Bodoni-master/fonts/variable/**/Bodoni-VF.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,14 +3,14 @@ class FontMerriweather < Formula
   desc "Merriweather"
   homepage "https://fonts.google.com/specimen/Merriweather"
   def install
-    (share/"fonts").install "ofl/merriweather/" + "Merriweather-Black.ttf"
-    (share/"fonts").install "ofl/merriweather/" + "Merriweather-BlackItalic.ttf"
-    (share/"fonts").install "ofl/merriweather/" + "Merriweather-Bold.ttf"
-    (share/"fonts").install "ofl/merriweather/" + "Merriweather-BoldItalic.ttf"
-    (share/"fonts").install "ofl/merriweather/" + "Merriweather-Italic.ttf"
-    (share/"fonts").install "ofl/merriweather/" + "Merriweather-Light.ttf"
-    (share/"fonts").install "ofl/merriweather/" + "Merriweather-LightItalic.ttf"
-    (share/"fonts").install "ofl/merriweather/" + "Merriweather-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/merriweather/./**/Merriweather-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/merriweather/./**/Merriweather-BlackItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/merriweather/./**/Merriweather-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/merriweather/./**/Merriweather-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/merriweather/./**/Merriweather-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/merriweather/./**/Merriweather-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/merriweather/./**/Merriweather-LightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/merriweather/./**/Merriweather-Regular.ttf")[0]
   end
   # No zap stanza required
 

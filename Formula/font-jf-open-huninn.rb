@@ -6,7 +6,7 @@ class FontJfOpenHuninn < Formula
   desc "jf open 粉圓"
   homepage "https://justfont.com/huninn/"
   def install
-    (share/"fonts").install "jf-openhuninn-#{version}.ttf"
+    (share/"fonts").install Dir.glob("./**/jf-openhuninn-#{version}.ttf")[0]
   end
   # No zap stanza required
 

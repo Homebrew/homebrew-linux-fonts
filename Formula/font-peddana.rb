@@ -3,7 +3,7 @@ class FontPeddana < Formula
   desc "Peddana"
   homepage "https://fonts.google.com/specimen/Peddana"
   def install
-    (share/"fonts").install "Peddana-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Peddana-Regular.ttf")[0]
   end
   # No zap stanza required
 

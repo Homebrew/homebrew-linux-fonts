@@ -5,11 +5,10 @@ class FontEdwin < Formula
   desc "Text font for musical scores"
   homepage "https://github.com/MuseScoreFonts/Edwin"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}Edwin-#{version}/Edwin-BdIta.otf"
-    (share/"fonts").install "#{parent}Edwin-#{version}/Edwin-Bold.otf"
-    (share/"fonts").install "#{parent}Edwin-#{version}/Edwin-Italic.otf"
-    (share/"fonts").install "#{parent}Edwin-#{version}/Edwin-Roman.otf"
+    (share/"fonts").install Dir.glob("Edwin-#{version}/**/Edwin-BdIta.otf")[0]
+    (share/"fonts").install Dir.glob("Edwin-#{version}/**/Edwin-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("Edwin-#{version}/**/Edwin-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("Edwin-#{version}/**/Edwin-Roman.otf")[0]
   end
   # No zap stanza required
 

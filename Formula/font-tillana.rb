@@ -3,11 +3,11 @@ class FontTillana < Formula
   desc "Tillana"
   homepage "https://fonts.google.com/specimen/Tillana"
   def install
-    (share/"fonts").install "ofl/tillana/" + "Tillana-Bold.ttf"
-    (share/"fonts").install "ofl/tillana/" + "Tillana-ExtraBold.ttf"
-    (share/"fonts").install "ofl/tillana/" + "Tillana-Medium.ttf"
-    (share/"fonts").install "ofl/tillana/" + "Tillana-Regular.ttf"
-    (share/"fonts").install "ofl/tillana/" + "Tillana-SemiBold.ttf"
+    (share/"fonts").install Dir.glob("ofl/tillana/./**/Tillana-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/tillana/./**/Tillana-ExtraBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/tillana/./**/Tillana-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/tillana/./**/Tillana-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/tillana/./**/Tillana-SemiBold.ttf")[0]
   end
   # No zap stanza required
 

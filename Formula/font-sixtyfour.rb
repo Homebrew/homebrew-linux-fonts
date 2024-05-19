@@ -3,7 +3,7 @@ class FontSixtyfour < Formula
   desc "Sixtyfour"
   homepage "https://fonts.google.com/specimen/Sixtyfour"
   def install
-    (share/"fonts").install "Sixtyfour[BLED,SCAN].ttf"
+    (share/"fonts").install Dir.glob("./**/Sixtyfour\\[BLED,SCAN\\].ttf")[0]
   end
   # No zap stanza required
 

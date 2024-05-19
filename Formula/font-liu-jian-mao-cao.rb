@@ -3,7 +3,7 @@ class FontLiuJianMaoCao < Formula
   desc "Liu Jian Mao Cao"
   homepage "https://fonts.google.com/specimen/Liu+Jian+Mao+Cao"
   def install
-    (share/"fonts").install "LiuJianMaoCao-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/LiuJianMaoCao-Regular.ttf")[0]
   end
   # No zap stanza required
 

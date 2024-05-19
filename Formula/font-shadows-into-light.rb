@@ -3,7 +3,7 @@ class FontShadowsIntoLight < Formula
   desc "Shadows Into Light"
   homepage "https://fonts.google.com/specimen/Shadows+Into+Light"
   def install
-    (share/"fonts").install "ShadowsIntoLight.ttf"
+    (share/"fonts").install Dir.glob("./**/ShadowsIntoLight.ttf")[0]
   end
   # No zap stanza required
 

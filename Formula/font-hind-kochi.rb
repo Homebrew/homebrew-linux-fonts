@@ -3,11 +3,11 @@ class FontHindKochi < Formula
   desc "Hind Kochi"
   homepage "https://fonts.google.com/specimen/Hind"
   def install
-    (share/"fonts").install "ofl/hindkochi/" + "HindKochi-Bold.ttf"
-    (share/"fonts").install "ofl/hindkochi/" + "HindKochi-Light.ttf"
-    (share/"fonts").install "ofl/hindkochi/" + "HindKochi-Medium.ttf"
-    (share/"fonts").install "ofl/hindkochi/" + "HindKochi-Regular.ttf"
-    (share/"fonts").install "ofl/hindkochi/" + "HindKochi-SemiBold.ttf"
+    (share/"fonts").install Dir.glob("ofl/hindkochi/./**/HindKochi-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/hindkochi/./**/HindKochi-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/hindkochi/./**/HindKochi-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/hindkochi/./**/HindKochi-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/hindkochi/./**/HindKochi-SemiBold.ttf")[0]
   end
   # No zap stanza required
 

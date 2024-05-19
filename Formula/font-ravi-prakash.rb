@@ -3,7 +3,7 @@ class FontRaviPrakash < Formula
   desc "Ravi Prakash"
   homepage "https://fonts.google.com/specimen/Ravi+Prakash"
   def install
-    (share/"fonts").install "RaviPrakash-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/RaviPrakash-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontFaunaOne < Formula
   desc "Fauna One"
   homepage "https://fonts.google.com/specimen/Fauna+One"
   def install
-    (share/"fonts").install "FaunaOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/FaunaOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

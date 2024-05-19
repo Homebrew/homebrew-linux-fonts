@@ -5,19 +5,18 @@ class FontFreefont < Formula
   desc "FreeFont"
   homepage "https://www.gnu.org/software/freefont/"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}freefont-#{version}/FreeMono.otf"
-    (share/"fonts").install "#{parent}freefont-#{version}/FreeMonoBold.otf"
-    (share/"fonts").install "#{parent}freefont-#{version}/FreeMonoBoldOblique.otf"
-    (share/"fonts").install "#{parent}freefont-#{version}/FreeMonoOblique.otf"
-    (share/"fonts").install "#{parent}freefont-#{version}/FreeSans.otf"
-    (share/"fonts").install "#{parent}freefont-#{version}/FreeSansBold.otf"
-    (share/"fonts").install "#{parent}freefont-#{version}/FreeSansBoldOblique.otf"
-    (share/"fonts").install "#{parent}freefont-#{version}/FreeSansOblique.otf"
-    (share/"fonts").install "#{parent}freefont-#{version}/FreeSerif.otf"
-    (share/"fonts").install "#{parent}freefont-#{version}/FreeSerifBold.otf"
-    (share/"fonts").install "#{parent}freefont-#{version}/FreeSerifBoldItalic.otf"
-    (share/"fonts").install "#{parent}freefont-#{version}/FreeSerifItalic.otf"
+    (share/"fonts").install Dir.glob("freefont-#{version}/**/FreeMono.otf")[0]
+    (share/"fonts").install Dir.glob("freefont-#{version}/**/FreeMonoBold.otf")[0]
+    (share/"fonts").install Dir.glob("freefont-#{version}/**/FreeMonoBoldOblique.otf")[0]
+    (share/"fonts").install Dir.glob("freefont-#{version}/**/FreeMonoOblique.otf")[0]
+    (share/"fonts").install Dir.glob("freefont-#{version}/**/FreeSans.otf")[0]
+    (share/"fonts").install Dir.glob("freefont-#{version}/**/FreeSansBold.otf")[0]
+    (share/"fonts").install Dir.glob("freefont-#{version}/**/FreeSansBoldOblique.otf")[0]
+    (share/"fonts").install Dir.glob("freefont-#{version}/**/FreeSansOblique.otf")[0]
+    (share/"fonts").install Dir.glob("freefont-#{version}/**/FreeSerif.otf")[0]
+    (share/"fonts").install Dir.glob("freefont-#{version}/**/FreeSerifBold.otf")[0]
+    (share/"fonts").install Dir.glob("freefont-#{version}/**/FreeSerifBoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("freefont-#{version}/**/FreeSerifItalic.otf")[0]
   end
   # No zap stanza required
 

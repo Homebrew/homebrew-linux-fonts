@@ -3,7 +3,7 @@ class FontSora < Formula
   desc "Sora"
   homepage "https://fonts.google.com/specimen/Sora"
   def install
-    (share/"fonts").install "Sora[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/Sora\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

@@ -3,24 +3,24 @@ class FontBarlowSemiCondensed < Formula
   desc "Barlow Semi Condensed"
   homepage "https://fonts.google.com/specimen/Barlow+Semi+Condensed"
   def install
-    (share/"fonts").install "ofl/barlowsemicondensed/" + "BarlowSemiCondensed-Black.ttf"
-    (share/"fonts").install "ofl/barlowsemicondensed/" + "BarlowSemiCondensed-BlackItalic.ttf"
-    (share/"fonts").install "ofl/barlowsemicondensed/" + "BarlowSemiCondensed-Bold.ttf"
-    (share/"fonts").install "ofl/barlowsemicondensed/" + "BarlowSemiCondensed-BoldItalic.ttf"
-    (share/"fonts").install "ofl/barlowsemicondensed/" + "BarlowSemiCondensed-ExtraBold.ttf"
-    (share/"fonts").install "ofl/barlowsemicondensed/" + "BarlowSemiCondensed-ExtraBoldItalic.ttf"
-    (share/"fonts").install "ofl/barlowsemicondensed/" + "BarlowSemiCondensed-ExtraLight.ttf"
-    (share/"fonts").install "ofl/barlowsemicondensed/" + "BarlowSemiCondensed-ExtraLightItalic.ttf"
-    (share/"fonts").install "ofl/barlowsemicondensed/" + "BarlowSemiCondensed-Italic.ttf"
-    (share/"fonts").install "ofl/barlowsemicondensed/" + "BarlowSemiCondensed-Light.ttf"
-    (share/"fonts").install "ofl/barlowsemicondensed/" + "BarlowSemiCondensed-LightItalic.ttf"
-    (share/"fonts").install "ofl/barlowsemicondensed/" + "BarlowSemiCondensed-Medium.ttf"
-    (share/"fonts").install "ofl/barlowsemicondensed/" + "BarlowSemiCondensed-MediumItalic.ttf"
-    (share/"fonts").install "ofl/barlowsemicondensed/" + "BarlowSemiCondensed-Regular.ttf"
-    (share/"fonts").install "ofl/barlowsemicondensed/" + "BarlowSemiCondensed-SemiBold.ttf"
-    (share/"fonts").install "ofl/barlowsemicondensed/" + "BarlowSemiCondensed-SemiBoldItalic.ttf"
-    (share/"fonts").install "ofl/barlowsemicondensed/" + "BarlowSemiCondensed-Thin.ttf"
-    (share/"fonts").install "ofl/barlowsemicondensed/" + "BarlowSemiCondensed-ThinItalic.ttf"
+    (share/"fonts").install Dir.glob("ofl/barlowsemicondensed/./**/BarlowSemiCondensed-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/barlowsemicondensed/./**/BarlowSemiCondensed-BlackItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/barlowsemicondensed/./**/BarlowSemiCondensed-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/barlowsemicondensed/./**/BarlowSemiCondensed-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/barlowsemicondensed/./**/BarlowSemiCondensed-ExtraBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/barlowsemicondensed/./**/BarlowSemiCondensed-ExtraBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/barlowsemicondensed/./**/BarlowSemiCondensed-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/barlowsemicondensed/./**/BarlowSemiCondensed-ExtraLightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/barlowsemicondensed/./**/BarlowSemiCondensed-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/barlowsemicondensed/./**/BarlowSemiCondensed-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/barlowsemicondensed/./**/BarlowSemiCondensed-LightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/barlowsemicondensed/./**/BarlowSemiCondensed-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/barlowsemicondensed/./**/BarlowSemiCondensed-MediumItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/barlowsemicondensed/./**/BarlowSemiCondensed-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/barlowsemicondensed/./**/BarlowSemiCondensed-SemiBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/barlowsemicondensed/./**/BarlowSemiCondensed-SemiBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/barlowsemicondensed/./**/BarlowSemiCondensed-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/barlowsemicondensed/./**/BarlowSemiCondensed-ThinItalic.ttf")[0]
   end
   # No zap stanza required
 

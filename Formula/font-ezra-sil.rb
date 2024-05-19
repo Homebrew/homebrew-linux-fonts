@@ -5,9 +5,8 @@ class FontEzraSil < Formula
   desc "Ezra SIL"
   homepage "https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=EzraSIL_Home"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}EzraSIL#{version}/SILEOT.ttf"
-    (share/"fonts").install "#{parent}EzraSIL#{version}/SILEOTSR.ttf"
+    (share/"fonts").install Dir.glob("EzraSIL#{version}/**/SILEOT.ttf")[0]
+    (share/"fonts").install Dir.glob("EzraSIL#{version}/**/SILEOTSR.ttf")[0]
   end
   # No zap stanza required
 

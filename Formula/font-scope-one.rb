@@ -3,7 +3,7 @@ class FontScopeOne < Formula
   desc "Scope One"
   homepage "https://fonts.google.com/specimen/Scope+One"
   def install
-    (share/"fonts").install "ScopeOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/ScopeOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

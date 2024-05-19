@@ -3,7 +3,7 @@ class FontChenla < Formula
   desc "Chenla"
   homepage "https://fonts.google.com/specimen/Chenla"
   def install
-    (share/"fonts").install "Chenla.ttf"
+    (share/"fonts").install Dir.glob("./**/Chenla.ttf")[0]
   end
   # No zap stanza required
 

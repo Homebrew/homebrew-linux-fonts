@@ -6,17 +6,16 @@ class FontTt2020 < Formula
   desc "Advanced, open source, hyperrealistic, multilingual typewriter font"
   homepage "https://github.com/ctrlcctrlv/TT2020"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}TT2020-#{version}/dist/TT2020Base-Italic.ttf"
-    (share/"fonts").install "#{parent}TT2020-#{version}/dist/TT2020Base-Regular.ttf"
-    (share/"fonts").install "#{parent}TT2020-#{version}/dist/TT2020StyleB-Italic.ttf"
-    (share/"fonts").install "#{parent}TT2020-#{version}/dist/TT2020StyleB-Regular.ttf"
-    (share/"fonts").install "#{parent}TT2020-#{version}/dist/TT2020StyleD-Italic.ttf"
-    (share/"fonts").install "#{parent}TT2020-#{version}/dist/TT2020StyleD-Regular.ttf"
-    (share/"fonts").install "#{parent}TT2020-#{version}/dist/TT2020StyleE-Italic.ttf"
-    (share/"fonts").install "#{parent}TT2020-#{version}/dist/TT2020StyleE-Regular.ttf"
-    (share/"fonts").install "#{parent}TT2020-#{version}/dist/TT2020StyleF-Regular.ttf"
-    (share/"fonts").install "#{parent}TT2020-#{version}/dist/TT2020StyleG-Regular.ttf"
+    (share/"fonts").install Dir.glob("TT2020-#{version}/dist/**/TT2020Base-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("TT2020-#{version}/dist/**/TT2020Base-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("TT2020-#{version}/dist/**/TT2020StyleB-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("TT2020-#{version}/dist/**/TT2020StyleB-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("TT2020-#{version}/dist/**/TT2020StyleD-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("TT2020-#{version}/dist/**/TT2020StyleD-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("TT2020-#{version}/dist/**/TT2020StyleE-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("TT2020-#{version}/dist/**/TT2020StyleE-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("TT2020-#{version}/dist/**/TT2020StyleF-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("TT2020-#{version}/dist/**/TT2020StyleG-Regular.ttf")[0]
   end
   # No zap stanza required
 

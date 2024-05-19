@@ -5,27 +5,26 @@ class FontAlegreya < Formula
   desc "Alegreya"
   homepage "https://github.com/huertatipografica/Alegreya"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}Alegreya-#{version}/fonts/otf/Alegreya-Black.otf"
-    (share/"fonts").install "#{parent}Alegreya-#{version}/fonts/otf/Alegreya-BlackItalic.otf"
-    (share/"fonts").install "#{parent}Alegreya-#{version}/fonts/otf/Alegreya-Bold.otf"
-    (share/"fonts").install "#{parent}Alegreya-#{version}/fonts/otf/Alegreya-BoldItalic.otf"
-    (share/"fonts").install "#{parent}Alegreya-#{version}/fonts/otf/Alegreya-ExtraBold.otf"
-    (share/"fonts").install "#{parent}Alegreya-#{version}/fonts/otf/Alegreya-ExtraBoldItalic.otf"
-    (share/"fonts").install "#{parent}Alegreya-#{version}/fonts/otf/Alegreya-Italic.otf"
-    (share/"fonts").install "#{parent}Alegreya-#{version}/fonts/otf/Alegreya-Medium.otf"
-    (share/"fonts").install "#{parent}Alegreya-#{version}/fonts/otf/Alegreya-MediumItalic.otf"
-    (share/"fonts").install "#{parent}Alegreya-#{version}/fonts/otf/Alegreya-Regular.otf"
-    (share/"fonts").install "#{parent}Alegreya-#{version}/fonts/otf/AlegreyaSC-Black.otf"
-    (share/"fonts").install "#{parent}Alegreya-#{version}/fonts/otf/AlegreyaSC-BlackItalic.otf"
-    (share/"fonts").install "#{parent}Alegreya-#{version}/fonts/otf/AlegreyaSC-Bold.otf"
-    (share/"fonts").install "#{parent}Alegreya-#{version}/fonts/otf/AlegreyaSC-BoldItalic.otf"
-    (share/"fonts").install "#{parent}Alegreya-#{version}/fonts/otf/AlegreyaSC-ExtraBold.otf"
-    (share/"fonts").install "#{parent}Alegreya-#{version}/fonts/otf/AlegreyaSC-ExtraBoldItalic.otf"
-    (share/"fonts").install "#{parent}Alegreya-#{version}/fonts/otf/AlegreyaSC-Italic.otf"
-    (share/"fonts").install "#{parent}Alegreya-#{version}/fonts/otf/AlegreyaSC-Medium.otf"
-    (share/"fonts").install "#{parent}Alegreya-#{version}/fonts/otf/AlegreyaSC-MediumItalic.otf"
-    (share/"fonts").install "#{parent}Alegreya-#{version}/fonts/otf/AlegreyaSC-Regular.otf"
+    (share/"fonts").install Dir.glob("Alegreya-#{version}/fonts/otf/**/Alegreya-Black.otf")[0]
+    (share/"fonts").install Dir.glob("Alegreya-#{version}/fonts/otf/**/Alegreya-BlackItalic.otf")[0]
+    (share/"fonts").install Dir.glob("Alegreya-#{version}/fonts/otf/**/Alegreya-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("Alegreya-#{version}/fonts/otf/**/Alegreya-BoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("Alegreya-#{version}/fonts/otf/**/Alegreya-ExtraBold.otf")[0]
+    (share/"fonts").install Dir.glob("Alegreya-#{version}/fonts/otf/**/Alegreya-ExtraBoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("Alegreya-#{version}/fonts/otf/**/Alegreya-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("Alegreya-#{version}/fonts/otf/**/Alegreya-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("Alegreya-#{version}/fonts/otf/**/Alegreya-MediumItalic.otf")[0]
+    (share/"fonts").install Dir.glob("Alegreya-#{version}/fonts/otf/**/Alegreya-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("Alegreya-#{version}/fonts/otf/**/AlegreyaSC-Black.otf")[0]
+    (share/"fonts").install Dir.glob("Alegreya-#{version}/fonts/otf/**/AlegreyaSC-BlackItalic.otf")[0]
+    (share/"fonts").install Dir.glob("Alegreya-#{version}/fonts/otf/**/AlegreyaSC-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("Alegreya-#{version}/fonts/otf/**/AlegreyaSC-BoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("Alegreya-#{version}/fonts/otf/**/AlegreyaSC-ExtraBold.otf")[0]
+    (share/"fonts").install Dir.glob("Alegreya-#{version}/fonts/otf/**/AlegreyaSC-ExtraBoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("Alegreya-#{version}/fonts/otf/**/AlegreyaSC-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("Alegreya-#{version}/fonts/otf/**/AlegreyaSC-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("Alegreya-#{version}/fonts/otf/**/AlegreyaSC-MediumItalic.otf")[0]
+    (share/"fonts").install Dir.glob("Alegreya-#{version}/fonts/otf/**/AlegreyaSC-Regular.otf")[0]
   end
   # No zap stanza required
 

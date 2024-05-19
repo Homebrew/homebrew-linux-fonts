@@ -6,12 +6,12 @@ class FontAgaveNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "ofl/afacad/" + "AgaveNerdFont-Bold.ttf"
-    (share/"fonts").install "ofl/afacad/" + "AgaveNerdFont-Regular.ttf"
-    (share/"fonts").install "ofl/afacad/" + "AgaveNerdFontMono-Bold.ttf"
-    (share/"fonts").install "ofl/afacad/" + "AgaveNerdFontMono-Regular.ttf"
-    (share/"fonts").install "ofl/afacad/" + "AgaveNerdFontPropo-Bold.ttf"
-    (share/"fonts").install "ofl/afacad/" + "AgaveNerdFontPropo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/AgaveNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/AgaveNerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/AgaveNerdFontMono-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/AgaveNerdFontMono-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/AgaveNerdFontPropo-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/AgaveNerdFontPropo-Regular.ttf")[0]
   end
   # No zap stanza required
 

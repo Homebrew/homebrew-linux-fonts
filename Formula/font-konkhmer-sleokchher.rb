@@ -4,7 +4,7 @@ class FontKonkhmerSleokchher < Formula
   desc "Ideal for use as headings or in large typography"
   homepage "https://fonts.google.com/specimen/Konkhmer+Sleokchher"
   def install
-    (share/"fonts").install "KonkhmerSleokchher-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/KonkhmerSleokchher-Regular.ttf")[0]
   end
   # No zap stanza required
 

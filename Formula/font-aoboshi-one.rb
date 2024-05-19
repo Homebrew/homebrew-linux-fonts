@@ -3,7 +3,7 @@ class FontAoboshiOne < Formula
   desc "Aoboshi One"
   homepage "https://fonts.google.com/specimen/Aoboshi+One"
   def install
-    (share/"fonts").install "AoboshiOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/AoboshiOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontBerkshireSwash < Formula
   desc "Berkshire Swash"
   homepage "https://fonts.google.com/specimen/Berkshire+Swash"
   def install
-    (share/"fonts").install "BerkshireSwash-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/BerkshireSwash-Regular.ttf")[0]
   end
   # No zap stanza required
 

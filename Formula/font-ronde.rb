@@ -4,8 +4,7 @@ class FontRonde < Formula
   desc "Extended round font based on Kaiso"
   homepage "https://moji-waku.com/ronde/index.html"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}ronde_square/Ronde-B_square.otf"
+    (share/"fonts").install Dir.glob("ronde_square/**/Ronde-B_square.otf")[0]
   end
   # No zap stanza required
 

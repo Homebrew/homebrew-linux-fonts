@@ -3,8 +3,8 @@ class FontKarlaTamilInclined < Formula
   desc "Karla Tamil Inclined"
   homepage "https://fonts.google.com/specimen/Karla"
   def install
-    (share/"fonts").install "ofl/karlatamilinclined/" + "KarlaTamilInclined-Bold.ttf"
-    (share/"fonts").install "ofl/karlatamilinclined/" + "KarlaTamilInclined-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/karlatamilinclined/./**/KarlaTamilInclined-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/karlatamilinclined/./**/KarlaTamilInclined-Regular.ttf")[0]
   end
   # No zap stanza required
 

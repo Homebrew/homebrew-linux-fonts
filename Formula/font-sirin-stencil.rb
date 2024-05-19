@@ -3,7 +3,7 @@ class FontSirinStencil < Formula
   desc "Sirin Stencil"
   homepage "https://fonts.google.com/specimen/Sirin+Stencil"
   def install
-    (share/"fonts").install "SirinStencil-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/SirinStencil-Regular.ttf")[0]
   end
   # No zap stanza required
 

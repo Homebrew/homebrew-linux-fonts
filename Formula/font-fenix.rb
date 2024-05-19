@@ -3,7 +3,7 @@ class FontFenix < Formula
   desc "Fenix"
   homepage "https://fonts.google.com/specimen/Fenix"
   def install
-    (share/"fonts").install "Fenix-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Fenix-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -6,9 +6,8 @@ class FontCascadiaMonoPl < Formula
   desc "Version of Cascadia Code without ligatures and with embedded Powerline symbols"
   homepage "https://github.com/microsoft/cascadia-code"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}ttf/CascadiaMonoPL.ttf"
-    (share/"fonts").install "#{parent}ttf/CascadiaMonoPLItalic.ttf"
+    (share/"fonts").install Dir.glob("ttf/**/CascadiaMonoPL.ttf")[0]
+    (share/"fonts").install Dir.glob("ttf/**/CascadiaMonoPLItalic.ttf")[0]
   end
   # No zap stanza required
 

@@ -5,19 +5,18 @@ class FontZillaSlab < Formula
   desc "Zilla Slab"
   homepage "https://github.com/mozilla/zilla-slab"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}zilla-slab/otf/ZillaSlab-Bold.otf"
-    (share/"fonts").install "#{parent}zilla-slab/otf/ZillaSlab-BoldItalic.otf"
-    (share/"fonts").install "#{parent}zilla-slab/otf/ZillaSlab-Italic.otf"
-    (share/"fonts").install "#{parent}zilla-slab/otf/ZillaSlab-Light.otf"
-    (share/"fonts").install "#{parent}zilla-slab/otf/ZillaSlab-LightItalic.otf"
-    (share/"fonts").install "#{parent}zilla-slab/otf/ZillaSlab-Medium.otf"
-    (share/"fonts").install "#{parent}zilla-slab/otf/ZillaSlab-MediumItalic.otf"
-    (share/"fonts").install "#{parent}zilla-slab/otf/ZillaSlab-Regular.otf"
-    (share/"fonts").install "#{parent}zilla-slab/otf/ZillaSlab-SemiBold.otf"
-    (share/"fonts").install "#{parent}zilla-slab/otf/ZillaSlab-SemiBoldItalic.otf"
-    (share/"fonts").install "#{parent}zilla-slab/otf/ZillaSlabHighlight-Bold.otf"
-    (share/"fonts").install "#{parent}zilla-slab/otf/ZillaSlabHighlight-Regular.otf"
+    (share/"fonts").install Dir.glob("zilla-slab/otf/**/ZillaSlab-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("zilla-slab/otf/**/ZillaSlab-BoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("zilla-slab/otf/**/ZillaSlab-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("zilla-slab/otf/**/ZillaSlab-Light.otf")[0]
+    (share/"fonts").install Dir.glob("zilla-slab/otf/**/ZillaSlab-LightItalic.otf")[0]
+    (share/"fonts").install Dir.glob("zilla-slab/otf/**/ZillaSlab-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("zilla-slab/otf/**/ZillaSlab-MediumItalic.otf")[0]
+    (share/"fonts").install Dir.glob("zilla-slab/otf/**/ZillaSlab-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("zilla-slab/otf/**/ZillaSlab-SemiBold.otf")[0]
+    (share/"fonts").install Dir.glob("zilla-slab/otf/**/ZillaSlab-SemiBoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("zilla-slab/otf/**/ZillaSlabHighlight-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("zilla-slab/otf/**/ZillaSlabHighlight-Regular.otf")[0]
   end
   # No zap stanza required
 

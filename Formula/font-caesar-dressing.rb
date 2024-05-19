@@ -3,7 +3,7 @@ class FontCaesarDressing < Formula
   desc "Caesar Dressing"
   homepage "https://fonts.google.com/specimen/Caesar+Dressing"
   def install
-    (share/"fonts").install "CaesarDressing-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/CaesarDressing-Regular.ttf")[0]
   end
   # No zap stanza required
 

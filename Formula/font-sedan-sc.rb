@@ -3,7 +3,7 @@ class FontSedanSc < Formula
   desc "Sedan SC"
   homepage "https://fonts.google.com/specimen/Sedan+SC"
   def install
-    (share/"fonts").install "SedanSC-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/SedanSC-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -5,11 +5,10 @@ class FontCharter < Formula
   desc "Charter"
   homepage "https://practicaltypography.com/charter.html"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}Charter #{version}/OTF format (best for Mac OS)/Charter/Charter Bold Italic.otf"
-    (share/"fonts").install "#{parent}Charter #{version}/OTF format (best for Mac OS)/Charter/Charter Bold.otf"
-    (share/"fonts").install "#{parent}Charter #{version}/OTF format (best for Mac OS)/Charter/Charter Italic.otf"
-    (share/"fonts").install "#{parent}Charter #{version}/OTF format (best for Mac OS)/Charter/Charter Regular.otf"
+    (share/"fonts").install Dir.glob("Charter #{version}/OTF format (best for Mac OS)/Charter/**/Charter Bold Italic.otf")[0]
+    (share/"fonts").install Dir.glob("Charter #{version}/OTF format (best for Mac OS)/Charter/**/Charter Bold.otf")[0]
+    (share/"fonts").install Dir.glob("Charter #{version}/OTF format (best for Mac OS)/Charter/**/Charter Italic.otf")[0]
+    (share/"fonts").install Dir.glob("Charter #{version}/OTF format (best for Mac OS)/Charter/**/Charter Regular.otf")[0]
   end
   # No zap stanza required
 

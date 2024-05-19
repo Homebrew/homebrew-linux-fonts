@@ -4,7 +4,7 @@ class FontSolitreo < Formula
   desc "Relic of the past, as most writers of the language utilize roman characters"
   homepage "https://fonts.google.com/specimen/Solitreo"
   def install
-    (share/"fonts").install "Solitreo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Solitreo-Regular.ttf")[0]
   end
   # No zap stanza required
 

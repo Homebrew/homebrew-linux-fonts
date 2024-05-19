@@ -3,7 +3,7 @@ class FontGriffy < Formula
   desc "Griffy"
   homepage "https://fonts.google.com/specimen/Griffy"
   def install
-    (share/"fonts").install "Griffy-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Griffy-Regular.ttf")[0]
   end
   # No zap stanza required
 

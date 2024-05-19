@@ -3,7 +3,7 @@ class FontFzxiaobiaosongB05 < Formula
   desc "Fangzheng Xiaobiaosong GBK"
   homepage "https://www.foundertype.com/index.php/FontInfo/index.html?id=164"
   def install
-    (share/"fonts").install "FZXBSK.ttf"
+    (share/"fonts").install Dir.glob("./**/FZXBSK.ttf")[0]
   end
   # No zap stanza required
 

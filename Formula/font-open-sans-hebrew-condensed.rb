@@ -3,14 +3,14 @@ class FontOpenSansHebrewCondensed < Formula
   desc "Open Sans Hebrew Condensed"
   homepage "https://fonts.google.com/earlyaccess"
   def install
-    (share/"fonts").install "apache/opensanshebrewcondensed/" + "OpenSansHebrewCondensed-Bold.ttf"
-    (share/"fonts").install "apache/opensanshebrewcondensed/" + "OpenSansHebrewCondensed-BoldItalic.ttf"
-    (share/"fonts").install "apache/opensanshebrewcondensed/" + "OpenSansHebrewCondensed-ExtraBold.ttf"
-    (share/"fonts").install "apache/opensanshebrewcondensed/" + "OpenSansHebrewCondensed-ExtraBoldItalic.ttf"
-    (share/"fonts").install "apache/opensanshebrewcondensed/" + "OpenSansHebrewCondensed-Italic.ttf"
-    (share/"fonts").install "apache/opensanshebrewcondensed/" + "OpenSansHebrewCondensed-Light.ttf"
-    (share/"fonts").install "apache/opensanshebrewcondensed/" + "OpenSansHebrewCondensed-LightItalic.ttf"
-    (share/"fonts").install "apache/opensanshebrewcondensed/" + "OpenSansHebrewCondensed-Regular.ttf"
+    (share/"fonts").install Dir.glob("apache/opensanshebrewcondensed/./**/OpenSansHebrewCondensed-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("apache/opensanshebrewcondensed/./**/OpenSansHebrewCondensed-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("apache/opensanshebrewcondensed/./**/OpenSansHebrewCondensed-ExtraBold.ttf")[0]
+    (share/"fonts").install Dir.glob("apache/opensanshebrewcondensed/./**/OpenSansHebrewCondensed-ExtraBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("apache/opensanshebrewcondensed/./**/OpenSansHebrewCondensed-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("apache/opensanshebrewcondensed/./**/OpenSansHebrewCondensed-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("apache/opensanshebrewcondensed/./**/OpenSansHebrewCondensed-LightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("apache/opensanshebrewcondensed/./**/OpenSansHebrewCondensed-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontRozhaOne < Formula
   desc "Rozha One"
   homepage "https://fonts.google.com/specimen/Rozha+One"
   def install
-    (share/"fonts").install "RozhaOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/RozhaOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

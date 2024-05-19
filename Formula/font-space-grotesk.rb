@@ -5,11 +5,10 @@ class FontSpaceGrotesk < Formula
   desc "Space Grotesk"
   homepage "https://github.com/floriankarsten/space-grotesk"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}SpaceGrotesk-#{version}/otf/SpaceGrotesk-Bold.otf"
-    (share/"fonts").install "#{parent}SpaceGrotesk-#{version}/otf/SpaceGrotesk-Light.otf"
-    (share/"fonts").install "#{parent}SpaceGrotesk-#{version}/otf/SpaceGrotesk-Medium.otf"
-    (share/"fonts").install "#{parent}SpaceGrotesk-#{version}/otf/SpaceGrotesk-Regular.otf"
+    (share/"fonts").install Dir.glob("SpaceGrotesk-#{version}/otf/**/SpaceGrotesk-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("SpaceGrotesk-#{version}/otf/**/SpaceGrotesk-Light.otf")[0]
+    (share/"fonts").install Dir.glob("SpaceGrotesk-#{version}/otf/**/SpaceGrotesk-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("SpaceGrotesk-#{version}/otf/**/SpaceGrotesk-Regular.otf")[0]
   end
   # No zap stanza required
 

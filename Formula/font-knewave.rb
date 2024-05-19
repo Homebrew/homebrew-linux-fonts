@@ -3,7 +3,7 @@ class FontKnewave < Formula
   desc "Knewave"
   homepage "https://fonts.google.com/specimen/Knewave"
   def install
-    (share/"fonts").install "Knewave-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Knewave-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontAlike < Formula
   desc "Alike"
   homepage "https://fonts.google.com/specimen/Alike"
   def install
-    (share/"fonts").install "Alike-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Alike-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontSunshiney < Formula
   desc "Sunshiney"
   homepage "https://fonts.google.com/specimen/Sunshiney"
   def install
-    (share/"fonts").install "Sunshiney-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Sunshiney-Regular.ttf")[0]
   end
   # No zap stanza required
 

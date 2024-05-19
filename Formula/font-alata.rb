@@ -3,7 +3,7 @@ class FontAlata < Formula
   desc "Alata"
   homepage "https://fonts.google.com/specimen/Alata"
   def install
-    (share/"fonts").install "Alata-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Alata-Regular.ttf")[0]
   end
   # No zap stanza required
 

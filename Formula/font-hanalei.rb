@@ -3,7 +3,7 @@ class FontHanalei < Formula
   desc "Hanalei"
   homepage "https://fonts.google.com/specimen/Hanalei"
   def install
-    (share/"fonts").install "Hanalei-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Hanalei-Regular.ttf")[0]
   end
   # No zap stanza required
 

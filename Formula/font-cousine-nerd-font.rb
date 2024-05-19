@@ -6,18 +6,18 @@ class FontCousineNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "CousineNerdFont-Bold.ttf"
-    (share/"fonts").install "CousineNerdFont-BoldItalic.ttf"
-    (share/"fonts").install "CousineNerdFont-Italic.ttf"
-    (share/"fonts").install "CousineNerdFont-Regular.ttf"
-    (share/"fonts").install "CousineNerdFontMono-Bold.ttf"
-    (share/"fonts").install "CousineNerdFontMono-BoldItalic.ttf"
-    (share/"fonts").install "CousineNerdFontMono-Italic.ttf"
-    (share/"fonts").install "CousineNerdFontMono-Regular.ttf"
-    (share/"fonts").install "CousineNerdFontPropo-Bold.ttf"
-    (share/"fonts").install "CousineNerdFontPropo-BoldItalic.ttf"
-    (share/"fonts").install "CousineNerdFontPropo-Italic.ttf"
-    (share/"fonts").install "CousineNerdFontPropo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/CousineNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/CousineNerdFont-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/CousineNerdFont-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/CousineNerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/CousineNerdFontMono-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/CousineNerdFontMono-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/CousineNerdFontMono-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/CousineNerdFontMono-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/CousineNerdFontPropo-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/CousineNerdFontPropo-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/CousineNerdFontPropo-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/CousineNerdFontPropo-Regular.ttf")[0]
   end
   # No zap stanza required
 

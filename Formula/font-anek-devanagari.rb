@@ -3,7 +3,7 @@ class FontAnekDevanagari < Formula
   desc "Anek Devanagari"
   homepage "https://fonts.google.com/specimen/Anek+Devanagari"
   def install
-    (share/"fonts").install "AnekDevanagari[wdth,wght].ttf"
+    (share/"fonts").install Dir.glob("./**/AnekDevanagari\\[wdth,wght\\].ttf")[0]
   end
   # No zap stanza required
 

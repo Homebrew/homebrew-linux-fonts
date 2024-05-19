@@ -3,11 +3,10 @@ class FontCourierPrimeSans < Formula
   desc "Courier Prime Sans"
   homepage "https://quoteunquoteapps.com/courierprime/#code-sans"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}CourierPrimeSans-master/ttf/Courier Prime Sans Bold Italic.ttf"
-    (share/"fonts").install "#{parent}CourierPrimeSans-master/ttf/Courier Prime Sans Bold.ttf"
-    (share/"fonts").install "#{parent}CourierPrimeSans-master/ttf/Courier Prime Sans Italic.ttf"
-    (share/"fonts").install "#{parent}CourierPrimeSans-master/ttf/Courier Prime Sans.ttf"
+    (share/"fonts").install Dir.glob("CourierPrimeSans-master/ttf/**/Courier Prime Sans Bold Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("CourierPrimeSans-master/ttf/**/Courier Prime Sans Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("CourierPrimeSans-master/ttf/**/Courier Prime Sans Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("CourierPrimeSans-master/ttf/**/Courier Prime Sans.ttf")[0]
   end
   # No zap stanza required
 

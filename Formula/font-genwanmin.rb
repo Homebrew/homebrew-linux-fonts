@@ -5,11 +5,11 @@ class FontGenwanmin < Formula
   desc "GenWanMin"
   homepage "https://github.com/ButTaiwan/genwan-font"
   def install
-    (share/"fonts").install "ofl/gentiumbookplus/" + "GenWanMin-EL.ttc"
-    (share/"fonts").install "ofl/gentiumbookplus/" + "GenWanMin-L.ttc"
-    (share/"fonts").install "ofl/gentiumbookplus/" + "GenWanMin-M.ttc"
-    (share/"fonts").install "ofl/gentiumbookplus/" + "GenWanMin-R.ttc"
-    (share/"fonts").install "ofl/gentiumbookplus/" + "GenWanMin-SB.ttc"
+    (share/"fonts").install Dir.glob("./**/GenWanMin-EL.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/GenWanMin-L.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/GenWanMin-M.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/GenWanMin-R.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/GenWanMin-SB.ttc")[0]
   end
   # No zap stanza required
 

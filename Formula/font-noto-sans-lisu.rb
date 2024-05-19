@@ -3,7 +3,7 @@ class FontNotoSansLisu < Formula
   desc "Noto Sans Lisu"
   homepage "https://www.google.com/get/noto/#sans-lisu"
   def install
-    (share/"fonts").install "NotoSansLisu-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansLisu-Regular.ttf")[0]
   end
   # No zap stanza required
 

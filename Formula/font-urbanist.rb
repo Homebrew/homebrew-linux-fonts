@@ -6,26 +6,25 @@ class FontUrbanist < Formula
   desc "Geometric sans-serif font"
   homepage "https://github.com/coreyhu/Urbanist"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}Urbanist-fonts/fonts/otf/Urbanist-Black.otf"
-    (share/"fonts").install "#{parent}Urbanist-fonts/fonts/otf/Urbanist-BlackItalic.otf"
-    (share/"fonts").install "#{parent}Urbanist-fonts/fonts/otf/Urbanist-Bold.otf"
-    (share/"fonts").install "#{parent}Urbanist-fonts/fonts/otf/Urbanist-BoldItalic.otf"
-    (share/"fonts").install "#{parent}Urbanist-fonts/fonts/otf/Urbanist-ExtraBold.otf"
-    (share/"fonts").install "#{parent}Urbanist-fonts/fonts/otf/Urbanist-ExtraBoldItalic.otf"
-    (share/"fonts").install "#{parent}Urbanist-fonts/fonts/otf/Urbanist-ExtraLight.otf"
-    (share/"fonts").install "#{parent}Urbanist-fonts/fonts/otf/Urbanist-ExtraLightItalic.otf"
-    (share/"fonts").install "#{parent}Urbanist-fonts/fonts/otf/Urbanist-Italic.otf"
-    (share/"fonts").install "#{parent}Urbanist-fonts/fonts/otf/Urbanist-Light.otf"
-    (share/"fonts").install "#{parent}Urbanist-fonts/fonts/otf/Urbanist-LightItalic.otf"
-    (share/"fonts").install "#{parent}Urbanist-fonts/fonts/otf/Urbanist-Medium.otf"
-    (share/"fonts").install "#{parent}Urbanist-fonts/fonts/otf/Urbanist-MediumItalic.otf"
-    (share/"fonts").install "#{parent}Urbanist-fonts/fonts/otf/Urbanist-Regular.otf"
-    (share/"fonts").install "#{parent}Urbanist-fonts/fonts/otf/Urbanist-SemiBold.otf"
-    (share/"fonts").install "#{parent}Urbanist-fonts/fonts/otf/Urbanist-SemiBoldItalic.otf"
-    (share/"fonts").install "#{parent}Urbanist-fonts/fonts/otf/Urbanist-Thin.otf"
-    (share/"fonts").install "#{parent}Urbanist-fonts/fonts/otf/Urbanist-ThinItalic.otf"
-    (share/"fonts").install "#{parent}Urbanist-fonts/fonts/variable/Urbanist[ital,wght].ttf"
+    (share/"fonts").install Dir.glob("Urbanist-fonts/fonts/otf/**/Urbanist-Black.otf")[0]
+    (share/"fonts").install Dir.glob("Urbanist-fonts/fonts/otf/**/Urbanist-BlackItalic.otf")[0]
+    (share/"fonts").install Dir.glob("Urbanist-fonts/fonts/otf/**/Urbanist-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("Urbanist-fonts/fonts/otf/**/Urbanist-BoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("Urbanist-fonts/fonts/otf/**/Urbanist-ExtraBold.otf")[0]
+    (share/"fonts").install Dir.glob("Urbanist-fonts/fonts/otf/**/Urbanist-ExtraBoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("Urbanist-fonts/fonts/otf/**/Urbanist-ExtraLight.otf")[0]
+    (share/"fonts").install Dir.glob("Urbanist-fonts/fonts/otf/**/Urbanist-ExtraLightItalic.otf")[0]
+    (share/"fonts").install Dir.glob("Urbanist-fonts/fonts/otf/**/Urbanist-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("Urbanist-fonts/fonts/otf/**/Urbanist-Light.otf")[0]
+    (share/"fonts").install Dir.glob("Urbanist-fonts/fonts/otf/**/Urbanist-LightItalic.otf")[0]
+    (share/"fonts").install Dir.glob("Urbanist-fonts/fonts/otf/**/Urbanist-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("Urbanist-fonts/fonts/otf/**/Urbanist-MediumItalic.otf")[0]
+    (share/"fonts").install Dir.glob("Urbanist-fonts/fonts/otf/**/Urbanist-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("Urbanist-fonts/fonts/otf/**/Urbanist-SemiBold.otf")[0]
+    (share/"fonts").install Dir.glob("Urbanist-fonts/fonts/otf/**/Urbanist-SemiBoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("Urbanist-fonts/fonts/otf/**/Urbanist-Thin.otf")[0]
+    (share/"fonts").install Dir.glob("Urbanist-fonts/fonts/otf/**/Urbanist-ThinItalic.otf")[0]
+    (share/"fonts").install Dir.glob("Urbanist-fonts/fonts/variable/**/Urbanist\\[ital,wght\\].ttf")[0]
   end
   # No zap stanza required
 

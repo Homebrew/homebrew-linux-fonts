@@ -3,7 +3,7 @@ class FontStrong < Formula
   desc "Strong"
   homepage "https://fonts.google.com/specimen/Strong"
   def install
-    (share/"fonts").install "Strong-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Strong-Regular.ttf")[0]
   end
   # No zap stanza required
 

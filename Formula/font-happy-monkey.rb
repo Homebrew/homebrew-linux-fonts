@@ -3,7 +3,7 @@ class FontHappyMonkey < Formula
   desc "Happy Monkey"
   homepage "https://fonts.google.com/specimen/Happy+Monkey"
   def install
-    (share/"fonts").install "HappyMonkey-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/HappyMonkey-Regular.ttf")[0]
   end
   # No zap stanza required
 

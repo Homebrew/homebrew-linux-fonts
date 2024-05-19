@@ -3,7 +3,7 @@ class FontChango < Formula
   desc "Chango"
   homepage "https://fonts.google.com/specimen/Chango"
   def install
-    (share/"fonts").install "Chango-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Chango-Regular.ttf")[0]
   end
   # No zap stanza required
 

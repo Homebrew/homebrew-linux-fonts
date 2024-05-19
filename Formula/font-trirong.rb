@@ -3,24 +3,24 @@ class FontTrirong < Formula
   desc "Trirong"
   homepage "https://fonts.google.com/specimen/Trirong"
   def install
-    (share/"fonts").install "ofl/trirong/" + "Trirong-Black.ttf"
-    (share/"fonts").install "ofl/trirong/" + "Trirong-BlackItalic.ttf"
-    (share/"fonts").install "ofl/trirong/" + "Trirong-Bold.ttf"
-    (share/"fonts").install "ofl/trirong/" + "Trirong-BoldItalic.ttf"
-    (share/"fonts").install "ofl/trirong/" + "Trirong-ExtraBold.ttf"
-    (share/"fonts").install "ofl/trirong/" + "Trirong-ExtraBoldItalic.ttf"
-    (share/"fonts").install "ofl/trirong/" + "Trirong-ExtraLight.ttf"
-    (share/"fonts").install "ofl/trirong/" + "Trirong-ExtraLightItalic.ttf"
-    (share/"fonts").install "ofl/trirong/" + "Trirong-Italic.ttf"
-    (share/"fonts").install "ofl/trirong/" + "Trirong-Light.ttf"
-    (share/"fonts").install "ofl/trirong/" + "Trirong-LightItalic.ttf"
-    (share/"fonts").install "ofl/trirong/" + "Trirong-Medium.ttf"
-    (share/"fonts").install "ofl/trirong/" + "Trirong-MediumItalic.ttf"
-    (share/"fonts").install "ofl/trirong/" + "Trirong-Regular.ttf"
-    (share/"fonts").install "ofl/trirong/" + "Trirong-SemiBold.ttf"
-    (share/"fonts").install "ofl/trirong/" + "Trirong-SemiBoldItalic.ttf"
-    (share/"fonts").install "ofl/trirong/" + "Trirong-Thin.ttf"
-    (share/"fonts").install "ofl/trirong/" + "Trirong-ThinItalic.ttf"
+    (share/"fonts").install Dir.glob("ofl/trirong/./**/Trirong-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/trirong/./**/Trirong-BlackItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/trirong/./**/Trirong-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/trirong/./**/Trirong-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/trirong/./**/Trirong-ExtraBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/trirong/./**/Trirong-ExtraBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/trirong/./**/Trirong-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/trirong/./**/Trirong-ExtraLightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/trirong/./**/Trirong-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/trirong/./**/Trirong-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/trirong/./**/Trirong-LightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/trirong/./**/Trirong-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/trirong/./**/Trirong-MediumItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/trirong/./**/Trirong-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/trirong/./**/Trirong-SemiBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/trirong/./**/Trirong-SemiBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/trirong/./**/Trirong-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/trirong/./**/Trirong-ThinItalic.ttf")[0]
   end
   # No zap stanza required
 

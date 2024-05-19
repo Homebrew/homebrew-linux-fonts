@@ -3,12 +3,12 @@ class FontMaitree < Formula
   desc "Maitree"
   homepage "https://fonts.google.com/specimen/Maitree"
   def install
-    (share/"fonts").install "ofl/maitree/" + "Maitree-Bold.ttf"
-    (share/"fonts").install "ofl/maitree/" + "Maitree-ExtraLight.ttf"
-    (share/"fonts").install "ofl/maitree/" + "Maitree-Light.ttf"
-    (share/"fonts").install "ofl/maitree/" + "Maitree-Medium.ttf"
-    (share/"fonts").install "ofl/maitree/" + "Maitree-Regular.ttf"
-    (share/"fonts").install "ofl/maitree/" + "Maitree-SemiBold.ttf"
+    (share/"fonts").install Dir.glob("ofl/maitree/./**/Maitree-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/maitree/./**/Maitree-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/maitree/./**/Maitree-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/maitree/./**/Maitree-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/maitree/./**/Maitree-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/maitree/./**/Maitree-SemiBold.ttf")[0]
   end
   # No zap stanza required
 

@@ -6,18 +6,18 @@ class FontMonoidNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "Monofur/" + "MonoidNerdFont-Bold.ttf"
-    (share/"fonts").install "Monofur/" + "MonoidNerdFont-Italic.ttf"
-    (share/"fonts").install "Monofur/" + "MonoidNerdFont-Regular.ttf"
-    (share/"fonts").install "Monofur/" + "MonoidNerdFont-Retina.ttf"
-    (share/"fonts").install "Monofur/" + "MonoidNerdFontMono-Bold.ttf"
-    (share/"fonts").install "Monofur/" + "MonoidNerdFontMono-Italic.ttf"
-    (share/"fonts").install "Monofur/" + "MonoidNerdFontMono-Regular.ttf"
-    (share/"fonts").install "Monofur/" + "MonoidNerdFontMono-Retina.ttf"
-    (share/"fonts").install "Monofur/" + "MonoidNerdFontPropo-Bold.ttf"
-    (share/"fonts").install "Monofur/" + "MonoidNerdFontPropo-Italic.ttf"
-    (share/"fonts").install "Monofur/" + "MonoidNerdFontPropo-Regular.ttf"
-    (share/"fonts").install "Monofur/" + "MonoidNerdFontPropo-Retina.ttf"
+    (share/"fonts").install Dir.glob("./**/MonoidNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MonoidNerdFont-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MonoidNerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MonoidNerdFont-Retina.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MonoidNerdFontMono-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MonoidNerdFontMono-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MonoidNerdFontMono-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MonoidNerdFontMono-Retina.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MonoidNerdFontPropo-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MonoidNerdFontPropo-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MonoidNerdFontPropo-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MonoidNerdFontPropo-Retina.ttf")[0]
   end
   # No zap stanza required
 

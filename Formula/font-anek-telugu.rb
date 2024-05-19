@@ -3,7 +3,7 @@ class FontAnekTelugu < Formula
   desc "Anek Telugu"
   homepage "https://fonts.google.com/specimen/Anek+Telugu"
   def install
-    (share/"fonts").install "AnekTelugu[wdth,wght].ttf"
+    (share/"fonts").install Dir.glob("./**/AnekTelugu\\[wdth,wght\\].ttf")[0]
   end
   # No zap stanza required
 

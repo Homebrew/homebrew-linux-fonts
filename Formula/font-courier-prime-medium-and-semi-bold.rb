@@ -3,8 +3,8 @@ class FontCourierPrimeMediumAndSemiBold < Formula
   desc "Courier Prime Medium & Semi-Bold"
   homepage "https://quoteunquoteapps.com/courierprime/#cyrillic-semi-bold"
   def install
-    (share/"fonts").install "CourierPrime-Medium.ttf"
-    (share/"fonts").install "CourierPrime-SemiBold.ttf"
+    (share/"fonts").install Dir.glob("./**/CourierPrime-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/CourierPrime-SemiBold.ttf")[0]
   end
   # No zap stanza required
 

@@ -4,8 +4,8 @@ class FontTiroDevanagariHindi < Formula
   desc "Broader proportions, generous counters, and strong diagonal strokes"
   homepage "https://fonts.google.com/specimen/Tiro+Devanagari+Hindi"
   def install
-    (share/"fonts").install "ofl/tirodevanagarihindi/" + "TiroDevanagariHindi-Italic.ttf"
-    (share/"fonts").install "ofl/tirodevanagarihindi/" + "TiroDevanagariHindi-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/tirodevanagarihindi/./**/TiroDevanagariHindi-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/tirodevanagarihindi/./**/TiroDevanagariHindi-Regular.ttf")[0]
   end
   # No zap stanza required
 

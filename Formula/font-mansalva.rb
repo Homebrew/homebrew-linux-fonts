@@ -3,7 +3,7 @@ class FontMansalva < Formula
   desc "Mansalva"
   homepage "https://fonts.google.com/specimen/Mansalva"
   def install
-    (share/"fonts").install "Mansalva-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Mansalva-Regular.ttf")[0]
   end
   # No zap stanza required
 

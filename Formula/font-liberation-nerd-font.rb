@@ -6,34 +6,34 @@ class FontLiberationNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "LiberationMono/" + "LiterationMonoNerdFont-Bold.ttf"
-    (share/"fonts").install "LiberationMono/" + "LiterationMonoNerdFont-BoldItalic.ttf"
-    (share/"fonts").install "LiberationMono/" + "LiterationMonoNerdFont-Italic.ttf"
-    (share/"fonts").install "LiberationMono/" + "LiterationMonoNerdFont-Regular.ttf"
-    (share/"fonts").install "LiberationMono/" + "LiterationMonoNerdFontMono-Bold.ttf"
-    (share/"fonts").install "LiberationMono/" + "LiterationMonoNerdFontMono-BoldItalic.ttf"
-    (share/"fonts").install "LiberationMono/" + "LiterationMonoNerdFontMono-Italic.ttf"
-    (share/"fonts").install "LiberationMono/" + "LiterationMonoNerdFontMono-Regular.ttf"
-    (share/"fonts").install "LiberationMono/" + "LiterationMonoNerdFontPropo-Bold.ttf"
-    (share/"fonts").install "LiberationMono/" + "LiterationMonoNerdFontPropo-BoldItalic.ttf"
-    (share/"fonts").install "LiberationMono/" + "LiterationMonoNerdFontPropo-Italic.ttf"
-    (share/"fonts").install "LiberationMono/" + "LiterationMonoNerdFontPropo-Regular.ttf"
-    (share/"fonts").install "LiberationMono/" + "LiterationSansNerdFont-Bold.ttf"
-    (share/"fonts").install "LiberationMono/" + "LiterationSansNerdFont-BoldItalic.ttf"
-    (share/"fonts").install "LiberationMono/" + "LiterationSansNerdFont-Italic.ttf"
-    (share/"fonts").install "LiberationMono/" + "LiterationSansNerdFont-Regular.ttf"
-    (share/"fonts").install "LiberationMono/" + "LiterationSansNerdFontPropo-Bold.ttf"
-    (share/"fonts").install "LiberationMono/" + "LiterationSansNerdFontPropo-BoldItalic.ttf"
-    (share/"fonts").install "LiberationMono/" + "LiterationSansNerdFontPropo-Italic.ttf"
-    (share/"fonts").install "LiberationMono/" + "LiterationSansNerdFontPropo-Regular.ttf"
-    (share/"fonts").install "LiberationMono/" + "LiterationSerifNerdFont-Bold.ttf"
-    (share/"fonts").install "LiberationMono/" + "LiterationSerifNerdFont-BoldItalic.ttf"
-    (share/"fonts").install "LiberationMono/" + "LiterationSerifNerdFont-Italic.ttf"
-    (share/"fonts").install "LiberationMono/" + "LiterationSerifNerdFont-Regular.ttf"
-    (share/"fonts").install "LiberationMono/" + "LiterationSerifNerdFontPropo-Bold.ttf"
-    (share/"fonts").install "LiberationMono/" + "LiterationSerifNerdFontPropo-BoldItalic.ttf"
-    (share/"fonts").install "LiberationMono/" + "LiterationSerifNerdFontPropo-Italic.ttf"
-    (share/"fonts").install "LiberationMono/" + "LiterationSerifNerdFontPropo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/LiterationMonoNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LiterationMonoNerdFont-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LiterationMonoNerdFont-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LiterationMonoNerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LiterationMonoNerdFontMono-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LiterationMonoNerdFontMono-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LiterationMonoNerdFontMono-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LiterationMonoNerdFontMono-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LiterationMonoNerdFontPropo-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LiterationMonoNerdFontPropo-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LiterationMonoNerdFontPropo-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LiterationMonoNerdFontPropo-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LiterationSansNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LiterationSansNerdFont-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LiterationSansNerdFont-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LiterationSansNerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LiterationSansNerdFontPropo-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LiterationSansNerdFontPropo-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LiterationSansNerdFontPropo-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LiterationSansNerdFontPropo-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LiterationSerifNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LiterationSerifNerdFont-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LiterationSerifNerdFont-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LiterationSerifNerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LiterationSerifNerdFontPropo-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LiterationSerifNerdFontPropo-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LiterationSerifNerdFontPropo-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LiterationSerifNerdFontPropo-Regular.ttf")[0]
   end
   # No zap stanza required
 

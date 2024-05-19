@@ -3,22 +3,22 @@ class FontSarabun < Formula
   desc "Sarabun"
   homepage "https://fonts.google.com/specimen/Sarabun"
   def install
-    (share/"fonts").install "ofl/sarabun/" + "Sarabun-Bold.ttf"
-    (share/"fonts").install "ofl/sarabun/" + "Sarabun-BoldItalic.ttf"
-    (share/"fonts").install "ofl/sarabun/" + "Sarabun-ExtraBold.ttf"
-    (share/"fonts").install "ofl/sarabun/" + "Sarabun-ExtraBoldItalic.ttf"
-    (share/"fonts").install "ofl/sarabun/" + "Sarabun-ExtraLight.ttf"
-    (share/"fonts").install "ofl/sarabun/" + "Sarabun-ExtraLightItalic.ttf"
-    (share/"fonts").install "ofl/sarabun/" + "Sarabun-Italic.ttf"
-    (share/"fonts").install "ofl/sarabun/" + "Sarabun-Light.ttf"
-    (share/"fonts").install "ofl/sarabun/" + "Sarabun-LightItalic.ttf"
-    (share/"fonts").install "ofl/sarabun/" + "Sarabun-Medium.ttf"
-    (share/"fonts").install "ofl/sarabun/" + "Sarabun-MediumItalic.ttf"
-    (share/"fonts").install "ofl/sarabun/" + "Sarabun-Regular.ttf"
-    (share/"fonts").install "ofl/sarabun/" + "Sarabun-SemiBold.ttf"
-    (share/"fonts").install "ofl/sarabun/" + "Sarabun-SemiBoldItalic.ttf"
-    (share/"fonts").install "ofl/sarabun/" + "Sarabun-Thin.ttf"
-    (share/"fonts").install "ofl/sarabun/" + "Sarabun-ThinItalic.ttf"
+    (share/"fonts").install Dir.glob("ofl/sarabun/./**/Sarabun-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sarabun/./**/Sarabun-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sarabun/./**/Sarabun-ExtraBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sarabun/./**/Sarabun-ExtraBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sarabun/./**/Sarabun-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sarabun/./**/Sarabun-ExtraLightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sarabun/./**/Sarabun-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sarabun/./**/Sarabun-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sarabun/./**/Sarabun-LightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sarabun/./**/Sarabun-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sarabun/./**/Sarabun-MediumItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sarabun/./**/Sarabun-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sarabun/./**/Sarabun-SemiBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sarabun/./**/Sarabun-SemiBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sarabun/./**/Sarabun-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sarabun/./**/Sarabun-ThinItalic.ttf")[0]
   end
   # No zap stanza required
 

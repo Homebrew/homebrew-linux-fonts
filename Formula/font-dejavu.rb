@@ -5,29 +5,28 @@ class FontDejavu < Formula
   desc "DejaVu"
   homepage "https://sourceforge.net/projects/dejavu/"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}dejavu-fonts-ttf-#{version}/ttf/DejaVuMathTeXGyre.ttf"
-    (share/"fonts").install "#{parent}dejavu-fonts-ttf-#{version}/ttf/DejaVuSans-Bold.ttf"
-    (share/"fonts").install "#{parent}dejavu-fonts-ttf-#{version}/ttf/DejaVuSans-BoldOblique.ttf"
-    (share/"fonts").install "#{parent}dejavu-fonts-ttf-#{version}/ttf/DejaVuSans-ExtraLight.ttf"
-    (share/"fonts").install "#{parent}dejavu-fonts-ttf-#{version}/ttf/DejaVuSans-Oblique.ttf"
-    (share/"fonts").install "#{parent}dejavu-fonts-ttf-#{version}/ttf/DejaVuSans.ttf"
-    (share/"fonts").install "#{parent}dejavu-fonts-ttf-#{version}/ttf/DejaVuSansCondensed-Bold.ttf"
-    (share/"fonts").install "#{parent}dejavu-fonts-ttf-#{version}/ttf/DejaVuSansCondensed-BoldOblique.ttf"
-    (share/"fonts").install "#{parent}dejavu-fonts-ttf-#{version}/ttf/DejaVuSansCondensed-Oblique.ttf"
-    (share/"fonts").install "#{parent}dejavu-fonts-ttf-#{version}/ttf/DejaVuSansCondensed.ttf"
-    (share/"fonts").install "#{parent}dejavu-fonts-ttf-#{version}/ttf/DejaVuSansMono-Bold.ttf"
-    (share/"fonts").install "#{parent}dejavu-fonts-ttf-#{version}/ttf/DejaVuSansMono-BoldOblique.ttf"
-    (share/"fonts").install "#{parent}dejavu-fonts-ttf-#{version}/ttf/DejaVuSansMono-Oblique.ttf"
-    (share/"fonts").install "#{parent}dejavu-fonts-ttf-#{version}/ttf/DejaVuSansMono.ttf"
-    (share/"fonts").install "#{parent}dejavu-fonts-ttf-#{version}/ttf/DejaVuSerif-Bold.ttf"
-    (share/"fonts").install "#{parent}dejavu-fonts-ttf-#{version}/ttf/DejaVuSerif-BoldItalic.ttf"
-    (share/"fonts").install "#{parent}dejavu-fonts-ttf-#{version}/ttf/DejaVuSerif-Italic.ttf"
-    (share/"fonts").install "#{parent}dejavu-fonts-ttf-#{version}/ttf/DejaVuSerif.ttf"
-    (share/"fonts").install "#{parent}dejavu-fonts-ttf-#{version}/ttf/DejaVuSerifCondensed-Bold.ttf"
-    (share/"fonts").install "#{parent}dejavu-fonts-ttf-#{version}/ttf/DejaVuSerifCondensed-BoldItalic.ttf"
-    (share/"fonts").install "#{parent}dejavu-fonts-ttf-#{version}/ttf/DejaVuSerifCondensed-Italic.ttf"
-    (share/"fonts").install "#{parent}dejavu-fonts-ttf-#{version}/ttf/DejaVuSerifCondensed.ttf"
+    (share/"fonts").install Dir.glob("dejavu-fonts-ttf-#{version}/ttf/**/DejaVuMathTeXGyre.ttf")[0]
+    (share/"fonts").install Dir.glob("dejavu-fonts-ttf-#{version}/ttf/**/DejaVuSans-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("dejavu-fonts-ttf-#{version}/ttf/**/DejaVuSans-BoldOblique.ttf")[0]
+    (share/"fonts").install Dir.glob("dejavu-fonts-ttf-#{version}/ttf/**/DejaVuSans-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob("dejavu-fonts-ttf-#{version}/ttf/**/DejaVuSans-Oblique.ttf")[0]
+    (share/"fonts").install Dir.glob("dejavu-fonts-ttf-#{version}/ttf/**/DejaVuSans.ttf")[0]
+    (share/"fonts").install Dir.glob("dejavu-fonts-ttf-#{version}/ttf/**/DejaVuSansCondensed-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("dejavu-fonts-ttf-#{version}/ttf/**/DejaVuSansCondensed-BoldOblique.ttf")[0]
+    (share/"fonts").install Dir.glob("dejavu-fonts-ttf-#{version}/ttf/**/DejaVuSansCondensed-Oblique.ttf")[0]
+    (share/"fonts").install Dir.glob("dejavu-fonts-ttf-#{version}/ttf/**/DejaVuSansCondensed.ttf")[0]
+    (share/"fonts").install Dir.glob("dejavu-fonts-ttf-#{version}/ttf/**/DejaVuSansMono-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("dejavu-fonts-ttf-#{version}/ttf/**/DejaVuSansMono-BoldOblique.ttf")[0]
+    (share/"fonts").install Dir.glob("dejavu-fonts-ttf-#{version}/ttf/**/DejaVuSansMono-Oblique.ttf")[0]
+    (share/"fonts").install Dir.glob("dejavu-fonts-ttf-#{version}/ttf/**/DejaVuSansMono.ttf")[0]
+    (share/"fonts").install Dir.glob("dejavu-fonts-ttf-#{version}/ttf/**/DejaVuSerif-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("dejavu-fonts-ttf-#{version}/ttf/**/DejaVuSerif-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("dejavu-fonts-ttf-#{version}/ttf/**/DejaVuSerif-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("dejavu-fonts-ttf-#{version}/ttf/**/DejaVuSerif.ttf")[0]
+    (share/"fonts").install Dir.glob("dejavu-fonts-ttf-#{version}/ttf/**/DejaVuSerifCondensed-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("dejavu-fonts-ttf-#{version}/ttf/**/DejaVuSerifCondensed-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("dejavu-fonts-ttf-#{version}/ttf/**/DejaVuSerifCondensed-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("dejavu-fonts-ttf-#{version}/ttf/**/DejaVuSerifCondensed.ttf")[0]
   end
   # No zap stanza required
 

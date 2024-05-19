@@ -3,7 +3,7 @@ class FontBlackAndWhitePicture < Formula
   desc "Black And White Picture"
   homepage "https://fonts.google.com/specimen/Black+And+White+Picture"
   def install
-    (share/"fonts").install "BlackAndWhitePicture-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/BlackAndWhitePicture-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,24 +3,24 @@ class FontPrompt < Formula
   desc "Prompt"
   homepage "https://fonts.google.com/specimen/Prompt"
   def install
-    (share/"fonts").install "ofl/prompt/" + "Prompt-Black.ttf"
-    (share/"fonts").install "ofl/prompt/" + "Prompt-BlackItalic.ttf"
-    (share/"fonts").install "ofl/prompt/" + "Prompt-Bold.ttf"
-    (share/"fonts").install "ofl/prompt/" + "Prompt-BoldItalic.ttf"
-    (share/"fonts").install "ofl/prompt/" + "Prompt-ExtraBold.ttf"
-    (share/"fonts").install "ofl/prompt/" + "Prompt-ExtraBoldItalic.ttf"
-    (share/"fonts").install "ofl/prompt/" + "Prompt-ExtraLight.ttf"
-    (share/"fonts").install "ofl/prompt/" + "Prompt-ExtraLightItalic.ttf"
-    (share/"fonts").install "ofl/prompt/" + "Prompt-Italic.ttf"
-    (share/"fonts").install "ofl/prompt/" + "Prompt-Light.ttf"
-    (share/"fonts").install "ofl/prompt/" + "Prompt-LightItalic.ttf"
-    (share/"fonts").install "ofl/prompt/" + "Prompt-Medium.ttf"
-    (share/"fonts").install "ofl/prompt/" + "Prompt-MediumItalic.ttf"
-    (share/"fonts").install "ofl/prompt/" + "Prompt-Regular.ttf"
-    (share/"fonts").install "ofl/prompt/" + "Prompt-SemiBold.ttf"
-    (share/"fonts").install "ofl/prompt/" + "Prompt-SemiBoldItalic.ttf"
-    (share/"fonts").install "ofl/prompt/" + "Prompt-Thin.ttf"
-    (share/"fonts").install "ofl/prompt/" + "Prompt-ThinItalic.ttf"
+    (share/"fonts").install Dir.glob("ofl/prompt/./**/Prompt-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/prompt/./**/Prompt-BlackItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/prompt/./**/Prompt-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/prompt/./**/Prompt-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/prompt/./**/Prompt-ExtraBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/prompt/./**/Prompt-ExtraBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/prompt/./**/Prompt-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/prompt/./**/Prompt-ExtraLightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/prompt/./**/Prompt-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/prompt/./**/Prompt-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/prompt/./**/Prompt-LightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/prompt/./**/Prompt-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/prompt/./**/Prompt-MediumItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/prompt/./**/Prompt-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/prompt/./**/Prompt-SemiBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/prompt/./**/Prompt-SemiBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/prompt/./**/Prompt-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/prompt/./**/Prompt-ThinItalic.ttf")[0]
   end
   # No zap stanza required
 

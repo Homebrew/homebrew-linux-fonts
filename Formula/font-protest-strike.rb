@@ -4,7 +4,7 @@ class FontProtestStrike < Formula
   desc "Solid but peaceful sans serif typeface"
   homepage "https://fonts.google.com/specimen/Protest+Strike"
   def install
-    (share/"fonts").install "ProtestStrike-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/ProtestStrike-Regular.ttf")[0]
   end
   # No zap stanza required
 

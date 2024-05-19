@@ -6,15 +6,14 @@ class FontFirge < Formula
   desc "Programming font based on Fira Mono and Genshin Gothic"
   homepage "https://github.com/yuru7/Firge"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}Firge_v#{version}/Firge-Bold.ttf"
-    (share/"fonts").install "#{parent}Firge_v#{version}/Firge-Regular.ttf"
-    (share/"fonts").install "#{parent}Firge_v#{version}/Firge35-Bold.ttf"
-    (share/"fonts").install "#{parent}Firge_v#{version}/Firge35-Regular.ttf"
-    (share/"fonts").install "#{parent}Firge_v#{version}/Firge35Console-Bold.ttf"
-    (share/"fonts").install "#{parent}Firge_v#{version}/Firge35Console-Regular.ttf"
-    (share/"fonts").install "#{parent}Firge_v#{version}/FirgeConsole-Bold.ttf"
-    (share/"fonts").install "#{parent}Firge_v#{version}/FirgeConsole-Regular.ttf"
+    (share/"fonts").install Dir.glob("Firge_v#{version}/**/Firge-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("Firge_v#{version}/**/Firge-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("Firge_v#{version}/**/Firge35-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("Firge_v#{version}/**/Firge35-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("Firge_v#{version}/**/Firge35Console-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("Firge_v#{version}/**/Firge35Console-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("Firge_v#{version}/**/FirgeConsole-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("Firge_v#{version}/**/FirgeConsole-Regular.ttf")[0]
   end
   # No zap stanza required
 

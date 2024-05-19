@@ -3,7 +3,7 @@ class FontZcoolQingkeHuangyou < Formula
   desc "ZCOOL QingKe HuangYou"
   homepage "https://fonts.google.com/specimen/ZCOOL+QingKe+HuangYou"
   def install
-    (share/"fonts").install "ZCOOLQingKeHuangYou-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/ZCOOLQingKeHuangYou-Regular.ttf")[0]
   end
   # No zap stanza required
 

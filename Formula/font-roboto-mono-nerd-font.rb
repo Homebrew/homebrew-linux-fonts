@@ -6,42 +6,42 @@ class FontRobotoMonoNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "RobotoMono/" + "RobotoMonoNerdFont-Bold.ttf"
-    (share/"fonts").install "RobotoMono/" + "RobotoMonoNerdFont-BoldItalic.ttf"
-    (share/"fonts").install "RobotoMono/" + "RobotoMonoNerdFont-Italic.ttf"
-    (share/"fonts").install "RobotoMono/" + "RobotoMonoNerdFont-Light.ttf"
-    (share/"fonts").install "RobotoMono/" + "RobotoMonoNerdFont-LightItalic.ttf"
-    (share/"fonts").install "RobotoMono/" + "RobotoMonoNerdFont-Medium.ttf"
-    (share/"fonts").install "RobotoMono/" + "RobotoMonoNerdFont-MediumItalic.ttf"
-    (share/"fonts").install "RobotoMono/" + "RobotoMonoNerdFont-Regular.ttf"
-    (share/"fonts").install "RobotoMono/" + "RobotoMonoNerdFont-SemiBold.ttf"
-    (share/"fonts").install "RobotoMono/" + "RobotoMonoNerdFont-SemiBoldItalic.ttf"
-    (share/"fonts").install "RobotoMono/" + "RobotoMonoNerdFont-Thin.ttf"
-    (share/"fonts").install "RobotoMono/" + "RobotoMonoNerdFont-ThinItalic.ttf"
-    (share/"fonts").install "RobotoMono/" + "RobotoMonoNerdFontMono-Bold.ttf"
-    (share/"fonts").install "RobotoMono/" + "RobotoMonoNerdFontMono-BoldItalic.ttf"
-    (share/"fonts").install "RobotoMono/" + "RobotoMonoNerdFontMono-Italic.ttf"
-    (share/"fonts").install "RobotoMono/" + "RobotoMonoNerdFontMono-Light.ttf"
-    (share/"fonts").install "RobotoMono/" + "RobotoMonoNerdFontMono-LightItalic.ttf"
-    (share/"fonts").install "RobotoMono/" + "RobotoMonoNerdFontMono-Medium.ttf"
-    (share/"fonts").install "RobotoMono/" + "RobotoMonoNerdFontMono-MediumItalic.ttf"
-    (share/"fonts").install "RobotoMono/" + "RobotoMonoNerdFontMono-Regular.ttf"
-    (share/"fonts").install "RobotoMono/" + "RobotoMonoNerdFontMono-SemiBold.ttf"
-    (share/"fonts").install "RobotoMono/" + "RobotoMonoNerdFontMono-SemiBoldItalic.ttf"
-    (share/"fonts").install "RobotoMono/" + "RobotoMonoNerdFontMono-Thin.ttf"
-    (share/"fonts").install "RobotoMono/" + "RobotoMonoNerdFontMono-ThinItalic.ttf"
-    (share/"fonts").install "RobotoMono/" + "RobotoMonoNerdFontPropo-Bold.ttf"
-    (share/"fonts").install "RobotoMono/" + "RobotoMonoNerdFontPropo-BoldItalic.ttf"
-    (share/"fonts").install "RobotoMono/" + "RobotoMonoNerdFontPropo-Italic.ttf"
-    (share/"fonts").install "RobotoMono/" + "RobotoMonoNerdFontPropo-Light.ttf"
-    (share/"fonts").install "RobotoMono/" + "RobotoMonoNerdFontPropo-LightItalic.ttf"
-    (share/"fonts").install "RobotoMono/" + "RobotoMonoNerdFontPropo-Medium.ttf"
-    (share/"fonts").install "RobotoMono/" + "RobotoMonoNerdFontPropo-MediumItalic.ttf"
-    (share/"fonts").install "RobotoMono/" + "RobotoMonoNerdFontPropo-Regular.ttf"
-    (share/"fonts").install "RobotoMono/" + "RobotoMonoNerdFontPropo-SemiBold.ttf"
-    (share/"fonts").install "RobotoMono/" + "RobotoMonoNerdFontPropo-SemiBoldItalic.ttf"
-    (share/"fonts").install "RobotoMono/" + "RobotoMonoNerdFontPropo-Thin.ttf"
-    (share/"fonts").install "RobotoMono/" + "RobotoMonoNerdFontPropo-ThinItalic.ttf"
+    (share/"fonts").install Dir.glob("./**/RobotoMonoNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RobotoMonoNerdFont-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RobotoMonoNerdFont-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RobotoMonoNerdFont-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RobotoMonoNerdFont-LightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RobotoMonoNerdFont-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RobotoMonoNerdFont-MediumItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RobotoMonoNerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RobotoMonoNerdFont-SemiBold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RobotoMonoNerdFont-SemiBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RobotoMonoNerdFont-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RobotoMonoNerdFont-ThinItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RobotoMonoNerdFontMono-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RobotoMonoNerdFontMono-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RobotoMonoNerdFontMono-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RobotoMonoNerdFontMono-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RobotoMonoNerdFontMono-LightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RobotoMonoNerdFontMono-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RobotoMonoNerdFontMono-MediumItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RobotoMonoNerdFontMono-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RobotoMonoNerdFontMono-SemiBold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RobotoMonoNerdFontMono-SemiBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RobotoMonoNerdFontMono-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RobotoMonoNerdFontMono-ThinItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RobotoMonoNerdFontPropo-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RobotoMonoNerdFontPropo-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RobotoMonoNerdFontPropo-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RobotoMonoNerdFontPropo-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RobotoMonoNerdFontPropo-LightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RobotoMonoNerdFontPropo-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RobotoMonoNerdFontPropo-MediumItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RobotoMonoNerdFontPropo-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RobotoMonoNerdFontPropo-SemiBold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RobotoMonoNerdFontPropo-SemiBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RobotoMonoNerdFontPropo-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RobotoMonoNerdFontPropo-ThinItalic.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontMichroma < Formula
   desc "Michroma"
   homepage "https://fonts.google.com/specimen/Michroma"
   def install
-    (share/"fonts").install "Michroma-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Michroma-Regular.ttf")[0]
   end
   # No zap stanza required
 

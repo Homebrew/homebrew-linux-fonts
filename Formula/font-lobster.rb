@@ -3,7 +3,7 @@ class FontLobster < Formula
   desc "Lobster"
   homepage "https://fonts.google.com/specimen/Lobster"
   def install
-    (share/"fonts").install "Lobster-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Lobster-Regular.ttf")[0]
   end
   # No zap stanza required
 

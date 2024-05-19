@@ -3,8 +3,8 @@ class FontGorditas < Formula
   desc "Gorditas"
   homepage "https://fonts.google.com/specimen/Gorditas"
   def install
-    (share/"fonts").install "ofl/gorditas/" + "Gorditas-Bold.ttf"
-    (share/"fonts").install "ofl/gorditas/" + "Gorditas-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/gorditas/./**/Gorditas-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/gorditas/./**/Gorditas-Regular.ttf")[0]
   end
   # No zap stanza required
 

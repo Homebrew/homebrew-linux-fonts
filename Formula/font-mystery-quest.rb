@@ -3,7 +3,7 @@ class FontMysteryQuest < Formula
   desc "Mystery Quest"
   homepage "https://fonts.google.com/specimen/Mystery+Quest"
   def install
-    (share/"fonts").install "MysteryQuest-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/MysteryQuest-Regular.ttf")[0]
   end
   # No zap stanza required
 

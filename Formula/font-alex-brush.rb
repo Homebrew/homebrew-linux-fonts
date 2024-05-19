@@ -3,7 +3,7 @@ class FontAlexBrush < Formula
   desc "Alex Brush"
   homepage "https://fonts.google.com/specimen/Alex+Brush"
   def install
-    (share/"fonts").install "AlexBrush-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/AlexBrush-Regular.ttf")[0]
   end
   # No zap stanza required
 

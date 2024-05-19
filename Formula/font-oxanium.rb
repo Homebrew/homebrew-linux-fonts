@@ -3,7 +3,7 @@ class FontOxanium < Formula
   desc "Oxanium"
   homepage "https://fonts.google.com/specimen/Oxanium"
   def install
-    (share/"fonts").install "Oxanium[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/Oxanium\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

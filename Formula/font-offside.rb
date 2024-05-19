@@ -3,7 +3,7 @@ class FontOffside < Formula
   desc "Offside"
   homepage "https://fonts.google.com/specimen/Offside"
   def install
-    (share/"fonts").install "Offside-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Offside-Regular.ttf")[0]
   end
   # No zap stanza required
 

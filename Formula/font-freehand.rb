@@ -3,7 +3,7 @@ class FontFreehand < Formula
   desc "Freehand"
   homepage "https://fonts.google.com/specimen/Freehand"
   def install
-    (share/"fonts").install "Freehand-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Freehand-Regular.ttf")[0]
   end
   # No zap stanza required
 

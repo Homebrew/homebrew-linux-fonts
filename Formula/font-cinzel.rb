@@ -3,7 +3,7 @@ class FontCinzel < Formula
   desc "Cinzel"
   homepage "https://fonts.google.com/specimen/Cinzel"
   def install
-    (share/"fonts").install "Cinzel[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/Cinzel\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

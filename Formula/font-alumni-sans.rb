@@ -3,8 +3,8 @@ class FontAlumniSans < Formula
   desc "Alumni Sans"
   homepage "https://fonts.google.com/specimen/Alumni+Sans"
   def install
-    (share/"fonts").install "ofl/alumnisans/" + "AlumniSans-Italic[wght].ttf"
-    (share/"fonts").install "ofl/alumnisans/" + "AlumniSans[wght].ttf"
+    (share/"fonts").install Dir.glob("ofl/alumnisans/./**/AlumniSans-Italic\\[wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/alumnisans/./**/AlumniSans\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

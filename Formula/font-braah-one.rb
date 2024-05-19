@@ -4,7 +4,7 @@ class FontBraahOne < Formula
   desc "Bold and playful font"
   homepage "https://fonts.google.com/specimen/Braah+One"
   def install
-    (share/"fonts").install "BraahOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/BraahOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

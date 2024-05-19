@@ -4,10 +4,10 @@ class FontMaterialIcons < Formula
   desc "Icons based on core Material Design principles"
   homepage "https://google.github.io/material-design-icons/"
   def install
-    (share/"fonts").install "font/" + "MaterialIcons-Regular.ttf"
-    (share/"fonts").install "font/" + "MaterialIconsOutlined-Regular.otf"
-    (share/"fonts").install "font/" + "MaterialIconsSharp-Regular.otf"
-    (share/"fonts").install "font/" + "MaterialIconsTwoTone-Regular.otf"
+    (share/"fonts").install Dir.glob("font/./**/MaterialIcons-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("font/./**/MaterialIconsOutlined-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("font/./**/MaterialIconsSharp-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("font/./**/MaterialIconsTwoTone-Regular.otf")[0]
   end
   # No zap stanza required
 

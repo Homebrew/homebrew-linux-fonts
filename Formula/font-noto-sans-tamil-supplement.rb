@@ -3,7 +3,7 @@ class FontNotoSansTamilSupplement < Formula
   desc "Noto Sans Tamil Supplement"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Tamil+Supplement"
   def install
-    (share/"fonts").install "NotoSansTamilSupplement-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansTamilSupplement-Regular.ttf")[0]
   end
   # No zap stanza required
 

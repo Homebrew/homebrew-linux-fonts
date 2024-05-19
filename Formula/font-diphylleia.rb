@@ -4,7 +4,7 @@ class FontDiphylleia < Formula
   desc "Mysterious flower that gets transparent when the water touches its petals"
   homepage "https://fonts.google.com/specimen/Diphylleia"
   def install
-    (share/"fonts").install "Diphylleia-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Diphylleia-Regular.ttf")[0]
   end
   # No zap stanza required
 

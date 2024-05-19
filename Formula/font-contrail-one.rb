@@ -3,7 +3,7 @@ class FontContrailOne < Formula
   desc "Contrail One"
   homepage "https://fonts.google.com/specimen/Contrail+One"
   def install
-    (share/"fonts").install "ContrailOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/ContrailOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

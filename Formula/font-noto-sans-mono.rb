@@ -6,8 +6,7 @@ class FontNotoSansMono < Formula
   desc "Monospaced variable font"
   homepage "https://notofonts.github.io/"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}NotoSansMono/unhinted/variable/NotoSansMono[wdth,wght].ttf"
+    (share/"fonts").install Dir.glob("NotoSansMono/unhinted/variable/**/NotoSansMono\\[wdth,wght\\].ttf")[0]
   end
   # No zap stanza required
 

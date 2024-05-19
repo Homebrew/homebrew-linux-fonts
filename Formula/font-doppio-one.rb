@@ -3,7 +3,7 @@ class FontDoppioOne < Formula
   desc "Doppio One"
   homepage "https://fonts.google.com/specimen/Doppio+One"
   def install
-    (share/"fonts").install "DoppioOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/DoppioOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

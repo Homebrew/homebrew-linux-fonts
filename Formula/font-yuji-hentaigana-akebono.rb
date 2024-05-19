@@ -3,7 +3,7 @@ class FontYujiHentaiganaAkebono < Formula
   desc "Yuji Hentaigana Akebono"
   homepage "https://fonts.google.com/specimen/Yuji+Hentaigana+Akebono"
   def install
-    (share/"fonts").install "YujiHentaiganaAkebono-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/YujiHentaiganaAkebono-Regular.ttf")[0]
   end
   # No zap stanza required
 

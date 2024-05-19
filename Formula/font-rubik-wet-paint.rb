@@ -3,7 +3,7 @@ class FontRubikWetPaint < Formula
   desc "Rubik Wet Paint"
   homepage "https://fonts.google.com/specimen/Rubik+Wet+Paint"
   def install
-    (share/"fonts").install "RubikWetPaint-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/RubikWetPaint-Regular.ttf")[0]
   end
   # No zap stanza required
 

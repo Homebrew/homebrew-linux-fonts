@@ -3,7 +3,7 @@ class FontLohit < Formula
   desc "Lohit"
   homepage "https://fonts.google.com/earlyaccess"
   def install
-    (share/"fonts").install "Lohit-Devanagari.ttf"
+    (share/"fonts").install Dir.glob("./**/Lohit-Devanagari.ttf")[0]
   end
   # No zap stanza required
 

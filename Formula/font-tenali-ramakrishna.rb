@@ -3,7 +3,7 @@ class FontTenaliRamakrishna < Formula
   desc "Tenali Ramakrishna"
   homepage "https://fonts.google.com/specimen/Tenali+Ramakrishna"
   def install
-    (share/"fonts").install "TenaliRamakrishna-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/TenaliRamakrishna-Regular.ttf")[0]
   end
   # No zap stanza required
 

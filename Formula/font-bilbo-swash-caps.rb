@@ -3,7 +3,7 @@ class FontBilboSwashCaps < Formula
   desc "Bilbo Swash Caps"
   homepage "https://fonts.google.com/specimen/Bilbo+Swash+Caps"
   def install
-    (share/"fonts").install "BilboSwashCaps-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/BilboSwashCaps-Regular.ttf")[0]
   end
   # No zap stanza required
 

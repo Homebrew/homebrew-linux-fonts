@@ -4,7 +4,7 @@ class FontYuseiMagic < Formula
   desc "Highly visible font based on handwritten letters"
   homepage "https://fonts.google.com/specimen/Yusei+Magic"
   def install
-    (share/"fonts").install "YuseiMagic-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/YuseiMagic-Regular.ttf")[0]
   end
   # No zap stanza required
 

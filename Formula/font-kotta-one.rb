@@ -3,7 +3,7 @@ class FontKottaOne < Formula
   desc "Kotta One"
   homepage "https://fonts.google.com/specimen/Kotta+One"
   def install
-    (share/"fonts").install "KottaOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/KottaOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

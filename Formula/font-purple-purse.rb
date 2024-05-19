@@ -3,7 +3,7 @@ class FontPurplePurse < Formula
   desc "Purple Purse"
   homepage "https://fonts.google.com/specimen/Purple+Purse"
   def install
-    (share/"fonts").install "PurplePurse-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/PurplePurse-Regular.ttf")[0]
   end
   # No zap stanza required
 

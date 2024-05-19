@@ -4,7 +4,7 @@ class FontExplora < Formula
   desc "Beautiful calligraphic typeface with swash forms"
   homepage "https://fonts.google.com/specimen/Explora"
   def install
-    (share/"fonts").install "Explora-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Explora-Regular.ttf")[0]
   end
   # No zap stanza required
 

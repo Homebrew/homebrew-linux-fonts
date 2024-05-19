@@ -3,7 +3,7 @@ class FontCantataOne < Formula
   desc "Cantata One"
   homepage "https://fonts.google.com/specimen/Cantata+One"
   def install
-    (share/"fonts").install "CantataOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/CantataOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

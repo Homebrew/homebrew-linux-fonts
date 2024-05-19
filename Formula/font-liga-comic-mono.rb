@@ -4,9 +4,8 @@ class FontLigaComicMono < Formula
   desc "Legible monospace font with programming ligatures"
   homepage "https://github.com/wayou/comic-mono-font"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}comic-mono-font-master/LigaComicMono.ttf"
-    (share/"fonts").install "#{parent}comic-mono-font-master/LigaComicMono-Bold.ttf"
+    (share/"fonts").install Dir.glob("comic-mono-font-master/**/LigaComicMono.ttf")[0]
+    (share/"fonts").install Dir.glob("comic-mono-font-master/**/LigaComicMono-Bold.ttf")[0]
   end
   # No zap stanza required
 

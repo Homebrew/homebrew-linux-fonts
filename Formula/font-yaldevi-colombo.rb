@@ -3,12 +3,12 @@ class FontYaldeviColombo < Formula
   desc "Yaldevi Colombo"
   homepage "https://fonts.google.com/specimen/Yaldevi"
   def install
-    (share/"fonts").install "ofl/yaldevicolombo/" + "YaldeviColombo-Bold.ttf"
-    (share/"fonts").install "ofl/yaldevicolombo/" + "YaldeviColombo-ExtraLight.ttf"
-    (share/"fonts").install "ofl/yaldevicolombo/" + "YaldeviColombo-Light.ttf"
-    (share/"fonts").install "ofl/yaldevicolombo/" + "YaldeviColombo-Medium.ttf"
-    (share/"fonts").install "ofl/yaldevicolombo/" + "YaldeviColombo-Regular.ttf"
-    (share/"fonts").install "ofl/yaldevicolombo/" + "YaldeviColombo-SemiBold.ttf"
+    (share/"fonts").install Dir.glob("ofl/yaldevicolombo/./**/YaldeviColombo-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/yaldevicolombo/./**/YaldeviColombo-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/yaldevicolombo/./**/YaldeviColombo-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/yaldevicolombo/./**/YaldeviColombo-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/yaldevicolombo/./**/YaldeviColombo-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/yaldevicolombo/./**/YaldeviColombo-SemiBold.ttf")[0]
   end
   # No zap stanza required
 

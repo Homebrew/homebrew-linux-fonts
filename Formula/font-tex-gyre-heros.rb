@@ -5,14 +5,14 @@ class FontTexGyreHeros < Formula
   desc "TeX Gyre Heros"
   homepage "https://www.gust.org.pl/projects/e-foundry/tex-gyre/heros"
   def install
-    (share/"fonts").install "texgyreheros-bold.otf"
-    (share/"fonts").install "texgyreheros-bolditalic.otf"
-    (share/"fonts").install "texgyreheros-italic.otf"
-    (share/"fonts").install "texgyreheros-regular.otf"
-    (share/"fonts").install "texgyreheroscn-bold.otf"
-    (share/"fonts").install "texgyreheroscn-bolditalic.otf"
-    (share/"fonts").install "texgyreheroscn-italic.otf"
-    (share/"fonts").install "texgyreheroscn-regular.otf"
+    (share/"fonts").install Dir.glob("./**/texgyreheros-bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/texgyreheros-bolditalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/texgyreheros-italic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/texgyreheros-regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/texgyreheroscn-bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/texgyreheroscn-bolditalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/texgyreheroscn-italic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/texgyreheroscn-regular.otf")[0]
   end
   # No zap stanza required
 

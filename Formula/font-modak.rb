@@ -3,7 +3,7 @@ class FontModak < Formula
   desc "Modak"
   homepage "https://fonts.google.com/specimen/Modak"
   def install
-    (share/"fonts").install "Modak-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Modak-Regular.ttf")[0]
   end
   # No zap stanza required
 

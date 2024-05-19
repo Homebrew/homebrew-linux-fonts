@@ -3,7 +3,7 @@ class FontNotoSansTifinagh < Formula
   desc "Noto Sans Tifinagh"
   homepage "https://www.google.com/get/noto/#sans-tfng"
   def install
-    (share/"fonts").install "NotoSansTifinagh-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansTifinagh-Regular.ttf")[0]
   end
   # No zap stanza required
 

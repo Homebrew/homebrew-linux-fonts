@@ -6,18 +6,18 @@ class FontHackNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "HackNerdFont-Bold.ttf"
-    (share/"fonts").install "HackNerdFont-BoldItalic.ttf"
-    (share/"fonts").install "HackNerdFont-Italic.ttf"
-    (share/"fonts").install "HackNerdFont-Regular.ttf"
-    (share/"fonts").install "HackNerdFontMono-Bold.ttf"
-    (share/"fonts").install "HackNerdFontMono-BoldItalic.ttf"
-    (share/"fonts").install "HackNerdFontMono-Italic.ttf"
-    (share/"fonts").install "HackNerdFontMono-Regular.ttf"
-    (share/"fonts").install "HackNerdFontPropo-Bold.ttf"
-    (share/"fonts").install "HackNerdFontPropo-BoldItalic.ttf"
-    (share/"fonts").install "HackNerdFontPropo-Italic.ttf"
-    (share/"fonts").install "HackNerdFontPropo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/HackNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/HackNerdFont-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/HackNerdFont-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/HackNerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/HackNerdFontMono-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/HackNerdFontMono-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/HackNerdFontMono-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/HackNerdFontMono-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/HackNerdFontPropo-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/HackNerdFontPropo-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/HackNerdFontPropo-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/HackNerdFontPropo-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontModernAntiqua < Formula
   desc "Modern Antiqua"
   homepage "https://fonts.google.com/specimen/Modern+Antiqua"
   def install
-    (share/"fonts").install "ModernAntiqua-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/ModernAntiqua-Regular.ttf")[0]
   end
   # No zap stanza required
 

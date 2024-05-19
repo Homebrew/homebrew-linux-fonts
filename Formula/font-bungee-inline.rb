@@ -3,7 +3,7 @@ class FontBungeeInline < Formula
   desc "Bungee Inline"
   homepage "https://fonts.google.com/specimen/Bungee+Inline"
   def install
-    (share/"fonts").install "BungeeInline-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/BungeeInline-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontGowunDodum < Formula
   desc "Gowun Dodum"
   homepage "https://fonts.google.com/specimen/Gowun+Dodum"
   def install
-    (share/"fonts").install "GowunDodum-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/GowunDodum-Regular.ttf")[0]
   end
   # No zap stanza required
 

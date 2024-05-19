@@ -3,7 +3,7 @@ class FontNotoSansLydian < Formula
   desc "Noto Sans Lydian"
   homepage "https://www.google.com/get/noto/#sans-lydi"
   def install
-    (share/"fonts").install "NotoSansLydian-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansLydian-Regular.ttf")[0]
   end
   # No zap stanza required
 

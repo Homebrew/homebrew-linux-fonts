@@ -4,9 +4,8 @@ class FontWaptia < Formula
   desc "Ancient-biology styled font"
   homepage "https://moji-waku.com/waptia/index.html"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}waptia/Waptia-Light.otf"
-    (share/"fonts").install "#{parent}waptia/Waptia-Thin.otf"
+    (share/"fonts").install Dir.glob("waptia/**/Waptia-Light.otf")[0]
+    (share/"fonts").install Dir.glob("waptia/**/Waptia-Thin.otf")[0]
   end
   # No zap stanza required
 

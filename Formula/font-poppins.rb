@@ -5,24 +5,24 @@ class FontPoppins < Formula
   desc "Poppins"
   homepage "https://github.com/itfoundry/poppins"
   def install
-    (share/"fonts").install "Poppins-Black.otf"
-    (share/"fonts").install "Poppins-BlackItalic.otf"
-    (share/"fonts").install "Poppins-Bold.otf"
-    (share/"fonts").install "Poppins-BoldItalic.otf"
-    (share/"fonts").install "Poppins-ExtraBold.otf"
-    (share/"fonts").install "Poppins-ExtraBoldItalic.otf"
-    (share/"fonts").install "Poppins-ExtraLight.otf"
-    (share/"fonts").install "Poppins-ExtraLightItalic.otf"
-    (share/"fonts").install "Poppins-Italic.otf"
-    (share/"fonts").install "Poppins-Light.otf"
-    (share/"fonts").install "Poppins-LightItalic.otf"
-    (share/"fonts").install "Poppins-Medium.otf"
-    (share/"fonts").install "Poppins-MediumItalic.otf"
-    (share/"fonts").install "Poppins-Regular.otf"
-    (share/"fonts").install "Poppins-SemiBold.otf"
-    (share/"fonts").install "Poppins-SemiBoldItalic.otf"
-    (share/"fonts").install "Poppins-Thin.otf"
-    (share/"fonts").install "Poppins-ThinItalic.otf"
+    (share/"fonts").install Dir.glob("./**/Poppins-Black.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Poppins-BlackItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Poppins-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Poppins-BoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Poppins-ExtraBold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Poppins-ExtraBoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Poppins-ExtraLight.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Poppins-ExtraLightItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Poppins-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Poppins-Light.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Poppins-LightItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Poppins-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Poppins-MediumItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Poppins-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Poppins-SemiBold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Poppins-SemiBoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Poppins-Thin.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Poppins-ThinItalic.otf")[0]
   end
   # No zap stanza required
 

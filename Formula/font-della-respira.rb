@@ -3,7 +3,7 @@ class FontDellaRespira < Formula
   desc "Della Respira"
   homepage "https://fonts.google.com/specimen/Della+Respira"
   def install
-    (share/"fonts").install "DellaRespira-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/DellaRespira-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontSixCaps < Formula
   desc "Six Caps"
   homepage "https://fonts.google.com/specimen/Six+Caps"
   def install
-    (share/"fonts").install "SixCaps.ttf"
+    (share/"fonts").install Dir.glob("./**/SixCaps.ttf")[0]
   end
   # No zap stanza required
 

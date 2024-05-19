@@ -6,15 +6,15 @@ class FontMonofurNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "Monofur/" + "MonofurNerdFont-Bold.ttf"
-    (share/"fonts").install "Monofur/" + "MonofurNerdFont-Italic.ttf"
-    (share/"fonts").install "Monofur/" + "MonofurNerdFont-Regular.ttf"
-    (share/"fonts").install "Monofur/" + "MonofurNerdFontMono-Bold.ttf"
-    (share/"fonts").install "Monofur/" + "MonofurNerdFontMono-Italic.ttf"
-    (share/"fonts").install "Monofur/" + "MonofurNerdFontMono-Regular.ttf"
-    (share/"fonts").install "Monofur/" + "MonofurNerdFontPropo-Bold.ttf"
-    (share/"fonts").install "Monofur/" + "MonofurNerdFontPropo-Italic.ttf"
-    (share/"fonts").install "Monofur/" + "MonofurNerdFontPropo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/MonofurNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MonofurNerdFont-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MonofurNerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MonofurNerdFontMono-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MonofurNerdFontMono-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MonofurNerdFontMono-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MonofurNerdFontPropo-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MonofurNerdFontPropo-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MonofurNerdFontPropo-Regular.ttf")[0]
   end
   # No zap stanza required
 

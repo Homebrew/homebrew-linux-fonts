@@ -6,13 +6,13 @@ class FontNotoSansCjkKr < Formula
   desc "Language Specific OTFs Korean (한국어)"
   homepage "https://github.com/notofonts/noto-cjk/tree/main/Sans"
   def install
-    (share/"fonts").install "NotoSansCJKkr-Black.otf"
-    (share/"fonts").install "NotoSansCJKkr-Bold.otf"
-    (share/"fonts").install "NotoSansCJKkr-DemiLight.otf"
-    (share/"fonts").install "NotoSansCJKkr-Light.otf"
-    (share/"fonts").install "NotoSansCJKkr-Medium.otf"
-    (share/"fonts").install "NotoSansCJKkr-Regular.otf"
-    (share/"fonts").install "NotoSansCJKkr-Thin.otf"
+    (share/"fonts").install Dir.glob("./**/NotoSansCJKkr-Black.otf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansCJKkr-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansCJKkr-DemiLight.otf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansCJKkr-Light.otf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansCJKkr-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansCJKkr-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansCJKkr-Thin.otf")[0]
   end
   # No zap stanza required
 

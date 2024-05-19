@@ -3,7 +3,7 @@ class FontUnifrakturcook < Formula
   desc "UnifrakturCook"
   homepage "https://fonts.google.com/specimen/UnifrakturCook"
   def install
-    (share/"fonts").install "UnifrakturCook-Bold.ttf"
+    (share/"fonts").install Dir.glob("./**/UnifrakturCook-Bold.ttf")[0]
   end
   # No zap stanza required
 

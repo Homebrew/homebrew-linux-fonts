@@ -6,8 +6,7 @@ class FontSudo < Formula
   desc "Font for programmers and command-line users"
   homepage "https://github.com/jenskutilek/sudo-font/"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}sudo/SudoVariable.ttf"
+    (share/"fonts").install Dir.glob("sudo/**/SudoVariable.ttf")[0]
   end
   # No zap stanza required
 

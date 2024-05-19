@@ -3,8 +3,8 @@ class FontIranianSans < Formula
   desc "Iranian Sans"
   homepage "https://fontlibrary.org/en/font/iranian-sans"
   def install
-    (share/"fonts").install "irsans.ttf"
-    (share/"fonts").install "irsansb.ttf"
+    (share/"fonts").install Dir.glob("./**/irsans.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/irsansb.ttf")[0]
   end
   # No zap stanza required
 

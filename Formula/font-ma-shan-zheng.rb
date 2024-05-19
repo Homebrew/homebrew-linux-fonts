@@ -3,7 +3,7 @@ class FontMaShanZheng < Formula
   desc "Ma Shan Zheng"
   homepage "https://fonts.google.com/specimen/Ma+Shan+Zheng"
   def install
-    (share/"fonts").install "MaShanZheng-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/MaShanZheng-Regular.ttf")[0]
   end
   # No zap stanza required
 

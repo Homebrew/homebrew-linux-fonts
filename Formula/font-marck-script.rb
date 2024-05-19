@@ -3,7 +3,7 @@ class FontMarckScript < Formula
   desc "Marck Script"
   homepage "https://fonts.google.com/specimen/Marck+Script"
   def install
-    (share/"fonts").install "MarckScript-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/MarckScript-Regular.ttf")[0]
   end
   # No zap stanza required
 

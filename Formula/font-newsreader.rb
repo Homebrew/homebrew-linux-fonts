@@ -4,8 +4,8 @@ class FontNewsreader < Formula
   desc "Original typeface primarily intended for continuous on-screen reading"
   homepage "https://fonts.google.com/specimen/Newsreader"
   def install
-    (share/"fonts").install "ofl/newsreader/" + "Newsreader-Italic[opsz,wght].ttf"
-    (share/"fonts").install "ofl/newsreader/" + "Newsreader[opsz,wght].ttf"
+    (share/"fonts").install Dir.glob("ofl/newsreader/./**/Newsreader-Italic\\[opsz,wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/newsreader/./**/Newsreader\\[opsz,wght\\].ttf")[0]
   end
   # No zap stanza required
 

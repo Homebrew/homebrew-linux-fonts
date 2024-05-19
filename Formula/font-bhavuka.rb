@@ -3,7 +3,7 @@ class FontBhavuka < Formula
   desc "Bhavuka"
   homepage "https://fonts.google.com/specimen/Bhavuka"
   def install
-    (share/"fonts").install "Bhavuka-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Bhavuka-Regular.ttf")[0]
   end
   # No zap stanza required
 

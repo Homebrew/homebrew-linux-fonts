@@ -3,7 +3,7 @@ class FontDancingScript < Formula
   desc "Dancing Script"
   homepage "https://fonts.google.com/specimen/Dancing+Script"
   def install
-    (share/"fonts").install "DancingScript[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/DancingScript\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

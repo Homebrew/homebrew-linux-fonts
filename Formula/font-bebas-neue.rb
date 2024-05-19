@@ -3,7 +3,7 @@ class FontBebasNeue < Formula
   desc "Bebas Neue"
   homepage "https://fonts.google.com/specimen/Bebas+Neue"
   def install
-    (share/"fonts").install "BebasNeue-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/BebasNeue-Regular.ttf")[0]
   end
   # No zap stanza required
 

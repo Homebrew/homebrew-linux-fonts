@@ -3,18 +3,18 @@ class FontNiramit < Formula
   desc "Niramit"
   homepage "https://fonts.google.com/specimen/Niramit"
   def install
-    (share/"fonts").install "ofl/niramit/" + "Niramit-Bold.ttf"
-    (share/"fonts").install "ofl/niramit/" + "Niramit-BoldItalic.ttf"
-    (share/"fonts").install "ofl/niramit/" + "Niramit-ExtraLight.ttf"
-    (share/"fonts").install "ofl/niramit/" + "Niramit-ExtraLightItalic.ttf"
-    (share/"fonts").install "ofl/niramit/" + "Niramit-Italic.ttf"
-    (share/"fonts").install "ofl/niramit/" + "Niramit-Light.ttf"
-    (share/"fonts").install "ofl/niramit/" + "Niramit-LightItalic.ttf"
-    (share/"fonts").install "ofl/niramit/" + "Niramit-Medium.ttf"
-    (share/"fonts").install "ofl/niramit/" + "Niramit-MediumItalic.ttf"
-    (share/"fonts").install "ofl/niramit/" + "Niramit-Regular.ttf"
-    (share/"fonts").install "ofl/niramit/" + "Niramit-SemiBold.ttf"
-    (share/"fonts").install "ofl/niramit/" + "Niramit-SemiBoldItalic.ttf"
+    (share/"fonts").install Dir.glob("ofl/niramit/./**/Niramit-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/niramit/./**/Niramit-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/niramit/./**/Niramit-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/niramit/./**/Niramit-ExtraLightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/niramit/./**/Niramit-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/niramit/./**/Niramit-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/niramit/./**/Niramit-LightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/niramit/./**/Niramit-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/niramit/./**/Niramit-MediumItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/niramit/./**/Niramit-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/niramit/./**/Niramit-SemiBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/niramit/./**/Niramit-SemiBoldItalic.ttf")[0]
   end
   # No zap stanza required
 

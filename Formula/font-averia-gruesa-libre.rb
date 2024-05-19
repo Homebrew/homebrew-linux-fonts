@@ -3,7 +3,7 @@ class FontAveriaGruesaLibre < Formula
   desc "Averia Gruesa Libre"
   homepage "https://fonts.google.com/specimen/Averia+Gruesa+Libre"
   def install
-    (share/"fonts").install "AveriaGruesaLibre-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/AveriaGruesaLibre-Regular.ttf")[0]
   end
   # No zap stanza required
 

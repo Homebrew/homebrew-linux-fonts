@@ -3,8 +3,8 @@ class FontEliceDigitalBaeum < Formula
   desc "Elice Digital Baeum"
   homepage "https://font.elice.io/"
   def install
-    (share/"fonts").install "EliceDigitalBaeumOTF_Regular.otf"
-    (share/"fonts").install "EliceDigitalBaeumOTF_Bold.otf"
+    (share/"fonts").install Dir.glob("./**/EliceDigitalBaeumOTF_Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/EliceDigitalBaeumOTF_Bold.otf")[0]
   end
   # No zap stanza required
 

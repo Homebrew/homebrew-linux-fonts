@@ -3,7 +3,7 @@ class FontLohitBengali < Formula
   desc "Lohit Bengali"
   homepage "https://fonts.google.com/specimen/Lohit+Bengali"
   def install
-    (share/"fonts").install "Lohit-Bengali.ttf"
+    (share/"fonts").install Dir.glob("./**/Lohit-Bengali.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontNeucha < Formula
   desc "Neucha"
   homepage "https://fonts.google.com/specimen/Neucha"
   def install
-    (share/"fonts").install "Neucha.ttf"
+    (share/"fonts").install Dir.glob("./**/Neucha.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontCairo < Formula
   desc "Cairo"
   homepage "https://fonts.google.com/specimen/Cairo"
   def install
-    (share/"fonts").install "Cairo[slnt,wght].ttf"
+    (share/"fonts").install Dir.glob("./**/Cairo\\[slnt,wght\\].ttf")[0]
   end
   # No zap stanza required
 

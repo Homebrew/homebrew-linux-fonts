@@ -4,7 +4,7 @@ class FontRubikBeastly < Formula
   desc "Based on the google fonts rubik by hubert and fischer, meir sadan and cyreal"
   homepage "https://fonts.google.com/specimen/Rubik+Beastly"
   def install
-    (share/"fonts").install "RubikBeastly-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/RubikBeastly-Regular.ttf")[0]
   end
   # No zap stanza required
 

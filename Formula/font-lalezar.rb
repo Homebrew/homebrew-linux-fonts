@@ -3,7 +3,7 @@ class FontLalezar < Formula
   desc "Lalezar"
   homepage "https://fonts.google.com/specimen/Lalezar"
   def install
-    (share/"fonts").install "Lalezar-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Lalezar-Regular.ttf")[0]
   end
   # No zap stanza required
 

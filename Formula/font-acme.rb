@@ -3,7 +3,7 @@ class FontAcme < Formula
   desc "Acme"
   homepage "https://fonts.google.com/specimen/Acme"
   def install
-    (share/"fonts").install "Acme-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Acme-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontNotoSansLinearB < Formula
   desc "Noto Sans Linear B"
   homepage "https://www.google.com/get/noto/#sans-linb"
   def install
-    (share/"fonts").install "NotoSansLinearB-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansLinearB-Regular.ttf")[0]
   end
   # No zap stanza required
 

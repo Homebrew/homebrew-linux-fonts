@@ -4,8 +4,8 @@ class FontRedditSans < Formula
   desc "Complemented by reddit sans condensed and reddit mono"
   homepage "https://fonts.google.com/specimen/Reddit+Sans"
   def install
-    (share/"fonts").install "ofl/redditsans/" + "RedditSans-Italic[wght].ttf"
-    (share/"fonts").install "ofl/redditsans/" + "RedditSans[wght].ttf"
+    (share/"fonts").install Dir.glob("ofl/redditsans/./**/RedditSans-Italic\\[wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/redditsans/./**/RedditSans\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

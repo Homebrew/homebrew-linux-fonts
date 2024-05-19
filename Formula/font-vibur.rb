@@ -3,7 +3,7 @@ class FontVibur < Formula
   desc "Vibur"
   homepage "https://fonts.google.com/specimen/Vibur"
   def install
-    (share/"fonts").install "Vibur-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Vibur-Regular.ttf")[0]
   end
   # No zap stanza required
 

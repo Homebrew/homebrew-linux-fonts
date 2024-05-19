@@ -3,12 +3,12 @@ class FontNeuton < Formula
   desc "Neuton"
   homepage "https://fonts.google.com/specimen/Neuton"
   def install
-    (share/"fonts").install "ofl/neuton/" + "Neuton-Bold.ttf"
-    (share/"fonts").install "ofl/neuton/" + "Neuton-ExtraBold.ttf"
-    (share/"fonts").install "ofl/neuton/" + "Neuton-ExtraLight.ttf"
-    (share/"fonts").install "ofl/neuton/" + "Neuton-Italic.ttf"
-    (share/"fonts").install "ofl/neuton/" + "Neuton-Light.ttf"
-    (share/"fonts").install "ofl/neuton/" + "Neuton-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/neuton/./**/Neuton-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/neuton/./**/Neuton-ExtraBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/neuton/./**/Neuton-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/neuton/./**/Neuton-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/neuton/./**/Neuton-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/neuton/./**/Neuton-Regular.ttf")[0]
   end
   # No zap stanza required
 

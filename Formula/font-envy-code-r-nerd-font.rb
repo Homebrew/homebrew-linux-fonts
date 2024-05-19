@@ -6,15 +6,15 @@ class FontEnvyCodeRNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "ofl/enriqueta/" + "EnvyCodeRNerdFont-Bold.ttf"
-    (share/"fonts").install "ofl/enriqueta/" + "EnvyCodeRNerdFont-Italic.ttf"
-    (share/"fonts").install "ofl/enriqueta/" + "EnvyCodeRNerdFont-Regular.ttf"
-    (share/"fonts").install "ofl/enriqueta/" + "EnvyCodeRNerdFontMono-Bold.ttf"
-    (share/"fonts").install "ofl/enriqueta/" + "EnvyCodeRNerdFontMono-Italic.ttf"
-    (share/"fonts").install "ofl/enriqueta/" + "EnvyCodeRNerdFontMono-Regular.ttf"
-    (share/"fonts").install "ofl/enriqueta/" + "EnvyCodeRNerdFontPropo-Bold.ttf"
-    (share/"fonts").install "ofl/enriqueta/" + "EnvyCodeRNerdFontPropo-Italic.ttf"
-    (share/"fonts").install "ofl/enriqueta/" + "EnvyCodeRNerdFontPropo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/EnvyCodeRNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/EnvyCodeRNerdFont-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/EnvyCodeRNerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/EnvyCodeRNerdFontMono-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/EnvyCodeRNerdFontMono-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/EnvyCodeRNerdFontMono-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/EnvyCodeRNerdFontPropo-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/EnvyCodeRNerdFontPropo-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/EnvyCodeRNerdFontPropo-Regular.ttf")[0]
   end
   # No zap stanza required
 

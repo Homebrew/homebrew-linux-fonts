@@ -4,7 +4,7 @@ class FontChokokutai < Formula
   desc "Japanese display font whose characters have a funky appearance"
   homepage "https://fonts.google.com/specimen/Chokokutai"
   def install
-    (share/"fonts").install "Chokokutai-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Chokokutai-Regular.ttf")[0]
   end
   # No zap stanza required
 

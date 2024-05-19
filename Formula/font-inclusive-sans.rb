@@ -4,8 +4,8 @@ class FontInclusiveSans < Formula
   desc "Contemporary neo-grotesques"
   homepage "https://fonts.google.com/specimen/Inclusive+Sans"
   def install
-    (share/"fonts").install "ofl/inclusivesans/" + "InclusiveSans-Italic.ttf"
-    (share/"fonts").install "ofl/inclusivesans/" + "InclusiveSans-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/inclusivesans/./**/InclusiveSans-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/inclusivesans/./**/InclusiveSans-Regular.ttf")[0]
   end
   # No zap stanza required
 

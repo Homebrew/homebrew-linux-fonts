@@ -3,7 +3,7 @@ class FontIceland < Formula
   desc "Iceland"
   homepage "https://fonts.google.com/specimen/Iceland"
   def install
-    (share/"fonts").install "Iceland-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Iceland-Regular.ttf")[0]
   end
   # No zap stanza required
 

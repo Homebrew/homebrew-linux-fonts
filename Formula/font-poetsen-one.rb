@@ -3,7 +3,7 @@ class FontPoetsenOne < Formula
   desc "Poetsen One"
   homepage "https://fonts.google.com/specimen/Poetsen+One"
   def install
-    (share/"fonts").install "PoetsenOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/PoetsenOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

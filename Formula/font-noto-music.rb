@@ -3,7 +3,7 @@ class FontNotoMusic < Formula
   desc "Noto Music"
   homepage "https://fonts.google.com/specimen/Noto+Music"
   def install
-    (share/"fonts").install "NotoMusic-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoMusic-Regular.ttf")[0]
   end
   # No zap stanza required
 

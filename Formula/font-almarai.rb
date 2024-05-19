@@ -3,10 +3,10 @@ class FontAlmarai < Formula
   desc "Almarai"
   homepage "https://fonts.google.com/specimen/Almarai"
   def install
-    (share/"fonts").install "ofl/almarai/" + "Almarai-Bold.ttf"
-    (share/"fonts").install "ofl/almarai/" + "Almarai-ExtraBold.ttf"
-    (share/"fonts").install "ofl/almarai/" + "Almarai-Light.ttf"
-    (share/"fonts").install "ofl/almarai/" + "Almarai-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/almarai/./**/Almarai-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/almarai/./**/Almarai-ExtraBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/almarai/./**/Almarai-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/almarai/./**/Almarai-Regular.ttf")[0]
   end
   # No zap stanza required
 

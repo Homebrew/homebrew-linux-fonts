@@ -3,12 +3,12 @@ class FontSansation < Formula
   desc "Sansation"
   homepage "https://www.fontspace.com/sansation-font-f20328"
   def install
-    (share/"fonts").install "ofl/sansation/" + "Sansation-Bold.ttf"
-    (share/"fonts").install "ofl/sansation/" + "Sansation-BoldItalic.ttf"
-    (share/"fonts").install "ofl/sansation/" + "Sansation-Italic.ttf"
-    (share/"fonts").install "ofl/sansation/" + "Sansation-Light.ttf"
-    (share/"fonts").install "ofl/sansation/" + "Sansation-LightItalic.ttf"
-    (share/"fonts").install "ofl/sansation/" + "Sansation-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/sansation/./**/Sansation-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sansation/./**/Sansation-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sansation/./**/Sansation-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sansation/./**/Sansation-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sansation/./**/Sansation-LightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sansation/./**/Sansation-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -4,7 +4,7 @@ class FontLibreBarcodeEan13Text < Formula
   desc "Led by lasse fister, a font and web developer based in nuremberg, germany"
   homepage "https://fonts.google.com/specimen/Libre+Barcode+EAN13+Text"
   def install
-    (share/"fonts").install "LibreBarcodeEAN13Text-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/LibreBarcodeEAN13Text-Regular.ttf")[0]
   end
   # No zap stanza required
 

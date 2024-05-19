@@ -3,7 +3,7 @@ class FontMclaren < Formula
   desc "McLaren"
   homepage "https://fonts.google.com/specimen/McLaren"
   def install
-    (share/"fonts").install "McLaren-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/McLaren-Regular.ttf")[0]
   end
   # No zap stanza required
 

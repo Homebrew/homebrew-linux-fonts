@@ -3,7 +3,7 @@ class FontAladin < Formula
   desc "Aladin"
   homepage "https://fonts.google.com/specimen/Aladin"
   def install
-    (share/"fonts").install "Aladin-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Aladin-Regular.ttf")[0]
   end
   # No zap stanza required
 

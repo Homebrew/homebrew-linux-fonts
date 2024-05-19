@@ -3,7 +3,7 @@ class FontPollerOne < Formula
   desc "Poller One"
   homepage "https://fonts.google.com/specimen/Poller+One"
   def install
-    (share/"fonts").install "PollerOne.ttf"
+    (share/"fonts").install Dir.glob("./**/PollerOne.ttf")[0]
   end
   # No zap stanza required
 

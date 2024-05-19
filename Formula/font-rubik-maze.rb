@@ -3,7 +3,7 @@ class FontRubikMaze < Formula
   desc "Rubik Maze"
   homepage "https://fonts.google.com/specimen/Rubik+Maze"
   def install
-    (share/"fonts").install "RubikMaze-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/RubikMaze-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -6,11 +6,10 @@ class FontAnonymousPro < Formula
   desc "Programming font"
   homepage "https://www.marksimonson.com/fonts/view/anonymous-pro"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}AnonymousPro-#{version}.001/Anonymous Pro B.ttf"
-    (share/"fonts").install "#{parent}AnonymousPro-#{version}.001/Anonymous Pro BI.ttf"
-    (share/"fonts").install "#{parent}AnonymousPro-#{version}.001/Anonymous Pro I.ttf"
-    (share/"fonts").install "#{parent}AnonymousPro-#{version}.001/Anonymous Pro.ttf"
+    (share/"fonts").install Dir.glob("AnonymousPro-#{version}.001/**/Anonymous Pro B.ttf")[0]
+    (share/"fonts").install Dir.glob("AnonymousPro-#{version}.001/**/Anonymous Pro BI.ttf")[0]
+    (share/"fonts").install Dir.glob("AnonymousPro-#{version}.001/**/Anonymous Pro I.ttf")[0]
+    (share/"fonts").install Dir.glob("AnonymousPro-#{version}.001/**/Anonymous Pro.ttf")[0]
   end
   # No zap stanza required
 

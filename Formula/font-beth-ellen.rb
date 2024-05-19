@@ -3,7 +3,7 @@ class FontBethEllen < Formula
   desc "Beth Ellen"
   homepage "https://fonts.google.com/specimen/Beth+Ellen"
   def install
-    (share/"fonts").install "BethEllen-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/BethEllen-Regular.ttf")[0]
   end
   # No zap stanza required
 

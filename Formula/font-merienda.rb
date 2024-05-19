@@ -3,7 +3,7 @@ class FontMerienda < Formula
   desc "Merienda"
   homepage "https://fonts.google.com/specimen/Merienda"
   def install
-    (share/"fonts").install "Merienda[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/Merienda\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

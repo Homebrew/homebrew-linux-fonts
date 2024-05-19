@@ -6,46 +6,46 @@ class FontUbuntuSansNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "ufl/ubuntusansmono/" + "UbuntuSansMonoNerdFont-Bold.ttf"
-    (share/"fonts").install "ufl/ubuntusansmono/" + "UbuntuSansMonoNerdFont-BoldItalic.ttf"
-    (share/"fonts").install "ufl/ubuntusansmono/" + "UbuntuSansMonoNerdFont-Italic.ttf"
-    (share/"fonts").install "ufl/ubuntusansmono/" + "UbuntuSansMonoNerdFont-Medium.ttf"
-    (share/"fonts").install "ufl/ubuntusansmono/" + "UbuntuSansMonoNerdFont-MediumItalic.ttf"
-    (share/"fonts").install "ufl/ubuntusansmono/" + "UbuntuSansMonoNerdFont-Regular.ttf"
-    (share/"fonts").install "ufl/ubuntusansmono/" + "UbuntuSansMonoNerdFont-SemiBold.ttf"
-    (share/"fonts").install "ufl/ubuntusansmono/" + "UbuntuSansMonoNerdFont-SemiBoldItalic.ttf"
-    (share/"fonts").install "ufl/ubuntusansmono/" + "UbuntuSansMonoNerdFontMono-Bold.ttf"
-    (share/"fonts").install "ufl/ubuntusansmono/" + "UbuntuSansMonoNerdFontMono-BoldItalic.ttf"
-    (share/"fonts").install "ufl/ubuntusansmono/" + "UbuntuSansMonoNerdFontMono-Italic.ttf"
-    (share/"fonts").install "ufl/ubuntusansmono/" + "UbuntuSansMonoNerdFontMono-Medium.ttf"
-    (share/"fonts").install "ufl/ubuntusansmono/" + "UbuntuSansMonoNerdFontMono-MediumItalic.ttf"
-    (share/"fonts").install "ufl/ubuntusansmono/" + "UbuntuSansMonoNerdFontMono-Regular.ttf"
-    (share/"fonts").install "ufl/ubuntusansmono/" + "UbuntuSansMonoNerdFontMono-SemiBold.ttf"
-    (share/"fonts").install "ufl/ubuntusansmono/" + "UbuntuSansMonoNerdFontMono-SemiBoldItalic.ttf"
-    (share/"fonts").install "ufl/ubuntusansmono/" + "UbuntuSansMonoNerdFontPropo-Bold.ttf"
-    (share/"fonts").install "ufl/ubuntusansmono/" + "UbuntuSansMonoNerdFontPropo-BoldItalic.ttf"
-    (share/"fonts").install "ufl/ubuntusansmono/" + "UbuntuSansMonoNerdFontPropo-Italic.ttf"
-    (share/"fonts").install "ufl/ubuntusansmono/" + "UbuntuSansMonoNerdFontPropo-Medium.ttf"
-    (share/"fonts").install "ufl/ubuntusansmono/" + "UbuntuSansMonoNerdFontPropo-MediumItalic.ttf"
-    (share/"fonts").install "ufl/ubuntusansmono/" + "UbuntuSansMonoNerdFontPropo-Regular.ttf"
-    (share/"fonts").install "ufl/ubuntusansmono/" + "UbuntuSansMonoNerdFontPropo-SemiBold.ttf"
-    (share/"fonts").install "ufl/ubuntusansmono/" + "UbuntuSansMonoNerdFontPropo-SemiBoldItalic.ttf"
-    (share/"fonts").install "ufl/ubuntusansmono/" + "UbuntuSansNerdFont-Bold.ttf"
-    (share/"fonts").install "ufl/ubuntusansmono/" + "UbuntuSansNerdFont-BoldItalic.ttf"
-    (share/"fonts").install "ufl/ubuntusansmono/" + "UbuntuSansNerdFont-Italic.ttf"
-    (share/"fonts").install "ufl/ubuntusansmono/" + "UbuntuSansNerdFont-Medium.ttf"
-    (share/"fonts").install "ufl/ubuntusansmono/" + "UbuntuSansNerdFont-MediumItalic.ttf"
-    (share/"fonts").install "ufl/ubuntusansmono/" + "UbuntuSansNerdFont-Regular.ttf"
-    (share/"fonts").install "ufl/ubuntusansmono/" + "UbuntuSansNerdFont-SemiBold.ttf"
-    (share/"fonts").install "ufl/ubuntusansmono/" + "UbuntuSansNerdFont-SemiBoldItalic.ttf"
-    (share/"fonts").install "ufl/ubuntusansmono/" + "UbuntuSansNerdFontPropo-Bold.ttf"
-    (share/"fonts").install "ufl/ubuntusansmono/" + "UbuntuSansNerdFontPropo-BoldItalic.ttf"
-    (share/"fonts").install "ufl/ubuntusansmono/" + "UbuntuSansNerdFontPropo-Italic.ttf"
-    (share/"fonts").install "ufl/ubuntusansmono/" + "UbuntuSansNerdFontPropo-Medium.ttf"
-    (share/"fonts").install "ufl/ubuntusansmono/" + "UbuntuSansNerdFontPropo-MediumItalic.ttf"
-    (share/"fonts").install "ufl/ubuntusansmono/" + "UbuntuSansNerdFontPropo-Regular.ttf"
-    (share/"fonts").install "ufl/ubuntusansmono/" + "UbuntuSansNerdFontPropo-SemiBold.ttf"
-    (share/"fonts").install "ufl/ubuntusansmono/" + "UbuntuSansNerdFontPropo-SemiBoldItalic.ttf"
+    (share/"fonts").install Dir.glob("./**/UbuntuSansMonoNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuSansMonoNerdFont-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuSansMonoNerdFont-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuSansMonoNerdFont-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuSansMonoNerdFont-MediumItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuSansMonoNerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuSansMonoNerdFont-SemiBold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuSansMonoNerdFont-SemiBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuSansMonoNerdFontMono-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuSansMonoNerdFontMono-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuSansMonoNerdFontMono-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuSansMonoNerdFontMono-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuSansMonoNerdFontMono-MediumItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuSansMonoNerdFontMono-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuSansMonoNerdFontMono-SemiBold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuSansMonoNerdFontMono-SemiBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuSansMonoNerdFontPropo-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuSansMonoNerdFontPropo-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuSansMonoNerdFontPropo-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuSansMonoNerdFontPropo-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuSansMonoNerdFontPropo-MediumItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuSansMonoNerdFontPropo-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuSansMonoNerdFontPropo-SemiBold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuSansMonoNerdFontPropo-SemiBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuSansNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuSansNerdFont-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuSansNerdFont-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuSansNerdFont-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuSansNerdFont-MediumItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuSansNerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuSansNerdFont-SemiBold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuSansNerdFont-SemiBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuSansNerdFontPropo-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuSansNerdFontPropo-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuSansNerdFontPropo-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuSansNerdFontPropo-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuSansNerdFontPropo-MediumItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuSansNerdFontPropo-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuSansNerdFontPropo-SemiBold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuSansNerdFontPropo-SemiBoldItalic.ttf")[0]
   end
   # No zap stanza required
 

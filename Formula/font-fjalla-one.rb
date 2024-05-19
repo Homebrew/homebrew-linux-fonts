@@ -3,7 +3,7 @@ class FontFjallaOne < Formula
   desc "Fjalla One"
   homepage "https://fonts.google.com/specimen/Fjalla+One"
   def install
-    (share/"fonts").install "FjallaOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/FjallaOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontTenorSans < Formula
   desc "Tenor Sans"
   homepage "https://fonts.google.com/specimen/Tenor+Sans"
   def install
-    (share/"fonts").install "TenorSans-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/TenorSans-Regular.ttf")[0]
   end
   # No zap stanza required
 

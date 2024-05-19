@@ -3,10 +3,10 @@ class FontArvo < Formula
   desc "Arvo"
   homepage "https://fonts.google.com/specimen/Arvo"
   def install
-    (share/"fonts").install "ofl/arvo/" + "Arvo-Bold.ttf"
-    (share/"fonts").install "ofl/arvo/" + "Arvo-BoldItalic.ttf"
-    (share/"fonts").install "ofl/arvo/" + "Arvo-Italic.ttf"
-    (share/"fonts").install "ofl/arvo/" + "Arvo-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/arvo/./**/Arvo-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/arvo/./**/Arvo-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/arvo/./**/Arvo-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/arvo/./**/Arvo-Regular.ttf")[0]
   end
   # No zap stanza required
 

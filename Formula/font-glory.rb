@@ -4,8 +4,8 @@ class FontGlory < Formula
   desc "Suitable for logos, headlines and body text with the available six weights"
   homepage "https://fonts.google.com/specimen/Glory"
   def install
-    (share/"fonts").install "ofl/glory/" + "Glory-Italic[wght].ttf"
-    (share/"fonts").install "ofl/glory/" + "Glory[wght].ttf"
+    (share/"fonts").install Dir.glob("ofl/glory/./**/Glory-Italic\\[wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/glory/./**/Glory\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

@@ -6,23 +6,22 @@ class FontSnPro < Formula
   desc "SN Pro is a friendly sans serif typeface optimized for use with Markdown"
   homepage "https://supernotes.app/open-source/sn-pro"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}SNPro/SNPro-Black.otf"
-    (share/"fonts").install "#{parent}SNPro/SNPro-BlackItalic.otf"
-    (share/"fonts").install "#{parent}SNPro/SNPro-Bold.otf"
-    (share/"fonts").install "#{parent}SNPro/SNPro-BoldItalic.otf"
-    (share/"fonts").install "#{parent}SNPro/SNPro-Heavy.otf"
-    (share/"fonts").install "#{parent}SNPro/SNPro-HeavyItalic.otf"
-    (share/"fonts").install "#{parent}SNPro/SNPro-Light.otf"
-    (share/"fonts").install "#{parent}SNPro/SNPro-LightItalic.otf"
-    (share/"fonts").install "#{parent}SNPro/SNPro-Medium.otf"
-    (share/"fonts").install "#{parent}SNPro/SNPro-MediumItalic.otf"
-    (share/"fonts").install "#{parent}SNPro/SNPro-Regular.otf"
-    (share/"fonts").install "#{parent}SNPro/SNPro-RegularItalic.otf"
-    (share/"fonts").install "#{parent}SNPro/SNPro-Semibold.otf"
-    (share/"fonts").install "#{parent}SNPro/SNPro-SemiboldItalic.otf"
-    (share/"fonts").install "#{parent}SNPro/SNPro-Thin.otf"
-    (share/"fonts").install "#{parent}SNPro/SNPro-ThinItalic.otf"
+    (share/"fonts").install Dir.glob("SNPro/**/SNPro-Black.otf")[0]
+    (share/"fonts").install Dir.glob("SNPro/**/SNPro-BlackItalic.otf")[0]
+    (share/"fonts").install Dir.glob("SNPro/**/SNPro-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("SNPro/**/SNPro-BoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("SNPro/**/SNPro-Heavy.otf")[0]
+    (share/"fonts").install Dir.glob("SNPro/**/SNPro-HeavyItalic.otf")[0]
+    (share/"fonts").install Dir.glob("SNPro/**/SNPro-Light.otf")[0]
+    (share/"fonts").install Dir.glob("SNPro/**/SNPro-LightItalic.otf")[0]
+    (share/"fonts").install Dir.glob("SNPro/**/SNPro-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("SNPro/**/SNPro-MediumItalic.otf")[0]
+    (share/"fonts").install Dir.glob("SNPro/**/SNPro-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("SNPro/**/SNPro-RegularItalic.otf")[0]
+    (share/"fonts").install Dir.glob("SNPro/**/SNPro-Semibold.otf")[0]
+    (share/"fonts").install Dir.glob("SNPro/**/SNPro-SemiboldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("SNPro/**/SNPro-Thin.otf")[0]
+    (share/"fonts").install Dir.glob("SNPro/**/SNPro-ThinItalic.otf")[0]
   end
   # No zap stanza required
 

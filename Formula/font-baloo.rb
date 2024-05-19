@@ -5,17 +5,16 @@ class FontBaloo < Formula
   desc "Baloo"
   homepage "https://github.com/EkType/Baloo"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}Fonts/Baloo-Regular.ttf"
-    (share/"fonts").install "#{parent}Fonts/BalooBhai-Regular.ttf"
-    (share/"fonts").install "#{parent}Fonts/BalooBhaijaan-Regular.ttf"
-    (share/"fonts").install "#{parent}Fonts/BalooBhaina-Regular.ttf"
-    (share/"fonts").install "#{parent}Fonts/BalooChettan-Regular.ttf"
-    (share/"fonts").install "#{parent}Fonts/BalooDa-Regular.ttf"
-    (share/"fonts").install "#{parent}Fonts/BalooPaaji-Regular.ttf"
-    (share/"fonts").install "#{parent}Fonts/BalooTamma-Regular.ttf"
-    (share/"fonts").install "#{parent}Fonts/BalooTammudu-Regular.ttf"
-    (share/"fonts").install "#{parent}Fonts/BalooThambi-Regular.ttf"
+    (share/"fonts").install Dir.glob("Fonts/**/Baloo-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("Fonts/**/BalooBhai-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("Fonts/**/BalooBhaijaan-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("Fonts/**/BalooBhaina-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("Fonts/**/BalooChettan-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("Fonts/**/BalooDa-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("Fonts/**/BalooPaaji-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("Fonts/**/BalooTamma-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("Fonts/**/BalooTammudu-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("Fonts/**/BalooThambi-Regular.ttf")[0]
   end
   # No zap stanza required
 

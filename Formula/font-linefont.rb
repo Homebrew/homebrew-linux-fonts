@@ -4,7 +4,7 @@ class FontLinefont < Formula
   desc "Variable font for rendering small to medium-scale line charts"
   homepage "https://fonts.google.com/specimen/Linefont"
   def install
-    (share/"fonts").install "Linefont[wdth,wght].ttf"
+    (share/"fonts").install Dir.glob("./**/Linefont\\[wdth,wght\\].ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontGoblinOne < Formula
   desc "Goblin One"
   homepage "https://fonts.google.com/specimen/Goblin+One"
   def install
-    (share/"fonts").install "GoblinOne.ttf"
+    (share/"fonts").install Dir.glob("./**/GoblinOne.ttf")[0]
   end
   # No zap stanza required
 

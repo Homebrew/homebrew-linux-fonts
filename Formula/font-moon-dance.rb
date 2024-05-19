@@ -3,7 +3,7 @@ class FontMoonDance < Formula
   desc "Moon Dance"
   homepage "https://fonts.google.com/specimen/Moon+Dance"
   def install
-    (share/"fonts").install "MoonDance-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/MoonDance-Regular.ttf")[0]
   end
   # No zap stanza required
 

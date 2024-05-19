@@ -4,7 +4,7 @@ class FontUpdock < Formula
   desc "Extremely legible formal script with clean connectors"
   homepage "https://fonts.google.com/specimen/Updock"
   def install
-    (share/"fonts").install "Updock-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Updock-Regular.ttf")[0]
   end
   # No zap stanza required
 

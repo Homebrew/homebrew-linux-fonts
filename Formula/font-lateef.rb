@@ -3,13 +3,13 @@ class FontLateef < Formula
   desc "Lateef"
   homepage "https://fonts.google.com/specimen/Lateef"
   def install
-    (share/"fonts").install "ofl/lateef/" + "Lateef-Bold.ttf"
-    (share/"fonts").install "ofl/lateef/" + "Lateef-ExtraBold.ttf"
-    (share/"fonts").install "ofl/lateef/" + "Lateef-ExtraLight.ttf"
-    (share/"fonts").install "ofl/lateef/" + "Lateef-Light.ttf"
-    (share/"fonts").install "ofl/lateef/" + "Lateef-Medium.ttf"
-    (share/"fonts").install "ofl/lateef/" + "Lateef-Regular.ttf"
-    (share/"fonts").install "ofl/lateef/" + "Lateef-SemiBold.ttf"
+    (share/"fonts").install Dir.glob("ofl/lateef/./**/Lateef-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/lateef/./**/Lateef-ExtraBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/lateef/./**/Lateef-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/lateef/./**/Lateef-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/lateef/./**/Lateef-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/lateef/./**/Lateef-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/lateef/./**/Lateef-SemiBold.ttf")[0]
   end
   # No zap stanza required
 

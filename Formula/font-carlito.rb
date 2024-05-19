@@ -4,10 +4,10 @@ class FontCarlito < Formula
   desc "Metric-compatible with calibri"
   homepage "https://fonts.google.com/specimen/Carlito"
   def install
-    (share/"fonts").install "ofl/carlito/" + "Carlito-Bold.ttf"
-    (share/"fonts").install "ofl/carlito/" + "Carlito-BoldItalic.ttf"
-    (share/"fonts").install "ofl/carlito/" + "Carlito-Italic.ttf"
-    (share/"fonts").install "ofl/carlito/" + "Carlito-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/carlito/./**/Carlito-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/carlito/./**/Carlito-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/carlito/./**/Carlito-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/carlito/./**/Carlito-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -4,7 +4,7 @@ class FontProtestGuerrilla < Formula
   desc "Stencil version of strike"
   homepage "https://fonts.google.com/specimen/Protest+Guerrilla"
   def install
-    (share/"fonts").install "ProtestGuerrilla-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/ProtestGuerrilla-Regular.ttf")[0]
   end
   # No zap stanza required
 

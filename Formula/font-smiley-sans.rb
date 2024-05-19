@@ -6,7 +6,7 @@ class FontSmileySans < Formula
   desc "Chinese typeface seeking a visual balance between the humanist and the geometric"
   homepage "https://atelier-anchor.com/typefaces/smiley-sans/"
   def install
-    (share/"fonts").install "SmileySans-Oblique.ttf"
+    (share/"fonts").install Dir.glob("./**/SmileySans-Oblique.ttf")[0]
   end
   # No zap stanza required
 

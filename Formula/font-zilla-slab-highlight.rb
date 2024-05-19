@@ -3,8 +3,8 @@ class FontZillaSlabHighlight < Formula
   desc "Zilla Slab Highlight"
   homepage "https://fonts.google.com/specimen/Zilla+Slab+Highlight"
   def install
-    (share/"fonts").install "ofl/zillaslabhighlight/" + "ZillaSlabHighlight-Bold.ttf"
-    (share/"fonts").install "ofl/zillaslabhighlight/" + "ZillaSlabHighlight-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/zillaslabhighlight/./**/ZillaSlabHighlight-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/zillaslabhighlight/./**/ZillaSlabHighlight-Regular.ttf")[0]
   end
   # No zap stanza required
 

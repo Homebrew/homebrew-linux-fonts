@@ -3,7 +3,7 @@ class FontRuslanDisplay < Formula
   desc "Ruslan Display"
   homepage "https://fonts.google.com/specimen/Ruslan+Display"
   def install
-    (share/"fonts").install "RuslanDisplay-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/RuslanDisplay-Regular.ttf")[0]
   end
   # No zap stanza required
 

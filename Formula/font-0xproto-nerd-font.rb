@@ -6,9 +6,9 @@ class Font0xprotoNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "0xProtoNerdFont-Regular.ttf"
-    (share/"fonts").install "0xProtoNerdFontMono-Regular.ttf"
-    (share/"fonts").install "0xProtoNerdFontPropo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/0xProtoNerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/0xProtoNerdFontMono-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/0xProtoNerdFontPropo-Regular.ttf")[0]
   end
   # No zap stanza required
 

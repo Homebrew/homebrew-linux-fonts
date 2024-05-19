@@ -6,18 +6,18 @@ class FontGoMonoNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "GoMonoNerdFont-Bold.ttf"
-    (share/"fonts").install "GoMonoNerdFont-BoldItalic.ttf"
-    (share/"fonts").install "GoMonoNerdFont-Italic.ttf"
-    (share/"fonts").install "GoMonoNerdFont-Regular.ttf"
-    (share/"fonts").install "GoMonoNerdFontMono-Bold.ttf"
-    (share/"fonts").install "GoMonoNerdFontMono-BoldItalic.ttf"
-    (share/"fonts").install "GoMonoNerdFontMono-Italic.ttf"
-    (share/"fonts").install "GoMonoNerdFontMono-Regular.ttf"
-    (share/"fonts").install "GoMonoNerdFontPropo-Bold.ttf"
-    (share/"fonts").install "GoMonoNerdFontPropo-BoldItalic.ttf"
-    (share/"fonts").install "GoMonoNerdFontPropo-Italic.ttf"
-    (share/"fonts").install "GoMonoNerdFontPropo-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/GoMonoNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GoMonoNerdFont-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GoMonoNerdFont-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GoMonoNerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GoMonoNerdFontMono-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GoMonoNerdFontMono-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GoMonoNerdFontMono-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GoMonoNerdFontMono-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GoMonoNerdFontPropo-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GoMonoNerdFontPropo-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GoMonoNerdFontPropo-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GoMonoNerdFontPropo-Regular.ttf")[0]
   end
   # No zap stanza required
 

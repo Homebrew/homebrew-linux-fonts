@@ -3,7 +3,7 @@ class FontRuda < Formula
   desc "Ruda"
   homepage "https://fonts.google.com/specimen/Ruda"
   def install
-    (share/"fonts").install "Ruda[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/Ruda\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

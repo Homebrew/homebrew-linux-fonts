@@ -3,7 +3,7 @@ class FontHomenaje < Formula
   desc "Homenaje"
   homepage "https://fonts.google.com/specimen/Homenaje"
   def install
-    (share/"fonts").install "Homenaje-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Homenaje-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -6,13 +6,13 @@ class FontNotoSansCjkTc < Formula
   desc "Language Specific OTFs Traditional Chinese — Taiwan (繁體中文—臺灣)"
   homepage "https://github.com/notofonts/noto-cjk/tree/main/Sans"
   def install
-    (share/"fonts").install "NotoSansCJKtc-Black.otf"
-    (share/"fonts").install "NotoSansCJKtc-Bold.otf"
-    (share/"fonts").install "NotoSansCJKtc-DemiLight.otf"
-    (share/"fonts").install "NotoSansCJKtc-Light.otf"
-    (share/"fonts").install "NotoSansCJKtc-Medium.otf"
-    (share/"fonts").install "NotoSansCJKtc-Regular.otf"
-    (share/"fonts").install "NotoSansCJKtc-Thin.otf"
+    (share/"fonts").install Dir.glob("./**/NotoSansCJKtc-Black.otf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansCJKtc-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansCJKtc-DemiLight.otf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansCJKtc-Light.otf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansCJKtc-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansCJKtc-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansCJKtc-Thin.otf")[0]
   end
   # No zap stanza required
 

@@ -3,16 +3,16 @@ class FontKulimPark < Formula
   desc "Kulim Park"
   homepage "https://fonts.google.com/specimen/Kulim+Park"
   def install
-    (share/"fonts").install "ofl/kulimpark/" + "KulimPark-Bold.ttf"
-    (share/"fonts").install "ofl/kulimpark/" + "KulimPark-BoldItalic.ttf"
-    (share/"fonts").install "ofl/kulimpark/" + "KulimPark-ExtraLight.ttf"
-    (share/"fonts").install "ofl/kulimpark/" + "KulimPark-ExtraLightItalic.ttf"
-    (share/"fonts").install "ofl/kulimpark/" + "KulimPark-Italic.ttf"
-    (share/"fonts").install "ofl/kulimpark/" + "KulimPark-Light.ttf"
-    (share/"fonts").install "ofl/kulimpark/" + "KulimPark-LightItalic.ttf"
-    (share/"fonts").install "ofl/kulimpark/" + "KulimPark-Regular.ttf"
-    (share/"fonts").install "ofl/kulimpark/" + "KulimPark-SemiBold.ttf"
-    (share/"fonts").install "ofl/kulimpark/" + "KulimPark-SemiBoldItalic.ttf"
+    (share/"fonts").install Dir.glob("ofl/kulimpark/./**/KulimPark-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/kulimpark/./**/KulimPark-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/kulimpark/./**/KulimPark-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/kulimpark/./**/KulimPark-ExtraLightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/kulimpark/./**/KulimPark-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/kulimpark/./**/KulimPark-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/kulimpark/./**/KulimPark-LightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/kulimpark/./**/KulimPark-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/kulimpark/./**/KulimPark-SemiBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/kulimpark/./**/KulimPark-SemiBoldItalic.ttf")[0]
   end
   # No zap stanza required
 

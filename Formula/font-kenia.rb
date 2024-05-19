@@ -3,7 +3,7 @@ class FontKenia < Formula
   desc "Kenia"
   homepage "https://fonts.google.com/specimen/Kenia"
   def install
-    (share/"fonts").install "Kenia-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Kenia-Regular.ttf")[0]
   end
   # No zap stanza required
 

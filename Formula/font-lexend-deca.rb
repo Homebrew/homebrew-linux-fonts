@@ -3,7 +3,7 @@ class FontLexendDeca < Formula
   desc "Lexend Deca"
   homepage "https://github.com/ThomasJockin/lexend"
   def install
-    (share/"fonts").install "LexendDeca-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/LexendDeca-Regular.ttf")[0]
   end
   # No zap stanza required
 

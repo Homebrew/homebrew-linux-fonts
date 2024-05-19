@@ -3,10 +3,10 @@ class FontTuffy < Formula
   desc "Tuffy"
   homepage "http://tulrich.com/fonts/"
   def install
-    (share/"fonts").install "ofl/tuffy/" + "Tuffy-Bold.ttf"
-    (share/"fonts").install "ofl/tuffy/" + "Tuffy-BoldItalic.ttf"
-    (share/"fonts").install "ofl/tuffy/" + "Tuffy-Italic.ttf"
-    (share/"fonts").install "ofl/tuffy/" + "Tuffy-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/tuffy/./**/Tuffy-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/tuffy/./**/Tuffy-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/tuffy/./**/Tuffy-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/tuffy/./**/Tuffy-Regular.ttf")[0]
   end
   # No zap stanza required
 

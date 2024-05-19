@@ -3,9 +3,8 @@ class FontCourierPrimeCode < Formula
   desc "Courier Prime Code"
   homepage "https://quoteunquoteapps.com/courierprime/#code-sans"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}ttf/Courier Prime Code Italic.ttf"
-    (share/"fonts").install "#{parent}ttf/Courier Prime Code.ttf"
+    (share/"fonts").install Dir.glob("ttf/**/Courier Prime Code Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ttf/**/Courier Prime Code.ttf")[0]
   end
   # No zap stanza required
 

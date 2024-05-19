@@ -3,7 +3,7 @@ class FontWorkbench < Formula
   desc "Workbench"
   homepage "https://fonts.google.com/specimen/Workbench"
   def install
-    (share/"fonts").install "Workbench[BLED,SCAN].ttf"
+    (share/"fonts").install Dir.glob("./**/Workbench\\[BLED,SCAN\\].ttf")[0]
   end
   # No zap stanza required
 

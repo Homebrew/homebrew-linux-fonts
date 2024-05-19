@@ -3,7 +3,7 @@ class FontRancho < Formula
   desc "Rancho"
   homepage "https://fonts.google.com/specimen/Rancho"
   def install
-    (share/"fonts").install "Rancho-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Rancho-Regular.ttf")[0]
   end
   # No zap stanza required
 

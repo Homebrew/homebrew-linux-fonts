@@ -3,7 +3,7 @@ class FontSpicyRice < Formula
   desc "Spicy Rice"
   homepage "https://fonts.google.com/specimen/Spicy+Rice"
   def install
-    (share/"fonts").install "SpicyRice-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/SpicyRice-Regular.ttf")[0]
   end
   # No zap stanza required
 

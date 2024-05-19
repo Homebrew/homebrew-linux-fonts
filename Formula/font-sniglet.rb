@@ -3,8 +3,8 @@ class FontSniglet < Formula
   desc "Sniglet"
   homepage "https://fonts.google.com/specimen/Sniglet"
   def install
-    (share/"fonts").install "ofl/sniglet/" + "Sniglet-ExtraBold.ttf"
-    (share/"fonts").install "ofl/sniglet/" + "Sniglet-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/sniglet/./**/Sniglet-ExtraBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sniglet/./**/Sniglet-Regular.ttf")[0]
   end
   # No zap stanza required
 

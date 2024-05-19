@@ -3,7 +3,7 @@ class FontNovaCut < Formula
   desc "Nova Cut"
   homepage "https://fonts.google.com/specimen/Nova+Cut"
   def install
-    (share/"fonts").install "NovaCut.ttf"
+    (share/"fonts").install Dir.glob("./**/NovaCut.ttf")[0]
   end
   # No zap stanza required
 

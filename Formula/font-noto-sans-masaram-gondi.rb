@@ -3,7 +3,7 @@ class FontNotoSansMasaramGondi < Formula
   desc "Noto Sans Masaram Gondi"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Masaram+Gondi"
   def install
-    (share/"fonts").install "NotoSansMasaramGondi-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansMasaramGondi-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -4,7 +4,7 @@ class FontFleurDeLeah < Formula
   desc "Formal script with a floral flavour"
   homepage "https://fonts.google.com/specimen/Fleur+De+Leah"
   def install
-    (share/"fonts").install "FleurDeLeah-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/FleurDeLeah-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -6,19 +6,18 @@ class FontMesloLgDz < Formula
   desc "Dotted-zero variant of the Meslo LG font"
   homepage "https://github.com/andreberg/Meslo-Font"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}Meslo LG DZ v#{version}/MesloLGLDZ-Bold.ttf"
-    (share/"fonts").install "#{parent}Meslo LG DZ v#{version}/MesloLGLDZ-BoldItalic.ttf"
-    (share/"fonts").install "#{parent}Meslo LG DZ v#{version}/MesloLGLDZ-Italic.ttf"
-    (share/"fonts").install "#{parent}Meslo LG DZ v#{version}/MesloLGLDZ-Regular.ttf"
-    (share/"fonts").install "#{parent}Meslo LG DZ v#{version}/MesloLGMDZ-Bold.ttf"
-    (share/"fonts").install "#{parent}Meslo LG DZ v#{version}/MesloLGMDZ-BoldItalic.ttf"
-    (share/"fonts").install "#{parent}Meslo LG DZ v#{version}/MesloLGMDZ-Italic.ttf"
-    (share/"fonts").install "#{parent}Meslo LG DZ v#{version}/MesloLGMDZ-Regular.ttf"
-    (share/"fonts").install "#{parent}Meslo LG DZ v#{version}/MesloLGSDZ-Bold.ttf"
-    (share/"fonts").install "#{parent}Meslo LG DZ v#{version}/MesloLGSDZ-BoldItalic.ttf"
-    (share/"fonts").install "#{parent}Meslo LG DZ v#{version}/MesloLGSDZ-Italic.ttf"
-    (share/"fonts").install "#{parent}Meslo LG DZ v#{version}/MesloLGSDZ-Regular.ttf"
+    (share/"fonts").install Dir.glob("Meslo LG DZ v#{version}/**/MesloLGLDZ-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("Meslo LG DZ v#{version}/**/MesloLGLDZ-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("Meslo LG DZ v#{version}/**/MesloLGLDZ-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("Meslo LG DZ v#{version}/**/MesloLGLDZ-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("Meslo LG DZ v#{version}/**/MesloLGMDZ-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("Meslo LG DZ v#{version}/**/MesloLGMDZ-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("Meslo LG DZ v#{version}/**/MesloLGMDZ-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("Meslo LG DZ v#{version}/**/MesloLGMDZ-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("Meslo LG DZ v#{version}/**/MesloLGSDZ-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("Meslo LG DZ v#{version}/**/MesloLGSDZ-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("Meslo LG DZ v#{version}/**/MesloLGSDZ-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("Meslo LG DZ v#{version}/**/MesloLGSDZ-Regular.ttf")[0]
   end
   # No zap stanza required
 

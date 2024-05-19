@@ -4,7 +4,7 @@ class FontAboreto < Formula
   desc "On the thinner side"
   homepage "https://fonts.google.com/specimen/Aboreto"
   def install
-    (share/"fonts").install "Aboreto-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Aboreto-Regular.ttf")[0]
   end
   # No zap stanza required
 

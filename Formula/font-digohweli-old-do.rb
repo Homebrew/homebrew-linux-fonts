@@ -3,7 +3,7 @@ class FontDigohweliOldDo < Formula
   desc "Digohweli Old DO"
   homepage "https://www.languagegeek.com/font/fontdownload.html"
   def install
-    (share/"fonts").install "OldDODigohweli.ttf"
+    (share/"fonts").install Dir.glob("./**/OldDODigohweli.ttf")[0]
   end
   # No zap stanza required
 

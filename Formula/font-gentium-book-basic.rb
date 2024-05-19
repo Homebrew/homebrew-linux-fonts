@@ -5,11 +5,10 @@ class FontGentiumBookBasic < Formula
   desc "Gentium Book Basic"
   homepage "https://software.sil.org/gentium/"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}GentiumBasic_#{version.to_s.gsub(".", "")}/GenBkBasB.ttf"
-    (share/"fonts").install "#{parent}GentiumBasic_#{version.to_s.gsub(".", "")}/GenBkBasBI.ttf"
-    (share/"fonts").install "#{parent}GentiumBasic_#{version.to_s.gsub(".", "")}/GenBkBasI.ttf"
-    (share/"fonts").install "#{parent}GentiumBasic_#{version.to_s.gsub(".", "")}/GenBkBasR.ttf"
+    (share/"fonts").install Dir.glob("GentiumBasic_#{version.to_s.gsub(".", "")}/**/GenBkBasB.ttf")[0]
+    (share/"fonts").install Dir.glob("GentiumBasic_#{version.to_s.gsub(".", "")}/**/GenBkBasBI.ttf")[0]
+    (share/"fonts").install Dir.glob("GentiumBasic_#{version.to_s.gsub(".", "")}/**/GenBkBasI.ttf")[0]
+    (share/"fonts").install Dir.glob("GentiumBasic_#{version.to_s.gsub(".", "")}/**/GenBkBasR.ttf")[0]
   end
   # No zap stanza required
 

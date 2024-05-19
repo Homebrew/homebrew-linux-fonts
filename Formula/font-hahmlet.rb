@@ -4,7 +4,7 @@ class FontHahmlet < Formula
   desc "Great for any kind of typesetting, print or screen"
   homepage "https://fonts.google.com/specimen/Hahmlet"
   def install
-    (share/"fonts").install "Hahmlet[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/Hahmlet\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

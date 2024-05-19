@@ -3,7 +3,7 @@ class FontEmilysCandy < Formula
   desc "Emilys Candy"
   homepage "https://fonts.google.com/specimen/Emilys+Candy"
   def install
-    (share/"fonts").install "EmilysCandy-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/EmilysCandy-Regular.ttf")[0]
   end
   # No zap stanza required
 

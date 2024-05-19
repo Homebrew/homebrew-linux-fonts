@@ -3,7 +3,7 @@ class FontArbutus < Formula
   desc "Arbutus"
   homepage "https://fonts.google.com/specimen/Arbutus"
   def install
-    (share/"fonts").install "Arbutus-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Arbutus-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -6,9 +6,8 @@ class FontMakinas4 < Formula
   desc "Emotionless straight-line-shape font"
   homepage "https://moji-waku.com/makinas/index.html"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}makinas4/Makinas-4-Flat.otf"
-    (share/"fonts").install "#{parent}makinas4/Makinas-4-Square.otf"
+    (share/"fonts").install Dir.glob("makinas4/**/Makinas-4-Flat.otf")[0]
+    (share/"fonts").install Dir.glob("makinas4/**/Makinas-4-Square.otf")[0]
   end
   # No zap stanza required
 

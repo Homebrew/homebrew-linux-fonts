@@ -3,10 +3,10 @@ class FontUbuntuMono < Formula
   desc "Ubuntu Mono"
   homepage "https://fonts.google.com/specimen/Ubuntu+Mono"
   def install
-    (share/"fonts").install "ufl/ubuntumono/" + "UbuntuMono-Bold.ttf"
-    (share/"fonts").install "ufl/ubuntumono/" + "UbuntuMono-BoldItalic.ttf"
-    (share/"fonts").install "ufl/ubuntumono/" + "UbuntuMono-Italic.ttf"
-    (share/"fonts").install "ufl/ubuntumono/" + "UbuntuMono-Regular.ttf"
+    (share/"fonts").install Dir.glob("ufl/ubuntumono/./**/UbuntuMono-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ufl/ubuntumono/./**/UbuntuMono-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ufl/ubuntumono/./**/UbuntuMono-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ufl/ubuntumono/./**/UbuntuMono-Regular.ttf")[0]
   end
   # No zap stanza required
 

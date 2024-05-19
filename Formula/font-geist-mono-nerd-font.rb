@@ -6,33 +6,33 @@ class FontGeistMonoNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "ofl/gayathri/" + "GeistMonoNerdFont-Black.otf"
-    (share/"fonts").install "ofl/gayathri/" + "GeistMonoNerdFont-Bold.otf"
-    (share/"fonts").install "ofl/gayathri/" + "GeistMonoNerdFont-Light.otf"
-    (share/"fonts").install "ofl/gayathri/" + "GeistMonoNerdFont-Medium.otf"
-    (share/"fonts").install "ofl/gayathri/" + "GeistMonoNerdFont-Regular.otf"
-    (share/"fonts").install "ofl/gayathri/" + "GeistMonoNerdFont-SemiBold.otf"
-    (share/"fonts").install "ofl/gayathri/" + "GeistMonoNerdFont-Thin.otf"
-    (share/"fonts").install "ofl/gayathri/" + "GeistMonoNerdFont-UltraBlack.otf"
-    (share/"fonts").install "ofl/gayathri/" + "GeistMonoNerdFont-UltraLight.otf"
-    (share/"fonts").install "ofl/gayathri/" + "GeistMonoNerdFontMono-Black.otf"
-    (share/"fonts").install "ofl/gayathri/" + "GeistMonoNerdFontMono-Bold.otf"
-    (share/"fonts").install "ofl/gayathri/" + "GeistMonoNerdFontMono-Light.otf"
-    (share/"fonts").install "ofl/gayathri/" + "GeistMonoNerdFontMono-Medium.otf"
-    (share/"fonts").install "ofl/gayathri/" + "GeistMonoNerdFontMono-Regular.otf"
-    (share/"fonts").install "ofl/gayathri/" + "GeistMonoNerdFontMono-SemiBold.otf"
-    (share/"fonts").install "ofl/gayathri/" + "GeistMonoNerdFontMono-Thin.otf"
-    (share/"fonts").install "ofl/gayathri/" + "GeistMonoNerdFontMono-UltraBlack.otf"
-    (share/"fonts").install "ofl/gayathri/" + "GeistMonoNerdFontMono-UltraLight.otf"
-    (share/"fonts").install "ofl/gayathri/" + "GeistMonoNerdFontPropo-Black.otf"
-    (share/"fonts").install "ofl/gayathri/" + "GeistMonoNerdFontPropo-Bold.otf"
-    (share/"fonts").install "ofl/gayathri/" + "GeistMonoNerdFontPropo-Light.otf"
-    (share/"fonts").install "ofl/gayathri/" + "GeistMonoNerdFontPropo-Medium.otf"
-    (share/"fonts").install "ofl/gayathri/" + "GeistMonoNerdFontPropo-Regular.otf"
-    (share/"fonts").install "ofl/gayathri/" + "GeistMonoNerdFontPropo-SemiBold.otf"
-    (share/"fonts").install "ofl/gayathri/" + "GeistMonoNerdFontPropo-Thin.otf"
-    (share/"fonts").install "ofl/gayathri/" + "GeistMonoNerdFontPropo-UltraBlack.otf"
-    (share/"fonts").install "ofl/gayathri/" + "GeistMonoNerdFontPropo-UltraLight.otf"
+    (share/"fonts").install Dir.glob("./**/GeistMonoNerdFont-Black.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GeistMonoNerdFont-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GeistMonoNerdFont-Light.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GeistMonoNerdFont-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GeistMonoNerdFont-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GeistMonoNerdFont-SemiBold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GeistMonoNerdFont-Thin.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GeistMonoNerdFont-UltraBlack.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GeistMonoNerdFont-UltraLight.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GeistMonoNerdFontMono-Black.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GeistMonoNerdFontMono-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GeistMonoNerdFontMono-Light.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GeistMonoNerdFontMono-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GeistMonoNerdFontMono-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GeistMonoNerdFontMono-SemiBold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GeistMonoNerdFontMono-Thin.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GeistMonoNerdFontMono-UltraBlack.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GeistMonoNerdFontMono-UltraLight.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GeistMonoNerdFontPropo-Black.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GeistMonoNerdFontPropo-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GeistMonoNerdFontPropo-Light.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GeistMonoNerdFontPropo-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GeistMonoNerdFontPropo-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GeistMonoNerdFontPropo-SemiBold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GeistMonoNerdFontPropo-Thin.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GeistMonoNerdFontPropo-UltraBlack.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GeistMonoNerdFontPropo-UltraLight.otf")[0]
   end
   # No zap stanza required
 

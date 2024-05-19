@@ -3,10 +3,10 @@ class FontVollkornSc < Formula
   desc "Vollkorn SC"
   homepage "https://fonts.google.com/specimen/Vollkorn+SC"
   def install
-    (share/"fonts").install "ofl/vollkornsc/" + "VollkornSC-Black.ttf"
-    (share/"fonts").install "ofl/vollkornsc/" + "VollkornSC-Bold.ttf"
-    (share/"fonts").install "ofl/vollkornsc/" + "VollkornSC-Regular.ttf"
-    (share/"fonts").install "ofl/vollkornsc/" + "VollkornSC-SemiBold.ttf"
+    (share/"fonts").install Dir.glob("ofl/vollkornsc/./**/VollkornSC-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/vollkornsc/./**/VollkornSC-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/vollkornsc/./**/VollkornSC-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/vollkornsc/./**/VollkornSC-SemiBold.ttf")[0]
   end
   # No zap stanza required
 

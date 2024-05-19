@@ -3,7 +3,7 @@ class FontNixieOne < Formula
   desc "Nixie One"
   homepage "https://fonts.google.com/specimen/Nixie+One"
   def install
-    (share/"fonts").install "NixieOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NixieOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

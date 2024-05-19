@@ -3,7 +3,7 @@ class FontMiaoUnicode < Formula
   desc "MiaoUnicode"
   homepage "https://phjamr.github.io/miao.html"
   def install
-    (share/"fonts").install "MiaoUnicode-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/MiaoUnicode-Regular.ttf")[0]
   end
   # No zap stanza required
 

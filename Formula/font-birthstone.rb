@@ -4,7 +4,7 @@ class FontBirthstone < Formula
   desc "Sibling birthstone bounce that includes caps and ending swashed forms"
   homepage "https://fonts.google.com/specimen/Birthstone"
   def install
-    (share/"fonts").install "Birthstone-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Birthstone-Regular.ttf")[0]
   end
   # No zap stanza required
 

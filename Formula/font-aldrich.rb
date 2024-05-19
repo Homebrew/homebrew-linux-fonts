@@ -3,7 +3,7 @@ class FontAldrich < Formula
   desc "Aldrich"
   homepage "https://fonts.google.com/specimen/Aldrich"
   def install
-    (share/"fonts").install "Aldrich-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Aldrich-Regular.ttf")[0]
   end
   # No zap stanza required
 

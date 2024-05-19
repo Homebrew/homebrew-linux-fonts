@@ -3,8 +3,8 @@ class FontRopaSans < Formula
   desc "Ropa Sans"
   homepage "https://fonts.google.com/specimen/Ropa+Sans"
   def install
-    (share/"fonts").install "ofl/ropasans/" + "RopaSans-Italic.ttf"
-    (share/"fonts").install "ofl/ropasans/" + "RopaSans-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/ropasans/./**/RopaSans-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ropasans/./**/RopaSans-Regular.ttf")[0]
   end
   # No zap stanza required
 

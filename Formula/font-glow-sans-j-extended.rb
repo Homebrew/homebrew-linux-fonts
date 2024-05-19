@@ -6,15 +6,15 @@ class FontGlowSansJExtended < Formula
   homepage "https://github.com/welai/glow-sans"
   deprecate! date: "2024-02-17", because: :unsupported
   def install
-    (share/"fonts").install "ofl/glory/" + "GlowSansJ-Extended-Bold.otf"
-    (share/"fonts").install "ofl/glory/" + "GlowSansJ-Extended-Book.otf"
-    (share/"fonts").install "ofl/glory/" + "GlowSansJ-Extended-ExtraBold.otf"
-    (share/"fonts").install "ofl/glory/" + "GlowSansJ-Extended-ExtraLight.otf"
-    (share/"fonts").install "ofl/glory/" + "GlowSansJ-Extended-Heavy.otf"
-    (share/"fonts").install "ofl/glory/" + "GlowSansJ-Extended-Light.otf"
-    (share/"fonts").install "ofl/glory/" + "GlowSansJ-Extended-Medium.otf"
-    (share/"fonts").install "ofl/glory/" + "GlowSansJ-Extended-Regular.otf"
-    (share/"fonts").install "ofl/glory/" + "GlowSansJ-Extended-Thin.otf"
+    (share/"fonts").install Dir.glob("./**/GlowSansJ-Extended-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GlowSansJ-Extended-Book.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GlowSansJ-Extended-ExtraBold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GlowSansJ-Extended-ExtraLight.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GlowSansJ-Extended-Heavy.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GlowSansJ-Extended-Light.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GlowSansJ-Extended-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GlowSansJ-Extended-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GlowSansJ-Extended-Thin.otf")[0]
   end
   # No zap stanza required
 

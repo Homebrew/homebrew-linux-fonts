@@ -5,17 +5,16 @@ class FontProzaLibre < Formula
   desc "Proza Libre"
   homepage "https://github.com/jasperdewaard/Proza-Libre"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}Proza-Libre-#{version}/Fonts/ProzaLibre-Bold.ttf"
-    (share/"fonts").install "#{parent}Proza-Libre-#{version}/Fonts/ProzaLibre-BoldItalic.ttf"
-    (share/"fonts").install "#{parent}Proza-Libre-#{version}/Fonts/ProzaLibre-ExtraBold.ttf"
-    (share/"fonts").install "#{parent}Proza-Libre-#{version}/Fonts/ProzaLibre-ExtraBoldItalic.ttf"
-    (share/"fonts").install "#{parent}Proza-Libre-#{version}/Fonts/ProzaLibre-Italic.ttf"
-    (share/"fonts").install "#{parent}Proza-Libre-#{version}/Fonts/ProzaLibre-Medium.ttf"
-    (share/"fonts").install "#{parent}Proza-Libre-#{version}/Fonts/ProzaLibre-MediumItalic.ttf"
-    (share/"fonts").install "#{parent}Proza-Libre-#{version}/Fonts/ProzaLibre-Regular.ttf"
-    (share/"fonts").install "#{parent}Proza-Libre-#{version}/Fonts/ProzaLibre-SemiBold.ttf"
-    (share/"fonts").install "#{parent}Proza-Libre-#{version}/Fonts/ProzaLibre-SemiBoldItalic.ttf"
+    (share/"fonts").install Dir.glob("Proza-Libre-#{version}/Fonts/**/ProzaLibre-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("Proza-Libre-#{version}/Fonts/**/ProzaLibre-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("Proza-Libre-#{version}/Fonts/**/ProzaLibre-ExtraBold.ttf")[0]
+    (share/"fonts").install Dir.glob("Proza-Libre-#{version}/Fonts/**/ProzaLibre-ExtraBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("Proza-Libre-#{version}/Fonts/**/ProzaLibre-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("Proza-Libre-#{version}/Fonts/**/ProzaLibre-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("Proza-Libre-#{version}/Fonts/**/ProzaLibre-MediumItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("Proza-Libre-#{version}/Fonts/**/ProzaLibre-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("Proza-Libre-#{version}/Fonts/**/ProzaLibre-SemiBold.ttf")[0]
+    (share/"fonts").install Dir.glob("Proza-Libre-#{version}/Fonts/**/ProzaLibre-SemiBoldItalic.ttf")[0]
   end
   # No zap stanza required
 

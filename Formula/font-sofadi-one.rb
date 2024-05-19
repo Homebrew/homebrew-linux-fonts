@@ -3,7 +3,7 @@ class FontSofadiOne < Formula
   desc "Sofadi One"
   homepage "https://fonts.google.com/specimen/Sofadi+One"
   def install
-    (share/"fonts").install "SofadiOne-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/SofadiOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

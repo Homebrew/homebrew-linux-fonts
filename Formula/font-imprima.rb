@@ -3,7 +3,7 @@ class FontImprima < Formula
   desc "Imprima"
   homepage "https://fonts.google.com/specimen/Imprima"
   def install
-    (share/"fonts").install "Imprima-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Imprima-Regular.ttf")[0]
   end
   # No zap stanza required
 

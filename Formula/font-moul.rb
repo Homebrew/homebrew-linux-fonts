@@ -3,7 +3,7 @@ class FontMoul < Formula
   desc "Moul"
   homepage "https://fonts.google.com/specimen/Moul"
   def install
-    (share/"fonts").install "Moul-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Moul-Regular.ttf")[0]
   end
   # No zap stanza required
 

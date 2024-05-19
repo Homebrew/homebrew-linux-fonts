@@ -3,11 +3,10 @@ class FontLuculent < Formula
   desc "Luculent"
   homepage "http://eastfarthing.com/luculent/"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}luculent/luculent.ttf"
-    (share/"fonts").install "#{parent}luculent/luculentb.ttf"
-    (share/"fonts").install "#{parent}luculent/luculentbi.ttf"
-    (share/"fonts").install "#{parent}luculent/luculenti.ttf"
+    (share/"fonts").install Dir.glob("luculent/**/luculent.ttf")[0]
+    (share/"fonts").install Dir.glob("luculent/**/luculentb.ttf")[0]
+    (share/"fonts").install Dir.glob("luculent/**/luculentbi.ttf")[0]
+    (share/"fonts").install Dir.glob("luculent/**/luculenti.ttf")[0]
   end
   # No zap stanza required
 

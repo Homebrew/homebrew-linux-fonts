@@ -4,19 +4,18 @@ class FontSfMonoForPowerline < Formula
   desc "Apple's SF Mono font patched with the Nerd Fonts patcher for Powerline support"
   homepage "https://github.com/Twixes/SF-Mono-Powerline"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}SF-Mono-Powerline-master/SF-Mono-Powerline-Bold.otf"
-    (share/"fonts").install "#{parent}SF-Mono-Powerline-master/SF-Mono-Powerline-BoldItalic.otf"
-    (share/"fonts").install "#{parent}SF-Mono-Powerline-master/SF-Mono-Powerline-Heavy.otf"
-    (share/"fonts").install "#{parent}SF-Mono-Powerline-master/SF-Mono-Powerline-HeavyItalic.otf"
-    (share/"fonts").install "#{parent}SF-Mono-Powerline-master/SF-Mono-Powerline-Light.otf"
-    (share/"fonts").install "#{parent}SF-Mono-Powerline-master/SF-Mono-Powerline-LightItalic.otf"
-    (share/"fonts").install "#{parent}SF-Mono-Powerline-master/SF-Mono-Powerline-Medium.otf"
-    (share/"fonts").install "#{parent}SF-Mono-Powerline-master/SF-Mono-Powerline-MediumItalic.otf"
-    (share/"fonts").install "#{parent}SF-Mono-Powerline-master/SF-Mono-Powerline-Regular.otf"
-    (share/"fonts").install "#{parent}SF-Mono-Powerline-master/SF-Mono-Powerline-RegularItalic.otf"
-    (share/"fonts").install "#{parent}SF-Mono-Powerline-master/SF-Mono-Powerline-Semibold.otf"
-    (share/"fonts").install "#{parent}SF-Mono-Powerline-master/SF-Mono-Powerline-SemiboldItalic.otf"
+    (share/"fonts").install Dir.glob("SF-Mono-Powerline-master/**/SF-Mono-Powerline-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("SF-Mono-Powerline-master/**/SF-Mono-Powerline-BoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("SF-Mono-Powerline-master/**/SF-Mono-Powerline-Heavy.otf")[0]
+    (share/"fonts").install Dir.glob("SF-Mono-Powerline-master/**/SF-Mono-Powerline-HeavyItalic.otf")[0]
+    (share/"fonts").install Dir.glob("SF-Mono-Powerline-master/**/SF-Mono-Powerline-Light.otf")[0]
+    (share/"fonts").install Dir.glob("SF-Mono-Powerline-master/**/SF-Mono-Powerline-LightItalic.otf")[0]
+    (share/"fonts").install Dir.glob("SF-Mono-Powerline-master/**/SF-Mono-Powerline-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("SF-Mono-Powerline-master/**/SF-Mono-Powerline-MediumItalic.otf")[0]
+    (share/"fonts").install Dir.glob("SF-Mono-Powerline-master/**/SF-Mono-Powerline-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("SF-Mono-Powerline-master/**/SF-Mono-Powerline-RegularItalic.otf")[0]
+    (share/"fonts").install Dir.glob("SF-Mono-Powerline-master/**/SF-Mono-Powerline-Semibold.otf")[0]
+    (share/"fonts").install Dir.glob("SF-Mono-Powerline-master/**/SF-Mono-Powerline-SemiboldItalic.otf")[0]
   end
   # No zap stanza required
 

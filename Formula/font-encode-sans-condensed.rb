@@ -3,15 +3,15 @@ class FontEncodeSansCondensed < Formula
   desc "Encode Sans Condensed"
   homepage "https://fonts.google.com/specimen/Encode+Sans+Condensed"
   def install
-    (share/"fonts").install "ofl/encodesanscondensed/" + "EncodeSansCondensed-Black.ttf"
-    (share/"fonts").install "ofl/encodesanscondensed/" + "EncodeSansCondensed-Bold.ttf"
-    (share/"fonts").install "ofl/encodesanscondensed/" + "EncodeSansCondensed-ExtraBold.ttf"
-    (share/"fonts").install "ofl/encodesanscondensed/" + "EncodeSansCondensed-ExtraLight.ttf"
-    (share/"fonts").install "ofl/encodesanscondensed/" + "EncodeSansCondensed-Light.ttf"
-    (share/"fonts").install "ofl/encodesanscondensed/" + "EncodeSansCondensed-Medium.ttf"
-    (share/"fonts").install "ofl/encodesanscondensed/" + "EncodeSansCondensed-Regular.ttf"
-    (share/"fonts").install "ofl/encodesanscondensed/" + "EncodeSansCondensed-SemiBold.ttf"
-    (share/"fonts").install "ofl/encodesanscondensed/" + "EncodeSansCondensed-Thin.ttf"
+    (share/"fonts").install Dir.glob("ofl/encodesanscondensed/./**/EncodeSansCondensed-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/encodesanscondensed/./**/EncodeSansCondensed-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/encodesanscondensed/./**/EncodeSansCondensed-ExtraBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/encodesanscondensed/./**/EncodeSansCondensed-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/encodesanscondensed/./**/EncodeSansCondensed-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/encodesanscondensed/./**/EncodeSansCondensed-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/encodesanscondensed/./**/EncodeSansCondensed-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/encodesanscondensed/./**/EncodeSansCondensed-SemiBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/encodesanscondensed/./**/EncodeSansCondensed-Thin.ttf")[0]
   end
   # No zap stanza required
 

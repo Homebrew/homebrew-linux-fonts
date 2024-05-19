@@ -3,7 +3,7 @@ class FontTrocchi < Formula
   desc "Trocchi"
   homepage "https://fonts.google.com/specimen/Trocchi"
   def install
-    (share/"fonts").install "Trocchi-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/Trocchi-Regular.ttf")[0]
   end
   # No zap stanza required
 

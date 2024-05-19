@@ -3,9 +3,9 @@ class FontFiraMono < Formula
   desc "Fira Mono"
   homepage "https://fonts.google.com/specimen/Fira+Mono"
   def install
-    (share/"fonts").install "ofl/firamono/" + "FiraMono-Bold.ttf"
-    (share/"fonts").install "ofl/firamono/" + "FiraMono-Medium.ttf"
-    (share/"fonts").install "ofl/firamono/" + "FiraMono-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/firamono/./**/FiraMono-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/firamono/./**/FiraMono-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/firamono/./**/FiraMono-Regular.ttf")[0]
   end
   # No zap stanza required
 

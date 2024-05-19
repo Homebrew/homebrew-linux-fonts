@@ -4,7 +4,7 @@ class FontNotoSerifHk < Formula
   desc "Variable font with a weight axis ranging from extralight to extrablack"
   homepage "https://fonts.google.com/specimen/Noto+Serif+HK"
   def install
-    (share/"fonts").install "NotoSerifHK[wght].ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSerifHK\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

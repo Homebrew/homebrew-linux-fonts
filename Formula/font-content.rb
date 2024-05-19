@@ -3,8 +3,8 @@ class FontContent < Formula
   desc "Content"
   homepage "https://fonts.google.com/specimen/Content"
   def install
-    (share/"fonts").install "ofl/content/" + "Content-Bold.ttf"
-    (share/"fonts").install "ofl/content/" + "Content-Regular.ttf"
+    (share/"fonts").install Dir.glob("ofl/content/./**/Content-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/content/./**/Content-Regular.ttf")[0]
   end
   # No zap stanza required
 

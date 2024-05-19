@@ -3,10 +3,10 @@ class FontHarmattan < Formula
   desc "Harmattan"
   homepage "https://fonts.google.com/specimen/Harmattan"
   def install
-    (share/"fonts").install "ofl/harmattan/" + "Harmattan-Bold.ttf"
-    (share/"fonts").install "ofl/harmattan/" + "Harmattan-Medium.ttf"
-    (share/"fonts").install "ofl/harmattan/" + "Harmattan-Regular.ttf"
-    (share/"fonts").install "ofl/harmattan/" + "Harmattan-SemiBold.ttf"
+    (share/"fonts").install Dir.glob("ofl/harmattan/./**/Harmattan-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/harmattan/./**/Harmattan-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/harmattan/./**/Harmattan-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/harmattan/./**/Harmattan-SemiBold.ttf")[0]
   end
   # No zap stanza required
 

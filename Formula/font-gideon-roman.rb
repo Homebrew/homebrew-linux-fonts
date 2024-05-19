@@ -3,7 +3,7 @@ class FontGideonRoman < Formula
   desc "Gideon Roman"
   homepage "https://fonts.google.com/specimen/Gideon+Roman"
   def install
-    (share/"fonts").install "GideonRoman-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/GideonRoman-Regular.ttf")[0]
   end
   # No zap stanza required
 

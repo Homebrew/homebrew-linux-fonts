@@ -5,8 +5,7 @@ class FontScheherazade < Formula
   desc "Scheherazade "
   homepage "https://scripts.sil.org/Scheherazade"
   def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}Scheherazade-#{version}/Scheherazade-R.ttf"
+    (share/"fonts").install Dir.glob("Scheherazade-#{version}/**/Scheherazade-R.ttf")[0]
   end
   # No zap stanza required
 

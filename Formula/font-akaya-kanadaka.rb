@@ -3,7 +3,7 @@ class FontAkayaKanadaka < Formula
   desc "Akaya Kanadaka"
   homepage "https://fonts.google.com/specimen/Akaya+Kanadaka"
   def install
-    (share/"fonts").install "AkayaKanadaka-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/AkayaKanadaka-Regular.ttf")[0]
   end
   # No zap stanza required
 

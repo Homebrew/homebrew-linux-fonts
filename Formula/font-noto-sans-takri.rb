@@ -3,7 +3,7 @@ class FontNotoSansTakri < Formula
   desc "Noto Sans Takri"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Takri"
   def install
-    (share/"fonts").install "NotoSansTakri-Regular.ttf"
+    (share/"fonts").install Dir.glob("./**/NotoSansTakri-Regular.ttf")[0]
   end
   # No zap stanza required
 
