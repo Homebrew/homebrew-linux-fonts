@@ -4,7 +4,7 @@ class FontNotoSansNagMundari < Formula
   desc "Design for the indic nag mundari script"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Nag+Mundari"
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSansNagMundari[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansNagMundari\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

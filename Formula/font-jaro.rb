@@ -4,7 +4,7 @@ class FontJaro < Formula
   desc "Global display typeface inspired by the work of jaroslav benda"
   homepage "https://fonts.google.com/specimen/Jaro"
   def install
-    (share/"fonts").install Dir.glob("./**/Jaro[opsz].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Jaro\\[opsz\\].ttf")[0]
   end
   # No zap stanza required
 

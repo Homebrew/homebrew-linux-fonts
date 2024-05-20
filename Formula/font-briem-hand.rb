@@ -4,7 +4,7 @@ class FontBriemHand < Formula
   desc "Modern adaptation of sixteenth-century chancery cursive"
   homepage "https://fonts.google.com/specimen/Briem+Hand"
   def install
-    (share/"fonts").install Dir.glob("./**/BriemHand[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/BriemHand\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

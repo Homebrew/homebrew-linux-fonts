@@ -3,7 +3,7 @@ class FontAnekKannada < Formula
   desc "Anek Kannada"
   homepage "https://fonts.google.com/specimen/Anek+Kannada"
   def install
-    (share/"fonts").install Dir.glob("./**/AnekKannada[wdth,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/AnekKannada\\[wdth,wght\\].ttf")[0]
   end
   # No zap stanza required
 

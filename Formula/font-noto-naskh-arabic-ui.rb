@@ -3,7 +3,7 @@ class FontNotoNaskhArabicUi < Formula
   desc "Noto Naskh Arabic UI"
   homepage "https://fonts.google.com/specimen/Noto+Naskh+Arabic+UI"
   def install
-    (share/"fonts").install Dir.glob("./**/NotoNaskhArabicUI[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoNaskhArabicUI\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

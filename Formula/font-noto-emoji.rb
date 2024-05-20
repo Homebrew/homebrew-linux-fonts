@@ -3,7 +3,7 @@ class FontNotoEmoji < Formula
   desc "Noto Emoji"
   homepage "https://fonts.google.com/specimen/Noto+Emoji"
   def install
-    (share/"fonts").install Dir.glob("./**/NotoEmoji[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoEmoji\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

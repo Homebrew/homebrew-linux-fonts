@@ -3,7 +3,7 @@ class FontBalooThambi2 < Formula
   desc "Baloo Thambi 2"
   homepage "https://fonts.google.com/specimen/Baloo+Thambi+2"
   def install
-    (share/"fonts").install Dir.glob("./**/BalooThambi2[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/BalooThambi2\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

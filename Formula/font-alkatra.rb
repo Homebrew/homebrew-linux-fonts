@@ -4,7 +4,7 @@ class FontAlkatra < Formula
   desc "Display typeface family"
   homepage "https://fonts.google.com/specimen/Alkatra"
   def install
-    (share/"fonts").install Dir.glob("./**/Alkatra[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Alkatra\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

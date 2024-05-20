@@ -4,9 +4,9 @@ class FontKarantina < Formula
   desc "Three weight family that includes - light, regular and bold"
   homepage "https://fonts.google.com/specimen/Karantina"
   def install
-    (share/"fonts").install Dir.glob(""ofl/karantina/" + ./**/Karantina-Bold.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/karantina/" + ./**/Karantina-Light.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/karantina/" + ./**/Karantina-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/karantina/./**/Karantina-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/karantina/./**/Karantina-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/karantina/./**/Karantina-Regular.ttf")[0]
   end
   # No zap stanza required
 

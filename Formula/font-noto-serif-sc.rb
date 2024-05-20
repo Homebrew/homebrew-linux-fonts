@@ -4,7 +4,7 @@ class FontNotoSerifSc < Formula
   desc "Modulated (“serif”) design for simplified chinese"
   homepage "https://fonts.google.com/specimen/Noto+Serif+SC"
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSerifSC[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSerifSC\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

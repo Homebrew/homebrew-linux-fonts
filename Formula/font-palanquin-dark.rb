@@ -3,10 +3,10 @@ class FontPalanquinDark < Formula
   desc "Palanquin Dark"
   homepage "https://fonts.google.com/specimen/Palanquin+Dark"
   def install
-    (share/"fonts").install Dir.glob(""ofl/palanquindark/" + ./**/PalanquinDark-Bold.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/palanquindark/" + ./**/PalanquinDark-Medium.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/palanquindark/" + ./**/PalanquinDark-Regular.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/palanquindark/" + ./**/PalanquinDark-SemiBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/palanquindark/./**/PalanquinDark-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/palanquindark/./**/PalanquinDark-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/palanquindark/./**/PalanquinDark-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/palanquindark/./**/PalanquinDark-SemiBold.ttf")[0]
   end
   # No zap stanza required
 

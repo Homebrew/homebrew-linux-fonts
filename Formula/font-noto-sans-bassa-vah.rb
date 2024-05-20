@@ -3,7 +3,7 @@ class FontNotoSansBassaVah < Formula
   desc "Noto Sans Bassa Vah"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Bassa+Vah"
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSansBassaVah[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansBassaVah\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

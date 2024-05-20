@@ -3,7 +3,7 @@ class FontGolosText < Formula
   desc "Golos Text"
   homepage "https://fonts.google.com/specimen/Golos+Text"
   def install
-    (share/"fonts").install Dir.glob("./**/GolosText[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GolosText\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

@@ -5,10 +5,10 @@ class FontFantasqueSansMono < Formula
   desc "Fantasque Sans Mono"
   homepage "https://github.com/belluzj/fantasque-sans"
   def install
-    (share/"fonts").install Dir.glob(""ofl/familjengrotesk/" + OTF/**/FantasqueSansMono-Bold.otf")[0]
-    (share/"fonts").install Dir.glob(""ofl/familjengrotesk/" + OTF/**/FantasqueSansMono-BoldItalic.otf")[0]
-    (share/"fonts").install Dir.glob(""ofl/familjengrotesk/" + OTF/**/FantasqueSansMono-Italic.otf")[0]
-    (share/"fonts").install Dir.glob(""ofl/familjengrotesk/" + OTF/**/FantasqueSansMono-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/**/FantasqueSansMono-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/**/FantasqueSansMono-BoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/**/FantasqueSansMono-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("OTF/**/FantasqueSansMono-Regular.otf")[0]
   end
   # No zap stanza required
 

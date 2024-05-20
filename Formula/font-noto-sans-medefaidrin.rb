@@ -3,7 +3,7 @@ class FontNotoSansMedefaidrin < Formula
   desc "Noto Sans Medefaidrin"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Medefaidrin"
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSansMedefaidrin[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansMedefaidrin\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

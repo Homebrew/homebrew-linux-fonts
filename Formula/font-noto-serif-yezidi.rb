@@ -3,7 +3,7 @@ class FontNotoSerifYezidi < Formula
   desc "Noto Serif Yezidi"
   homepage "https://fonts.google.com/specimen/Noto+Serif+Yezidi"
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSerifYezidi[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSerifYezidi\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

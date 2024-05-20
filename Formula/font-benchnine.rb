@@ -3,9 +3,9 @@ class FontBenchnine < Formula
   desc "BenchNine"
   homepage "https://fonts.google.com/specimen/BenchNine"
   def install
-    (share/"fonts").install Dir.glob(""ofl/benchnine/" + ./**/BenchNine-Bold.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/benchnine/" + ./**/BenchNine-Light.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/benchnine/" + ./**/BenchNine-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/benchnine/./**/BenchNine-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/benchnine/./**/BenchNine-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/benchnine/./**/BenchNine-Regular.ttf")[0]
   end
   # No zap stanza required
 

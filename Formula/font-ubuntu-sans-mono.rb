@@ -3,8 +3,8 @@ class FontUbuntuSansMono < Formula
   desc "Ubuntu Sans Mono"
   homepage "https://fonts.google.com/specimen/Ubuntu+Sans+Mono"
   def install
-    (share/"fonts").install Dir.glob(""ufl/ubuntusansmono/" + ./**/UbuntuSansMono-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob(""ufl/ubuntusansmono/" + ./**/UbuntuSansMono[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ufl/ubuntusansmono/./**/UbuntuSansMono-Italic\\[wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("ufl/ubuntusansmono/./**/UbuntuSansMono\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

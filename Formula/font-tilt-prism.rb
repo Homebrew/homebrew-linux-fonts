@@ -3,7 +3,7 @@ class FontTiltPrism < Formula
   desc "Tilt Prism"
   homepage "https://fonts.google.com/specimen/Tilt+Prism"
   def install
-    (share/"fonts").install Dir.glob("./**/TiltPrism[XROT,YROT].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/TiltPrism\\[XROT,YROT\\].ttf")[0]
   end
   # No zap stanza required
 

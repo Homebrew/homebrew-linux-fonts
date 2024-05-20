@@ -3,7 +3,7 @@ class FontGrenzeGotisch < Formula
   desc "Grenze Gotisch"
   homepage "https://fonts.google.com/specimen/Grenze+Gotisch"
   def install
-    (share/"fonts").install Dir.glob("./**/GrenzeGotisch[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GrenzeGotisch\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

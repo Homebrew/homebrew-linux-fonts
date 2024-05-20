@@ -3,7 +3,7 @@ class FontMada < Formula
   desc "Mada"
   homepage "https://fonts.google.com/specimen/Mada"
   def install
-    (share/"fonts").install Dir.glob("./**/Mada[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Mada\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

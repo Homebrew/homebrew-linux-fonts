@@ -3,7 +3,7 @@ class FontEczar < Formula
   desc "Eczar"
   homepage "https://fonts.google.com/specimen/Eczar"
   def install
-    (share/"fonts").install Dir.glob("./**/Eczar[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Eczar\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

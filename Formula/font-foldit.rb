@@ -4,7 +4,7 @@ class FontFoldit < Formula
   desc "Font which uses gradients to play with dimension and sense of space"
   homepage "https://fonts.google.com/specimen/Foldit"
   def install
-    (share/"fonts").install Dir.glob("./**/Foldit[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Foldit\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

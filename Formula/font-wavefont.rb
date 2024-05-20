@@ -4,7 +4,7 @@ class FontWavefont < Formula
   desc "Useful to adjust distance between bars, 1ch === 1 bar width"
   homepage "https://fonts.google.com/specimen/Wavefont"
   def install
-    (share/"fonts").install Dir.glob("./**/Wavefont[ROND,YELA,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Wavefont\\[ROND,YELA,wght\\].ttf")[0]
   end
   # No zap stanza required
 

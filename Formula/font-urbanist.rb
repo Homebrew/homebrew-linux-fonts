@@ -24,7 +24,7 @@ class FontUrbanist < Formula
     (share/"fonts").install Dir.glob("Urbanist-fonts/fonts/otf/**/Urbanist-SemiBoldItalic.otf")[0]
     (share/"fonts").install Dir.glob("Urbanist-fonts/fonts/otf/**/Urbanist-Thin.otf")[0]
     (share/"fonts").install Dir.glob("Urbanist-fonts/fonts/otf/**/Urbanist-ThinItalic.otf")[0]
-    (share/"fonts").install Dir.glob("Urbanist-fonts/fonts/variable/**/Urbanist[ital,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("Urbanist-fonts/fonts/variable/**/Urbanist\\[ital,wght\\].ttf")[0]
   end
   # No zap stanza required
 

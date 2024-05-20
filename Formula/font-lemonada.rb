@@ -3,7 +3,7 @@ class FontLemonada < Formula
   desc "Lemonada"
   homepage "https://fonts.google.com/specimen/Lemonada"
   def install
-    (share/"fonts").install Dir.glob("./**/Lemonada[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Lemonada\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

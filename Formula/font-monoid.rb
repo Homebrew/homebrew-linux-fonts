@@ -4,10 +4,10 @@ class FontMonoid < Formula
   desc "Monoid"
   homepage "https://larsenwork.com/monoid/"
   def install
-    (share/"fonts").install Dir.glob(""Monofur/" + ./**/Monoid-Bold.ttf")[0]
-    (share/"fonts").install Dir.glob(""Monofur/" + ./**/Monoid-Italic.ttf")[0]
-    (share/"fonts").install Dir.glob(""Monofur/" + ./**/Monoid-Regular.ttf")[0]
-    (share/"fonts").install Dir.glob(""Monofur/" + ./**/Monoid-Retina.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Monoid-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Monoid-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Monoid-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Monoid-Retina.ttf")[0]
   end
   def creavat; <<~EOS
     #{token} only installs the Normal Weight, Medium LineHeight, with Ligatures variant.

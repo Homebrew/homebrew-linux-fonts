@@ -3,7 +3,7 @@ class FontMonda < Formula
   desc "Monda"
   homepage "https://fonts.google.com/specimen/Monda"
   def install
-    (share/"fonts").install Dir.glob("./**/Monda[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Monda\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

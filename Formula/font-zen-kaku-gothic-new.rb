@@ -4,11 +4,11 @@ class FontZenKakuGothicNew < Formula
   desc "Classical yet simple and stylish version"
   homepage "https://fonts.google.com/specimen/Zen+Kaku+Gothic+New"
   def install
-    (share/"fonts").install Dir.glob(""ofl/zenkakugothicnew/" + ./**/ZenKakuGothicNew-Black.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/zenkakugothicnew/" + ./**/ZenKakuGothicNew-Bold.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/zenkakugothicnew/" + ./**/ZenKakuGothicNew-Light.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/zenkakugothicnew/" + ./**/ZenKakuGothicNew-Medium.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/zenkakugothicnew/" + ./**/ZenKakuGothicNew-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/zenkakugothicnew/./**/ZenKakuGothicNew-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/zenkakugothicnew/./**/ZenKakuGothicNew-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/zenkakugothicnew/./**/ZenKakuGothicNew-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/zenkakugothicnew/./**/ZenKakuGothicNew-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/zenkakugothicnew/./**/ZenKakuGothicNew-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,8 +3,8 @@ class FontExo < Formula
   desc "Exo"
   homepage "https://fonts.google.com/specimen/Exo"
   def install
-    (share/"fonts").install Dir.glob(""ofl/exo/" + ./**/Exo-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/exo/" + ./**/Exo[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/exo/./**/Exo-Italic\\[wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/exo/./**/Exo\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

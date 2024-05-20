@@ -3,7 +3,7 @@ class FontPodkova < Formula
   desc "Podkova"
   homepage "https://fonts.google.com/specimen/Podkova"
   def install
-    (share/"fonts").install Dir.glob("./**/Podkova[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Podkova\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontInconsolata < Formula
   desc "Inconsolata"
   homepage "https://fonts.google.com/specimen/Inconsolata"
   def install
-    (share/"fonts").install Dir.glob("./**/Inconsolata[wdth,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Inconsolata\\[wdth,wght\\].ttf")[0]
   end
   # No zap stanza required
 

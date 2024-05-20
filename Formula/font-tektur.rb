@@ -4,7 +4,7 @@ class FontTektur < Formula
   desc "Set high allowing for compact typesetting"
   homepage "https://fonts.google.com/specimen/Tektur"
   def install
-    (share/"fonts").install Dir.glob("./**/Tektur[wdth,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Tektur\\[wdth,wght\\].ttf")[0]
   end
   # No zap stanza required
 

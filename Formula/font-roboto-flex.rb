@@ -3,7 +3,7 @@ class FontRobotoFlex < Formula
   desc "Roboto Flex"
   homepage "https://fonts.google.com/specimen/Roboto+Flex"
   def install
-    (share/"fonts").install Dir.glob("./**/RobotoFlex[GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RobotoFlex\\[GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght\\].ttf")[0]
   end
   # No zap stanza required
 

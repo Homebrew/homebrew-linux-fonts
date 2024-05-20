@@ -3,7 +3,7 @@ class FontNotoSansSyriac < Formula
   desc "Noto Sans Syriac"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Syriac"
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSansSyriac[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansSyriac\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

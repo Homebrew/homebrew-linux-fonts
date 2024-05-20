@@ -3,7 +3,7 @@ class FontSignikaNegative < Formula
   desc "Signika Negative"
   homepage "https://fonts.google.com/specimen/Signika+Negative"
   def install
-    (share/"fonts").install Dir.glob("./**/SignikaNegative[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/SignikaNegative\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

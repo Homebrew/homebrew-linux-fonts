@@ -4,7 +4,7 @@ class FontNotoSansKawi < Formula
   desc "Design for the historical southeast asian kawi script"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Kawi"
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSansKawi[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansKawi\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

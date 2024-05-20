@@ -6,18 +6,18 @@ class FontUbuntuMonoNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install Dir.glob(""UbuntuMono/" + ./**/UbuntuMonoNerdFont-Bold.ttf")[0]
-    (share/"fonts").install Dir.glob(""UbuntuMono/" + ./**/UbuntuMonoNerdFont-BoldItalic.ttf")[0]
-    (share/"fonts").install Dir.glob(""UbuntuMono/" + ./**/UbuntuMonoNerdFont-Italic.ttf")[0]
-    (share/"fonts").install Dir.glob(""UbuntuMono/" + ./**/UbuntuMonoNerdFont-Regular.ttf")[0]
-    (share/"fonts").install Dir.glob(""UbuntuMono/" + ./**/UbuntuMonoNerdFontMono-Bold.ttf")[0]
-    (share/"fonts").install Dir.glob(""UbuntuMono/" + ./**/UbuntuMonoNerdFontMono-BoldItalic.ttf")[0]
-    (share/"fonts").install Dir.glob(""UbuntuMono/" + ./**/UbuntuMonoNerdFontMono-Italic.ttf")[0]
-    (share/"fonts").install Dir.glob(""UbuntuMono/" + ./**/UbuntuMonoNerdFontMono-Regular.ttf")[0]
-    (share/"fonts").install Dir.glob(""UbuntuMono/" + ./**/UbuntuMonoNerdFontPropo-Bold.ttf")[0]
-    (share/"fonts").install Dir.glob(""UbuntuMono/" + ./**/UbuntuMonoNerdFontPropo-BoldItalic.ttf")[0]
-    (share/"fonts").install Dir.glob(""UbuntuMono/" + ./**/UbuntuMonoNerdFontPropo-Italic.ttf")[0]
-    (share/"fonts").install Dir.glob(""UbuntuMono/" + ./**/UbuntuMonoNerdFontPropo-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuMonoNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuMonoNerdFont-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuMonoNerdFont-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuMonoNerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuMonoNerdFontMono-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuMonoNerdFontMono-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuMonoNerdFontMono-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuMonoNerdFontMono-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuMonoNerdFontPropo-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuMonoNerdFontPropo-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuMonoNerdFontPropo-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuMonoNerdFontPropo-Regular.ttf")[0]
   end
   # No zap stanza required
 

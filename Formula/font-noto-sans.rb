@@ -6,8 +6,8 @@ class FontNotoSans < Formula
   desc "Sans-serif variable font"
   homepage "https://notofonts.github.io/"
   def install
-    (share/"fonts").install Dir.glob("NotoSans/unhinted/variable/**/NotoSans-Italic[wdth,wght].ttf")[0]
-    (share/"fonts").install Dir.glob("NotoSans/unhinted/variable/**/NotoSans[wdth,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("NotoSans/unhinted/variable/**/NotoSans-Italic\\[wdth,wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("NotoSans/unhinted/variable/**/NotoSans\\[wdth,wght\\].ttf")[0]
     (share/"fonts").install Dir.glob("NotoSans/unhinted/ttf/**/NotoSans-Black.ttf")[0]
     (share/"fonts").install Dir.glob("NotoSans/unhinted/ttf/**/NotoSans-BlackItalic.ttf")[0]
     (share/"fonts").install Dir.glob("NotoSans/unhinted/ttf/**/NotoSans-Bold.ttf")[0]

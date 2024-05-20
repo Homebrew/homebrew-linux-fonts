@@ -4,7 +4,7 @@ class FontGluten < Formula
   desc "Filling, we'll put it that way"
   homepage "https://fonts.google.com/specimen/Gluten"
   def install
-    (share/"fonts").install Dir.glob("./**/Gluten[slnt,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Gluten\\[slnt,wght\\].ttf")[0]
   end
   # No zap stanza required
 

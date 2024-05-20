@@ -4,8 +4,8 @@ class FontTiroTelugu < Formula
   desc "Especially suited to traditional literary publishing"
   homepage "https://fonts.google.com/specimen/Tiro+Telugu"
   def install
-    (share/"fonts").install Dir.glob(""ofl/tirotelugu/" + ./**/TiroTelugu-Italic.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/tirotelugu/" + ./**/TiroTelugu-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/tirotelugu/./**/TiroTelugu-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/tirotelugu/./**/TiroTelugu-Regular.ttf")[0]
   end
   # No zap stanza required
 

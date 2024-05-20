@@ -4,7 +4,7 @@ class FontNotoSerifKhojki < Formula
   desc "Modulated (“serif”) design for texts in the indic khojki script"
   homepage "https://fonts.google.com/specimen/Noto+Serif+Khojki"
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSerifKhojki[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSerifKhojki\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

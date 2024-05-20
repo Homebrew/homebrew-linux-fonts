@@ -3,7 +3,7 @@ class FontTiltNeon < Formula
   desc "Tilt Neon"
   homepage "https://fonts.google.com/specimen/Tilt+Neon"
   def install
-    (share/"fonts").install Dir.glob("./**/TiltNeon[XROT,YROT].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/TiltNeon\\[XROT,YROT\\].ttf")[0]
   end
   # No zap stanza required
 

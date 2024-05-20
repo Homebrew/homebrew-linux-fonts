@@ -22,8 +22,8 @@ class FontJetbrainsMono < Formula
     (share/"fonts").install Dir.glob("fonts/ttf/**/JetBrainsMonoNL-SemiBoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("fonts/ttf/**/JetBrainsMonoNL-Thin.ttf")[0]
     (share/"fonts").install Dir.glob("fonts/ttf/**/JetBrainsMonoNL-ThinItalic.ttf")[0]
-    (share/"fonts").install Dir.glob("fonts/variable/**/JetBrainsMono-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("fonts/variable/**/JetBrainsMono[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("fonts/variable/**/JetBrainsMono-Italic\\[wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("fonts/variable/**/JetBrainsMono\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

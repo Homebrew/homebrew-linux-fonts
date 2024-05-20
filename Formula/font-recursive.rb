@@ -4,7 +4,7 @@ class FontRecursive < Formula
   desc "Led by arrow type, a type foundry based in brooklyn, ny, usa"
   homepage "https://fonts.google.com/specimen/Recursive"
   def install
-    (share/"fonts").install Dir.glob("./**/Recursive[CASL,CRSV,MONO,slnt,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive\\[CASL,CRSV,MONO,slnt,wght\\].ttf")[0]
   end
   # No zap stanza required
 

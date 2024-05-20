@@ -3,7 +3,7 @@ class FontNotoSansMeeteiMayek < Formula
   desc "Noto Sans Meetei Mayek"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Meetei+Mayek"
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSansMeeteiMayek[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansMeeteiMayek\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

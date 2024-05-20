@@ -3,13 +3,13 @@ class FontIbmPlexSansArabic < Formula
   desc "IBM Plex Sans Arabic"
   homepage "https://fonts.google.com/specimen/IBM+Plex+Sans+Arabic"
   def install
-    (share/"fonts").install Dir.glob(""ofl/ibmplexsansarabic/" + ./**/IBMPlexSansArabic-Bold.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/ibmplexsansarabic/" + ./**/IBMPlexSansArabic-ExtraLight.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/ibmplexsansarabic/" + ./**/IBMPlexSansArabic-Light.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/ibmplexsansarabic/" + ./**/IBMPlexSansArabic-Medium.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/ibmplexsansarabic/" + ./**/IBMPlexSansArabic-Regular.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/ibmplexsansarabic/" + ./**/IBMPlexSansArabic-SemiBold.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/ibmplexsansarabic/" + ./**/IBMPlexSansArabic-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibmplexsansarabic/./**/IBMPlexSansArabic-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibmplexsansarabic/./**/IBMPlexSansArabic-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibmplexsansarabic/./**/IBMPlexSansArabic-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibmplexsansarabic/./**/IBMPlexSansArabic-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibmplexsansarabic/./**/IBMPlexSansArabic-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibmplexsansarabic/./**/IBMPlexSansArabic-SemiBold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibmplexsansarabic/./**/IBMPlexSansArabic-Thin.ttf")[0]
   end
   # No zap stanza required
 

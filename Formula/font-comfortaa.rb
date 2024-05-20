@@ -3,7 +3,7 @@ class FontComfortaa < Formula
   desc "Comfortaa"
   homepage "https://fonts.google.com/specimen/Comfortaa"
   def install
-    (share/"fonts").install Dir.glob("./**/Comfortaa[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Comfortaa\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

@@ -3,8 +3,8 @@ class FontOregano < Formula
   desc "Oregano"
   homepage "https://fonts.google.com/specimen/Oregano"
   def install
-    (share/"fonts").install Dir.glob(""ofl/oregano/" + ./**/Oregano-Italic.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/oregano/" + ./**/Oregano-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/oregano/./**/Oregano-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/oregano/./**/Oregano-Regular.ttf")[0]
   end
   # No zap stanza required
 

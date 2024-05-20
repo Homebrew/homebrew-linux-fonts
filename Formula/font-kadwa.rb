@@ -3,8 +3,8 @@ class FontKadwa < Formula
   desc "Kadwa"
   homepage "https://fonts.google.com/specimen/Kadwa"
   def install
-    (share/"fonts").install Dir.glob(""ofl/kadwa/" + ./**/Kadwa-Bold.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/kadwa/" + ./**/Kadwa-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/kadwa/./**/Kadwa-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/kadwa/./**/Kadwa-Regular.ttf")[0]
   end
   # No zap stanza required
 

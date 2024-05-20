@@ -4,7 +4,7 @@ class FontHonk < Formula
   desc "Done by taresh vohra and team ek type"
   homepage "https://fonts.google.com/specimen/Honk"
   def install
-    (share/"fonts").install Dir.glob("./**/Honk[MORF,SHLN].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Honk\\[MORF,SHLN\\].ttf")[0]
   end
   # No zap stanza required
 

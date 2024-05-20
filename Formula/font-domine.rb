@@ -3,7 +3,7 @@ class FontDomine < Formula
   desc "Domine"
   homepage "https://fonts.google.com/specimen/Domine"
   def install
-    (share/"fonts").install Dir.glob("./**/Domine[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Domine\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

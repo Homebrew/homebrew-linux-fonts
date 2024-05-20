@@ -3,8 +3,8 @@ class FontInterTight < Formula
   desc "Inter Tight"
   homepage "https://fonts.google.com/specimen/Inter+Tight"
   def install
-    (share/"fonts").install Dir.glob(""ofl/intertight/" + ./**/InterTight-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/intertight/" + ./**/InterTight[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/intertight/./**/InterTight-Italic\\[wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/intertight/./**/InterTight\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

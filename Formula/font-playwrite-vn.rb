@@ -3,7 +3,7 @@ class FontPlaywriteVn < Formula
   desc "Playwrite VN"
   homepage "https://github.com/vv-monsalve/Playwrite"
   def install
-    (share/"fonts").install Dir.glob("./**/PlaywriteVN[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/PlaywriteVN\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

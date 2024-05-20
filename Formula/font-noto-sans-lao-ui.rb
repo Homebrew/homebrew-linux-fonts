@@ -3,7 +3,7 @@ class FontNotoSansLaoUi < Formula
   desc "Noto Sans Lao UI"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Lao+UI"
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSansLaoUI[wdth,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansLaoUI\\[wdth,wght\\].ttf")[0]
   end
   # No zap stanza required
 

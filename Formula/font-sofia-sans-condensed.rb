@@ -3,8 +3,8 @@ class FontSofiaSansCondensed < Formula
   desc "Sofia Sans Condensed"
   homepage "https://fonts.google.com/specimen/Sofia+Sans+Condensed"
   def install
-    (share/"fonts").install Dir.glob(""ofl/sofiasanscondensed/" + ./**/SofiaSansCondensed-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/sofiasanscondensed/" + ./**/SofiaSansCondensed[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sofiasanscondensed/./**/SofiaSansCondensed-Italic\\[wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sofiasanscondensed/./**/SofiaSansCondensed\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

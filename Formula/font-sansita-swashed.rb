@@ -4,7 +4,7 @@ class FontSansitaSwashed < Formula
   desc "Beautiful display font in vintage form"
   homepage "https://fonts.google.com/specimen/Sansita+Swashed"
   def install
-    (share/"fonts").install Dir.glob("./**/SansitaSwashed[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/SansitaSwashed\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

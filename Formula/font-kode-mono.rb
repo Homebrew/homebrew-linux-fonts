@@ -3,7 +3,7 @@ class FontKodeMono < Formula
   desc "Kode Mono"
   homepage "https://fonts.google.com/specimen/Kode+Mono"
   def install
-    (share/"fonts").install Dir.glob("./**/KodeMono[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/KodeMono\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

@@ -3,9 +3,9 @@ class FontSunflower < Formula
   desc "Sunflower"
   homepage "https://fonts.google.com/specimen/Sunflower"
   def install
-    (share/"fonts").install Dir.glob(""ofl/sunflower/" + ./**/Sunflower-Bold.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/sunflower/" + ./**/Sunflower-Light.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/sunflower/" + ./**/Sunflower-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sunflower/./**/Sunflower-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sunflower/./**/Sunflower-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sunflower/./**/Sunflower-Medium.ttf")[0]
   end
   # No zap stanza required
 

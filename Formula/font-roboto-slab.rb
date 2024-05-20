@@ -3,7 +3,7 @@ class FontRobotoSlab < Formula
   desc "Roboto Slab"
   homepage "https://fonts.google.com/specimen/Roboto+Slab"
   def install
-    (share/"fonts").install Dir.glob("./**/RobotoSlab[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RobotoSlab\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

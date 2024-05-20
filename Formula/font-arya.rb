@@ -3,8 +3,8 @@ class FontArya < Formula
   desc "Arya"
   homepage "https://fonts.google.com/specimen/Arya"
   def install
-    (share/"fonts").install Dir.glob(""ofl/arya/" + ./**/Arya-Bold.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/arya/" + ./**/Arya-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/arya/./**/Arya-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/arya/./**/Arya-Regular.ttf")[0]
   end
   # No zap stanza required
 

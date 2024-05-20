@@ -5,8 +5,8 @@ class FontTakaoex < Formula
   desc "TakaoEx"
   homepage "https://launchpad.net/takao-fonts"
   def install
-    (share/"fonts").install Dir.glob(""ofl/tajawal/" + TakaoExFonts_#{version}/**/TakaoExGothic.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/tajawal/" + TakaoExFonts_#{version}/**/TakaoExMincho.ttf")[0]
+    (share/"fonts").install Dir.glob("TakaoExFonts_#{version}/**/TakaoExGothic.ttf")[0]
+    (share/"fonts").install Dir.glob("TakaoExFonts_#{version}/**/TakaoExMincho.ttf")[0]
   end
   # No zap stanza required
 

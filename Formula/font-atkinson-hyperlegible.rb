@@ -6,10 +6,10 @@ class FontAtkinsonHyperlegible < Formula
   desc "Font with greater legibility and readability for low vision readers"
   homepage "https://www.brailleinstitute.org/freefont"
   def install
-    (share/"fonts").install Dir.glob(""ofl/athiti/" + Atkinson-Hyperlegible-Font-Print-and-Web-#{version}/Print Fonts/**/Atkinson-Hyperlegible-Bold-102.otf")[0]
-    (share/"fonts").install Dir.glob(""ofl/athiti/" + Atkinson-Hyperlegible-Font-Print-and-Web-#{version}/Print Fonts/**/Atkinson-Hyperlegible-BoldItalic-102.otf")[0]
-    (share/"fonts").install Dir.glob(""ofl/athiti/" + Atkinson-Hyperlegible-Font-Print-and-Web-#{version}/Print Fonts/**/Atkinson-Hyperlegible-Italic-102.otf")[0]
-    (share/"fonts").install Dir.glob(""ofl/athiti/" + Atkinson-Hyperlegible-Font-Print-and-Web-#{version}/Print Fonts/**/Atkinson-Hyperlegible-Regular-102.otf")[0]
+    (share/"fonts").install Dir.glob("Atkinson-Hyperlegible-Font-Print-and-Web-#{version}/Print Fonts/**/Atkinson-Hyperlegible-Bold-102.otf")[0]
+    (share/"fonts").install Dir.glob("Atkinson-Hyperlegible-Font-Print-and-Web-#{version}/Print Fonts/**/Atkinson-Hyperlegible-BoldItalic-102.otf")[0]
+    (share/"fonts").install Dir.glob("Atkinson-Hyperlegible-Font-Print-and-Web-#{version}/Print Fonts/**/Atkinson-Hyperlegible-Italic-102.otf")[0]
+    (share/"fonts").install Dir.glob("Atkinson-Hyperlegible-Font-Print-and-Web-#{version}/Print Fonts/**/Atkinson-Hyperlegible-Regular-102.otf")[0]
   end
   # No zap stanza required
 

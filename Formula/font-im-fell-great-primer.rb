@@ -3,8 +3,8 @@ class FontImFellGreatPrimer < Formula
   desc "IM Fell Great Primer"
   homepage "https://fonts.google.com/specimen/IM+Fell+Great+Primer"
   def install
-    (share/"fonts").install Dir.glob(""ofl/imfellgreatprimer/" + ./**/IMFeGPit28P.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/imfellgreatprimer/" + ./**/IMFeGPrm28P.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/imfellgreatprimer/./**/IMFeGPit28P.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/imfellgreatprimer/./**/IMFeGPrm28P.ttf")[0]
   end
   # No zap stanza required
 

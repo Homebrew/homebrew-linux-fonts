@@ -4,7 +4,7 @@ class FontAkshar < Formula
   desc "Supported"
   homepage "https://fonts.google.com/specimen/Akshar"
   def install
-    (share/"fonts").install Dir.glob("./**/Akshar[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Akshar\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

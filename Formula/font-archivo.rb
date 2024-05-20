@@ -3,8 +3,8 @@ class FontArchivo < Formula
   desc "Archivo"
   homepage "https://fonts.google.com/specimen/Archivo"
   def install
-    (share/"fonts").install Dir.glob(""ofl/archivo/" + ./**/Archivo-Italic[wdth,wght].ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/archivo/" + ./**/Archivo[wdth,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/archivo/./**/Archivo-Italic\\[wdth,wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/archivo/./**/Archivo\\[wdth,wght\\].ttf")[0]
   end
   # No zap stanza required
 

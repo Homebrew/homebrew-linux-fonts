@@ -4,7 +4,7 @@ class FontOnest < Formula
   desc "Modern typeface, so it has a lot of useful conveniences"
   homepage "https://fonts.google.com/specimen/Onest"
   def install
-    (share/"fonts").install Dir.glob("./**/Onest[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Onest\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

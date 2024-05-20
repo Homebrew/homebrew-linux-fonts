@@ -4,7 +4,7 @@ class FontNotoSansTangsa < Formula
   desc "Design for the indic tangsa script"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Tangsa"
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSansTangsa[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansTangsa\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

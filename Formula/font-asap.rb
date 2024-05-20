@@ -3,8 +3,8 @@ class FontAsap < Formula
   desc "Asap"
   homepage "https://fonts.google.com/specimen/Asap"
   def install
-    (share/"fonts").install Dir.glob(""ofl/asap/" + ./**/Asap-Italic[wdth,wght].ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/asap/" + ./**/Asap[wdth,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/asap/./**/Asap-Italic\\[wdth,wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/asap/./**/Asap\\[wdth,wght\\].ttf")[0]
   end
   # No zap stanza required
 

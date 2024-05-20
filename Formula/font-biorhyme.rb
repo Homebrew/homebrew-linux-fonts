@@ -4,7 +4,7 @@ class FontBiorhyme < Formula
   desc "Latin typeface family"
   homepage "https://fonts.google.com/specimen/BioRhyme"
   def install
-    (share/"fonts").install Dir.glob("./**/BioRhyme[wdth,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/BioRhyme\\[wdth,wght\\].ttf")[0]
   end
   # No zap stanza required
 

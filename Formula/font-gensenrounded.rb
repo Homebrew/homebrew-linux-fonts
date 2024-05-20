@@ -6,12 +6,12 @@ class FontGensenrounded < Formula
   desc "GenSenRounded"
   homepage "https://github.com/ButTaiwan/gensen-font"
   def install
-    (share/"fonts").install Dir.glob(""ofl/genos/" + ./**/GenSenRounded-B.ttc")[0]
-    (share/"fonts").install Dir.glob(""ofl/genos/" + ./**/GenSenRounded-EL.ttc")[0]
-    (share/"fonts").install Dir.glob(""ofl/genos/" + ./**/GenSenRounded-H.ttc")[0]
-    (share/"fonts").install Dir.glob(""ofl/genos/" + ./**/GenSenRounded-L.ttc")[0]
-    (share/"fonts").install Dir.glob(""ofl/genos/" + ./**/GenSenRounded-M.ttc")[0]
-    (share/"fonts").install Dir.glob(""ofl/genos/" + ./**/GenSenRounded-R.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/GenSenRounded-B.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/GenSenRounded-EL.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/GenSenRounded-H.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/GenSenRounded-L.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/GenSenRounded-M.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/GenSenRounded-R.ttc")[0]
   end
   # No zap stanza required
 

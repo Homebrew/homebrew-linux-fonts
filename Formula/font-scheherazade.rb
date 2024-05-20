@@ -5,7 +5,7 @@ class FontScheherazade < Formula
   desc "Scheherazade "
   homepage "https://scripts.sil.org/Scheherazade"
   def install
-    (share/"fonts").install Dir.glob(""ofl/scheherazadenew/" + Scheherazade-#{version}/**/Scheherazade-R.ttf")[0]
+    (share/"fonts").install Dir.glob("Scheherazade-#{version}/**/Scheherazade-R.ttf")[0]
   end
   # No zap stanza required
 

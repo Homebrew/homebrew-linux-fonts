@@ -3,7 +3,7 @@ class FontNotoTraditionalNushu < Formula
   desc "Noto Traditional Nushu"
   homepage "https://fonts.google.com/specimen/Noto+Traditional+Nushu"
   def install
-    (share/"fonts").install Dir.glob("./**/NotoTraditionalNushu[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoTraditionalNushu\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

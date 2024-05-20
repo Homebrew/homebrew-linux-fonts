@@ -4,7 +4,7 @@ class FontNotoSansJp < Formula
   desc "Unmodulated (“sans serif”) design for the japanese language"
   homepage "https://fonts.google.com/specimen/Noto+Sans+JP"
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSansJP[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansJP\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

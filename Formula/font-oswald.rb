@@ -3,7 +3,7 @@ class FontOswald < Formula
   desc "Oswald"
   homepage "https://fonts.google.com/specimen/Oswald"
   def install
-    (share/"fonts").install Dir.glob("./**/Oswald[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Oswald\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

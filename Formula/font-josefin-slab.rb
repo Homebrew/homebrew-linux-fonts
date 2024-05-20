@@ -3,8 +3,8 @@ class FontJosefinSlab < Formula
   desc "Josefin Slab"
   homepage "https://fonts.google.com/specimen/Josefin+Slab"
   def install
-    (share/"fonts").install Dir.glob(""ofl/josefinslab/" + ./**/JosefinSlab-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/josefinslab/" + ./**/JosefinSlab[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/josefinslab/./**/JosefinSlab-Italic\\[wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/josefinslab/./**/JosefinSlab\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

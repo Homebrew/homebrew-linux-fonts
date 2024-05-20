@@ -6,9 +6,9 @@ class FontDroidSansMonoNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install Dir.glob(""DroidSansMono/" + ./**/DroidSansMNerdFont-Regular.otf")[0]
-    (share/"fonts").install Dir.glob(""DroidSansMono/" + ./**/DroidSansMNerdFontMono-Regular.otf")[0]
-    (share/"fonts").install Dir.glob(""DroidSansMono/" + ./**/DroidSansMNerdFontPropo-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/DroidSansMNerdFont-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/DroidSansMNerdFontMono-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/DroidSansMNerdFontPropo-Regular.otf")[0]
   end
   # No zap stanza required
 

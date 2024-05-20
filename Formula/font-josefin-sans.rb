@@ -3,8 +3,8 @@ class FontJosefinSans < Formula
   desc "Josefin Sans"
   homepage "https://fonts.google.com/specimen/Josefin+Sans"
   def install
-    (share/"fonts").install Dir.glob(""ofl/josefinsans/" + ./**/JosefinSans-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/josefinsans/" + ./**/JosefinSans[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/josefinsans/./**/JosefinSans-Italic\\[wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/josefinsans/./**/JosefinSans\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

@@ -3,9 +3,9 @@ class FontGaegu < Formula
   desc "Gaegu"
   homepage "https://fonts.google.com/specimen/Gaegu"
   def install
-    (share/"fonts").install Dir.glob(""ofl/gaegu/" + ./**/Gaegu-Bold.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/gaegu/" + ./**/Gaegu-Light.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/gaegu/" + ./**/Gaegu-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/gaegu/./**/Gaegu-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/gaegu/./**/Gaegu-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/gaegu/./**/Gaegu-Regular.ttf")[0]
   end
   # No zap stanza required
 

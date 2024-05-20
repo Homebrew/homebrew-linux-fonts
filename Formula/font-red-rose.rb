@@ -4,7 +4,7 @@ class FontRedRose < Formula
   desc "Latin display typeface designed for posters"
   homepage "https://fonts.google.com/specimen/Red+Rose"
   def install
-    (share/"fonts").install Dir.glob("./**/RedRose[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RedRose\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

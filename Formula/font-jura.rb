@@ -3,7 +3,7 @@ class FontJura < Formula
   desc "Jura"
   homepage "https://fonts.google.com/specimen/Jura"
   def install
-    (share/"fonts").install Dir.glob("./**/Jura[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Jura\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

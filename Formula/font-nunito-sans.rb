@@ -3,8 +3,8 @@ class FontNunitoSans < Formula
   desc "Nunito Sans"
   homepage "https://fonts.google.com/specimen/Nunito+Sans"
   def install
-    (share/"fonts").install Dir.glob(""ofl/nunitosans/" + ./**/NunitoSans-Italic[YTLC,opsz,wdth,wght].ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/nunitosans/" + ./**/NunitoSans[YTLC,opsz,wdth,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/nunitosans/./**/NunitoSans-Italic\\[YTLC,opsz,wdth,wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/nunitosans/./**/NunitoSans\\[YTLC,opsz,wdth,wght\\].ttf")[0]
   end
   # No zap stanza required
 

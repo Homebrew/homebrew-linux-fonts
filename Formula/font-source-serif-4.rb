@@ -3,8 +3,8 @@ class FontSourceSerif4 < Formula
   desc "Source Serif 4"
   homepage "https://fonts.google.com/specimen/Source+Serif+4"
   def install
-    (share/"fonts").install Dir.glob(""ofl/sourceserif4/" + ./**/SourceSerif4-Italic[opsz,wght].ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/sourceserif4/" + ./**/SourceSerif4[opsz,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sourceserif4/./**/SourceSerif4-Italic\\[opsz,wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sourceserif4/./**/SourceSerif4\\[opsz,wght\\].ttf")[0]
   end
   # No zap stanza required
 

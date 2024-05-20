@@ -3,8 +3,8 @@ class FontBevan < Formula
   desc "Bevan"
   homepage "https://fonts.google.com/specimen/Bevan"
   def install
-    (share/"fonts").install Dir.glob(""ofl/bevan/" + ./**/Bevan-Italic.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/bevan/" + ./**/Bevan-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/bevan/./**/Bevan-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/bevan/./**/Bevan-Regular.ttf")[0]
   end
   # No zap stanza required
 

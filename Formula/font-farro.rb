@@ -3,10 +3,10 @@ class FontFarro < Formula
   desc "Farro"
   homepage "https://fonts.google.com/specimen/Farro"
   def install
-    (share/"fonts").install Dir.glob(""ofl/farro/" + ./**/Farro-Bold.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/farro/" + ./**/Farro-Light.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/farro/" + ./**/Farro-Medium.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/farro/" + ./**/Farro-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/farro/./**/Farro-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/farro/./**/Farro-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/farro/./**/Farro-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/farro/./**/Farro-Regular.ttf")[0]
   end
   # No zap stanza required
 

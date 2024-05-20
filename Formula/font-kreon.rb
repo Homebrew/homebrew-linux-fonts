@@ -3,7 +3,7 @@ class FontKreon < Formula
   desc "Kreon"
   homepage "https://fonts.google.com/specimen/Kreon"
   def install
-    (share/"fonts").install Dir.glob("./**/Kreon[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Kreon\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

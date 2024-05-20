@@ -4,7 +4,7 @@ class FontAnuphan < Formula
   desc "Not a modification of ibm plex sans thai"
   homepage "https://fonts.google.com/specimen/Anuphan"
   def install
-    (share/"fonts").install Dir.glob("./**/Anuphan[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Anuphan\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

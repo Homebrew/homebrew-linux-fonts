@@ -3,10 +3,10 @@ class FontLondrinaSolid < Formula
   desc "Londrina Solid"
   homepage "https://fonts.google.com/specimen/Londrina+Solid"
   def install
-    (share/"fonts").install Dir.glob(""ofl/londrinasolid/" + ./**/LondrinaSolid-Black.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/londrinasolid/" + ./**/LondrinaSolid-Light.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/londrinasolid/" + ./**/LondrinaSolid-Regular.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/londrinasolid/" + ./**/LondrinaSolid-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/londrinasolid/./**/LondrinaSolid-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/londrinasolid/./**/LondrinaSolid-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/londrinasolid/./**/LondrinaSolid-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/londrinasolid/./**/LondrinaSolid-Thin.ttf")[0]
   end
   # No zap stanza required
 

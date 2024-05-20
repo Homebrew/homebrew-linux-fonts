@@ -3,7 +3,7 @@ class FontKalniaGlaze < Formula
   desc "Kalnia Glaze"
   homepage "https://github.com/fridamedrano/Kalnia-Glaze"
   def install
-    (share/"fonts").install Dir.glob("./**/KalniaGlaze[wdth,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/KalniaGlaze\\[wdth,wght\\].ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontVarta < Formula
   desc "Varta"
   homepage "https://fonts.google.com/specimen/Varta"
   def install
-    (share/"fonts").install Dir.glob("./**/Varta[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Varta\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

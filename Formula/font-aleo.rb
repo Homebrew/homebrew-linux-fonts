@@ -3,8 +3,8 @@ class FontAleo < Formula
   desc "Aleo"
   homepage "https://fonts.google.com/specimen/Aleo"
   def install
-    (share/"fonts").install Dir.glob(""ofl/aleo/" + ./**/Aleo-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/aleo/" + ./**/Aleo[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/aleo/./**/Aleo-Italic\\[wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/aleo/./**/Aleo\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

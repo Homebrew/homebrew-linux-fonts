@@ -3,7 +3,7 @@ class FontCaveat < Formula
   desc "Caveat"
   homepage "https://fonts.google.com/specimen/Caveat"
   def install
-    (share/"fonts").install Dir.glob("./**/Caveat[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Caveat\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontPhudu < Formula
   desc "Phudu"
   homepage "https://fonts.google.com/specimen/Phudu"
   def install
-    (share/"fonts").install Dir.glob("./**/Phudu[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Phudu\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

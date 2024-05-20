@@ -7,12 +7,12 @@ class FontXits < Formula
   homepage "https://github.com/khaledhosny/xits"
   deprecate! date: "2023-12-17", because: :unsupported
   def install
-    (share/"fonts").install Dir.glob(""ofl/xanhmono/" + xits-#{version}/**/xits-bold.otf")[0]
-    (share/"fonts").install Dir.glob(""ofl/xanhmono/" + xits-#{version}/**/xits-bolditalic.otf")[0]
-    (share/"fonts").install Dir.glob(""ofl/xanhmono/" + xits-#{version}/**/xits-italic.otf")[0]
-    (share/"fonts").install Dir.glob(""ofl/xanhmono/" + xits-#{version}/**/xits-regular.otf")[0]
-    (share/"fonts").install Dir.glob(""ofl/xanhmono/" + xits-#{version}/**/xitsmath-bold.otf")[0]
-    (share/"fonts").install Dir.glob(""ofl/xanhmono/" + xits-#{version}/**/xitsmath-regular.otf")[0]
+    (share/"fonts").install Dir.glob("xits-#{version}/**/xits-bold.otf")[0]
+    (share/"fonts").install Dir.glob("xits-#{version}/**/xits-bolditalic.otf")[0]
+    (share/"fonts").install Dir.glob("xits-#{version}/**/xits-italic.otf")[0]
+    (share/"fonts").install Dir.glob("xits-#{version}/**/xits-regular.otf")[0]
+    (share/"fonts").install Dir.glob("xits-#{version}/**/xitsmath-bold.otf")[0]
+    (share/"fonts").install Dir.glob("xits-#{version}/**/xitsmath-regular.otf")[0]
   end
   # No zap stanza required
 

@@ -23,8 +23,8 @@ class FontPublicSans < Formula
     (share/"fonts").install Dir.glob("fonts/otf/**/PublicSans-SemiBoldItalic.otf")[0]
     (share/"fonts").install Dir.glob("fonts/otf/**/PublicSans-Thin.otf")[0]
     (share/"fonts").install Dir.glob("fonts/otf/**/PublicSans-ThinItalic.otf")[0]
-    (share/"fonts").install Dir.glob("fonts/variable/**/PublicSans-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("fonts/variable/**/PublicSans[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("fonts/variable/**/PublicSans-Italic\\[wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("fonts/variable/**/PublicSans\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

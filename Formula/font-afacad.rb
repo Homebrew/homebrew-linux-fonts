@@ -3,8 +3,8 @@ class FontAfacad < Formula
   desc "Afacad"
   homepage "https://fonts.google.com/specimen/Afacad"
   def install
-    (share/"fonts").install Dir.glob(""ofl/afacad/" + ./**/Afacad-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/afacad/" + ./**/Afacad[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/afacad/./**/Afacad-Italic\\[wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/afacad/./**/Afacad\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

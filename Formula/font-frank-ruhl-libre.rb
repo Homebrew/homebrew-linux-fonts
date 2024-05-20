@@ -3,7 +3,7 @@ class FontFrankRuhlLibre < Formula
   desc "Frank Ruhl Libre"
   homepage "https://fonts.google.com/specimen/Frank+Ruhl+Libre"
   def install
-    (share/"fonts").install Dir.glob("./**/FrankRuhlLibre[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/FrankRuhlLibre\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

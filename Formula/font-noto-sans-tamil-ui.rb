@@ -3,7 +3,7 @@ class FontNotoSansTamilUi < Formula
   desc "Noto Sans Tamil UI"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Tamil+UI"
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSansTamilUI[wdth,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansTamilUI\\[wdth,wght\\].ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontHeptaSlab < Formula
   desc "Hepta Slab"
   homepage "https://fonts.google.com/specimen/Hepta+Slab"
   def install
-    (share/"fonts").install Dir.glob("./**/HeptaSlab[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/HeptaSlab\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

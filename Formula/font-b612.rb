@@ -6,10 +6,10 @@ class FontB612 < Formula
   desc "Font designed and tested to be used on aircraft cockpit screens"
   homepage "https://b612-font.com/"
   def install
-    (share/"fonts").install Dir.glob(""ofl/b612mono/" + b612-#{version}/fonts/ttf/**/B612-Bold.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/b612mono/" + b612-#{version}/fonts/ttf/**/B612-BoldItalic.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/b612mono/" + b612-#{version}/fonts/ttf/**/B612-Italic.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/b612mono/" + b612-#{version}/fonts/ttf/**/B612-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("b612-#{version}/fonts/ttf/**/B612-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("b612-#{version}/fonts/ttf/**/B612-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("b612-#{version}/fonts/ttf/**/B612-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("b612-#{version}/fonts/ttf/**/B612-Regular.ttf")[0]
   end
   # No zap stanza required
 

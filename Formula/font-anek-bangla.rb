@@ -3,7 +3,7 @@ class FontAnekBangla < Formula
   desc "Anek Bangla"
   homepage "https://fonts.google.com/specimen/Anek+Bangla"
   def install
-    (share/"fonts").install Dir.glob("./**/AnekBangla[wdth,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/AnekBangla\\[wdth,wght\\].ttf")[0]
   end
   # No zap stanza required
 

@@ -6,18 +6,18 @@ class FontMonoidNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install Dir.glob(""Monofur/" + ./**/MonoidNerdFont-Bold.ttf")[0]
-    (share/"fonts").install Dir.glob(""Monofur/" + ./**/MonoidNerdFont-Italic.ttf")[0]
-    (share/"fonts").install Dir.glob(""Monofur/" + ./**/MonoidNerdFont-Regular.ttf")[0]
-    (share/"fonts").install Dir.glob(""Monofur/" + ./**/MonoidNerdFont-Retina.ttf")[0]
-    (share/"fonts").install Dir.glob(""Monofur/" + ./**/MonoidNerdFontMono-Bold.ttf")[0]
-    (share/"fonts").install Dir.glob(""Monofur/" + ./**/MonoidNerdFontMono-Italic.ttf")[0]
-    (share/"fonts").install Dir.glob(""Monofur/" + ./**/MonoidNerdFontMono-Regular.ttf")[0]
-    (share/"fonts").install Dir.glob(""Monofur/" + ./**/MonoidNerdFontMono-Retina.ttf")[0]
-    (share/"fonts").install Dir.glob(""Monofur/" + ./**/MonoidNerdFontPropo-Bold.ttf")[0]
-    (share/"fonts").install Dir.glob(""Monofur/" + ./**/MonoidNerdFontPropo-Italic.ttf")[0]
-    (share/"fonts").install Dir.glob(""Monofur/" + ./**/MonoidNerdFontPropo-Regular.ttf")[0]
-    (share/"fonts").install Dir.glob(""Monofur/" + ./**/MonoidNerdFontPropo-Retina.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MonoidNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MonoidNerdFont-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MonoidNerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MonoidNerdFont-Retina.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MonoidNerdFontMono-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MonoidNerdFontMono-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MonoidNerdFontMono-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MonoidNerdFontMono-Retina.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MonoidNerdFontPropo-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MonoidNerdFontPropo-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MonoidNerdFontPropo-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MonoidNerdFontPropo-Retina.ttf")[0]
   end
   # No zap stanza required
 

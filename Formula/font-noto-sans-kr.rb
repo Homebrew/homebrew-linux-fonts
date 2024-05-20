@@ -4,7 +4,7 @@ class FontNotoSansKr < Formula
   desc "Unmodulated (“sans serif”) design for the korean language"
   homepage "https://fonts.google.com/specimen/Noto+Sans+KR"
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSansKR[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansKR\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

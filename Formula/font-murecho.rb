@@ -4,7 +4,7 @@ class FontMurecho < Formula
   desc "Available in 9 practical weights and as a variable font"
   homepage "https://fonts.google.com/specimen/Murecho"
   def install
-    (share/"fonts").install Dir.glob("./**/Murecho[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Murecho\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

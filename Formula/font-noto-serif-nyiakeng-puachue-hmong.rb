@@ -3,7 +3,7 @@ class FontNotoSerifNyiakengPuachueHmong < Formula
   desc "Noto Serif Nyiakeng Puachue Hmong"
   homepage "https://fonts.google.com/specimen/Noto+Serif+Nyiakeng+Puachue+Hmong"
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSerifNyiakengPuachueHmong[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSerifNyiakengPuachueHmong\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

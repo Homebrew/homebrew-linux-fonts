@@ -4,7 +4,7 @@ class FontDanfo < Formula
   desc "Elsh axis variable font with three main styles at 0,50, and 100"
   homepage "https://fonts.google.com/specimen/Danfo"
   def install
-    (share/"fonts").install Dir.glob("./**/Danfo[ELSH].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Danfo\\[ELSH\\].ttf")[0]
   end
   # No zap stanza required
 

@@ -3,7 +3,7 @@ class FontBigShouldersDisplay < Formula
   desc "Big Shoulders Display"
   homepage "https://fonts.google.com/specimen/Big+Shoulders+Display"
   def install
-    (share/"fonts").install Dir.glob("./**/BigShouldersDisplay[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/BigShouldersDisplay\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

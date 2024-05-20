@@ -6,7 +6,7 @@ class FontKanjistrokeorders < Formula
   desc "Stroke order diagrams for 6500+ kanji, 180+ kana symbols and Latin characters"
   homepage "https://sites.google.com/site/nihilistorguk/"
   def install
-    (share/"fonts").install Dir.glob(""ofl/kanit/" + ./**/KanjiStrokeOrders_v#{version.to_s.sub(/,.*/, "")}.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/KanjiStrokeOrders_v#{version.to_s.sub(/,.*/, "")}.ttf")[0]
   end
   def creavat; do
     license "https://drive.google.com/file/d/1HOybxFTh2aD6zoLoh-ixHf2vTSgqFs6f/preview"

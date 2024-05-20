@@ -216,11 +216,11 @@ class FontMonaspace < Formula
     (share/"fonts").install Dir.glob("monaspace-v#{version}/fonts/otf/**/MonaspaceXenon-WideRegular.otf")[0]
     (share/"fonts").install Dir.glob("monaspace-v#{version}/fonts/otf/**/MonaspaceXenon-WideSemiBold.otf")[0]
     (share/"fonts").install Dir.glob("monaspace-v#{version}/fonts/otf/**/MonaspaceXenon-WideSemiBoldItalic.otf")[0]
-    (share/"fonts").install Dir.glob("monaspace-v#{version}/fonts/variable/**/MonaspaceArgonVarVF[wght,wdth,slnt].ttf")[0]
-    (share/"fonts").install Dir.glob("monaspace-v#{version}/fonts/variable/**/MonaspaceKryptonVarVF[wght,wdth,slnt].ttf")[0]
-    (share/"fonts").install Dir.glob("monaspace-v#{version}/fonts/variable/**/MonaspaceNeonVarVF[wght,wdth,slnt].ttf")[0]
-    (share/"fonts").install Dir.glob("monaspace-v#{version}/fonts/variable/**/MonaspaceRadonVarVF[wght,wdth,slnt].ttf")[0]
-    (share/"fonts").install Dir.glob("monaspace-v#{version}/fonts/variable/**/MonaspaceXenonVarVF[wght,wdth,slnt].ttf")[0]
+    (share/"fonts").install Dir.glob("monaspace-v#{version}/fonts/variable/**/MonaspaceArgonVarVF\\[wght,wdth,slnt\\].ttf")[0]
+    (share/"fonts").install Dir.glob("monaspace-v#{version}/fonts/variable/**/MonaspaceKryptonVarVF\\[wght,wdth,slnt\\].ttf")[0]
+    (share/"fonts").install Dir.glob("monaspace-v#{version}/fonts/variable/**/MonaspaceNeonVarVF\\[wght,wdth,slnt\\].ttf")[0]
+    (share/"fonts").install Dir.glob("monaspace-v#{version}/fonts/variable/**/MonaspaceRadonVarVF\\[wght,wdth,slnt\\].ttf")[0]
+    (share/"fonts").install Dir.glob("monaspace-v#{version}/fonts/variable/**/MonaspaceXenonVarVF\\[wght,wdth,slnt\\].ttf")[0]
   end
   # No zap stanza required
 

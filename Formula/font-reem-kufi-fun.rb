@@ -4,7 +4,7 @@ class FontReemKufiFun < Formula
   desc "Also the name of khaled's daughter"
   homepage "https://fonts.google.com/specimen/Reem+Kufi+Fun"
   def install
-    (share/"fonts").install Dir.glob("./**/ReemKufiFun[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/ReemKufiFun\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

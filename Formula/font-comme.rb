@@ -4,7 +4,7 @@ class FontComme < Formula
   desc "Variable, with a weight axis ranging from thin to black"
   homepage "https://fonts.google.com/specimen/Comme"
   def install
-    (share/"fonts").install Dir.glob("./**/Comme[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Comme\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

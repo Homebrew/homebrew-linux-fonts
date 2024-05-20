@@ -6,16 +6,16 @@ class FontGeist < Formula
   desc "Sans-serif typeface"
   homepage "https://vercel.com/font/sans"
   def install
-    (share/"fonts").install Dir.glob(""ofl/gayathri/" + Geist-#{version}/statics-otf/**/Geist-Black.otf")[0]
-    (share/"fonts").install Dir.glob(""ofl/gayathri/" + Geist-#{version}/statics-otf/**/Geist-Bold.otf")[0]
-    (share/"fonts").install Dir.glob(""ofl/gayathri/" + Geist-#{version}/statics-otf/**/Geist-Light.otf")[0]
-    (share/"fonts").install Dir.glob(""ofl/gayathri/" + Geist-#{version}/statics-otf/**/Geist-Medium.otf")[0]
-    (share/"fonts").install Dir.glob(""ofl/gayathri/" + Geist-#{version}/statics-otf/**/Geist-Regular.otf")[0]
-    (share/"fonts").install Dir.glob(""ofl/gayathri/" + Geist-#{version}/statics-otf/**/Geist-SemiBold.otf")[0]
-    (share/"fonts").install Dir.glob(""ofl/gayathri/" + Geist-#{version}/statics-otf/**/Geist-Thin.otf")[0]
-    (share/"fonts").install Dir.glob(""ofl/gayathri/" + Geist-#{version}/statics-otf/**/Geist-UltraBlack.otf")[0]
-    (share/"fonts").install Dir.glob(""ofl/gayathri/" + Geist-#{version}/statics-otf/**/Geist-UltraLight.otf")[0]
-    (share/"fonts").install Dir.glob(""ofl/gayathri/" + Geist-#{version}/variable-ttf/**/GeistVF.ttf")[0]
+    (share/"fonts").install Dir.glob("Geist-#{version}/statics-otf/**/Geist-Black.otf")[0]
+    (share/"fonts").install Dir.glob("Geist-#{version}/statics-otf/**/Geist-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("Geist-#{version}/statics-otf/**/Geist-Light.otf")[0]
+    (share/"fonts").install Dir.glob("Geist-#{version}/statics-otf/**/Geist-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("Geist-#{version}/statics-otf/**/Geist-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("Geist-#{version}/statics-otf/**/Geist-SemiBold.otf")[0]
+    (share/"fonts").install Dir.glob("Geist-#{version}/statics-otf/**/Geist-Thin.otf")[0]
+    (share/"fonts").install Dir.glob("Geist-#{version}/statics-otf/**/Geist-UltraBlack.otf")[0]
+    (share/"fonts").install Dir.glob("Geist-#{version}/statics-otf/**/Geist-UltraLight.otf")[0]
+    (share/"fonts").install Dir.glob("Geist-#{version}/variable-ttf/**/GeistVF.ttf")[0]
   end
   # No zap stanza required
 

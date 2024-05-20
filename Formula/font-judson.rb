@@ -3,9 +3,9 @@ class FontJudson < Formula
   desc "Judson"
   homepage "https://fonts.google.com/specimen/Judson"
   def install
-    (share/"fonts").install Dir.glob(""ofl/judson/" + ./**/Judson-Bold.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/judson/" + ./**/Judson-Italic.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/judson/" + ./**/Judson-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/judson/./**/Judson-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/judson/./**/Judson-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/judson/./**/Judson-Regular.ttf")[0]
   end
   # No zap stanza required
 

@@ -6,10 +6,10 @@ class FontFirgenerd < Formula
   desc "Programming font based on Fira Mono and Genshin Gothic"
   homepage "https://github.com/yuru7/Firge"
   def install
-    (share/"fonts").install Dir.glob(""ofl/firasansextracondensed/" + FirgeNerd_v#{version}/**/Firge35NerdConsole-Bold.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/firasansextracondensed/" + FirgeNerd_v#{version}/**/Firge35NerdConsole-Regular.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/firasansextracondensed/" + FirgeNerd_v#{version}/**/FirgeNerdConsole-Bold.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/firasansextracondensed/" + FirgeNerd_v#{version}/**/FirgeNerdConsole-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("FirgeNerd_v#{version}/**/Firge35NerdConsole-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("FirgeNerd_v#{version}/**/Firge35NerdConsole-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("FirgeNerd_v#{version}/**/FirgeNerdConsole-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("FirgeNerd_v#{version}/**/FirgeNerdConsole-Regular.ttf")[0]
   end
   # No zap stanza required
 

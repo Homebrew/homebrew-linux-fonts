@@ -5,13 +5,13 @@ class FontGenyogothic < Formula
   desc "GenYoGothic"
   homepage "https://github.com/ButTaiwan/genyog-font"
   def install
-    (share/"fonts").install Dir.glob(""ofl/gentiumbookplus/" + ./**/GenYoGothic-B.ttc")[0]
-    (share/"fonts").install Dir.glob(""ofl/gentiumbookplus/" + ./**/GenYoGothic-EL.ttc")[0]
-    (share/"fonts").install Dir.glob(""ofl/gentiumbookplus/" + ./**/GenYoGothic-H.ttc")[0]
-    (share/"fonts").install Dir.glob(""ofl/gentiumbookplus/" + ./**/GenYoGothic-L.ttc")[0]
-    (share/"fonts").install Dir.glob(""ofl/gentiumbookplus/" + ./**/GenYoGothic-M.ttc")[0]
-    (share/"fonts").install Dir.glob(""ofl/gentiumbookplus/" + ./**/GenYoGothic-N.ttc")[0]
-    (share/"fonts").install Dir.glob(""ofl/gentiumbookplus/" + ./**/GenYoGothic-R.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/GenYoGothic-B.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/GenYoGothic-EL.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/GenYoGothic-H.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/GenYoGothic-L.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/GenYoGothic-M.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/GenYoGothic-N.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/GenYoGothic-R.ttc")[0]
   end
   # No zap stanza required
 

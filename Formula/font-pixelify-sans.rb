@@ -4,7 +4,7 @@ class FontPixelifySans < Formula
   desc "Achieved by using a grid of small, square pixels to create each letterform"
   homepage "https://fonts.google.com/specimen/Pixelify+Sans"
   def install
-    (share/"fonts").install Dir.glob("./**/PixelifySans[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/PixelifySans\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

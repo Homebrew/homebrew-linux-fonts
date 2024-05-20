@@ -6,8 +6,8 @@ class FontNotoSerif < Formula
   desc "Serif variable font"
   homepage "https://notofonts.github.io/"
   def install
-    (share/"fonts").install Dir.glob("NotoSerif/unhinted/variable/**/NotoSerif-Italic[wdth,wght].ttf")[0]
-    (share/"fonts").install Dir.glob("NotoSerif/unhinted/variable/**/NotoSerif[wdth,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("NotoSerif/unhinted/variable/**/NotoSerif-Italic\\[wdth,wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("NotoSerif/unhinted/variable/**/NotoSerif\\[wdth,wght\\].ttf")[0]
   end
   test do
   end

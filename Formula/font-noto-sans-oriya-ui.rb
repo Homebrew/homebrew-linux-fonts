@@ -3,10 +3,10 @@ class FontNotoSansOriyaUi < Formula
   desc "Noto Sans Oriya UI"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Oriya"
   def install
-    (share/"fonts").install Dir.glob(""ofl/notosansoriyaui/" + ./**/NotoSansOriyaUI-Black.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/notosansoriyaui/" + ./**/NotoSansOriyaUI-Bold.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/notosansoriyaui/" + ./**/NotoSansOriyaUI-Regular.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/notosansoriyaui/" + ./**/NotoSansOriyaUI-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/notosansoriyaui/./**/NotoSansOriyaUI-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/notosansoriyaui/./**/NotoSansOriyaUI-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/notosansoriyaui/./**/NotoSansOriyaUI-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/notosansoriyaui/./**/NotoSansOriyaUI-Thin.ttf")[0]
   end
   # No zap stanza required
 

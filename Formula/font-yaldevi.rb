@@ -4,7 +4,7 @@ class FontYaldevi < Formula
   desc "Designed by sol matas"
   homepage "https://fonts.google.com/specimen/Yaldevi"
   def install
-    (share/"fonts").install Dir.glob("./**/Yaldevi[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Yaldevi\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

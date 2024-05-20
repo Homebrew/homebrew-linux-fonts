@@ -6,14 +6,14 @@ class FontGentiumPlus < Formula
   desc "Multilingual font"
   homepage "https://software.sil.org/gentium/"
   def install
-    (share/"fonts").install Dir.glob(""ofl/gentiumbookplus/" + GentiumPlus-#{version}/**/GentiumBookPlus-Bold.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/gentiumbookplus/" + GentiumPlus-#{version}/**/GentiumBookPlus-BoldItalic.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/gentiumbookplus/" + GentiumPlus-#{version}/**/GentiumBookPlus-Italic.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/gentiumbookplus/" + GentiumPlus-#{version}/**/GentiumBookPlus-Regular.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/gentiumbookplus/" + GentiumPlus-#{version}/**/GentiumPlus-Bold.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/gentiumbookplus/" + GentiumPlus-#{version}/**/GentiumPlus-BoldItalic.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/gentiumbookplus/" + GentiumPlus-#{version}/**/GentiumPlus-Italic.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/gentiumbookplus/" + GentiumPlus-#{version}/**/GentiumPlus-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("GentiumPlus-#{version}/**/GentiumBookPlus-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("GentiumPlus-#{version}/**/GentiumBookPlus-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("GentiumPlus-#{version}/**/GentiumBookPlus-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("GentiumPlus-#{version}/**/GentiumBookPlus-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("GentiumPlus-#{version}/**/GentiumPlus-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("GentiumPlus-#{version}/**/GentiumPlus-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("GentiumPlus-#{version}/**/GentiumPlus-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("GentiumPlus-#{version}/**/GentiumPlus-Regular.ttf")[0]
   end
   # No zap stanza required
 

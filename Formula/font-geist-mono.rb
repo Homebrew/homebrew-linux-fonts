@@ -6,16 +6,16 @@ class FontGeistMono < Formula
   desc "Monospaced typeface designed to be used where code is represented"
   homepage "https://vercel.com/font/mono"
   def install
-    (share/"fonts").install Dir.glob(""ofl/gayathri/" + GeistMono-#{version}/statics-otf/**/GeistMono-Black.otf")[0]
-    (share/"fonts").install Dir.glob(""ofl/gayathri/" + GeistMono-#{version}/statics-otf/**/GeistMono-Bold.otf")[0]
-    (share/"fonts").install Dir.glob(""ofl/gayathri/" + GeistMono-#{version}/statics-otf/**/GeistMono-Light.otf")[0]
-    (share/"fonts").install Dir.glob(""ofl/gayathri/" + GeistMono-#{version}/statics-otf/**/GeistMono-Medium.otf")[0]
-    (share/"fonts").install Dir.glob(""ofl/gayathri/" + GeistMono-#{version}/statics-otf/**/GeistMono-Regular.otf")[0]
-    (share/"fonts").install Dir.glob(""ofl/gayathri/" + GeistMono-#{version}/statics-otf/**/GeistMono-SemiBold.otf")[0]
-    (share/"fonts").install Dir.glob(""ofl/gayathri/" + GeistMono-#{version}/statics-otf/**/GeistMono-Thin.otf")[0]
-    (share/"fonts").install Dir.glob(""ofl/gayathri/" + GeistMono-#{version}/statics-otf/**/GeistMono-UltraBlack.otf")[0]
-    (share/"fonts").install Dir.glob(""ofl/gayathri/" + GeistMono-#{version}/statics-otf/**/GeistMono-UltraLight.otf")[0]
-    (share/"fonts").install Dir.glob(""ofl/gayathri/" + GeistMono-#{version}/variable-ttf/**/GeistMonoVF.ttf")[0]
+    (share/"fonts").install Dir.glob("GeistMono-#{version}/statics-otf/**/GeistMono-Black.otf")[0]
+    (share/"fonts").install Dir.glob("GeistMono-#{version}/statics-otf/**/GeistMono-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("GeistMono-#{version}/statics-otf/**/GeistMono-Light.otf")[0]
+    (share/"fonts").install Dir.glob("GeistMono-#{version}/statics-otf/**/GeistMono-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("GeistMono-#{version}/statics-otf/**/GeistMono-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("GeistMono-#{version}/statics-otf/**/GeistMono-SemiBold.otf")[0]
+    (share/"fonts").install Dir.glob("GeistMono-#{version}/statics-otf/**/GeistMono-Thin.otf")[0]
+    (share/"fonts").install Dir.glob("GeistMono-#{version}/statics-otf/**/GeistMono-UltraBlack.otf")[0]
+    (share/"fonts").install Dir.glob("GeistMono-#{version}/statics-otf/**/GeistMono-UltraLight.otf")[0]
+    (share/"fonts").install Dir.glob("GeistMono-#{version}/variable-ttf/**/GeistMonoVF.ttf")[0]
   end
   # No zap stanza required
 

@@ -3,8 +3,8 @@ class FontPlayfairDisplay < Formula
   desc "Playfair Display"
   homepage "https://fonts.google.com/specimen/Playfair+Display"
   def install
-    (share/"fonts").install Dir.glob(""ofl/playfairdisplay/" + ./**/PlayfairDisplay-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/playfairdisplay/" + ./**/PlayfairDisplay[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/playfairdisplay/./**/PlayfairDisplay-Italic\\[wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/playfairdisplay/./**/PlayfairDisplay\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

@@ -4,7 +4,7 @@ class FontReadexPro < Formula
   desc "Family of variable fonts"
   homepage "https://fonts.google.com/specimen/Readex+Pro"
   def install
-    (share/"fonts").install Dir.glob("./**/ReadexPro[HEXP,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/ReadexPro\\[HEXP,wght\\].ttf")[0]
   end
   # No zap stanza required
 

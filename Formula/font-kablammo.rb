@@ -3,7 +3,7 @@ class FontKablammo < Formula
   desc "Kablammo"
   homepage "https://fonts.google.com/specimen/Kablammo"
   def install
-    (share/"fonts").install Dir.glob("./**/Kablammo[MORF].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Kablammo\\[MORF\\].ttf")[0]
   end
   # No zap stanza required
 

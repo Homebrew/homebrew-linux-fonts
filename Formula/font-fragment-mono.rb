@@ -4,8 +4,8 @@ class FontFragmentMono < Formula
   desc "Monospaced coding font inspired on Helvetica"
   homepage "https://fonts.google.com/specimen/Fragment+Mono"
   def install
-    (share/"fonts").install Dir.glob(""ofl/fragmentmono/" + ./**/FragmentMono-Italic.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/fragmentmono/" + ./**/FragmentMono-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/fragmentmono/./**/FragmentMono-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/fragmentmono/./**/FragmentMono-Regular.ttf")[0]
   end
   # No zap stanza required
 

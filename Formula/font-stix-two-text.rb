@@ -3,8 +3,8 @@ class FontStixTwoText < Formula
   desc "STIX Two Text"
   homepage "https://fonts.google.com/specimen/STIX+Two+Text"
   def install
-    (share/"fonts").install Dir.glob(""ofl/stixtwotext/" + ./**/STIXTwoText-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/stixtwotext/" + ./**/STIXTwoText[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/stixtwotext/./**/STIXTwoText-Italic\\[wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/stixtwotext/./**/STIXTwoText\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

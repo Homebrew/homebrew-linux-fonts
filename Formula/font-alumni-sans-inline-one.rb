@@ -3,8 +3,8 @@ class FontAlumniSansInlineOne < Formula
   desc "Alumni Sans Inline One"
   homepage "https://fonts.google.com/specimen/Alumni+Sans+Inline+One"
   def install
-    (share/"fonts").install Dir.glob(""ofl/alumnisansinlineone/" + ./**/AlumniSansInlineOne-Italic.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/alumnisansinlineone/" + ./**/AlumniSansInlineOne-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/alumnisansinlineone/./**/AlumniSansInlineOne-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/alumnisansinlineone/./**/AlumniSansInlineOne-Regular.ttf")[0]
   end
   # No zap stanza required
 

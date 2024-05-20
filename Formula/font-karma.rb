@@ -5,11 +5,11 @@ class FontKarma < Formula
   desc "Karma"
   homepage "https://github.com/itfoundry/karma"
   def install
-    (share/"fonts").install Dir.glob(""ofl/karla/" + ./**/Karma-Bold.otf")[0]
-    (share/"fonts").install Dir.glob(""ofl/karla/" + ./**/Karma-Light.otf")[0]
-    (share/"fonts").install Dir.glob(""ofl/karla/" + ./**/Karma-Medium.otf")[0]
-    (share/"fonts").install Dir.glob(""ofl/karla/" + ./**/Karma-Regular.otf")[0]
-    (share/"fonts").install Dir.glob(""ofl/karla/" + ./**/Karma-SemiBold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Karma-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Karma-Light.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Karma-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Karma-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Karma-SemiBold.otf")[0]
   end
   # No zap stanza required
 

@@ -4,7 +4,7 @@ class FontMontaguSlab < Formula
   desc "Available as a variable font with weight and optical size axes"
   homepage "https://fonts.google.com/specimen/Montagu+Slab"
   def install
-    (share/"fonts").install Dir.glob("./**/MontaguSlab[opsz,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MontaguSlab\\[opsz,wght\\].ttf")[0]
   end
   # No zap stanza required
 

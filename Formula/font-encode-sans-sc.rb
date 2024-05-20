@@ -3,7 +3,7 @@ class FontEncodeSansSc < Formula
   desc "Encode Sans SC"
   homepage "https://fonts.google.com/specimen/Encode+Sans+SC"
   def install
-    (share/"fonts").install Dir.glob("./**/EncodeSansSC[wdth,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/EncodeSansSC\\[wdth,wght\\].ttf")[0]
   end
   # No zap stanza required
 

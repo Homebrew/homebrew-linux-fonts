@@ -10,16 +10,16 @@ class FontSarasaGothic < Formula
   desc "CJK programming font based on Iosevka and Source Han Sans"
   homepage "https://github.com/be5invis/Sarasa-Gothic"
   def install
-    (share/"fonts").install Dir.glob(""ofl/sarala/" + ./**/Sarasa-Bold.ttc")[0]
-    (share/"fonts").install Dir.glob(""ofl/sarala/" + ./**/Sarasa-BoldItalic.ttc")[0]
-    (share/"fonts").install Dir.glob(""ofl/sarala/" + ./**/Sarasa-ExtraLight.ttc")[0]
-    (share/"fonts").install Dir.glob(""ofl/sarala/" + ./**/Sarasa-ExtraLightItalic.ttc")[0]
-    (share/"fonts").install Dir.glob(""ofl/sarala/" + ./**/Sarasa-Italic.ttc")[0]
-    (share/"fonts").install Dir.glob(""ofl/sarala/" + ./**/Sarasa-Light.ttc")[0]
-    (share/"fonts").install Dir.glob(""ofl/sarala/" + ./**/Sarasa-LightItalic.ttc")[0]
-    (share/"fonts").install Dir.glob(""ofl/sarala/" + ./**/Sarasa-Regular.ttc")[0]
-    (share/"fonts").install Dir.glob(""ofl/sarala/" + ./**/Sarasa-SemiBold.ttc")[0]
-    (share/"fonts").install Dir.glob(""ofl/sarala/" + ./**/Sarasa-SemiBoldItalic.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/Sarasa-Bold.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/Sarasa-BoldItalic.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/Sarasa-ExtraLight.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/Sarasa-ExtraLightItalic.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/Sarasa-Italic.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/Sarasa-Light.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/Sarasa-LightItalic.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/Sarasa-Regular.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/Sarasa-SemiBold.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/Sarasa-SemiBoldItalic.ttc")[0]
   end
   # No zap stanza required
 

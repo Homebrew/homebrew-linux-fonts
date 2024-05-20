@@ -4,7 +4,7 @@ class FontSyne < Formula
   desc "Typeface originally designed for the art center Synesthésie"
   homepage "https://fonts.google.com/specimen/Syne"
   def install
-    (share/"fonts").install Dir.glob("./**/Syne[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Syne\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

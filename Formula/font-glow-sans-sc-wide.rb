@@ -6,15 +6,15 @@ class FontGlowSansScWide < Formula
   homepage "https://github.com/welai/glow-sans"
   deprecate! date: "2024-02-17", because: :unsupported
   def install
-    (share/"fonts").install Dir.glob(""ofl/glory/" + ./**/GlowSansSC-Wide-Bold.otf")[0]
-    (share/"fonts").install Dir.glob(""ofl/glory/" + ./**/GlowSansSC-Wide-Book.otf")[0]
-    (share/"fonts").install Dir.glob(""ofl/glory/" + ./**/GlowSansSC-Wide-ExtraBold.otf")[0]
-    (share/"fonts").install Dir.glob(""ofl/glory/" + ./**/GlowSansSC-Wide-ExtraLight.otf")[0]
-    (share/"fonts").install Dir.glob(""ofl/glory/" + ./**/GlowSansSC-Wide-Heavy.otf")[0]
-    (share/"fonts").install Dir.glob(""ofl/glory/" + ./**/GlowSansSC-Wide-Light.otf")[0]
-    (share/"fonts").install Dir.glob(""ofl/glory/" + ./**/GlowSansSC-Wide-Medium.otf")[0]
-    (share/"fonts").install Dir.glob(""ofl/glory/" + ./**/GlowSansSC-Wide-Regular.otf")[0]
-    (share/"fonts").install Dir.glob(""ofl/glory/" + ./**/GlowSansSC-Wide-Thin.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GlowSansSC-Wide-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GlowSansSC-Wide-Book.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GlowSansSC-Wide-ExtraBold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GlowSansSC-Wide-ExtraLight.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GlowSansSC-Wide-Heavy.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GlowSansSC-Wide-Light.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GlowSansSC-Wide-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GlowSansSC-Wide-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GlowSansSC-Wide-Thin.otf")[0]
   end
   # No zap stanza required
 

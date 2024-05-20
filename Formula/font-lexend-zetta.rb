@@ -3,7 +3,7 @@ class FontLexendZetta < Formula
   desc "Lexend Zetta"
   homepage "https://fonts.google.com/specimen/Lexend+Zetta"
   def install
-    (share/"fonts").install Dir.glob("./**/LexendZetta[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LexendZetta\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

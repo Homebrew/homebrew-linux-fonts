@@ -3,8 +3,8 @@ class FontArchivoNarrow < Formula
   desc "Archivo Narrow"
   homepage "https://fonts.google.com/specimen/Archivo+Narrow"
   def install
-    (share/"fonts").install Dir.glob(""ofl/archivonarrow/" + ./**/ArchivoNarrow-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/archivonarrow/" + ./**/ArchivoNarrow[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/archivonarrow/./**/ArchivoNarrow-Italic\\[wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/archivonarrow/./**/ArchivoNarrow\\[wght\\].ttf")[0]
   end
   # No zap stanza required
 

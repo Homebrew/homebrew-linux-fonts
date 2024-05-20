@@ -3,7 +3,7 @@ class FontAnekOdia < Formula
   desc "Anek Odia"
   homepage "https://fonts.google.com/specimen/Anek+Odia"
   def install
-    (share/"fonts").install Dir.glob("./**/AnekOdia[wdth,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/AnekOdia\\[wdth,wght\\].ttf")[0]
   end
   # No zap stanza required
 

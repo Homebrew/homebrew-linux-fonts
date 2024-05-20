@@ -6,7 +6,7 @@ class FontPhotonicoCode < Formula
   desc "Free, monospace, slab-serif style font for coding"
   homepage "https://github.com/Photonico/Photonico_Code"
   def install
-    (share/"fonts").install Dir.glob(""ofl/philosopher/" + ./**/Photonico.#{version}.Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Photonico.#{version}.Regular.ttf")[0]
   end
   # No zap stanza required
 

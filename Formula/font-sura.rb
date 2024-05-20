@@ -3,8 +3,8 @@ class FontSura < Formula
   desc "Sura"
   homepage "https://fonts.google.com/specimen/Sura"
   def install
-    (share/"fonts").install Dir.glob(""ofl/sura/" + ./**/Sura-Bold.ttf")[0]
-    (share/"fonts").install Dir.glob(""ofl/sura/" + ./**/Sura-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sura/./**/Sura-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sura/./**/Sura-Regular.ttf")[0]
   end
   # No zap stanza required
 
