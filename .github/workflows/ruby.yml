@@ -16,8 +16,6 @@ jobs:
         persist-credentials: false
     - name: Set up Ruby 3
       uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: 3.3
     - name: Configure git
       run: |
         git config user.email 'ta2gch@gmail.com'
@@ -38,4 +36,3 @@ jobs:
         TOKEN: ${{ secrets.PUSH_TOKEN }}
       run: |
         git push https://fgborges:${TOKEN}@github.com/Homebrew/homebrew-linux-fonts HEAD:master
-  
