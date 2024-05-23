@@ -16,6 +16,8 @@ jobs:
         persist-credentials: false
     - name: Set up Ruby 3
       uses: ruby/setup-ruby@v1
+      with:
+        bundler-cache: true
     - name: Configure git
       run: |
         git config user.email 'ta2gch@gmail.com'
@@ -23,8 +25,6 @@ jobs:
     - name: Convert and commit
       run: |
         git submodule update --init --remote
-        gem install bundler
-        bundle install --jobs 4 --retry 3 --without development
         bundle exec ruby cask2formula convert
         bundle exec ruby cask2formula commit
     - name: Clean Formula directory
