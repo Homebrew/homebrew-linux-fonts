@@ -1,0 +1,13 @@
+class FontRobotoCondensed < Formula
+  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/robotocondensed"
+  desc "Roboto Condensed"
+  homepage "https://fonts.google.com/specimen/Roboto+Condensed"
+  def install
+    (share/"fonts").install Dir.glob("ofl/robotocondensed/./**/RobotoCondensed-Italic\\[wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/robotocondensed/./**/RobotoCondensed\\[wght\\].ttf")[0]
+  end
+  # No zap stanza required
+
+  test do
+  end
+end
