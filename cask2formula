@@ -164,6 +164,7 @@ end
 
 class CaskConverter
     def convert
+      FileUtils.mkdir_p("Formula")
       ignores = IO.readlines('.caskignore', chomp: true)
       transform = CaskTransform.new(true)
       parser = CaskParser.new
