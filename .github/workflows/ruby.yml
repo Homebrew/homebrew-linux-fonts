@@ -29,7 +29,7 @@ jobs:
         bundle exec ruby cask2formula commit
     - name: Clean Formula directory
       run: |
-        comm -23 --nocheck-order <(ls -1 Formula) <(ls -1 homebrew-cask/Casks/font/) | xargs -I{} sh -c 'git rm ./Formula/{} && git commit -m "Remove {}"'
+        comm -23 --nocheck-order <(ls -1 Formula) <(basename -a homebrew-cask-fonts/Casks/font/*/*) | xargs -I{} sh -c 'git rm ./Formula/{} && git commit -m "Remove {}"'
     - name: Publish to GitHub
       if: github.event_name != 'pull_request'
       env:
