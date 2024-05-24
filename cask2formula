@@ -189,7 +189,9 @@ class CaskConverter
     def commit
       `git diff --name-only; git ls-files --others --exclude-standard`.split(/\s+/).each do |file|
           if file != "homebrew-cask-fonts" then
-            remote_source = "https://github.com/homebrew/#{file.sub(/Formula/, "homebrew-cask-fonts/blob/master/Casks")}"
+            shard_letter = File.basename(file).delete_prefix("font-")[0]
+            remote_dir = "homebrew-cask/blob/master/Casks/font/font-#{shard_letter}"
+            remote_source = "https://github.com/Homebrew/#{file.sub(/Formula/, remote_dir)}"
             commit_id = `git -C homebrew-cask-fonts log -n 1 --pretty=format:%H -- #{file.sub(/Formula/, 'Casks')}`
             system 'git', 'add', file
             system 'git', 'commit', '-m', "import #{remote_source} from #{commit_id}"
