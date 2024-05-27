@@ -1,4 +1,0 @@
-[submodule "homebrew-cask-fonts"]
-	path = homebrew-cask-fonts
-	url = https://github.com/homebrew/homebrew-cask
-  shallow = true

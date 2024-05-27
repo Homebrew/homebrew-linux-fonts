@@ -11,25 +11,35 @@ jobs:
     if: github.repository_owner == 'Homebrew' || !github.event.schedule
     runs-on: ubuntu-latest
     steps:
+    - name: Set up Homebrew
+      id: set-up-homebrew
+      uses: Homebrew/actions/setup-homebrew@master
+      with:
+        core: false
+        cask: false
+        test-bot: true
+
     - uses: actions/checkout@v4
       with:
         persist-credentials: false
-    - name: Set up Ruby 3
-      uses: ruby/setup-ruby@v1
-      with:
-        bundler-cache: true
+
+    - name: Install Homebrew Bundler RubyGems
+      if: steps.cache.outputs.cache-hit != 'true'
+      run: brew install-bundler-gems
+
     - name: Configure git
       run: |
         git config user.email 'ta2gch@gmail.com'
         git config user.name 'TANIGUCHI Masaya'
-    - name: Convert and commit
-      run: |
-        git submodule update --init --remote
-        bundle exec ruby cask2formula convert
-        bundle exec ruby cask2formula commit
-    - name: Clean Formula directory
-      run: |
-        comm -23 --nocheck-order <(ls -1 Formula) <(basename -a homebrew-cask-fonts/Casks/font/*/*) | xargs -I{} sh -c 'git rm ./Formula/{} && git commit -m "Remove {}"'
+
+    - name: Generate formulae
+      if: github.event_name == 'pull_request'
+      run: brew generate-linux-fonts --verbose --debug --write-only
+
+    - name: Generate and commit formulae
+      if: github.event_name != 'pull_request'
+      run: brew generate-linux-fonts --verbose --debug
+
     - name: Publish to GitHub
       if: github.event_name != 'pull_request'
       env:
