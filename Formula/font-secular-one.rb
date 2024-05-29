@@ -1,12 +1,14 @@
 class FontSecularOne < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/secularone/SecularOne-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Secular One"
+  desc "Secular one font"
   homepage "https://fonts.google.com/specimen/Secular+One"
+  head "https://github.com/google/fonts/raw/main/ofl/secularone/SecularOne-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/SecularOne-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
