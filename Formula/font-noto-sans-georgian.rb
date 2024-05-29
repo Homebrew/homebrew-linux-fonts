@@ -1,9 +1,11 @@
 class FontNotoSansGeorgian < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansGeorgian-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
-  desc "Noto Sans Georgian"
+  desc "Noto sans georgian font"
   homepage "https://www.google.com/get/noto/#sans-geor"
+  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansGeorgian-unhinted.zip",
+       verified: "noto-website-2.storage.googleapis.com/"
+
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSansGeorgian-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansGeorgian-Thin.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansGeorgian-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansGeorgian-Condensed.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansGeorgian-CondensedBlack.ttf")[0]
@@ -38,10 +40,10 @@ class FontNotoSansGeorgian < Formula
     (share/"fonts").install Dir.glob("./**/NotoSansGeorgian-SemiCondensedMedium.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansGeorgian-SemiCondensedSemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansGeorgian-SemiCondensedThin.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/NotoSansGeorgian-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansGeorgian-Black.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
