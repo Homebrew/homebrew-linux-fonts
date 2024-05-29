@@ -1,12 +1,12 @@
 class FontLilexNerdFont < Formula
-  version "3.2.1"
-  sha256 "246c475ddfc9ce70b49470a929443c886e5dcec20ed82c9575ed27c444cf9e23"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Lilex.zip"
-  desc "Lilex Nerd Font (Lilex)"
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Lilex.zip"
+  version "3.2.1"
+  sha256 "246c475ddfc9ce70b49470a929443c886e5dcec20ed82c9575ed27c444cf9e23"
+
   def install
-    (share/"fonts").install Dir.glob("./**/LilexNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LilexNerdFontPropo-Thin.ttf")[0]
     (share/"fonts").install Dir.glob("./**/LilexNerdFont-ExtraLight.ttf")[0]
     (share/"fonts").install Dir.glob("./**/LilexNerdFont-ExtraThick.ttf")[0]
     (share/"fonts").install Dir.glob("./**/LilexNerdFont-Medium.ttf")[0]
@@ -23,10 +23,10 @@ class FontLilexNerdFont < Formula
     (share/"fonts").install Dir.glob("./**/LilexNerdFontPropo-ExtraThick.ttf")[0]
     (share/"fonts").install Dir.glob("./**/LilexNerdFontPropo-Medium.ttf")[0]
     (share/"fonts").install Dir.glob("./**/LilexNerdFontPropo-Regular.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/LilexNerdFontPropo-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LilexNerdFont-Bold.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
