@@ -1,12 +1,14 @@
 class FontHanalei < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/hanalei/Hanalei-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Hanalei"
+  desc "Hanalei font"
   homepage "https://fonts.google.com/specimen/Hanalei"
+  head "https://github.com/google/fonts/raw/main/ofl/hanalei/Hanalei-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/Hanalei-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
