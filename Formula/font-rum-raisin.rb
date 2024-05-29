@@ -1,12 +1,14 @@
 class FontRumRaisin < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/rumraisin/RumRaisin-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Rum Raisin"
+  desc "Rum raisin font"
   homepage "https://fonts.google.com/specimen/Rum+Raisin"
+  head "https://github.com/google/fonts/raw/main/ofl/rumraisin/RumRaisin-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/RumRaisin-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
