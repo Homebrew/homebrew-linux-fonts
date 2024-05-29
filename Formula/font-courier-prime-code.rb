@@ -1,13 +1,14 @@
 class FontCourierPrimeCode < Formula
-  head "https://quoteunquoteapps.com/courierprime/downloads/courier-prime-code.zip"
-  desc "Courier Prime Code"
+  desc "Courier prime code font"
   homepage "https://quoteunquoteapps.com/courierprime/#code-sans"
+  head "https://quoteunquoteapps.com/courierprime/downloads/courier-prime-code.zip"
+
   def install
-    (share/"fonts").install Dir.glob("ttf/**/Courier Prime Code Italic.ttf")[0]
-    (share/"fonts").install Dir.glob("ttf/**/Courier Prime Code.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/ttf/Courier Prime Code Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/ttf/Courier Prime Code.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
