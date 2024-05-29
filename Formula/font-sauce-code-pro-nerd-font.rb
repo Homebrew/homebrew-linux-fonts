@@ -1,12 +1,12 @@
 class FontSauceCodeProNerdFont < Formula
-  version "3.2.1"
-  sha256 "dcba53be6a360aac5bd1424ac4ab316c5401f7e5a1fa28be4fa626ce07a30c0f"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/SourceCodePro.zip"
-  desc "SauceCodePro Nerd Font (Source Code Pro)"
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/SourceCodePro.zip"
+  version "3.2.1"
+  sha256 "dcba53be6a360aac5bd1424ac4ab316c5401f7e5a1fa28be4fa626ce07a30c0f"
+
   def install
-    (share/"fonts").install Dir.glob("./**/SauceCodeProNerdFont-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/SauceCodeProNerdFontPropo-SemiBoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/SauceCodeProNerdFont-BlackItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/SauceCodeProNerdFont-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/SauceCodeProNerdFont-BoldItalic.ttf")[0]
@@ -47,10 +47,10 @@ class FontSauceCodeProNerdFont < Formula
     (share/"fonts").install Dir.glob("./**/SauceCodeProNerdFontPropo-MediumItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/SauceCodeProNerdFontPropo-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("./**/SauceCodeProNerdFontPropo-SemiBold.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/SauceCodeProNerdFontPropo-SemiBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/SauceCodeProNerdFont-Black.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
