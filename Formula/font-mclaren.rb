@@ -1,12 +1,14 @@
 class FontMclaren < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/mclaren/McLaren-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "McLaren"
+  desc "Mclaren font"
   homepage "https://fonts.google.com/specimen/McLaren"
+  head "https://github.com/google/fonts/raw/main/ofl/mclaren/McLaren-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/McLaren-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
