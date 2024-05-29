@@ -1,12 +1,14 @@
 class FontLibreBarcode39 < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/librebarcode39/LibreBarcode39-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Libre Barcode 39"
+  desc "Libre barcode 39 font"
   homepage "https://fonts.google.com/specimen/Libre+Barcode+39"
+  head "https://github.com/google/fonts/raw/main/ofl/librebarcode39/LibreBarcode39-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/LibreBarcode39-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
