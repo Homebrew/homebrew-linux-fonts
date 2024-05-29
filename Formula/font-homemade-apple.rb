@@ -1,12 +1,14 @@
 class FontHomemadeApple < Formula
-  head "https://github.com/google/fonts/raw/main/apache/homemadeapple/HomemadeApple-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Homemade Apple"
+  desc "Homemade apple font"
   homepage "https://fonts.google.com/specimen/Homemade+Apple"
+  head "https://github.com/google/fonts/raw/main/apache/homemadeapple/HomemadeApple-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/HomemadeApple-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
