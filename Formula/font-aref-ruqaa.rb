@@ -1,13 +1,17 @@
 class FontArefRuqaa < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/arefruqaa"
-  desc "Aref Ruqaa"
+  desc "Aref ruqaa font"
   homepage "https://fonts.google.com/specimen/Aref+Ruqaa"
+  head "https://github.com/google/fonts.git",
+       verified:  "github.com/google/fonts",
+       branch:    "main",
+       only_path: "ofl/arefruqaa"
+
   def install
     (share/"fonts").install Dir.glob("ofl/arefruqaa/./**/ArefRuqaa-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/arefruqaa/./**/ArefRuqaa-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
