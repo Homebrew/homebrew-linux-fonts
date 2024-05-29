@@ -1,12 +1,14 @@
 class FontNotoSansOsage < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansOsage-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
-  desc "Noto Sans Osage"
+  desc "Noto sans osage font"
   homepage "https://www.google.com/get/noto/#sans-osge"
+  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansOsage-unhinted.zip",
+       verified: "noto-website-2.storage.googleapis.com/"
+
   def install
     (share/"fonts").install Dir.glob("./**/NotoSansOsage-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
