@@ -1,12 +1,13 @@
 class FontLangdon < Formula
-  head "https://www.ffonts.net/Langdon.font.zip"
-  desc "Langdon"
+  desc "Langdon font"
   homepage "https://www.ffonts.net/Langdon.font"
+  head "https://www.ffonts.net/Langdon.font.zip"
+
   def install
     (share/"fonts").install Dir.glob("./**/Langdon.otf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
