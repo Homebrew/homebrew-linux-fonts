@@ -1,12 +1,14 @@
 class FontGurajada < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/gurajada/Gurajada-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Gurajada"
+  desc "Gurajada font"
   homepage "https://fonts.google.com/specimen/Gurajada"
+  head "https://github.com/google/fonts/raw/main/ofl/gurajada/Gurajada-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/Gurajada-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
