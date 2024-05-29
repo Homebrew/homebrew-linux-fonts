@@ -1,10 +1,10 @@
 class FontMetropolis < Formula
-  head "https://www.1001fonts.com/download/metropolis.zip"
-  desc "Metropolis"
   desc "Modern, geometric typeface"
   homepage "https://www.1001fonts.com/metropolis-font.html"
+  head "https://www.1001fonts.com/download/metropolis.zip"
+
   def install
-    (share/"fonts").install Dir.glob("./**/Metropolis-Black.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Metropolis-ThinItalic.otf")[0]
     (share/"fonts").install Dir.glob("./**/Metropolis-BlackItalic.otf")[0]
     (share/"fonts").install Dir.glob("./**/Metropolis-Bold.otf")[0]
     (share/"fonts").install Dir.glob("./**/Metropolis-BoldItalic.otf")[0]
@@ -21,10 +21,10 @@ class FontMetropolis < Formula
     (share/"fonts").install Dir.glob("./**/Metropolis-SemiBold.otf")[0]
     (share/"fonts").install Dir.glob("./**/Metropolis-SemiBoldItalic.otf")[0]
     (share/"fonts").install Dir.glob("./**/Metropolis-Thin.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Metropolis-ThinItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Metropolis-Black.otf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
