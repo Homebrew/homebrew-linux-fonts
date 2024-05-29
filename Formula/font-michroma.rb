@@ -1,12 +1,14 @@
 class FontMichroma < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/michroma/Michroma-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Michroma"
+  desc "Michroma font"
   homepage "https://fonts.google.com/specimen/Michroma"
+  head "https://github.com/google/fonts/raw/main/ofl/michroma/Michroma-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/Michroma-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
