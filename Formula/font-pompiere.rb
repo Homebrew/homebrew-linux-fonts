@@ -1,12 +1,14 @@
 class FontPompiere < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/pompiere/Pompiere-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Pompiere"
+  desc "Pompiere font"
   homepage "https://fonts.google.com/specimen/Pompiere"
+  head "https://github.com/google/fonts/raw/main/ofl/pompiere/Pompiere-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/Pompiere-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
