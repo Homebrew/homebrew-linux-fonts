@@ -1,12 +1,14 @@
 class FontNotoSansSiddham < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/notosanssiddham/NotoSansSiddham-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Noto Sans Siddham"
+  desc "Noto sans siddham font"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Siddham"
+  head "https://github.com/google/fonts/raw/main/ofl/notosanssiddham/NotoSansSiddham-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/NotoSansSiddham-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
