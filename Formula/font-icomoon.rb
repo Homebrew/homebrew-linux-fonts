@@ -1,12 +1,14 @@
 class FontIcomoon < Formula
-  head "https://github.com/Keyamoon/IcoMoon-Free/archive/master.zip", verified: "github.com/Keyamoon/IcoMoon-Free/"
-  desc "IcoMoon"
+  desc "Icomoon font"
   homepage "https://icomoon.io/"
+  head "https://github.com/Keyamoon/IcoMoon-Free/archive/master.zip",
+       verified: "github.com/Keyamoon/IcoMoon-Free/"
+
   def install
-    (share/"fonts").install Dir.glob("IcoMoon-Free-master/Font/**/IcoMoon-Free.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/IcoMoon-Free-master/Font/IcoMoon-Free.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
