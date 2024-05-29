@@ -1,12 +1,14 @@
 class FontNosifer < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/nosifer/Nosifer-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Nosifer"
+  desc "Nosifer font"
   homepage "https://fonts.google.com/specimen/Nosifer"
+  head "https://github.com/google/fonts/raw/main/ofl/nosifer/Nosifer-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/Nosifer-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
