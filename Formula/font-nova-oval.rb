@@ -1,12 +1,14 @@
 class FontNovaOval < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/novaoval/NovaOval.ttf", verified: "github.com/google/fonts/"
-  desc "Nova Oval"
+  desc "Nova oval font"
   homepage "https://fonts.google.com/specimen/Nova+Oval"
+  head "https://github.com/google/fonts/raw/main/ofl/novaoval/NovaOval.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/NovaOval.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
