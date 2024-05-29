@@ -1,12 +1,14 @@
 class FontRugeBoogie < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/rugeboogie/RugeBoogie-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Ruge Boogie"
+  desc "Ruge boogie font"
   homepage "https://fonts.google.com/specimen/Ruge+Boogie"
+  head "https://github.com/google/fonts/raw/main/ofl/rugeboogie/RugeBoogie-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/RugeBoogie-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
