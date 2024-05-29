@@ -1,12 +1,13 @@
 class FontKalniaGlaze < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/kalniaglaze/KalniaGlaze%5Bwdth%2Cwght%5D.ttf"
-  desc "Kalnia Glaze"
+  desc "Kalnia glaze font"
   homepage "https://github.com/fridamedrano/Kalnia-Glaze"
+  head "https://github.com/google/fonts/raw/main/ofl/kalniaglaze/KalniaGlaze%5Bwdth%2Cwght%5D.ttf"
+
   def install
-    (share/"fonts").install Dir.glob("./**/KalniaGlaze\\[wdth,wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/KalniaGlaze[wdth,wght].ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
