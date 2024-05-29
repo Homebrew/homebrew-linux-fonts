@@ -1,12 +1,13 @@
 class FontProfontx < Formula
-  head "http://faisal.com/software/profontx/ProFontX.zip"
-  desc "ProFontX"
+  desc "Profontx font"
   homepage "http://faisal.com/software/profontx/"
+  head "http://faisal.com/software/profontx/ProFontX.zip"
+
   def install
-    (share/"fonts").install Dir.glob("ProFontX/**/ProFontX")[0]
+    (share/"fonts").install Dir.glob("./**/ProFontX/ProFontX")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
