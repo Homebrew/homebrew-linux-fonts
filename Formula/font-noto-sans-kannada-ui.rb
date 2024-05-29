@@ -1,12 +1,14 @@
 class FontNotoSansKannadaUi < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/notosanskannadaui/NotoSansKannadaUI%5Bwdth%2Cwght%5D.ttf", verified: "github.com/google/fonts/"
-  desc "Noto Sans Kannada UI"
+  desc "Noto sans kannada ui font"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Kannada+UI"
+  head "https://github.com/google/fonts/raw/main/ofl/notosanskannadaui/NotoSansKannadaUI%5Bwdth%2Cwght%5D.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSansKannadaUI\\[wdth,wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansKannadaUI[wdth,wght].ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
