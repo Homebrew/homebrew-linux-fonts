@@ -1,17 +1,18 @@
 class FontIpafont < Formula
+  desc "Ipa fonts font"
+  homepage "https://moji.or.jp/ipafont/"
+  url "https://moji.or.jp/wp-content/ipafont/IPAfont/IPAfont00303.zip"
   version "003.03"
   sha256 "f755ed79a4b8e715bed2f05a189172138aedf93db0f465b4e20c344a02766fe5"
-  url "https://moji.or.jp/wp-content/ipafont/IPAfont/IPAfont#{version.to_s.gsub(".", "")}.zip"
-  desc "IPA Fonts"
-  homepage "https://moji.or.jp/ipafont/"
+
   def install
-    (share/"fonts").install Dir.glob("IPAfont#{version.to_s.gsub(".", "")}/**/ipag.ttf")[0]
-    (share/"fonts").install Dir.glob("IPAfont#{version.to_s.gsub(".", "")}/**/ipagp.ttf")[0]
-    (share/"fonts").install Dir.glob("IPAfont#{version.to_s.gsub(".", "")}/**/ipam.ttf")[0]
-    (share/"fonts").install Dir.glob("IPAfont#{version.to_s.gsub(".", "")}/**/ipamp.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/IPAfont00303/ipag.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/IPAfont00303/ipagp.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/IPAfont00303/ipam.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/IPAfont00303/ipamp.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
