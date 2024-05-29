@@ -1,12 +1,12 @@
 class FontIosevkaNerdFont < Formula
-  version "3.2.1"
-  sha256 "40e4256822d648bcd147be0f9afbe89e9eb611b59edf3d757768d51ad593963d"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Iosevka.zip"
-  desc "Iosevka Nerd Font (Iosevka)"
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Iosevka.zip"
+  version "3.2.1"
+  sha256 "40e4256822d648bcd147be0f9afbe89e9eb611b59edf3d757768d51ad593963d"
+
   def install
-    (share/"fonts").install Dir.glob("./**/IosevkaNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/IosevkaNerdFontPropo-ThinOblique.ttf")[0]
     (share/"fonts").install Dir.glob("./**/IosevkaNerdFont-BoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/IosevkaNerdFont-BoldOblique.ttf")[0]
     (share/"fonts").install Dir.glob("./**/IosevkaNerdFont-ExtraBold.ttf")[0]
@@ -86,10 +86,10 @@ class FontIosevkaNerdFont < Formula
     (share/"fonts").install Dir.glob("./**/IosevkaNerdFontPropo-SemiBoldOblique.ttf")[0]
     (share/"fonts").install Dir.glob("./**/IosevkaNerdFontPropo-Thin.ttf")[0]
     (share/"fonts").install Dir.glob("./**/IosevkaNerdFontPropo-ThinItalic.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/IosevkaNerdFontPropo-ThinOblique.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/IosevkaNerdFont-Bold.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
