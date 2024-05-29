@@ -1,12 +1,13 @@
 class FontBukyvedeItalic < Formula
-  head "https://kodeks.uni-bamberg.de/aksl/media/BukyVede-Italic.ttf"
-  desc "BukyVede Italic"
+  desc "Bukyvede italic font"
   homepage "https://kodeks.uni-bamberg.de/aksl/Schrift/BukyVede.htm"
+  head "https://kodeks.uni-bamberg.de/aksl/media/BukyVede-Italic.ttf"
+
   def install
     (share/"fonts").install Dir.glob("./**/BukyVede-Italic.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
