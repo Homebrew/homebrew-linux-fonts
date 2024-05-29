@@ -1,12 +1,14 @@
 class FontNotoSansOldPersian < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansOldPersian-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
-  desc "Noto Sans Old Persian"
+  desc "Noto sans old persian font"
   homepage "https://www.google.com/get/noto/#sans-xpeo"
+  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansOldPersian-unhinted.zip",
+       verified: "noto-website-2.storage.googleapis.com/"
+
   def install
     (share/"fonts").install Dir.glob("./**/NotoSansOldPersian-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
