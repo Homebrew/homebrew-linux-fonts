@@ -1,12 +1,14 @@
 class FontUncialAntiqua < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/uncialantiqua/UncialAntiqua-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Uncial Antiqua"
+  desc "Uncial antiqua font"
   homepage "https://fonts.google.com/specimen/Uncial+Antiqua"
+  head "https://github.com/google/fonts/raw/main/ofl/uncialantiqua/UncialAntiqua-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/UncialAntiqua-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
