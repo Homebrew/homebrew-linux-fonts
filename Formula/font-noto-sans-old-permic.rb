@@ -1,12 +1,14 @@
 class FontNotoSansOldPermic < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/notosansoldpermic/NotoSansOldPermic-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Noto Sans Old Permic"
+  desc "Noto sans old permic font"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Old+Permic"
+  head "https://github.com/google/fonts/raw/main/ofl/notosansoldpermic/NotoSansOldPermic-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/NotoSansOldPermic-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
