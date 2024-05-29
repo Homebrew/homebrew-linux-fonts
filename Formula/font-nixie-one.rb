@@ -1,12 +1,14 @@
 class FontNixieOne < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/nixieone/NixieOne-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Nixie One"
+  desc "Nixie one font"
   homepage "https://fonts.google.com/specimen/Nixie+One"
+  head "https://github.com/google/fonts/raw/main/ofl/nixieone/NixieOne-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/NixieOne-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
