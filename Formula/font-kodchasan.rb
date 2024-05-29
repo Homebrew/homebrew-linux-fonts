@@ -1,9 +1,13 @@
 class FontKodchasan < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/kodchasan"
-  desc "Kodchasan"
+  desc "Kodchasan font"
   homepage "https://fonts.google.com/specimen/Kodchasan"
+  head "https://github.com/google/fonts.git",
+       verified:  "github.com/google/fonts",
+       branch:    "main",
+       only_path: "ofl/kodchasan"
+
   def install
-    (share/"fonts").install Dir.glob("ofl/kodchasan/./**/Kodchasan-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/kodchasan/./**/Kodchasan-SemiBoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/kodchasan/./**/Kodchasan-BoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/kodchasan/./**/Kodchasan-ExtraLight.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/kodchasan/./**/Kodchasan-ExtraLightItalic.ttf")[0]
@@ -14,10 +18,10 @@ class FontKodchasan < Formula
     (share/"fonts").install Dir.glob("ofl/kodchasan/./**/Kodchasan-MediumItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/kodchasan/./**/Kodchasan-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/kodchasan/./**/Kodchasan-SemiBold.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/kodchasan/./**/Kodchasan-SemiBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/kodchasan/./**/Kodchasan-Bold.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
