@@ -1,15 +1,16 @@
 class FontAboriginalSans < Formula
-  head "https://www.languagegeek.com/font/AboriginalSans.zip"
-  desc "LanguageGeek Aboriginal Sans Serif"
+  desc "Languagegeek aboriginal sans serif font"
   homepage "https://www.languagegeek.com/font/fontdownload.html"
+  head "https://www.languagegeek.com/font/AboriginalSans.zip"
+
   def install
     (share/"fonts").install Dir.glob("./**/AboriginalSansREGULAR.ttf")[0]
     (share/"fonts").install Dir.glob("./**/AboriginalSansBOLD.ttf")[0]
     (share/"fonts").install Dir.glob("./**/AboriginalSansBOLDITALIC.ttf")[0]
     (share/"fonts").install Dir.glob("./**/AboriginalSansITALIC.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
