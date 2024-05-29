@@ -1,12 +1,14 @@
 class FontBadScript < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/badscript/BadScript-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Bad Script"
+  desc "Bad script font"
   homepage "https://fonts.google.com/specimen/Bad+Script"
+  head "https://github.com/google/fonts/raw/main/ofl/badscript/BadScript-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/BadScript-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
