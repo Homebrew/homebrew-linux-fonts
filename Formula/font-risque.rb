@@ -1,12 +1,14 @@
 class FontRisque < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/risque/Risque-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Risque"
+  desc "Risque font"
   homepage "https://fonts.google.com/specimen/Risque"
+  head "https://github.com/google/fonts/raw/main/ofl/risque/Risque-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/Risque-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
