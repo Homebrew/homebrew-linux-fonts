@@ -1,7 +1,11 @@
 class FontAthiti < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/athiti"
-  desc "Athiti"
+  desc "Athiti font"
   homepage "https://fonts.google.com/specimen/Athiti"
+  head "https://github.com/google/fonts.git",
+       verified:  "github.com/google/fonts",
+       branch:    "main",
+       only_path: "ofl/athiti"
+
   def install
     (share/"fonts").install Dir.glob("ofl/athiti/./**/Athiti-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/athiti/./**/Athiti-ExtraLight.ttf")[0]
@@ -10,8 +14,8 @@ class FontAthiti < Formula
     (share/"fonts").install Dir.glob("ofl/athiti/./**/Athiti-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/athiti/./**/Athiti-SemiBold.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
