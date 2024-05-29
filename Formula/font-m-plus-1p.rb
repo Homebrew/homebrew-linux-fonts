@@ -1,7 +1,11 @@
 class FontMPlus1p < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/mplus1p"
-  desc "M PLUS 1p"
+  desc "M plus 1p font"
   homepage "https://fonts.google.com/specimen/M+PLUS+1p"
+  head "https://github.com/google/fonts.git",
+       verified:  "github.com/google/fonts",
+       branch:    "main",
+       only_path: "ofl/mplus1p"
+
   def install
     (share/"fonts").install Dir.glob("ofl/mplus1p/./**/MPLUS1p-Black.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/mplus1p/./**/MPLUS1p-Bold.ttf")[0]
@@ -11,8 +15,8 @@ class FontMPlus1p < Formula
     (share/"fonts").install Dir.glob("ofl/mplus1p/./**/MPLUS1p-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/mplus1p/./**/MPLUS1p-Thin.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
