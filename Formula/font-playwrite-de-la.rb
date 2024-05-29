@@ -1,12 +1,13 @@
 class FontPlaywriteDeLa < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/playwritedela/PlaywriteDELA%5Bwght%5D.ttf"
-  desc "Playwrite DE LA"
+  desc "Playwrite de la font"
   homepage "https://github.com/TypeTogether/Playwrite"
+  head "https://github.com/google/fonts/raw/main/ofl/playwritedela/PlaywriteDELA%5Bwght%5D.ttf"
+
   def install
-    (share/"fonts").install Dir.glob("./**/PlaywriteDELA\\[wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/PlaywriteDELA[wght].ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
