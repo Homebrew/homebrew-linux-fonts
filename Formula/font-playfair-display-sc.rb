@@ -1,7 +1,11 @@
 class FontPlayfairDisplaySc < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/playfairdisplaysc"
-  desc "Playfair Display SC"
+  desc "Playfair display sc font"
   homepage "https://fonts.google.com/specimen/Playfair+Display+SC"
+  head "https://github.com/google/fonts.git",
+       verified:  "github.com/google/fonts",
+       branch:    "main",
+       only_path: "ofl/playfairdisplaysc"
+
   def install
     (share/"fonts").install Dir.glob("ofl/playfairdisplaysc/./**/PlayfairDisplaySC-Black.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/playfairdisplaysc/./**/PlayfairDisplaySC-BlackItalic.ttf")[0]
@@ -10,8 +14,8 @@ class FontPlayfairDisplaySc < Formula
     (share/"fonts").install Dir.glob("ofl/playfairdisplaysc/./**/PlayfairDisplaySC-Italic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/playfairdisplaysc/./**/PlayfairDisplaySC-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
