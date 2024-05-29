@@ -1,12 +1,12 @@
 class FontNotoNerdFont < Formula
-  version "3.2.1"
-  sha256 "b8a6e1fcaf557a404be47250d419ee4234ad8930e9d2a405c248fa7f08ab5c04"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Noto.zip"
-  desc "Noto Nerd Font families (Noto)"
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Noto.zip"
+  version "3.2.1"
+  sha256 "b8a6e1fcaf557a404be47250d419ee4234ad8930e9d2a405c248fa7f08ab5c04"
+
   def install
-    (share/"fonts").install Dir.glob("./**/NotoMonoNerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSerifNerdFontPropo-ThinItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoMonoNerdFontMono-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoMonoNerdFontPropo-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansMNerdFont-Black.ttf")[0]
@@ -404,10 +404,10 @@ class FontNotoNerdFont < Formula
     (share/"fonts").install Dir.glob("./**/NotoSerifNerdFontPropo-SemiCondensedThin.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifNerdFontPropo-SemiCondensedThinItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifNerdFontPropo-Thin.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/NotoSerifNerdFontPropo-ThinItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoMonoNerdFont-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
