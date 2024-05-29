@@ -1,9 +1,11 @@
 class FontNotoSansLao < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansLao-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
-  desc "Noto Sans Lao"
+  desc "Noto sans lao font"
   homepage "https://www.google.com/get/noto/#sans-laoo"
+  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansLao-unhinted.zip",
+       verified: "noto-website-2.storage.googleapis.com/"
+
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSansLao-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansLaoUI-Thin.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansLao-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansLao-Condensed.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansLao-CondensedBlack.ttf")[0]
@@ -74,10 +76,10 @@ class FontNotoSansLao < Formula
     (share/"fonts").install Dir.glob("./**/NotoSansLaoUI-SemiCondensedMedium.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansLaoUI-SemiCondensedSemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansLaoUI-SemiCondensedThin.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/NotoSansLaoUI-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansLao-Black.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
