@@ -1,9 +1,11 @@
 class FontNotoSansEthiopic < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansEthiopic-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
-  desc "Noto Sans Ethiopic"
+  desc "Noto sans ethiopic font"
   homepage "https://www.google.com/get/noto/#sans-ethi"
+  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansEthiopic-unhinted.zip",
+       verified: "noto-website-2.storage.googleapis.com/"
+
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSansEthiopic-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansEthiopic-Thin.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansEthiopic-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansEthiopic-Condensed.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansEthiopic-CondensedBlack.ttf")[0]
@@ -38,10 +40,10 @@ class FontNotoSansEthiopic < Formula
     (share/"fonts").install Dir.glob("./**/NotoSansEthiopic-SemiCondensedMedium.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansEthiopic-SemiCondensedSemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansEthiopic-SemiCondensedThin.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/NotoSansEthiopic-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansEthiopic-Black.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
