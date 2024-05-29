@@ -1,12 +1,14 @@
 class FontAveriaGruesaLibre < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/averiagruesalibre/AveriaGruesaLibre-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Averia Gruesa Libre"
+  desc "Averia gruesa libre font"
   homepage "https://fonts.google.com/specimen/Averia+Gruesa+Libre"
+  head "https://github.com/google/fonts/raw/main/ofl/averiagruesalibre/AveriaGruesaLibre-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/AveriaGruesaLibre-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
