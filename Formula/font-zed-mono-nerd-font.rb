@@ -1,12 +1,12 @@
 class FontZedMonoNerdFont < Formula
-  version "3.2.1"
-  sha256 "ed7b11308018ce85dcf46afa6bbbd90d12369e8cfa4e0740311a731e61aa03df"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/ZedMono.zip"
-  desc "ZedMono Nerd Font (Zed Mono)"
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/ZedMono.zip"
+  version "3.2.1"
+  sha256 "ed7b11308018ce85dcf46afa6bbbd90d12369e8cfa4e0740311a731e61aa03df"
+
   def install
-    (share/"fonts").install Dir.glob("./**/ZedMonoNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/ZedMonoNerdFontPropo-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("./**/ZedMonoNerdFont-BoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/ZedMonoNerdFont-BoldOblique.ttf")[0]
     (share/"fonts").install Dir.glob("./**/ZedMonoNerdFont-Extended.ttf")[0]
@@ -95,10 +95,10 @@ class FontZedMonoNerdFont < Formula
     (share/"fonts").install Dir.glob("./**/ZedMonoNerdFontPropo-MediumItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/ZedMonoNerdFontPropo-MediumOblique.ttf")[0]
     (share/"fonts").install Dir.glob("./**/ZedMonoNerdFontPropo-Oblique.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/ZedMonoNerdFontPropo-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/ZedMonoNerdFont-Bold.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
