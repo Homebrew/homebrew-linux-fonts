@@ -1,13 +1,13 @@
 class FontKaiso < Formula
-  head "https://moji-waku.com/download/kaiso_next.zip"
-  desc "Kaiso"
   desc "Modern fantasize Japanese font"
   homepage "https://moji-waku.com/kaiso/index.html"
+  head "https://moji-waku.com/download/kaiso_next.zip"
+
   def install
-    (share/"fonts").install Dir.glob("kaiso_next/**/Kaiso-Next-B.otf")[0]
+    (share/"fonts").install Dir.glob("./**/kaiso_next/Kaiso-Next-B.otf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
