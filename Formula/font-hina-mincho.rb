@@ -1,12 +1,14 @@
 class FontHinaMincho < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/hinamincho/HinaMincho-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Hina Mincho"
+  desc "Hina mincho font"
   homepage "https://fonts.google.com/specimen/Hina+Mincho"
+  head "https://github.com/google/fonts/raw/main/ofl/hinamincho/HinaMincho-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/HinaMincho-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
