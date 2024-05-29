@@ -1,12 +1,13 @@
 class FontDigohweliOldDo < Formula
-  head "https://www.languagegeek.com/font/OldDODigohweli.zip"
-  desc "Digohweli Old DO"
+  desc "Digohweli old do font"
   homepage "https://www.languagegeek.com/font/fontdownload.html"
+  head "https://www.languagegeek.com/font/OldDODigohweli.zip"
+
   def install
     (share/"fonts").install Dir.glob("./**/OldDODigohweli.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
