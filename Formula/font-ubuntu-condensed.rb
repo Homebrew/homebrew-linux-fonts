@@ -1,12 +1,14 @@
 class FontUbuntuCondensed < Formula
-  head "https://github.com/google/fonts/raw/main/ufl/ubuntucondensed/UbuntuCondensed-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Ubuntu Condensed"
+  desc "Ubuntu condensed font"
   homepage "https://fonts.google.com/specimen/Ubuntu+Condensed"
+  head "https://github.com/google/fonts/raw/main/ufl/ubuntucondensed/UbuntuCondensed-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/UbuntuCondensed-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
