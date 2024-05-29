@@ -1,12 +1,14 @@
 class FontLalezar < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/lalezar/Lalezar-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Lalezar"
+  desc "Lalezar font"
   homepage "https://fonts.google.com/specimen/Lalezar"
+  head "https://github.com/google/fonts/raw/main/ofl/lalezar/Lalezar-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/Lalezar-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
