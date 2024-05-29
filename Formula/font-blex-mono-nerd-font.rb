@@ -1,12 +1,12 @@
 class FontBlexMonoNerdFont < Formula
-  version "3.2.1"
-  sha256 "0d6c232bcb6acaf4505fc2fd0588f06a4ecd4ca8e9b0b566ab1b6ed48254461a"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/IBMPlexMono.zip"
-  desc "BlexMono Nerd Font (IBM Plex Mono)"
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/IBMPlexMono.zip"
+  version "3.2.1"
+  sha256 "0d6c232bcb6acaf4505fc2fd0588f06a4ecd4ca8e9b0b566ab1b6ed48254461a"
+
   def install
-    (share/"fonts").install Dir.glob("./**/BlexMonoNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/BlexMonoNerdFontPropo-ThinItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/BlexMonoNerdFont-BoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/BlexMonoNerdFont-ExtraLight.ttf")[0]
     (share/"fonts").install Dir.glob("./**/BlexMonoNerdFont-ExtraLightItalic.ttf")[0]
@@ -53,10 +53,10 @@ class FontBlexMonoNerdFont < Formula
     (share/"fonts").install Dir.glob("./**/BlexMonoNerdFontPropo-Text.ttf")[0]
     (share/"fonts").install Dir.glob("./**/BlexMonoNerdFontPropo-TextItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/BlexMonoNerdFontPropo-Thin.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/BlexMonoNerdFontPropo-ThinItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/BlexMonoNerdFont-Bold.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
