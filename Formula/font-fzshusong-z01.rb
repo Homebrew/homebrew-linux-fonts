@@ -1,12 +1,13 @@
 class FontFzshusongZ01 < Formula
-  head "https://cdn1.foundertype.com/Public/Uploads/ttf/FZSSK.TTF"
-  desc "Fangzheng Shusong GBK"
+  desc "Fangzheng shusong gbk font"
   homepage "https://www.foundertype.com/index.php/FontInfo/index.html?id=151"
+  head "https://cdn1.foundertype.com/Public/Uploads/ttf/FZSSK.TTF"
+
   def install
     (share/"fonts").install Dir.glob("./**/FZSSK.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
