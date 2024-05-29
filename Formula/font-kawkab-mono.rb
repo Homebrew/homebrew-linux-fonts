@@ -1,16 +1,18 @@
 class FontKawkabMono < Formula
+  desc "Kawkab mono font"
+  homepage "https://makkuk.com/kawkab-mono"
+  url "https://github.com/aiaf/kawkab-mono/releases/download/v0.501/kawkab-mono-0.501.zip",
+       verified: "github.com/aiaf/kawkab-mono/"
   version "0.501"
   sha256 "11c06f57dddefaf0166d74caaa072865ab6ff8d34076e7ec5d2c20edda145666"
-  url "https://github.com/aiaf/kawkab-mono/releases/download/v#{version}/kawkab-mono-#{version}.zip", verified: "github.com/aiaf/kawkab-mono/"
-  desc "Kawkab Mono"
-  homepage "https://makkuk.com/kawkab-mono"
+
   def install
-    (share/"fonts").install Dir.glob("kawkab-mono-#{version}/**/KawkabMono-Bold.otf")[0]
-    (share/"fonts").install Dir.glob("kawkab-mono-#{version}/**/KawkabMono-Light.otf")[0]
-    (share/"fonts").install Dir.glob("kawkab-mono-#{version}/**/KawkabMono-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/kawkab-mono-0.501/KawkabMono-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/kawkab-mono-0.501/KawkabMono-Light.otf")[0]
+    (share/"fonts").install Dir.glob("./**/kawkab-mono-0.501/KawkabMono-Regular.otf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
