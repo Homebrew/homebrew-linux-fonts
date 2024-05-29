@@ -1,12 +1,14 @@
 class FontLakkiReddy < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/lakkireddy/LakkiReddy-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Lakki Reddy"
+  desc "Lakki reddy font"
   homepage "https://fonts.google.com/specimen/Lakki+Reddy"
+  head "https://github.com/google/fonts/raw/main/ofl/lakkireddy/LakkiReddy-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/LakkiReddy-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
