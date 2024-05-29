@@ -1,12 +1,14 @@
 class FontNotoSansBalinese < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansBalinese-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
-  desc "Noto Sans Balinese"
+  desc "Noto sans balinese font"
   homepage "https://www.google.com/get/noto/#sans-bali"
+  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansBalinese-unhinted.zip",
+       verified: "noto-website-2.storage.googleapis.com/"
+
   def install
     (share/"fonts").install Dir.glob("./**/NotoSansBalinese-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
