@@ -1,12 +1,14 @@
 class FontGirassol < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/girassol/Girassol-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Girassol"
+  desc "Girassol font"
   homepage "https://fonts.google.com/specimen/Girassol"
+  head "https://github.com/google/fonts/raw/main/ofl/girassol/Girassol-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/Girassol-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
