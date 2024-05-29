@@ -1,9 +1,11 @@
 class FontNotoSerifHebrew < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSerifHebrew-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
-  desc "Noto Serif Hebrew"
+  desc "Noto serif hebrew font"
   homepage "https://www.google.com/get/noto/#serif-hebr"
+  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSerifHebrew-unhinted.zip",
+       verified: "noto-website-2.storage.googleapis.com/"
+
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSerifHebrew-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSerifHebrew-Thin.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifHebrew-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifHebrew-Condensed.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifHebrew-CondensedBlack.ttf")[0]
@@ -38,10 +40,10 @@ class FontNotoSerifHebrew < Formula
     (share/"fonts").install Dir.glob("./**/NotoSerifHebrew-SemiCondensedMedium.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifHebrew-SemiCondensedSemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifHebrew-SemiCondensedThin.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/NotoSerifHebrew-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSerifHebrew-Black.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
