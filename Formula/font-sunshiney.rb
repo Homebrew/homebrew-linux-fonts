@@ -1,12 +1,14 @@
 class FontSunshiney < Formula
-  head "https://github.com/google/fonts/raw/main/apache/sunshiney/Sunshiney-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Sunshiney"
+  desc "Sunshiney font"
   homepage "https://fonts.google.com/specimen/Sunshiney"
+  head "https://github.com/google/fonts/raw/main/apache/sunshiney/Sunshiney-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/Sunshiney-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
