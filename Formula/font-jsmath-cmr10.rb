@@ -1,12 +1,14 @@
 class FontJsmathCmr10 < Formula
-  head "https://github.com/google/fonts/raw/main/apache/jsmathcmr10/jsMath-cmr10.ttf", verified: "github.com/google/fonts/"
-  desc "jsMath cmr10"
+  desc "Jsmath cmr10 font"
   homepage "https://fonts.google.com/specimen/jsMath+cmr10"
+  head "https://github.com/google/fonts/raw/main/apache/jsmathcmr10/jsMath-cmr10.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/jsMath-cmr10.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
