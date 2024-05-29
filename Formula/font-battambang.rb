@@ -1,7 +1,11 @@
 class FontBattambang < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/battambang"
-  desc "Battambang"
+  desc "Battambang font"
   homepage "https://fonts.google.com/specimen/Battambang"
+  head "https://github.com/google/fonts.git",
+       verified:  "github.com/google/fonts",
+       branch:    "main",
+       only_path: "ofl/battambang"
+
   def install
     (share/"fonts").install Dir.glob("ofl/battambang/./**/Battambang-Black.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/battambang/./**/Battambang-Bold.ttf")[0]
@@ -9,8 +13,8 @@ class FontBattambang < Formula
     (share/"fonts").install Dir.glob("ofl/battambang/./**/Battambang-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/battambang/./**/Battambang-Thin.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
