@@ -1,12 +1,13 @@
 class FontHyppolit < Formula
-  head "https://dl.1001fonts.com/hyppolit.zip"
-  desc "Hyppolit"
+  desc "Hyppolit font"
   homepage "https://www.1001fonts.com/hyppolit-font.html"
+  head "https://dl.1001fonts.com/hyppolit.zip"
+
   def install
     (share/"fonts").install Dir.glob("./**/Hyppolit.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
