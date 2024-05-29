@@ -1,12 +1,14 @@
 class FontIrishGrover < Formula
-  head "https://github.com/google/fonts/raw/main/apache/irishgrover/IrishGrover-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Irish Grover"
+  desc "Irish grover font"
   homepage "https://fonts.google.com/specimen/Irish+Grover"
+  head "https://github.com/google/fonts/raw/main/apache/irishgrover/IrishGrover-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/IrishGrover-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
