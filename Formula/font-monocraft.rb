@@ -1,15 +1,15 @@
 class FontMonocraft < Formula
-  version "3.0"
-  sha256 "b61ee3256f449e96140f54515819540840ef0cade82711eba359a5864c779076"
-  url "https://github.com/IdreesInc/Monocraft/releases/download/v#{version}/Monocraft.ttf"
-  desc "Monocraft"
   desc "Monospaced programming font inspired by the Minecraft typeface"
   homepage "https://github.com/IdreesInc/Monocraft"
+  url "https://github.com/IdreesInc/Monocraft/releases/download/v3.0/Monocraft.ttf"
+  version "3.0"
+  sha256 "b61ee3256f449e96140f54515819540840ef0cade82711eba359a5864c779076"
+
   def install
     (share/"fonts").install Dir.glob("./**/Monocraft.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
