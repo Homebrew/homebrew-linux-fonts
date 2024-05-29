@@ -1,12 +1,14 @@
 class FontSedgwickAveDisplay < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/sedgwickavedisplay/SedgwickAveDisplay-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Sedgwick Ave Display"
+  desc "Sedgwick ave display font"
   homepage "https://fonts.google.com/specimen/Sedgwick+Ave+Display"
+  head "https://github.com/google/fonts/raw/main/ofl/sedgwickavedisplay/SedgwickAveDisplay-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/SedgwickAveDisplay-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
