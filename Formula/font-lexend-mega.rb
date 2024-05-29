@@ -1,12 +1,14 @@
 class FontLexendMega < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/lexendmega/LexendMega%5Bwght%5D.ttf", verified: "github.com/google/fonts/"
-  desc "Lexend Mega"
+  desc "Lexend mega font"
   homepage "https://fonts.google.com/specimen/Lexend+Mega"
+  head "https://github.com/google/fonts/raw/main/ofl/lexendmega/LexendMega%5Bwght%5D.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
-    (share/"fonts").install Dir.glob("./**/LexendMega\\[wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LexendMega[wght].ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
