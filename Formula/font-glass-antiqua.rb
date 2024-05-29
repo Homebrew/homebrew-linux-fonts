@@ -1,12 +1,14 @@
 class FontGlassAntiqua < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/glassantiqua/GlassAntiqua-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Glass Antiqua"
+  desc "Glass antiqua font"
   homepage "https://fonts.google.com/specimen/Glass+Antiqua"
+  head "https://github.com/google/fonts/raw/main/ofl/glassantiqua/GlassAntiqua-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/GlassAntiqua-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
