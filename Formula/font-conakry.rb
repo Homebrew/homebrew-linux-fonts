@@ -1,12 +1,13 @@
 class FontConakry < Formula
-  head "https://www.evertype.com/fonts/nko/ConakryFont.zip"
-  desc "Conakry"
+  desc "Conakry font"
   homepage "https://www.evertype.com/fonts/nko/"
+  head "https://www.evertype.com/fonts/nko/ConakryFont.zip"
+
   def install
-    (share/"fonts").install Dir.glob("ConakryFont/**/Conakry.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/ConakryFont/Conakry.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
