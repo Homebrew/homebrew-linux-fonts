@@ -1,12 +1,14 @@
 class FontNikukyu < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/nikukyu/Nikukyu-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Nikukyu"
+  desc "Nikukyu font"
   homepage "https://fonts.google.com/specimen/Nikukyu"
+  head "https://github.com/google/fonts/raw/main/ofl/nikukyu/Nikukyu-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/Nikukyu-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
