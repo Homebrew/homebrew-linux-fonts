@@ -1,12 +1,14 @@
 class FontNotoSansDeseret < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansDeseret-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
-  desc "Noto Sans Deseret"
+  desc "Noto sans deseret font"
   homepage "https://www.google.com/get/noto/#sans-dsrt"
+  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansDeseret-unhinted.zip",
+       verified: "noto-website-2.storage.googleapis.com/"
+
   def install
     (share/"fonts").install Dir.glob("./**/NotoSansDeseret-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
