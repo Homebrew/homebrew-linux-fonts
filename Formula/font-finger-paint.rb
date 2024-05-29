@@ -1,12 +1,14 @@
 class FontFingerPaint < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/fingerpaint/FingerPaint-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Finger Paint"
+  desc "Finger paint font"
   homepage "https://fonts.google.com/specimen/Finger+Paint"
+  head "https://github.com/google/fonts/raw/main/ofl/fingerpaint/FingerPaint-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/FingerPaint-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
