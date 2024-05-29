@@ -1,9 +1,11 @@
 class FontNotoSerifMyanmar < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSerifMyanmar-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
-  desc "Noto Serif Myanmar"
+  desc "Noto serif myanmar font"
   homepage "https://www.google.com/get/noto/#serif-mymr"
+  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSerifMyanmar-unhinted.zip",
+       verified: "noto-website-2.storage.googleapis.com/"
+
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSerifMyanmar-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSerifMyanmar-Thin.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifMyanmar-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifMyanmar-Condensed.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifMyanmar-CondensedBlack.ttf")[0]
@@ -38,10 +40,10 @@ class FontNotoSerifMyanmar < Formula
     (share/"fonts").install Dir.glob("./**/NotoSerifMyanmar-SemiCondensedMedium.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifMyanmar-SemiCondensedSemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifMyanmar-SemiCondensedThin.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/NotoSerifMyanmar-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSerifMyanmar-Black.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
