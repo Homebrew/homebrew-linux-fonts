@@ -1,12 +1,14 @@
 class FontNotoSansOsmanya < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansOsmanya-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
-  desc "Noto Sans Osmanya"
+  desc "Noto sans osmanya font"
   homepage "https://www.google.com/get/noto/#sans-osma"
+  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansOsmanya-unhinted.zip",
+       verified: "noto-website-2.storage.googleapis.com/"
+
   def install
     (share/"fonts").install Dir.glob("./**/NotoSansOsmanya-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
