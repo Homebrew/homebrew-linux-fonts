@@ -1,9 +1,11 @@
 class FontNotoSansSinhala < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansSinhala-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
-  desc "Noto Sans Sinhala"
+  desc "Noto sans sinhala font"
   homepage "https://www.google.com/get/noto/#sans-sinh"
+  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansSinhala-unhinted.zip",
+       verified: "noto-website-2.storage.googleapis.com/"
+
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSansSinhala-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansSinhalaUI-Thin.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansSinhala-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansSinhala-Condensed.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansSinhala-CondensedBlack.ttf")[0]
@@ -74,10 +76,10 @@ class FontNotoSansSinhala < Formula
     (share/"fonts").install Dir.glob("./**/NotoSansSinhalaUI-SemiCondensedMedium.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansSinhalaUI-SemiCondensedSemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansSinhalaUI-SemiCondensedThin.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/NotoSansSinhalaUI-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansSinhala-Black.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
