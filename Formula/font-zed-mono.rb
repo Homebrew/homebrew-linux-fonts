@@ -1,12 +1,12 @@
 class FontZedMono < Formula
-  version "1.2.0"
-  sha256 "eb673b39528927d21c0b12eaf05e50babc486bc99e724b55c88e529a5dae76c9"
-  url "https://github.com/zed-industries/zed-fonts/releases/download/#{version}/zed-mono-#{version}.zip"
-  desc "Zed Mono"
   desc "Quasi-proportional monospace font based on Iosevka"
   homepage "https://github.com/zed-industries/zed-fonts"
+  url "https://github.com/zed-industries/zed-fonts/releases/download/1.2.0/zed-mono-1.2.0.zip"
+  version "1.2.0"
+  sha256 "eb673b39528927d21c0b12eaf05e50babc486bc99e724b55c88e529a5dae76c9"
+
   def install
-    (share/"fonts").install Dir.glob("./**/zed-mono-bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/zed-mono-thinoblique.ttf")[0]
     (share/"fonts").install Dir.glob("./**/zed-mono-bolditalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/zed-mono-boldoblique.ttf")[0]
     (share/"fonts").install Dir.glob("./**/zed-mono-extended.ttf")[0]
@@ -59,10 +59,10 @@ class FontZedMono < Formula
     (share/"fonts").install Dir.glob("./**/zed-mono-semiboldoblique.ttf")[0]
     (share/"fonts").install Dir.glob("./**/zed-mono-thin.ttf")[0]
     (share/"fonts").install Dir.glob("./**/zed-mono-thinitalic.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/zed-mono-thinoblique.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/zed-mono-bold.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
