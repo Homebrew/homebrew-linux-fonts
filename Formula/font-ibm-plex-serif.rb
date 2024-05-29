@@ -1,9 +1,13 @@
 class FontIbmPlexSerif < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/ibmplexserif"
-  desc "IBM Plex Serif"
+  desc "Ibm plex serif font"
   homepage "https://fonts.google.com/specimen/IBM+Plex+Serif"
+  head "https://github.com/google/fonts.git",
+       verified:  "github.com/google/fonts",
+       branch:    "main",
+       only_path: "ofl/ibmplexserif"
+
   def install
-    (share/"fonts").install Dir.glob("ofl/ibmplexserif/./**/IBMPlexSerif-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibmplexserif/./**/IBMPlexSerif-ThinItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/ibmplexserif/./**/IBMPlexSerif-BoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/ibmplexserif/./**/IBMPlexSerif-ExtraLight.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/ibmplexserif/./**/IBMPlexSerif-ExtraLightItalic.ttf")[0]
@@ -16,10 +20,10 @@ class FontIbmPlexSerif < Formula
     (share/"fonts").install Dir.glob("ofl/ibmplexserif/./**/IBMPlexSerif-SemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/ibmplexserif/./**/IBMPlexSerif-SemiBoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/ibmplexserif/./**/IBMPlexSerif-Thin.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/ibmplexserif/./**/IBMPlexSerif-ThinItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibmplexserif/./**/IBMPlexSerif-Bold.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
