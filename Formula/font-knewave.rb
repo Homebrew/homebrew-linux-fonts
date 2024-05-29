@@ -1,12 +1,14 @@
 class FontKnewave < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/knewave/Knewave-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Knewave"
+  desc "Knewave font"
   homepage "https://fonts.google.com/specimen/Knewave"
+  head "https://github.com/google/fonts/raw/main/ofl/knewave/Knewave-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/Knewave-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
