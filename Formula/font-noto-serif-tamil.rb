@@ -1,9 +1,11 @@
 class FontNotoSerifTamil < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSerifTamil-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
-  desc "Noto Serif Tamil"
+  desc "Noto serif tamil font"
   homepage "https://www.google.com/get/noto/#serif-taml"
+  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSerifTamil-unhinted.zip",
+       verified: "noto-website-2.storage.googleapis.com/"
+
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSerifTamil-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSerifTamil-Thin.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifTamil-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifTamil-Condensed.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifTamil-CondensedBlack.ttf")[0]
@@ -38,10 +40,10 @@ class FontNotoSerifTamil < Formula
     (share/"fonts").install Dir.glob("./**/NotoSerifTamil-SemiCondensedMedium.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifTamil-SemiCondensedSemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifTamil-SemiCondensedThin.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/NotoSerifTamil-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSerifTamil-Black.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
