@@ -1,9 +1,13 @@
 class FontIbmPlexSansCondensed < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/ibmplexsanscondensed"
-  desc "IBM Plex Sans Condensed"
+  desc "Ibm plex sans condensed font"
   homepage "https://fonts.google.com/specimen/IBM+Plex+Sans+Condensed"
+  head "https://github.com/google/fonts.git",
+       verified:  "github.com/google/fonts",
+       branch:    "main",
+       only_path: "ofl/ibmplexsanscondensed"
+
   def install
-    (share/"fonts").install Dir.glob("ofl/ibmplexsanscondensed/./**/IBMPlexSansCondensed-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibmplexsanscondensed/./**/IBMPlexSansCondensed-ThinItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/ibmplexsanscondensed/./**/IBMPlexSansCondensed-BoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/ibmplexsanscondensed/./**/IBMPlexSansCondensed-ExtraLight.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/ibmplexsanscondensed/./**/IBMPlexSansCondensed-ExtraLightItalic.ttf")[0]
@@ -16,10 +20,10 @@ class FontIbmPlexSansCondensed < Formula
     (share/"fonts").install Dir.glob("ofl/ibmplexsanscondensed/./**/IBMPlexSansCondensed-SemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/ibmplexsanscondensed/./**/IBMPlexSansCondensed-SemiBoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/ibmplexsanscondensed/./**/IBMPlexSansCondensed-Thin.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/ibmplexsanscondensed/./**/IBMPlexSansCondensed-ThinItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibmplexsanscondensed/./**/IBMPlexSansCondensed-Bold.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
