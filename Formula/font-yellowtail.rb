@@ -1,12 +1,14 @@
 class FontYellowtail < Formula
-  head "https://github.com/google/fonts/raw/main/apache/yellowtail/Yellowtail-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Yellowtail"
+  desc "Yellowtail font"
   homepage "https://fonts.google.com/specimen/Yellowtail"
+  head "https://github.com/google/fonts/raw/main/apache/yellowtail/Yellowtail-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/Yellowtail-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
