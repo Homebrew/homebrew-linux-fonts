@@ -1,12 +1,12 @@
 class FontMonaspaceNerdFont < Formula
-  version "3.2.1"
-  sha256 "64ff3e00d928230576b7d0cfa443ed25438388bc5fc869c61aff267a59a18f7e"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Monaspace.zip"
-  desc "Monaspice Nerd Font families (Monaspace)"
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Monaspace.zip"
+  version "3.2.1"
+  sha256 "64ff3e00d928230576b7d0cfa443ed25438388bc5fc869c61aff267a59a18f7e"
+
   def install
-    (share/"fonts").install Dir.glob("./**/MonaspiceArNerdFont-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/MonaspiceXeNerdFontPropo-Regular.otf")[0]
     (share/"fonts").install Dir.glob("./**/MonaspiceArNerdFont-BoldItalic.otf")[0]
     (share/"fonts").install Dir.glob("./**/MonaspiceArNerdFont-Italic.otf")[0]
     (share/"fonts").install Dir.glob("./**/MonaspiceArNerdFont-Light.otf")[0]
@@ -125,10 +125,10 @@ class FontMonaspaceNerdFont < Formula
     (share/"fonts").install Dir.glob("./**/MonaspiceXeNerdFontPropo-LightItalic.otf")[0]
     (share/"fonts").install Dir.glob("./**/MonaspiceXeNerdFontPropo-Medium.otf")[0]
     (share/"fonts").install Dir.glob("./**/MonaspiceXeNerdFontPropo-MediumItalic.otf")[0]
-    (share/"fonts").install Dir.glob("./**/MonaspiceXeNerdFontPropo-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/MonaspiceArNerdFont-Bold.otf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
