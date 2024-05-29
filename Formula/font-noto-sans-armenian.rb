@@ -1,9 +1,11 @@
 class FontNotoSansArmenian < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansArmenian-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
-  desc "Noto Sans Armenian"
+  desc "Noto sans armenian font"
   homepage "https://www.google.com/get/noto/#sans-armn"
+  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansArmenian-unhinted.zip",
+       verified: "noto-website-2.storage.googleapis.com/"
+
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSansArmenian-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansArmenian-Thin.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansArmenian-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansArmenian-Condensed.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansArmenian-CondensedBlack.ttf")[0]
@@ -38,10 +40,10 @@ class FontNotoSansArmenian < Formula
     (share/"fonts").install Dir.glob("./**/NotoSansArmenian-SemiCondensedMedium.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansArmenian-SemiCondensedSemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansArmenian-SemiCondensedThin.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/NotoSansArmenian-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansArmenian-Black.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
