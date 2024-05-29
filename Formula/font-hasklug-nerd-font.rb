@@ -1,12 +1,12 @@
 class FontHasklugNerdFont < Formula
-  version "3.2.1"
-  sha256 "f4fed019c88f7366f4c58fd76732e14cadc7bda0f45bca66d05f919f66afd72f"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Hasklig.zip"
-  desc "Hasklug Nerd Font (Hasklig)"
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Hasklig.zip"
+  version "3.2.1"
+  sha256 "f4fed019c88f7366f4c58fd76732e14cadc7bda0f45bca66d05f919f66afd72f"
+
   def install
-    (share/"fonts").install Dir.glob("./**/HasklugNerdFont-Black.otf")[0]
+    (share/"fonts").install Dir.glob("./**/HasklugNerdFontPropo-SemiBoldItalic.otf")[0]
     (share/"fonts").install Dir.glob("./**/HasklugNerdFont-BlackItalic.otf")[0]
     (share/"fonts").install Dir.glob("./**/HasklugNerdFont-Bold.otf")[0]
     (share/"fonts").install Dir.glob("./**/HasklugNerdFont-BoldItalic.otf")[0]
@@ -47,10 +47,10 @@ class FontHasklugNerdFont < Formula
     (share/"fonts").install Dir.glob("./**/HasklugNerdFontPropo-MediumItalic.otf")[0]
     (share/"fonts").install Dir.glob("./**/HasklugNerdFontPropo-Regular.otf")[0]
     (share/"fonts").install Dir.glob("./**/HasklugNerdFontPropo-SemiBold.otf")[0]
-    (share/"fonts").install Dir.glob("./**/HasklugNerdFontPropo-SemiBoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/HasklugNerdFont-Black.otf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
