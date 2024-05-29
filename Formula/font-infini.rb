@@ -1,16 +1,18 @@
 class FontInfini < Formula
-  version "1.003"
-  url "http://www.cnap.graphismeenfrance.fr/infini/en/download/Infini-cnap-engl_fonts-specimen-v2.zip"
-  desc "Infini"
+  desc "Infini font"
   homepage "http://www.cnap.graphismeenfrance.fr/infini/en/"
+  url "http://www.cnap.graphismeenfrance.fr/infini/en/download/Infini-cnap-engl_fonts-specimen-v2.zip"
+  version "1.003"
+  sha256 :no_check
+
   def install
-    (share/"fonts").install Dir.glob("Infini-cnap-engl_fonts-specimen-v2/01_Fonts/01_Regular/**/infini-regular.otf")[0]
-    (share/"fonts").install Dir.glob("Infini-cnap-engl_fonts-specimen-v2/01_Fonts/02_Italic/**/infini-italic.otf")[0]
-    (share/"fonts").install Dir.glob("Infini-cnap-engl_fonts-specimen-v2/01_Fonts/03_Bold/**/infini-bold.otf")[0]
-    (share/"fonts").install Dir.glob("Infini-cnap-engl_fonts-specimen-v2/01_Fonts/04_Pictos/**/infini-picto.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Infini-cnap-engl_fonts-specimen-v2/01_Fonts/01_Regular/infini-regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Infini-cnap-engl_fonts-specimen-v2/01_Fonts/02_Italic/infini-italic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Infini-cnap-engl_fonts-specimen-v2/01_Fonts/03_Bold/infini-bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Infini-cnap-engl_fonts-specimen-v2/01_Fonts/04_Pictos/infini-picto.otf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
