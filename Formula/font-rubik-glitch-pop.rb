@@ -1,12 +1,14 @@
 class FontRubikGlitchPop < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/rubikglitchpop/RubikGlitchPop-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Rubik Glitch Pop"
+  desc "Rubik glitch pop font"
   homepage "https://fonts.google.com/specimen/Rubik+Glitch+Pop"
+  head "https://github.com/google/fonts/raw/main/ofl/rubikglitchpop/RubikGlitchPop-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/RubikGlitchPop-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
