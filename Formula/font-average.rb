@@ -1,12 +1,14 @@
 class FontAverage < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/average/Average-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Average"
+  desc "Average font"
   homepage "https://fonts.google.com/specimen/Average"
+  head "https://github.com/google/fonts/raw/main/ofl/average/Average-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/Average-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
