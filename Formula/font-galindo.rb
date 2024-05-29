@@ -1,12 +1,14 @@
 class FontGalindo < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/galindo/Galindo-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Galindo"
+  desc "Galindo font"
   homepage "https://fonts.google.com/specimen/Galindo"
+  head "https://github.com/google/fonts/raw/main/ofl/galindo/Galindo-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/Galindo-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
