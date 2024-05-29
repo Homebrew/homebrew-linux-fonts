@@ -1,12 +1,13 @@
 class FontChocolateClassicalSans < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/chocolateclassicalsans/ChocolateClassicalSans-Regular.ttf"
-  desc "Chocolate Classical Sans"
+  desc "Chocolate classical sans font"
   homepage "https://github.com/aaronbell/ChocolateSans"
+  head "https://github.com/google/fonts/raw/main/ofl/chocolateclassicalsans/ChocolateClassicalSans-Regular.ttf"
+
   def install
     (share/"fonts").install Dir.glob("./**/ChocolateClassicalSans-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
