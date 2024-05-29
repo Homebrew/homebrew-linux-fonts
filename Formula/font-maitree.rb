@@ -1,7 +1,11 @@
 class FontMaitree < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/maitree"
-  desc "Maitree"
+  desc "Maitree font"
   homepage "https://fonts.google.com/specimen/Maitree"
+  head "https://github.com/google/fonts.git",
+       verified:  "github.com/google/fonts",
+       branch:    "main",
+       only_path: "ofl/maitree"
+
   def install
     (share/"fonts").install Dir.glob("ofl/maitree/./**/Maitree-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/maitree/./**/Maitree-ExtraLight.ttf")[0]
@@ -10,8 +14,8 @@ class FontMaitree < Formula
     (share/"fonts").install Dir.glob("ofl/maitree/./**/Maitree-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/maitree/./**/Maitree-SemiBold.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
