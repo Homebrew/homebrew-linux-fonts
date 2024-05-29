@@ -1,12 +1,14 @@
 class FontNovaFlat < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/novaflat/NovaFlat.ttf", verified: "github.com/google/fonts/"
-  desc "Nova Flat"
+  desc "Nova flat font"
   homepage "https://fonts.google.com/specimen/Nova+Flat"
+  head "https://github.com/google/fonts/raw/main/ofl/novaflat/NovaFlat.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/NovaFlat.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
