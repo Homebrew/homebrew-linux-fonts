@@ -1,12 +1,14 @@
 class FontPonnala < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/ponnala/Ponnala-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Ponnala"
+  desc "Ponnala font"
   homepage "https://fonts.google.com/specimen/Ponnala"
+  head "https://github.com/google/fonts/raw/main/ofl/ponnala/Ponnala-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/Ponnala-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
