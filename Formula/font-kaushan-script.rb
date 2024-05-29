@@ -1,12 +1,14 @@
 class FontKaushanScript < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/kaushanscript/KaushanScript-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Kaushan Script"
+  desc "Kaushan script font"
   homepage "https://fonts.google.com/specimen/Kaushan+Script"
+  head "https://github.com/google/fonts/raw/main/ofl/kaushanscript/KaushanScript-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/KaushanScript-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
