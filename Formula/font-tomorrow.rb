@@ -1,9 +1,13 @@
 class FontTomorrow < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/tomorrow"
-  desc "Tomorrow"
+  desc "Tomorrow font"
   homepage "https://fonts.google.com/specimen/Tomorrow"
+  head "https://github.com/google/fonts.git",
+       verified:  "github.com/google/fonts",
+       branch:    "main",
+       only_path: "ofl/tomorrow"
+
   def install
-    (share/"fonts").install Dir.glob("ofl/tomorrow/./**/Tomorrow-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/tomorrow/./**/Tomorrow-ThinItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/tomorrow/./**/Tomorrow-BlackItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/tomorrow/./**/Tomorrow-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/tomorrow/./**/Tomorrow-BoldItalic.ttf")[0]
@@ -20,10 +24,10 @@ class FontTomorrow < Formula
     (share/"fonts").install Dir.glob("ofl/tomorrow/./**/Tomorrow-SemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/tomorrow/./**/Tomorrow-SemiBoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/tomorrow/./**/Tomorrow-Thin.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/tomorrow/./**/Tomorrow-ThinItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/tomorrow/./**/Tomorrow-Black.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
