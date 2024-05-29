@@ -1,8 +1,11 @@
 class FontComicNeue < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/comicneue"
-  desc "Comic Neue"
   desc "Original reinterpretation of the classic, comic sans"
   homepage "https://fonts.google.com/specimen/Comic+Neue"
+  head "https://github.com/google/fonts.git",
+       verified:  "github.com/google/fonts",
+       branch:    "main",
+       only_path: "ofl/comicneue"
+
   def install
     (share/"fonts").install Dir.glob("ofl/comicneue/./**/ComicNeue-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/comicneue/./**/ComicNeue-BoldItalic.ttf")[0]
@@ -11,8 +14,8 @@ class FontComicNeue < Formula
     (share/"fonts").install Dir.glob("ofl/comicneue/./**/ComicNeue-LightItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/comicneue/./**/ComicNeue-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
