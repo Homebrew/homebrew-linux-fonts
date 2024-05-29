@@ -1,12 +1,14 @@
 class FontEduNswActFoundation < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/edunswactfoundation/EduNSWACTFoundation%5Bwght%5D.ttf", verified: "github.com/google/fonts/"
-  desc "Edu NSW ACT Foundation"
+  desc "Edu nsw act foundation font"
   homepage "https://fonts.google.com/specimen/Edu+NSW+ACT+Foundation"
+  head "https://github.com/google/fonts/raw/main/ofl/edunswactfoundation/EduNSWACTFoundation%5Bwght%5D.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
-    (share/"fonts").install Dir.glob("./**/EduNSWACTFoundation\\[wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/EduNSWACTFoundation[wght].ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
