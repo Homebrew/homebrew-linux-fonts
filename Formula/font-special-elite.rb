@@ -1,12 +1,14 @@
 class FontSpecialElite < Formula
-  head "https://github.com/google/fonts/raw/main/apache/specialelite/SpecialElite-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Special Elite"
+  desc "Special elite font"
   homepage "https://fonts.google.com/specimen/Special+Elite"
+  head "https://github.com/google/fonts/raw/main/apache/specialelite/SpecialElite-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/SpecialElite-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
