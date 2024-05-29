@@ -1,12 +1,14 @@
 class FontEuphoriaScript < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/euphoriascript/EuphoriaScript-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Euphoria Script"
+  desc "Euphoria script font"
   homepage "https://fonts.google.com/specimen/Euphoria+Script"
+  head "https://github.com/google/fonts/raw/main/ofl/euphoriascript/EuphoriaScript-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/EuphoriaScript-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
