@@ -1,12 +1,14 @@
 class FontRubikBurned < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/rubikburned/RubikBurned-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Rubik Burned"
+  desc "Rubik burned font"
   homepage "https://fonts.google.com/specimen/Rubik+Burned"
+  head "https://github.com/google/fonts/raw/main/ofl/rubikburned/RubikBurned-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/RubikBurned-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
