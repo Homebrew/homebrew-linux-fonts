@@ -1,12 +1,14 @@
 class FontQahiri < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/qahiri/Qahiri-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Qahiri"
+  desc "Qahiri font"
   homepage "https://fonts.google.com/specimen/Qahiri"
+  head "https://github.com/google/fonts/raw/main/ofl/qahiri/Qahiri-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/Qahiri-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
