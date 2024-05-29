@@ -1,9 +1,11 @@
 class FontNotoSerifDisplay < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSerifDisplay-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
-  desc "Noto Serif Display"
+  desc "Noto serif display font"
   homepage "https://www.google.com/get/noto/#serif-lgc-display"
+  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSerifDisplay-unhinted.zip",
+       verified: "noto-website-2.storage.googleapis.com/"
+
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSerifDisplay-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSerifDisplay-ThinItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifDisplay-BlackItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifDisplay-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifDisplay-BoldItalic.ttf")[0]
@@ -74,10 +76,10 @@ class FontNotoSerifDisplay < Formula
     (share/"fonts").install Dir.glob("./**/NotoSerifDisplay-SemiCondensedThin.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifDisplay-SemiCondensedThinItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifDisplay-Thin.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/NotoSerifDisplay-ThinItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSerifDisplay-Black.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
