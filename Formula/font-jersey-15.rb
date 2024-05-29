@@ -1,12 +1,14 @@
 class FontJersey15 < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/jersey15/Jersey15-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Jersey 15"
+  desc "Jersey 15 font"
   homepage "https://fonts.google.com/specimen/Jersey+15"
+  head "https://github.com/google/fonts/raw/main/ofl/jersey15/Jersey15-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/Jersey15-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
