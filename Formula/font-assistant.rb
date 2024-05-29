@@ -1,12 +1,14 @@
 class FontAssistant < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/assistant/Assistant%5Bwght%5D.ttf", verified: "github.com/google/fonts/"
-  desc "Assistant"
+  desc "Assistant font"
   homepage "https://fonts.google.com/specimen/Assistant"
+  head "https://github.com/google/fonts/raw/main/ofl/assistant/Assistant%5Bwght%5D.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
-    (share/"fonts").install Dir.glob("./**/Assistant\\[wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Assistant[wght].ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
