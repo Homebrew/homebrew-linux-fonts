@@ -1,12 +1,14 @@
 class FontNotoSansSundanese < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansSundanese-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
-  desc "Noto Sans Sundanese"
+  desc "Noto sans sundanese font"
   homepage "https://www.google.com/get/noto/#sans-sund"
+  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansSundanese-unhinted.zip",
+       verified: "noto-website-2.storage.googleapis.com/"
+
   def install
     (share/"fonts").install Dir.glob("./**/NotoSansSundanese-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
