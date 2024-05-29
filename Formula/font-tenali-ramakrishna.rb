@@ -1,12 +1,14 @@
 class FontTenaliRamakrishna < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/tenaliramakrishna/TenaliRamakrishna-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Tenali Ramakrishna"
+  desc "Tenali ramakrishna font"
   homepage "https://fonts.google.com/specimen/Tenali+Ramakrishna"
+  head "https://github.com/google/fonts/raw/main/ofl/tenaliramakrishna/TenaliRamakrishna-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/TenaliRamakrishna-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
