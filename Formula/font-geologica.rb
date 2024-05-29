@@ -1,12 +1,14 @@
 class FontGeologica < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/geologica/Geologica%5BCRSV%2CSHRP%2Cslnt%2Cwght%5D.ttf", verified: "github.com/google/fonts/"
-  desc "Geologica"
+  desc "Geologica font"
   homepage "https://fonts.google.com/specimen/Geologica"
+  head "https://github.com/google/fonts/raw/main/ofl/geologica/Geologica%5BCRSV%2CSHRP%2Cslnt%2Cwght%5D.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
-    (share/"fonts").install Dir.glob("./**/Geologica\\[CRSV,SHRP,slnt,wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Geologica[CRSV,SHRP,slnt,wght].ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
