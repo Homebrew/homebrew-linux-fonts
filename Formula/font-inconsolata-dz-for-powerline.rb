@@ -1,12 +1,13 @@
 class FontInconsolataDzForPowerline < Formula
-  head "https://raw.github.com/powerline/fonts/master/InconsolataDz/Inconsolata-dz%20for%20Powerline.otf"
-  desc "Inconsolata-dz for Powerline"
+  desc "Inconsolata-dz for powerline font"
   homepage "https://github.com/powerline/fonts/tree/master/InconsolataDz"
+  head "https://raw.github.com/powerline/fonts/master/InconsolataDz/Inconsolata-dz%20for%20Powerline.otf"
+
   def install
     (share/"fonts").install Dir.glob("./**/Inconsolata-dz for Powerline.otf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
