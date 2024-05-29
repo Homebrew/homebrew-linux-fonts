@@ -1,12 +1,14 @@
 class FontTitanOne < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/titanone/TitanOne-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Titan One"
+  desc "Titan one font"
   homepage "https://fonts.google.com/specimen/Titan+One"
+  head "https://github.com/google/fonts/raw/main/ofl/titanone/TitanOne-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/TitanOne-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
