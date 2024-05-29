@@ -1,12 +1,13 @@
 class FontLigatureSymbols < Formula
-  head "https://kudakurage.com/ligature_symbols/LigatureSymbols.zip"
-  desc "Ligature Symbols"
+  desc "Ligature symbols font"
   homepage "https://kudakurage.com/ligature_symbols/"
+  head "https://kudakurage.com/ligature_symbols/LigatureSymbols.zip"
+
   def install
-    (share/"fonts").install Dir.glob("LigatureSymbols/**/LigatureSymbols-2.11.otf")[0]
+    (share/"fonts").install Dir.glob("./**/LigatureSymbols/LigatureSymbols-2.11.otf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
