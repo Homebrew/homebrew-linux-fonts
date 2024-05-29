@@ -1,12 +1,14 @@
 class FontLexendPeta < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/lexendpeta/LexendPeta%5Bwght%5D.ttf", verified: "github.com/google/fonts/"
-  desc "Lexend Peta"
+  desc "Lexend peta font"
   homepage "https://fonts.google.com/specimen/Lexend+Peta"
+  head "https://github.com/google/fonts/raw/main/ofl/lexendpeta/LexendPeta%5Bwght%5D.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
-    (share/"fonts").install Dir.glob("./**/LexendPeta\\[wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LexendPeta[wght].ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
