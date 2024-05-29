@@ -1,12 +1,14 @@
 class FontFascinate < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/fascinate/Fascinate-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Fascinate"
+  desc "Fascinate font"
   homepage "https://fonts.google.com/specimen/Fascinate"
+  head "https://github.com/google/fonts/raw/main/ofl/fascinate/Fascinate-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/Fascinate-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
