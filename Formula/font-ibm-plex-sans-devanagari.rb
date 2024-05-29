@@ -1,7 +1,11 @@
 class FontIbmPlexSansDevanagari < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/ibmplexsansdevanagari"
-  desc "IBM Plex Sans Devanagari"
+  desc "Ibm plex sans devanagari font"
   homepage "https://fonts.google.com/specimen/IBM+Plex+Sans+Devanagari"
+  head "https://github.com/google/fonts.git",
+       verified:  "github.com/google/fonts",
+       branch:    "main",
+       only_path: "ofl/ibmplexsansdevanagari"
+
   def install
     (share/"fonts").install Dir.glob("ofl/ibmplexsansdevanagari/./**/IBMPlexSansDevanagari-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/ibmplexsansdevanagari/./**/IBMPlexSansDevanagari-ExtraLight.ttf")[0]
@@ -11,8 +15,8 @@ class FontIbmPlexSansDevanagari < Formula
     (share/"fonts").install Dir.glob("ofl/ibmplexsansdevanagari/./**/IBMPlexSansDevanagari-SemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/ibmplexsansdevanagari/./**/IBMPlexSansDevanagari-Thin.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
