@@ -1,9 +1,11 @@
 class FontNotoSerifThai < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSerifThai-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
-  desc "Noto Serif Thai"
+  desc "Noto serif thai font"
   homepage "https://www.google.com/get/noto/#serif-thai"
+  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSerifThai-unhinted.zip",
+       verified: "noto-website-2.storage.googleapis.com/"
+
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSerifThai-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSerifThai-Thin.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifThai-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifThai-Condensed.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifThai-CondensedBlack.ttf")[0]
@@ -38,10 +40,10 @@ class FontNotoSerifThai < Formula
     (share/"fonts").install Dir.glob("./**/NotoSerifThai-SemiCondensedMedium.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifThai-SemiCondensedSemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifThai-SemiCondensedThin.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/NotoSerifThai-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSerifThai-Black.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
