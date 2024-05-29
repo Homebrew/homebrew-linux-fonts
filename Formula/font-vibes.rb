@@ -1,12 +1,14 @@
 class FontVibes < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/vibes/Vibes-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Vibes"
+  desc "Vibes font"
   homepage "https://fonts.google.com/specimen/Vibes"
+  head "https://github.com/google/fonts/raw/main/ofl/vibes/Vibes-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/Vibes-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
