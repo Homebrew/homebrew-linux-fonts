@@ -1,12 +1,14 @@
 class FontClimateCrisis < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/climatecrisis/ClimateCrisis%5BYEAR%5D.ttf", verified: "github.com/google/fonts/"
-  desc "Climate Crisis"
+  desc "Climate crisis font"
   homepage "https://fonts.google.com/specimen/Climate+Crisis"
+  head "https://github.com/google/fonts/raw/main/ofl/climatecrisis/ClimateCrisis%5BYEAR%5D.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
-    (share/"fonts").install Dir.glob("./**/ClimateCrisis\\[YEAR\\].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/ClimateCrisis[YEAR].ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
