@@ -1,9 +1,11 @@
 class FontNotoSansArabic < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansArabic-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
-  desc "Noto Sans Arabic"
+  desc "Noto sans arabic font"
   homepage "https://www.google.com/get/noto/#sans-arab"
+  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansArabic-unhinted.zip",
+       verified: "noto-website-2.storage.googleapis.com/"
+
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSansArabic-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansArabicUI-Thin.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansArabic-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansArabic-Condensed.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansArabic-CondensedBlack.ttf")[0]
@@ -74,10 +76,10 @@ class FontNotoSansArabic < Formula
     (share/"fonts").install Dir.glob("./**/NotoSansArabicUI-SemiCondensedMedium.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansArabicUI-SemiCondensedSemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansArabicUI-SemiCondensedThin.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/NotoSansArabicUI-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansArabic-Black.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
