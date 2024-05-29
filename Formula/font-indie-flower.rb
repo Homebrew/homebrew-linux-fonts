@@ -1,12 +1,14 @@
 class FontIndieFlower < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/indieflower/IndieFlower-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Indie Flower"
+  desc "Indie flower font"
   homepage "https://fonts.google.com/specimen/Indie+Flower"
+  head "https://github.com/google/fonts/raw/main/ofl/indieflower/IndieFlower-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/IndieFlower-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
