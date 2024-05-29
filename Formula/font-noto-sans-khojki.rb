@@ -1,12 +1,14 @@
 class FontNotoSansKhojki < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/notosanskhojki/NotoSansKhojki-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Noto Sans Khojki"
+  desc "Noto sans khojki font"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Khojki"
+  head "https://github.com/google/fonts/raw/main/ofl/notosanskhojki/NotoSansKhojki-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/NotoSansKhojki-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
