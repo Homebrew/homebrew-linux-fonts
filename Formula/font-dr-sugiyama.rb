@@ -1,12 +1,14 @@
 class FontDrSugiyama < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/drsugiyama/DrSugiyama-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Dr Sugiyama"
+  desc "Dr sugiyama font"
   homepage "https://fonts.google.com/specimen/Dr+Sugiyama"
+  head "https://github.com/google/fonts/raw/main/ofl/drsugiyama/DrSugiyama-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/DrSugiyama-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
