@@ -1,12 +1,14 @@
 class FontRubikVinyl < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/rubikvinyl/RubikVinyl-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Rubik Vinyl"
+  desc "Rubik vinyl font"
   homepage "https://fonts.google.com/specimen/Rubik+Vinyl"
+  head "https://github.com/google/fonts/raw/main/ofl/rubikvinyl/RubikVinyl-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/RubikVinyl-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
