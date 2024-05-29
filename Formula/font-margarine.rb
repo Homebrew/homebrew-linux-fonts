@@ -1,12 +1,14 @@
 class FontMargarine < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/margarine/Margarine-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Margarine"
+  desc "Margarine font"
   homepage "https://fonts.google.com/specimen/Margarine"
+  head "https://github.com/google/fonts/raw/main/ofl/margarine/Margarine-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/Margarine-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
