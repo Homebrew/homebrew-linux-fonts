@@ -1,11 +1,13 @@
 class FontRoundedMplus < Formula
+  desc "Rounded m+ font"
+  homepage "http://jikasei.me/font/rounded-mplus/"
+  url "https://ftp.iij.ad.jp/pub/osdn.jp/users/8/8569/rounded-mplus-20150529.7z",
+       verified: "ftp.iij.ad.jp/pub/osdn.jp/users/8/8569/"
   version "20150529"
   sha256 "e746736c8ded99fe9a9dd72a241ec59435eaa282a18e7ac33a26dc0578c06ff7"
-  url "https://ftp.iij.ad.jp/pub/osdn.jp/users/8/8569/rounded-mplus-#{version}.7z", verified: "ftp.iij.ad.jp/pub/osdn.jp/users/8/8569/"
-  desc "Rounded M+"
-  homepage "http://jikasei.me/font/rounded-mplus/"
+
   def install
-    (share/"fonts").install Dir.glob("./**/rounded-mplus-1c-black.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/rounded-mplus-2p-thin.ttf")[0]
     (share/"fonts").install Dir.glob("./**/rounded-mplus-1c-bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/rounded-mplus-1c-heavy.ttf")[0]
     (share/"fonts").install Dir.glob("./**/rounded-mplus-1c-light.ttf")[0]
@@ -47,10 +49,10 @@ class FontRoundedMplus < Formula
     (share/"fonts").install Dir.glob("./**/rounded-mplus-2p-light.ttf")[0]
     (share/"fonts").install Dir.glob("./**/rounded-mplus-2p-medium.ttf")[0]
     (share/"fonts").install Dir.glob("./**/rounded-mplus-2p-regular.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/rounded-mplus-2p-thin.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/rounded-mplus-1c-black.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
