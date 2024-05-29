@@ -1,12 +1,12 @@
 class FontCaskaydiaMonoNerdFont < Formula
-  version "3.2.1"
-  sha256 "603c68495918d6fddd800ffb6ab1ae726f5e410affc6b02047b1cdb00453efab"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/CascadiaMono.zip"
-  desc "CaskaydiaMono Nerd Font (Cascadia Mono)"
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/CascadiaMono.zip"
+  version "3.2.1"
+  sha256 "603c68495918d6fddd800ffb6ab1ae726f5e410affc6b02047b1cdb00453efab"
+
   def install
-    (share/"fonts").install Dir.glob("./**/CaskaydiaMonoNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/CaskaydiaMonoNerdFontPropo-SemiLightItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/CaskaydiaMonoNerdFont-BoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/CaskaydiaMonoNerdFont-ExtraLight.ttf")[0]
     (share/"fonts").install Dir.glob("./**/CaskaydiaMonoNerdFont-ExtraLightItalic.ttf")[0]
@@ -41,10 +41,10 @@ class FontCaskaydiaMonoNerdFont < Formula
     (share/"fonts").install Dir.glob("./**/CaskaydiaMonoNerdFontPropo-SemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/CaskaydiaMonoNerdFontPropo-SemiBoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/CaskaydiaMonoNerdFontPropo-SemiLight.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/CaskaydiaMonoNerdFontPropo-SemiLightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/CaskaydiaMonoNerdFont-Bold.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
