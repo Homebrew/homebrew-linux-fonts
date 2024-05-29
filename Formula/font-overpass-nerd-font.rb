@@ -1,12 +1,12 @@
 class FontOverpassNerdFont < Formula
-  version "3.2.1"
-  sha256 "809c5a1e25b3a6633a07a50d59c7de7faca4b5d6df5696bf4d470bb8d3dc1244"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Overpass.zip"
-  desc "Overpass Nerd Font families (Overpass)"
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Overpass.zip"
+  version "3.2.1"
+  sha256 "809c5a1e25b3a6633a07a50d59c7de7faca4b5d6df5696bf4d470bb8d3dc1244"
+
   def install
-    (share/"fonts").install Dir.glob("./**/OverpassMNerdFont-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/OverpassNerdFontPropo-ThinItalic.otf")[0]
     (share/"fonts").install Dir.glob("./**/OverpassMNerdFont-Light.otf")[0]
     (share/"fonts").install Dir.glob("./**/OverpassMNerdFont-Regular.otf")[0]
     (share/"fonts").install Dir.glob("./**/OverpassMNerdFont-SemiBold.otf")[0]
@@ -49,10 +49,10 @@ class FontOverpassNerdFont < Formula
     (share/"fonts").install Dir.glob("./**/OverpassNerdFontPropo-SemiBold.otf")[0]
     (share/"fonts").install Dir.glob("./**/OverpassNerdFontPropo-SemiBoldItalic.otf")[0]
     (share/"fonts").install Dir.glob("./**/OverpassNerdFontPropo-Thin.otf")[0]
-    (share/"fonts").install Dir.glob("./**/OverpassNerdFontPropo-ThinItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/OverpassMNerdFont-Bold.otf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
