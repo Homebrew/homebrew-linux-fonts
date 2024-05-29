@@ -1,11 +1,12 @@
 class FontPoppins < Formula
+  desc "Poppins font"
+  homepage "https://github.com/itfoundry/poppins"
+  url "https://github.com/itfoundry/Poppins/raw/master/products/Poppins-4.003-GoogleFonts-OTF.zip"
   version "4.003"
   sha256 "3a1a58cfc497b3a57a8a6ec51d62800ad42a50b9827b1e3297135bf5e860b1a0"
-  url "https://github.com/itfoundry/Poppins/raw/master/products/Poppins-#{version}-GoogleFonts-OTF.zip"
-  desc "Poppins"
-  homepage "https://github.com/itfoundry/poppins"
+
   def install
-    (share/"fonts").install Dir.glob("./**/Poppins-Black.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Poppins-ThinItalic.otf")[0]
     (share/"fonts").install Dir.glob("./**/Poppins-BlackItalic.otf")[0]
     (share/"fonts").install Dir.glob("./**/Poppins-Bold.otf")[0]
     (share/"fonts").install Dir.glob("./**/Poppins-BoldItalic.otf")[0]
@@ -22,10 +23,10 @@ class FontPoppins < Formula
     (share/"fonts").install Dir.glob("./**/Poppins-SemiBold.otf")[0]
     (share/"fonts").install Dir.glob("./**/Poppins-SemiBoldItalic.otf")[0]
     (share/"fonts").install Dir.glob("./**/Poppins-Thin.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Poppins-ThinItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Poppins-Black.otf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
