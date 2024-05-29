@@ -1,12 +1,14 @@
 class FontSofadiOne < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/sofadione/SofadiOne-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Sofadi One"
+  desc "Sofadi one font"
   homepage "https://fonts.google.com/specimen/Sofadi+One"
+  head "https://github.com/google/fonts/raw/main/ofl/sofadione/SofadiOne-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/SofadiOne-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
