@@ -1,7 +1,11 @@
 class FontHindGuntur < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/hindguntur"
-  desc "Hind Guntur"
+  desc "Hind guntur font"
   homepage "https://fonts.google.com/specimen/Hind+Guntur"
+  head "https://github.com/google/fonts.git",
+       verified:  "github.com/google/fonts",
+       branch:    "main",
+       only_path: "ofl/hindguntur"
+
   def install
     (share/"fonts").install Dir.glob("ofl/hindguntur/./**/HindGuntur-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/hindguntur/./**/HindGuntur-Light.ttf")[0]
@@ -9,8 +13,8 @@ class FontHindGuntur < Formula
     (share/"fonts").install Dir.glob("ofl/hindguntur/./**/HindGuntur-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/hindguntur/./**/HindGuntur-SemiBold.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
