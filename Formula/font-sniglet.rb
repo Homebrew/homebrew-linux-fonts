@@ -1,13 +1,17 @@
 class FontSniglet < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/sniglet"
-  desc "Sniglet"
+  desc "Sniglet font"
   homepage "https://fonts.google.com/specimen/Sniglet"
+  head "https://github.com/google/fonts.git",
+       verified:  "github.com/google/fonts",
+       branch:    "main",
+       only_path: "ofl/sniglet"
+
   def install
     (share/"fonts").install Dir.glob("ofl/sniglet/./**/Sniglet-ExtraBold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/sniglet/./**/Sniglet-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
