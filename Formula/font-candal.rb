@@ -1,12 +1,14 @@
 class FontCandal < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/candal/Candal.ttf", verified: "github.com/google/fonts/"
-  desc "Candal"
+  desc "Candal font"
   homepage "https://fonts.google.com/specimen/Candal"
+  head "https://github.com/google/fonts/raw/main/ofl/candal/Candal.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/Candal.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
