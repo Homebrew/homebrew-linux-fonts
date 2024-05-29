@@ -1,12 +1,14 @@
 class FontNotoSansSoyombo < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/notosanssoyombo/NotoSansSoyombo-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Noto Sans Soyombo"
+  desc "Noto sans soyombo font"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Soyombo"
+  head "https://github.com/google/fonts/raw/main/ofl/notosanssoyombo/NotoSansSoyombo-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/NotoSansSoyombo-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
