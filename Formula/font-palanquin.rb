@@ -1,7 +1,11 @@
 class FontPalanquin < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/palanquin"
-  desc "Palanquin"
+  desc "Palanquin font"
   homepage "https://fonts.google.com/specimen/Palanquin"
+  head "https://github.com/google/fonts.git",
+       verified:  "github.com/google/fonts",
+       branch:    "main",
+       only_path: "ofl/palanquin"
+
   def install
     (share/"fonts").install Dir.glob("ofl/palanquin/./**/Palanquin-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/palanquin/./**/Palanquin-ExtraLight.ttf")[0]
@@ -11,8 +15,8 @@ class FontPalanquin < Formula
     (share/"fonts").install Dir.glob("ofl/palanquin/./**/Palanquin-SemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/palanquin/./**/Palanquin-Thin.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
