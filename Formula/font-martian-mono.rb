@@ -1,12 +1,12 @@
 class FontMartianMono < Formula
-  version "1.0.0"
-  sha256 "82683f519651fb05e29d47d075f10e8db40ff5328a50e641e5c30f5fa94297b6"
-  url "https://github.com/evilmartians/mono/releases/download/v#{version}/martian-mono-#{version}-otf.zip"
-  desc "Martian Mono"
   desc "Monospaced font from Evil Martians"
   homepage "https://github.com/evilmartians/mono"
+  url "https://github.com/evilmartians/mono/releases/download/v1.0.0/martian-mono-1.0.0-otf.zip"
+  version "1.0.0"
+  sha256 "82683f519651fb05e29d47d075f10e8db40ff5328a50e641e5c30f5fa94297b6"
+
   def install
-    (share/"fonts").install Dir.glob("./**/MartianMono-CnBd.otf")[0]
+    (share/"fonts").install Dir.glob("./**/MartianMono-sWdxLt.otf")[0]
     (share/"fonts").install Dir.glob("./**/MartianMono-CnLt.otf")[0]
     (share/"fonts").install Dir.glob("./**/MartianMono-CnMd.otf")[0]
     (share/"fonts").install Dir.glob("./**/MartianMono-CnRg.otf")[0]
@@ -33,10 +33,10 @@ class FontMartianMono < Formula
     (share/"fonts").install Dir.glob("./**/MartianMono-sWdRg.otf")[0]
     (share/"fonts").install Dir.glob("./**/MartianMono-sWdTh.otf")[0]
     (share/"fonts").install Dir.glob("./**/MartianMono-sWdxBd.otf")[0]
-    (share/"fonts").install Dir.glob("./**/MartianMono-sWdxLt.otf")[0]
+    (share/"fonts").install Dir.glob("./**/MartianMono-CnBd.otf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
