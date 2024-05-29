@@ -1,12 +1,14 @@
 class FontNotoSansSymbols2 < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/notosanssymbols2/NotoSansSymbols2-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Noto Sans Symbols 2"
+  desc "Noto sans symbols 2 font"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Symbols+2"
+  head "https://github.com/google/fonts/raw/main/ofl/notosanssymbols2/NotoSansSymbols2-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/NotoSansSymbols2-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
