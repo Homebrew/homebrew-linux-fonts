@@ -1,12 +1,14 @@
 class FontBelgrano < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/belgrano/Belgrano-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Belgrano"
+  desc "Belgrano font"
   homepage "https://fonts.google.com/specimen/Belgrano"
+  head "https://github.com/google/fonts/raw/main/ofl/belgrano/Belgrano-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/Belgrano-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
