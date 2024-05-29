@@ -1,7 +1,11 @@
 class FontInriaSerif < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/inriaserif"
-  desc "Inria Serif"
+  desc "Inria serif font"
   homepage "https://fonts.google.com/specimen/Inria+Serif"
+  head "https://github.com/google/fonts.git",
+       verified:  "github.com/google/fonts",
+       branch:    "main",
+       only_path: "ofl/inriaserif"
+
   def install
     (share/"fonts").install Dir.glob("ofl/inriaserif/./**/InriaSerif-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/inriaserif/./**/InriaSerif-BoldItalic.ttf")[0]
@@ -10,8 +14,8 @@ class FontInriaSerif < Formula
     (share/"fonts").install Dir.glob("ofl/inriaserif/./**/InriaSerif-LightItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/inriaserif/./**/InriaSerif-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
