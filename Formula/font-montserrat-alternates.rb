@@ -1,9 +1,13 @@
 class FontMontserratAlternates < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/montserratalternates"
-  desc "Montserrat Alternates"
+  desc "Montserrat alternates font"
   homepage "https://fonts.google.com/specimen/Montserrat+Alternates"
+  head "https://github.com/google/fonts.git",
+       verified:  "github.com/google/fonts",
+       branch:    "main",
+       only_path: "ofl/montserratalternates"
+
   def install
-    (share/"fonts").install Dir.glob("ofl/montserratalternates/./**/MontserratAlternates-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/montserratalternates/./**/MontserratAlternates-ThinItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/montserratalternates/./**/MontserratAlternates-BlackItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/montserratalternates/./**/MontserratAlternates-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/montserratalternates/./**/MontserratAlternates-BoldItalic.ttf")[0]
@@ -20,10 +24,10 @@ class FontMontserratAlternates < Formula
     (share/"fonts").install Dir.glob("ofl/montserratalternates/./**/MontserratAlternates-SemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/montserratalternates/./**/MontserratAlternates-SemiBoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/montserratalternates/./**/MontserratAlternates-Thin.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/montserratalternates/./**/MontserratAlternates-ThinItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/montserratalternates/./**/MontserratAlternates-Black.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
