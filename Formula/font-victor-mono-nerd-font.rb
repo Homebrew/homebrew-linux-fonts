@@ -1,12 +1,12 @@
 class FontVictorMonoNerdFont < Formula
-  version "3.2.1"
-  sha256 "987c8697510a9819db98b828da599eeedf3e00242d4a8cc8d762b19fab227183"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/VictorMono.zip"
-  desc "VictorMono Nerd Font (Victor Mono)"
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/VictorMono.zip"
+  version "3.2.1"
+  sha256 "987c8697510a9819db98b828da599eeedf3e00242d4a8cc8d762b19fab227183"
+
   def install
-    (share/"fonts").install Dir.glob("./**/VictorMonoNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/VictorMonoNerdFontPropo-ThinOblique.ttf")[0]
     (share/"fonts").install Dir.glob("./**/VictorMonoNerdFont-BoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/VictorMonoNerdFont-BoldOblique.ttf")[0]
     (share/"fonts").install Dir.glob("./**/VictorMonoNerdFont-ExtraLight.ttf")[0]
@@ -68,10 +68,10 @@ class FontVictorMonoNerdFont < Formula
     (share/"fonts").install Dir.glob("./**/VictorMonoNerdFontPropo-SemiBoldOblique.ttf")[0]
     (share/"fonts").install Dir.glob("./**/VictorMonoNerdFontPropo-Thin.ttf")[0]
     (share/"fonts").install Dir.glob("./**/VictorMonoNerdFontPropo-ThinItalic.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/VictorMonoNerdFontPropo-ThinOblique.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/VictorMonoNerdFont-Bold.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
