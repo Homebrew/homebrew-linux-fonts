@@ -1,12 +1,14 @@
 class FontLiuJianMaoCao < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/liujianmaocao/LiuJianMaoCao-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Liu Jian Mao Cao"
+  desc "Liu jian mao cao font"
   homepage "https://fonts.google.com/specimen/Liu+Jian+Mao+Cao"
+  head "https://github.com/google/fonts/raw/main/ofl/liujianmaocao/LiuJianMaoCao-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/LiuJianMaoCao-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
