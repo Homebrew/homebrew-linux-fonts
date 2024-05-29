@@ -1,12 +1,14 @@
 class FontProtestRiot < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/protestriot/ProtestRiot-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Protest Riot"
+  desc "Protest riot font"
   homepage "https://fonts.google.com/specimen/Protest+Riot"
+  head "https://github.com/google/fonts/raw/main/ofl/protestriot/ProtestRiot-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/ProtestRiot-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
