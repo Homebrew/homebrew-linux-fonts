@@ -1,12 +1,14 @@
 class FontGiveYouGlory < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/giveyouglory/GiveYouGlory.ttf", verified: "github.com/google/fonts/"
-  desc "Give You Glory"
+  desc "Give you glory font"
   homepage "https://fonts.google.com/specimen/Give+You+Glory"
+  head "https://github.com/google/fonts/raw/main/ofl/giveyouglory/GiveYouGlory.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/GiveYouGlory.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
