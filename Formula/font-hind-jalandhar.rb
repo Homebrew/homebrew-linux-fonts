@@ -1,7 +1,10 @@
 class FontHindJalandhar < Formula
-  head "https://github.com/google/fonts.git", branch: "main", only_path: "ofl/hindjalandhar"
-  desc "Hind Jalandhar"
+  desc "Hind jalandhar font"
   homepage "https://github.com/itfoundry/hind-jalandhar"
+  head "https://github.com/google/fonts.git",
+       branch:    "main",
+       only_path: "ofl/hindjalandhar"
+
   def install
     (share/"fonts").install Dir.glob("ofl/hindjalandhar/./**/HindJalandhar-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/hindjalandhar/./**/HindJalandhar-Light.ttf")[0]
@@ -9,8 +12,8 @@ class FontHindJalandhar < Formula
     (share/"fonts").install Dir.glob("ofl/hindjalandhar/./**/HindJalandhar-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/hindjalandhar/./**/HindJalandhar-SemiBold.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
