@@ -1,12 +1,14 @@
 class FontFjallaOne < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/fjallaone/FjallaOne-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Fjalla One"
+  desc "Fjalla one font"
   homepage "https://fonts.google.com/specimen/Fjalla+One"
+  head "https://github.com/google/fonts/raw/main/ofl/fjallaone/FjallaOne-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/FjallaOne-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
