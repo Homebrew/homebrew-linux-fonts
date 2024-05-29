@@ -1,13 +1,17 @@
 class FontJosefinSans < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/josefinsans"
-  desc "Josefin Sans"
+  desc "Josefin sans font"
   homepage "https://fonts.google.com/specimen/Josefin+Sans"
+  head "https://github.com/google/fonts.git",
+       verified:  "github.com/google/fonts",
+       branch:    "main",
+       only_path: "ofl/josefinsans"
+
   def install
-    (share/"fonts").install Dir.glob("ofl/josefinsans/./**/JosefinSans-Italic\\[wght\\].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/josefinsans/./**/JosefinSans\\[wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/josefinsans/./**/JosefinSans-Italic[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/josefinsans/./**/JosefinSans[wght].ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
