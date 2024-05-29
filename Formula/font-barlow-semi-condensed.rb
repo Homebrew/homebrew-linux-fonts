@@ -1,9 +1,13 @@
 class FontBarlowSemiCondensed < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/barlowsemicondensed"
-  desc "Barlow Semi Condensed"
+  desc "Barlow semi condensed font"
   homepage "https://fonts.google.com/specimen/Barlow+Semi+Condensed"
+  head "https://github.com/google/fonts.git",
+       verified:  "github.com/google/fonts",
+       branch:    "main",
+       only_path: "ofl/barlowsemicondensed"
+
   def install
-    (share/"fonts").install Dir.glob("ofl/barlowsemicondensed/./**/BarlowSemiCondensed-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/barlowsemicondensed/./**/BarlowSemiCondensed-ThinItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/barlowsemicondensed/./**/BarlowSemiCondensed-BlackItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/barlowsemicondensed/./**/BarlowSemiCondensed-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/barlowsemicondensed/./**/BarlowSemiCondensed-BoldItalic.ttf")[0]
@@ -20,10 +24,10 @@ class FontBarlowSemiCondensed < Formula
     (share/"fonts").install Dir.glob("ofl/barlowsemicondensed/./**/BarlowSemiCondensed-SemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/barlowsemicondensed/./**/BarlowSemiCondensed-SemiBoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/barlowsemicondensed/./**/BarlowSemiCondensed-Thin.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/barlowsemicondensed/./**/BarlowSemiCondensed-ThinItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/barlowsemicondensed/./**/BarlowSemiCondensed-Black.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
