@@ -1,7 +1,11 @@
 class FontNokora < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/nokora"
-  desc "Nokora"
+  desc "Nokora font"
   homepage "https://fonts.google.com/specimen/Nokora"
+  head "https://github.com/google/fonts.git",
+       verified:  "github.com/google/fonts",
+       branch:    "main",
+       only_path: "ofl/nokora"
+
   def install
     (share/"fonts").install Dir.glob("ofl/nokora/./**/Nokora-Black.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/nokora/./**/Nokora-Bold.ttf")[0]
@@ -9,8 +13,8 @@ class FontNokora < Formula
     (share/"fonts").install Dir.glob("ofl/nokora/./**/Nokora-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/nokora/./**/Nokora-Thin.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
