@@ -1,12 +1,14 @@
 class FontKavoon < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/kavoon/Kavoon-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Kavoon"
+  desc "Kavoon font"
   homepage "https://fonts.google.com/specimen/Kavoon"
+  head "https://github.com/google/fonts/raw/main/ofl/kavoon/Kavoon-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/Kavoon-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
