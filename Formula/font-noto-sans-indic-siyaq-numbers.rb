@@ -1,12 +1,14 @@
 class FontNotoSansIndicSiyaqNumbers < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/notosansindicsiyaqnumbers/NotoSansIndicSiyaqNumbers-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Noto Sans Indic Siyaq Numbers"
+  desc "Noto sans indic siyaq numbers font"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Indic+Siyaq+Numbers"
+  head "https://github.com/google/fonts/raw/main/ofl/notosansindicsiyaqnumbers/NotoSansIndicSiyaqNumbers-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/NotoSansIndicSiyaqNumbers-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
