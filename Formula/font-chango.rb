@@ -1,12 +1,14 @@
 class FontChango < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/chango/Chango-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Chango"
+  desc "Chango font"
   homepage "https://fonts.google.com/specimen/Chango"
+  head "https://github.com/google/fonts/raw/main/ofl/chango/Chango-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/Chango-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
