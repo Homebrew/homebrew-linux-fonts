@@ -1,10 +1,13 @@
 class FontBeVietnamPro < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/bevietnampro"
-  desc "Be Vietnam Pro"
   desc "Well suited to tech companies and startups"
   homepage "https://fonts.google.com/specimen/Be+Vietnam+Pro"
+  head "https://github.com/google/fonts.git",
+       verified:  "github.com/google/fonts",
+       branch:    "main",
+       only_path: "ofl/bevietnampro"
+
   def install
-    (share/"fonts").install Dir.glob("ofl/bevietnampro/./**/BeVietnamPro-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/bevietnampro/./**/BeVietnamPro-ThinItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/bevietnampro/./**/BeVietnamPro-BlackItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/bevietnampro/./**/BeVietnamPro-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/bevietnampro/./**/BeVietnamPro-BoldItalic.ttf")[0]
@@ -21,10 +24,10 @@ class FontBeVietnamPro < Formula
     (share/"fonts").install Dir.glob("ofl/bevietnampro/./**/BeVietnamPro-SemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/bevietnampro/./**/BeVietnamPro-SemiBoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/bevietnampro/./**/BeVietnamPro-Thin.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/bevietnampro/./**/BeVietnamPro-ThinItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/bevietnampro/./**/BeVietnamPro-Black.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
