@@ -1,7 +1,11 @@
 class FontTajawal < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/tajawal"
-  desc "Tajawal"
+  desc "Tajawal font"
   homepage "https://fonts.google.com/specimen/Tajawal"
+  head "https://github.com/google/fonts.git",
+       verified:  "github.com/google/fonts",
+       branch:    "main",
+       only_path: "ofl/tajawal"
+
   def install
     (share/"fonts").install Dir.glob("ofl/tajawal/./**/Tajawal-Black.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/tajawal/./**/Tajawal-Bold.ttf")[0]
@@ -11,8 +15,8 @@ class FontTajawal < Formula
     (share/"fonts").install Dir.glob("ofl/tajawal/./**/Tajawal-Medium.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/tajawal/./**/Tajawal-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
