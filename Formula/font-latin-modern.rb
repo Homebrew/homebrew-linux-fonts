@@ -1,12 +1,12 @@
 class FontLatinModern < Formula
-  version "2.004"
-  sha256 "5b0236051d3728be6616f1b274e3b910473875b5a3ef9382f0ef00384ddb161b"
-  url "https://www.gust.org.pl/projects/e-foundry/latin-modern/download/lm#{version}otf.zip"
-  desc "Latin Modern"
   desc "Latin Modern font family, derived from Computer Modern fonts"
   homepage "https://www.gust.org.pl/projects/e-foundry/latin-modern"
+  url "https://www.gust.org.pl/projects/e-foundry/latin-modern/download/lm2.004otf.zip"
+  version "2.004"
+  sha256 "5b0236051d3728be6616f1b274e3b910473875b5a3ef9382f0ef00384ddb161b"
+
   def install
-    (share/"fonts").install Dir.glob("./**/lmmono10-italic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/lmsansquot8-regular.otf")[0]
     (share/"fonts").install Dir.glob("./**/lmmono10-regular.otf")[0]
     (share/"fonts").install Dir.glob("./**/lmmono12-regular.otf")[0]
     (share/"fonts").install Dir.glob("./**/lmmono8-regular.otf")[0]
@@ -77,10 +77,10 @@ class FontLatinModern < Formula
     (share/"fonts").install Dir.glob("./**/lmsansquot8-bold.otf")[0]
     (share/"fonts").install Dir.glob("./**/lmsansquot8-boldoblique.otf")[0]
     (share/"fonts").install Dir.glob("./**/lmsansquot8-oblique.otf")[0]
-    (share/"fonts").install Dir.glob("./**/lmsansquot8-regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/lmmono10-italic.otf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
