@@ -1,12 +1,12 @@
 class FontRecursiveMonoNerdFont < Formula
-  version "3.2.1"
-  sha256 "9d6cff7ae4570f4bdd8351723214ca8323f8a99420bd5296dea2aa0b4be984d3"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Recursive.zip"
-  desc "RecMono Nerd Font families (Recursive Mono)"
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Recursive.zip"
+  version "3.2.1"
+  sha256 "9d6cff7ae4570f4bdd8351723214ca8323f8a99420bd5296dea2aa0b4be984d3"
+
   def install
-    (share/"fonts").install Dir.glob("./**/RecMonoCasualNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RecMonoSmCasualNerdFontPropo-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("./**/RecMonoCasualNerdFont-BoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/RecMonoCasualNerdFont-Italic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/RecMonoCasualNerdFont-Regular.ttf")[0]
@@ -53,10 +53,10 @@ class FontRecursiveMonoNerdFont < Formula
     (share/"fonts").install Dir.glob("./**/RecMonoSmCasualNerdFontPropo-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/RecMonoSmCasualNerdFontPropo-BoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/RecMonoSmCasualNerdFontPropo-Italic.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/RecMonoSmCasualNerdFontPropo-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RecMonoCasualNerdFont-Bold.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
