@@ -1,9 +1,13 @@
 class FontKrub < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/krub"
-  desc "Krub"
+  desc "Krub font"
   homepage "https://fonts.google.com/specimen/Krub"
+  head "https://github.com/google/fonts.git",
+       verified:  "github.com/google/fonts",
+       branch:    "main",
+       only_path: "ofl/krub"
+
   def install
-    (share/"fonts").install Dir.glob("ofl/krub/./**/Krub-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/krub/./**/Krub-SemiBoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/krub/./**/Krub-BoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/krub/./**/Krub-ExtraLight.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/krub/./**/Krub-ExtraLightItalic.ttf")[0]
@@ -14,10 +18,10 @@ class FontKrub < Formula
     (share/"fonts").install Dir.glob("ofl/krub/./**/Krub-MediumItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/krub/./**/Krub-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/krub/./**/Krub-SemiBold.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/krub/./**/Krub-SemiBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/krub/./**/Krub-Bold.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
