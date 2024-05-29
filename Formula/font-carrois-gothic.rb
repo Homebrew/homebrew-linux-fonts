@@ -1,12 +1,14 @@
 class FontCarroisGothic < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/carroisgothic/CarroisGothic-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Carrois Gothic"
+  desc "Carrois gothic font"
   homepage "https://fonts.google.com/specimen/Carrois+Gothic"
+  head "https://github.com/google/fonts/raw/main/ofl/carroisgothic/CarroisGothic-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/CarroisGothic-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
