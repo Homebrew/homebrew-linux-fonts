@@ -1,9 +1,13 @@
 class FontFiraSansExtraCondensed < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/firasansextracondensed"
-  desc "Fira Sans Extra Condensed"
+  desc "Fira sans extra condensed font"
   homepage "https://fonts.google.com/specimen/Fira+Sans+Extra+Condensed"
+  head "https://github.com/google/fonts.git",
+       verified:  "github.com/google/fonts",
+       branch:    "main",
+       only_path: "ofl/firasansextracondensed"
+
   def install
-    (share/"fonts").install Dir.glob("ofl/firasansextracondensed/./**/FiraSansExtraCondensed-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/firasansextracondensed/./**/FiraSansExtraCondensed-ThinItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/firasansextracondensed/./**/FiraSansExtraCondensed-BlackItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/firasansextracondensed/./**/FiraSansExtraCondensed-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/firasansextracondensed/./**/FiraSansExtraCondensed-BoldItalic.ttf")[0]
@@ -20,10 +24,10 @@ class FontFiraSansExtraCondensed < Formula
     (share/"fonts").install Dir.glob("ofl/firasansextracondensed/./**/FiraSansExtraCondensed-SemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/firasansextracondensed/./**/FiraSansExtraCondensed-SemiBoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/firasansextracondensed/./**/FiraSansExtraCondensed-Thin.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/firasansextracondensed/./**/FiraSansExtraCondensed-ThinItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/firasansextracondensed/./**/FiraSansExtraCondensed-Black.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
