@@ -1,13 +1,14 @@
 class FontProtestGuerrilla < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/protestguerrilla/ProtestGuerrilla-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Protest Guerrilla"
   desc "Stencil version of strike"
   homepage "https://fonts.google.com/specimen/Protest+Guerrilla"
+  head "https://github.com/google/fonts/raw/main/ofl/protestguerrilla/ProtestGuerrilla-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/ProtestGuerrilla-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
