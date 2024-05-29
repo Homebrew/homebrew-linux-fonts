@@ -1,12 +1,14 @@
 class FontShipporiAntiqueB1 < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/shipporiantiqueb1/ShipporiAntiqueB1-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Shippori Antique B1"
+  desc "Shippori antique b1 font"
   homepage "https://fonts.google.com/specimen/Shippori+Antique+B1"
+  head "https://github.com/google/fonts/raw/main/ofl/shipporiantiqueb1/ShipporiAntiqueB1-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/ShipporiAntiqueB1-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
