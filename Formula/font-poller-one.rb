@@ -1,12 +1,14 @@
 class FontPollerOne < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/pollerone/PollerOne.ttf", verified: "github.com/google/fonts/"
-  desc "Poller One"
+  desc "Poller one font"
   homepage "https://fonts.google.com/specimen/Poller+One"
+  head "https://github.com/google/fonts/raw/main/ofl/pollerone/PollerOne.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/PollerOne.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
