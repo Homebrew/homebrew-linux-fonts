@@ -1,12 +1,13 @@
 class FontPlaywriteAuTas < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/playwriteautas/PlaywriteAUTAS%5Bwght%5D.ttf"
-  desc "Playwrite AU TAS"
+  desc "Playwrite au tas font"
   homepage "https://github.com/TypeTogether/Playwrite"
+  head "https://github.com/google/fonts/raw/main/ofl/playwriteautas/PlaywriteAUTAS%5Bwght%5D.ttf"
+
   def install
-    (share/"fonts").install Dir.glob("./**/PlaywriteAUTAS\\[wght\\].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/PlaywriteAUTAS[wght].ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
