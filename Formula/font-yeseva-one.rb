@@ -1,12 +1,14 @@
 class FontYesevaOne < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/yesevaone/YesevaOne-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Yeseva One"
+  desc "Yeseva one font"
   homepage "https://fonts.google.com/specimen/Yeseva+One"
+  head "https://github.com/google/fonts/raw/main/ofl/yesevaone/YesevaOne-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/YesevaOne-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
