@@ -1,12 +1,14 @@
 class FontShizuru < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/shizuru/Shizuru-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Shizuru"
+  desc "Shizuru font"
   homepage "https://fonts.google.com/specimen/Shizuru"
+  head "https://github.com/google/fonts/raw/main/ofl/shizuru/Shizuru-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/Shizuru-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
