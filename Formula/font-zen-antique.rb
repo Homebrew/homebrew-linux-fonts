@@ -1,12 +1,14 @@
 class FontZenAntique < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/zenantique/ZenAntique-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Zen Antique"
+  desc "Zen antique font"
   homepage "https://fonts.google.com/specimen/Zen+Antique"
+  head "https://github.com/google/fonts/raw/main/ofl/zenantique/ZenAntique-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/ZenAntique-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
