@@ -1,7 +1,11 @@
 class FontIbmPlexSansArabic < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/ibmplexsansarabic"
-  desc "IBM Plex Sans Arabic"
+  desc "Ibm plex sans arabic font"
   homepage "https://fonts.google.com/specimen/IBM+Plex+Sans+Arabic"
+  head "https://github.com/google/fonts.git",
+       verified:  "github.com/google/fonts",
+       branch:    "main",
+       only_path: "ofl/ibmplexsansarabic"
+
   def install
     (share/"fonts").install Dir.glob("ofl/ibmplexsansarabic/./**/IBMPlexSansArabic-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/ibmplexsansarabic/./**/IBMPlexSansArabic-ExtraLight.ttf")[0]
@@ -11,8 +15,8 @@ class FontIbmPlexSansArabic < Formula
     (share/"fonts").install Dir.glob("ofl/ibmplexsansarabic/./**/IBMPlexSansArabic-SemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/ibmplexsansarabic/./**/IBMPlexSansArabic-Thin.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
