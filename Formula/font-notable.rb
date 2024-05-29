@@ -1,12 +1,14 @@
 class FontNotable < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/notable/Notable-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Notable"
+  desc "Notable font"
   homepage "https://fonts.google.com/specimen/Notable"
+  head "https://github.com/google/fonts/raw/main/ofl/notable/Notable-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/Notable-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
