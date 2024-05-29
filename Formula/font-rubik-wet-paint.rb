@@ -1,12 +1,14 @@
 class FontRubikWetPaint < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/rubikwetpaint/RubikWetPaint-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Rubik Wet Paint"
+  desc "Rubik wet paint font"
   homepage "https://fonts.google.com/specimen/Rubik+Wet+Paint"
+  head "https://github.com/google/fonts/raw/main/ofl/rubikwetpaint/RubikWetPaint-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/RubikWetPaint-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
