@@ -1,12 +1,12 @@
 class FontJetbrainsMonoNerdFont < Formula
-  version "3.2.1"
-  sha256 "6596922aabaf8876bb657c36a47009ac68c388662db45d4ac05c2536c2f07ade"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/JetBrainsMono.zip"
-  desc "JetBrainsMono Nerd Font families (JetBrains Mono)"
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip"
+  version "3.2.1"
+  sha256 "6596922aabaf8876bb657c36a47009ac68c388662db45d4ac05c2536c2f07ade"
+
   def install
-    (share/"fonts").install Dir.glob("./**/JetBrainsMonoNLNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/JetBrainsMonoNerdFontPropo-ThinItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/JetBrainsMonoNLNerdFont-BoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/JetBrainsMonoNLNerdFont-ExtraBold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/JetBrainsMonoNLNerdFont-ExtraBoldItalic.ttf")[0]
@@ -101,10 +101,10 @@ class FontJetbrainsMonoNerdFont < Formula
     (share/"fonts").install Dir.glob("./**/JetBrainsMonoNerdFontPropo-SemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/JetBrainsMonoNerdFontPropo-SemiBoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/JetBrainsMonoNerdFontPropo-Thin.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/JetBrainsMonoNerdFontPropo-ThinItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/JetBrainsMonoNLNerdFont-Bold.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
