@@ -1,7 +1,11 @@
 class FontMukta < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/mukta"
-  desc "Mukta"
+  desc "Mukta font"
   homepage "https://fonts.google.com/specimen/Mukta"
+  head "https://github.com/google/fonts.git",
+       verified:  "github.com/google/fonts",
+       branch:    "main",
+       only_path: "ofl/mukta"
+
   def install
     (share/"fonts").install Dir.glob("ofl/mukta/./**/Mukta-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/mukta/./**/Mukta-ExtraBold.ttf")[0]
@@ -11,8 +15,8 @@ class FontMukta < Formula
     (share/"fonts").install Dir.glob("ofl/mukta/./**/Mukta-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/mukta/./**/Mukta-SemiBold.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
