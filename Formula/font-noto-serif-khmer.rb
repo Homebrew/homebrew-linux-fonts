@@ -1,9 +1,11 @@
 class FontNotoSerifKhmer < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSerifKhmer-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
-  desc "Noto Serif Khmer"
+  desc "Noto serif khmer font"
   homepage "https://www.google.com/get/noto/#serif-khmr"
+  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSerifKhmer-unhinted.zip",
+       verified: "noto-website-2.storage.googleapis.com/"
+
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSerifKhmer-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSerifKhmer-Thin.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifKhmer-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifKhmer-Condensed.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifKhmer-CondensedBlack.ttf")[0]
@@ -38,10 +40,10 @@ class FontNotoSerifKhmer < Formula
     (share/"fonts").install Dir.glob("./**/NotoSerifKhmer-SemiCondensedMedium.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifKhmer-SemiCondensedSemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifKhmer-SemiCondensedThin.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/NotoSerifKhmer-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSerifKhmer-Black.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
