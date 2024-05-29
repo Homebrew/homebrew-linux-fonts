@@ -1,12 +1,12 @@
 class FontMplusNerdFont < Formula
-  version "3.2.1"
-  sha256 "2dfa4dedd98bbfe625ff56f0a31713aea77776aa7227bac300fd4246f2c79043"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/MPlus.zip"
-  desc "M+ Nerd Font families (MPlus)"
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/MPlus.zip"
+  version "3.2.1"
+  sha256 "2dfa4dedd98bbfe625ff56f0a31713aea77776aa7227bac300fd4246f2c79043"
+
   def install
-    (share/"fonts").install Dir.glob("./**/M+1CodeNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/M+CodeLat60NerdFontPropo-Thin.ttf")[0]
     (share/"fonts").install Dir.glob("./**/M+1CodeNerdFont-ExtraLight.ttf")[0]
     (share/"fonts").install Dir.glob("./**/M+1CodeNerdFont-Light.ttf")[0]
     (share/"fonts").install Dir.glob("./**/M+1CodeNerdFont-Medium.ttf")[0]
@@ -104,10 +104,10 @@ class FontMplusNerdFont < Formula
     (share/"fonts").install Dir.glob("./**/M+CodeLat60NerdFontPropo-Medium.ttf")[0]
     (share/"fonts").install Dir.glob("./**/M+CodeLat60NerdFontPropo-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("./**/M+CodeLat60NerdFontPropo-SemiBold.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/M+CodeLat60NerdFontPropo-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/M+1CodeNerdFont-Bold.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
