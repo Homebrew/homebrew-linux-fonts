@@ -1,18 +1,18 @@
 class FontTerminus < Formula
-  version "4.49.3"
-  sha256 "0ead921d98d99a4590ffe6cd66dc037fc0a2ceea1c735d866ba73fe058257577"
-  url "https://files.ax86.net/terminus-ttf/files/#{version}/terminus-ttf-#{version}.zip"
-  desc "Terminus TTF"
   desc "Fixed-width bitmap font"
   homepage "https://files.ax86.net/terminus-ttf/"
+  url "https://files.ax86.net/terminus-ttf/files/4.49.3/terminus-ttf-4.49.3.zip"
+  version "4.49.3"
+  sha256 "0ead921d98d99a4590ffe6cd66dc037fc0a2ceea1c735d866ba73fe058257577"
+
   def install
-    (share/"fonts").install Dir.glob("terminus-ttf-#{version}/**/TerminusTTF-#{version}.ttf")[0]
-    (share/"fonts").install Dir.glob("terminus-ttf-#{version}/**/TerminusTTF-Bold-#{version}.ttf")[0]
-    (share/"fonts").install Dir.glob("terminus-ttf-#{version}/**/TerminusTTF-Bold-Italic-#{version}.ttf")[0]
-    (share/"fonts").install Dir.glob("terminus-ttf-#{version}/**/TerminusTTF-Italic-#{version}.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/terminus-ttf-4.49.3/TerminusTTF-4.49.3.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/terminus-ttf-4.49.3/TerminusTTF-Bold-4.49.3.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/terminus-ttf-4.49.3/TerminusTTF-Bold-Italic-4.49.3.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/terminus-ttf-4.49.3/TerminusTTF-Italic-4.49.3.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
