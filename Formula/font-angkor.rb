@@ -1,12 +1,14 @@
 class FontAngkor < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/angkor/Angkor-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Angkor"
+  desc "Angkor font"
   homepage "https://fonts.google.com/specimen/Angkor"
+  head "https://github.com/google/fonts/raw/main/ofl/angkor/Angkor-Regular.ttf",
+       verified: "github.com/google/fonts/"
+
   def install
     (share/"fonts").install Dir.glob("./**/Angkor-Regular.ttf")[0]
   end
-  # No zap stanza required
 
   test do
+    assert_path_exists share/"fonts"
   end
 end
