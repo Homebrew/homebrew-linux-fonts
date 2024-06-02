@@ -1,9 +1,9 @@
 class FontIosevkaSs15 < Formula
   desc "Sans-serif, slab-serif, monospace and quasi‑proportional typeface family"
   homepage "https://github.com/be5invis/Iosevka/"
-  url "https://github.com/be5invis/Iosevka/releases/download/v30.1.1/PkgTTC-IosevkaSS15-30.1.1.zip"
-  version "30.1.1"
-  sha256 "efb88f51c467f496ee2405150777b8d10915a55cb1afa7b9dde385fba8e91613"
+  url "https://github.com/be5invis/Iosevka/releases/download/v30.1.2/PkgTTC-IosevkaSS15-30.1.2.zip"
+  version "30.1.2"
+  sha256 "c248053262d24f4c88e2faeed49259ac6e0781c64c7b0b221c8a744445fd9110"
 
   def install
     (share/"fonts").install Dir.glob("./**/IosevkaSS15-Thin.ttc")[0]
