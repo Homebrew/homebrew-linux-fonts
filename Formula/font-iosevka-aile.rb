@@ -1,9 +1,9 @@
 class FontIosevkaAile < Formula
   desc "Sans-serif, slab-serif, monospace and quasi‑proportional typeface family"
   homepage "https://github.com/be5invis/Iosevka/"
-  url "https://github.com/be5invis/Iosevka/releases/download/v30.1.1/PkgTTC-IosevkaAile-30.1.1.zip"
-  version "30.1.1"
-  sha256 "9355dd82cc4e77afa029d8883791baa9307fad46d3013dc8937ec4893abc65ec"
+  url "https://github.com/be5invis/Iosevka/releases/download/v30.1.2/PkgTTC-IosevkaAile-30.1.2.zip"
+  version "30.1.2"
+  sha256 "60a32bf1953d9621dda007135f8cd64e90eab6cd7ff5809f8f4a610a833a4ef3"
 
   def install
     (share/"fonts").install Dir.glob("./**/IosevkaAile-Thin.ttc")[0]
