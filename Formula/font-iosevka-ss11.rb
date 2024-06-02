@@ -1,9 +1,9 @@
 class FontIosevkaSs11 < Formula
   desc "Sans-serif, slab-serif, monospace and quasi‑proportional typeface family"
   homepage "https://github.com/be5invis/Iosevka/"
-  url "https://github.com/be5invis/Iosevka/releases/download/v30.1.1/PkgTTC-IosevkaSS11-30.1.1.zip"
-  version "30.1.1"
-  sha256 "d36c67d842d835c78e2cfc8fd2693c88b5c9373553528a98a522bf5780c13f96"
+  url "https://github.com/be5invis/Iosevka/releases/download/v30.1.2/PkgTTC-IosevkaSS11-30.1.2.zip"
+  version "30.1.2"
+  sha256 "0f9ff72a7b9de55eb147bc5c4c5d1651fd550945134233f0b61335f3eb5ebcdf"
 
   def install
     (share/"fonts").install Dir.glob("./**/IosevkaSS11-Thin.ttc")[0]
