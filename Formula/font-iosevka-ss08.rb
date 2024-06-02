@@ -1,9 +1,9 @@
 class FontIosevkaSs08 < Formula
   desc "Sans-serif, slab-serif, monospace and quasi‑proportional typeface family"
   homepage "https://github.com/be5invis/Iosevka/"
-  url "https://github.com/be5invis/Iosevka/releases/download/v30.1.1/PkgTTC-IosevkaSS08-30.1.1.zip"
-  version "30.1.1"
-  sha256 "06b499283ef9acfc3679e634f9ff604ed6913c00b53361d671ae6fc58d472df2"
+  url "https://github.com/be5invis/Iosevka/releases/download/v30.1.2/PkgTTC-IosevkaSS08-30.1.2.zip"
+  version "30.1.2"
+  sha256 "8acdd5d2b352dadad1f35dc704a707e4192b556b3d3c8bf1f39161c7a07f0fca"
 
   def install
     (share/"fonts").install Dir.glob("./**/IosevkaSS08-Thin.ttc")[0]
