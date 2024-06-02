@@ -1,9 +1,9 @@
 class FontIosevkaEtoile < Formula
   desc "Sans-serif, slab-serif, monospace and quasi‑proportional typeface family"
   homepage "https://github.com/be5invis/Iosevka/"
-  url "https://github.com/be5invis/Iosevka/releases/download/v30.1.1/PkgTTC-IosevkaEtoile-30.1.1.zip"
-  version "30.1.1"
-  sha256 "0456a9da8e87d57a01ebdfaee23d0f17158ed2985a395d91a592563fde0bef29"
+  url "https://github.com/be5invis/Iosevka/releases/download/v30.1.2/PkgTTC-IosevkaEtoile-30.1.2.zip"
+  version "30.1.2"
+  sha256 "204e36d4bbb3e1d8a2a54233bd243f1440c35d4a37a83c73d80211821f3c66a2"
 
   def install
     (share/"fonts").install Dir.glob("./**/IosevkaEtoile-Thin.ttc")[0]
