@@ -1,7 +1,8 @@
 class FontLxgwWenkaiMonoTc < Formula
   desc "Lxgw wenkai mono tc font"
-  homepage "https://github.com/aaronbell/LxgwWenkaiTC"
+  homepage "https://fonts.google.com/specimen/LXGW+WenKai+Mono+TC"
   head "https://github.com/google/fonts.git",
+       verified:  "github.com/google/fonts",
        branch:    "main",
        only_path: "ofl/lxgwwenkaimonotc"
 
