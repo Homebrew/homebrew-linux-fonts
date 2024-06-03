@@ -1,7 +1,8 @@
 class FontChocolateClassicalSans < Formula
   desc "Chocolate classical sans font"
-  homepage "https://github.com/aaronbell/ChocolateSans"
-  head "https://github.com/google/fonts/raw/main/ofl/chocolateclassicalsans/ChocolateClassicalSans-Regular.ttf"
+  homepage "https://fonts.google.com/specimen/Chocolate+Classical+Sans"
+  head "https://github.com/google/fonts/raw/main/ofl/chocolateclassicalsans/ChocolateClassicalSans-Regular.ttf",
+       verified: "github.com/google/fonts/"
 
   def install
     (share/"fonts").install Dir.glob("./**/ChocolateClassicalSans-Regular.ttf")[0]
