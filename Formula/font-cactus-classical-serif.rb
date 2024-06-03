@@ -1,7 +1,8 @@
 class FontCactusClassicalSerif < Formula
   desc "Cactus classical serif font"
-  homepage "https://github.com/aaronbell/CactusSerif"
-  head "https://github.com/google/fonts/raw/main/ofl/cactusclassicalserif/CactusClassicalSerif-Regular.ttf"
+  homepage "https://fonts.google.com/specimen/Cactus+Classical+Serif"
+  head "https://github.com/google/fonts/raw/main/ofl/cactusclassicalserif/CactusClassicalSerif-Regular.ttf",
+       verified: "github.com/google/fonts/"
 
   def install
     (share/"fonts").install Dir.glob("./**/CactusClassicalSerif-Regular.ttf")[0]
