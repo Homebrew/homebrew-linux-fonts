@@ -1,9 +1,9 @@
 class FontEzraSil < Formula
   desc "Ezra sil font"
-  homepage "https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=EzraSIL_Home"
-  url "https://scripts.sil.org/cms/scripts/render_download.php?format=file&media_id=EzraSIL251.zip&filename=EzraSIL251.zip"
+  homepage "https://software.sil.org/ezra/"
+  url "https://software.sil.org/downloads/r/ezra/EzraSIL-2.51.zip"
   version "2.51"
-  sha256 "fd2894531aab32ff7d6845e3d0b4c0401c91f64ba637d13624dfc17a3e815831"
+  sha256 "f16bcb3ec4473ac6a9f138ee0dbde7cc2f835e93a90cbe8649b3f32677760cc1"
 
   def install
     (share/"fonts").install Dir.glob("./**/EzraSIL2.51/SILEOT.ttf")[0]
