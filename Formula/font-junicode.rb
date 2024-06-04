@@ -1,9 +1,9 @@
 class FontJunicode < Formula
   desc "Junicode font"
   homepage "https://github.com/psb1558/Junicode-font"
-  url "https://github.com/psb1558/Junicode-font/releases/download/v2.207/Junicode_2.207.zip"
-  version "2.207"
-  sha256 "6f98028bf139c47d3aef5ea931d8bb4434d091f1308eb80f3ae0c398e399e973"
+  url "https://github.com/psb1558/Junicode-font/releases/download/v2.208/Junicode_2.208.zip"
+  version "2.208"
+  sha256 "7398e617d0d7a3a4c4803f4f9c6bc5a7f564af0472c9109a17bc483c7bd94536"
 
   def install
     (share/"fonts").install Dir.glob("./**/Junicode/VAR/JunicodeVF-Roman.ttf")[0]
