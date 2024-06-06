@@ -1,9 +1,9 @@
 class FontLxgwFasmartgothic < Formula
   desc "Chinese sans-serif font derived from IPAex Gothic"
   homepage "https://github.com/lxgw/LxgwNeoXiHei"
-  url "https://github.com/lxgw/LxgwNeoXiHei/releases/download/v1.123.1/LXGWFasmartGothic.ttf"
-  version "1.123.1"
-  sha256 "e7442a3c9ebca27eb7c2559bbf609f46c701a5e315008961beb1fd0afabdd046"
+  url "https://github.com/lxgw/LxgwNeoXiHei/releases/download/v1.123.2/LXGWFasmartGothic.ttf"
+  version "1.123.2"
+  sha256 "77210a70955a5cf216fb6513934943527fb904641270a87a47812708c2f19a03"
 
   def install
     (share/"fonts").install Dir.glob("./**/LXGWFasmartGothic.ttf")[0]
