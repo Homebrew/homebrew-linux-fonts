@@ -1,9 +1,9 @@
 class FontLxgwNeozhisong < Formula
   desc "Chinese serif font derived from IPAmj Mincho"
   homepage "https://github.com/lxgw/LxgwNeoZhiSong"
-  url "https://github.com/lxgw/LxgwNeoZhiSong/releases/download/v0.923.2/LXGWNeoZhiSong.ttf"
-  version "0.923.2"
-  sha256 "28b8843ce29894cf0c73d03aec1857480108e4839c1ae5d9056869e17611a2ee"
+  url "https://github.com/lxgw/LxgwNeoZhiSong/releases/download/v0.923.3/LXGWNeoZhiSong.ttf"
+  version "0.923.3"
+  sha256 "b72f13838f943f45391fa30c0fe678f7b18f59975300d99ea9cee0398b47ffba"
 
   def install
     (share/"fonts").install Dir.glob("./**/LXGWNeoZhiSong.ttf")[0]
