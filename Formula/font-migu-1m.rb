@@ -1,13 +1,14 @@
 class FontMigu1m < Formula
   desc "Migu 1m font"
-  homepage "https://mix-mplus-ipa.osdn.jp/migu/#migu1m"
-  url "https://osdn.dl.osdn.jp/mix-mplus-ipa/63545/migu-1m-20150712.zip"
-  version "20150712"
-  sha256 "d4c38664dd57bc5927abe8f4fbea8f06a8ece3fea49ea02354d4e03ac6d15006"
+  homepage "https://itouhiro.github.io/mixfont-mplus-ipa/migu/"
+  url "https://github.com/itouhiro/mixfont-mplus-ipa/releases/download/v2020.0307/migu-1m-20200307.zip",
+       verified: "github.com/itouhiro/mixfont-mplus-ipa/"
+  version "2020.0307"
+  sha256 "e4806d297e59a7f9c235b0079b2819f44b8620d4365a8955cb612c9ff5809321"
 
   def install
-    (share/"fonts").install Dir.glob("./**/migu-1m-20150712/migu-1m-bold.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/migu-1m-20150712/migu-1m-regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/migu-1m-20200307/migu-1m-bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/migu-1m-20200307/migu-1m-regular.ttf")[0]
   end
 
   test do
