@@ -1,7 +1,7 @@
 class FontProfontx < Formula
   desc "Profontx font"
-  homepage "http://faisal.com/software/profontx/"
-  head "http://faisal.com/software/profontx/ProFontX.zip"
+  homepage "https://www.faisal.com/software/profontx/"
+  head "https://www.faisal.com/software/profontx/ProFontX.zip"
 
   def install
     (share/"fonts").install Dir.glob("./**/ProFontX/ProFontX")[0]
