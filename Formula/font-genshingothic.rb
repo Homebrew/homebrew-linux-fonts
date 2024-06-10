@@ -1,9 +1,9 @@
 class FontGenshingothic < Formula
   desc "Gen shin gothic font"
   homepage "http://jikasei.me/font/genshin/"
-  url "https://osdn.dl.osdn.jp/users/8/8637/genshingothic-20150607.zip",
-       verified: "osdn.jp/"
-  version "20150607,8.637"
+  url "https://ftp.iij.ad.jp/pub/osdn.jp/users/8/8637/genshingothic-20150607.zip",
+       verified: "ftp.iij.ad.jp/pub/osdn.jp/users/"
+  version "20150607"
   sha256 "b8e00f00a6e2517bfe75ceb2a732b596fe002457b89c05c181d6b71373aada58"
 
   def install
