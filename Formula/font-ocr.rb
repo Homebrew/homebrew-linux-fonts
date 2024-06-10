@@ -1,19 +1,18 @@
 class FontOcr < Formula
   desc "Ocr font"
-  homepage "https://ansuz.sooke.bc.ca/page/fonts#ocra"
-  url "https://osdn.dl.osdn.jp/tsukurimashou/56948/ocr-0.2.zip",
-       verified: "osdn.dl.osdn.jp/tsukurimashou/"
-  version "0.2"
-  sha256 "39289c641520265ecedbade99f01600f316f8196ec57f71c8402d3ba09438666"
+  homepage "https://tsukurimashou.org/ocr.php.en"
+  url "https://tsukurimashou.org/files/ocr-0.3.1.zip"
+  version "0.3.1"
+  sha256 "58136fccfdee0923cc83a20996a067b98bae054570ee41bf896d7ca8224399bf"
 
   def install
-    (share/"fonts").install Dir.glob("./**/ocr-0.2/OCRA.otf")[0]
-    (share/"fonts").install Dir.glob("./**/ocr-0.2/OCRB.otf")[0]
-    (share/"fonts").install Dir.glob("./**/ocr-0.2/OCRBE.otf")[0]
-    (share/"fonts").install Dir.glob("./**/ocr-0.2/OCRBF.otf")[0]
-    (share/"fonts").install Dir.glob("./**/ocr-0.2/OCRBL.otf")[0]
-    (share/"fonts").install Dir.glob("./**/ocr-0.2/OCRBS.otf")[0]
-    (share/"fonts").install Dir.glob("./**/ocr-0.2/OCRBX.otf")[0]
+    (share/"fonts").install Dir.glob("./**/ocr-0.3.1/OCRA.otf")[0]
+    (share/"fonts").install Dir.glob("./**/ocr-0.3.1/OCRB.otf")[0]
+    (share/"fonts").install Dir.glob("./**/ocr-0.3.1/OCRBE.otf")[0]
+    (share/"fonts").install Dir.glob("./**/ocr-0.3.1/OCRBF.otf")[0]
+    (share/"fonts").install Dir.glob("./**/ocr-0.3.1/OCRBL.otf")[0]
+    (share/"fonts").install Dir.glob("./**/ocr-0.3.1/OCRBS.otf")[0]
+    (share/"fonts").install Dir.glob("./**/ocr-0.3.1/OCRBX.otf")[0]
   end
 
   test do
