@@ -1,9 +1,9 @@
 class FontGenjyuugothicX < Formula
   desc "Gen jyuu gothicx font"
   homepage "http://jikasei.me/font/genjyuu/"
-  url "https://osdn.dl.osdn.jp/users/8/8644/genjyuugothic-x-20150607.zip",
-       verified: "osdn.jp/"
-  version "20150607,8.644"
+  url "https://ftp.iij.ad.jp/pub/osdn.jp/users/8/8644/genjyuugothic-x-20150607.zip",
+       verified: "ftp.iij.ad.jp/pub/osdn.jp/users/"
+  version "20150607"
   sha256 "e4a0ea11b8155056ad2b678c8501b2e76dd99b8c8eb5363d396fe7c3079201b3"
 
   def install
