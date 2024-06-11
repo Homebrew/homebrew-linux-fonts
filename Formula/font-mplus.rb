@@ -1,10 +1,12 @@
 class FontMplus < Formula
   desc "M+ fonts font"
-  homepage "https://mplusfonts.github.io"
+  homepage "https://mplusfonts.github.io/"
   url "https://ftp.iij.ad.jp/pub/osdn.jp/mplus-fonts/62344/mplus-TESTFLIGHT-063a.tar.xz",
        verified: "ftp.iij.ad.jp/pub/osdn.jp/mplus-fonts/"
   version "063a"
   sha256 "44eb973b4b6aff574de454db105ddc23e6749c2294734bd9cb1e0d734e4cdd79"
+
+  disable! "2024-06-09", because: :is moved to font-m-plus-1, font-m-plus-2...
 
   def install
     (share/"fonts").install Dir.glob("./**/mplus-TESTFLIGHT-063a/mplus-2p-thin.ttf")[0]
