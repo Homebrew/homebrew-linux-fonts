@@ -1,5 +1,5 @@
 class FontFustat < Formula
-  desc "Ideal for titles due to its distinct style, yet it also performs well in body text, ensuring readability"
+  desc "Modern typeface inspired by traditional Kufic script"
   homepage "https://github.com/Kief-Type-Foundry/Fustat"
   head "https://github.com/google/fonts/raw/main/ofl/fustat/Fustat%5Bwght%5D.ttf"
 
