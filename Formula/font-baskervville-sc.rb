@@ -1,5 +1,5 @@
 class FontBaskervvilleSc < Formula
-  desc "The small caps version of baskervville"
+  desc "Small caps version of baskervville"
   homepage "https://github.com/anrt-type/ANRT-Baskervville"
   head "https://github.com/google/fonts/raw/main/ofl/baskervvillesc/BaskervvilleSC-Regular.ttf"
 
