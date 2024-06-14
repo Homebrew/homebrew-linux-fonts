@@ -1,5 +1,5 @@
 class FontTaiHeritagePro < Formula
-  desc "Available in regular and bold weights, with both opentype and graphite rendering"
+  desc "Tai heritage pro font"
   homepage "https://fonts.google.com/specimen/Tai+Heritage+Pro"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
