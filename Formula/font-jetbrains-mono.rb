@@ -1,5 +1,5 @@
 class FontJetbrainsMono < Formula
-  desc "Typeface made for developers"
+  desc "Jetbrains mono font"
   homepage "https://www.jetbrains.com/lp/mono"
   url "https://github.com/JetBrains/JetBrainsMono/releases/download/v2.304/JetBrainsMono-2.304.zip",
        verified: "github.com/JetBrains/JetBrainsMono/"
