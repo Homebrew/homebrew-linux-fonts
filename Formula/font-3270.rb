@@ -1,5 +1,5 @@
 class Font3270 < Formula
-  desc "Derived from the x3270 font"
+  desc "Ibm 3270 font"
   homepage "https://github.com/rbanffy/3270font"
   url "https://github.com/rbanffy/3270font/releases/download/v3.0.1/3270_fonts_d916271.zip"
   version "3.0.1,d916271"
