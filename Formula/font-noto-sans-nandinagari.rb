@@ -1,5 +1,5 @@
 class FontNotoSansNandinagari < Formula
-  desc "Historical indic nandinagari script"
+  desc "Noto sans nandinagari font"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Nandinagari"
   head "https://github.com/google/fonts/raw/main/ofl/notosansnandinagari/NotoSansNandinagari-Regular.ttf",
        verified: "github.com/google/fonts/"
