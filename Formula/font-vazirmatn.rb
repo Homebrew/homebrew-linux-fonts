@@ -1,5 +1,5 @@
 class FontVazirmatn < Formula
-  desc "Combined with roboto"
+  desc "Vazirmatn font"
   homepage "https://fonts.google.com/specimen/Vazirmatn"
   head "https://github.com/google/fonts/raw/main/ofl/vazirmatn/Vazirmatn%5Bwght%5D.ttf",
        verified: "github.com/google/fonts/"
