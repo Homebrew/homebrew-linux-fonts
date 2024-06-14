@@ -1,5 +1,5 @@
 class FontRedhat < Formula
-  desc "Geometric sans-serif typeface"
+  desc "Red hat font"
   homepage "https://github.com/RedHatOfficial/RedHatFont/"
   url "https://github.com/RedHatOfficial/RedHatFont/archive/4.0.3.tar.gz"
   version "4.0.3"
