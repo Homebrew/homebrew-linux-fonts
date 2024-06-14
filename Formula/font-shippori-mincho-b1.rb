@@ -1,5 +1,5 @@
 class FontShipporiMinchoB1 < Formula
-  desc "Based on the Tsukiji Typeface making facility of Tokyo"
+  desc "Shippori mincho b1 font"
   homepage "https://fonts.google.com/specimen/Shippori+Mincho+B1"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
