@@ -1,5 +1,5 @@
 class FontNotoSansCyproMinoan < Formula
-  desc "Design for the historical european cypro-minoan script"
+  desc "Noto sans cypro minoan font"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Cypro+Minoan"
   head "https://github.com/google/fonts/raw/main/ofl/notosanscyprominoan/NotoSansCyproMinoan-Regular.ttf",
        verified: "github.com/google/fonts/"
