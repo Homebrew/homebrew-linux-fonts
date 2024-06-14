@@ -1,5 +1,5 @@
 class FontNotoSansSc < Formula
-  desc "Sans-serif design for simplified chinese variant of the han ideograms"
+  desc "Noto sans sc font"
   homepage "https://fonts.google.com/specimen/Noto+Sans+SC"
   head "https://github.com/google/fonts/raw/main/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf",
        verified: "github.com/google/fonts/"
