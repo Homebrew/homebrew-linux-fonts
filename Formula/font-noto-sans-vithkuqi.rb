@@ -1,5 +1,5 @@
 class FontNotoSansVithkuqi < Formula
-  desc "Design for the historical european vithkuqi script"
+  desc "Noto sans vithkuqi font"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Vithkuqi"
   head "https://github.com/google/fonts/raw/main/ofl/notosansvithkuqi/NotoSansVithkuqi%5Bwght%5D.ttf",
        verified: "github.com/google/fonts/"
