@@ -1,12 +1,12 @@
 class FontCubic11 < Formula
-  desc "Open-source 11x11 Traditional Chinese bitmap font"
+  desc "Cubic 11 font"
   homepage "https://github.com/ACh-K/Cubic-11"
-  url "https://github.com/ACh-K/Cubic-11/releases/download/v1.100/Cubic_11.zip"
-  version "1.100"
-  sha256 "354247bb7e48b2e3896758e7c3413f7ce4329d130b0c9a7ef124d476ca66f4ae"
+  url "https://github.com/ACh-K/Cubic-11/archive/refs/tags/v1.200.tar.gz"
+  version "1.200"
+  sha256 "903e9dc53652edd85273766f30329a83503a8fe147f536f63f853646cf04d676"
 
   def install
-    (share/"fonts").install Dir.glob("./**/fonts/ttf/Cubic_11_1.100_R.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Cubic-11-1.200/fonts/ttf/Cubic_11_1.200_R.ttf")[0]
   end
 
   test do
