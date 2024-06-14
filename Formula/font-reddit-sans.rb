@@ -1,5 +1,5 @@
 class FontRedditSans < Formula
-  desc "Complemented by reddit sans condensed and reddit mono"
+  desc "Reddit sans font"
   homepage "https://fonts.google.com/specimen/Reddit+Sans"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
