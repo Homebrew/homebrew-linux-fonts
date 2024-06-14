@@ -1,5 +1,5 @@
 class FontSfMonoForPowerline < Formula
-  desc "Apple's SF Mono font patched with the Nerd Fonts patcher for Powerline support"
+  desc "Sf mono for powerline font"
   homepage "https://github.com/Twixes/SF-Mono-Powerline"
   head "https://github.com/Twixes/SF-Mono-Powerline/archive/master.zip"
 
