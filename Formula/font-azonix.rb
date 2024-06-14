@@ -1,5 +1,5 @@
 class FontAzonix < Formula
-  desc "Modern sans-serif typeface"
+  desc "Azonix font"
   homepage "https://www.dafont.com/azonix.font"
   head "https://dl.dafont.com/dl/?f=azonix"
 
