@@ -1,5 +1,5 @@
 class FontDreamHanSans < Formula
-  desc "Pan-CJK font families with range of weights"
+  desc "Dream han sans font"
   homepage "https://github.com/Pal3love/dream-han-cjk/"
   url "https://github.com/Pal3love/dream-han-cjk/releases/download/dream-3.01-sans-2.004-serif-2.002/DreamHanSans.zip"
   version "3.01,2.004,2.002"
