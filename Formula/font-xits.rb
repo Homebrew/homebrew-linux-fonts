@@ -1,5 +1,5 @@
 class FontXits < Formula
-  desc "Times-like typeface for mathematical and scientific publishing"
+  desc "Xits font"
   homepage "https://github.com/khaledhosny/xits"
   url "https://github.com/khaledhosny/xits/archive/v1.302.zip"
   version "1.302"
