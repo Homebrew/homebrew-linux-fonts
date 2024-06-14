@@ -1,5 +1,5 @@
 class FontImWritingNerdFont < Formula
-  desc "Developer targeted fonts with a high number of glyphs"
+  desc "Imwriting nerd font families (ia writer) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/iA-Writer.zip"
   version "3.2.1"
