@@ -1,5 +1,5 @@
 class FontLeagueGothic < Formula
-  desc "Revival of an old classic, Alternate Gothic #1"
+  desc "League gothic font"
   homepage "https://www.theleagueofmoveabletype.com/league-gothic"
   url "https://github.com/theleagueof/league-gothic/releases/download/1.601/LeagueGothic-1.601.tar.xz",
        verified: "github.com/theleagueof/league-gothic/"
