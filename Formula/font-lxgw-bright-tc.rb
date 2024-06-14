@@ -1,5 +1,5 @@
 class FontLxgwBrightTc < Formula
-  desc "Merged font of Ysabeau Office and LXGW WenKai TC"
+  desc "Lxgw bright tc font"
   homepage "https://github.com/lxgw/LxgwBright"
   url "https://github.com/lxgw/LxgwBright/releases/download/v5.330/LXGWBrightTC.7z"
   version "5.330"
