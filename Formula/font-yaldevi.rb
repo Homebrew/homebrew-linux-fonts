@@ -1,5 +1,5 @@
 class FontYaldevi < Formula
-  desc "Designed by sol matas"
+  desc "Yaldevi font"
   homepage "https://fonts.google.com/specimen/Yaldevi"
   head "https://github.com/google/fonts/raw/main/ofl/yaldevi/Yaldevi%5Bwght%5D.ttf",
        verified: "github.com/google/fonts/"
