@@ -1,5 +1,5 @@
 class FontLibreBarcodeEan13Text < Formula
-  desc "Led by lasse fister, a font and web developer based in nuremberg, germany"
+  desc "Libre barcode ean13 text font"
   homepage "https://fonts.google.com/specimen/Libre+Barcode+EAN13+Text"
   head "https://github.com/google/fonts/raw/main/ofl/librebarcodeean13text/LibreBarcodeEAN13Text-Regular.ttf",
        verified: "github.com/google/fonts/"
