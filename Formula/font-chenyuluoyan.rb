@@ -1,5 +1,5 @@
 class FontChenyuluoyan < Formula
-  desc "Open-source traditional Chinese handwritten font"
+  desc "Chenyuluoyan font"
   homepage "https://github.com/Chenyu-otf/chenyuluoyan_thin"
   url "https://github.com/Chenyu-otf/chenyuluoyan_thin/releases/download/v1.0-motospaced/ChenYuluoyan-Thin-Monospaced.ttf"
   version "1.0-motospaced"
