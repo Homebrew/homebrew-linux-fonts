@@ -1,5 +1,5 @@
 class FontBacasimeAntique < Formula
-  desc "Stylistically a transitional design"
+  desc "Bacasime antique font"
   homepage "https://fonts.google.com/specimen/Bacasime+Antique"
   head "https://github.com/google/fonts/raw/main/ofl/bacasimeantique/BacasimeAntique-Regular.ttf",
        verified: "github.com/google/fonts/"
