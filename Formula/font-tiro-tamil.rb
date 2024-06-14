@@ -1,5 +1,5 @@
 class FontTiroTamil < Formula
-  desc "Especially suited to traditional literary publishing"
+  desc "Tiro tamil font"
   homepage "https://fonts.google.com/specimen/Tiro+Tamil"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
