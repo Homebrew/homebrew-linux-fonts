@@ -1,5 +1,5 @@
 class FontGrapeNuts < Formula
-  desc "Derived from a well-known breakfast cereal that dates back to the late 1800s"
+  desc "Grape nuts font"
   homepage "https://fonts.google.com/specimen/Grape+Nuts"
   head "https://github.com/google/fonts/raw/main/ofl/grapenuts/GrapeNuts-Regular.ttf",
        verified: "github.com/google/fonts/"
