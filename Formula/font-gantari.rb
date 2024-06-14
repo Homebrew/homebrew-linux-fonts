@@ -1,5 +1,5 @@
 class FontGantari < Formula
-  desc "Designed so that all characters can look harmonious"
+  desc "Gantari font"
   homepage "https://fonts.google.com/specimen/Gantari"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
