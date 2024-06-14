@@ -1,5 +1,5 @@
 class FontGeorama < Formula
-  desc "Original typeface available in several widths and weights"
+  desc "Georama font"
   homepage "https://fonts.google.com/specimen/Georama"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
