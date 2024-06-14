@@ -1,5 +1,5 @@
 class FontMulish < Formula
-  desc "Minimalist sans serif typeface, designed for both display and text typography"
+  desc "Mulish font"
   homepage "https://fonts.google.com/specimen/Mulish"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
