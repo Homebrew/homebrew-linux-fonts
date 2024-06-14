@@ -1,5 +1,5 @@
 class FontBungeeSpice < Formula
-  desc "Released under the sil open font license"
+  desc "Bungee spice font"
   homepage "https://fonts.google.com/specimen/Bungee+Spice"
   head "https://github.com/google/fonts/raw/main/ofl/bungeespice/BungeeSpice-Regular.ttf",
        verified: "github.com/google/fonts/"
