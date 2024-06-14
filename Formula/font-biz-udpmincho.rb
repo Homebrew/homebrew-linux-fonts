@@ -1,5 +1,5 @@
 class FontBizUdpmincho < Formula
-  desc "Universal design typeface in the Japanese Mincho type tradition"
+  desc "Biz udpmincho font"
   homepage "https://fonts.google.com/specimen/BIZ+UDPMincho"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
