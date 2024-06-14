@@ -1,5 +1,5 @@
 class FontZedSans < Formula
-  desc "Quasi-proportional sans-serif font based on Iosevka"
+  desc "Zed sans font"
   homepage "https://github.com/zed-industries/zed-fonts"
   url "https://github.com/zed-industries/zed-fonts/releases/download/1.2.0/zed-sans-1.2.0.zip"
   version "1.2.0"
