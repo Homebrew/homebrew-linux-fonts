@@ -1,5 +1,5 @@
 class FontRobotoSerif < Formula
-  desc "Just as comfortable to read and work in print media"
+  desc "Roboto serif font"
   homepage "https://fonts.google.com/specimen/Roboto+Serif"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
