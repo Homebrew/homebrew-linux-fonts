@@ -1,5 +1,5 @@
 class FontKarantina < Formula
-  desc "Three weight family that includes - light, regular and bold"
+  desc "Karantina font"
   homepage "https://fonts.google.com/specimen/Karantina"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
