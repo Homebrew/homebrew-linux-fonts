@@ -1,5 +1,5 @@
 class FontGnuUnifont < Formula
-  desc "Unicode bitmap font"
+  desc "Gnu unifont font"
   homepage "https://unifoundry.com/unifont.html"
   url "https://ftpmirror.gnu.org/unifont/unifont-15.1.05/unifont-15.1.05.tar.gz",
        verified: "ftpmirror.gnu.org/unifont/"
