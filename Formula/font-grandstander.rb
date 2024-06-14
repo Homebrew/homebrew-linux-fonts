@@ -1,5 +1,5 @@
 class FontGrandstander < Formula
-  desc "Display variable font with a weight axis"
+  desc "Grandstander font"
   homepage "https://fonts.google.com/specimen/Grandstander"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
