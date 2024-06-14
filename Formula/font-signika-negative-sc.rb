@@ -1,5 +1,5 @@
 class FontSignikaNegativeSc < Formula
-  desc "Alternative version of the Signika SC font"
+  desc "Signika negative sc font"
   homepage "https://fonts.google.com/specimen/Signika+Negative"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
