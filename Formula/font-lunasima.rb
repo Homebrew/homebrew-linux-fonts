@@ -1,5 +1,5 @@
 class FontLunasima < Formula
-  desc "Unmodulated (“sans serif”) design"
+  desc "Lunasima font"
   homepage "https://fonts.google.com/specimen/Lunasima"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
