@@ -1,5 +1,5 @@
 class Font437Plus < Formula
-  desc "Collection of classic text mode fonts from DOS-era IBM PCs and compatibles"
+  desc "Ac437 font"
   homepage "https://int10h.org/oldschool-pc-fonts/"
   url "https://int10h.org/oldschool-pc-fonts/download/oldschool_pc_font_pack_v2.2_win.zip"
   version "2.2"
