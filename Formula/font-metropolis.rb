@@ -1,5 +1,5 @@
 class FontMetropolis < Formula
-  desc "Modern, geometric typeface"
+  desc "Metropolis font"
   homepage "https://www.1001fonts.com/metropolis-font.html"
   head "https://www.1001fonts.com/download/metropolis.zip"
 
