@@ -1,5 +1,5 @@
 class FontKufam < Formula
-  desc "Arabic-Latin bilingual typeface intended for contemporary information design"
+  desc "Kufam font"
   homepage "https://fonts.google.com/specimen/Kufam"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
