@@ -1,5 +1,5 @@
 class FontNotoSansHk < Formula
-  desc "Sans-serif design using the traditional chinese variant of the han ideograms"
+  desc "Noto sans hk font"
   homepage "https://fonts.google.com/specimen/Noto+Sans+HK"
   head "https://github.com/google/fonts/raw/main/ofl/notosanshk/NotoSansHK%5Bwght%5D.ttf",
        verified: "github.com/google/fonts/"
