@@ -1,5 +1,5 @@
 class Font0xproto < Formula
-  desc "Programming font focused on source code legibility"
+  desc "0xproto font"
   homepage "https://github.com/0xType/0xProto"
   url "https://github.com/0xType/0xProto/releases/download/2.100/0xProto_2_100.zip"
   version "2.100"
