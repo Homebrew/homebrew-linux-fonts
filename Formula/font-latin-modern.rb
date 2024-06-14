@@ -1,5 +1,5 @@
 class FontLatinModern < Formula
-  desc "Latin Modern font family, derived from Computer Modern fonts"
+  desc "Latin modern font"
   homepage "https://www.gust.org.pl/projects/e-foundry/latin-modern"
   url "https://www.gust.org.pl/projects/e-foundry/latin-modern/download/lm2.004otf.zip"
   version "2.004"
