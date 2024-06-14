@@ -1,5 +1,5 @@
 class FontPigmo01 < Formula
-  desc "Cute drawing styled Japanese font"
+  desc "Pigmo 01 font"
   homepage "https://moji-waku.com/pigmo01/index.html"
   head "https://moji-waku.com/download/pigmo01.zip"
 
