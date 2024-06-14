@@ -1,5 +1,5 @@
 class FontJaini < Formula
-  desc "Typeface based on the calligraphic style of the Jain Kalpasutra manuscripts"
+  desc "Jaini font"
   homepage "https://fonts.google.com/specimen/Jaini"
   head "https://github.com/google/fonts/raw/main/ofl/jaini/Jaini-Regular.ttf",
        verified: "github.com/google/fonts/"
