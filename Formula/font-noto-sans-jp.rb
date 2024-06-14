@@ -1,5 +1,5 @@
 class FontNotoSansJp < Formula
-  desc "Unmodulated (“sans serif”) design for the japanese language"
+  desc "Noto sans jp font"
   homepage "https://fonts.google.com/specimen/Noto+Sans+JP"
   head "https://github.com/google/fonts/raw/main/ofl/notosansjp/NotoSansJP%5Bwght%5D.ttf",
        verified: "github.com/google/fonts/"
