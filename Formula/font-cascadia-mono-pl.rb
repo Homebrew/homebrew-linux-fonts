@@ -1,5 +1,5 @@
 class FontCascadiaMonoPl < Formula
-  desc "Version of Cascadia Code without ligatures and with embedded Powerline symbols"
+  desc "Cascadia mono pl font"
   homepage "https://github.com/microsoft/cascadia-code"
   url "https://github.com/microsoft/cascadia-code/releases/download/v2404.23/CascadiaCode-2404.23.zip"
   version "2404.23"
