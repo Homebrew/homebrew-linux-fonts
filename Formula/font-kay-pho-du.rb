@@ -1,5 +1,5 @@
 class FontKayPhoDu < Formula
-  desc "Font family for the kayah li script"
+  desc "Kay pho du font"
   homepage "https://fonts.google.com/specimen/Kay+Pho+Du"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
