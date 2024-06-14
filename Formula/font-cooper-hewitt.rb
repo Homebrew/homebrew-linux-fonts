@@ -1,5 +1,5 @@
 class FontCooperHewitt < Formula
-  desc "Contemporary sans serif composed of modified-geometric curves and arches"
+  desc "Cooper hewitt font"
   homepage "https://www.cooperhewitt.org/open-source-at-cooper-hewitt/cooper-hewitt-the-typeface-by-chester-jenkins/"
   head "https://www.cooperhewitt.org/wp-content/uploads/fonts/CooperHewitt-OTF-public.zip"
 
