@@ -1,5 +1,5 @@
 class FontAlbertella < Formula
-  desc "Ancient biology styled font inspired by trilobite"
+  desc "Albertella font"
   homepage "https://moji-waku.com/albertella/index.html"
   head "https://moji-waku.com/download/albertella.zip"
 
