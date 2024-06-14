@@ -1,5 +1,5 @@
 class FontTiroDevanagariMarathi < Formula
-  desc "Broader proportions, generous counters, and strong diagonal strokes"
+  desc "Tiro devanagari marathi font"
   homepage "https://fonts.google.com/specimen/Tiro+Devanagari+Marathi"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
