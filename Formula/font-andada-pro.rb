@@ -1,5 +1,5 @@
 class FontAndadaPro < Formula
-  desc "Organic-slab serif, hybrid style and medium contrast type for text"
+  desc "Andada pro font"
   homepage "https://fonts.google.com/specimen/Andada+Pro"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
