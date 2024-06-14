@@ -1,5 +1,5 @@
 class FontHankenGrotesk < Formula
-  desc "Led by alfredo marco pradil"
+  desc "Hanken grotesk font"
   homepage "https://fonts.google.com/specimen/Hanken+Grotesk"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
