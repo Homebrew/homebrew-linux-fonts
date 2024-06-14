@@ -1,5 +1,5 @@
 class FontAnta < Formula
-  desc "Particularly suitable for graphic design, but also for branding projects"
+  desc "Anta font"
   homepage "https://fonts.google.com/specimen/Anta"
   head "https://github.com/google/fonts/raw/main/ofl/anta/Anta-Regular.ttf",
        verified: "github.com/google/fonts/"
