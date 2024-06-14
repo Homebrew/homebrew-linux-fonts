@@ -1,5 +1,5 @@
 class FontVollkorn < Formula
-  desc "Quiet, modest and high quality serif typeface"
+  desc "Vollkorn font"
   homepage "https://fonts.google.com/specimen/Vollkorn"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
