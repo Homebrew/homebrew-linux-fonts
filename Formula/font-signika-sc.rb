@@ -1,5 +1,5 @@
 class FontSignikaSc < Formula
-  desc "Small-caps version of the Signika font"
+  desc "Signika sc font"
   homepage "https://fonts.google.com/specimen/Signika+SC"
   head "https://github.com/google/fonts/raw/main/ofl/signikasc/SignikaSC%5Bwght%5D.ttf",
        verified: "github.com/google/fonts/"
