@@ -1,5 +1,5 @@
 class FontFirge < Formula
-  desc "Programming font based on Fira Mono and Genshin Gothic"
+  desc "Firge font"
   homepage "https://github.com/yuru7/Firge"
   url "https://github.com/yuru7/Firge/releases/download/v0.3.0/Firge_v0.3.0.zip"
   version "0.3.0"
