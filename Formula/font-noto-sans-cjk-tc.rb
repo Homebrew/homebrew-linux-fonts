@@ -1,5 +1,5 @@
 class FontNotoSansCjkTc < Formula
-  desc "Language Specific OTFs Traditional Chinese — Taiwan (繁體中文—臺灣)"
+  desc "Noto sans cjk tc font"
   homepage "https://github.com/notofonts/noto-cjk/tree/main/Sans"
   url "https://github.com/notofonts/noto-cjk/releases/download/Sans2.004/09_NotoSansCJKtc.zip"
   version "2.004"
