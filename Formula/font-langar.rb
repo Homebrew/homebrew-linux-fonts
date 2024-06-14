@@ -1,5 +1,5 @@
 class FontLangar < Formula
-  desc "One-weight latin/gurmukhi display font based on informal, playful letterforms"
+  desc "Langar font"
   homepage "https://fonts.google.com/specimen/Langar"
   head "https://github.com/google/fonts/raw/main/ofl/langar/Langar-Regular.ttf",
        verified: "github.com/google/fonts/"
