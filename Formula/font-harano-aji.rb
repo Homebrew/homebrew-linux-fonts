@@ -1,5 +1,5 @@
 class FontHaranoAji < Formula
-  desc "Japanese fonts (Source Han fonts with Adobe-Japan1 (AJ1) CIDs)"
+  desc "Harano aji font"
   homepage "https://github.com/trueroad/HaranoAjiFonts"
   url "https://github.com/trueroad/HaranoAjiFonts/archive/refs/tags/20231009.zip"
   version "20231009"
