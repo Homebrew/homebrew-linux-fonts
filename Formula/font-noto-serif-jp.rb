@@ -1,5 +1,5 @@
 class FontNotoSerifJp < Formula
-  desc "Modulated (“serif”) design for the japanese language"
+  desc "Noto serif jp font"
   homepage "https://fonts.google.com/specimen/Noto+Serif+JP"
   head "https://github.com/google/fonts/raw/main/ofl/notoserifjp/NotoSerifJP%5Bwght%5D.ttf",
        verified: "github.com/google/fonts/"
