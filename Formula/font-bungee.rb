@@ -1,5 +1,5 @@
 class FontBungee < Formula
-  desc "Fonts for vertical and multicolor typography"
+  desc "Bungee font"
   homepage "https://djr.com/bungee/"
   url "https://github.com/djrrb/bungee/releases/download/v2.000/Bungee-fonts.zip",
        verified: "github.com/djrrb/bungee/"
