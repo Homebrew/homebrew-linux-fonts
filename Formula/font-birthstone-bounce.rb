@@ -1,5 +1,5 @@
 class FontBirthstoneBounce < Formula
-  desc "Sibling family of birthstone that adds more luster and playfulness to it"
+  desc "Birthstone bounce font"
   homepage "https://fonts.google.com/specimen/Birthstone+Bounce"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
