@@ -1,5 +1,5 @@
 class FontLeagueMono < Formula
-  desc "Monospace typeface inspired by Fira Mono, Libertinus Mono, and Courier"
+  desc "League mono font"
   homepage "https://www.theleagueofmoveabletype.com/league-mono"
   url "https://github.com/theleagueof/league-mono/releases/download/2.300/LeagueMono-2.300.tar.xz",
        verified: "github.com/theleagueof/league-mono/"
