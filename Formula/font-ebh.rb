@@ -1,5 +1,5 @@
 class FontEbh < Formula
-  desc "Vectorized font based on script in the Exeter Book"
+  desc "Ebh font"
   homepage "https://exeterbookhand.com/"
   url "https://exeterbookhand.com/EBH-v1.0.0.zip"
   version "1.0.0"
