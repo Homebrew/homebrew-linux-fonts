@@ -6,6 +6,8 @@ class FontTitillium < Formula
   version "2.0,258e06fe34c35320321f0458e6625bba"
   sha256 "649fb98c5fca9967d18c3243aa549c9c460cbf3ea6dd4ccd46c970f3585a7225"
 
+  disable! "2024-06-13", because: :no_longer_available
+
   def install
     (share/"fonts").install Dir.glob("./**/Titillium_roman_upright_italic_2_0_OT/Titillium-ThinUpright.otf")[0]
     (share/"fonts").install Dir.glob("./**/Titillium_roman_upright_italic_2_0_OT/Titillium-Bold.otf")[0]
