@@ -1,5 +1,5 @@
 class FontMaple < Formula
-  desc "Nerd Font font with round corners"
+  desc "Maple mono font"
   homepage "https://github.com/subframe7536/Maple-font"
   url "https://github.com/subframe7536/Maple-font/releases/download/v6.4/MapleMono-otf.zip"
   version "6.4"
