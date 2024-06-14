@@ -1,5 +1,5 @@
 class FontKimberella < Formula
-  desc "Ancient biology styled font inspired by kimberella"
+  desc "Kimberella font"
   homepage "https://moji-waku.com/kimberella/index.html"
   head "https://moji-waku.com/download/kimberella.zip"
 
