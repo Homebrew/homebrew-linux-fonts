@@ -1,5 +1,5 @@
 class FontTwitterColorEmoji < Formula
-  desc "Twitter Unicode emoji color OpenType-SVG font"
+  desc "Twitter color emoji font"
   homepage "https://github.com/eosrei/twemoji-color-font/"
   url "https://github.com/eosrei/twemoji-color-font/releases/download/v14.0.2/TwitterColorEmoji-SVGinOT-14.0.2.zip"
   version "14.0.2"
