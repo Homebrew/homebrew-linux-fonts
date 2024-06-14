@@ -1,5 +1,5 @@
 class FontCastoro < Formula
-  desc "Named for the north american beaver, castor canadensis"
+  desc "Castoro font"
   homepage "https://fonts.google.com/specimen/Castoro"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
