@@ -1,5 +1,5 @@
 class FontIosevkaComfy < Formula
-  desc "Custom build of Iosevka with different style and metrics than the default"
+  desc "Iosevka-comfy font"
   homepage "https://github.com/protesilaos/iosevka-comfy"
   head "https://github.com/protesilaos/iosevka-comfy.git",
        branch: "master"
