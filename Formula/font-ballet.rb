@@ -1,5 +1,5 @@
 class FontBallet < Formula
-  desc "Designed by maximiliano sproviero and developed by eduardo tunni"
+  desc "Ballet font"
   homepage "https://fonts.google.com/specimen/Ballet"
   head "https://github.com/google/fonts/raw/main/ofl/ballet/Ballet%5Bopsz%5D.ttf",
        verified: "github.com/google/fonts/"
