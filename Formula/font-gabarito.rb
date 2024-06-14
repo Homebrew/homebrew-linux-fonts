@@ -1,5 +1,5 @@
 class FontGabarito < Formula
-  desc "Geometric sans typeface with 6 weights ranging from regular to black"
+  desc "Gabarito font"
   homepage "https://fonts.google.com/specimen/Gabarito"
   head "https://github.com/google/fonts/raw/main/ofl/gabarito/Gabarito%5Bwght%5D.ttf",
        verified: "github.com/google/fonts/"
