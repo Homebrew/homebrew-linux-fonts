@@ -1,5 +1,5 @@
 class FontUdevGothicNf < Formula
-  desc "Integrate fonts from BIZ UD Gothic and JetBrains Mono"
+  desc "Udev gothic nf font"
   homepage "https://github.com/yuru7/udev-gothic"
   url "https://github.com/yuru7/udev-gothic/releases/download/v1.3.1/UDEVGothic_NF_v1.3.1.zip"
   version "1.3.1"
