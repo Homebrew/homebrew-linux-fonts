@@ -1,5 +1,5 @@
 class FontUpdock < Formula
-  desc "Extremely legible formal script with clean connectors"
+  desc "Updock font"
   homepage "https://fonts.google.com/specimen/Updock"
   head "https://github.com/google/fonts/raw/main/ofl/updock/Updock-Regular.ttf",
        verified: "github.com/google/fonts/"
