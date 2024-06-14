@@ -1,5 +1,5 @@
 class FontRaleway < Formula
-  desc "Elegant sans-serif font family, now 9 weights and italic style"
+  desc "Raleway font"
   homepage "https://www.theleagueofmoveabletype.com/raleway"
   url "https://github.com/theleagueof/raleway/releases/download/4.101/Raleway-4.101.tar.xz",
        verified: "github.com/theleagueof/raleway/"
