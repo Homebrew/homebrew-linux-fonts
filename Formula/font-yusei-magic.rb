@@ -1,5 +1,5 @@
 class FontYuseiMagic < Formula
-  desc "Highly visible font based on handwritten letters"
+  desc "Yusei magic font"
   homepage "https://fonts.google.com/specimen/Yusei+Magic"
   head "https://github.com/google/fonts/raw/main/ofl/yuseimagic/YuseiMagic-Regular.ttf",
        verified: "github.com/google/fonts/"
