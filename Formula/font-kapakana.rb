@@ -1,5 +1,5 @@
 class FontKapakana < Formula
-  desc "Two weight font and available both as static instances and as a variable font"
+  desc "Kapakana font"
   homepage "https://fonts.google.com/specimen/Kapakana"
   head "https://github.com/google/fonts/raw/main/ofl/kapakana/Kapakana%5Bwght%5D.ttf",
        verified: "github.com/google/fonts/"
