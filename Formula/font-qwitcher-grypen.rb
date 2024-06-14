@@ -1,5 +1,5 @@
 class FontQwitcherGrypen < Formula
-  desc "Casual brush script with a bit of an edge"
+  desc "Qwitcher grypen font"
   homepage "https://fonts.google.com/specimen/Qwitcher+Grypen"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
