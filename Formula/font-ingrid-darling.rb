@@ -1,5 +1,5 @@
 class FontIngridDarling < Formula
-  desc "Based on a cursive hand writing style that has a playful, whimsical appeal"
+  desc "Ingrid darling font"
   homepage "https://fonts.google.com/specimen/Ingrid+Darling"
   head "https://github.com/google/fonts/raw/main/ofl/ingriddarling/IngridDarling-Regular.ttf",
        verified: "github.com/google/fonts/"
