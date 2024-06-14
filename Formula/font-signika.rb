@@ -1,5 +1,5 @@
 class FontSignika < Formula
-  desc "Sans-serif signage typeface with a gentle character"
+  desc "Signika font"
   homepage "https://fonts.google.com/specimen/Signika"
   head "https://github.com/google/fonts/raw/main/ofl/signika/Signika%5BGRAD%2Cwght%5D.ttf",
        verified: "github.com/google/fonts/"
