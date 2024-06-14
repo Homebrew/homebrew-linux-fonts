@@ -1,5 +1,5 @@
 class FontHubballi < Formula
-  desc "Monolinear typeface with an informal, friendly appearance"
+  desc "Hubballi font"
   homepage "https://fonts.google.com/specimen/Hubballi"
   head "https://github.com/google/fonts/raw/main/ofl/hubballi/Hubballi-Regular.ttf",
        verified: "github.com/google/fonts/"
