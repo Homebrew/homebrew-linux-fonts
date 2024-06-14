@@ -1,5 +1,5 @@
 class FontSfGeorgian < Formula
-  desc "Georgian extension of \"San Francisco\" by Apple"
+  desc "San francisco georgian font"
   homepage "https://developer.apple.com/fonts"
   head "https://devimages-cdn.apple.com/design/resources/download/SF-Georgian.dmg"
 
