@@ -1,5 +1,5 @@
 class FontBesley < Formula
-  desc "Designed by owen earl (indestructible type*)"
+  desc "Besley font"
   homepage "https://fonts.google.com/specimen/Besley"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
