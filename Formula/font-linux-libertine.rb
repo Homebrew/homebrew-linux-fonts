@@ -1,5 +1,5 @@
 class FontLinuxLibertine < Formula
-  desc "Libre multilingual serif font"
+  desc "Linux libertine font"
   homepage "http://linuxlibertine.org/"
   url "https://downloads.sourceforge.net/linuxlibertine/LinLibertineTTF_5.3.0_2012_07_02.tgz",
        verified: "downloads.sourceforge.net/linuxlibertine/"
