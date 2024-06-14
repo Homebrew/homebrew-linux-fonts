@@ -1,5 +1,5 @@
 class FontFirgenerd < Formula
-  desc "Programming font based on Fira Mono and Genshin Gothic"
+  desc "Firgenerd font"
   homepage "https://github.com/yuru7/Firge"
   url "https://github.com/yuru7/Firge/releases/download/v0.3.0/FirgeNerd_v0.3.0.zip"
   version "0.3.0"
