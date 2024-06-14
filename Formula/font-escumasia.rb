@@ -1,5 +1,5 @@
 class FontEscumasia < Formula
-  desc "Ancient biology styled font inspired by escumasia"
+  desc "Escumasia font"
   homepage "https://moji-waku.com/escumasia/index.html"
   head "https://moji-waku.com/download/escumasia.zip"
 
