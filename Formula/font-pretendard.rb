@@ -1,5 +1,5 @@
 class FontPretendard < Formula
-  desc "Alternative font to system-ui for all platforms"
+  desc "Pretendard font"
   homepage "https://github.com/orioncactus/pretendard"
   url "https://github.com/orioncactus/pretendard/releases/download/v1.3.9/Pretendard-1.3.9.zip"
   version "1.3.9"
