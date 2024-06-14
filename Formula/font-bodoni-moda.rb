@@ -1,5 +1,5 @@
 class FontBodoniModa < Formula
-  desc "Serif typeface with high contrast"
+  desc "Bodoni moda font"
   homepage "https://indestructibletype.com/Bodoni.html"
   url "https://github.com/indestructible-type/Bodoni/releases/download/2.3/Bodoni-master.zip",
        verified: "github.com/indestructible-type/Bodoni/"
