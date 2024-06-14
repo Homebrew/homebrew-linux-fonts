@@ -1,5 +1,5 @@
 class FontTerminus < Formula
-  desc "Fixed-width bitmap font"
+  desc "Terminus ttf font"
   homepage "https://files.ax86.net/terminus-ttf/"
   url "https://files.ax86.net/terminus-ttf/files/4.49.3/terminus-ttf-4.49.3.zip"
   version "4.49.3"
