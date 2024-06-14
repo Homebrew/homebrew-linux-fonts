@@ -1,5 +1,5 @@
 class FontJuliamono < Formula
-  desc "Monospaced typeface designed for programming in Julia"
+  desc "Juliamono font"
   homepage "https://github.com/cormullion/juliamono"
   url "https://github.com/cormullion/juliamono/releases/download/v0.055/JuliaMono.tar.gz"
   version "0.055"
