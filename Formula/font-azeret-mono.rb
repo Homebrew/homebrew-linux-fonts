@@ -1,5 +1,5 @@
 class FontAzeretMono < Formula
-  desc "Designed by martin vácha and daniel quisek"
+  desc "Azeret mono font"
   homepage "https://fonts.google.com/specimen/Azeret+Mono"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
