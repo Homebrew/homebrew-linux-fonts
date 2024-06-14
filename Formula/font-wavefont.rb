@@ -1,5 +1,5 @@
 class FontWavefont < Formula
-  desc "Useful to adjust distance between bars, 1ch === 1 bar width"
+  desc "Wavefont font"
   homepage "https://fonts.google.com/specimen/Wavefont"
   head "https://github.com/google/fonts/raw/main/ofl/wavefont/Wavefont%5BROND%2CYELA%2Cwght%5D.ttf",
        verified: "github.com/google/fonts/"
