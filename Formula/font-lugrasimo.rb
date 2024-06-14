@@ -1,5 +1,5 @@
 class FontLugrasimo < Formula
-  desc "Typeface in calligraphic lettering style"
+  desc "Lugrasimo font"
   homepage "https://fonts.google.com/specimen/Lugrasimo"
   head "https://github.com/google/fonts/raw/main/ofl/lugrasimo/Lugrasimo-Regular.ttf",
        verified: "github.com/google/fonts/"
