@@ -1,5 +1,5 @@
 class FontNotoSansChorasmian < Formula
-  desc "Design for the historical middle eastern chorasmian script"
+  desc "Noto sans chorasmian font"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Chorasmian"
   head "https://github.com/google/fonts/raw/main/ofl/notosanschorasmian/NotoSansChorasmian-Regular.ttf",
        verified: "github.com/google/fonts/"
