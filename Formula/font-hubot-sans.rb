@@ -1,5 +1,5 @@
 class FontHubotSans < Formula
-  desc "Hubot Sans, a variable font from GitHub"
+  desc "Hubot-sans font"
   homepage "https://github.com/github/hubot-sans"
   url "https://github.com/github/hubot-sans/releases/download/v1.0.1/Hubot-Sans.zip"
   version "1.0.1"
