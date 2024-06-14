@@ -1,5 +1,5 @@
 class FontTiroDevanagariHindi < Formula
-  desc "Broader proportions, generous counters, and strong diagonal strokes"
+  desc "Tiro devanagari hindi font"
   homepage "https://fonts.google.com/specimen/Tiro+Devanagari+Hindi"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
