@@ -1,5 +1,5 @@
 class FontSono < Formula
-  desc "Fixed-width (and obviously not kerned)"
+  desc "Sono font"
   homepage "https://fonts.google.com/specimen/Sono"
   head "https://github.com/google/fonts/raw/main/ofl/sono/Sono%5BMONO%2Cwght%5D.ttf",
        verified: "github.com/google/fonts/"
