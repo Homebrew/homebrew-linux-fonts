@@ -1,5 +1,5 @@
 class FontCascadiaMonoNf < Formula
-  desc "Version of Cascadia Code without ligatures and with embedded Nerd Fonts symbols"
+  desc "Cascadia mono nf font"
   homepage "https://github.com/microsoft/cascadia-code"
   url "https://github.com/microsoft/cascadia-code/releases/download/v2404.23/CascadiaCode-2404.23.zip"
   version "2404.23"
