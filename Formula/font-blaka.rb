@@ -1,5 +1,5 @@
 class FontBlaka < Formula
-  desc "Currently limited to few applications like google chrome (version 98 or later)"
+  desc "Blaka font"
   homepage "https://fonts.google.com/specimen/Blaka"
   head "https://github.com/google/fonts/raw/main/ofl/blaka/Blaka-Regular.ttf",
        verified: "github.com/google/fonts/"
