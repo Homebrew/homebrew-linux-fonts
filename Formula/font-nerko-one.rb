@@ -1,5 +1,5 @@
 class FontNerkoOne < Formula
-  desc "Chunky ‘marker’ effect font"
+  desc "Nerko one font"
   homepage "https://fonts.google.com/specimen/Nerko+One"
   head "https://github.com/google/fonts/raw/main/ofl/nerkoone/NerkoOne-Regular.ttf",
        verified: "github.com/google/fonts/"
