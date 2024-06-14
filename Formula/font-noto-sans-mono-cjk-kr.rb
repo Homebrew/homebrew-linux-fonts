@@ -1,5 +1,5 @@
 class FontNotoSansMonoCjkKr < Formula
-  desc "Language Specific Monospace OTFs Korean (한국어)"
+  desc "Noto sans mono cjk kr font"
   homepage "https://github.com/notofonts/noto-cjk/tree/main/Sans"
   url "https://github.com/notofonts/noto-cjk/releases/download/Sans2.004/12_NotoSansMonoCJKkr.zip"
   version "2.004"
