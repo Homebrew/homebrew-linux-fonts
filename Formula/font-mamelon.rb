@@ -1,5 +1,5 @@
 class FontMamelon < Formula
-  desc "Dailylife-styled round gothic font for electronic devices"
+  desc "Mamelon font"
   homepage "https://moji-waku.com/mamelon/index.html"
   head "https://moji-waku.com/download/mamelon_hireg.zip"
 
