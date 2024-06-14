@@ -1,5 +1,5 @@
 class FontNotoSansKawi < Formula
-  desc "Design for the historical southeast asian kawi script"
+  desc "Noto sans kawi font"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Kawi"
   head "https://github.com/google/fonts/raw/main/ofl/notosanskawi/NotoSansKawi%5Bwght%5D.ttf",
        verified: "github.com/google/fonts/"
