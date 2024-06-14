@@ -1,5 +1,5 @@
 class FontPoprumcute < Formula
-  desc "Modern Showa styled Japanese font"
+  desc "Poprumcute font"
   homepage "https://moji-waku.com/poprumcute/index.html"
   head "https://moji-waku.com/download/poprumcute.zip"
 
