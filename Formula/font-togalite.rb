@@ -1,5 +1,5 @@
 class FontTogalite < Formula
-  desc "M+ extended with thorn"
+  desc "Togalite font"
   homepage "https://moji-waku.com/togalite/index.html"
   head "https://moji-waku.com/download/togalite.zip"
 
