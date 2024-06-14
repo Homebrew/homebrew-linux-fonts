@@ -1,5 +1,5 @@
 class FontSyneTactile < Formula
-  desc "Originally designed for the Art Center 'Synesthésie'"
+  desc "Syne tactile font"
   homepage "https://fonts.google.com/specimen/Syne+Tactile"
   head "https://github.com/google/fonts/raw/main/ofl/synetactile/SyneTactile-Regular.ttf",
        verified: "github.com/google/fonts/"
