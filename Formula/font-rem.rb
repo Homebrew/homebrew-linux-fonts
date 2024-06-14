@@ -1,5 +1,5 @@
 class FontRem < Formula
-  desc "Acronym for rapid eye movement"
+  desc "Rem font"
   homepage "https://fonts.google.com/specimen/REM"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
