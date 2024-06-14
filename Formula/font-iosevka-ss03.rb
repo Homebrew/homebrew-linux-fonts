@@ -1,5 +1,5 @@
 class FontIosevkaSs03 < Formula
-  desc "Sans-serif, slab-serif, monospace and quasi‑proportional typeface family"
+  desc "Iosevka ss03 font"
   homepage "https://github.com/be5invis/Iosevka/"
   url "https://github.com/be5invis/Iosevka/releases/download/v30.1.2/PkgTTC-IosevkaSS03-30.1.2.zip"
   version "30.1.2"
