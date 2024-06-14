@@ -1,5 +1,5 @@
 class FontSchibstedGrotesk < Formula
-  desc "Digital-first font family crafted for user interfaces"
+  desc "Schibsted grotesk font"
   homepage "https://fonts.google.com/specimen/Schibsted+Grotesk"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
