@@ -1,5 +1,5 @@
 class FontNotoSansMonoCjkTc < Formula
-  desc "Language Specific Monospace OTFs Traditional Chinese — Taiwan (繁體中文—臺灣)"
+  desc "Noto sans mono cjk tc font"
   homepage "https://github.com/notofonts/noto-cjk/tree/main/Sans"
   url "https://github.com/notofonts/noto-cjk/releases/download/Sans2.004/14_NotoSansMonoCJKtc.zip"
   version "2.004"
