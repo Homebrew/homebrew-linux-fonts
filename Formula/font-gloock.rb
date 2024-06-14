@@ -1,5 +1,5 @@
 class FontGloock < Formula
-  desc "Smooth relationship between the thin and thick strokes"
+  desc "Gloock font"
   homepage "https://fonts.google.com/specimen/Gloock"
   head "https://github.com/google/fonts/raw/main/ofl/gloock/Gloock-Regular.ttf",
        verified: "github.com/google/fonts/"
