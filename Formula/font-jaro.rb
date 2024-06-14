@@ -1,5 +1,5 @@
 class FontJaro < Formula
-  desc "Global display typeface inspired by the work of jaroslav benda"
+  desc "Jaro font"
   homepage "https://fonts.google.com/specimen/Jaro"
   head "https://github.com/google/fonts/raw/main/ofl/jaro/Jaro%5Bopsz%5D.ttf",
        verified: "github.com/google/fonts/"
