@@ -1,5 +1,5 @@
 class FontClearSans < Formula
-  desc "Sans-serif typeface"
+  desc "Clear sans font"
   homepage "https://github.com/intel/clear-sans"
   head "https://github.com/intel/clear-sans.git",
        branch:    "main",
