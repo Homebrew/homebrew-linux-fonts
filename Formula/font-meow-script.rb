@@ -1,5 +1,5 @@
 class FontMeowScript < Formula
-  desc "Monoline font with a number of alternate forms in six stylistic sets"
+  desc "Meow script font"
   homepage "https://fonts.google.com/specimen/Meow+Script"
   head "https://github.com/google/fonts/raw/main/ofl/meowscript/MeowScript-Regular.ttf",
        verified: "github.com/google/fonts/"
