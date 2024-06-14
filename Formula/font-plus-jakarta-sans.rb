@@ -1,5 +1,5 @@
 class FontPlusJakartaSans < Formula
-  desc "Versatile modern type family"
+  desc "Plus jakarta sans font"
   homepage "https://fonts.google.com/specimen/Plus+Jakarta+Sans"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
