@@ -1,5 +1,5 @@
 class FontBeauRivage < Formula
-  desc "Classic calligraphic with strong contrast between thick and thin strokes"
+  desc "Beau rivage font"
   homepage "https://fonts.google.com/specimen/Beau+Rivage"
   head "https://github.com/google/fonts/raw/main/ofl/beaurivage/BeauRivage-Regular.ttf",
        verified: "github.com/google/fonts/"
