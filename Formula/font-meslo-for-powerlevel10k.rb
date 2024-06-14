@@ -1,5 +1,5 @@
 class FontMesloForPowerlevel10k < Formula
-  desc "Monospace font customized for Powerlevel10k"
+  desc "Meslo nerd font for powerlevel10k font"
   homepage "https://github.com/romkatv/powerlevel10k-media"
   url "https://github.com/romkatv/powerlevel10k-media/releases/download/v2.3.3/meslo-lgs-nf.tar.gz"
   version "2.3.3"
