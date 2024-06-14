@@ -1,5 +1,5 @@
 class FontIbmPlexMono < Formula
-  desc "Corporate typeface for IBM"
+  desc "Ibm plex mono font"
   homepage "https://fonts.google.com/specimen/IBM+Plex+Mono"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
