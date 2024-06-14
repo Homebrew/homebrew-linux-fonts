@@ -1,5 +1,5 @@
 class FontKohSantepheap < Formula
-  desc "Khmer font for body text"
+  desc "Koh santepheap font"
   homepage "https://fonts.google.com/specimen/Koh+Santepheap"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
