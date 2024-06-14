@@ -1,5 +1,5 @@
 class FontBraahOne < Formula
-  desc "Bold and playful font"
+  desc "Braah one font"
   homepage "https://fonts.google.com/specimen/Braah+One"
   head "https://github.com/google/fonts/raw/main/ofl/braahone/BraahOne-Regular.ttf",
        verified: "github.com/google/fonts/"
