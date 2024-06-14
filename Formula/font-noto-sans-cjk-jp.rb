@@ -1,5 +1,5 @@
 class FontNotoSansCjkJp < Formula
-  desc "Language Specific OTFs Japanese (日本語)"
+  desc "Noto sans cjk jp font"
   homepage "https://github.com/notofonts/noto-cjk/tree/main/Sans"
   url "https://github.com/notofonts/noto-cjk/releases/download/Sans2.004/06_NotoSansCJKjp.zip"
   version "2.004"
