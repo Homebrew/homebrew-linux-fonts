@@ -1,5 +1,5 @@
 class FontComforterBrush < Formula
-  desc "Brushy companion of comforter, a bouncy, upright brush style script"
+  desc "Comforter brush font"
   homepage "https://fonts.google.com/specimen/Comforter+Brush"
   head "https://github.com/google/fonts/raw/main/ofl/comforterbrush/ComforterBrush-Regular.ttf",
        verified: "github.com/google/fonts/"
