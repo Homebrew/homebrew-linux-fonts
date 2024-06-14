@@ -1,5 +1,5 @@
 class FontNotoSerifKhitanSmallScript < Formula
-  desc "Design for the historical east asian khitan small script script"
+  desc "Noto serif khitan small script font"
   homepage "https://fonts.google.com/specimen/Noto+Serif+Khitan+Small+Script"
   head "https://github.com/google/fonts/raw/main/ofl/notoserifkhitansmallscript/NotoSerifKhitanSmallScript-Regular.ttf",
        verified: "github.com/google/fonts/"
