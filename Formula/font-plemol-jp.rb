@@ -1,5 +1,5 @@
 class FontPlemolJp < Formula
-  desc "Japanese programming font synthesized from IBM Plex Mono and IBM Plex Sans JP"
+  desc "Plemoljp font"
   homepage "https://github.com/yuru7/PlemolJP"
   url "https://github.com/yuru7/PlemolJP/releases/download/v1.7.1/PlemolJP_v1.7.1.zip"
   version "1.7.1"
