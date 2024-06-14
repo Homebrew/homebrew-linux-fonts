@@ -1,5 +1,5 @@
 class FontMengshenRegular < Formula
-  desc "OpenSource Pinyin font that supports homograph"
+  desc "Mengshen pinyin font"
   homepage "https://github.com/MaruTama/Mengshen-pinyin-font"
   url "https://github.com/MaruTama/Mengshen-pinyin-font/releases/download/1.03/Mengshen.zip"
   version "1.03"
