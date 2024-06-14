@@ -1,5 +1,5 @@
 class FontTwinkleStar < Formula
-  desc "Cute and fun juvenile script"
+  desc "Twinkle star font"
   homepage "https://fonts.google.com/specimen/Twinkle+Star"
   head "https://github.com/google/fonts/raw/main/ofl/twinklestar/TwinkleStar-Regular.ttf",
        verified: "github.com/google/fonts/"
