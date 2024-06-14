@@ -1,5 +1,5 @@
 class FontNotoSerifCjkKr < Formula
-  desc "Language Specific OTFs Korean (한국어)"
+  desc "Noto serif cjk kr font"
   homepage "https://github.com/notofonts/noto-cjk/tree/main/Serif"
   url "https://github.com/notofonts/noto-cjk/releases/download/Serif2.002/08_NotoSerifCJKkr.zip"
   version "2.002"
