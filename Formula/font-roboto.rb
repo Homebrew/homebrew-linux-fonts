@@ -1,5 +1,5 @@
 class FontRoboto < Formula
-  desc "Font with a mechanical skeleton and the forms are largely geometric"
+  desc "Roboto font"
   homepage "https://fonts.google.com/specimen/Roboto"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
