@@ -1,5 +1,5 @@
 class FontKdamThmorPro < Formula
-  desc "Used as the latin counterpart in the project"
+  desc "Kdam thmor pro font"
   homepage "https://fonts.google.com/specimen/Kdam+Thmor+Pro"
   head "https://github.com/google/fonts/raw/main/ofl/kdamthmorpro/KdamThmorPro-Regular.ttf",
        verified: "github.com/google/fonts/"
