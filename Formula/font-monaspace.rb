@@ -1,5 +1,5 @@
 class FontMonaspace < Formula
-  desc "Superfamily of fonts for code"
+  desc "Monaspace font"
   homepage "https://monaspace.githubnext.com/"
   url "https://github.com/githubnext/monaspace/releases/download/v1.101/monaspace-v1.101.zip",
        verified: "github.com/githubnext/monaspace/"
