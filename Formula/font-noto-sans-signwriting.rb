@@ -1,5 +1,5 @@
 class FontNotoSansSignwriting < Formula
-  desc "Design for the sign-language signwriting script"
+  desc "Noto sans signwriting font"
   homepage "https://fonts.google.com/specimen/Noto+Sans+SignWriting"
   head "https://github.com/google/fonts/raw/main/ofl/notosanssignwriting/NotoSansSignWriting-Regular.ttf",
        verified: "github.com/google/fonts/"
