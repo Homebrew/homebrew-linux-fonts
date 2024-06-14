@@ -1,5 +1,5 @@
 class FontLinefont < Formula
-  desc "Variable font for rendering small to medium-scale line charts"
+  desc "Linefont font"
   homepage "https://fonts.google.com/specimen/Linefont"
   head "https://github.com/google/fonts/raw/main/ofl/linefont/Linefont%5Bwdth%2Cwght%5D.ttf",
        verified: "github.com/google/fonts/"
