@@ -1,5 +1,5 @@
 class FontYsabeauOffice < Formula
-  desc "Exercise in restraint"
+  desc "Ysabeau office font"
   homepage "https://fonts.google.com/specimen/Ysabeau+Office"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
