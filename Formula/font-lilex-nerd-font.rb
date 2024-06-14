@@ -1,5 +1,5 @@
 class FontLilexNerdFont < Formula
-  desc "Developer targeted fonts with a high number of glyphs"
+  desc "Lilex nerd font (lilex) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Lilex.zip"
   version "3.2.1"
