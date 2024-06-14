@@ -1,5 +1,5 @@
 class FontComforter < Formula
-  desc "Appealing for many usages"
+  desc "Comforter font"
   homepage "https://fonts.google.com/specimen/Comforter"
   head "https://github.com/google/fonts/raw/main/ofl/comforter/Comforter-Regular.ttf",
        verified: "github.com/google/fonts/"
