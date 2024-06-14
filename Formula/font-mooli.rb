@@ -1,5 +1,5 @@
 class FontMooli < Formula
-  desc "Derived from the mulish font family"
+  desc "Mooli font"
   homepage "https://fonts.google.com/specimen/Mooli"
   head "https://github.com/google/fonts/raw/main/ofl/mooli/Mooli-Regular.ttf",
        verified: "github.com/google/fonts/"
