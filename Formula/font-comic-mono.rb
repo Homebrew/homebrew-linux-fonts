@@ -1,5 +1,5 @@
 class FontComicMono < Formula
-  desc "Legible monospace font"
+  desc "Comic mono font"
   homepage "https://dtinth.github.io/comic-mono-font/"
   head "https://codeload.github.com/dtinth/comic-mono-font/zip/master",
        verified: "codeload.github.com/dtinth/comic-mono-font/"
