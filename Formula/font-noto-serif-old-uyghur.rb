@@ -1,5 +1,5 @@
 class FontNotoSerifOldUyghur < Formula
-  desc "Design for the historical central asian old uyghur script"
+  desc "Noto serif old uyghur font"
   homepage "https://fonts.google.com/specimen/Noto+Serif+Old+Uyghur"
   head "https://github.com/google/fonts/raw/main/ofl/notoserifolduyghur/NotoSerifOldUyghur-Regular.ttf",
        verified: "github.com/google/fonts/"
