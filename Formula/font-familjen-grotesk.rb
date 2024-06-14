@@ -1,5 +1,5 @@
 class FontFamiljenGrotesk < Formula
-  desc "Sans serif typeface with a contemporary appearance"
+  desc "Familjen grotesk font"
   homepage "https://fonts.google.com/specimen/Familjen+Grotesk"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
