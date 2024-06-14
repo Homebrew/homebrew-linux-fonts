@@ -1,5 +1,5 @@
 class FontNotoSerifMakasar < Formula
-  desc "Design for the historical southeast asian makasar script"
+  desc "Noto serif makasar font"
   homepage "https://fonts.google.com/specimen/Noto+Serif+Makasar"
   head "https://github.com/google/fonts/raw/main/ofl/notoserifmakasar/NotoSerifMakasar-Regular.ttf",
        verified: "github.com/google/fonts/"
