@@ -1,5 +1,5 @@
 class FontDoulosSil < Formula
-  desc "Unicode-based font family supporting languages using Latin and Cyrillic scripts"
+  desc "Doulos sil font"
   homepage "https://software.sil.org/doulos/"
   url "https://software.sil.org/downloads/r/doulos/DoulosSIL-6.200.zip"
   version "6.200"
