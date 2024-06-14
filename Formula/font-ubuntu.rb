@@ -1,5 +1,5 @@
 class FontUbuntu < Formula
-  desc "Sans-serif typeface manually hinted for clarity"
+  desc "Ubuntu font"
   homepage "https://fonts.google.com/specimen/Ubuntu"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
