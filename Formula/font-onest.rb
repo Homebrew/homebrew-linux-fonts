@@ -1,5 +1,5 @@
 class FontOnest < Formula
-  desc "Modern typeface, so it has a lot of useful conveniences"
+  desc "Onest font"
   homepage "https://fonts.google.com/specimen/Onest"
   head "https://github.com/google/fonts/raw/main/ofl/onest/Onest%5Bwght%5D.ttf",
        verified: "github.com/google/fonts/"
