@@ -1,5 +1,5 @@
 class FontJoan < Formula
-  desc "Under development"
+  desc "Joan font"
   homepage "https://fonts.google.com/specimen/Joan"
   head "https://github.com/google/fonts/raw/main/ofl/joan/Joan-Regular.ttf",
        verified: "github.com/google/fonts/"
