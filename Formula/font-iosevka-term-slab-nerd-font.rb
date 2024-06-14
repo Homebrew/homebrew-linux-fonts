@@ -1,5 +1,5 @@
 class FontIosevkaTermSlabNerdFont < Formula
-  desc "Developer targeted fonts with a high number of glyphs"
+  desc "Iosevkatermslab nerd font (iosevka term slab) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/IosevkaTermSlab.zip"
   version "3.2.1"
