@@ -1,5 +1,5 @@
 class FontKantumruyPro < Formula
-  desc "From work sans, with modified width and weight"
+  desc "Kantumruy pro font"
   homepage "https://fonts.google.com/specimen/Kantumruy+Pro"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
