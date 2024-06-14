@@ -1,5 +1,5 @@
 class FontGulzar < Formula
-  desc "Nasta’liq type for which an original latin counterpart was designed"
+  desc "Gulzar font"
   homepage "https://fonts.google.com/specimen/Gulzar"
   head "https://github.com/google/fonts/raw/main/ofl/gulzar/Gulzar-Regular.ttf",
        verified: "github.com/google/fonts/"
