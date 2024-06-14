@@ -1,5 +1,5 @@
 class FontDeliciousHandrawn < Formula
-  desc "Font inspired by agung rohmat's handwriting"
+  desc "Delicious handrawn font"
   homepage "https://fonts.google.com/specimen/Delicious+Handrawn"
   head "https://github.com/google/fonts/raw/main/ofl/delicioushandrawn/DeliciousHandrawn-Regular.ttf",
        verified: "github.com/google/fonts/"
