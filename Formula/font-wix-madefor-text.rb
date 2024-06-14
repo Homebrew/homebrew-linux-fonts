@@ -1,5 +1,5 @@
 class FontWixMadeforText < Formula
-  desc "Typeface with wide geometric proportions, clean curves, and grotesk terminals"
+  desc "Wix madefor text font"
   homepage "https://www.wix.com/typeface/madefor"
   url "https://github.com/wix-incubator/wixmadefor/releases/download/3.100/wixmadefor-fonts.zip",
        verified: "github.com/wix-incubator/wixmadefor/"
