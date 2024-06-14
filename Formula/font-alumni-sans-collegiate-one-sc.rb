@@ -1,5 +1,5 @@
 class FontAlumniSansCollegiateOneSc < Formula
-  desc "Small caps version of alumni sans collegiate one to contribute, see github"
+  desc "Alumni sans collegiate one sc font"
   homepage "https://github.com/googlefonts/alumni-sans-collegiate"
   head "https://github.com/google/fonts.git",
        branch:    "main",
