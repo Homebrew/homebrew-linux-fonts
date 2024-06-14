@@ -1,5 +1,5 @@
 class FontAlexandria < Formula
-  desc "9 weights font family made in matching to the latin type Montserrat"
+  desc "Alexandria font"
   homepage "https://fonts.google.com/specimen/Alexandria"
   head "https://github.com/google/fonts/raw/main/ofl/alexandria/Alexandria%5Bwght%5D.ttf",
        verified: "github.com/google/fonts/"
