@@ -1,5 +1,5 @@
 class FontPontanoSans < Formula
-  desc "Minimalist and light-weighted sans serif"
+  desc "Pontano sans font"
   homepage "https://fonts.google.com/specimen/Pontano+Sans"
   head "https://github.com/google/fonts/raw/main/ofl/pontanosans/PontanoSans%5Bwght%5D.ttf",
        verified: "github.com/google/fonts/"
