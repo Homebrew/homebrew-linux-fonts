@@ -1,5 +1,5 @@
 class FontKolkerBrush < Formula
-  desc "Never recommended to use all caps when editing copy"
+  desc "Kolker brush font"
   homepage "https://fonts.google.com/specimen/Kolker+Brush"
   head "https://github.com/google/fonts/raw/main/ofl/kolkerbrush/KolkerBrush-Regular.ttf",
        verified: "github.com/google/fonts/"
