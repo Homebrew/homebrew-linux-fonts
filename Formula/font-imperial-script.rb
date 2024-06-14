@@ -1,5 +1,5 @@
 class FontImperialScript < Formula
-  desc "Formal script font with clean connections and an elegant look"
+  desc "Imperial script font"
   homepage "https://fonts.google.com/specimen/Imperial+Script"
   head "https://github.com/google/fonts/raw/main/ofl/imperialscript/ImperialScript-Regular.ttf",
        verified: "github.com/google/fonts/"
