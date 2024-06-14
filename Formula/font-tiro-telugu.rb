@@ -1,5 +1,5 @@
 class FontTiroTelugu < Formula
-  desc "Especially suited to traditional literary publishing"
+  desc "Tiro telugu font"
   homepage "https://fonts.google.com/specimen/Tiro+Telugu"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
