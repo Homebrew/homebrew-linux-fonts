@@ -1,5 +1,5 @@
 class FontZenMaruGothic < Formula
-  desc "Also easy to use in any scenes"
+  desc "Zen maru gothic font"
   homepage "https://fonts.google.com/specimen/Zen+Maru+Gothic"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
