@@ -1,5 +1,5 @@
 class FontCaramel < Formula
-  desc "Fun, hand lettered script with three variations"
+  desc "Caramel font"
   homepage "https://fonts.google.com/specimen/Caramel"
   head "https://github.com/google/fonts/raw/main/ofl/caramel/Caramel-Regular.ttf",
        verified: "github.com/google/fonts/"
