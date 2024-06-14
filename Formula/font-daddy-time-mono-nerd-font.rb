@@ -1,5 +1,5 @@
 class FontDaddyTimeMonoNerdFont < Formula
-  desc "Developer targeted fonts with a high number of glyphs"
+  desc "Daddytimemono nerd font (daddytimemono) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/DaddyTimeMono.zip"
   version "3.2.1"
