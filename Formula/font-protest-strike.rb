@@ -1,5 +1,5 @@
 class FontProtestStrike < Formula
-  desc "Solid but peaceful sans serif typeface"
+  desc "Protest strike font"
   homepage "https://fonts.google.com/specimen/Protest+Strike"
   head "https://github.com/google/fonts/raw/main/ofl/proteststrike/ProtestStrike-Regular.ttf",
        verified: "github.com/google/fonts/"
