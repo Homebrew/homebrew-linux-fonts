@@ -1,5 +1,5 @@
 class FontOrbit < Formula
-  desc "Recommended to use bright writing on a dark background, below 10pt"
+  desc "Orbit font"
   homepage "https://fonts.google.com/specimen/Orbit"
   head "https://github.com/google/fonts/raw/main/ofl/orbit/Orbit-Regular.ttf",
        verified: "github.com/google/fonts/"
