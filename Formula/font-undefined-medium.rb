@@ -1,5 +1,5 @@
 class FontUndefinedMedium < Formula
-  desc "Pixel grid-based monospace typeface"
+  desc "Undefined medium font"
   homepage "https://github.com/andirueckel/undefined-medium"
   url "https://github.com/andirueckel/undefined-medium/archive/refs/tags/v1.3.zip"
   version "1.3"
