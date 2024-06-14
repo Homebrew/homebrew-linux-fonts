@@ -1,5 +1,5 @@
 class FontCherish < Formula
-  desc "Dry brush style that adds expression and sophistication"
+  desc "Cherish font"
   homepage "https://fonts.google.com/specimen/Cherish"
   head "https://github.com/google/fonts/raw/main/ofl/cherish/Cherish-Regular.ttf",
        verified: "github.com/google/fonts/"
