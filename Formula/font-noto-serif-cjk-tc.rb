@@ -1,5 +1,5 @@
 class FontNotoSerifCjkTc < Formula
-  desc "Language Specific OTFs Traditional Chinese — Taiwan (繁體中文—臺灣)"
+  desc "Noto serif cjk tc font"
   homepage "https://github.com/notofonts/noto-cjk/tree/main/Serif"
   url "https://github.com/notofonts/noto-cjk/releases/download/Serif2.002/10_NotoSerifCJKtc.zip"
   version "2.002"
