@@ -1,5 +1,5 @@
 class FontInter < Formula
-  desc "Variable font designed for display"
+  desc "Inter font"
   homepage "https://rsms.me/inter/"
   url "https://github.com/rsms/inter/releases/download/v4.0/Inter-4.0.zip",
        verified: "github.com/rsms/inter/"
