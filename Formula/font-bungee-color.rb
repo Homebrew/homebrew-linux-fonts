@@ -1,5 +1,5 @@
 class FontBungeeColor < Formula
-  desc "Led by david jonathan ross, a type designer based in the usa"
+  desc "Bungee color font"
   homepage "https://fonts.google.com/specimen/Bungee+Color"
   head "https://github.com/google/fonts/raw/main/ofl/bungeecolor/BungeeColor-Regular.ttf",
        verified: "github.com/google/fonts/"
