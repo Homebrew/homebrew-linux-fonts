@@ -1,5 +1,5 @@
 class FontZenKurenaido < Formula
-  desc "Japanese font with a handwritten feeling"
+  desc "Zen kurenaido font"
   homepage "https://fonts.google.com/specimen/Zen+Kurenaido"
   head "https://github.com/google/fonts/raw/main/ofl/zenkurenaido/ZenKurenaido-Regular.ttf",
        verified: "github.com/google/fonts/"
