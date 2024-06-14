@@ -1,5 +1,5 @@
 class FontNotoSansCjkSc < Formula
-  desc "Language Specific OTFs Simplified Chinese (简体中文)"
+  desc "Noto sans cjk sc font"
   homepage "https://github.com/notofonts/noto-cjk/tree/main/Sans"
   url "https://github.com/notofonts/noto-cjk/releases/download/Sans2.004/08_NotoSansCJKsc.zip"
   version "2.004"
