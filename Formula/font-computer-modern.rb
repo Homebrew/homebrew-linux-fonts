@@ -1,5 +1,5 @@
 class FontComputerModern < Formula
-  desc "Multilingual unicode fonts, mainly for X applications"
+  desc "Computer modern font"
   homepage "https://cm-unicode.sourceforge.io/"
   url "https://downloads.sourceforge.net/cm-unicode/cm-unicode-0.7.0-ttf.tar.xz",
        verified: "downloads.sourceforge.net/cm-unicode/"
