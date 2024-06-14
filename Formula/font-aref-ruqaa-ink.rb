@@ -1,5 +1,5 @@
 class FontArefRuqaaInk < Formula
-  desc "Led by khaled hosny, a type designer based in cairo, egypt"
+  desc "Aref ruqaa ink font"
   homepage "https://fonts.google.com/specimen/Aref+Ruqaa+Ink"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
