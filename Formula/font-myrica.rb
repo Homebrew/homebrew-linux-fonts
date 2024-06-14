@@ -1,5 +1,5 @@
 class FontMyrica < Formula
-  desc "Programming font"
+  desc "Myrica font"
   homepage "https://myrica.estable.jp/"
   url "https://github.com/tomokuni/Myrica/archive/refs/tags/2.006.20150301.tar.gz",
        verified: "github.com/tomokuni/Myrica/"
