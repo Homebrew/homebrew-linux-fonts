@@ -1,5 +1,5 @@
 class FontCarattere < Formula
-  desc "Perfect where formal elegance and beauty are essential"
+  desc "Carattere font"
   homepage "https://fonts.google.com/specimen/Carattere"
   head "https://github.com/google/fonts/raw/main/ofl/carattere/Carattere-Regular.ttf",
        verified: "github.com/google/fonts/"
