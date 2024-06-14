@@ -1,5 +1,5 @@
 class FontZenOldMincho < Formula
-  desc "Intended for text usage, it also works well in large sizes"
+  desc "Zen old mincho font"
   homepage "https://fonts.google.com/specimen/Zen+Old+Mincho"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
