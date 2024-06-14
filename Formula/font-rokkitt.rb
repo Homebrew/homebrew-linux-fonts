@@ -1,5 +1,5 @@
 class FontRokkitt < Formula
-  desc "Slab Serif font family"
+  desc "Rokkitt font"
   homepage "https://fonts.google.com/specimen/Rokkitt"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
