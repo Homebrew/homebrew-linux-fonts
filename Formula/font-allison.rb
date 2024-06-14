@@ -1,5 +1,5 @@
 class FontAllison < Formula
-  desc "Casual handwriting script"
+  desc "Allison font"
   homepage "https://fonts.google.com/specimen/Allison"
   head "https://github.com/google/fonts/raw/main/ofl/allison/Allison-Regular.ttf",
        verified: "github.com/google/fonts/"
