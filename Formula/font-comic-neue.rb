@@ -1,5 +1,5 @@
 class FontComicNeue < Formula
-  desc "Original reinterpretation of the classic, comic sans"
+  desc "Comic neue font"
   homepage "https://fonts.google.com/specimen/Comic+Neue"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
