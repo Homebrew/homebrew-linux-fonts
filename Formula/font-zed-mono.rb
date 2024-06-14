@@ -1,5 +1,5 @@
 class FontZedMono < Formula
-  desc "Quasi-proportional monospace font based on Iosevka"
+  desc "Zed mono font"
   homepage "https://github.com/zed-industries/zed-fonts"
   url "https://github.com/zed-industries/zed-fonts/releases/download/1.2.0/zed-mono-1.2.0.zip"
   version "1.2.0"
