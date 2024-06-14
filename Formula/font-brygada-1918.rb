@@ -1,5 +1,5 @@
 class FontBrygada1918 < Formula
-  desc "Available on the project's website"
+  desc "Brygada 1918 font"
   homepage "https://fonts.google.com/specimen/Brygada+1918"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
