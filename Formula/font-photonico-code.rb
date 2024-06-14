@@ -1,5 +1,5 @@
 class FontPhotonicoCode < Formula
-  desc "Free, monospace, slab-serif style font for coding"
+  desc "Photonico code font"
   homepage "https://github.com/Photonico/Photonico_Code"
   url "https://github.com/Photonico/Photonico_Code/releases/download/1.4/Photonico.1.4.Regular.ttf"
   version "1.4"
