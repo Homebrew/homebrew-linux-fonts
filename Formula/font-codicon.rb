@@ -1,5 +1,5 @@
 class FontCodicon < Formula
-  desc "Icon font for Visual Studio Code"
+  desc "Codicon font"
   homepage "https://github.com/microsoft/vscode-codicons"
   url "https://github.com/microsoft/vscode-codicons/releases/download/0.0.36/codicon.ttf"
   version "0.0.36"
