@@ -1,5 +1,5 @@
 class FontFiraCode < Formula
-  desc "Free monospaced font with programming ligatures"
+  desc "Fira code font"
   homepage "https://github.com/tonsky/FiraCode"
   url "https://github.com/tonsky/FiraCode/releases/download/6.2/Fira_Code_v6.2.zip"
   version "6.2"
