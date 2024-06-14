@@ -1,5 +1,5 @@
 class FontUrbanist < Formula
-  desc "Geometric sans-serif font"
+  desc "Urbanist font"
   homepage "https://github.com/coreyhu/Urbanist"
   url "https://github.com/coreyhu/Urbanist/releases/download/1.330/Urbanist-fonts.zip"
   version "1.330"
