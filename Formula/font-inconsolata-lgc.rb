@@ -1,5 +1,5 @@
 class FontInconsolataLgc < Formula
-  desc "Inconsolata LGC is a modified version of Inconsolata with Cyrillic alphabet"
+  desc "Inconsolata lgc font"
   homepage "https://github.com/MihailJP/Inconsolata-LGC"
   url "https://github.com/MihailJP/Inconsolata-LGC/releases/download/LGC-1.8.2/InconsolataLGC-1.8.2.tar.xz"
   version "1.8.2"
