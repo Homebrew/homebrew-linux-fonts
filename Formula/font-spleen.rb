@@ -1,5 +1,5 @@
 class FontSpleen < Formula
-  desc "Monospaced bitmap font"
+  desc "Spleen font"
   homepage "https://github.com/fcambus/spleen"
   url "https://github.com/fcambus/spleen/releases/download/2.1.0/spleen-2.1.0.tar.gz"
   version "2.1.0"
