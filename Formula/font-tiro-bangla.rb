@@ -1,5 +1,5 @@
 class FontTiroBangla < Formula
-  desc "Suited to traditional literary publishing"
+  desc "Tiro bangla font"
   homepage "https://fonts.google.com/specimen/Tiro+Bangla"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
