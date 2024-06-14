@@ -1,5 +1,5 @@
 class FontBitterHt < Formula
-  desc "Slab-serif typeface optimized for e-ink screens"
+  desc "Bitter ht font"
   homepage "https://www.huertatipografica.com/fonts/bitter-ht"
   head "https://www.huertatipografica.com/free_download/144"
 
