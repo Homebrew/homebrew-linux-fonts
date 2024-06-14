@@ -1,5 +1,5 @@
 class FontEpilogue < Formula
-  desc "Sans serif variable font with a weight axis"
+  desc "Epilogue font"
   homepage "https://fonts.google.com/specimen/Epilogue"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
