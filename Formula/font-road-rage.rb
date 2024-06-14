@@ -1,5 +1,5 @@
 class FontRoadRage < Formula
-  desc "Return to the days of grunge"
+  desc "Road rage font"
   homepage "https://fonts.google.com/specimen/Road+Rage"
   head "https://github.com/google/fonts/raw/main/ofl/roadrage/RoadRage-Regular.ttf",
        verified: "github.com/google/fonts/"
