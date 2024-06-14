@@ -1,5 +1,5 @@
 class FontWindsong < Formula
-  desc "Elongated script with multiple stylistic sets"
+  desc "Windsong font"
   homepage "https://fonts.google.com/specimen/WindSong"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
