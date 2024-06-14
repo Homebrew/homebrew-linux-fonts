@@ -1,5 +1,5 @@
 class FontXanhMono < Formula
-  desc "Mono-serif typeface, designed by lam bao and duy dao"
+  desc "Xanh mono font"
   homepage "https://fonts.google.com/specimen/Xanh+Mono"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
