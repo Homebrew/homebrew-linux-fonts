@@ -1,5 +1,5 @@
 class FontLinuxBiolinum < Formula
-  desc "Libre multilingual sans-serif font"
+  desc "Linux biolinum font"
   homepage "http://linuxlibertine.org/"
   url "https://downloads.sourceforge.net/linuxlibertine/LinLibertineTTF_5.3.0_2012_07_02.tgz",
        verified: "downloads.sourceforge.net/linuxlibertine/"
