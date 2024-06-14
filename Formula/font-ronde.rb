@@ -1,5 +1,5 @@
 class FontRonde < Formula
-  desc "Extended round font based on Kaiso"
+  desc "Ronde font"
   homepage "https://moji-waku.com/ronde/index.html"
   head "https://moji-waku.com/download/ronde_square.zip"
 
