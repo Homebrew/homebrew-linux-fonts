@@ -1,5 +1,5 @@
 class FontLoveLight < Formula
-  desc "Adaptation of another font"
+  desc "Love light font"
   homepage "https://fonts.google.com/specimen/Love+Light"
   head "https://github.com/google/fonts/raw/main/ofl/lovelight/LoveLight-Regular.ttf",
        verified: "github.com/google/fonts/"
