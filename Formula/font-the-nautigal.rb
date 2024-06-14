@@ -1,5 +1,5 @@
 class FontTheNautigal < Formula
-  desc "Fluid yet formal with beautiful connectors"
+  desc "The nautigal font"
   homepage "https://fonts.google.com/specimen/The+Nautigal"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
