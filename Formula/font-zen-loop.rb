@@ -1,5 +1,5 @@
 class FontZenLoop < Formula
-  desc "Latin fonts designed by yoshimichi ohira, as part of zen fonts collection"
+  desc "Zen loop font"
   homepage "https://fonts.google.com/specimen/Zen+Loop"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
