@@ -1,5 +1,5 @@
 class FontIansui < Formula
-  desc "Chinese font derived from Klee One"
+  desc "Iansui font"
   homepage "https://github.com/ButTaiwan/iansui"
   url "https://github.com/ButTaiwan/iansui/releases/download/v1.000/iansui.zip"
   version "1.000"
