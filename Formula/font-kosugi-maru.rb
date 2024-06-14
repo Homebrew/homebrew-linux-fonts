@@ -1,5 +1,5 @@
 class FontKosugiMaru < Formula
-  desc "Available as kosugi"
+  desc "Kosugi maru font"
   homepage "https://fonts.google.com/specimen/Kosugi+Maru"
   head "https://github.com/google/fonts/raw/main/apache/kosugimaru/KosugiMaru-Regular.ttf",
        verified: "github.com/google/fonts/"
