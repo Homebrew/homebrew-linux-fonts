@@ -1,5 +1,5 @@
 class FontShalimar < Formula
-  desc "Upright script inspired by the calligraphic strokes of a flat nib pen"
+  desc "Shalimar font"
   homepage "https://fonts.google.com/specimen/Shalimar"
   head "https://github.com/google/fonts/raw/main/ofl/shalimar/Shalimar-Regular.ttf",
        verified: "github.com/google/fonts/"
