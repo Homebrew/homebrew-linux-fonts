@@ -1,5 +1,5 @@
 class FontLastResort < Formula
-  desc "Special-purpose font, providing glyphs to represent types of Unicode characters"
+  desc "Last resort font"
   homepage "https://github.com/unicode-org/last-resort-font"
   url "https://github.com/unicode-org/last-resort-font/releases/download/15.100/LastResort-Regular.ttf"
   version "15.100"
