@@ -1,5 +1,5 @@
 class FontAdventPro < Formula
-  desc "Modern font designed for web and print"
+  desc "Advent pro font"
   homepage "https://fonts.google.com/specimen/Advent+Pro"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
