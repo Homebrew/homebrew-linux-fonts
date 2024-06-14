@@ -1,5 +1,5 @@
 class FontJetbrainsMonoNerdFont < Formula
-  desc "Developer targeted fonts with a high number of glyphs"
+  desc "Jetbrainsmono nerd font families (jetbrains mono) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip"
   version "3.2.1"
