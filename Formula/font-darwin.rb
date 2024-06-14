@@ -1,5 +1,5 @@
 class FontDarwin < Formula
-  desc "Typeface for books and articles with a focus on scientific writing"
+  desc "Darwin font"
   homepage "https://github.com/topological-modular-forms/Darwin-Typeface"
   head "https://github.com/topological-modular-forms/Darwin-Typeface/raw/main/output/DarwinSerif-Regular.otf"
 
