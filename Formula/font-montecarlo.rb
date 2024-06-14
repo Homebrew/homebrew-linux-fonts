@@ -1,5 +1,5 @@
 class FontMontecarlo < Formula
-  desc "Perfect for an ornate look and a readable message"
+  desc "Montecarlo font"
   homepage "https://fonts.google.com/specimen/MonteCarlo"
   head "https://github.com/google/fonts/raw/main/ofl/montecarlo/MonteCarlo-Regular.ttf",
        verified: "github.com/google/fonts/"
