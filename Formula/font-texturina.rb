@@ -1,5 +1,5 @@
 class FontTexturina < Formula
-  desc "Designed by guillermo torres"
+  desc "Texturina font"
   homepage "https://fonts.google.com/specimen/Texturina"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
