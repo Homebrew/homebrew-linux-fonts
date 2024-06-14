@@ -1,5 +1,5 @@
 class FontPtSans < Formula
-  desc "Type family of universal use"
+  desc "Pt sans font"
   homepage "https://www.paratype.com/fonts/pt/pt-sans"
   head "https://api.paratype.com/api/editions/ofl/download/52212",
        referer: "https://www.paratype.com/"
