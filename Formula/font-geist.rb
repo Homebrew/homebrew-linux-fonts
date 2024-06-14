@@ -1,5 +1,5 @@
 class FontGeist < Formula
-  desc "Sans-serif typeface"
+  desc "Geist font"
   homepage "https://vercel.com/font/sans"
   url "https://github.com/vercel/geist-font/releases/download/1.3.0/Geist-1.3.0.zip",
        verified: "github.com/vercel/geist-font/"
