@@ -1,5 +1,5 @@
 class FontEphesis < Formula
-  desc "Contemporary script great for casual invitations, cards, tubes, scrapbooking"
+  desc "Ephesis font"
   homepage "https://fonts.google.com/specimen/Ephesis"
   head "https://github.com/google/fonts/raw/main/ofl/ephesis/Ephesis-Regular.ttf",
        verified: "github.com/google/fonts/"
