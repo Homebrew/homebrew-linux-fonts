@@ -1,5 +1,5 @@
 class FontCascadiaCodeNf < Formula
-  desc "Version of Cascadia Code with embedded Nerd Fonts symbols"
+  desc "Cascadia code nf font"
   homepage "https://github.com/microsoft/cascadia-code"
   url "https://github.com/microsoft/cascadia-code/releases/download/v2404.23/CascadiaCode-2404.23.zip"
   version "2404.23"
