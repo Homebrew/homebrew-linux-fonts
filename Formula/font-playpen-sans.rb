@@ -1,5 +1,5 @@
 class FontPlaypenSans < Formula
-  desc "Variable font with a weight range from thin to extrabold"
+  desc "Playpen sans font"
   homepage "https://fonts.google.com/specimen/Playpen+Sans"
   head "https://github.com/google/fonts/raw/main/ofl/playpensans/PlaypenSans%5Bwght%5D.ttf",
        verified: "github.com/google/fonts/"
