@@ -1,5 +1,5 @@
 class FontChivoMono < Formula
-  desc "Variable font ranging from thin to black with matching italics"
+  desc "Chivo mono font"
   homepage "https://fonts.google.com/specimen/Chivo+Mono"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
