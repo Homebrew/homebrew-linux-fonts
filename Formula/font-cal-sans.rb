@@ -1,5 +1,5 @@
 class FontCalSans < Formula
-  desc "Geometric sans-serif typeface"
+  desc "Cal sans font"
   homepage "https://github.com/calcom/font"
   url "https://github.com/calcom/font/releases/download/v1.0.0/CalSans_Semibold_v1.0.0.zip"
   version "1.0.0"
