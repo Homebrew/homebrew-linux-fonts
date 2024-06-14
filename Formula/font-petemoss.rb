@@ -1,5 +1,5 @@
 class FontPetemoss < Formula
-  desc "Inspired by the forms created using a pentel color brush"
+  desc "Petemoss font"
   homepage "https://fonts.google.com/specimen/Petemoss"
   head "https://github.com/google/fonts/raw/main/ofl/petemoss/Petemoss-Regular.ttf",
        verified: "github.com/google/fonts/"
