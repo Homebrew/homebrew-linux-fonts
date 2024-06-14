@@ -1,5 +1,5 @@
 class FontCaprasimo < Formula
-  desc "Based on fraunces"
+  desc "Caprasimo font"
   homepage "https://fonts.google.com/specimen/Caprasimo"
   head "https://github.com/google/fonts/raw/main/ofl/caprasimo/Caprasimo-Regular.ttf",
        verified: "github.com/google/fonts/"
