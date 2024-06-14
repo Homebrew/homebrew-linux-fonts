@@ -1,5 +1,5 @@
 class FontZedMonoNerdFont < Formula
-  desc "Developer targeted fonts with a high number of glyphs"
+  desc "Zedmono nerd font (zed mono) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/ZedMono.zip"
   version "3.2.1"
