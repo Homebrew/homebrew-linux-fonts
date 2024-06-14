@@ -1,5 +1,5 @@
 class FontKaiseiOpti < Formula
-  desc "Modern style japanese typeface"
+  desc "Kaisei opti font"
   homepage "https://fonts.google.com/specimen/Kaisei+Opti"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
