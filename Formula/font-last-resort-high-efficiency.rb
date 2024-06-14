@@ -1,5 +1,5 @@
 class FontLastResortHighEfficiency < Formula
-  desc "Special-purpose font, providing glyphs to represent types of Unicode characters"
+  desc "Last resort high-efficiency font"
   homepage "https://github.com/unicode-org/last-resort-font"
   url "https://github.com/unicode-org/last-resort-font/releases/download/15.100/LastResortHE-Regular.ttf"
   version "15.100"
