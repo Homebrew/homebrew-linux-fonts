@@ -1,5 +1,5 @@
 class FontLeagueSpartan < Formula
-  desc "Geometric sans-serif revival of ATF’s classic Spartan"
+  desc "League spartan font"
   homepage "https://www.theleagueofmoveabletype.com/league-spartan"
   url "https://github.com/theleagueof/league-spartan/releases/download/2.220/LeagueSpartan-2.220.tar.xz",
        verified: "github.com/theleagueof/league-spartan/"
