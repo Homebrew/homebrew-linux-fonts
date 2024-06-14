@@ -1,5 +1,5 @@
 class FontLibertinus < Formula
-  desc "Proportional serif typeface inspired by 19th century book type"
+  desc "Libertinus font"
   homepage "https://github.com/alerque/libertinus"
   url "https://github.com/alerque/libertinus/releases/download/v7.040/Libertinus-7.040.tar.xz"
   version "7.040"
