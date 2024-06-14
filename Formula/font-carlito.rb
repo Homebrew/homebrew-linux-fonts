@@ -1,5 +1,5 @@
 class FontCarlito < Formula
-  desc "Metric-compatible with calibri"
+  desc "Carlito font"
   homepage "https://fonts.google.com/specimen/Carlito"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
