@@ -1,5 +1,5 @@
 class FontHeavyDataNerdFont < Formula
-  desc "Developer targeted fonts with a high number of glyphs"
+  desc "Heavydata nerd font (heavy data) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/HeavyData.zip"
   version "3.2.1"
