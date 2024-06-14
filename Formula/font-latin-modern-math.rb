@@ -1,5 +1,5 @@
 class FontLatinModernMath < Formula
-  desc "Latin Modern variation focused on mathematics"
+  desc "Latin modern math font"
   homepage "https://www.gust.org.pl/projects/e-foundry/lm-math"
   head "https://www.gust.org.pl/projects/e-foundry/lm-math/download/latinmodern-math-1959.zip"
 
