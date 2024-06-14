@@ -1,5 +1,5 @@
 class FontYoungSerif < Formula
-  desc "Heavy weight old style serif typeface"
+  desc "Young serif font"
   homepage "https://fonts.google.com/specimen/Young+Serif"
   head "https://github.com/google/fonts/raw/main/ofl/youngserif/YoungSerif-Regular.ttf",
        verified: "github.com/google/fonts/"
