@@ -1,5 +1,5 @@
 class FontNotoSerifCjkJp < Formula
-  desc "Language Specific OTFs Japanese (日本語)"
+  desc "Noto serif cjk jp font"
   homepage "https://github.com/notofonts/noto-cjk/tree/main/Serif"
   url "https://github.com/notofonts/noto-cjk/releases/download/Serif2.002/07_NotoSerifCJKjp.zip"
   version "2.002"
