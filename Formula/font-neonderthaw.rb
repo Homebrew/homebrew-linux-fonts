@@ -1,5 +1,5 @@
 class FontNeonderthaw < Formula
-  desc "Single weight script that simulates neon"
+  desc "Neonderthaw font"
   homepage "https://fonts.google.com/specimen/Neonderthaw"
   head "https://github.com/google/fonts/raw/main/ofl/neonderthaw/Neonderthaw-Regular.ttf",
        verified: "github.com/google/fonts/"
