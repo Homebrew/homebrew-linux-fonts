@@ -1,5 +1,5 @@
 class FontLxgwZhenkai < Formula
-  desc "Bolder-weight Edition of LXGW WenKai"
+  desc "Lxgw zhenkai font"
   homepage "https://github.com/lxgw/LxgwZhenKai"
   url "https://github.com/lxgw/LxgwZhenKai/releases/download/v0.600/LXGWZhenKai.ttf"
   version "0.600"
