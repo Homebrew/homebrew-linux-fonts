@@ -1,5 +1,5 @@
 class FontAkshar < Formula
-  desc "Supported"
+  desc "Akshar font"
   homepage "https://fonts.google.com/specimen/Akshar"
   head "https://github.com/google/fonts/raw/main/ofl/akshar/Akshar%5Bwght%5D.ttf",
        verified: "github.com/google/fonts/"
