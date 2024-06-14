@@ -1,5 +1,5 @@
 class FontLxgwFasmartgothic < Formula
-  desc "Chinese sans-serif font derived from IPAex Gothic"
+  desc "Lxgw fasmartgothic font"
   homepage "https://github.com/lxgw/LxgwNeoXiHei"
   url "https://github.com/lxgw/LxgwNeoXiHei/releases/download/v1.123.2/LXGWFasmartGothic.ttf"
   version "1.123.2"
