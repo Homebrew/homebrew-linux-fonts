@@ -1,5 +1,5 @@
 class FontHedvigLettersSans < Formula
-  desc "Perfect when it’s not"
+  desc "Hedvig letters sans font"
   homepage "https://fonts.google.com/specimen/Hedvig+Letters+Sans"
   head "https://github.com/google/fonts/raw/main/ofl/hedvigletterssans/HedvigLettersSans-Regular.ttf",
        verified: "github.com/google/fonts/"
