@@ -1,5 +1,5 @@
 class FontOverusedGrotesk < Formula
-  desc "Variable sans serif typeface inspired by the classic neo-grotesk Swiss design"
+  desc "Overused grotesk font"
   homepage "https://github.com/RandomMaerks/Overused-Grotesk"
   url "https://github.com/RandomMaerks/Overused-Grotesk/releases/download/v0.4/OverusedGrotesk-v0.4.zip"
   version "0.4"
