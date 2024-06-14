@@ -1,5 +1,5 @@
 class FontAlkalami < Formula
-  desc "Very black, solid rectangle"
+  desc "Alkalami font"
   homepage "https://fonts.google.com/specimen/Alkalami"
   head "https://github.com/google/fonts/raw/main/ofl/alkalami/Alkalami-Regular.ttf",
        verified: "github.com/google/fonts/"
