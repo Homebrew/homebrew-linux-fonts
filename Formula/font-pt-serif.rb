@@ -1,5 +1,5 @@
 class FontPtSerif < Formula
-  desc "Universal type family designed for use together with PT Sans"
+  desc "Pt serif font"
   homepage "https://www.paratype.com/fonts/pt/pt-serif"
   head "https://api.paratype.com/api/editions/ofl/download/52194",
        referer: "https://www.paratype.com/"
