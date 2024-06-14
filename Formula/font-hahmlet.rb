@@ -1,5 +1,5 @@
 class FontHahmlet < Formula
-  desc "Great for any kind of typesetting, print or screen"
+  desc "Hahmlet font"
   homepage "https://fonts.google.com/specimen/Hahmlet"
   head "https://github.com/google/fonts/raw/main/ofl/hahmlet/Hahmlet%5Bwght%5D.ttf",
        verified: "github.com/google/fonts/"
