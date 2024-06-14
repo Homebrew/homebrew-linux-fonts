@@ -1,5 +1,5 @@
 class FontSfPro < Formula
-  desc "Sans-serif variant of \"San Francisco\" by Apple"
+  desc "San francisco pro font"
   homepage "https://developer.apple.com/fonts/"
   head "https://devimages-cdn.apple.com/design/resources/download/SF-Pro.dmg"
 
