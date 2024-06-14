@@ -1,5 +1,5 @@
 class FontTiejiliSc < Formula
-  desc "Open-source font that extends Fontworks' Reggae One to Chinese"
+  desc "Tiejili sc font"
   homepage "https://github.com/Buernia/Tiejili"
   url "https://github.com/Buernia/Tiejili/releases/download/1.100/Tiejili.zip"
   version "1.100"
