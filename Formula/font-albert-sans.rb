@@ -1,5 +1,5 @@
 class FontAlbertSans < Formula
-  desc "Modern geometric sans serif family"
+  desc "Albert sans font"
   homepage "https://fonts.google.com/specimen/Albert+Sans"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
