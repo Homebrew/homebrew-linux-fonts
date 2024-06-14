@@ -1,5 +1,5 @@
 class FontArkPixel10pxProportional < Formula
-  desc "Open source Pan-CJK pixel font"
+  desc "Ark pixel 10px proportional font"
   homepage "https://github.com/TakWolf/ark-pixel-font"
   url "https://github.com/TakWolf/ark-pixel-font/releases/download/2024.05.12/ark-pixel-font-10px-proportional-otf-v2024.05.12.zip"
   version "2024.05.12"
