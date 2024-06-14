@@ -1,5 +1,5 @@
 class FontSankofaDisplay < Formula
-  desc "African typeface with a particular focus on straight-line geometric designs"
+  desc "Sankofa display font"
   homepage "https://github.com/batsimadz/Sankofa-Display"
   head "https://github.com/google/fonts/raw/main/ofl/sankofadisplay/SankofaDisplay-Regular.ttf"
 
