@@ -1,5 +1,5 @@
 class FontBodoniModaSc < Formula
-  desc "Designed by owen earl (indestructible type*)"
+  desc "Bodoni moda sc font"
   homepage "https://github.com/indestructible-type/Bodoni"
   head "https://github.com/google/fonts.git",
        branch:    "main",
