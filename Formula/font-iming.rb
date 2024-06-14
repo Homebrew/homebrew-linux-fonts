@@ -1,5 +1,5 @@
 class FontIming < Formula
-  desc "Traditional Chinese typefaces in TrueType"
+  desc "I.ming font"
   homepage "https://github.com/ichitenfont/I.Ming"
   url "https://github.com/ichitenfont/I.Ming/archive/refs/tags/8.10.zip"
   version "8.10"
