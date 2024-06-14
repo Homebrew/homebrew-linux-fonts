@@ -1,5 +1,5 @@
 class FontOi < Formula
-  desc "Interjection used in various languages"
+  desc "Oi font"
   homepage "https://fonts.google.com/specimen/Oi"
   head "https://github.com/google/fonts/raw/main/ofl/oi/Oi-Regular.ttf",
        verified: "github.com/google/fonts/"
