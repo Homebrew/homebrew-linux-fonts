@@ -1,5 +1,5 @@
 class FontNotoSerifCjk < Formula
-  desc "Static Super OTC"
+  desc "Noto serif cjk font"
   homepage "https://github.com/notofonts/noto-cjk/tree/main/Serif"
   url "https://github.com/notofonts/noto-cjk/releases/download/Serif2.002/01_NotoSerifCJK.ttc.zip"
   version "2.002"
