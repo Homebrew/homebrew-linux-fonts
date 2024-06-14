@@ -1,5 +1,5 @@
 class FontMonocraft < Formula
-  desc "Monospaced programming font inspired by the Minecraft typeface"
+  desc "Monocraft font"
   homepage "https://github.com/IdreesInc/Monocraft"
   url "https://github.com/IdreesInc/Monocraft/releases/download/v3.0/Monocraft.ttf"
   version "3.0"
