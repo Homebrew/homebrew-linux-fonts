@@ -1,5 +1,5 @@
 class FontHermit < Formula
-  desc "Monospace font designed to be clear, pragmatic and very readable"
+  desc "Hermit font"
   homepage "https://pcaro.es/p/hermit/"
   url "https://pcaro.es/d/otf-hermit-2.0.tar.gz"
   version "2.0"
