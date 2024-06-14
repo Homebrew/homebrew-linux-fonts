@@ -1,5 +1,5 @@
 class FontFigtree < Formula
-  desc "Clean yet friendly geometric sans serif font for usage in web and mobile apps"
+  desc "Figtree font"
   homepage "https://fonts.google.com/specimen/Figtree"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
