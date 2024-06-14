@@ -1,5 +1,5 @@
 class FontCascadiaCode < Formula
-  desc "Monospaced font that includes programming ligatures"
+  desc "Cascadia code font"
   homepage "https://github.com/microsoft/cascadia-code"
   url "https://github.com/microsoft/cascadia-code/releases/download/v2404.23/CascadiaCode-2404.23.zip"
   version "2404.23"
