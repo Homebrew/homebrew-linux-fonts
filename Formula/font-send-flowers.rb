@@ -1,5 +1,5 @@
 class FontSendFlowers < Formula
-  desc "Appropriate for an older audience"
+  desc "Send flowers font"
   homepage "https://fonts.google.com/specimen/Send+Flowers"
   head "https://github.com/google/fonts/raw/main/ofl/sendflowers/SendFlowers-Regular.ttf",
        verified: "github.com/google/fonts/"
