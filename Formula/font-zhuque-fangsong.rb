@@ -1,5 +1,5 @@
 class FontZhuqueFangsong < Formula
-  desc "Open source Chinese Fangsong font created by TrionesType"
+  desc "Zhuque fangsong font"
   homepage "https://github.com/TrionesType/zhuque"
   url "https://github.com/TrionesType/zhuque/releases/download/v0.108/ZhuqueFangsong-v0.108.zip"
   version "0.108"
