@@ -1,5 +1,5 @@
 class FontFontawesome < Formula
-  desc "Icon set and toolkit"
+  desc "Font awesome font"
   homepage "https://fontawesome.com/"
   url "https://github.com/FortAwesome/Font-Awesome/releases/download/6.5.2/fontawesome-free-6.5.2-desktop.zip",
        verified: "github.com/FortAwesome/Font-Awesome/"
