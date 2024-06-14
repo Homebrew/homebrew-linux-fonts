@@ -1,5 +1,5 @@
 class FontSolitreo < Formula
-  desc "Relic of the past, as most writers of the language utilize roman characters"
+  desc "Solitreo font"
   homepage "https://fonts.google.com/specimen/Solitreo"
   head "https://github.com/google/fonts/raw/main/ofl/solitreo/Solitreo-Regular.ttf",
        verified: "github.com/google/fonts/"
