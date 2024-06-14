@@ -1,5 +1,5 @@
 class FontRecursive < Formula
-  desc "Led by arrow type, a type foundry based in brooklyn, ny, usa"
+  desc "Recursive font"
   homepage "https://fonts.google.com/specimen/Recursive"
   head "https://github.com/google/fonts/raw/main/ofl/recursive/Recursive%5BCASL%2CCRSV%2CMONO%2Cslnt%2Cwght%5D.ttf",
        verified: "github.com/google/fonts/"
