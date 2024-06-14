@@ -1,5 +1,5 @@
 class FontInclusiveSans < Formula
-  desc "Contemporary neo-grotesques"
+  desc "Inclusive sans font"
   homepage "https://fonts.google.com/specimen/Inclusive+Sans"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
