@@ -1,5 +1,5 @@
 class FontRubikBeastly < Formula
-  desc "Based on the google fonts rubik by hubert and fischer, meir sadan and cyreal"
+  desc "Rubik beastly font"
   homepage "https://fonts.google.com/specimen/Rubik+Beastly"
   head "https://github.com/google/fonts/raw/main/ofl/rubikbeastly/RubikBeastly-Regular.ttf",
        verified: "github.com/google/fonts/"
