@@ -1,5 +1,5 @@
 class FontChomsky < Formula
-  desc "New York Times masthead, reimagined as a full font"
+  desc "Chomsky font"
   homepage "https://github.com/ctrlcctrlv/chomsky"
   url "https://github.com/ctrlcctrlv/chomsky/releases/download/v2.3/Chomsky.otf"
   version "2.3"
