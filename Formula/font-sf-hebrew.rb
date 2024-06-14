@@ -1,5 +1,5 @@
 class FontSfHebrew < Formula
-  desc "Hebrew extension of \"San Francisco\" by Apple"
+  desc "San francisco hebrew font"
   homepage "https://developer.apple.com/fonts"
   head "https://devimages-cdn.apple.com/design/resources/download/SF-Hebrew.dmg"
 
