@@ -1,5 +1,5 @@
 class FontAtkinsonHyperlegible < Formula
-  desc "Font with greater legibility and readability for low vision readers"
+  desc "Atkinson hyperlegible font"
   homepage "https://www.brailleinstitute.org/freefont"
   url "https://www.brailleinstitute.org/wp-content/uploads/atkinson-hyperlegible-font/Atkinson-Hyperlegible-Font-Print-and-Web-2020-0514.zip"
   version "2020-0514"
