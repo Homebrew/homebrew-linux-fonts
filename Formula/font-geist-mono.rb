@@ -1,5 +1,5 @@
 class FontGeistMono < Formula
-  desc "Monospaced typeface designed to be used where code is represented"
+  desc "Geist mono font"
   homepage "https://vercel.com/font/mono"
   url "https://github.com/vercel/geist-font/releases/download/1.3.0/GeistMono-1.3.0.zip",
        verified: "github.com/vercel/geist-font/"
