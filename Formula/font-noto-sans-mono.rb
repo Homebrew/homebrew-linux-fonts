@@ -1,5 +1,5 @@
 class FontNotoSansMono < Formula
-  desc "Monospaced variable font"
+  desc "Noto sans font"
   homepage "https://notofonts.github.io/"
   url "https://github.com/notofonts/latin-greek-cyrillic/releases/download/NotoSansMono-v2.014/NotoSansMono-v2.014.zip",
        verified: "github.com/notofonts/"
