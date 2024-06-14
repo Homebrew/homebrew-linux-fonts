@@ -1,5 +1,5 @@
 class FontGenjyuugothicL < Formula
-  desc "Weak-Rounded version of Gen Shin Gothic"
+  desc "Gen jyuu gothicl font"
   homepage "http://jikasei.me/font/genjyuu/"
   url "https://ftp.iij.ad.jp/pub/osdn.jp/users/8/8643/genjyuugothic-l-20150607.zip",
        verified: "ftp.iij.ad.jp/pub/osdn.jp/users/"
