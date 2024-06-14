@@ -1,5 +1,5 @@
 class FontSlacksideOne < Formula
-  desc "Handwritten display font"
+  desc "Slackside one font"
   homepage "https://fonts.google.com/specimen/Slackside+One"
   head "https://github.com/google/fonts/raw/main/ofl/slacksideone/SlacksideOne-Regular.ttf",
        verified: "github.com/google/fonts/"
