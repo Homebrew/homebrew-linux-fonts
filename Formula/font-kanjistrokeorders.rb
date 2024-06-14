@@ -1,5 +1,5 @@
 class FontKanjistrokeorders < Formula
-  desc "Stroke order diagrams for 6500+ kanji, 180+ kana symbols and Latin characters"
+  desc "Kanjistrokeorders font"
   homepage "https://sites.google.com/site/nihilistorguk/"
   url "https://drive.google.com/uc?export=download&id=1oyQoTB531tbhlYaOW7ugvutXZ7HSlJfW"
   version "4.004,1oyQoTB531tbhlYaOW7ugvutXZ7HSlJfW"
