@@ -1,5 +1,5 @@
 class FontGlory < Formula
-  desc "Suitable for logos, headlines and body text with the available six weights"
+  desc "Glory font"
   homepage "https://fonts.google.com/specimen/Glory"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
