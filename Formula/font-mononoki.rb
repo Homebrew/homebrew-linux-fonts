@@ -1,5 +1,5 @@
 class FontMononoki < Formula
-  desc "Programming font"
+  desc "Mononoki font"
   homepage "https://madmalik.github.io/mononoki/"
   url "https://github.com/madmalik/mononoki/releases/download/1.6/mononoki.zip",
        verified: "github.com/madmalik/mononoki/"
