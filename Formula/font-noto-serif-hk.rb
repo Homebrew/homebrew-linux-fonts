@@ -1,5 +1,5 @@
 class FontNotoSerifHk < Formula
-  desc "Variable font with a weight axis ranging from extralight to extrablack"
+  desc "Noto serif hk font"
   homepage "https://fonts.google.com/specimen/Noto+Serif+HK"
   head "https://github.com/google/fonts/raw/main/ofl/notoserifhk/NotoSerifHK%5Bwght%5D.ttf",
        verified: "github.com/google/fonts/"
