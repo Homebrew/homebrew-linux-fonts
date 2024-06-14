@@ -1,5 +1,5 @@
 class FontTapestry < Formula
-  desc "Roman calligraphic family with a slight rustic and country appearance"
+  desc "Tapestry font"
   homepage "https://fonts.google.com/specimen/Tapestry"
   head "https://github.com/google/fonts/raw/main/ofl/tapestry/Tapestry-Regular.ttf",
        verified: "github.com/google/fonts/"
