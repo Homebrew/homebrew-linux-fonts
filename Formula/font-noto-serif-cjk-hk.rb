@@ -1,5 +1,5 @@
 class FontNotoSerifCjkHk < Formula
-  desc "Language Specific OTFs Traditional Chinese — Hong Kong (繁體中文—香港)"
+  desc "Noto serif cjk hk font"
   homepage "https://github.com/notofonts/noto-cjk/tree/main/Serif"
   url "https://github.com/notofonts/noto-cjk/releases/download/Serif2.002/11_NotoSerifCJKhk.zip"
   version "2.002"
