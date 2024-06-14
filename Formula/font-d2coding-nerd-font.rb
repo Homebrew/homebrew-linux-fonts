@@ -1,5 +1,5 @@
 class FontD2codingNerdFont < Formula
-  desc "Developer targeted fonts with a high number of glyphs"
+  desc "D2codingligature nerd font (d2coding) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/D2Coding.zip"
   version "3.2.1"
