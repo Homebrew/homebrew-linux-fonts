@@ -1,5 +1,5 @@
 class FontKaiseiTokumin < Formula
-  desc "Designed to keep the legibility and still have power as an extra bold typeface"
+  desc "Kaisei tokumin font"
   homepage "https://fonts.google.com/specimen/Kaisei+Tokumin"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
