@@ -1,5 +1,5 @@
 class FontNotoSansTangsa < Formula
-  desc "Design for the indic tangsa script"
+  desc "Noto sans tangsa font"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Tangsa"
   head "https://github.com/google/fonts/raw/main/ofl/notosanstangsa/NotoSansTangsa%5Bwght%5D.ttf",
        verified: "github.com/google/fonts/"
