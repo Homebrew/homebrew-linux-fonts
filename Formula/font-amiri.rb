@@ -1,5 +1,5 @@
 class FontAmiri < Formula
-  desc "Classical Arabic typeface in Naskh style"
+  desc "Amiri font"
   homepage "https://www.amirifont.org/"
   url "https://github.com/alif-type/amiri/releases/download/1.000/Amiri-1.000.zip",
        verified: "github.com/alif-type/amiri/"
