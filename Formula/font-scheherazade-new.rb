@@ -1,5 +1,5 @@
 class FontScheherazadeNew < Formula
-  desc "Named after the heroine of the classic arabian nights tale"
+  desc "Scheherazade new font"
   homepage "https://fonts.google.com/specimen/Scheherazade+New"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
