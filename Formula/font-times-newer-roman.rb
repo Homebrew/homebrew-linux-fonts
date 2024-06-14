@@ -1,5 +1,5 @@
 class FontTimesNewerRoman < Formula
-  desc "Looks just like Times New Roman, but characters are 5-10% wider"
+  desc "Times newer roman font"
   homepage "https://timesnewerroman.com/"
   url "https://timesnewerroman.com/assets/TimesNewerRoman.zip"
   version "1.000"
