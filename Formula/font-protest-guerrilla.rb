@@ -1,5 +1,5 @@
 class FontProtestGuerrilla < Formula
-  desc "Stencil version of strike"
+  desc "Protest guerrilla font"
   homepage "https://fonts.google.com/specimen/Protest+Guerrilla"
   head "https://github.com/google/fonts/raw/main/ofl/protestguerrilla/ProtestGuerrilla-Regular.ttf",
        verified: "github.com/google/fonts/"
