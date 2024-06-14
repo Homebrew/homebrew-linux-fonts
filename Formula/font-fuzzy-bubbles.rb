@@ -1,5 +1,5 @@
 class FontFuzzyBubbles < Formula
-  desc "Perfect for children's parties"
+  desc "Fuzzy bubbles font"
   homepage "https://fonts.google.com/specimen/Fuzzy+Bubbles"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
