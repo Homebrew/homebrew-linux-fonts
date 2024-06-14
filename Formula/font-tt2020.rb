@@ -1,5 +1,5 @@
 class FontTt2020 < Formula
-  desc "Advanced, open source, hyperrealistic, multilingual typewriter font"
+  desc "Tt2020 font"
   homepage "https://github.com/ctrlcctrlv/TT2020"
   url "https://github.com/ctrlcctrlv/TT2020/archive/v0.2.1.zip"
   version "0.2.1"
