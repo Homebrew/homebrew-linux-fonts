@@ -1,5 +1,5 @@
 class FontPtMono < Formula
-  desc "Monospaced font of the PT Project series"
+  desc "Pt mono font"
   homepage "https://www.paratype.com/fonts/pt/pt-mono"
   head "https://api.paratype.com/api/editions/ofl/download/52218",
        referer: "https://www.paratype.com/"
