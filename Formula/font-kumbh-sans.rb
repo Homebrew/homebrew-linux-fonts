@@ -1,5 +1,5 @@
 class FontKumbhSans < Formula
-  desc "Geometric sans-serif multi-purpose font"
+  desc "Kumbh sans font"
   homepage "https://fonts.google.com/specimen/Kumbh+Sans"
   head "https://github.com/google/fonts/raw/main/ofl/kumbhsans/KumbhSans%5BYOPQ%2Cwght%5D.ttf",
        verified: "github.com/google/fonts/"
