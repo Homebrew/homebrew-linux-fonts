@@ -1,5 +1,5 @@
 class FontTruculenta < Formula
-  desc "For packaging, branding, book covers, illustrated editions, and film titles"
+  desc "Truculenta font"
   homepage "https://fonts.google.com/specimen/Truculenta"
   head "https://github.com/google/fonts/raw/main/ofl/truculenta/Truculenta%5Bopsz%2Cwdth%2Cwght%5D.ttf",
        verified: "github.com/google/fonts/"
