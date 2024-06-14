@@ -1,5 +1,5 @@
 class FontWaptia < Formula
-  desc "Ancient-biology styled font"
+  desc "Waptia font"
   homepage "https://moji-waku.com/waptia/index.html"
   head "https://moji-waku.com/download/waptia.zip"
 
