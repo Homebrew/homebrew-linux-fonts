@@ -1,5 +1,5 @@
 class FontNewYork < Formula
-  desc "Serif font \"New York\" by Apple"
+  desc "New york font"
   homepage "https://developer.apple.com/fonts/"
   head "https://devimages-cdn.apple.com/design/resources/download/NY.dmg"
 
