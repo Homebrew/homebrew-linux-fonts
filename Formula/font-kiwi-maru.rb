@@ -1,5 +1,5 @@
 class FontKiwiMaru < Formula
-  desc "Typeface for visualization of everyday and slang expressions"
+  desc "Kiwi maru font"
   homepage "https://fonts.google.com/specimen/Kiwi+Maru"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
