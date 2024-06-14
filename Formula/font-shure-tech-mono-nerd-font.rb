@@ -1,5 +1,5 @@
 class FontShureTechMonoNerdFont < Formula
-  desc "Developer targeted fonts with a high number of glyphs"
+  desc "Shuretechmono nerd font (share tech mono) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/ShareTechMono.zip"
   version "3.2.1"
