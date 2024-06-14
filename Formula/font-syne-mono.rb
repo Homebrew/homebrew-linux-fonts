@@ -1,5 +1,5 @@
 class FontSyneMono < Formula
-  desc "Another take on letting go of control"
+  desc "Syne mono font"
   homepage "https://fonts.google.com/specimen/Syne+Mono"
   head "https://github.com/google/fonts/raw/main/ofl/synemono/SyneMono-Regular.ttf",
        verified: "github.com/google/fonts/"
