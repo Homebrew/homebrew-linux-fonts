@@ -1,5 +1,5 @@
 class FontSmooch < Formula
-  desc "Slightly bolder than other hand-lettered scripts"
+  desc "Smooch font"
   homepage "https://fonts.google.com/specimen/Smooch"
   head "https://github.com/google/fonts/raw/main/ofl/smooch/Smooch-Regular.ttf",
        verified: "github.com/google/fonts/"
