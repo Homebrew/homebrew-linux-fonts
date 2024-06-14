@@ -1,5 +1,5 @@
 class FontFragmentMono < Formula
-  desc "Monospaced coding font inspired on Helvetica"
+  desc "Fragment mono font"
   homepage "https://fonts.google.com/specimen/Fragment+Mono"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
