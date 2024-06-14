@@ -1,5 +1,5 @@
 class FontTiroKannada < Formula
-  desc "Especially suited to traditional literary publishing"
+  desc "Tiro kannada font"
   homepage "https://fonts.google.com/specimen/Tiro+Kannada"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
