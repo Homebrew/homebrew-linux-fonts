@@ -1,5 +1,5 @@
 class FontTacOne < Formula
-  desc "Project from afrotype"
+  desc "Tac one font"
   homepage "https://fonts.google.com/specimen/Tac+One"
   head "https://github.com/google/fonts/raw/main/ofl/tacone/TacOne-Regular.ttf",
        verified: "github.com/google/fonts/"
