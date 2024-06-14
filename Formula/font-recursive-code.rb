@@ -1,5 +1,5 @@
 class FontRecursiveCode < Formula
-  desc "Recursive's prebuilt text-editor-friendly files, including powerline glyphs"
+  desc "Recursive code font"
   homepage "https://github.com/arrowtype/recursive"
   url "https://github.com/arrowtype/recursive/releases/download/v1.085/ArrowType-Recursive-1.085.zip"
   version "1.085"
