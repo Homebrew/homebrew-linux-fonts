@@ -1,5 +1,5 @@
 class FontReemKufiInk < Formula
-  desc "Also the name of khaled's daughter"
+  desc "Reem kufi ink font"
   homepage "https://fonts.google.com/specimen/Reem+Kufi+Ink"
   head "https://github.com/google/fonts/raw/main/ofl/reemkufiink/ReemKufiInk-Regular.ttf",
        verified: "github.com/google/fonts/"
