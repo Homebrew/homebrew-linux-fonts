@@ -1,5 +1,5 @@
 class FontSfMono < Formula
-  desc "Monospaced variant of \"San Francisco\" by Apple"
+  desc "San francisco mono font"
   homepage "https://developer.apple.com/fonts/"
   head "https://devimages-cdn.apple.com/design/resources/download/SF-Mono.dmg"
 
