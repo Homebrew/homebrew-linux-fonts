@@ -1,5 +1,5 @@
 class FontVictorMono < Formula
-  desc "Monospaced font with cursive italics and programming symbol ligatures"
+  desc "Victor mono font"
   homepage "https://rubjo.github.io/victor-mono/"
   url "https://rubjo.github.io/victor-mono/VictorMonoAll.zip"
   version "1.5.6"
