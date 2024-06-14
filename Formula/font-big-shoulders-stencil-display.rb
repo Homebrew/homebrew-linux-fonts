@@ -1,5 +1,5 @@
 class FontBigShouldersStencilDisplay < Formula
-  desc "Superfamily of condensed American Gothic typefaces"
+  desc "Big shoulders stencil display font"
   homepage "https://fonts.google.com/specimen/Big+Shoulders+Stencil+Display"
   head "https://github.com/google/fonts/raw/main/ofl/bigshouldersstencildisplay/BigShouldersStencilDisplay%5Bwght%5D.ttf",
        verified: "github.com/google/fonts/"
