@@ -1,5 +1,5 @@
 class FontRedRose < Formula
-  desc "Latin display typeface designed for posters"
+  desc "Red rose font"
   homepage "https://fonts.google.com/specimen/Red+Rose"
   head "https://github.com/google/fonts/raw/main/ofl/redrose/RedRose%5Bwght%5D.ttf",
        verified: "github.com/google/fonts/"
