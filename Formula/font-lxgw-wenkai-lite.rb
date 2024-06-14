@@ -1,5 +1,5 @@
 class FontLxgwWenkaiLite < Formula
-  desc "Open-source Chinese font derived from Fontworks' Klee One"
+  desc "Lxgw wenkai lite font"
   homepage "https://github.com/lxgw/LxgwWenKai-Lite"
   url "https://github.com/lxgw/LxgwWenKai-Lite/releases/download/v1.330/lxgw-wenkai-lite-v1.330.zip"
   version "1.330"
