@@ -1,5 +1,5 @@
 class FontNotoSansNagMundari < Formula
-  desc "Design for the indic nag mundari script"
+  desc "Noto sans nag mundari font"
   homepage "https://fonts.google.com/specimen/Noto+Sans+Nag+Mundari"
   head "https://github.com/google/fonts/raw/main/ofl/notosansnagmundari/NotoSansNagMundari%5Bwght%5D.ttf",
        verified: "github.com/google/fonts/"
