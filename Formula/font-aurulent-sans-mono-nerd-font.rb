@@ -1,5 +1,5 @@
 class FontAurulentSansMonoNerdFont < Formula
-  desc "Developer targeted fonts with a high number of glyphs"
+  desc "Aurulentsansm nerd font (aurulent sans mono) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/AurulentSansMono.zip"
   version "3.2.1"
