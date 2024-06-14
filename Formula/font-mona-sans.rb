@@ -1,5 +1,5 @@
 class FontMonaSans < Formula
-  desc "Mona Sans, a variable font from GitHub"
+  desc "Mona-sans font"
   homepage "https://github.com/github/mona-sans"
   url "https://github.com/github/mona-sans/releases/download/v1.0.1/MonaSans.zip"
   version "1.0.1"
