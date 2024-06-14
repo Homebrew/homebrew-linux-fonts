@@ -1,5 +1,5 @@
 class FontSudo < Formula
-  desc "Font for programmers and command-line users"
+  desc "Sudo font"
   homepage "https://github.com/jenskutilek/sudo-font/"
   url "https://github.com/jenskutilek/sudo-font/releases/download/v1.2/sudo.zip"
   version "1.2"
