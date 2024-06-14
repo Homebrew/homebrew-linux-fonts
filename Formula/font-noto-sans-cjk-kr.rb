@@ -1,5 +1,5 @@
 class FontNotoSansCjkKr < Formula
-  desc "Language Specific OTFs Korean (한국어)"
+  desc "Noto sans cjk kr font"
   homepage "https://github.com/notofonts/noto-cjk/tree/main/Sans"
   url "https://github.com/notofonts/noto-cjk/releases/download/Sans2.004/07_NotoSansCJKkr.zip"
   version "2.004"
