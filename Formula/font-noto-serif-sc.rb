@@ -1,5 +1,5 @@
 class FontNotoSerifSc < Formula
-  desc "Modulated (“serif”) design for simplified chinese"
+  desc "Noto serif sc font"
   homepage "https://fonts.google.com/specimen/Noto+Serif+SC"
   head "https://github.com/google/fonts/raw/main/ofl/notoserifsc/NotoSerifSC%5Bwght%5D.ttf",
        verified: "github.com/google/fonts/"
