@@ -1,5 +1,5 @@
 class FontGentiumPlus < Formula
-  desc "Multilingual font"
+  desc "Gentium font"
   homepage "https://software.sil.org/gentium/"
   url "https://github.com/silnrsi/font-gentium/releases/download/v6.200/GentiumPlus-6.200.zip",
        verified: "github.com/silnrsi/font-gentium/"
