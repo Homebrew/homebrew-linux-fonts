@@ -1,5 +1,5 @@
 class FontPretendardJp < Formula
-  desc "Alternative font to system-ui for all platforms"
+  desc "Pretendard jp font"
   homepage "https://github.com/orioncactus/pretendard"
   url "https://github.com/orioncactus/pretendard/releases/download/v1.3.9/PretendardJP-1.3.9.zip"
   version "1.3.9"
