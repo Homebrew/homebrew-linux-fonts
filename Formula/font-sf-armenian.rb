@@ -1,5 +1,5 @@
 class FontSfArmenian < Formula
-  desc "Armenian extension of \"San Francisco\" by Apple"
+  desc "San francisco armenian font"
   homepage "https://developer.apple.com/fonts"
   head "https://devimages-cdn.apple.com/design/resources/download/SF-Armenian.dmg"
 
