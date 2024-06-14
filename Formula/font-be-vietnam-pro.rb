@@ -1,5 +1,5 @@
 class FontBeVietnamPro < Formula
-  desc "Well suited to tech companies and startups"
+  desc "Be vietnam pro font"
   homepage "https://fonts.google.com/specimen/Be+Vietnam+Pro"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
