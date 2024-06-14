@@ -1,5 +1,5 @@
 class FontMaterialIcons < Formula
-  desc "Icons based on core Material Design principles"
+  desc "Material icons font"
   homepage "https://google.github.io/material-design-icons/"
   head "https://github.com/google/material-design-icons.git",
        verified:  "github.com/google/material-design-icons",
