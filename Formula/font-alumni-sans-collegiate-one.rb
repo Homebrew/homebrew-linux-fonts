@@ -1,5 +1,5 @@
 class FontAlumniSansCollegiateOne < Formula
-  desc "Font inspired by Impact Black"
+  desc "Alumni sans collegiate one font"
   homepage "https://fonts.google.com/specimen/Alumni+Sans+Collegiate+One"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
