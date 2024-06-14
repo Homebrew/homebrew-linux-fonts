@@ -1,5 +1,5 @@
 class FontSnPro < Formula
-  desc "SN Pro is a friendly sans serif typeface optimized for use with Markdown"
+  desc "Sn pro font family font"
   homepage "https://supernotes.app/open-source/sn-pro"
   url "https://github.com/supernotes/sn-pro/releases/download/1.1.0/SN-Pro.zip",
        verified: "github.com/supernotes/sn-pro/"
