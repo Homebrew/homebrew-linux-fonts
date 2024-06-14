@@ -1,5 +1,5 @@
 class FontZenKakuGothicNew < Formula
-  desc "Classical yet simple and stylish version"
+  desc "Zen kaku gothic new font"
   homepage "https://fonts.google.com/specimen/Zen+Kaku+Gothic+New"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
