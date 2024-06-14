@@ -1,5 +1,5 @@
 class FontLuxuriousRoman < Formula
-  desc "Semi-hand lettered font with inconsistent serifs"
+  desc "Luxurious roman font"
   homepage "https://fonts.google.com/specimen/Luxurious+Roman"
   head "https://github.com/google/fonts/raw/main/ofl/luxuriousroman/LuxuriousRoman-Regular.ttf",
        verified: "github.com/google/fonts/"
