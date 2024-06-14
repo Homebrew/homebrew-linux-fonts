@@ -1,5 +1,5 @@
 class FontMesloLgDz < Formula
-  desc "Dotted-zero variant of the Meslo LG font"
+  desc "Meslo lg dz font"
   homepage "https://github.com/andreberg/Meslo-Font"
   url "https://github.com/andreberg/Meslo-Font/raw/master/dist/v1.2.1/Meslo%20LG%20DZ%20v1.2.1.zip"
   version "1.2.1"
