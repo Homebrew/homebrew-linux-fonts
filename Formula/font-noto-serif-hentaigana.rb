@@ -1,5 +1,5 @@
 class FontNotoSerifHentaigana < Formula
-  desc "Font that contains symbols for the kana supplement unicode block"
+  desc "Noto serif hentaigana font"
   homepage "https://github.com/notofonts/hentaigana.git"
   head "https://github.com/google/fonts/raw/main/ofl/notoserifhentaigana/NotoSerifHentaigana%5Bwght%5D.ttf"
 
