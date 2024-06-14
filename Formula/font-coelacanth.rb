@@ -1,5 +1,5 @@
 class FontCoelacanth < Formula
-  desc "Serif typeface inspired by Bruce Rogers' Centaur"
+  desc "Coelacanth font"
   homepage "https://github.com/Fuzzypeg/Coelacanth"
   url "https://github.com/Fuzzypeg/Coelacanth/raw/master/release/coelacanth_v0.008.zip"
   version "0.008"
