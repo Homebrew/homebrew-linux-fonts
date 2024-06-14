@@ -1,5 +1,5 @@
 class FontKaiso < Formula
-  desc "Modern fantasize Japanese font"
+  desc "Kaiso font"
   homepage "https://moji-waku.com/kaiso/index.html"
   head "https://moji-waku.com/download/kaiso_next.zip"
 
