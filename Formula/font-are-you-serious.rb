@@ -1,5 +1,5 @@
 class FontAreYouSerious < Formula
-  desc "Fun playful font with a very joyful spirit"
+  desc "Are you serious font"
   homepage "https://fonts.google.com/specimen/Are+You+Serious"
   head "https://github.com/google/fonts/raw/main/ofl/areyouserious/AreYouSerious-Regular.ttf",
        verified: "github.com/google/fonts/"
