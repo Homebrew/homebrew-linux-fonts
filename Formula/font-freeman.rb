@@ -1,5 +1,5 @@
 class FontFreeman < Formula
-  desc "Re-interpretation of the traditional display sans serif gothic typeface"
+  desc "Freeman font"
   homepage "https://fonts.google.com/specimen/Freeman"
   head "https://github.com/google/fonts/raw/main/ofl/freeman/Freeman-Regular.ttf",
        verified: "github.com/google/fonts/"
