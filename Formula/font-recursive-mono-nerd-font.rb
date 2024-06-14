@@ -1,5 +1,5 @@
 class FontRecursiveMonoNerdFont < Formula
-  desc "Developer targeted fonts with a high number of glyphs"
+  desc "Recmono nerd font families (recursive mono) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Recursive.zip"
   version "3.2.1"
