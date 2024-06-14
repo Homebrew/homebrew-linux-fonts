@@ -1,5 +1,5 @@
 class FontCharisSil < Formula
-  desc "Unicode-based font family supporting languages using Latin and Cyrillic scripts"
+  desc "Charis sil font"
   homepage "https://software.sil.org/charis/"
   url "https://software.sil.org/downloads/r/charis/CharisSIL-6.200.zip"
   version "6.200"
