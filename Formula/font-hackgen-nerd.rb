@@ -1,5 +1,5 @@
 class FontHackgenNerd < Formula
-  desc "Japanese programming font which is a composed of Hack and GenJyuu-Gothic"
+  desc "Hackgennerd font"
   homepage "https://github.com/yuru7/HackGen"
   url "https://github.com/yuru7/HackGen/releases/download/v2.9.0/HackGen_NF_v2.9.0.zip"
   version "2.9.0"
