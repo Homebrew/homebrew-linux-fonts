@@ -1,5 +1,5 @@
 class FontBonaNova < Formula
-  desc "Cursive typeface"
+  desc "Bona nova font"
   homepage "https://fonts.google.com/specimen/Bona+Nova"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
