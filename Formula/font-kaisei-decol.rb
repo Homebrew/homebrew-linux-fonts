@@ -1,5 +1,5 @@
 class FontKaiseiDecol < Formula
-  desc "Designed with the same element in kanji, the little dot at the end of the stroke"
+  desc "Kaisei decol font"
   homepage "https://fonts.google.com/specimen/Kaisei+Decol"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
