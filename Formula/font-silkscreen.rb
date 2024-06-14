@@ -1,5 +1,5 @@
 class FontSilkscreen < Formula
-  desc "Typeface for your web graphics"
+  desc "Silkscreen font"
   homepage "https://fonts.google.com/specimen/Silkscreen"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
