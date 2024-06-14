@@ -1,5 +1,5 @@
 class FontFraunces < Formula
-  desc "Variable font with four axes"
+  desc "Fraunces font"
   homepage "https://fonts.google.com/specimen/Fraunces"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
