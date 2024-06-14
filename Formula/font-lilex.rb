@@ -1,5 +1,5 @@
 class FontLilex < Formula
-  desc "Programming font"
+  desc "Lilex font"
   homepage "https://github.com/mishamyrt/Lilex"
   url "https://github.com/mishamyrt/Lilex/releases/download/2.510/Lilex.zip"
   version "2.510"
