@@ -1,5 +1,5 @@
 class FontPuppiesPlay < Formula
-  desc "Fun, bouncy script with connectors that give a playful flow"
+  desc "Puppies play font"
   homepage "https://fonts.google.com/specimen/Puppies+Play"
   head "https://github.com/google/fonts/raw/main/ofl/puppiesplay/PuppiesPlay-Regular.ttf",
        verified: "github.com/google/fonts/"
