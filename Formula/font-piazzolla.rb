@@ -1,5 +1,5 @@
 class FontPiazzolla < Formula
-  desc "Serif font family for media"
+  desc "Piazzolla font"
   homepage "https://fonts.google.com/specimen/Piazzolla"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
