@@ -1,5 +1,5 @@
 class FontTwilioSansMono < Formula
-  desc "Programming font"
+  desc "Twilio sans mono font"
   homepage "https://github.com/twilio/twilio-sans-mono"
   head "https://github.com/twilio/twilio-sans-mono/raw/main/Twilio-Sans-Mono.zip"
 
