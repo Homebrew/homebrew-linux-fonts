@@ -1,5 +1,5 @@
 class FontCommitMono < Formula
-  desc "Neutral programming typeface"
+  desc "Commit mono font"
   homepage "https://commitmono.com/"
   url "https://github.com/eigilnikolajsen/commit-mono/releases/download/v1.143/CommitMono-1.143.zip",
        verified: "github.com/eigilnikolajsen/commit-mono/"
