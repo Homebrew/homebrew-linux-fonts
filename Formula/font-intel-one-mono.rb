@@ -1,5 +1,5 @@
 class FontIntelOneMono < Formula
-  desc "Expressive monospaced font family"
+  desc "Font-intel-one-mono font"
   homepage "https://github.com/intel/intel-one-mono"
   url "https://github.com/intel/intel-one-mono/releases/download/V1.3.0/otf.zip"
   version "1.3.0"
