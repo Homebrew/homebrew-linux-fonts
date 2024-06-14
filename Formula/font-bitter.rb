@@ -1,5 +1,5 @@
 class FontBitter < Formula
-  desc "Slab-serif typeface optimized for e-ink screens"
+  desc "Bitter font"
   homepage "https://fonts.google.com/specimen/Bitter"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
