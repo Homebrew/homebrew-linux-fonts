@@ -1,5 +1,5 @@
 class FontOjuju < Formula
-  desc "Distinct with varying apertures as it moves from extra-light to bold"
+  desc "Ojuju font"
   homepage "https://fonts.google.com/specimen/Ojuju"
   head "https://github.com/google/fonts/raw/main/ofl/ojuju/Ojuju%5Bwght%5D.ttf",
        verified: "github.com/google/fonts/"
