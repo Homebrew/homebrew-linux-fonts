@@ -1,5 +1,5 @@
 class FontZhudouSans < Formula
-  desc "CJK symbols and punctuation derived from Noto Sans"
+  desc "Zhudou sans font"
   homepage "https://github.com/Buernia/Zhudou-Sans"
   url "https://github.com/Buernia/Zhudou-Sans/releases/download/v2.000/Zhudou.Sans.zip"
   version "2.000"
