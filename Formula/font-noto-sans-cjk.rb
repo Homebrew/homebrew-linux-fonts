@@ -1,5 +1,5 @@
 class FontNotoSansCjk < Formula
-  desc "Static Super OTC"
+  desc "Noto sans cjk font"
   homepage "https://github.com/notofonts/noto-cjk/tree/main/Sans"
   url "https://github.com/notofonts/noto-cjk/releases/download/Sans2.004/00_NotoSansCJK.ttc.zip"
   version "2.004"
