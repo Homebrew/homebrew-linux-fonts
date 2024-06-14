@@ -1,5 +1,5 @@
 class FontIbmPlex < Formula
-  desc "Corporate typeface for IBM"
+  desc "Ibm plex font"
   homepage "https://github.com/IBM/plex"
   url "https://github.com/IBM/plex/archive/refs/tags/v6.4.1.zip"
   version "6.4.1"
