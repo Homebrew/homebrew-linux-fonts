@@ -1,5 +1,5 @@
 class FontExplora < Formula
-  desc "Beautiful calligraphic typeface with swash forms"
+  desc "Explora font"
   homepage "https://fonts.google.com/specimen/Explora"
   head "https://github.com/google/fonts/raw/main/ofl/explora/Explora-Regular.ttf",
        verified: "github.com/google/fonts/"
