@@ -1,5 +1,5 @@
 class FontAnybody < Formula
-  desc "10 degrees, noticable but subtle"
+  desc "Anybody font"
   homepage "https://fonts.google.com/specimen/Anybody"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
