@@ -1,5 +1,5 @@
 class FontStickNoBills < Formula
-  desc "Stencil style typeface supporting Sinhala and Latin scripts"
+  desc "Stick no bills font"
   homepage "https://fonts.google.com/specimen/Stick+No+Bills"
   head "https://github.com/google/fonts/raw/main/ofl/sticknobills/StickNoBills%5Bwght%5D.ttf",
        verified: "github.com/google/fonts/"
