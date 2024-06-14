@@ -1,5 +1,5 @@
 class FontHasklig < Formula
-  desc "Code font with monospaced ligatures"
+  desc "Hasklig font"
   homepage "https://github.com/i-tu/Hasklig"
   url "https://github.com/i-tu/Hasklig/releases/download/v1.2/Hasklig-1.2.zip"
   version "1.2"
