@@ -1,5 +1,5 @@
 class FontBorel < Formula
-  desc "French cursive primer"
+  desc "Borel font"
   homepage "https://fonts.google.com/specimen/Borel"
   head "https://github.com/google/fonts/raw/main/ofl/borel/Borel-Regular.ttf",
        verified: "github.com/google/fonts/"
