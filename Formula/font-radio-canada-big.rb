@@ -1,5 +1,5 @@
 class FontRadioCanadaBig < Formula
-  desc "Variable font with a weight axis that spans from regular (400) to bold (700)"
+  desc "Radio canada big font"
   homepage "https://fonts.google.com/specimen/Radio+Canada+Big"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
