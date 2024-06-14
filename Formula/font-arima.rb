@@ -1,5 +1,5 @@
 class FontArima < Formula
-  desc "Led by ndiscover, a type design foundry based in portugal"
+  desc "Arima font"
   homepage "https://fonts.google.com/specimen/Arima"
   head "https://github.com/google/fonts/raw/main/ofl/arima/Arima%5Bwght%5D.ttf",
        verified: "github.com/google/fonts/"
