@@ -1,5 +1,5 @@
 class FontPottaOne < Formula
-  desc "Single style font family featuring letterforms inspired by brush lettering"
+  desc "Potta one font"
   homepage "https://fonts.google.com/specimen/Potta+One"
   head "https://github.com/google/fonts/raw/main/ofl/pottaone/PottaOne-Regular.ttf",
        verified: "github.com/google/fonts/"
