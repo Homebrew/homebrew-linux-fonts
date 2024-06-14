@@ -1,5 +1,5 @@
 class FontRuwudu < Formula
-  desc "Open font family for arabic script languages that use the rubutun kano style"
+  desc "Ruwudu font"
   homepage "https://fonts.google.com/specimen/Ruwudu"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
