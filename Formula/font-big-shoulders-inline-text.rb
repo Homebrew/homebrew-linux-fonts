@@ -1,5 +1,5 @@
 class FontBigShouldersInlineText < Formula
-  desc "Superfamily of condensed American Gothic typefaces"
+  desc "Big shoulders inline text font"
   homepage "https://fonts.google.com/specimen/Big+Shoulders+Inline+Text"
   head "https://github.com/google/fonts/raw/main/ofl/bigshouldersinlinetext/BigShouldersInlineText%5Bwght%5D.ttf",
        verified: "github.com/google/fonts/"
