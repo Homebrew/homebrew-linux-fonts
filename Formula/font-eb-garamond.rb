@@ -1,5 +1,5 @@
 class FontEbGaramond < Formula
-  desc "Garamond typeface based on the 1592 Berner specimen"
+  desc "Eb garamond font"
   homepage "https://github.com/georgd/EB-Garamond"
   url "https://bitbucket.org/georgd/eb-garamond/downloads/EBGaramond-0.016.zip",
        verified: "bitbucket.org/georgd/eb-garamond/"
