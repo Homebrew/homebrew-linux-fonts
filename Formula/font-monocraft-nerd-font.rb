@@ -1,5 +1,5 @@
 class FontMonocraftNerdFont < Formula
-  desc "Monospaced font inspired by the Minecraft typeface patched to add Nerd glyphs"
+  desc "Monocraft with nerd glyphs font"
   homepage "https://github.com/IdreesInc/Monocraft"
   url "https://github.com/IdreesInc/Monocraft/releases/download/v3.0/Monocraft-nerd-fonts-patched.ttf"
   version "3.0"
