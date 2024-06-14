@@ -1,5 +1,5 @@
 class FontNarnoor < Formula
-  desc "Actively being revived"
+  desc "Narnoor font"
   homepage "https://fonts.google.com/specimen/Narnoor"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
