@@ -1,5 +1,5 @@
 class FontMakinas4 < Formula
-  desc "Emotionless straight-line-shape font"
+  desc "Makinas 4 font"
   homepage "https://moji-waku.com/makinas/index.html"
   head "https://moji-waku.com/download/makinas4.zip"
 
