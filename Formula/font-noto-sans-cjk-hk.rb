@@ -1,5 +1,5 @@
 class FontNotoSansCjkHk < Formula
-  desc "Language Specific OTFs Traditional Chinese — Hong Kong (繁體中文—香港)"
+  desc "Noto sans cjk hk font"
   homepage "https://github.com/notofonts/noto-cjk/tree/main/Sans"
   url "https://github.com/notofonts/noto-cjk/releases/download/Sans2.004/10_NotoSansCJKhk.zip"
   version "2.004"
