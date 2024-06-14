@@ -1,5 +1,5 @@
 class FontAnnapurnaSil < Formula
-  desc "Unicode-based font with support for systems that use the devanagari script"
+  desc "Annapurna sil font"
   homepage "https://fonts.google.com/specimen/Annapurna+SIL"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
