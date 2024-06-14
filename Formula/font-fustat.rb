@@ -1,5 +1,5 @@
 class FontFustat < Formula
-  desc "Modern typeface inspired by traditional Kufic script"
+  desc "Fustat font"
   homepage "https://github.com/Kief-Type-Foundry/Fustat"
   head "https://github.com/google/fonts/raw/main/ofl/fustat/Fustat%5Bwght%5D.ttf"
 
