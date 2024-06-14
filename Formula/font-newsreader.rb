@@ -1,5 +1,5 @@
 class FontNewsreader < Formula
-  desc "Original typeface primarily intended for continuous on-screen reading"
+  desc "Newsreader font"
   homepage "https://fonts.google.com/specimen/Newsreader"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
