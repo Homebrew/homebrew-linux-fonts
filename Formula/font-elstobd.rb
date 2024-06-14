@@ -1,5 +1,5 @@
 class FontElstobd < Formula
-  desc "Variable font for medievalists"
+  desc "Elstobd font"
   homepage "https://github.com/psb1558/Elstob-font"
   url "https://github.com/psb1558/Elstob-font/releases/download/v2.104/Elstob_2.104.zip"
   version "2.104"
