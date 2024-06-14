@@ -1,5 +1,5 @@
 class FontSyne < Formula
-  desc "Typeface originally designed for the art center Synesthésie"
+  desc "Syne font"
   homepage "https://fonts.google.com/specimen/Syne"
   head "https://github.com/google/fonts/raw/main/ofl/syne/Syne%5Bwght%5D.ttf",
        verified: "github.com/google/fonts/"
