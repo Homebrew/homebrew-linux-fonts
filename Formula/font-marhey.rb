@@ -1,5 +1,5 @@
 class FontMarhey < Formula
-  desc "Playful display typeface, custom hand lettering with contrast strokes"
+  desc "Marhey font"
   homepage "https://fonts.google.com/specimen/Marhey"
   head "https://github.com/google/fonts/raw/main/ofl/marhey/Marhey%5Bwght%5D.ttf",
        verified: "github.com/google/fonts/"
