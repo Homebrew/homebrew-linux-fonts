@@ -1,5 +1,5 @@
 class FontNotoSansPhagspa < Formula
-  desc "Sans-serif for texts in the historical central asian phags-pa script"
+  desc "Noto sans phagspa font"
   homepage "https://github.com/notofonts/phags-pa.git"
   head "https://github.com/google/fonts/raw/main/ofl/notosansphagspa/NotoSansPhagsPa-Regular.ttf"
 
