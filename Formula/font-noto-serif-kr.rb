@@ -1,5 +1,5 @@
 class FontNotoSerifKr < Formula
-  desc "Modulated (“serif”) design for the korean language"
+  desc "Noto serif kr font"
   homepage "https://fonts.google.com/specimen/Noto+Serif+KR"
   head "https://github.com/google/fonts/raw/main/ofl/notoserifkr/NotoSerifKR%5Bwght%5D.ttf",
        verified: "github.com/google/fonts/"
