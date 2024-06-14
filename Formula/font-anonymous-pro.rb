@@ -1,5 +1,5 @@
 class FontAnonymousPro < Formula
-  desc "Programming font"
+  desc "Anonymous pro font"
   homepage "https://www.marksimonson.com/fonts/view/anonymous-pro"
   url "https://www.marksimonson.com/assets/content/fonts/AnonymousPro-1_002.zip"
   version "1.002"
