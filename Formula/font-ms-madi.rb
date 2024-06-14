@@ -1,5 +1,5 @@
 class FontMsMadi < Formula
-  desc "Never a good idea to use this font in all capital letters"
+  desc "Ms madi font"
   homepage "https://fonts.google.com/specimen/Ms+Madi"
   head "https://github.com/google/fonts/raw/main/ofl/msmadi/MsMadi-Regular.ttf",
        verified: "github.com/google/fonts/"
