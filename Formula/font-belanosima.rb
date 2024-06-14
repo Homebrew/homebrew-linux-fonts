@@ -1,5 +1,5 @@
 class FontBelanosima < Formula
-  desc "Inspired by geometric sans serif designs from the 1920s"
+  desc "Belanosima font"
   homepage "https://fonts.google.com/specimen/Belanosima"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
