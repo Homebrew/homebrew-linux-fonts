@@ -1,5 +1,5 @@
 class FontTengwarTelcontar < Formula
-  desc "Tengwar Telcontar - a Unicode Tengwar font"
+  desc "Tengwar telcontar font"
   homepage "https://freetengwar.sourceforge.net/tengtelc.html"
   url "https://downloads.sourceforge.net/freetengwar/TengwarTelcontar.008.zip"
   version "008"
