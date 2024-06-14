@@ -1,5 +1,5 @@
 class FontPlangothic < Formula
-  desc "Plangothic is a sans-serif font that covers CJK Unified Ideographs"
+  desc "Plangothic font"
   homepage "https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic-Project"
   url "https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic-Project/archive/refs/tags/V1.8.5760.zip"
   version "1.8.5760"
