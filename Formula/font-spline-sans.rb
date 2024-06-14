@@ -1,5 +1,5 @@
 class FontSplineSans < Formula
-  desc "Original typeface initiated by the spline team"
+  desc "Spline sans font"
   homepage "https://fonts.google.com/specimen/Spline+Sans"
   head "https://github.com/google/fonts/raw/main/ofl/splinesans/SplineSans%5Bwght%5D.ttf",
        verified: "github.com/google/fonts/"
