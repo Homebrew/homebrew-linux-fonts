@@ -1,5 +1,5 @@
 class FontFuggles < Formula
-  desc "Powerful script that can be used for sophisticated commercial design"
+  desc "Fuggles font"
   homepage "https://fonts.google.com/specimen/Fuggles"
   head "https://github.com/google/fonts/raw/main/ofl/fuggles/Fuggles-Regular.ttf",
        verified: "github.com/google/fonts/"
