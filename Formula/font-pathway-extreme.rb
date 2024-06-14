@@ -1,5 +1,5 @@
 class FontPathwayExtreme < Formula
-  desc "Very popular historic typographic style"
+  desc "Pathway extreme font"
   homepage "https://fonts.google.com/specimen/Pathway+Extreme"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
