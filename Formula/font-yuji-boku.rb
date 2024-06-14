@@ -1,5 +1,5 @@
 class FontYujiBoku < Formula
-  desc "New and joyful design"
+  desc "Yuji boku font"
   homepage "https://fonts.google.com/specimen/Yuji+Boku"
   head "https://github.com/google/fonts/raw/main/ofl/yujiboku/YujiBoku-Regular.ttf",
        verified: "github.com/google/fonts/"
