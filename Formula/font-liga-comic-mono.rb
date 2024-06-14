@@ -1,5 +1,5 @@
 class FontLigaComicMono < Formula
-  desc "Legible monospace font with programming ligatures"
+  desc "Liga comic mono font"
   homepage "https://github.com/wayou/comic-mono-font"
   head "https://codeload.github.com/wayou/comic-mono-font/zip/master"
 
