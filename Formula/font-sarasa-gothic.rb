@@ -1,5 +1,5 @@
 class FontSarasaGothic < Formula
-  desc "CJK programming font based on Iosevka and Source Han Sans"
+  desc "Sarasa gothic font"
   homepage "https://github.com/be5invis/Sarasa-Gothic"
   url "https://github.com/be5invis/Sarasa-Gothic/releases/download/v1.0.13/Sarasa-TTC-1.0.13.7z"
   version "1.0.13"
