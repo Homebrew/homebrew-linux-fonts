@@ -1,5 +1,5 @@
 class FontDavidLibre < Formula
-  desc "Led by meir sadan, a type designer based in tel aviv, israel"
+  desc "David libre font"
   homepage "https://fonts.google.com/specimen/David+Libre"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
