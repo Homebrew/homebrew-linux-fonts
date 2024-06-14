@@ -1,5 +1,5 @@
 class FontTiroGurmukhi < Formula
-  desc "Reintroduces stroke modulation of traditional Punjabi manuscript"
+  desc "Tiro gurmukhi font"
   homepage "https://fonts.google.com/specimen/Tiro+Gurmukhi"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
