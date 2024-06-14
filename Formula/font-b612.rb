@@ -1,5 +1,5 @@
 class FontB612 < Formula
-  desc "Font designed and tested to be used on aircraft cockpit screens"
+  desc "B612 font"
   homepage "https://b612-font.com/"
   url "https://github.com/polarsys/b612/archive/refs/tags/1.008.zip",
        verified: "github.com/polarsys/b612/"
