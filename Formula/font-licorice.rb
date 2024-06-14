@@ -1,5 +1,5 @@
 class FontLicorice < Formula
-  desc "Perfect scrapbooking, cards, invitations and fun events"
+  desc "Licorice font"
   homepage "https://fonts.google.com/specimen/Licorice"
   head "https://github.com/google/fonts/raw/main/ofl/licorice/Licorice-Regular.ttf",
        verified: "github.com/google/fonts/"
