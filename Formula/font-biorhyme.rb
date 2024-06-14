@@ -1,5 +1,5 @@
 class FontBiorhyme < Formula
-  desc "Latin typeface family"
+  desc "Biorhyme font"
   homepage "https://fonts.google.com/specimen/BioRhyme"
   head "https://github.com/google/fonts/raw/main/ofl/biorhyme/BioRhyme%5Bwdth%2Cwght%5D.ttf",
        verified: "github.com/google/fonts/"
