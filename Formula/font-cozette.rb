@@ -1,5 +1,5 @@
 class FontCozette < Formula
-  desc "Bitmap programming font"
+  desc "Cozette font"
   homepage "https://github.com/slavfox/Cozette"
   url "https://github.com/slavfox/Cozette/releases/download/v.1.24.1/CozetteVector.dfont"
   version "1.24.1"
