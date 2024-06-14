@@ -1,5 +1,5 @@
 class FontTsukimiRounded < Formula
-  desc "Sans-serif typeface with rounded terminals"
+  desc "Tsukimi rounded font"
   homepage "https://fonts.google.com/specimen/Tsukimi+Rounded"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
