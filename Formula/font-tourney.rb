@@ -1,5 +1,5 @@
 class FontTourney < Formula
-  desc "Completely solid"
+  desc "Tourney font"
   homepage "https://fonts.google.com/specimen/Tourney"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
