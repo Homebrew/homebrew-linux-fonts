@@ -1,5 +1,5 @@
 class FontFreeMonoTengwar < Formula
-  desc "Unicode tengwar monospaced font"
+  desc "Freemonotengwar font"
   homepage "https://freetengwar.sourceforge.net/freemonotengwar.html"
   url "https://downloads.sourceforge.net/freetengwar/FreeMonoTengwar.2013-07-21.zip"
   version "2013-07-21"
