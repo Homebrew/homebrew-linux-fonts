@@ -1,5 +1,5 @@
 class FontSfCompact < Formula
-  desc "Compact variant of \"San Francisco\" by Apple"
+  desc "San francisco compact font"
   homepage "https://developer.apple.com/fonts/"
   head "https://devimages-cdn.apple.com/design/resources/download/SF-Compact.dmg"
 
