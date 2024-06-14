@@ -1,5 +1,5 @@
 class FontMingzat < Formula
-  desc "Unicode font based on jason glavy's jg lepcha custom-encoded font"
+  desc "Mingzat font"
   homepage "https://fonts.google.com/specimen/Mingzat"
   head "https://github.com/google/fonts/raw/main/ofl/mingzat/Mingzat-Regular.ttf",
        verified: "github.com/google/fonts/"
