@@ -1,5 +1,5 @@
 class FontMartianMono < Formula
-  desc "Monospaced font from Evil Martians"
+  desc "Martian mono font"
   homepage "https://github.com/evilmartians/mono"
   url "https://github.com/evilmartians/mono/releases/download/v1.0.0/martian-mono-1.0.0-otf.zip"
   version "1.0.0"
