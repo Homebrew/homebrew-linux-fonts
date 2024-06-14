@@ -1,5 +1,5 @@
 class FontStix < Formula
-  desc "Unicode fonts for scientific, technical, and mathematical texts"
+  desc "Stix font"
   homepage "https://stixfonts.org/"
   url "https://github.com/stipub/stixfonts/archive/v2.13.tar.gz",
        verified: "github.com/stipub/stixfonts/"
