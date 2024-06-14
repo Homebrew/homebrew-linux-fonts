@@ -1,5 +1,5 @@
 class FontAgdasima < Formula
-  desc "Based on big shoulders, a condensed american gothic sans-serif font family"
+  desc "Agdasima font"
   homepage "https://fonts.google.com/specimen/Agdasima"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
