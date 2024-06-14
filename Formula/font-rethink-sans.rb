@@ -1,5 +1,5 @@
 class FontRethinkSans < Formula
-  desc "Sans-serif type family"
+  desc "Rethink sans font"
   homepage "https://fonts.google.com/specimen/Rethink+Sans"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
