@@ -1,5 +1,5 @@
 class FontAboreto < Formula
-  desc "On the thinner side"
+  desc "Aboreto font"
   homepage "https://fonts.google.com/specimen/Aboreto"
   head "https://github.com/google/fonts/raw/main/ofl/aboreto/Aboreto-Regular.ttf",
        verified: "github.com/google/fonts/"
