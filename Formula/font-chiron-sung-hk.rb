@@ -1,5 +1,5 @@
 class FontChironSungHk < Formula
-  desc "Modern, region-agnostic traditional Chinese serif typeface"
+  desc "Chiron sung hk font"
   homepage "https://github.com/chiron-fonts/chiron-sung-hk"
   url "https://github.com/chiron-fonts/chiron-sung-hk/archive/refs/tags/v1.011.zip"
   version "1.011"
