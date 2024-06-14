@@ -1,5 +1,5 @@
 class FontBakbakOne < Formula
-  desc "Render anything from a warning to a mockery"
+  desc "Bakbak one font"
   homepage "https://fonts.google.com/specimen/Bakbak+One"
   head "https://github.com/google/fonts/raw/main/ofl/bakbakone/BakbakOne-Regular.ttf",
        verified: "github.com/google/fonts/"
