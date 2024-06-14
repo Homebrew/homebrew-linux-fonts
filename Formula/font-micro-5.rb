@@ -1,5 +1,5 @@
 class FontMicro5 < Formula
-  desc "Teeny-tiny typeface that can fit anywhere on your project"
+  desc "Micro 5 font"
   homepage "https://fonts.google.com/specimen/Micro+5"
   head "https://github.com/google/fonts/raw/main/ofl/micro5/Micro5-Regular.ttf",
        verified: "github.com/google/fonts/"
