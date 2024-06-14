@@ -1,5 +1,5 @@
 class FontAndika < Formula
-  desc "Sans-serif font family designed and optimized for literacy use"
+  desc "Andika font"
   homepage "https://software.sil.org/andika/"
   url "https://software.sil.org/downloads/r/andika/Andika-6.200.zip"
   version "6.200"
