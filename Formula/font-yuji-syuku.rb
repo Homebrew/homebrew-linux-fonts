@@ -1,5 +1,5 @@
 class FontYujiSyuku < Formula
-  desc "Also approachable"
+  desc "Yuji syuku font"
   homepage "https://fonts.google.com/specimen/Yuji+Syuku"
   head "https://github.com/google/fonts/raw/main/ofl/yujisyuku/YujiSyuku-Regular.ttf",
        verified: "github.com/google/fonts/"
