@@ -1,5 +1,5 @@
 class FontAntonSc < Formula
-  desc "Small caps version of anton"
+  desc "Anton sc font"
   homepage "https://github.com/googlefonts/AntonFont"
   head "https://github.com/google/fonts/raw/main/ofl/antonsc/AntonSC-Regular.ttf"
 
