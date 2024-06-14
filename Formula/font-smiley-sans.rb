@@ -1,5 +1,5 @@
 class FontSmileySans < Formula
-  desc "Chinese typeface seeking a visual balance between the humanist and the geometric"
+  desc "Smiley sans font"
   homepage "https://atelier-anchor.com/typefaces/smiley-sans/"
   url "https://github.com/atelier-anchor/smiley-sans/releases/download/v2.0.1/smiley-sans-v2.0.1.zip",
        verified: "github.com/atelier-anchor/smiley-sans/"
