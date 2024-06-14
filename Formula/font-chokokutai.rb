@@ -1,5 +1,5 @@
 class FontChokokutai < Formula
-  desc "Japanese display font whose characters have a funky appearance"
+  desc "Chokokutai font"
   homepage "https://fonts.google.com/specimen/Chokokutai"
   head "https://github.com/google/fonts/raw/main/ofl/chokokutai/Chokokutai-Regular.ttf",
        verified: "github.com/google/fonts/"
