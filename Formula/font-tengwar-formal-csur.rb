@@ -1,5 +1,5 @@
 class FontTengwarFormalCsur < Formula
-  desc "Tengwar Unicode font compliant with CSUR"
+  desc "Tengwar formal csur font"
   homepage "https://freetengwar.sourceforge.net/formal.html"
   url "https://downloads.sourceforge.net/freetengwar/TengwarFormalCSUR11.zip"
   version "11"
