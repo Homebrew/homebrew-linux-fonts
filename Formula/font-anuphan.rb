@@ -1,5 +1,5 @@
 class FontAnuphan < Formula
-  desc "Not a modification of ibm plex sans thai"
+  desc "Anuphan font"
   homepage "https://fonts.google.com/specimen/Anuphan"
   head "https://github.com/google/fonts/raw/main/ofl/anuphan/Anuphan%5Bwght%5D.ttf",
        verified: "github.com/google/fonts/"
