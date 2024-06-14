@@ -1,5 +1,5 @@
 class FontGentiumBookPlus < Formula
-  desc "New version of the reduced character set families, gentium book basic"
+  desc "Gentium book plus font"
   homepage "https://fonts.google.com/specimen/Gentium+Book+Plus"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
