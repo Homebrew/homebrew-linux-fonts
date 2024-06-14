@@ -1,5 +1,5 @@
 class FontPlatypi < Formula
-  desc "Platypuses"
+  desc "Platypi font"
   homepage "https://fonts.google.com/specimen/Platypi"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
