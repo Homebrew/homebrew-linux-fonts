@@ -1,5 +1,5 @@
 class FontDelugiaBook < Formula
-  desc "Cascadia Code + Nerd Fonts, minor difference between Caskaydia Cove Nerd Font"
+  desc "Delugia code font"
   homepage "https://github.com/adam7/delugia-code"
   url "https://github.com/adam7/delugia-code/releases/download/v2404.23/delugia-book.zip"
   version "2404.23"
