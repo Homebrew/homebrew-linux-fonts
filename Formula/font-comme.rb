@@ -1,5 +1,5 @@
 class FontComme < Formula
-  desc "Variable, with a weight axis ranging from thin to black"
+  desc "Comme font"
   homepage "https://fonts.google.com/specimen/Comme"
   head "https://github.com/google/fonts/raw/main/ofl/comme/Comme%5Bwght%5D.ttf",
        verified: "github.com/google/fonts/"
