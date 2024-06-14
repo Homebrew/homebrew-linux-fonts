@@ -1,5 +1,5 @@
 class FontLavishlyYours < Formula
-  desc "Charming calligraphic script"
+  desc "Lavishly yours font"
   homepage "https://fonts.google.com/specimen/Lavishly+Yours"
   head "https://github.com/google/fonts/raw/main/ofl/lavishlyyours/LavishlyYours-Regular.ttf",
        verified: "github.com/google/fonts/"
