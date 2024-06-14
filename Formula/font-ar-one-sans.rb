@@ -1,5 +1,5 @@
 class FontArOneSans < Formula
-  desc "Type family is for use in augmented reality environments and user interfaces"
+  desc "Ar one sans font"
   homepage "https://fonts.google.com/specimen/AR+One+Sans"
   head "https://github.com/google/fonts/raw/main/ofl/aronesans/AROneSans%5BARRR%2Cwght%5D.ttf",
        verified: "github.com/google/fonts/"
