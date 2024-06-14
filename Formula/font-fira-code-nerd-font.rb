@@ -1,5 +1,5 @@
 class FontFiraCodeNerdFont < Formula
-  desc "Developer targeted fonts with a high number of glyphs"
+  desc "Firacode nerd font (fira code) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/FiraCode.zip"
   version "3.2.1"
