@@ -1,5 +1,5 @@
 class FontNotoSansKr < Formula
-  desc "Unmodulated (“sans serif”) design for the korean language"
+  desc "Noto sans kr font"
   homepage "https://fonts.google.com/specimen/Noto+Sans+KR"
   head "https://github.com/google/fonts/raw/main/ofl/notosanskr/NotoSansKR%5Bwght%5D.ttf",
        verified: "github.com/google/fonts/"
