@@ -1,5 +1,5 @@
 class FontBenne < Formula
-  desc "Kannada text font developed by john harrington"
+  desc "Benne font"
   homepage "https://fonts.google.com/specimen/Benne"
   head "https://github.com/google/fonts/raw/main/ofl/benne/Benne-Regular.ttf",
        verified: "github.com/google/fonts/"
