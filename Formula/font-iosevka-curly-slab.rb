@@ -1,9 +1,9 @@
 class FontIosevkaCurlySlab < Formula
   desc "Iosevka curly slab font"
   homepage "https://github.com/be5invis/Iosevka/"
-  url "https://github.com/be5invis/Iosevka/releases/download/v30.1.2/PkgTTC-IosevkaCurlySlab-30.1.2.zip"
-  version "30.1.2"
-  sha256 "6b88b7ab276869120c80eb44f5970981410b79bc38b470500f85da796a5e327b"
+  url "https://github.com/be5invis/Iosevka/releases/download/v30.2.0/PkgTTC-IosevkaCurlySlab-30.2.0.zip"
+  version "30.2.0"
+  sha256 "087d6f0e7bbbdbee6947ffc04b9e6338af61713d42f77a52d49cda4484d4a840"
 
   def install
     (share/"fonts").install Dir.glob("./**/IosevkaCurlySlab-Thin.ttc")[0]
