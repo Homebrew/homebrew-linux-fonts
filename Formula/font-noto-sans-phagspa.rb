@@ -1,6 +1,6 @@
 class FontNotoSansPhagspa < Formula
   desc "Noto sans phagspa font"
-  homepage "https://github.com/notofonts/phags-pa.git"
+  homepage "https://github.com/notofonts/phags-pa"
   head "https://github.com/google/fonts/raw/main/ofl/notosansphagspa/NotoSansPhagsPa-Regular.ttf"
 
   def install
