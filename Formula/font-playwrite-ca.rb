@@ -1,7 +1,8 @@
 class FontPlaywriteCa < Formula
   desc "Playwrite ca font"
-  homepage "https://github.com/TypeTogether/Playwrite"
-  head "https://github.com/google/fonts/raw/main/ofl/playwriteca/PlaywriteCA%5Bwght%5D.ttf"
+  homepage "https://fonts.google.com/specimen/Playwrite+CA"
+  head "https://github.com/google/fonts/raw/main/ofl/playwriteca/PlaywriteCA%5Bwght%5D.ttf",
+       verified: "github.com/google/fonts/"
 
   def install
     (share/"fonts").install Dir.glob("./**/PlaywriteCA[wght].ttf")[0]
