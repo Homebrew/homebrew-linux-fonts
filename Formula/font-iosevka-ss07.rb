@@ -1,9 +1,9 @@
 class FontIosevkaSs07 < Formula
   desc "Iosevka ss07 font"
   homepage "https://github.com/be5invis/Iosevka/"
-  url "https://github.com/be5invis/Iosevka/releases/download/v30.2.0/PkgTTC-IosevkaSS07-30.2.0.zip"
-  version "30.2.0"
-  sha256 "a16010228391c962cbf789c00ec9a3efed899963b0616621cd4cc7125926d50e"
+  url "https://github.com/be5invis/Iosevka/releases/download/v30.3.0/PkgTTC-IosevkaSS07-30.3.0.zip"
+  version "30.3.0"
+  sha256 "adaaf53991e1e2c31b414e91ad0aadb92b7acbba08e5f7f92be4f0c8fc22ee43"
 
   def install
     (share/"fonts").install Dir.glob("./**/IosevkaSS07-Thin.ttc")[0]
