@@ -1,7 +1,7 @@
 class FontLibreCaslonText < Formula
   desc "Libre caslon text font"
   homepage "https://github.com/impallari/Libre-Caslon-Text/"
-  head "https://github.com/impallari/Libre-Caslon-Text/archive/master.zip"
+  head "https://github.com/impallari/Libre-Caslon-Text/archive/refs/heads/master.tar.gz"
 
   def install
     (share/"fonts").install Dir.glob("./**/Libre-Caslon-Text-master/fonts/OTF/LibreCaslonText-Bold.otf")[0]
