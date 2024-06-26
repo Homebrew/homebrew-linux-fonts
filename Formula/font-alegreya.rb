@@ -1,9 +1,9 @@
 class FontAlegreya < Formula
   desc "Alegreya font"
   homepage "https://github.com/huertatipografica/Alegreya"
-  url "https://github.com/huertatipografica/Alegreya/archive/v2.008.zip"
+  url "https://github.com/huertatipografica/Alegreya/archive/refs/tags/v2.008.tar.gz"
   version "2.008"
-  sha256 "8a10cae2b660b048c53e9be1612698b86ed123a284f9f9d17cc9a4a45388650a"
+  sha256 "44dacbe3c4b60c203b1d60f0a55ebf6c139823f83fd234f9b078ece7cb15676e"
 
   def install
     (share/"fonts").install Dir.glob("./**/Alegreya-2.008/fonts/otf/AlegreyaSC-Regular.otf")[0]
