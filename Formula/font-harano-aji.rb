@@ -1,9 +1,9 @@
 class FontHaranoAji < Formula
   desc "Harano aji font"
   homepage "https://github.com/trueroad/HaranoAjiFonts"
-  url "https://github.com/trueroad/HaranoAjiFonts/archive/refs/tags/20231009.zip"
+  url "https://github.com/trueroad/HaranoAjiFonts/archive/refs/tags/20231009.tar.gz"
   version "20231009"
-  sha256 "27f3e553ca324fce689cc86634fcda190b4c5106cc1eaecc5a3c18ff5d16785e"
+  sha256 "fdfb27096b5ca3f2325cfcb676af9ed0fb84272c5b8223463c90ebd3a93bce7b"
 
   def install
     (share/"fonts").install Dir.glob("./**/HaranoAjiFonts-20231009/HaranoAjiMincho-SemiBold.otf")[0]
