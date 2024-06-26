@@ -1,7 +1,7 @@
 class FontFirago < Formula
   desc "Firago font"
   homepage "https://bboxtype.com/typefaces/FiraGO/"
-  url "https://github.com/bBoxType/FiraGO/archive/1.000.tar.gz",
+  url "https://github.com/bBoxType/FiraGO/archive/refs/tags/1.000.tar.gz",
        verified: "github.com/bBoxType/FiraGO/"
   version "1.000"
   sha256 "b2f97f1ee02921ca1776903fa0e6f1358b017bf854c0e8776b6b8512e3c9d4a1"
