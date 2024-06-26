@@ -1,7 +1,7 @@
 class FontFiraSans < Formula
   desc "Fira sans font"
   homepage "https://mozilla.github.io/Fira/"
-  url "https://github.com/mozilla/Fira/archive/4.202.tar.gz",
+  url "https://github.com/mozilla/Fira/archive/refs/tags/4.202.tar.gz",
        verified: "github.com/mozilla/Fira/"
   version "4.202"
   sha256 "d86269657387f144d77ba12011124f30f423f70672e1576dc16f918bb16ddfe4"
