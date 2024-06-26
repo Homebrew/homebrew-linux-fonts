@@ -1,7 +1,7 @@
 class FontSpaceMono < Formula
   desc "Space mono font"
   homepage "https://github.com/googlefonts/spacemono"
-  head "https://github.com/googlefonts/spacemono/archive/main.zip"
+  head "https://github.com/googlefonts/spacemono/archive/refs/heads/master.tar.gz"
 
   def install
     (share/"fonts").install Dir.glob("./**/spacemono-main/fonts/SpaceMono-Bold.ttf")[0]
