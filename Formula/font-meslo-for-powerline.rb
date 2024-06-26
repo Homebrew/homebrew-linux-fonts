@@ -1,9 +1,9 @@
 class FontMesloForPowerline < Formula
   desc "Meslo for powerline font"
   homepage "https://github.com/powerline/fonts"
-  url "https://github.com/powerline/fonts/archive/2015-12-04.zip"
+  url "https://github.com/powerline/fonts/archive/refs/tags/2015-12-04.tar.gz"
   version "2015-12-04"
-  sha256 "b6673e0e28441cc04065f8e5c79960aeaa220dae52351852b37e6cf3a03bb8af"
+  sha256 "3a0b73abca6334b5e6bddefab67f6eb1b2fac1231817d95fc79126c8998c4844"
 
   def install
     (share/"fonts").install Dir.glob("./**/fonts-2015-12-04/Meslo/Meslo LG L DZ Regular for Powerline.otf")[0]
