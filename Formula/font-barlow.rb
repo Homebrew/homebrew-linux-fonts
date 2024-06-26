@@ -1,10 +1,10 @@
 class FontBarlow < Formula
   desc "Barlow font"
   homepage "https://tribby.com/fonts/barlow"
-  url "https://github.com/jpt/barlow/archive/1.422.zip",
+  url "https://github.com/jpt/barlow/archive/refs/tags/1.422.tar.gz",
        verified: "github.com/jpt/barlow/"
   version "1.422"
-  sha256 "91d3caad016fae2ed2ca36b472e1b740f7baebaaeb8a947cbdf70d281c03ac07"
+  sha256 "f4bc7fd2802844deead4d19634b9c4d11710624a48fcfd7196821e353159c048"
 
   def install
     (share/"fonts").install Dir.glob("./**/barlow-1.422/fonts/otf/BarlowSemiCondensed-ThinItalic.otf")[0]
