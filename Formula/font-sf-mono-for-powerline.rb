@@ -1,7 +1,7 @@
 class FontSfMonoForPowerline < Formula
   desc "Sf mono for powerline font"
   homepage "https://github.com/Twixes/SF-Mono-Powerline"
-  head "https://github.com/Twixes/SF-Mono-Powerline/archive/master.zip"
+  head "https://github.com/Twixes/SF-Mono-Powerline/archive/refs/heads/master.tar.gz"
 
   def install
     (share/"fonts").install Dir.glob("./**/SF-Mono-Powerline-master/SF-Mono-Powerline-SemiboldItalic.otf")[0]
