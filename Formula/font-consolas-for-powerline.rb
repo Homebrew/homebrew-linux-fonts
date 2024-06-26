@@ -1,7 +1,7 @@
 class FontConsolasForPowerline < Formula
   desc "Consolas for powerline font"
   homepage "https://github.com/eugeii/consolas-powerline-vim"
-  head "https://github.com/eugeii/consolas-powerline-vim/archive/master.zip"
+  head "https://github.com/eugeii/consolas-powerline-vim/archive/refs/heads/master.tar.gz"
 
   def install
     (share/"fonts").install Dir.glob("./**/consolas-powerline-vim-master/CONSOLA-Powerline.ttf")[0]
