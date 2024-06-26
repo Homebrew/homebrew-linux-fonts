@@ -1,9 +1,9 @@
 class FontIming < Formula
   desc "I.ming font"
   homepage "https://github.com/ichitenfont/I.Ming"
-  url "https://github.com/ichitenfont/I.Ming/archive/refs/tags/8.10.zip"
+  url "https://github.com/ichitenfont/I.Ming/archive/refs/tags/8.10.tar.gz"
   version "8.10"
-  sha256 "dcd7d3c71fa08541ee86276b29b7c8e70f35f99141ff1d1781695b282d70ff22"
+  sha256 "ed6bd2853c89d07670859149116ffdbc832b1d66756b3edb95676b9b1c84f1a2"
 
   def install
     (share/"fonts").install Dir.glob("./**/I.Ming-8.10/8.10/I.Ming-8.10.ttf")[0]
