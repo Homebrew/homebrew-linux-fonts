@@ -1,9 +1,9 @@
 class FontProzaLibre < Formula
   desc "Proza libre font"
   homepage "https://github.com/jasperdewaard/Proza-Libre"
-  url "https://github.com/jasperdewaard/Proza-Libre/archive/1.0.zip"
+  url "https://github.com/jasperdewaard/Proza-Libre/archive/refs/tags/1.0.tar.gz"
   version "1.0"
-  sha256 "cbd3bb929d905330ad9e2d4b2efc3edf5c351eb5b4a238bd87367e74836fa9c9"
+  sha256 "c6d975321ef7853769a68fbb290c3f0b0b72ca175a2bbd2a33b1bdf2e1db5490"
 
   def install
     (share/"fonts").install Dir.glob("./**/Proza-Libre-1.0/Fonts/ProzaLibre-SemiBoldItalic.ttf")[0]
