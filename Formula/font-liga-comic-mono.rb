@@ -1,7 +1,7 @@
 class FontLigaComicMono < Formula
   desc "Liga comic mono font"
   homepage "https://github.com/wayou/comic-mono-font"
-  head "https://codeload.github.com/wayou/comic-mono-font/zip/master"
+  head "https://github.com/wayou/comic-mono-font/archive/refs/heads/master.tar.gz"
 
   def install
     (share/"fonts").install Dir.glob("./**/comic-mono-font-master/LigaComicMono.ttf")[0]
