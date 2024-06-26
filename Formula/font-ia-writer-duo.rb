@@ -1,7 +1,7 @@
 class FontIaWriterDuo < Formula
   desc "Ia writer duo font"
   homepage "https://github.com/iaolo/iA-Fonts"
-  head "https://codeload.github.com/iaolo/iA-Fonts/zip/master"
+  head "https://github.com/iaolo/iA-Fonts/archive/refs/heads/master.tar.gz"
 
   def install
     (share/"fonts").install Dir.glob("./**/iA-Fonts-master/iA Writer Duo/Static/iAWriterDuoS-Bold.ttf")[0]
