@@ -1,9 +1,9 @@
 class FontUrwBase35 < Formula
   desc "Urw++ base 35 font"
   homepage "https://github.com/ArtifexSoftware/urw-base35-fonts"
-  url "https://github.com/ArtifexSoftware/urw-base35-fonts/archive/20200910.zip"
+  url "https://github.com/ArtifexSoftware/urw-base35-fonts/archive/refs/tags/20200910.tar.gz"
   version "20200910"
-  sha256 "66eed7ca2dfbf44665aa34cb80559f4a90807d46858ccf76c34f9ac1701cfa27"
+  sha256 "e0d9b7f11885fdfdc4987f06b2aa0565ad2a4af52b22e5ebf79e1a98abd0ae2f"
 
   def install
     (share/"fonts").install Dir.glob("./**/urw-base35-fonts-20200910/fonts/Z003-MediumItalic.otf")[0]
