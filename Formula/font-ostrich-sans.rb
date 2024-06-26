@@ -1,7 +1,7 @@
 class FontOstrichSans < Formula
   desc "Ostrich sans font"
   homepage "https://www.theleagueofmoveabletype.com/ostrich-sans"
-  head "https://github.com/theleagueof/ostrich-sans/archive/master.zip",
+  head "https://github.com/theleagueof/ostrich-sans/archive/refs/heads/master.tar.gz",
        verified: "github.com/theleagueof/ostrich-sans/"
 
   def install
