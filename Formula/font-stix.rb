@@ -1,7 +1,7 @@
 class FontStix < Formula
   desc "Stix font"
   homepage "https://stixfonts.org/"
-  url "https://github.com/stipub/stixfonts/archive/v2.13.tar.gz",
+  url "https://github.com/stipub/stixfonts/archive/refs/tags/v2.13.tar.gz",
        verified: "github.com/stipub/stixfonts/"
   version "2.13"
   sha256 "c4671ec4a116d887c8ebf91b2706301bebc43e776ac00f549c36ad1f34964c98"
