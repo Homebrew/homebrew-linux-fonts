@@ -1,10 +1,10 @@
 class FontOverpass < Formula
   desc "Overpass font"
   homepage "https://overpassfont.org/"
-  url "https://github.com/RedHatOfficial/Overpass/archive/refs/tags/v3.0.5.zip",
+  url "https://github.com/RedHatOfficial/Overpass/archive/refs/tags/v3.0.5.tar.gz",
        verified: "github.com/RedHatOfficial/Overpass/"
   version "3.0.5"
-  sha256 "56e62646a3e8f9b9aab57523b9c57eaca8fba79fb55a50f80d2fce0688344159"
+  sha256 "beb7528f1e9adf3decf841f02510a3752820561a06842f9097d9f2565fe41f34"
 
   def install
     (share/"fonts").install Dir.glob("./**/Overpass-3.0.5/desktop-fonts/overpass-mono/overpass-mono-semibold.otf")[0]
