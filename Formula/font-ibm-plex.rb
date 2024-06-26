@@ -1,9 +1,9 @@
 class FontIbmPlex < Formula
   desc "Ibm plex font"
   homepage "https://github.com/IBM/plex"
-  url "https://github.com/IBM/plex/archive/refs/tags/v6.4.1.zip"
+  url "https://github.com/IBM/plex/archive/refs/tags/v6.4.1.tar.gz"
   version "6.4.1"
-  sha256 "ffeb177c747f62f37a3648e588a64b2c265e558cb7819901a3d15314fbb9deb8"
+  sha256 "2a21ec092c988c7e70c0774972fa820a98e81343a436a355f6f59322389c3672"
 
   def install
     (share/"fonts").install Dir.glob("./**/plex-6.4.1/IBM-Plex-Sans-Variable/fonts/complete/ttf/IBM Plex Sans Var-Italic.ttf")[0]
