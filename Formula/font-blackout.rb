@@ -1,7 +1,7 @@
 class FontBlackout < Formula
   desc "Blackout font"
   homepage "https://www.theleagueofmoveabletype.com/blackout"
-  head "https://github.com/theleagueof/blackout/archive/master.zip",
+  head "https://github.com/theleagueof/blackout/archive/refs/heads/master.tar.gz",
        verified: "github.com/theleagueof/blackout/"
 
   def install
