@@ -1,7 +1,7 @@
 class FontRedhat < Formula
   desc "Red hat font"
   homepage "https://github.com/RedHatOfficial/RedHatFont/"
-  url "https://github.com/RedHatOfficial/RedHatFont/archive/4.0.3.tar.gz"
+  url "https://github.com/RedHatOfficial/RedHatFont/archive/refs/tags/4.0.3.tar.gz"
   version "4.0.3"
   sha256 "95e9eaa3bbbb343d0d4bc519d18a216651c73b0ab191ab5532a3cb370120b2b2"
 
