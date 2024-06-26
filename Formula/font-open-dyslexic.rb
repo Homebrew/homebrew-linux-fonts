@@ -1,9 +1,9 @@
 class FontOpenDyslexic < Formula
   desc "Opendyslexic font"
   homepage "https://github.com/antijingoist/open-dyslexic"
-  url "https://codeload.github.com/antijingoist/open-dyslexic/zip/20160623-Stable"
+  url "https://github.com/antijingoist/open-dyslexic/archive/refs/tags/20160623-Stable.tar.gz"
   version "20160623-Stable"
-  sha256 "3b4a84f573d3f5d75e198bbf362ff6fa812b33d6559dce651e44df455be929cc"
+  sha256 "a44fde7d5fcf1e3825d00de20f7d71fb7b339a7e71067cd9566e8ab16692802a"
 
   def install
     (share/"fonts").install Dir.glob("./**/open-dyslexic-20160623-Stable/otf/OpenDyslexicMono-Regular.otf")[0]
