@@ -1,7 +1,7 @@
 class FontLibreFranklin < Formula
   desc "Libre franklin font"
   homepage "https://github.com/impallari/Libre-Franklin"
-  head "https://github.com/impallari/Libre-Franklin/archive/master.zip"
+  head "https://github.com/impallari/Libre-Franklin/archive/refs/heads/master.tar.gz"
 
   def install
     (share/"fonts").install Dir.glob("./**/Libre-Franklin-master/fonts/OTF/LibreFranklin-ThinItalic.otf")[0]
