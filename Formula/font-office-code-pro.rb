@@ -1,9 +1,9 @@
 class FontOfficeCodePro < Formula
   desc "Office code pro font"
   homepage "https://github.com/nathco/Office-Code-Pro"
-  url "https://github.com/nathco/Office-Code-Pro/archive/1.004.zip"
+  url "https://github.com/nathco/Office-Code-Pro/archive/refs/tags/1.004.tar.gz"
   version "1.004"
-  sha256 "9e24d15309ead8c523ec3f0444ed9c171bba535e109c43b1dde8abfa9d359150"
+  sha256 "9bca923d17f6c47a586d8e4567d46ccfa58fb8b8e2247b5ee2a19da1597c58f6"
 
   def install
     (share/"fonts").install Dir.glob("./**/Office-Code-Pro-1.004/Fonts/Office Code Pro/OTF/OfficeCodePro-RegularItalic.otf")[0]
