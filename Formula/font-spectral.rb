@@ -1,7 +1,7 @@
 class FontSpectral < Formula
   desc "Spectral font"
   homepage "https://github.com/productiontype/Spectral"
-  head "https://github.com/productiontype/Spectral/archive/master.zip"
+  head "https://github.com/productiontype/Spectral/archive/refs/heads/master.tar.gz"
 
   def install
     (share/"fonts").install Dir.glob("./**/Spectral-master/fonts/sc/SpectralSC-SemiBoldItalic.ttf")[0]
