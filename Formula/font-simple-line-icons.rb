@@ -1,10 +1,10 @@
 class FontSimpleLineIcons < Formula
   desc "Simple line icons font"
   homepage "https://simplelineicons.github.io/"
-  url "https://github.com/thesabbir/simple-line-icons/archive/2.5.4.zip",
+  url "https://github.com/thesabbir/simple-line-icons/archive/refs/tags/2.5.4.tar.gz",
        verified: "github.com/thesabbir/simple-line-icons/"
   version "2.5.4"
-  sha256 "4e21668ca8c22b082e63e016a4565af1a3875322a08cfcceaa2d9baf8fc21b3b"
+  sha256 "1b0b4f39c0ed88e5507548bfeac01b1177804941ec687195ad551a7ce690b24d"
 
   def install
     (share/"fonts").install Dir.glob("./**/simple-line-icons-2.5.4/fonts/Simple-Line-Icons.ttf")[0]
