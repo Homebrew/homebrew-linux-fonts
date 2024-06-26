@@ -1,8 +1,7 @@
 class FontInria < Formula
   desc "Inria font"
-  homepage "https://black-foundry.com/blog/inria-serif-and-inria/"
-  head "https://github.com/BlackFoundry/InriaFonts/archive/master.zip",
-       verified: "github.com/BlackFoundry/InriaFonts/"
+  homepage "https://github.com/BlackFoundryCom/InriaFonts/"
+  head "https://github.com/BlackFoundry/InriaFonts/archive/refs/heads/master.tar.gz"
 
   def install
     (share/"fonts").install Dir.glob("./**/InriaFonts-master/fonts/InriaSerif/OTF/InriaSerif-Regular.otf")[0]
