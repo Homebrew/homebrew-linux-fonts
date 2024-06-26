@@ -1,7 +1,7 @@
 class FontMenloForPowerline < Formula
   desc "Menlo for powerline font"
   homepage "https://github.com/abertsch/Menlo-for-Powerline"
-  head "https://github.com/abertsch/Menlo-for-Powerline/archive/master.zip"
+  head "https://github.com/abertsch/Menlo-for-Powerline/archive/refs/heads/master.tar.gz"
 
   def install
     (share/"fonts").install Dir.glob("./**/Menlo-for-Powerline-master/Menlo for Powerline.ttf")[0]
