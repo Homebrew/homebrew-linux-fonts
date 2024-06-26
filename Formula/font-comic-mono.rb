@@ -1,8 +1,8 @@
 class FontComicMono < Formula
   desc "Comic mono font"
   homepage "https://dtinth.github.io/comic-mono-font/"
-  head "https://codeload.github.com/dtinth/comic-mono-font/zip/master",
-       verified: "codeload.github.com/dtinth/comic-mono-font/"
+  head "https://github.com/dtinth/comic-mono-font/archive/refs/heads/master.tar.gz",
+       verified: "github.com/dtinth/comic-mono-font/"
 
   def install
     (share/"fonts").install Dir.glob("./**/comic-mono-font-master/ComicMono.ttf")[0]
