@@ -1,9 +1,9 @@
 class FontJuliamono < Formula
   desc "Juliamono font"
   homepage "https://github.com/cormullion/juliamono"
-  url "https://github.com/cormullion/juliamono/releases/download/v0.055/JuliaMono.tar.gz"
-  version "0.055"
-  sha256 "027654737001a1f85cc1689faa3676fb42a06d5bf5aa6e83ff77eb1edb3a3602"
+  url "https://github.com/cormullion/juliamono/releases/download/v0.056/JuliaMono.tar.gz"
+  version "0.056"
+  sha256 "4c3ebfe05d5502a7224b969f091a4d11468d096d30dd22118a68a3a4b9d0dba1"
 
   def install
     (share/"fonts").install Dir.glob("./**/JuliaMono-SemiBoldItalic.ttf")[0]
