@@ -1,6 +1,6 @@
 class FontBalsamiqSans < Formula
   desc "Balsamiq sans font"
-  homepage "https://balsamiq.com/givingback/opensource/font/"
+  homepage "https://fonts.google.com/specimen/Balsamiq+Sans"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
        branch:    "main",
