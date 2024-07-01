@@ -1,13 +1,13 @@
 class FontChironSungHk < Formula
   desc "Chiron sung hk font"
   homepage "https://github.com/chiron-fonts/chiron-sung-hk"
-  url "https://github.com/chiron-fonts/chiron-sung-hk/archive/refs/tags/v1.011.tar.gz"
-  version "1.011"
-  sha256 "8ddbbd47001cbf0210a3814dee1c94df2f2560f092b379ace2e59289cb21452b"
+  url "https://github.com/chiron-fonts/chiron-sung-hk/archive/refs/tags/v1.012.tar.gz"
+  version "1.012"
+  sha256 "554404b43f2eab11182220964d959dfaa609638cec8fb950604cc6ed80b5a373"
 
   def install
-    (share/"fonts").install Dir.glob("./**/chiron-sung-hk-1.011/VAR/ChironSungHKItVF.otf")[0]
-    (share/"fonts").install Dir.glob("./**/chiron-sung-hk-1.011/VAR/ChironSungHKVF.otf")[0]
+    (share/"fonts").install Dir.glob("./**/chiron-sung-hk-1.012/VAR/ChironSungHKItVF.otf")[0]
+    (share/"fonts").install Dir.glob("./**/chiron-sung-hk-1.012/VAR/ChironSungHKVF.otf")[0]
   end
 
   test do
