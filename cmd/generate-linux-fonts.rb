@@ -131,7 +131,15 @@ module Homebrew
       next unless artifact.key?("font")
 
       artifact["font"].each do |font|
-        paths << "#{path_prefix}./**/#{font}"
+        font = font.gsub(/\[|\]/) { |_s| "?" }
+        font_dir = File.dirname(font)
+        if font_dir == "."
+          paths << "#{path_prefix}./**/#{font}"
+        else
+          first_dir = font_dir.split("/")[0]
+          odebug first_dir, font, font.gsub("#{first_dir}/", "**/")
+          paths << "#{path_prefix}./#{font.gsub("#{first_dir}/", "**/")}"
+        end
       end
     end
 
@@ -171,7 +179,7 @@ module Homebrew
     elsif cask["deprecation_date"].present?
       formula += <<-EOS
 
-  deprecate! \"#{cask["deprecation_date"]}\", because: :#{cask["deprecation_reason"]}
+  deprecate! "#{cask["deprecation_date"]}", because: :#{cask["deprecation_reason"]}
       EOS
     end
 
@@ -180,16 +188,16 @@ module Homebrew
   def install
     EOS
 
-    paths.each do |path|
-      formula +=  <<-EOS
-    (share/\"fonts\").install Dir.glob("#{path}")[0]
+    paths.sort.each do |path|
+      formula += <<-EOS
+    (share/"fonts").install Dir.glob("#{path}")[0]
       EOS
     end
 
     if paths.count < 1
-    formula += <<-EOS
+      formula += <<-EOS
     # nothing to install
-    EOS
+      EOS
     end
 
     formula += <<~EOS
