@@ -164,14 +164,26 @@ module Homebrew
     end
 
     if cask["disable_date"].present?
+      reason = if !cask["disable_reason"].match?(" ")
+        ":#{cask["disable_reason"]}"
+      else
+        "\"#{cask["disable_reason"]}\""
+      end
+        
       formula += <<-EOS
 
-  disable! "#{cask["disable_date"]}", because: :#{cask["disable_reason"]}
+  disable! "#{cask["disable_date"]}", because: #{reason}
       EOS
     elsif cask["deprecation_date"].present?
+      reason = if !cask["deprecation_reason"].match?(" ")
+        ":#{cask["deprecation_reason"]}"
+      else
+        "\"#{cask["deprecation_reason"]}\""
+      end
+
       formula += <<-EOS
 
-  deprecate! \"#{cask["deprecation_date"]}\", because: :#{cask["deprecation_reason"]}
+  deprecate! "#{cask["deprecation_date"]}", because: #{reason}
       EOS
     end
 
@@ -182,14 +194,14 @@ module Homebrew
 
     paths.each do |path|
       formula +=  <<-EOS
-    (share/\"fonts\").install Dir.glob("#{path}")[0]
+    (share/"fonts").install Dir.glob("#{path}")[0]
       EOS
     end
 
     if paths.count < 1
-    formula += <<-EOS
+      formula += <<-EOS
     # nothing to install
-    EOS
+      EOS
     end
 
     formula += <<~EOS
