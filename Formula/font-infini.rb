@@ -1,7 +1,7 @@
 class FontInfini < Formula
   desc "Infini font"
-  homepage "http://www.cnap.graphismeenfrance.fr/infini/en/"
-  url "http://www.cnap.graphismeenfrance.fr/infini/en/download/Infini-cnap-engl_fonts-specimen-v2.zip"
+  homepage "https://www.cnap.fr/sites/infini/en/"
+  url "https://www.cnap.fr/sites/infini/en/download/Infini-cnap-engl_fonts-specimen-v2.zip"
   version "1.003"
   sha256 :no_check
 
