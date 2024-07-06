@@ -1,9 +1,9 @@
 class FontLxgwHeartserif < Formula
   desc "Lxgw heart serif font"
   homepage "https://github.com/lxgw/LxgwNeoZhiSong"
-  url "https://github.com/lxgw/LxgwNeoZhiSong/releases/download/v0.923.3/LXGWHeartSerif.ttf"
-  version "0.923.3"
-  sha256 "2e67490ca4dc14d915267463191f7a3e81451220502d314827b2b7a0dc8fa0c0"
+  url "https://github.com/lxgw/LxgwNeoZhiSong/releases/download/v0.924/LXGWHeartSerif.ttf"
+  version "0.924"
+  sha256 "0d4d3e6bbb6630af5142413405c38ae7bc4cd219348d1b8122d22903758891cc"
 
   def install
     (share/"fonts").install Dir.glob("./**/LXGWHeartSerif.ttf")[0]
