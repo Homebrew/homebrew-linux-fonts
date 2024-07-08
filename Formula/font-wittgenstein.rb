@@ -1,7 +1,8 @@
 class FontWittgenstein < Formula
   desc "Wittgenstein font"
-  homepage "https://github.com/jrgdrs/Wittgenstein"
+  homepage "https://fonts.google.com/specimen/Wittgenstein"
   head "https://github.com/google/fonts.git",
+       verified:  "github.com/google/fonts",
        branch:    "main",
        only_path: "ofl/wittgenstein"
 
