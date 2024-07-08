@@ -1,9 +1,9 @@
 class FontIosevkaEtoile < Formula
   desc "Iosevka etoile font"
   homepage "https://github.com/be5invis/Iosevka/"
-  url "https://github.com/be5invis/Iosevka/releases/download/v30.3.1/PkgTTC-IosevkaEtoile-30.3.1.zip"
-  version "30.3.1"
-  sha256 "07272e67a63331fc9ba71c7714888bd5d2c39a938f2a4ab823118e8aea90cafc"
+  url "https://github.com/be5invis/Iosevka/releases/download/v30.3.2/PkgTTC-IosevkaEtoile-30.3.2.zip"
+  version "30.3.2"
+  sha256 "b8298ed9ff962befc897a801ffba11618dd08508b72fc2a8303bfa244f27dacc"
 
   def install
     (share/"fonts").install Dir.glob("./**/IosevkaEtoile-Thin.ttc")[0]
