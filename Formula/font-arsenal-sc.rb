@@ -1,7 +1,8 @@
 class FontArsenalSc < Formula
   desc "Arsenal sc font"
-  homepage "https://github.com/alexeiva/Arsenal"
+  homepage "https://fonts.google.com/specimen/Arsenal+SC"
   head "https://github.com/google/fonts.git",
+       verified:  "github.com/google/fonts",
        branch:    "main",
        only_path: "ofl/arsenalsc"
 
