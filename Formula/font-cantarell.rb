@@ -1,16 +1,12 @@
 class FontCantarell < Formula
   desc "Cantarell font"
-  homepage "https://fonts.google.com/specimen/Cantarell"
-  head "https://github.com/google/fonts.git",
-       verified:  "github.com/google/fonts",
-       branch:    "main",
-       only_path: "ofl/cantarell"
+  homepage "https://cantarell.gnome.org/"
+  url "https://cantarell.gnome.org/releases/cantarell-fonts-0.303.tar.xz"
+  version "0.303"
+  sha256 "54f644b5edf5da9a48a942452e38ff1bc2382aa25cabb8742222247944f1dc3a"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/cantarell/./**/Cantarell-Bold.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/cantarell/./**/Cantarell-BoldItalic.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/cantarell/./**/Cantarell-Italic.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/cantarell/./**/Cantarell-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/cantarell-fonts-0.303/prebuilt/Cantarell-VF.otf")[0]
   end
 
   test do
