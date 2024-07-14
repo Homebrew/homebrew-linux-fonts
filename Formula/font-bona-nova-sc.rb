@@ -1,7 +1,8 @@
 class FontBonaNovaSc < Formula
   desc "Bona nova sc font"
-  homepage "https://github.com/kosmynkab/Bona-Nova"
+  homepage "https://fonts.google.com/specimen/Bona+Nova+SC"
   head "https://github.com/google/fonts.git",
+       verified:  "github.com/google/fonts",
        branch:    "main",
        only_path: "ofl/bonanovasc"
 

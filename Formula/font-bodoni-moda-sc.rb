@@ -1,7 +1,8 @@
 class FontBodoniModaSc < Formula
   desc "Bodoni moda sc font"
-  homepage "https://github.com/indestructible-type/Bodoni"
+  homepage "https://fonts.google.com/specimen/Bodoni+Moda+SC"
   head "https://github.com/google/fonts.git",
+       verified:  "github.com/google/fonts",
        branch:    "main",
        only_path: "ofl/bodonimodasc"
 
