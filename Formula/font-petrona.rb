@@ -7,8 +7,8 @@ class FontPetrona < Formula
        only_path: "ofl/petrona"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/petrona/./**/Petrona-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/petrona/./**/Petrona[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/petrona/./**/Petrona-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/petrona/./**/Petrona?wght?.ttf")[0]
   end
 
   test do
