@@ -7,14 +7,14 @@ class FontUbuntu < Formula
        only_path: "ufl/ubuntu"
 
   def install
-    (share/"fonts").install Dir.glob("ufl/ubuntu/./**/Ubuntu-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ufl/ubuntu/./**/Ubuntu-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ufl/ubuntu/./**/Ubuntu-BoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ufl/ubuntu/./**/Ubuntu-Italic.ttf")[0]
     (share/"fonts").install Dir.glob("ufl/ubuntu/./**/Ubuntu-Light.ttf")[0]
     (share/"fonts").install Dir.glob("ufl/ubuntu/./**/Ubuntu-LightItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ufl/ubuntu/./**/Ubuntu-Medium.ttf")[0]
     (share/"fonts").install Dir.glob("ufl/ubuntu/./**/Ubuntu-MediumItalic.ttf")[0]
-    (share/"fonts").install Dir.glob("ufl/ubuntu/./**/Ubuntu-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ufl/ubuntu/./**/Ubuntu-Regular.ttf")[0]
   end
 
   test do
