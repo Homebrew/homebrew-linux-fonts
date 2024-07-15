@@ -4,7 +4,7 @@ class FontAlbertella < Formula
   head "https://moji-waku.com/download/albertella.zip"
 
   def install
-    (share/"fonts").install Dir.glob("./**/albertella/Albertella-Light.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Albertella-Light.otf")[0]
   end
 
   test do
