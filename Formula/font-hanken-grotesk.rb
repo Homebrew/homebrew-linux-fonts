@@ -7,8 +7,8 @@ class FontHankenGrotesk < Formula
        only_path: "ofl/hankengrotesk"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/hankengrotesk/./**/HankenGrotesk-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/hankengrotesk/./**/HankenGrotesk[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/hankengrotesk/./**/HankenGrotesk-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/hankengrotesk/./**/HankenGrotesk?wght?.ttf")[0]
   end
 
   test do
