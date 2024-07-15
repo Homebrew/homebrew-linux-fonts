@@ -6,7 +6,7 @@ class FontCubic11 < Formula
   sha256 "1db4f204bbac140a386216ec7762eb616eb2cb67f8dc56d8de3f14de0d28b21a"
 
   def install
-    (share/"fonts").install Dir.glob("./**/Cubic-11-1.300/fonts/ttf/Cubic_11_1.300_R.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/fonts/ttf/Cubic_11_1.300_R.ttf")[0]
   end
 
   test do
