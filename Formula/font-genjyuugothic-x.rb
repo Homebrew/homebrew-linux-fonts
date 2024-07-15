@@ -7,7 +7,7 @@ class FontGenjyuugothicX < Formula
   sha256 "e4a0ea11b8155056ad2b678c8501b2e76dd99b8c8eb5363d396fe7c3079201b3"
 
   def install
-    (share/"fonts").install Dir.glob("./**/GenJyuuGothicX-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GenJyuuGothicX-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/GenJyuuGothicX-ExtraLight.ttf")[0]
     (share/"fonts").install Dir.glob("./**/GenJyuuGothicX-Heavy.ttf")[0]
     (share/"fonts").install Dir.glob("./**/GenJyuuGothicX-Light.ttf")[0]
@@ -27,7 +27,7 @@ class FontGenjyuugothicX < Formula
     (share/"fonts").install Dir.glob("./**/GenJyuuGothicX-P-Medium.ttf")[0]
     (share/"fonts").install Dir.glob("./**/GenJyuuGothicX-P-Normal.ttf")[0]
     (share/"fonts").install Dir.glob("./**/GenJyuuGothicX-P-Regular.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/GenJyuuGothicX-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GenJyuuGothicX-Regular.ttf")[0]
   end
 
   test do
