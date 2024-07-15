@@ -5,7 +5,7 @@ class FontSignika < Formula
        verified: "github.com/google/fonts/"
 
   def install
-    (share/"fonts").install Dir.glob("./**/Signika[GRAD,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Signika?GRAD,wght?.ttf")[0]
   end
 
   test do
