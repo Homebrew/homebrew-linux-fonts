@@ -7,8 +7,8 @@ class FontFraunces < Formula
        only_path: "ofl/fraunces"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/fraunces/./**/Fraunces-Italic[SOFT,WONK,opsz,wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/fraunces/./**/Fraunces[SOFT,WONK,opsz,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/fraunces/./**/Fraunces-Italic?SOFT,WONK,opsz,wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/fraunces/./**/Fraunces?SOFT,WONK,opsz,wght?.ttf")[0]
   end
 
   test do
