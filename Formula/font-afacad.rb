@@ -7,8 +7,8 @@ class FontAfacad < Formula
        only_path: "ofl/afacad"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/afacad/./**/Afacad-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/afacad/./**/Afacad[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/afacad/./**/Afacad-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/afacad/./**/Afacad?wght?.ttf")[0]
   end
 
   test do
