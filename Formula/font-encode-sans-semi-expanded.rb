@@ -7,7 +7,7 @@ class FontEncodeSansSemiExpanded < Formula
        only_path: "ofl/encodesanssemiexpanded"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/encodesanssemiexpanded/./**/EncodeSansSemiExpanded-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/encodesanssemiexpanded/./**/EncodeSansSemiExpanded-Black.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/encodesanssemiexpanded/./**/EncodeSansSemiExpanded-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/encodesanssemiexpanded/./**/EncodeSansSemiExpanded-ExtraBold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/encodesanssemiexpanded/./**/EncodeSansSemiExpanded-ExtraLight.ttf")[0]
@@ -15,7 +15,7 @@ class FontEncodeSansSemiExpanded < Formula
     (share/"fonts").install Dir.glob("ofl/encodesanssemiexpanded/./**/EncodeSansSemiExpanded-Medium.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/encodesanssemiexpanded/./**/EncodeSansSemiExpanded-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/encodesanssemiexpanded/./**/EncodeSansSemiExpanded-SemiBold.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/encodesanssemiexpanded/./**/EncodeSansSemiExpanded-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/encodesanssemiexpanded/./**/EncodeSansSemiExpanded-Thin.ttf")[0]
   end
 
   test do
