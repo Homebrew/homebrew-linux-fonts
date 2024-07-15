@@ -7,8 +7,8 @@ class FontOpenSans < Formula
        only_path: "ofl/opensans"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/opensans/./**/OpenSans-Italic[wdth,wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/opensans/./**/OpenSans[wdth,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/opensans/./**/OpenSans-Italic?wdth,wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/opensans/./**/OpenSans?wdth,wght?.ttf")[0]
   end
 
   test do
