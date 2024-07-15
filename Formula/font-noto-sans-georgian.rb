@@ -5,7 +5,7 @@ class FontNotoSansGeorgian < Formula
        verified: "noto-website-2.storage.googleapis.com/"
 
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSansGeorgian-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansGeorgian-Black.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansGeorgian-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansGeorgian-Condensed.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansGeorgian-CondensedBlack.ttf")[0]
@@ -40,7 +40,7 @@ class FontNotoSansGeorgian < Formula
     (share/"fonts").install Dir.glob("./**/NotoSansGeorgian-SemiCondensedMedium.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansGeorgian-SemiCondensedSemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansGeorgian-SemiCondensedThin.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/NotoSansGeorgian-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansGeorgian-Thin.ttf")[0]
   end
 
   test do
