@@ -7,8 +7,8 @@ class FontBitter < Formula
        only_path: "ofl/bitter"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/bitter/./**/Bitter-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/bitter/./**/Bitter[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/bitter/./**/Bitter-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/bitter/./**/Bitter?wght?.ttf")[0]
   end
 
   test do
