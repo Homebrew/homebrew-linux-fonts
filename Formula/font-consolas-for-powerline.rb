@@ -4,10 +4,10 @@ class FontConsolasForPowerline < Formula
   head "https://github.com/eugeii/consolas-powerline-vim/archive/refs/heads/master.tar.gz"
 
   def install
-    (share/"fonts").install Dir.glob("./**/consolas-powerline-vim-master/CONSOLA-Powerline.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/consolas-powerline-vim-master/CONSOLAB-Powerline.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/consolas-powerline-vim-master/CONSOLAI-Powerline.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/consolas-powerline-vim-master/CONSOLAZ-Powerline.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/CONSOLA-Powerline.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/CONSOLAB-Powerline.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/CONSOLAI-Powerline.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/CONSOLAZ-Powerline.ttf")[0]
   end
 
   test do
