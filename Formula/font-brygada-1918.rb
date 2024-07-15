@@ -7,8 +7,8 @@ class FontBrygada1918 < Formula
        only_path: "ofl/brygada1918"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/brygada1918/./**/Brygada1918-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/brygada1918/./**/Brygada1918[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/brygada1918/./**/Brygada1918-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/brygada1918/./**/Brygada1918?wght?.ttf")[0]
   end
 
   test do
