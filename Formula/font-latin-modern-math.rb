@@ -4,7 +4,7 @@ class FontLatinModernMath < Formula
   head "https://www.gust.org.pl/projects/e-foundry/lm-math/download/latinmodern-math-1959.zip"
 
   def install
-    (share/"fonts").install Dir.glob("./**/latinmodern-math-1959/otf/latinmodern-math.otf")[0]
+    (share/"fonts").install Dir.glob("./**/otf/latinmodern-math.otf")[0]
   end
 
   test do
