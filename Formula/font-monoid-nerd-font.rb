@@ -6,7 +6,7 @@ class FontMonoidNerdFont < Formula
   sha256 "a1e2d15630018b6921a8a79f585865979b8a3a2d7dd2d7c0e6bceb6f5e99e943"
 
   def install
-    (share/"fonts").install Dir.glob("./**/MonoidNerdFontPropo-Retina.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MonoidNerdFont-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/MonoidNerdFont-Italic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/MonoidNerdFont-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("./**/MonoidNerdFont-Retina.ttf")[0]
@@ -17,7 +17,7 @@ class FontMonoidNerdFont < Formula
     (share/"fonts").install Dir.glob("./**/MonoidNerdFontPropo-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/MonoidNerdFontPropo-Italic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/MonoidNerdFontPropo-Regular.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/MonoidNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MonoidNerdFontPropo-Retina.ttf")[0]
   end
 
   test do
