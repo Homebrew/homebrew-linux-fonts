@@ -7,8 +7,8 @@ class FontPathwayExtreme < Formula
        only_path: "ofl/pathwayextreme"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/pathwayextreme/./**/PathwayExtreme-Italic[opsz,wdth,wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/pathwayextreme/./**/PathwayExtreme[opsz,wdth,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/pathwayextreme/./**/PathwayExtreme-Italic?opsz,wdth,wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/pathwayextreme/./**/PathwayExtreme?opsz,wdth,wght?.ttf")[0]
   end
 
   test do
