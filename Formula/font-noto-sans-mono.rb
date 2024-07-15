@@ -7,7 +7,7 @@ class FontNotoSansMono < Formula
   sha256 "090cf6c5e03f337a755630ca888b1fef463e64ae7b33ee134e9309c05f978732"
 
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSansMono/unhinted/variable/NotoSansMono[wdth,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/unhinted/variable/NotoSansMono?wdth,wght?.ttf")[0]
   end
 
   test do
