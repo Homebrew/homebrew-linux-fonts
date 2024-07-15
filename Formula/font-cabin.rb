@@ -7,8 +7,8 @@ class FontCabin < Formula
        only_path: "ofl/cabin"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/cabin/./**/Cabin-Italic[wdth,wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/cabin/./**/Cabin[wdth,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/cabin/./**/Cabin-Italic?wdth,wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/cabin/./**/Cabin?wdth,wght?.ttf")[0]
   end
 
   test do
