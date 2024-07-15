@@ -7,8 +7,8 @@ class FontSplineSansMono < Formula
        only_path: "ofl/splinesansmono"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/splinesansmono/./**/SplineSansMono-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/splinesansmono/./**/SplineSansMono[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/splinesansmono/./**/SplineSansMono-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/splinesansmono/./**/SplineSansMono?wght?.ttf")[0]
   end
 
   test do
