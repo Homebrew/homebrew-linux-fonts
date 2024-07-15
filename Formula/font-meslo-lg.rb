@@ -6,18 +6,18 @@ class FontMesloLg < Formula
   sha256 "d0bcb7668dda8fa1a0f8162d626adb434c32854e243b5bd52a717cf569af08d0"
 
   def install
-    (share/"fonts").install Dir.glob("./**/Meslo LG v1.2.1/MesloLGS-Regular.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/Meslo LG v1.2.1/MesloLGL-BoldItalic.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/Meslo LG v1.2.1/MesloLGL-Italic.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/Meslo LG v1.2.1/MesloLGL-Regular.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/Meslo LG v1.2.1/MesloLGM-Bold.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/Meslo LG v1.2.1/MesloLGM-BoldItalic.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/Meslo LG v1.2.1/MesloLGM-Italic.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/Meslo LG v1.2.1/MesloLGM-Regular.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/Meslo LG v1.2.1/MesloLGS-Bold.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/Meslo LG v1.2.1/MesloLGS-BoldItalic.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/Meslo LG v1.2.1/MesloLGS-Italic.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/Meslo LG v1.2.1/MesloLGL-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MesloLGL-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MesloLGL-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MesloLGL-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MesloLGL-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MesloLGM-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MesloLGM-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MesloLGM-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MesloLGM-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MesloLGS-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MesloLGS-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MesloLGS-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MesloLGS-Regular.ttf")[0]
   end
 
   test do
