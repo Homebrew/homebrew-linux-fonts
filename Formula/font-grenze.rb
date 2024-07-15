@@ -7,7 +7,7 @@ class FontGrenze < Formula
        only_path: "ofl/grenze"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/grenze/./**/Grenze-ThinItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/grenze/./**/Grenze-Black.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/grenze/./**/Grenze-BlackItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/grenze/./**/Grenze-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/grenze/./**/Grenze-BoldItalic.ttf")[0]
@@ -24,7 +24,7 @@ class FontGrenze < Formula
     (share/"fonts").install Dir.glob("ofl/grenze/./**/Grenze-SemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/grenze/./**/Grenze-SemiBoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/grenze/./**/Grenze-Thin.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/grenze/./**/Grenze-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/grenze/./**/Grenze-ThinItalic.ttf")[0]
   end
 
   test do
