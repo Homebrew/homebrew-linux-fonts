@@ -5,8 +5,8 @@ class FontGidole < Formula
        verified: "github.com/gidole/"
 
   def install
-    (share/"fonts").install Dir.glob("./**/GidoleFont/Gidole-Regular.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/GidoleFont/Gidolinya-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Gidole-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Gidolinya-Regular.otf")[0]
   end
 
   test do
