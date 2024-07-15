@@ -7,8 +7,8 @@ class FontWittgenstein < Formula
        only_path: "ofl/wittgenstein"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/wittgenstein/./**/Wittgenstein-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/wittgenstein/./**/Wittgenstein[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/wittgenstein/./**/Wittgenstein-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/wittgenstein/./**/Wittgenstein?wght?.ttf")[0]
   end
 
   test do
