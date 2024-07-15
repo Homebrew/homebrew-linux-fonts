@@ -6,22 +6,22 @@ class FontOfficeCodePro < Formula
   sha256 "9bca923d17f6c47a586d8e4567d46ccfa58fb8b8e2247b5ee2a19da1597c58f6"
 
   def install
-    (share/"fonts").install Dir.glob("./**/Office-Code-Pro-1.004/Fonts/Office Code Pro/OTF/OfficeCodePro-RegularItalic.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Office-Code-Pro-1.004/Fonts/Office Code Pro D/OTF/OfficeCodeProD-BoldItalic.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Office-Code-Pro-1.004/Fonts/Office Code Pro D/OTF/OfficeCodeProD-Light.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Office-Code-Pro-1.004/Fonts/Office Code Pro D/OTF/OfficeCodeProD-LightItalic.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Office-Code-Pro-1.004/Fonts/Office Code Pro D/OTF/OfficeCodeProD-Medium.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Office-Code-Pro-1.004/Fonts/Office Code Pro D/OTF/OfficeCodeProD-MediumItalic.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Office-Code-Pro-1.004/Fonts/Office Code Pro D/OTF/OfficeCodeProD-Regular.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Office-Code-Pro-1.004/Fonts/Office Code Pro D/OTF/OfficeCodeProD-RegularItalic.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Office-Code-Pro-1.004/Fonts/Office Code Pro/OTF/OfficeCodePro-Bold.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Office-Code-Pro-1.004/Fonts/Office Code Pro/OTF/OfficeCodePro-BoldItalic.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Office-Code-Pro-1.004/Fonts/Office Code Pro/OTF/OfficeCodePro-Light.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Office-Code-Pro-1.004/Fonts/Office Code Pro/OTF/OfficeCodePro-LightItalic.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Office-Code-Pro-1.004/Fonts/Office Code Pro/OTF/OfficeCodePro-Medium.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Office-Code-Pro-1.004/Fonts/Office Code Pro/OTF/OfficeCodePro-MediumItalic.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Office-Code-Pro-1.004/Fonts/Office Code Pro/OTF/OfficeCodePro-Regular.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Office-Code-Pro-1.004/Fonts/Office Code Pro D/OTF/OfficeCodeProD-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Fonts/Office Code Pro D/OTF/OfficeCodeProD-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Fonts/Office Code Pro D/OTF/OfficeCodeProD-BoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Fonts/Office Code Pro D/OTF/OfficeCodeProD-Light.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Fonts/Office Code Pro D/OTF/OfficeCodeProD-LightItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Fonts/Office Code Pro D/OTF/OfficeCodeProD-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Fonts/Office Code Pro D/OTF/OfficeCodeProD-MediumItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Fonts/Office Code Pro D/OTF/OfficeCodeProD-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Fonts/Office Code Pro D/OTF/OfficeCodeProD-RegularItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Fonts/Office Code Pro/OTF/OfficeCodePro-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Fonts/Office Code Pro/OTF/OfficeCodePro-BoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Fonts/Office Code Pro/OTF/OfficeCodePro-Light.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Fonts/Office Code Pro/OTF/OfficeCodePro-LightItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Fonts/Office Code Pro/OTF/OfficeCodePro-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Fonts/Office Code Pro/OTF/OfficeCodePro-MediumItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Fonts/Office Code Pro/OTF/OfficeCodePro-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Fonts/Office Code Pro/OTF/OfficeCodePro-RegularItalic.otf")[0]
   end
 
   test do
