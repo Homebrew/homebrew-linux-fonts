@@ -4,7 +4,7 @@ class FontKimberella < Formula
   head "https://moji-waku.com/download/kimberella.zip"
 
   def install
-    (share/"fonts").install Dir.glob("./**/kimberella/Kimberella-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Kimberella-Regular.otf")[0]
   end
 
   test do
