@@ -7,7 +7,7 @@ class FontKrub < Formula
        only_path: "ofl/krub"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/krub/./**/Krub-SemiBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/krub/./**/Krub-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/krub/./**/Krub-BoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/krub/./**/Krub-ExtraLight.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/krub/./**/Krub-ExtraLightItalic.ttf")[0]
@@ -18,7 +18,7 @@ class FontKrub < Formula
     (share/"fonts").install Dir.glob("ofl/krub/./**/Krub-MediumItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/krub/./**/Krub-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/krub/./**/Krub-SemiBold.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/krub/./**/Krub-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/krub/./**/Krub-SemiBoldItalic.ttf")[0]
   end
 
   test do
