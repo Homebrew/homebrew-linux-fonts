@@ -6,7 +6,7 @@ class FontZedMonoNerdFont < Formula
   sha256 "ed7b11308018ce85dcf46afa6bbbd90d12369e8cfa4e0740311a731e61aa03df"
 
   def install
-    (share/"fonts").install Dir.glob("./**/ZedMonoNerdFontPropo-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/ZedMonoNerdFont-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/ZedMonoNerdFont-BoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/ZedMonoNerdFont-BoldOblique.ttf")[0]
     (share/"fonts").install Dir.glob("./**/ZedMonoNerdFont-Extended.ttf")[0]
@@ -95,7 +95,7 @@ class FontZedMonoNerdFont < Formula
     (share/"fonts").install Dir.glob("./**/ZedMonoNerdFontPropo-MediumItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/ZedMonoNerdFontPropo-MediumOblique.ttf")[0]
     (share/"fonts").install Dir.glob("./**/ZedMonoNerdFontPropo-Oblique.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/ZedMonoNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/ZedMonoNerdFontPropo-Regular.ttf")[0]
   end
 
   test do
