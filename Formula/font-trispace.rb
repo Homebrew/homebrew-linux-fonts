@@ -5,7 +5,7 @@ class FontTrispace < Formula
        verified: "github.com/google/fonts/"
 
   def install
-    (share/"fonts").install Dir.glob("./**/Trispace[wdth,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Trispace?wdth,wght?.ttf")[0]
   end
 
   test do
