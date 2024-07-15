@@ -7,7 +7,7 @@ class FontSimpleLineIcons < Formula
   sha256 "1b0b4f39c0ed88e5507548bfeac01b1177804941ec687195ad551a7ce690b24d"
 
   def install
-    (share/"fonts").install Dir.glob("./**/simple-line-icons-2.5.4/fonts/Simple-Line-Icons.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/fonts/Simple-Line-Icons.ttf")[0]
   end
 
   test do
