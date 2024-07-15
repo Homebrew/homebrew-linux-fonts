@@ -7,7 +7,7 @@ class FontNotoSansMyanmarUi < Formula
        only_path: "ofl/notosansmyanmarui"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/notosansmyanmarui/./**/NotoSansMyanmarUI-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/notosansmyanmarui/./**/NotoSansMyanmarUI-Black.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/notosansmyanmarui/./**/NotoSansMyanmarUI-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/notosansmyanmarui/./**/NotoSansMyanmarUI-ExtraBold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/notosansmyanmarui/./**/NotoSansMyanmarUI-ExtraLight.ttf")[0]
@@ -15,7 +15,7 @@ class FontNotoSansMyanmarUi < Formula
     (share/"fonts").install Dir.glob("ofl/notosansmyanmarui/./**/NotoSansMyanmarUI-Medium.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/notosansmyanmarui/./**/NotoSansMyanmarUI-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/notosansmyanmarui/./**/NotoSansMyanmarUI-SemiBold.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/notosansmyanmarui/./**/NotoSansMyanmarUI-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/notosansmyanmarui/./**/NotoSansMyanmarUI-Thin.ttf")[0]
   end
 
   test do
