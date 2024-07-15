@@ -7,8 +7,8 @@ class FontBesley < Formula
        only_path: "ofl/besley"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/besley/./**/Besley-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/besley/./**/Besley[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/besley/./**/Besley-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/besley/./**/Besley?wght?.ttf")[0]
   end
 
   test do
