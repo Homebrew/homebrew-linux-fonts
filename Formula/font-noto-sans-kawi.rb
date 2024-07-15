@@ -5,7 +5,7 @@ class FontNotoSansKawi < Formula
        verified: "github.com/google/fonts/"
 
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSansKawi[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansKawi?wght?.ttf")[0]
   end
 
   test do
