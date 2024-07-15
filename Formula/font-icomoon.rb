@@ -5,7 +5,7 @@ class FontIcomoon < Formula
        verified: "github.com/Keyamoon/IcoMoon-Free/"
 
   def install
-    (share/"fonts").install Dir.glob("./**/IcoMoon-Free-master/Font/IcoMoon-Free.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Font/IcoMoon-Free.ttf")[0]
   end
 
   test do
