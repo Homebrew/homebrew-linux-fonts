@@ -7,7 +7,7 @@ class FontNotoSansThaiLooped < Formula
        only_path: "ofl/notosansthailooped"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/notosansthailooped/./**/NotoSansThaiLooped-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/notosansthailooped/./**/NotoSansThaiLooped-Black.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/notosansthailooped/./**/NotoSansThaiLooped-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/notosansthailooped/./**/NotoSansThaiLooped-ExtraBold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/notosansthailooped/./**/NotoSansThaiLooped-ExtraLight.ttf")[0]
@@ -15,7 +15,7 @@ class FontNotoSansThaiLooped < Formula
     (share/"fonts").install Dir.glob("ofl/notosansthailooped/./**/NotoSansThaiLooped-Medium.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/notosansthailooped/./**/NotoSansThaiLooped-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/notosansthailooped/./**/NotoSansThaiLooped-SemiBold.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/notosansthailooped/./**/NotoSansThaiLooped-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/notosansthailooped/./**/NotoSansThaiLooped-Thin.ttf")[0]
   end
 
   test do
