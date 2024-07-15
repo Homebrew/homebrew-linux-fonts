@@ -7,8 +7,8 @@ class FontRubik < Formula
        only_path: "ofl/rubik"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/rubik/./**/Rubik-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/rubik/./**/Rubik[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/rubik/./**/Rubik-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/rubik/./**/Rubik?wght?.ttf")[0]
   end
 
   test do
