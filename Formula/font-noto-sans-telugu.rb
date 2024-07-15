@@ -5,8 +5,8 @@ class FontNotoSansTelugu < Formula
        verified: "noto-website-2.storage.googleapis.com/"
 
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSansTelugu-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansTelugu-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansTelugu-Regular.ttf")[0]
   end
 
   test do
