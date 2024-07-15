@@ -6,7 +6,7 @@ class FontProggyCleanTtNerdFont < Formula
   sha256 "c1df44f83070792501fce087a1b367be88953a8c70250a755f848544d568c97a"
 
   def install
-    (share/"fonts").install Dir.glob("./**/ProggyCleanSZNerdFontPropo-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/ProggyCleanCENerdFont-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("./**/ProggyCleanCENerdFontMono-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("./**/ProggyCleanCENerdFontPropo-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("./**/ProggyCleanNerdFont-Regular.ttf")[0]
@@ -14,7 +14,7 @@ class FontProggyCleanTtNerdFont < Formula
     (share/"fonts").install Dir.glob("./**/ProggyCleanNerdFontPropo-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("./**/ProggyCleanSZNerdFont-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("./**/ProggyCleanSZNerdFontMono-Regular.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/ProggyCleanCENerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/ProggyCleanSZNerdFontPropo-Regular.ttf")[0]
   end
 
   test do
