@@ -4,7 +4,7 @@ class FontKaiso < Formula
   head "https://moji-waku.com/download/kaiso_next.zip"
 
   def install
-    (share/"fonts").install Dir.glob("./**/kaiso_next/Kaiso-Next-B.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Kaiso-Next-B.otf")[0]
   end
 
   test do
