@@ -6,8 +6,8 @@ class FontEzraSil < Formula
   sha256 "f16bcb3ec4473ac6a9f138ee0dbde7cc2f835e93a90cbe8649b3f32677760cc1"
 
   def install
-    (share/"fonts").install Dir.glob("./**/EzraSIL2.51/SILEOT.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/EzraSIL2.51/SILEOTSR.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/SILEOT.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/SILEOTSR.ttf")[0]
   end
 
   test do
