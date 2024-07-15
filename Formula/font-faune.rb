@@ -6,12 +6,12 @@ class FontFaune < Formula
   sha256 :no_check
 
   def install
-    (share/"fonts").install Dir.glob("./**/Faune_Fonts/Otf/Faune-DisplayBlack.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Faune_Fonts/Otf/Faune-DisplayBoldItalic.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Faune_Fonts/Otf/Faune-DisplayThin.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Faune_Fonts/Otf/Faune-TextBold.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Faune_Fonts/Otf/Faune-TextItalic.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Faune_Fonts/Otf/Faune-TextRegular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Otf/Faune-DisplayBlack.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Otf/Faune-DisplayBoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Otf/Faune-DisplayThin.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Otf/Faune-TextBold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Otf/Faune-TextItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Otf/Faune-TextRegular.otf")[0]
   end
 
   test do
