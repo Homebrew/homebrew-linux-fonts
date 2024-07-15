@@ -5,7 +5,7 @@ class FontNotoSerifLao < Formula
        verified: "noto-website-2.storage.googleapis.com/"
 
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSerifLao-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSerifLao-Black.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifLao-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifLao-Condensed.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifLao-CondensedBlack.ttf")[0]
@@ -40,7 +40,7 @@ class FontNotoSerifLao < Formula
     (share/"fonts").install Dir.glob("./**/NotoSerifLao-SemiCondensedMedium.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifLao-SemiCondensedSemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifLao-SemiCondensedThin.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/NotoSerifLao-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSerifLao-Thin.ttf")[0]
   end
 
   test do
