@@ -6,7 +6,7 @@ class FontTexGyreBonumMath < Formula
   sha256 "8f8dc6f52ff838201f581f20b4ab634508e6d4b1e2745fe5d6b7732e1df73290"
 
   def install
-    (share/"fonts").install Dir.glob("./**/texgyrebonum-math-1005/opentype/texgyrebonum-math.otf")[0]
+    (share/"fonts").install Dir.glob("./**/opentype/texgyrebonum-math.otf")[0]
   end
 
   test do
