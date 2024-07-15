@@ -7,8 +7,8 @@ class FontPlaywriteGbS < Formula
        only_path: "ofl/playwritegbs"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/playwritegbs/./**/PlaywriteGBS-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/playwritegbs/./**/PlaywriteGBS[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/playwritegbs/./**/PlaywriteGBS-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/playwritegbs/./**/PlaywriteGBS?wght?.ttf")[0]
   end
 
   test do
