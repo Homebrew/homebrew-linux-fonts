@@ -5,9 +5,9 @@ class FontJunction < Formula
        verified: "github.com/theleagueof/junction/"
 
   def install
-    (share/"fonts").install Dir.glob("./**/junction-master/Junction-bold.otf")[0]
-    (share/"fonts").install Dir.glob("./**/junction-master/Junction-light.otf")[0]
-    (share/"fonts").install Dir.glob("./**/junction-master/Junction-regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Junction-bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Junction-light.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Junction-regular.otf")[0]
   end
 
   test do
