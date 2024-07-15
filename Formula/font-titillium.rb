@@ -9,22 +9,22 @@ class FontTitillium < Formula
   disable! "2024-06-13", because: :no_longer_available
 
   def install
-    (share/"fonts").install Dir.glob("./**/Titillium_roman_upright_italic_2_0_OT/Titillium-ThinUpright.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Titillium_roman_upright_italic_2_0_OT/Titillium-Bold.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Titillium_roman_upright_italic_2_0_OT/Titillium-BoldItalic.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Titillium_roman_upright_italic_2_0_OT/Titillium-BoldUpright.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Titillium_roman_upright_italic_2_0_OT/Titillium-Light.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Titillium_roman_upright_italic_2_0_OT/Titillium-LightItalic.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Titillium_roman_upright_italic_2_0_OT/Titillium-LightUpright.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Titillium_roman_upright_italic_2_0_OT/Titillium-Regular.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Titillium_roman_upright_italic_2_0_OT/Titillium-RegularItalic.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Titillium_roman_upright_italic_2_0_OT/Titillium-RegularUpright.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Titillium_roman_upright_italic_2_0_OT/Titillium-Semibold.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Titillium_roman_upright_italic_2_0_OT/Titillium-SemiboldItalic.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Titillium_roman_upright_italic_2_0_OT/Titillium-SemiboldUpright.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Titillium_roman_upright_italic_2_0_OT/Titillium-Thin.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Titillium_roman_upright_italic_2_0_OT/Titillium-ThinItalic.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Titillium_roman_upright_italic_2_0_OT/Titillium-Black.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Titillium-Black.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Titillium-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Titillium-BoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Titillium-BoldUpright.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Titillium-Light.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Titillium-LightItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Titillium-LightUpright.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Titillium-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Titillium-RegularItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Titillium-RegularUpright.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Titillium-Semibold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Titillium-SemiboldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Titillium-SemiboldUpright.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Titillium-Thin.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Titillium-ThinItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Titillium-ThinUpright.otf")[0]
   end
 
   test do
