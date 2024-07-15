@@ -5,7 +5,7 @@ class FontNotoSansDevanagari < Formula
        verified: "noto-website-2.storage.googleapis.com/"
 
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSansDevanagariUI-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansDevanagari-Black.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansDevanagari-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansDevanagari-Condensed.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansDevanagari-CondensedBlack.ttf")[0]
@@ -76,7 +76,7 @@ class FontNotoSansDevanagari < Formula
     (share/"fonts").install Dir.glob("./**/NotoSansDevanagariUI-SemiCondensedMedium.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansDevanagariUI-SemiCondensedSemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansDevanagariUI-SemiCondensedThin.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/NotoSansDevanagari-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansDevanagariUI-Thin.ttf")[0]
   end
 
   test do
