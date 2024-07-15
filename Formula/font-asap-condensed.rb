@@ -7,7 +7,7 @@ class FontAsapCondensed < Formula
        only_path: "ofl/asapcondensed"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/asapcondensed/./**/AsapCondensed-SemiBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/asapcondensed/./**/AsapCondensed-Black.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/asapcondensed/./**/AsapCondensed-BlackItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/asapcondensed/./**/AsapCondensed-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/asapcondensed/./**/AsapCondensed-BoldItalic.ttf")[0]
@@ -22,7 +22,7 @@ class FontAsapCondensed < Formula
     (share/"fonts").install Dir.glob("ofl/asapcondensed/./**/AsapCondensed-MediumItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/asapcondensed/./**/AsapCondensed-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/asapcondensed/./**/AsapCondensed-SemiBold.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/asapcondensed/./**/AsapCondensed-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/asapcondensed/./**/AsapCondensed-SemiBoldItalic.ttf")[0]
   end
 
   test do
