@@ -6,7 +6,7 @@ class FontLilexNerdFont < Formula
   sha256 "246c475ddfc9ce70b49470a929443c886e5dcec20ed82c9575ed27c444cf9e23"
 
   def install
-    (share/"fonts").install Dir.glob("./**/LilexNerdFontPropo-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LilexNerdFont-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/LilexNerdFont-ExtraLight.ttf")[0]
     (share/"fonts").install Dir.glob("./**/LilexNerdFont-ExtraThick.ttf")[0]
     (share/"fonts").install Dir.glob("./**/LilexNerdFont-Medium.ttf")[0]
@@ -23,7 +23,7 @@ class FontLilexNerdFont < Formula
     (share/"fonts").install Dir.glob("./**/LilexNerdFontPropo-ExtraThick.ttf")[0]
     (share/"fonts").install Dir.glob("./**/LilexNerdFontPropo-Medium.ttf")[0]
     (share/"fonts").install Dir.glob("./**/LilexNerdFontPropo-Regular.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/LilexNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LilexNerdFontPropo-Thin.ttf")[0]
   end
 
   test do
