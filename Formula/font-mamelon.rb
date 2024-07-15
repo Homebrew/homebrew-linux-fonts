@@ -4,10 +4,10 @@ class FontMamelon < Formula
   head "https://moji-waku.com/download/mamelon_hireg.zip"
 
   def install
-    (share/"fonts").install Dir.glob("./**/mamelon_hireg/Mamelon-3-Hi-Regular.otf")[0]
-    (share/"fonts").install Dir.glob("./**/mamelon_hireg/Mamelon-3.5-Hi-Regular.otf")[0]
-    (share/"fonts").install Dir.glob("./**/mamelon_hireg/Mamelon-4-Hi-Regular.otf")[0]
-    (share/"fonts").install Dir.glob("./**/mamelon_hireg/Mamelon-5-Hi-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Mamelon-3-Hi-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Mamelon-3.5-Hi-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Mamelon-4-Hi-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Mamelon-5-Hi-Regular.otf")[0]
   end
 
   test do
