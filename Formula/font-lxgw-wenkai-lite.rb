@@ -6,12 +6,12 @@ class FontLxgwWenkaiLite < Formula
   sha256 "10beb11701118e6f1b301cdc2b2a2e6177e0fe53671c5f802603a9e9bd9c168d"
 
   def install
-    (share/"fonts").install Dir.glob("./**/lxgw-wenkai-lite-v1.330/LXGWWenKaiLite-Bold.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/lxgw-wenkai-lite-v1.330/LXGWWenKaiLite-Light.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/lxgw-wenkai-lite-v1.330/LXGWWenKaiLite-Regular.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/lxgw-wenkai-lite-v1.330/LXGWWenKaiMonoLite-Bold.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/lxgw-wenkai-lite-v1.330/LXGWWenKaiMonoLite-Light.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/lxgw-wenkai-lite-v1.330/LXGWWenKaiMonoLite-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LXGWWenKaiLite-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LXGWWenKaiLite-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LXGWWenKaiLite-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LXGWWenKaiMonoLite-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LXGWWenKaiMonoLite-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LXGWWenKaiMonoLite-Regular.ttf")[0]
   end
 
   test do
