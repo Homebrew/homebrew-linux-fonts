@@ -5,7 +5,7 @@ class FontRobotoFlex < Formula
        verified: "github.com/google/fonts/"
 
   def install
-    (share/"fonts").install Dir.glob("./**/RobotoFlex[GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RobotoFlex?GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght?.ttf")[0]
   end
 
   test do
