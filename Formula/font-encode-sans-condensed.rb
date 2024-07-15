@@ -7,7 +7,7 @@ class FontEncodeSansCondensed < Formula
        only_path: "ofl/encodesanscondensed"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/encodesanscondensed/./**/EncodeSansCondensed-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/encodesanscondensed/./**/EncodeSansCondensed-Black.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/encodesanscondensed/./**/EncodeSansCondensed-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/encodesanscondensed/./**/EncodeSansCondensed-ExtraBold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/encodesanscondensed/./**/EncodeSansCondensed-ExtraLight.ttf")[0]
@@ -15,7 +15,7 @@ class FontEncodeSansCondensed < Formula
     (share/"fonts").install Dir.glob("ofl/encodesanscondensed/./**/EncodeSansCondensed-Medium.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/encodesanscondensed/./**/EncodeSansCondensed-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/encodesanscondensed/./**/EncodeSansCondensed-SemiBold.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/encodesanscondensed/./**/EncodeSansCondensed-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/encodesanscondensed/./**/EncodeSansCondensed-Thin.ttf")[0]
   end
 
   test do
