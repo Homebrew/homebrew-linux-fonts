@@ -5,7 +5,7 @@ class FontGeologica < Formula
        verified: "github.com/google/fonts/"
 
   def install
-    (share/"fonts").install Dir.glob("./**/Geologica[CRSV,SHRP,slnt,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Geologica?CRSV,SHRP,slnt,wght?.ttf")[0]
   end
 
   test do
