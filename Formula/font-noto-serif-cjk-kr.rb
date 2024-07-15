@@ -6,13 +6,13 @@ class FontNotoSerifCjkKr < Formula
   sha256 "4df44fb37250f09d7f0382b70e389c400cbb2f4b783ac65c262e8bfa26c64fc1"
 
   def install
-    (share/"fonts").install Dir.glob("./**/OTF/Korean/NotoSerifCJKkr-Black.otf")[0]
-    (share/"fonts").install Dir.glob("./**/OTF/Korean/NotoSerifCJKkr-Bold.otf")[0]
-    (share/"fonts").install Dir.glob("./**/OTF/Korean/NotoSerifCJKkr-ExtraLight.otf")[0]
-    (share/"fonts").install Dir.glob("./**/OTF/Korean/NotoSerifCJKkr-Light.otf")[0]
-    (share/"fonts").install Dir.glob("./**/OTF/Korean/NotoSerifCJKkr-Medium.otf")[0]
-    (share/"fonts").install Dir.glob("./**/OTF/Korean/NotoSerifCJKkr-Regular.otf")[0]
-    (share/"fonts").install Dir.glob("./**/OTF/Korean/NotoSerifCJKkr-SemiBold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Korean/NotoSerifCJKkr-Black.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Korean/NotoSerifCJKkr-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Korean/NotoSerifCJKkr-ExtraLight.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Korean/NotoSerifCJKkr-Light.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Korean/NotoSerifCJKkr-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Korean/NotoSerifCJKkr-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Korean/NotoSerifCJKkr-SemiBold.otf")[0]
   end
 
   test do
