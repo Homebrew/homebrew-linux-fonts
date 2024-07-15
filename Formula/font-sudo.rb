@@ -6,7 +6,7 @@ class FontSudo < Formula
   sha256 "b7e2e9c6a22daf0139d759bea2fdefe745cc8b69ba216e6dab660a710dcb1eed"
 
   def install
-    (share/"fonts").install Dir.glob("./**/sudo/SudoVariable.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/SudoVariable.ttf")[0]
   end
 
   test do
