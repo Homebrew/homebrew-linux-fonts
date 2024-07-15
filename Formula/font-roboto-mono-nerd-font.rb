@@ -6,7 +6,7 @@ class FontRobotoMonoNerdFont < Formula
   sha256 "2ab7ecfddb21ec9a70d6ea7fd8e6328fffe7e10fa6b7a864208a9c5208175a81"
 
   def install
-    (share/"fonts").install Dir.glob("./**/RobotoMonoNerdFontPropo-ThinItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RobotoMonoNerdFont-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/RobotoMonoNerdFont-BoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/RobotoMonoNerdFont-Italic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/RobotoMonoNerdFont-Light.ttf")[0]
@@ -41,7 +41,7 @@ class FontRobotoMonoNerdFont < Formula
     (share/"fonts").install Dir.glob("./**/RobotoMonoNerdFontPropo-SemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/RobotoMonoNerdFontPropo-SemiBoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/RobotoMonoNerdFontPropo-Thin.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/RobotoMonoNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RobotoMonoNerdFontPropo-ThinItalic.ttf")[0]
   end
 
   test do
