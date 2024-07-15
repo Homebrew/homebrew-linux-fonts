@@ -7,8 +7,8 @@ class FontSofiaSansCondensed < Formula
        only_path: "ofl/sofiasanscondensed"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/sofiasanscondensed/./**/SofiaSansCondensed-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/sofiasanscondensed/./**/SofiaSansCondensed[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sofiasanscondensed/./**/SofiaSansCondensed-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sofiasanscondensed/./**/SofiaSansCondensed?wght?.ttf")[0]
   end
 
   test do
