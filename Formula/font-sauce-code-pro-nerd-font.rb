@@ -6,7 +6,7 @@ class FontSauceCodeProNerdFont < Formula
   sha256 "dcba53be6a360aac5bd1424ac4ab316c5401f7e5a1fa28be4fa626ce07a30c0f"
 
   def install
-    (share/"fonts").install Dir.glob("./**/SauceCodeProNerdFontPropo-SemiBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/SauceCodeProNerdFont-Black.ttf")[0]
     (share/"fonts").install Dir.glob("./**/SauceCodeProNerdFont-BlackItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/SauceCodeProNerdFont-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/SauceCodeProNerdFont-BoldItalic.ttf")[0]
@@ -47,7 +47,7 @@ class FontSauceCodeProNerdFont < Formula
     (share/"fonts").install Dir.glob("./**/SauceCodeProNerdFontPropo-MediumItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/SauceCodeProNerdFontPropo-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("./**/SauceCodeProNerdFontPropo-SemiBold.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/SauceCodeProNerdFont-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/SauceCodeProNerdFontPropo-SemiBoldItalic.ttf")[0]
   end
 
   test do
