@@ -7,8 +7,8 @@ class FontArchivo < Formula
        only_path: "ofl/archivo"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/archivo/./**/Archivo-Italic[wdth,wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/archivo/./**/Archivo[wdth,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/archivo/./**/Archivo-Italic?wdth,wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/archivo/./**/Archivo?wdth,wght?.ttf")[0]
   end
 
   test do
