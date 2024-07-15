@@ -7,7 +7,7 @@ class FontKoho < Formula
        only_path: "ofl/koho"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/koho/./**/KoHo-SemiBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/koho/./**/KoHo-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/koho/./**/KoHo-BoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/koho/./**/KoHo-ExtraLight.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/koho/./**/KoHo-ExtraLightItalic.ttf")[0]
@@ -18,7 +18,7 @@ class FontKoho < Formula
     (share/"fonts").install Dir.glob("ofl/koho/./**/KoHo-MediumItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/koho/./**/KoHo-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/koho/./**/KoHo-SemiBold.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/koho/./**/KoHo-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/koho/./**/KoHo-SemiBoldItalic.ttf")[0]
   end
 
   test do
