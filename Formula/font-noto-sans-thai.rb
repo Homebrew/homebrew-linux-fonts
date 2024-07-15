@@ -5,7 +5,7 @@ class FontNotoSansThai < Formula
        verified: "noto-website-2.storage.googleapis.com/"
 
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSansThaiUI-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansThai-Black.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansThai-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansThai-Condensed.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansThai-CondensedBlack.ttf")[0]
@@ -76,7 +76,7 @@ class FontNotoSansThai < Formula
     (share/"fonts").install Dir.glob("./**/NotoSansThaiUI-SemiCondensedMedium.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansThaiUI-SemiCondensedSemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansThaiUI-SemiCondensedThin.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/NotoSansThai-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansThaiUI-Thin.ttf")[0]
   end
 
   test do
