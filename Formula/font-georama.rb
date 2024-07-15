@@ -7,8 +7,8 @@ class FontGeorama < Formula
        only_path: "ofl/georama"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/georama/./**/Georama-Italic[wdth,wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/georama/./**/Georama[wdth,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/georama/./**/Georama-Italic?wdth,wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/georama/./**/Georama?wdth,wght?.ttf")[0]
   end
 
   test do
