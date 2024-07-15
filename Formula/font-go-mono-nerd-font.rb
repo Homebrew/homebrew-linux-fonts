@@ -6,7 +6,7 @@ class FontGoMonoNerdFont < Formula
   sha256 "1440419676af8287b1e707ec1d2846880b6745524099f566b34ba7facd28d84a"
 
   def install
-    (share/"fonts").install Dir.glob("./**/GoMonoNerdFontPropo-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GoMonoNerdFont-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/GoMonoNerdFont-BoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/GoMonoNerdFont-Italic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/GoMonoNerdFont-Regular.ttf")[0]
@@ -17,7 +17,7 @@ class FontGoMonoNerdFont < Formula
     (share/"fonts").install Dir.glob("./**/GoMonoNerdFontPropo-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/GoMonoNerdFontPropo-BoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/GoMonoNerdFontPropo-Italic.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/GoMonoNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GoMonoNerdFontPropo-Regular.ttf")[0]
   end
 
   test do
