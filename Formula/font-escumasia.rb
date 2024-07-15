@@ -4,7 +4,7 @@ class FontEscumasia < Formula
   head "https://moji-waku.com/download/escumasia.zip"
 
   def install
-    (share/"fonts").install Dir.glob("./**/escumasia/Escumasia-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Escumasia-Regular.otf")[0]
   end
 
   test do
