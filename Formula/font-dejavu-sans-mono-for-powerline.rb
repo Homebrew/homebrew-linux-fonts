@@ -6,10 +6,10 @@ class FontDejavuSansMonoForPowerline < Formula
        only_path: "DejaVuSansMono"
 
   def install
-    (share/"fonts").install Dir.glob("DejaVuSansMono/./**/DejaVu Sans Mono for Powerline.ttf")[0]
+    (share/"fonts").install Dir.glob("DejaVuSansMono/./**/DejaVu Sans Mono Bold Oblique for Powerline.ttf")[0]
     (share/"fonts").install Dir.glob("DejaVuSansMono/./**/DejaVu Sans Mono Bold for Powerline.ttf")[0]
     (share/"fonts").install Dir.glob("DejaVuSansMono/./**/DejaVu Sans Mono Oblique for Powerline.ttf")[0]
-    (share/"fonts").install Dir.glob("DejaVuSansMono/./**/DejaVu Sans Mono Bold Oblique for Powerline.ttf")[0]
+    (share/"fonts").install Dir.glob("DejaVuSansMono/./**/DejaVu Sans Mono for Powerline.ttf")[0]
   end
 
   test do
