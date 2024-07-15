@@ -7,8 +7,8 @@ class FontAdventPro < Formula
        only_path: "ofl/adventpro"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/adventpro/./**/AdventPro-Italic[wdth,wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/adventpro/./**/AdventPro[wdth,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/adventpro/./**/AdventPro-Italic?wdth,wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/adventpro/./**/AdventPro?wdth,wght?.ttf")[0]
   end
 
   test do
