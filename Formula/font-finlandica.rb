@@ -7,8 +7,8 @@ class FontFinlandica < Formula
        only_path: "ofl/finlandica"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/finlandica/./**/Finlandica-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/finlandica/./**/Finlandica[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/finlandica/./**/Finlandica-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/finlandica/./**/Finlandica?wght?.ttf")[0]
   end
 
   test do
