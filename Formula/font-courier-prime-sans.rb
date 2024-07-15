@@ -4,10 +4,10 @@ class FontCourierPrimeSans < Formula
   head "https://quoteunquoteapps.com/courierprime/downloads/courier-prime-sans.zip"
 
   def install
-    (share/"fonts").install Dir.glob("./**/CourierPrimeSans-master/ttf/Courier Prime Sans Bold Italic.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/CourierPrimeSans-master/ttf/Courier Prime Sans Bold.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/CourierPrimeSans-master/ttf/Courier Prime Sans Italic.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/CourierPrimeSans-master/ttf/Courier Prime Sans.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/ttf/Courier Prime Sans Bold Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/ttf/Courier Prime Sans Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/ttf/Courier Prime Sans Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/ttf/Courier Prime Sans.ttf")[0]
   end
 
   test do
