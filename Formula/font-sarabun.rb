@@ -7,7 +7,7 @@ class FontSarabun < Formula
        only_path: "ofl/sarabun"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/sarabun/./**/Sarabun-ThinItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sarabun/./**/Sarabun-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/sarabun/./**/Sarabun-BoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/sarabun/./**/Sarabun-ExtraBold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/sarabun/./**/Sarabun-ExtraBoldItalic.ttf")[0]
@@ -22,7 +22,7 @@ class FontSarabun < Formula
     (share/"fonts").install Dir.glob("ofl/sarabun/./**/Sarabun-SemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/sarabun/./**/Sarabun-SemiBoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/sarabun/./**/Sarabun-Thin.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/sarabun/./**/Sarabun-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sarabun/./**/Sarabun-ThinItalic.ttf")[0]
   end
 
   test do
