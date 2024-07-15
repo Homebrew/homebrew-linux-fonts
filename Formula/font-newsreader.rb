@@ -7,8 +7,8 @@ class FontNewsreader < Formula
        only_path: "ofl/newsreader"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/newsreader/./**/Newsreader-Italic[opsz,wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/newsreader/./**/Newsreader[opsz,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/newsreader/./**/Newsreader-Italic?opsz,wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/newsreader/./**/Newsreader?opsz,wght?.ttf")[0]
   end
 
   test do
