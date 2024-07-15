@@ -4,7 +4,7 @@ class FontFoundationIcons < Formula
   head "https://zurb.com/playground/uploads/upload/upload/288/foundation-icons.zip"
 
   def install
-    (share/"fonts").install Dir.glob("./**/foundation-icons/foundation-icons.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/foundation-icons.ttf")[0]
   end
 
   test do
