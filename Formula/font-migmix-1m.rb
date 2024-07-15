@@ -7,8 +7,8 @@ class FontMigmix1m < Formula
   sha256 "5b662021765d5a091cdbe6b09dd464710fbc42fb20c544d28795b3e0580a216e"
 
   def install
-    (share/"fonts").install Dir.glob("./**/migmix-1m-20200307/migmix-1m-bold.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/migmix-1m-20200307/migmix-1m-regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/migmix-1m-bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/migmix-1m-regular.ttf")[0]
   end
 
   test do
