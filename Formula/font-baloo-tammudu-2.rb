@@ -5,7 +5,7 @@ class FontBalooTammudu2 < Formula
        verified: "github.com/google/fonts/"
 
   def install
-    (share/"fonts").install Dir.glob("./**/BalooTammudu2[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/BalooTammudu2?wght?.ttf")[0]
   end
 
   test do
