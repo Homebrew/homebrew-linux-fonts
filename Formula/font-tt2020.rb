@@ -6,16 +6,16 @@ class FontTt2020 < Formula
   sha256 "a6c34a7ffce6e2f87c12566724029bde528364ce653805ac3d28a34845d815e7"
 
   def install
-    (share/"fonts").install Dir.glob("./**/TT2020-0.2.1/dist/TT2020StyleG-Regular.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/TT2020-0.2.1/dist/TT2020Base-Regular.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/TT2020-0.2.1/dist/TT2020StyleB-Italic.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/TT2020-0.2.1/dist/TT2020StyleB-Regular.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/TT2020-0.2.1/dist/TT2020StyleD-Italic.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/TT2020-0.2.1/dist/TT2020StyleD-Regular.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/TT2020-0.2.1/dist/TT2020StyleE-Italic.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/TT2020-0.2.1/dist/TT2020StyleE-Regular.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/TT2020-0.2.1/dist/TT2020StyleF-Regular.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/TT2020-0.2.1/dist/TT2020Base-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/dist/TT2020Base-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/dist/TT2020Base-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/dist/TT2020StyleB-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/dist/TT2020StyleB-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/dist/TT2020StyleD-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/dist/TT2020StyleD-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/dist/TT2020StyleE-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/dist/TT2020StyleE-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/dist/TT2020StyleF-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/dist/TT2020StyleG-Regular.ttf")[0]
   end
 
   test do
