@@ -7,8 +7,8 @@ class FontRethinkSans < Formula
        only_path: "ofl/rethinksans"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/rethinksans/./**/RethinkSans-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/rethinksans/./**/RethinkSans[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/rethinksans/./**/RethinkSans-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/rethinksans/./**/RethinkSans?wght?.ttf")[0]
   end
 
   test do
