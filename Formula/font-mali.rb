@@ -7,7 +7,7 @@ class FontMali < Formula
        only_path: "ofl/mali"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/mali/./**/Mali-SemiBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/mali/./**/Mali-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/mali/./**/Mali-BoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/mali/./**/Mali-ExtraLight.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/mali/./**/Mali-ExtraLightItalic.ttf")[0]
@@ -18,7 +18,7 @@ class FontMali < Formula
     (share/"fonts").install Dir.glob("ofl/mali/./**/Mali-MediumItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/mali/./**/Mali-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/mali/./**/Mali-SemiBold.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/mali/./**/Mali-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/mali/./**/Mali-SemiBoldItalic.ttf")[0]
   end
 
   test do
