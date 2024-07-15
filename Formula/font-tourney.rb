@@ -7,8 +7,8 @@ class FontTourney < Formula
        only_path: "ofl/tourney"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/tourney/./**/Tourney-Italic[wdth,wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/tourney/./**/Tourney[wdth,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/tourney/./**/Tourney-Italic?wdth,wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/tourney/./**/Tourney?wdth,wght?.ttf")[0]
   end
 
   test do
