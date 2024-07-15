@@ -5,7 +5,7 @@ class FontNotoSerifHebrew < Formula
        verified: "noto-website-2.storage.googleapis.com/"
 
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSerifHebrew-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSerifHebrew-Black.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifHebrew-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifHebrew-Condensed.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifHebrew-CondensedBlack.ttf")[0]
@@ -40,7 +40,7 @@ class FontNotoSerifHebrew < Formula
     (share/"fonts").install Dir.glob("./**/NotoSerifHebrew-SemiCondensedMedium.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifHebrew-SemiCondensedSemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifHebrew-SemiCondensedThin.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/NotoSerifHebrew-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSerifHebrew-Thin.ttf")[0]
   end
 
   test do
