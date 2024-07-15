@@ -7,7 +7,7 @@ class FontIbmPlexSans < Formula
        only_path: "ofl/ibmplexsans"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/ibmplexsans/./**/IBMPlexSans-ThinItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibmplexsans/./**/IBMPlexSans-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/ibmplexsans/./**/IBMPlexSans-BoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/ibmplexsans/./**/IBMPlexSans-ExtraLight.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/ibmplexsans/./**/IBMPlexSans-ExtraLightItalic.ttf")[0]
@@ -20,7 +20,7 @@ class FontIbmPlexSans < Formula
     (share/"fonts").install Dir.glob("ofl/ibmplexsans/./**/IBMPlexSans-SemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/ibmplexsans/./**/IBMPlexSans-SemiBoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/ibmplexsans/./**/IBMPlexSans-Thin.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/ibmplexsans/./**/IBMPlexSans-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibmplexsans/./**/IBMPlexSans-ThinItalic.ttf")[0]
   end
 
   test do
