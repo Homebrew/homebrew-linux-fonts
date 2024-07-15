@@ -6,7 +6,7 @@ class FontOverpassNerdFont < Formula
   sha256 "809c5a1e25b3a6633a07a50d59c7de7faca4b5d6df5696bf4d470bb8d3dc1244"
 
   def install
-    (share/"fonts").install Dir.glob("./**/OverpassNerdFontPropo-ThinItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/OverpassMNerdFont-Bold.otf")[0]
     (share/"fonts").install Dir.glob("./**/OverpassMNerdFont-Light.otf")[0]
     (share/"fonts").install Dir.glob("./**/OverpassMNerdFont-Regular.otf")[0]
     (share/"fonts").install Dir.glob("./**/OverpassMNerdFont-SemiBold.otf")[0]
@@ -49,7 +49,7 @@ class FontOverpassNerdFont < Formula
     (share/"fonts").install Dir.glob("./**/OverpassNerdFontPropo-SemiBold.otf")[0]
     (share/"fonts").install Dir.glob("./**/OverpassNerdFontPropo-SemiBoldItalic.otf")[0]
     (share/"fonts").install Dir.glob("./**/OverpassNerdFontPropo-Thin.otf")[0]
-    (share/"fonts").install Dir.glob("./**/OverpassMNerdFont-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/OverpassNerdFontPropo-ThinItalic.otf")[0]
   end
 
   test do
