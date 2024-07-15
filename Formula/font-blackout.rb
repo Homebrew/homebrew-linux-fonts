@@ -5,9 +5,9 @@ class FontBlackout < Formula
        verified: "github.com/theleagueof/blackout/"
 
   def install
-    (share/"fonts").install Dir.glob("./**/blackout-master/Blackout 2 AM.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/blackout-master/Blackout Midnight.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/blackout-master/Blackout Sunrise.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Blackout 2 AM.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Blackout Midnight.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Blackout Sunrise.ttf")[0]
   end
 
   test do
