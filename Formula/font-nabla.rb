@@ -5,7 +5,7 @@ class FontNabla < Formula
        verified: "github.com/google/fonts/"
 
   def install
-    (share/"fonts").install Dir.glob("./**/Nabla[EDPT,EHLT].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Nabla?EDPT,EHLT?.ttf")[0]
   end
 
   test do
