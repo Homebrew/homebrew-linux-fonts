@@ -5,7 +5,7 @@ class FontNotoSansEthiopic < Formula
        verified: "noto-website-2.storage.googleapis.com/"
 
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSansEthiopic-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansEthiopic-Black.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansEthiopic-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansEthiopic-Condensed.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansEthiopic-CondensedBlack.ttf")[0]
@@ -40,7 +40,7 @@ class FontNotoSansEthiopic < Formula
     (share/"fonts").install Dir.glob("./**/NotoSansEthiopic-SemiCondensedMedium.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansEthiopic-SemiCondensedSemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansEthiopic-SemiCondensedThin.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/NotoSansEthiopic-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansEthiopic-Thin.ttf")[0]
   end
 
   test do
