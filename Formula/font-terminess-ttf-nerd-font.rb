@@ -6,7 +6,7 @@ class FontTerminessTtfNerdFont < Formula
   sha256 "b850527aa4699ace0efef45012a12f128a26a7a74e1b55d69ccbb5ff4877ced3"
 
   def install
-    (share/"fonts").install Dir.glob("./**/TerminessNerdFontPropo-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/TerminessNerdFont-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/TerminessNerdFont-BoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/TerminessNerdFont-Italic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/TerminessNerdFont-Regular.ttf")[0]
@@ -17,7 +17,7 @@ class FontTerminessTtfNerdFont < Formula
     (share/"fonts").install Dir.glob("./**/TerminessNerdFontPropo-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/TerminessNerdFontPropo-BoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/TerminessNerdFontPropo-Italic.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/TerminessNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/TerminessNerdFontPropo-Regular.ttf")[0]
   end
 
   test do
