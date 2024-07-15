@@ -7,8 +7,8 @@ class FontCrimsonPro < Formula
        only_path: "ofl/crimsonpro"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/crimsonpro/./**/CrimsonPro-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/crimsonpro/./**/CrimsonPro[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/crimsonpro/./**/CrimsonPro-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/crimsonpro/./**/CrimsonPro?wght?.ttf")[0]
   end
 
   test do
