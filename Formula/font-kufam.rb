@@ -7,8 +7,8 @@ class FontKufam < Formula
        only_path: "ofl/kufam"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/kufam/./**/Kufam-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/kufam/./**/Kufam[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/kufam/./**/Kufam-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/kufam/./**/Kufam?wght?.ttf")[0]
   end
 
   test do
