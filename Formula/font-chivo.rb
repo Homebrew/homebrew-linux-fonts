@@ -7,8 +7,8 @@ class FontChivo < Formula
        only_path: "ofl/chivo"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/chivo/./**/Chivo-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/chivo/./**/Chivo[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/chivo/./**/Chivo-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/chivo/./**/Chivo?wght?.ttf")[0]
   end
 
   test do
