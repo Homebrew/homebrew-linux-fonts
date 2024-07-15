@@ -7,8 +7,8 @@ class FontAzeretMono < Formula
        only_path: "ofl/azeretmono"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/azeretmono/./**/AzeretMono-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/azeretmono/./**/AzeretMono[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/azeretmono/./**/AzeretMono-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/azeretmono/./**/AzeretMono?wght?.ttf")[0]
   end
 
   test do
