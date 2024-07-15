@@ -6,8 +6,8 @@ class FontElstobd < Formula
   sha256 "f20439bf6de7c4dd177b013fe5f262cad30bc8caedd07245ad5dfe2b8e9231cc"
 
   def install
-    (share/"fonts").install Dir.glob("./**/Elstob_font/variable/Elstob-Italic.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/Elstob_font/variable/Elstob.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/variable/Elstob-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/variable/Elstob.ttf")[0]
   end
 
   test do
