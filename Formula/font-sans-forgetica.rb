@@ -4,7 +4,7 @@ class FontSansForgetica < Formula
   head "https://sansforgetica.rmit.edu.au/Common/Zips/Sans%20Forgetica.zip"
 
   def install
-    (share/"fonts").install Dir.glob("./**/Sans Forgetica/SansForgetica-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/SansForgetica-Regular.otf")[0]
   end
 
   test do
