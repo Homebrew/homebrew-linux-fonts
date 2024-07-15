@@ -7,8 +7,8 @@ class FontGenos < Formula
        only_path: "ofl/genos"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/genos/./**/Genos-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/genos/./**/Genos[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/genos/./**/Genos-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/genos/./**/Genos?wght?.ttf")[0]
   end
 
   test do
