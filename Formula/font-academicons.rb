@@ -6,7 +6,7 @@ class FontAcademicons < Formula
   sha256 "5b6aeecaaf2a63d23b07b722f3e1be2ae1a12f433677704e73a6b8f564943784"
 
   def install
-    (share/"fonts").install Dir.glob("./**/academicons-1.9.4/fonts/academicons.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/fonts/academicons.ttf")[0]
   end
 
   test do
