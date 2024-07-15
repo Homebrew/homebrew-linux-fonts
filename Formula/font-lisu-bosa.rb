@@ -7,7 +7,7 @@ class FontLisuBosa < Formula
        only_path: "ofl/lisubosa"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/lisubosa/./**/LisuBosa-SemiBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/lisubosa/./**/LisuBosa-Black.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/lisubosa/./**/LisuBosa-BlackItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/lisubosa/./**/LisuBosa-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/lisubosa/./**/LisuBosa-BoldItalic.ttf")[0]
@@ -22,7 +22,7 @@ class FontLisuBosa < Formula
     (share/"fonts").install Dir.glob("ofl/lisubosa/./**/LisuBosa-MediumItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/lisubosa/./**/LisuBosa-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/lisubosa/./**/LisuBosa-SemiBold.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/lisubosa/./**/LisuBosa-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/lisubosa/./**/LisuBosa-SemiBoldItalic.ttf")[0]
   end
 
   test do
