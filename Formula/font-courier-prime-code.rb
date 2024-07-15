@@ -4,8 +4,8 @@ class FontCourierPrimeCode < Formula
   head "https://quoteunquoteapps.com/courierprime/downloads/courier-prime-code.zip"
 
   def install
-    (share/"fonts").install Dir.glob("./**/ttf/Courier Prime Code Italic.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/ttf/Courier Prime Code.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Courier Prime Code Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Courier Prime Code.ttf")[0]
   end
 
   test do
