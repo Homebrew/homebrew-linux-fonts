@@ -6,8 +6,8 @@ class FontCascadiaMono < Formula
   sha256 "a911410626c0e09d03fa3fdda827188fda96607df50fecc3c5fee5906e33251b"
 
   def install
-    (share/"fonts").install Dir.glob("./**/ttf/CascadiaMono.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/ttf/CascadiaMonoItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/CascadiaMono.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/CascadiaMonoItalic.ttf")[0]
   end
 
   test do
