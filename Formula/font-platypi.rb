@@ -7,8 +7,8 @@ class FontPlatypi < Formula
        only_path: "ofl/platypi"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/platypi/./**/Platypi-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/platypi/./**/Platypi[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/platypi/./**/Platypi-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/platypi/./**/Platypi?wght?.ttf")[0]
   end
 
   test do
