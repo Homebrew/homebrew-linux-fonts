@@ -5,7 +5,7 @@ class FontNotoSansKhmer < Formula
        verified: "noto-website-2.storage.googleapis.com/"
 
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSansKhmerUI-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansKhmer-Black.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansKhmer-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansKhmer-Condensed.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansKhmer-CondensedBlack.ttf")[0]
@@ -76,7 +76,7 @@ class FontNotoSansKhmer < Formula
     (share/"fonts").install Dir.glob("./**/NotoSansKhmerUI-SemiCondensedMedium.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansKhmerUI-SemiCondensedSemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansKhmerUI-SemiCondensedThin.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/NotoSansKhmer-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansKhmerUI-Thin.ttf")[0]
   end
 
   test do
