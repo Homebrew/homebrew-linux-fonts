@@ -7,8 +7,8 @@ class FontJosefinSlab < Formula
        only_path: "ofl/josefinslab"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/josefinslab/./**/JosefinSlab-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/josefinslab/./**/JosefinSlab[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/josefinslab/./**/JosefinSlab-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/josefinslab/./**/JosefinSlab?wght?.ttf")[0]
   end
 
   test do
