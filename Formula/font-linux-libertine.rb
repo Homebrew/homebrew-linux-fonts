@@ -7,7 +7,7 @@ class FontLinuxLibertine < Formula
   sha256 "24a593a949808d976850131a953c0c0d7a72299531dfbb348191964cc038d75d"
 
   def install
-    (share/"fonts").install Dir.glob("./**/LinLibertine_Rah.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LinLibertine_DRah.ttf")[0]
     (share/"fonts").install Dir.glob("./**/LinLibertine_I.ttf")[0]
     (share/"fonts").install Dir.glob("./**/LinLibertine_Mah.ttf")[0]
     (share/"fonts").install Dir.glob("./**/LinLibertine_RBIah.ttf")[0]
@@ -15,7 +15,7 @@ class FontLinuxLibertine < Formula
     (share/"fonts").install Dir.glob("./**/LinLibertine_RIah.ttf")[0]
     (share/"fonts").install Dir.glob("./**/LinLibertine_RZIah.ttf")[0]
     (share/"fonts").install Dir.glob("./**/LinLibertine_RZah.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/LinLibertine_DRah.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LinLibertine_Rah.ttf")[0]
   end
 
   test do
