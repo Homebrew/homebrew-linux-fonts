@@ -7,8 +7,8 @@ class FontSourceSans3 < Formula
        only_path: "ofl/sourcesans3"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/sourcesans3/./**/SourceSans3-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/sourcesans3/./**/SourceSans3[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sourcesans3/./**/SourceSans3-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sourcesans3/./**/SourceSans3?wght?.ttf")[0]
   end
 
   test do
