@@ -7,8 +7,8 @@ class FontPoltawskiNowy < Formula
        only_path: "ofl/poltawskinowy"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/poltawskinowy/./**/PoltawskiNowy-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/poltawskinowy/./**/PoltawskiNowy[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/poltawskinowy/./**/PoltawskiNowy-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/poltawskinowy/./**/PoltawskiNowy?wght?.ttf")[0]
   end
 
   test do
