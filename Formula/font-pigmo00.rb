@@ -4,7 +4,7 @@ class FontPigmo00 < Formula
   head "https://moji-waku.com/download/pigmo00.zip"
 
   def install
-    (share/"fonts").install Dir.glob("./**/pigmo00/Pigmo-00.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Pigmo-00.otf")[0]
   end
 
   test do
