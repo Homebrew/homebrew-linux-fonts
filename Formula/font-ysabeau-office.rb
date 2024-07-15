@@ -7,8 +7,8 @@ class FontYsabeauOffice < Formula
        only_path: "ofl/ysabeauoffice"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/ysabeauoffice/./**/YsabeauOffice-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/ysabeauoffice/./**/YsabeauOffice[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ysabeauoffice/./**/YsabeauOffice-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ysabeauoffice/./**/YsabeauOffice?wght?.ttf")[0]
   end
 
   test do
