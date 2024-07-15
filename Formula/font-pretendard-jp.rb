@@ -6,15 +6,15 @@ class FontPretendardJp < Formula
   sha256 "8dab678c371a1530106ca643b76b2b80d47653d5ba670b01265b48e4c6615d63"
 
   def install
-    (share/"fonts").install Dir.glob("./**/public/static/PretendardJP-Thin.otf")[0]
-    (share/"fonts").install Dir.glob("./**/public/static/PretendardJP-Bold.otf")[0]
-    (share/"fonts").install Dir.glob("./**/public/static/PretendardJP-ExtraBold.otf")[0]
-    (share/"fonts").install Dir.glob("./**/public/static/PretendardJP-ExtraLight.otf")[0]
-    (share/"fonts").install Dir.glob("./**/public/static/PretendardJP-Light.otf")[0]
-    (share/"fonts").install Dir.glob("./**/public/static/PretendardJP-Medium.otf")[0]
-    (share/"fonts").install Dir.glob("./**/public/static/PretendardJP-Regular.otf")[0]
-    (share/"fonts").install Dir.glob("./**/public/static/PretendardJP-SemiBold.otf")[0]
-    (share/"fonts").install Dir.glob("./**/public/static/PretendardJP-Black.otf")[0]
+    (share/"fonts").install Dir.glob("./**/static/PretendardJP-Black.otf")[0]
+    (share/"fonts").install Dir.glob("./**/static/PretendardJP-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/static/PretendardJP-ExtraBold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/static/PretendardJP-ExtraLight.otf")[0]
+    (share/"fonts").install Dir.glob("./**/static/PretendardJP-Light.otf")[0]
+    (share/"fonts").install Dir.glob("./**/static/PretendardJP-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("./**/static/PretendardJP-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/static/PretendardJP-SemiBold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/static/PretendardJP-Thin.otf")[0]
   end
 
   test do
