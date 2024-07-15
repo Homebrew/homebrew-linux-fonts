@@ -6,10 +6,10 @@ class FontUbuntuMonoDerivativePowerline < Formula
        only_path: "UbuntuMono"
 
   def install
-    (share/"fonts").install Dir.glob("UbuntuMono/./**/Ubuntu Mono derivative Powerline.ttf")[0]
-    (share/"fonts").install Dir.glob("UbuntuMono/./**/Ubuntu Mono derivative Powerline Bold.ttf")[0]
     (share/"fonts").install Dir.glob("UbuntuMono/./**/Ubuntu Mono derivative Powerline Bold Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("UbuntuMono/./**/Ubuntu Mono derivative Powerline Bold.ttf")[0]
     (share/"fonts").install Dir.glob("UbuntuMono/./**/Ubuntu Mono derivative Powerline Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("UbuntuMono/./**/Ubuntu Mono derivative Powerline.ttf")[0]
   end
 
   test do
