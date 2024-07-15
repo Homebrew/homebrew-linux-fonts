@@ -5,7 +5,7 @@ class FontPlaywriteItModerna < Formula
        verified: "github.com/google/fonts/"
 
   def install
-    (share/"fonts").install Dir.glob("./**/PlaywriteITModerna[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/PlaywriteITModerna?wght?.ttf")[0]
   end
 
   test do
