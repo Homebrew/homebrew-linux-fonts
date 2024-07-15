@@ -7,7 +7,7 @@ class FontSairaCondensed < Formula
        only_path: "ofl/sairacondensed"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/sairacondensed/./**/SairaCondensed-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sairacondensed/./**/SairaCondensed-Black.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/sairacondensed/./**/SairaCondensed-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/sairacondensed/./**/SairaCondensed-ExtraBold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/sairacondensed/./**/SairaCondensed-ExtraLight.ttf")[0]
@@ -15,7 +15,7 @@ class FontSairaCondensed < Formula
     (share/"fonts").install Dir.glob("ofl/sairacondensed/./**/SairaCondensed-Medium.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/sairacondensed/./**/SairaCondensed-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/sairacondensed/./**/SairaCondensed-SemiBold.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/sairacondensed/./**/SairaCondensed-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sairacondensed/./**/SairaCondensed-Thin.ttf")[0]
   end
 
   test do
