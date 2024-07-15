@@ -7,8 +7,8 @@ class FontArimo < Formula
        only_path: "apache/arimo"
 
   def install
-    (share/"fonts").install Dir.glob("apache/arimo/./**/Arimo-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("apache/arimo/./**/Arimo[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("apache/arimo/./**/Arimo-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("apache/arimo/./**/Arimo?wght?.ttf")[0]
   end
 
   test do
