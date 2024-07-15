@@ -4,7 +4,7 @@ class FontEduAuVicWaNtHand < Formula
   head "https://github.com/google/fonts/raw/main/ofl/eduauvicwanthand/EduAUVICWANTHand%5Bwght%5D.ttf"
 
   def install
-    (share/"fonts").install Dir.glob("./**/EduAUVICWANTHand[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/EduAUVICWANTHand?wght?.ttf")[0]
   end
 
   test do
