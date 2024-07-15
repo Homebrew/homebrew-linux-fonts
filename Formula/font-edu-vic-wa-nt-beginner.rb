@@ -5,7 +5,7 @@ class FontEduVicWaNtBeginner < Formula
        verified: "github.com/google/fonts/"
 
   def install
-    (share/"fonts").install Dir.glob("./**/EduVICWANTBeginner[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/EduVICWANTBeginner?wght?.ttf")[0]
   end
 
   test do
