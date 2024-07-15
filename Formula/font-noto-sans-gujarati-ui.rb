@@ -7,7 +7,7 @@ class FontNotoSansGujaratiUi < Formula
        only_path: "ofl/notosansgujaratiui"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/notosansgujaratiui/./**/NotoSansGujaratiUI-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/notosansgujaratiui/./**/NotoSansGujaratiUI-Black.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/notosansgujaratiui/./**/NotoSansGujaratiUI-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/notosansgujaratiui/./**/NotoSansGujaratiUI-ExtraBold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/notosansgujaratiui/./**/NotoSansGujaratiUI-ExtraLight.ttf")[0]
@@ -15,7 +15,7 @@ class FontNotoSansGujaratiUi < Formula
     (share/"fonts").install Dir.glob("ofl/notosansgujaratiui/./**/NotoSansGujaratiUI-Medium.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/notosansgujaratiui/./**/NotoSansGujaratiUI-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/notosansgujaratiui/./**/NotoSansGujaratiUI-SemiBold.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/notosansgujaratiui/./**/NotoSansGujaratiUI-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/notosansgujaratiui/./**/NotoSansGujaratiUI-Thin.ttf")[0]
   end
 
   test do
