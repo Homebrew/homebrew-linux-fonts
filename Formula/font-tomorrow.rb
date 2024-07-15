@@ -7,7 +7,7 @@ class FontTomorrow < Formula
        only_path: "ofl/tomorrow"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/tomorrow/./**/Tomorrow-ThinItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/tomorrow/./**/Tomorrow-Black.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/tomorrow/./**/Tomorrow-BlackItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/tomorrow/./**/Tomorrow-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/tomorrow/./**/Tomorrow-BoldItalic.ttf")[0]
@@ -24,7 +24,7 @@ class FontTomorrow < Formula
     (share/"fonts").install Dir.glob("ofl/tomorrow/./**/Tomorrow-SemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/tomorrow/./**/Tomorrow-SemiBoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/tomorrow/./**/Tomorrow-Thin.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/tomorrow/./**/Tomorrow-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/tomorrow/./**/Tomorrow-ThinItalic.ttf")[0]
   end
 
   test do
