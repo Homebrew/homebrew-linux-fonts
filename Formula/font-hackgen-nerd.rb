@@ -6,10 +6,10 @@ class FontHackgenNerd < Formula
   sha256 "277cb874bbcf8a884e512bb2a01d62341d57286d8947057d652fab6488fc941c"
 
   def install
-    (share/"fonts").install Dir.glob("./**/HackGen_NF_v2.9.0/HackGen35ConsoleNF-Bold.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/HackGen_NF_v2.9.0/HackGen35ConsoleNF-Regular.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/HackGen_NF_v2.9.0/HackGenConsoleNF-Bold.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/HackGen_NF_v2.9.0/HackGenConsoleNF-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/HackGen35ConsoleNF-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/HackGen35ConsoleNF-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/HackGenConsoleNF-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/HackGenConsoleNF-Regular.ttf")[0]
   end
 
   test do
