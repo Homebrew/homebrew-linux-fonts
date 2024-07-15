@@ -7,7 +7,7 @@ class FontIbmPlexSerif < Formula
        only_path: "ofl/ibmplexserif"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/ibmplexserif/./**/IBMPlexSerif-ThinItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibmplexserif/./**/IBMPlexSerif-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/ibmplexserif/./**/IBMPlexSerif-BoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/ibmplexserif/./**/IBMPlexSerif-ExtraLight.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/ibmplexserif/./**/IBMPlexSerif-ExtraLightItalic.ttf")[0]
@@ -20,7 +20,7 @@ class FontIbmPlexSerif < Formula
     (share/"fonts").install Dir.glob("ofl/ibmplexserif/./**/IBMPlexSerif-SemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/ibmplexserif/./**/IBMPlexSerif-SemiBoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/ibmplexserif/./**/IBMPlexSerif-Thin.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/ibmplexserif/./**/IBMPlexSerif-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibmplexserif/./**/IBMPlexSerif-ThinItalic.ttf")[0]
   end
 
   test do
