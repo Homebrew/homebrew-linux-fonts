@@ -6,7 +6,7 @@ class FontNotoNerdFont < Formula
   sha256 "b8a6e1fcaf557a404be47250d419ee4234ad8930e9d2a405c248fa7f08ab5c04"
 
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSerifNerdFontPropo-ThinItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoMonoNerdFont-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoMonoNerdFontMono-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoMonoNerdFontPropo-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansMNerdFont-Black.ttf")[0]
@@ -404,7 +404,7 @@ class FontNotoNerdFont < Formula
     (share/"fonts").install Dir.glob("./**/NotoSerifNerdFontPropo-SemiCondensedThin.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifNerdFontPropo-SemiCondensedThinItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifNerdFontPropo-Thin.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/NotoMonoNerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSerifNerdFontPropo-ThinItalic.ttf")[0]
   end
 
   test do
