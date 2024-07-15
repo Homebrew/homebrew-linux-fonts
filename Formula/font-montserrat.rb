@@ -7,8 +7,8 @@ class FontMontserrat < Formula
        only_path: "ofl/montserrat"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/montserrat/./**/Montserrat-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/montserrat/./**/Montserrat[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/montserrat/./**/Montserrat-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/montserrat/./**/Montserrat?wght?.ttf")[0]
   end
 
   test do
