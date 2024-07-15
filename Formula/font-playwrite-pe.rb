@@ -1,10 +1,11 @@
 class FontPlaywritePe < Formula
   desc "Playwrite pe font"
-  homepage "https://github.com/TypeTogether/Playwrite"
-  head "https://github.com/google/fonts/raw/main/ofl/playwritepe/PlaywritePE%5Bwght%5D.ttf"
+  homepage "https://fonts.google.com/specimen/Playwrite+PE"
+  head "https://github.com/google/fonts/raw/main/ofl/playwritepe/PlaywritePE%5Bwght%5D.ttf",
+       verified: "github.com/google/fonts/"
 
   def install
-    (share/"fonts").install Dir.glob("./**/PlaywritePE[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/PlaywritePE?wght?.ttf")[0]
   end
 
   test do
