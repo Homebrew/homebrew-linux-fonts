@@ -7,8 +7,8 @@ class FontExo2 < Formula
        only_path: "ofl/exo2"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/exo2/./**/Exo2-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/exo2/./**/Exo2[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/exo2/./**/Exo2-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/exo2/./**/Exo2?wght?.ttf")[0]
   end
 
   test do
