@@ -6,8 +6,8 @@ class FontCascadiaCodeNf < Formula
   sha256 "a911410626c0e09d03fa3fdda827188fda96607df50fecc3c5fee5906e33251b"
 
   def install
-    (share/"fonts").install Dir.glob("./**/ttf/CascadiaCodeNF.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/ttf/CascadiaCodeNFItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/CascadiaCodeNF.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/CascadiaCodeNFItalic.ttf")[0]
   end
 
   test do
