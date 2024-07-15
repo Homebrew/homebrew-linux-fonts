@@ -7,8 +7,8 @@ class FontRem < Formula
        only_path: "ofl/rem"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/rem/./**/REM-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/rem/./**/REM[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/rem/./**/REM-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/rem/./**/REM?wght?.ttf")[0]
   end
 
   test do
