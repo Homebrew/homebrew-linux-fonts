@@ -6,7 +6,7 @@ class FontJuliamono < Formula
   sha256 "4c3ebfe05d5502a7224b969f091a4d11468d096d30dd22118a68a3a4b9d0dba1"
 
   def install
-    (share/"fonts").install Dir.glob("./**/JuliaMono-SemiBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/JuliaMono-Black.ttf")[0]
     (share/"fonts").install Dir.glob("./**/JuliaMono-BlackItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/JuliaMono-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/JuliaMono-BoldItalic.ttf")[0]
@@ -21,7 +21,7 @@ class FontJuliamono < Formula
     (share/"fonts").install Dir.glob("./**/JuliaMono-RegularItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/JuliaMono-RegularLatin.ttf")[0]
     (share/"fonts").install Dir.glob("./**/JuliaMono-SemiBold.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/JuliaMono-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/JuliaMono-SemiBoldItalic.ttf")[0]
   end
 
   test do
