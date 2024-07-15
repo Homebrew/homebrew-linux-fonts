@@ -6,10 +6,10 @@ class FontIpafont < Formula
   sha256 "f755ed79a4b8e715bed2f05a189172138aedf93db0f465b4e20c344a02766fe5"
 
   def install
-    (share/"fonts").install Dir.glob("./**/IPAfont00303/ipag.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/IPAfont00303/ipagp.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/IPAfont00303/ipam.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/IPAfont00303/ipamp.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/ipag.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/ipagp.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/ipam.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/ipamp.ttf")[0]
   end
 
   test do
