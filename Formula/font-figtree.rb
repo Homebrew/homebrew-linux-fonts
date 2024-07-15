@@ -7,8 +7,8 @@ class FontFigtree < Formula
        only_path: "ofl/figtree"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/figtree/./**/Figtree-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/figtree/./**/Figtree[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/figtree/./**/Figtree-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/figtree/./**/Figtree?wght?.ttf")[0]
   end
 
   test do
