@@ -4,8 +4,8 @@ class FontLigaComicMono < Formula
   head "https://github.com/wayou/comic-mono-font/archive/refs/heads/master.tar.gz"
 
   def install
-    (share/"fonts").install Dir.glob("./**/comic-mono-font-master/LigaComicMono.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/comic-mono-font-master/LigaComicMono-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LigaComicMono-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LigaComicMono.ttf")[0]
   end
 
   test do
