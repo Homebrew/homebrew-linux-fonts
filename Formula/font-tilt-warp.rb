@@ -5,7 +5,7 @@ class FontTiltWarp < Formula
        verified: "github.com/google/fonts/"
 
   def install
-    (share/"fonts").install Dir.glob("./**/TiltWarp[XROT,YROT].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/TiltWarp?XROT,YROT?.ttf")[0]
   end
 
   test do
