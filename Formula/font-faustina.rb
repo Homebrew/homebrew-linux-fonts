@@ -7,8 +7,8 @@ class FontFaustina < Formula
        only_path: "ofl/faustina"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/faustina/./**/Faustina-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/faustina/./**/Faustina[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/faustina/./**/Faustina-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/faustina/./**/Faustina?wght?.ttf")[0]
   end
 
   test do
