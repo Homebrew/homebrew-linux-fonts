@@ -7,7 +7,7 @@ class FontKulimPark < Formula
        only_path: "ofl/kulimpark"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/kulimpark/./**/KulimPark-SemiBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/kulimpark/./**/KulimPark-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/kulimpark/./**/KulimPark-BoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/kulimpark/./**/KulimPark-ExtraLight.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/kulimpark/./**/KulimPark-ExtraLightItalic.ttf")[0]
@@ -16,7 +16,7 @@ class FontKulimPark < Formula
     (share/"fonts").install Dir.glob("ofl/kulimpark/./**/KulimPark-LightItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/kulimpark/./**/KulimPark-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/kulimpark/./**/KulimPark-SemiBold.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/kulimpark/./**/KulimPark-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/kulimpark/./**/KulimPark-SemiBoldItalic.ttf")[0]
   end
 
   test do
