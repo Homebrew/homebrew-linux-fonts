@@ -4,8 +4,8 @@ class FontAlef < Formula
   head "http://alef.hagilda.com/Alef.zip"
 
   def install
-    (share/"fonts").install Dir.glob("./**/TTF/Alef-Bold.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/TTF/Alef-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Alef-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Alef-Regular.ttf")[0]
   end
 
   test do
