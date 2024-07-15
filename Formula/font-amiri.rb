@@ -9,12 +9,12 @@ class FontAmiri < Formula
   deprecate! "2023-12-17", because: :discontinued
 
   def install
-    (share/"fonts").install Dir.glob("./**/Amiri-1.000/Amiri-Bold.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/Amiri-1.000/Amiri-BoldItalic.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/Amiri-1.000/Amiri-Italic.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/Amiri-1.000/Amiri-Regular.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/Amiri-1.000/AmiriQuran.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/Amiri-1.000/AmiriQuranColored.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Amiri-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Amiri-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Amiri-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Amiri-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/AmiriQuran.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/AmiriQuranColored.ttf")[0]
   end
 
   test do
