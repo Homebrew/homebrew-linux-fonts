@@ -6,8 +6,8 @@ class FontChironHeiHk < Formula
   sha256 "fed78f8d530e39a481e4b8f20599966d7ec723d7779d2e1f52529146447366ad"
 
   def install
-    (share/"fonts").install Dir.glob("./**/chiron-hei-hk-2.511/VAR/ChironHeiHKItVF.otf")[0]
-    (share/"fonts").install Dir.glob("./**/chiron-hei-hk-2.511/VAR/ChironHeiHKVF.otf")[0]
+    (share/"fonts").install Dir.glob("./**/VAR/ChironHeiHKItVF.otf")[0]
+    (share/"fonts").install Dir.glob("./**/VAR/ChironHeiHKVF.otf")[0]
   end
 
   test do
