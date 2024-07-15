@@ -6,7 +6,7 @@ class FontAnonymiceNerdFont < Formula
   sha256 "5ee616bdc84158bf7e69fd9e63714c43d84652ec55f68c4f4f8cf75e8ac78bfc"
 
   def install
-    (share/"fonts").install Dir.glob("./**/AnonymiceProNerdFontPropo-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/AnonymiceProNerdFont-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/AnonymiceProNerdFont-BoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/AnonymiceProNerdFont-Italic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/AnonymiceProNerdFont-Regular.ttf")[0]
@@ -17,7 +17,7 @@ class FontAnonymiceNerdFont < Formula
     (share/"fonts").install Dir.glob("./**/AnonymiceProNerdFontPropo-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/AnonymiceProNerdFontPropo-BoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/AnonymiceProNerdFontPropo-Italic.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/AnonymiceProNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/AnonymiceProNerdFontPropo-Regular.ttf")[0]
   end
 
   test do
