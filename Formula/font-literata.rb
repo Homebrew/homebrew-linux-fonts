@@ -7,8 +7,8 @@ class FontLiterata < Formula
        only_path: "ofl/literata"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/literata/./**/Literata-Italic[opsz,wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/literata/./**/Literata[opsz,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/literata/./**/Literata-Italic?opsz,wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/literata/./**/Literata?opsz,wght?.ttf")[0]
   end
 
   test do
