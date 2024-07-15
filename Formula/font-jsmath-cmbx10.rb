@@ -4,12 +4,12 @@ class FontJsmathCmbx10 < Formula
   head "https://www.math.union.edu/~dpvc/jsMath/download/TeX-fonts-10.zip"
 
   def install
-    (share/"fonts").install Dir.glob("./**/TeX-fonts-10/jsMath-cmbx10.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/TeX-fonts-10/jsMath-cmex10.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/TeX-fonts-10/jsMath-cmmi10.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/TeX-fonts-10/jsMath-cmr10.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/TeX-fonts-10/jsMath-cmsy10.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/TeX-fonts-10/jsMath-cmti10.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/jsMath-cmbx10.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/jsMath-cmex10.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/jsMath-cmmi10.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/jsMath-cmr10.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/jsMath-cmsy10.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/jsMath-cmti10.ttf")[0]
   end
 
   test do
