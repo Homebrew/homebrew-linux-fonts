@@ -7,8 +7,8 @@ class FontCardo < Formula
 
   def install
     (share/"fonts").install Dir.glob("./**/Cardo104s.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/Cardoi99.ttf")[0]
     (share/"fonts").install Dir.glob("./**/Cardob101.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Cardoi99.ttf")[0]
   end
 
   test do
