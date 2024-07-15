@@ -6,7 +6,7 @@ class FontIntoneMonoNerdFont < Formula
   sha256 "3a8170ffcf75b3b421d4d094701934ea514bc5b56763c5095240053cf278ca6c"
 
   def install
-    (share/"fonts").install Dir.glob("./**/IntoneMonoNerdFontPropo-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/IntoneMonoNerdFont-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/IntoneMonoNerdFont-BoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/IntoneMonoNerdFont-Italic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/IntoneMonoNerdFont-Light.ttf")[0]
@@ -29,7 +29,7 @@ class FontIntoneMonoNerdFont < Formula
     (share/"fonts").install Dir.glob("./**/IntoneMonoNerdFontPropo-LightItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/IntoneMonoNerdFontPropo-Medium.ttf")[0]
     (share/"fonts").install Dir.glob("./**/IntoneMonoNerdFontPropo-MediumItalic.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/IntoneMonoNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/IntoneMonoNerdFontPropo-Regular.ttf")[0]
   end
 
   test do
