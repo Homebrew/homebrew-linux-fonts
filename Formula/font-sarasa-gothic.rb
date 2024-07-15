@@ -6,7 +6,7 @@ class FontSarasaGothic < Formula
   sha256 "c1c86db404052226865b5029646574a55e6841ed9c58eb08b1754e5ceff5c66f"
 
   def install
-    (share/"fonts").install Dir.glob("./**/Sarasa-SemiBoldItalic.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/Sarasa-Bold.ttc")[0]
     (share/"fonts").install Dir.glob("./**/Sarasa-BoldItalic.ttc")[0]
     (share/"fonts").install Dir.glob("./**/Sarasa-ExtraLight.ttc")[0]
     (share/"fonts").install Dir.glob("./**/Sarasa-ExtraLightItalic.ttc")[0]
@@ -15,7 +15,7 @@ class FontSarasaGothic < Formula
     (share/"fonts").install Dir.glob("./**/Sarasa-LightItalic.ttc")[0]
     (share/"fonts").install Dir.glob("./**/Sarasa-Regular.ttc")[0]
     (share/"fonts").install Dir.glob("./**/Sarasa-SemiBold.ttc")[0]
-    (share/"fonts").install Dir.glob("./**/Sarasa-Bold.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/Sarasa-SemiBoldItalic.ttc")[0]
   end
 
   test do
