@@ -7,8 +7,8 @@ class FontRedditSans < Formula
        only_path: "ofl/redditsans"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/redditsans/./**/RedditSans-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/redditsans/./**/RedditSans[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/redditsans/./**/RedditSans-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/redditsans/./**/RedditSans?wght?.ttf")[0]
   end
 
   test do
