@@ -7,8 +7,8 @@ class FontTexturina < Formula
        only_path: "ofl/texturina"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/texturina/./**/Texturina-Italic[opsz,wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/texturina/./**/Texturina[opsz,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/texturina/./**/Texturina-Italic?opsz,wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/texturina/./**/Texturina?opsz,wght?.ttf")[0]
   end
 
   test do
