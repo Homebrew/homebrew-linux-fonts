@@ -7,8 +7,8 @@ class FontWorkSans < Formula
        only_path: "ofl/worksans"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/worksans/./**/WorkSans-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/worksans/./**/WorkSans[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/worksans/./**/WorkSans-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/worksans/./**/WorkSans?wght?.ttf")[0]
   end
 
   test do
