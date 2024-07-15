@@ -5,7 +5,7 @@ class FontSixtyfour < Formula
        verified: "github.com/google/fonts/"
 
   def install
-    (share/"fonts").install Dir.glob("./**/Sixtyfour[BLED,SCAN].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Sixtyfour?BLED,SCAN?.ttf")[0]
   end
 
   test do
