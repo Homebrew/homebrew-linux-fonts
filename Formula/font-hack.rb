@@ -7,10 +7,10 @@ class FontHack < Formula
   sha256 "0c2604631b1f055041c68a0e09ae4801acab6c5072ba2db6a822f53c3f8290ac"
 
   def install
-    (share/"fonts").install Dir.glob("./**/ttf/Hack-Regular.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/ttf/Hack-Italic.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/ttf/Hack-Bold.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/ttf/Hack-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Hack-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Hack-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Hack-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Hack-Regular.ttf")[0]
   end
 
   test do
