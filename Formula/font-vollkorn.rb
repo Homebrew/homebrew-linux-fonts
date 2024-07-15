@@ -7,8 +7,8 @@ class FontVollkorn < Formula
        only_path: "ofl/vollkorn"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/vollkorn/./**/Vollkorn-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/vollkorn/./**/Vollkorn[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/vollkorn/./**/Vollkorn-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/vollkorn/./**/Vollkorn?wght?.ttf")[0]
   end
 
   test do
