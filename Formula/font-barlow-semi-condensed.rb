@@ -7,7 +7,7 @@ class FontBarlowSemiCondensed < Formula
        only_path: "ofl/barlowsemicondensed"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/barlowsemicondensed/./**/BarlowSemiCondensed-ThinItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/barlowsemicondensed/./**/BarlowSemiCondensed-Black.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/barlowsemicondensed/./**/BarlowSemiCondensed-BlackItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/barlowsemicondensed/./**/BarlowSemiCondensed-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/barlowsemicondensed/./**/BarlowSemiCondensed-BoldItalic.ttf")[0]
@@ -24,7 +24,7 @@ class FontBarlowSemiCondensed < Formula
     (share/"fonts").install Dir.glob("ofl/barlowsemicondensed/./**/BarlowSemiCondensed-SemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/barlowsemicondensed/./**/BarlowSemiCondensed-SemiBoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/barlowsemicondensed/./**/BarlowSemiCondensed-Thin.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/barlowsemicondensed/./**/BarlowSemiCondensed-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/barlowsemicondensed/./**/BarlowSemiCondensed-ThinItalic.ttf")[0]
   end
 
   test do
