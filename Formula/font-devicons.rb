@@ -7,7 +7,7 @@ class FontDevicons < Formula
   sha256 "d8d2dc243ca42897a082ffe32a22cab53cdd148cf87b24162cf450ccfc12fece"
 
   def install
-    (share/"fonts").install Dir.glob("./**/devicons-1.8.0/fonts/devicons.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/fonts/devicons.ttf")[0]
   end
 
   test do
