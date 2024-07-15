@@ -7,8 +7,8 @@ class FontRedHatMono < Formula
        only_path: "ofl/redhatmono"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/redhatmono/./**/RedHatMono-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/redhatmono/./**/RedHatMono[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/redhatmono/./**/RedHatMono-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/redhatmono/./**/RedHatMono?wght?.ttf")[0]
   end
 
   test do
