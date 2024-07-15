@@ -5,7 +5,7 @@ class FontNotoSansSymbols < Formula
        verified: "noto-website-2.storage.googleapis.com/"
 
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSansSymbols-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansSymbols-Black.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansSymbols-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansSymbols-ExtraBold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansSymbols-ExtraLight.ttf")[0]
@@ -13,7 +13,7 @@ class FontNotoSansSymbols < Formula
     (share/"fonts").install Dir.glob("./**/NotoSansSymbols-Medium.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansSymbols-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansSymbols-SemiBold.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/NotoSansSymbols-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansSymbols-Thin.ttf")[0]
   end
 
   test do
