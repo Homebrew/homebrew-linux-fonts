@@ -5,7 +5,7 @@ class FontNotoSansMyanmar < Formula
        verified: "noto-website-2.storage.googleapis.com/"
 
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSansMyanmarUI-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansMyanmar-Black.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansMyanmar-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansMyanmar-Condensed.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansMyanmar-CondensedBlack.ttf")[0]
@@ -76,7 +76,7 @@ class FontNotoSansMyanmar < Formula
     (share/"fonts").install Dir.glob("./**/NotoSansMyanmarUI-SemiCondensedMedium.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansMyanmarUI-SemiCondensedSemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansMyanmarUI-SemiCondensedThin.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/NotoSansMyanmar-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansMyanmarUI-Thin.ttf")[0]
   end
 
   test do
