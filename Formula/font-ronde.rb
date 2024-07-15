@@ -4,7 +4,7 @@ class FontRonde < Formula
   head "https://moji-waku.com/download/ronde_square.zip"
 
   def install
-    (share/"fonts").install Dir.glob("./**/ronde_square/Ronde-B_square.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Ronde-B_square.otf")[0]
   end
 
   test do
