@@ -7,7 +7,7 @@ class FontTaviraj < Formula
        only_path: "ofl/taviraj"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/taviraj/./**/Taviraj-ThinItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/taviraj/./**/Taviraj-Black.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/taviraj/./**/Taviraj-BlackItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/taviraj/./**/Taviraj-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/taviraj/./**/Taviraj-BoldItalic.ttf")[0]
@@ -24,7 +24,7 @@ class FontTaviraj < Formula
     (share/"fonts").install Dir.glob("ofl/taviraj/./**/Taviraj-SemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/taviraj/./**/Taviraj-SemiBoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/taviraj/./**/Taviraj-Thin.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/taviraj/./**/Taviraj-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/taviraj/./**/Taviraj-ThinItalic.ttf")[0]
   end
 
   test do
