@@ -7,7 +7,7 @@ class FontChakraPetch < Formula
        only_path: "ofl/chakrapetch"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/chakrapetch/./**/ChakraPetch-SemiBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/chakrapetch/./**/ChakraPetch-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/chakrapetch/./**/ChakraPetch-BoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/chakrapetch/./**/ChakraPetch-Italic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/chakrapetch/./**/ChakraPetch-Light.ttf")[0]
@@ -16,7 +16,7 @@ class FontChakraPetch < Formula
     (share/"fonts").install Dir.glob("ofl/chakrapetch/./**/ChakraPetch-MediumItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/chakrapetch/./**/ChakraPetch-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/chakrapetch/./**/ChakraPetch-SemiBold.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/chakrapetch/./**/ChakraPetch-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/chakrapetch/./**/ChakraPetch-SemiBoldItalic.ttf")[0]
   end
 
   test do
