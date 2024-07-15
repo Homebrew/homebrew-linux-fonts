@@ -6,10 +6,10 @@ class FontFantasqueSansMonoNoloopk < Formula
   sha256 "f7bddc6f1e5a6e0830e332394b1ade52980c784dc4a383cdbee8c568ed0bf3c1"
 
   def install
-    (share/"fonts").install Dir.glob("./**/OTF/FantasqueSansMono-Bold.otf")[0]
-    (share/"fonts").install Dir.glob("./**/OTF/FantasqueSansMono-BoldItalic.otf")[0]
-    (share/"fonts").install Dir.glob("./**/OTF/FantasqueSansMono-Italic.otf")[0]
-    (share/"fonts").install Dir.glob("./**/OTF/FantasqueSansMono-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/FantasqueSansMono-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/FantasqueSansMono-BoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/FantasqueSansMono-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/FantasqueSansMono-Regular.otf")[0]
   end
 
   test do
