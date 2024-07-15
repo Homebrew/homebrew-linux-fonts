@@ -6,7 +6,7 @@ class FontAhuramzda < Formula
   sha256 :no_check
 
   def install
-    (share/"fonts").install Dir.glob("./**/Ahuramazda-Avestan-Font-1.0/ahuramazda.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/ahuramazda.ttf")[0]
   end
 
   test do
