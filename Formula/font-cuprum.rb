@@ -7,8 +7,8 @@ class FontCuprum < Formula
        only_path: "ofl/cuprum"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/cuprum/./**/Cuprum-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/cuprum/./**/Cuprum[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/cuprum/./**/Cuprum-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/cuprum/./**/Cuprum?wght?.ttf")[0]
   end
 
   test do
