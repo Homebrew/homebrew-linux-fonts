@@ -7,7 +7,7 @@ class FontKanit < Formula
        only_path: "ofl/kanit"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/kanit/./**/Kanit-ThinItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/kanit/./**/Kanit-Black.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/kanit/./**/Kanit-BlackItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/kanit/./**/Kanit-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/kanit/./**/Kanit-BoldItalic.ttf")[0]
@@ -24,7 +24,7 @@ class FontKanit < Formula
     (share/"fonts").install Dir.glob("ofl/kanit/./**/Kanit-SemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/kanit/./**/Kanit-SemiBoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/kanit/./**/Kanit-Thin.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/kanit/./**/Kanit-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/kanit/./**/Kanit-ThinItalic.ttf")[0]
   end
 
   test do
