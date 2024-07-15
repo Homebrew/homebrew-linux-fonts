@@ -7,8 +7,8 @@ class FontSourceSerif4 < Formula
        only_path: "ofl/sourceserif4"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/sourceserif4/./**/SourceSerif4-Italic[opsz,wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/sourceserif4/./**/SourceSerif4[opsz,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sourceserif4/./**/SourceSerif4-Italic?opsz,wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sourceserif4/./**/SourceSerif4?opsz,wght?.ttf")[0]
   end
 
   test do
