@@ -5,8 +5,8 @@ class FontNotoSansMalayalam < Formula
        verified: "noto-website-2.storage.googleapis.com/"
 
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSansMalayalam-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansMalayalam-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansMalayalam-Regular.ttf")[0]
   end
 
   test do
