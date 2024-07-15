@@ -8,7 +8,7 @@ class FontGlowSansTcCondensed < Formula
   deprecate! "2024-02-17", because: :discontinued
 
   def install
-    (share/"fonts").install Dir.glob("./**/GlowSansTC-Condensed-Thin.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GlowSansTC-Condensed-Bold.otf")[0]
     (share/"fonts").install Dir.glob("./**/GlowSansTC-Condensed-Book.otf")[0]
     (share/"fonts").install Dir.glob("./**/GlowSansTC-Condensed-ExtraBold.otf")[0]
     (share/"fonts").install Dir.glob("./**/GlowSansTC-Condensed-ExtraLight.otf")[0]
@@ -16,7 +16,7 @@ class FontGlowSansTcCondensed < Formula
     (share/"fonts").install Dir.glob("./**/GlowSansTC-Condensed-Light.otf")[0]
     (share/"fonts").install Dir.glob("./**/GlowSansTC-Condensed-Medium.otf")[0]
     (share/"fonts").install Dir.glob("./**/GlowSansTC-Condensed-Regular.otf")[0]
-    (share/"fonts").install Dir.glob("./**/GlowSansTC-Condensed-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GlowSansTC-Condensed-Thin.otf")[0]
   end
 
   test do
