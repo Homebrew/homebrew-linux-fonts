@@ -7,8 +7,8 @@ class FontManuale < Formula
        only_path: "ofl/manuale"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/manuale/./**/Manuale-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/manuale/./**/Manuale[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/manuale/./**/Manuale-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/manuale/./**/Manuale?wght?.ttf")[0]
   end
 
   test do
