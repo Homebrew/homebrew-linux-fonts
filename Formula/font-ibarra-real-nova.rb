@@ -7,8 +7,8 @@ class FontIbarraRealNova < Formula
        only_path: "ofl/ibarrarealnova"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/ibarrarealnova/./**/IbarraRealNova-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/ibarrarealnova/./**/IbarraRealNova[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibarrarealnova/./**/IbarraRealNova-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ibarrarealnova/./**/IbarraRealNova?wght?.ttf")[0]
   end
 
   test do
