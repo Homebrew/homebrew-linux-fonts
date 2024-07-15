@@ -7,8 +7,8 @@ class FontMerriweatherSans < Formula
        only_path: "ofl/merriweathersans"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/merriweathersans/./**/MerriweatherSans-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/merriweathersans/./**/MerriweatherSans[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/merriweathersans/./**/MerriweatherSans-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/merriweathersans/./**/MerriweatherSans?wght?.ttf")[0]
   end
 
   test do
