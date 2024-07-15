@@ -7,7 +7,7 @@ class FontBaiJamjuree < Formula
        only_path: "ofl/baijamjuree"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/baijamjuree/./**/BaiJamjuree-SemiBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/baijamjuree/./**/BaiJamjuree-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/baijamjuree/./**/BaiJamjuree-BoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/baijamjuree/./**/BaiJamjuree-ExtraLight.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/baijamjuree/./**/BaiJamjuree-ExtraLightItalic.ttf")[0]
@@ -18,7 +18,7 @@ class FontBaiJamjuree < Formula
     (share/"fonts").install Dir.glob("ofl/baijamjuree/./**/BaiJamjuree-MediumItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/baijamjuree/./**/BaiJamjuree-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/baijamjuree/./**/BaiJamjuree-SemiBold.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/baijamjuree/./**/BaiJamjuree-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/baijamjuree/./**/BaiJamjuree-SemiBoldItalic.ttf")[0]
   end
 
   test do
