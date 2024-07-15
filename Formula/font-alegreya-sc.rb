@@ -7,7 +7,7 @@ class FontAlegreyaSc < Formula
        only_path: "ofl/alegreyasc"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/alegreyasc/./**/AlegreyaSC-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/alegreyasc/./**/AlegreyaSC-Black.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/alegreyasc/./**/AlegreyaSC-BlackItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/alegreyasc/./**/AlegreyaSC-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/alegreyasc/./**/AlegreyaSC-BoldItalic.ttf")[0]
@@ -16,7 +16,7 @@ class FontAlegreyaSc < Formula
     (share/"fonts").install Dir.glob("ofl/alegreyasc/./**/AlegreyaSC-Italic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/alegreyasc/./**/AlegreyaSC-Medium.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/alegreyasc/./**/AlegreyaSC-MediumItalic.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/alegreyasc/./**/AlegreyaSC-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/alegreyasc/./**/AlegreyaSC-Regular.ttf")[0]
   end
 
   test do
