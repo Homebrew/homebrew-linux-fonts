@@ -6,7 +6,7 @@ class FontMplusNerdFont < Formula
   sha256 "2dfa4dedd98bbfe625ff56f0a31713aea77776aa7227bac300fd4246f2c79043"
 
   def install
-    (share/"fonts").install Dir.glob("./**/M+CodeLat60NerdFontPropo-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/M+1CodeNerdFont-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/M+1CodeNerdFont-ExtraLight.ttf")[0]
     (share/"fonts").install Dir.glob("./**/M+1CodeNerdFont-Light.ttf")[0]
     (share/"fonts").install Dir.glob("./**/M+1CodeNerdFont-Medium.ttf")[0]
@@ -104,7 +104,7 @@ class FontMplusNerdFont < Formula
     (share/"fonts").install Dir.glob("./**/M+CodeLat60NerdFontPropo-Medium.ttf")[0]
     (share/"fonts").install Dir.glob("./**/M+CodeLat60NerdFontPropo-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("./**/M+CodeLat60NerdFontPropo-SemiBold.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/M+1CodeNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/M+CodeLat60NerdFontPropo-Thin.ttf")[0]
   end
 
   test do
