@@ -7,7 +7,7 @@ class FontFahkwang < Formula
        only_path: "ofl/fahkwang"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/fahkwang/./**/Fahkwang-SemiBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/fahkwang/./**/Fahkwang-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/fahkwang/./**/Fahkwang-BoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/fahkwang/./**/Fahkwang-ExtraLight.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/fahkwang/./**/Fahkwang-ExtraLightItalic.ttf")[0]
@@ -18,7 +18,7 @@ class FontFahkwang < Formula
     (share/"fonts").install Dir.glob("ofl/fahkwang/./**/Fahkwang-MediumItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/fahkwang/./**/Fahkwang-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/fahkwang/./**/Fahkwang-SemiBold.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/fahkwang/./**/Fahkwang-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/fahkwang/./**/Fahkwang-SemiBoldItalic.ttf")[0]
   end
 
   test do
