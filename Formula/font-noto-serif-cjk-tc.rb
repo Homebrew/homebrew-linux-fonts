@@ -6,13 +6,13 @@ class FontNotoSerifCjkTc < Formula
   sha256 "bd14b808431c5058c69f999c3c6d898b9f37d96962ec26f7212fb34c2d49ea5c"
 
   def install
-    (share/"fonts").install Dir.glob("./**/OTF/TraditionalChinese/NotoSerifCJKtc-Black.otf")[0]
-    (share/"fonts").install Dir.glob("./**/OTF/TraditionalChinese/NotoSerifCJKtc-Bold.otf")[0]
-    (share/"fonts").install Dir.glob("./**/OTF/TraditionalChinese/NotoSerifCJKtc-ExtraLight.otf")[0]
-    (share/"fonts").install Dir.glob("./**/OTF/TraditionalChinese/NotoSerifCJKtc-Light.otf")[0]
-    (share/"fonts").install Dir.glob("./**/OTF/TraditionalChinese/NotoSerifCJKtc-Medium.otf")[0]
-    (share/"fonts").install Dir.glob("./**/OTF/TraditionalChinese/NotoSerifCJKtc-Regular.otf")[0]
-    (share/"fonts").install Dir.glob("./**/OTF/TraditionalChinese/NotoSerifCJKtc-SemiBold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/TraditionalChinese/NotoSerifCJKtc-Black.otf")[0]
+    (share/"fonts").install Dir.glob("./**/TraditionalChinese/NotoSerifCJKtc-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/TraditionalChinese/NotoSerifCJKtc-ExtraLight.otf")[0]
+    (share/"fonts").install Dir.glob("./**/TraditionalChinese/NotoSerifCJKtc-Light.otf")[0]
+    (share/"fonts").install Dir.glob("./**/TraditionalChinese/NotoSerifCJKtc-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("./**/TraditionalChinese/NotoSerifCJKtc-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/TraditionalChinese/NotoSerifCJKtc-SemiBold.otf")[0]
   end
 
   test do
