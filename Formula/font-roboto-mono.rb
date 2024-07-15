@@ -7,8 +7,8 @@ class FontRobotoMono < Formula
        only_path: "apache/robotomono"
 
   def install
-    (share/"fonts").install Dir.glob("apache/robotomono/./**/RobotoMono-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("apache/robotomono/./**/RobotoMono[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("apache/robotomono/./**/RobotoMono-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("apache/robotomono/./**/RobotoMono?wght?.ttf")[0]
   end
 
   test do
