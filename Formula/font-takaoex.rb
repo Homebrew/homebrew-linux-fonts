@@ -6,8 +6,8 @@ class FontTakaoex < Formula
   sha256 "6af43928cb4d9943cbd5565079d1dfed60aef20badf4e99c3a1edc0e6a07d42b"
 
   def install
-    (share/"fonts").install Dir.glob("./**/TakaoExFonts_00201.01/TakaoExGothic.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/TakaoExFonts_00201.01/TakaoExMincho.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/TakaoExGothic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/TakaoExMincho.ttf")[0]
   end
 
   test do
