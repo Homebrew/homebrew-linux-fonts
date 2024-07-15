@@ -7,8 +7,8 @@ class FontGrandstander < Formula
        only_path: "ofl/grandstander"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/grandstander/./**/Grandstander-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/grandstander/./**/Grandstander[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/grandstander/./**/Grandstander-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/grandstander/./**/Grandstander?wght?.ttf")[0]
   end
 
   test do
