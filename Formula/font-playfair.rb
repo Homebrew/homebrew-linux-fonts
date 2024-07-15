@@ -7,8 +7,8 @@ class FontPlayfair < Formula
        only_path: "ofl/playfair"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/playfair/./**/Playfair-Italic[opsz,wdth,wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/playfair/./**/Playfair[opsz,wdth,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/playfair/./**/Playfair-Italic?opsz,wdth,wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/playfair/./**/Playfair?opsz,wdth,wght?.ttf")[0]
   end
 
   test do
