@@ -6,7 +6,7 @@ class FontMartianMono < Formula
   sha256 "82683f519651fb05e29d47d075f10e8db40ff5328a50e641e5c30f5fa94297b6"
 
   def install
-    (share/"fonts").install Dir.glob("./**/MartianMono-sWdxLt.otf")[0]
+    (share/"fonts").install Dir.glob("./**/MartianMono-CnBd.otf")[0]
     (share/"fonts").install Dir.glob("./**/MartianMono-CnLt.otf")[0]
     (share/"fonts").install Dir.glob("./**/MartianMono-CnMd.otf")[0]
     (share/"fonts").install Dir.glob("./**/MartianMono-CnRg.otf")[0]
@@ -33,7 +33,7 @@ class FontMartianMono < Formula
     (share/"fonts").install Dir.glob("./**/MartianMono-sWdRg.otf")[0]
     (share/"fonts").install Dir.glob("./**/MartianMono-sWdTh.otf")[0]
     (share/"fonts").install Dir.glob("./**/MartianMono-sWdxBd.otf")[0]
-    (share/"fonts").install Dir.glob("./**/MartianMono-CnBd.otf")[0]
+    (share/"fonts").install Dir.glob("./**/MartianMono-sWdxLt.otf")[0]
   end
 
   test do
