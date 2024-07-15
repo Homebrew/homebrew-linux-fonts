@@ -6,7 +6,7 @@ class FontUbuntuSansNerdFont < Formula
   sha256 "4d6a2ee81a394cb2af720a6046e40e1b742a3455ec47b4c987f04fa7a92a432e"
 
   def install
-    (share/"fonts").install Dir.glob("./**/UbuntuSansNerdFontPropo-SemiBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuSansMonoNerdFont-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/UbuntuSansMonoNerdFont-BoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/UbuntuSansMonoNerdFont-Italic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/UbuntuSansMonoNerdFont-Medium.ttf")[0]
@@ -45,7 +45,7 @@ class FontUbuntuSansNerdFont < Formula
     (share/"fonts").install Dir.glob("./**/UbuntuSansNerdFontPropo-MediumItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/UbuntuSansNerdFontPropo-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("./**/UbuntuSansNerdFontPropo-SemiBold.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/UbuntuSansMonoNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/UbuntuSansNerdFontPropo-SemiBoldItalic.ttf")[0]
   end
 
   test do
