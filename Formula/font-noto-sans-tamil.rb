@@ -5,7 +5,7 @@ class FontNotoSansTamil < Formula
        verified: "noto-website-2.storage.googleapis.com/"
 
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSansTamilUI-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansTamil-Black.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansTamil-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansTamil-Condensed.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansTamil-CondensedBlack.ttf")[0]
@@ -76,7 +76,7 @@ class FontNotoSansTamil < Formula
     (share/"fonts").install Dir.glob("./**/NotoSansTamilUI-SemiCondensedMedium.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansTamilUI-SemiCondensedSemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansTamilUI-SemiCondensedThin.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/NotoSansTamil-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansTamilUI-Thin.ttf")[0]
   end
 
   test do
