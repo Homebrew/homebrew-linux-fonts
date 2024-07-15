@@ -7,8 +7,8 @@ class FontDmSans < Formula
        only_path: "ofl/dmsans"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/dmsans/./**/DMSans-Italic[opsz,wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/dmsans/./**/DMSans[opsz,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/dmsans/./**/DMSans-Italic?opsz,wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/dmsans/./**/DMSans?opsz,wght?.ttf")[0]
   end
 
   test do
