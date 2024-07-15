@@ -6,7 +6,7 @@ class FontMonaspaceNerdFont < Formula
   sha256 "64ff3e00d928230576b7d0cfa443ed25438388bc5fc869c61aff267a59a18f7e"
 
   def install
-    (share/"fonts").install Dir.glob("./**/MonaspiceXeNerdFontPropo-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/MonaspiceArNerdFont-Bold.otf")[0]
     (share/"fonts").install Dir.glob("./**/MonaspiceArNerdFont-BoldItalic.otf")[0]
     (share/"fonts").install Dir.glob("./**/MonaspiceArNerdFont-Italic.otf")[0]
     (share/"fonts").install Dir.glob("./**/MonaspiceArNerdFont-Light.otf")[0]
@@ -125,7 +125,7 @@ class FontMonaspaceNerdFont < Formula
     (share/"fonts").install Dir.glob("./**/MonaspiceXeNerdFontPropo-LightItalic.otf")[0]
     (share/"fonts").install Dir.glob("./**/MonaspiceXeNerdFontPropo-Medium.otf")[0]
     (share/"fonts").install Dir.glob("./**/MonaspiceXeNerdFontPropo-MediumItalic.otf")[0]
-    (share/"fonts").install Dir.glob("./**/MonaspiceArNerdFont-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/MonaspiceXeNerdFontPropo-Regular.otf")[0]
   end
 
   test do
