@@ -6,8 +6,8 @@ class FontChironSungHk < Formula
   sha256 "554404b43f2eab11182220964d959dfaa609638cec8fb950604cc6ed80b5a373"
 
   def install
-    (share/"fonts").install Dir.glob("./**/chiron-sung-hk-1.012/VAR/ChironSungHKItVF.otf")[0]
-    (share/"fonts").install Dir.glob("./**/chiron-sung-hk-1.012/VAR/ChironSungHKVF.otf")[0]
+    (share/"fonts").install Dir.glob("./**/VAR/ChironSungHKItVF.otf")[0]
+    (share/"fonts").install Dir.glob("./**/VAR/ChironSungHKVF.otf")[0]
   end
 
   test do
