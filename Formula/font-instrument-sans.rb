@@ -7,8 +7,8 @@ class FontInstrumentSans < Formula
        only_path: "ofl/instrumentsans"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/instrumentsans/./**/InstrumentSans-Italic[wdth,wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/instrumentsans/./**/InstrumentSans[wdth,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/instrumentsans/./**/InstrumentSans-Italic?wdth,wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/instrumentsans/./**/InstrumentSans?wdth,wght?.ttf")[0]
   end
 
   test do
