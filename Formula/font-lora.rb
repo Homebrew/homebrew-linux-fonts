@@ -7,8 +7,8 @@ class FontLora < Formula
        only_path: "ofl/lora"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/lora/./**/Lora-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/lora/./**/Lora[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/lora/./**/Lora-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/lora/./**/Lora?wght?.ttf")[0]
   end
 
   test do
