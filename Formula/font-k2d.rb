@@ -7,7 +7,7 @@ class FontK2d < Formula
        only_path: "ofl/k2d"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/k2d/./**/K2D-ThinItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/k2d/./**/K2D-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/k2d/./**/K2D-BoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/k2d/./**/K2D-ExtraBold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/k2d/./**/K2D-ExtraBoldItalic.ttf")[0]
@@ -22,7 +22,7 @@ class FontK2d < Formula
     (share/"fonts").install Dir.glob("ofl/k2d/./**/K2D-SemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/k2d/./**/K2D-SemiBoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/k2d/./**/K2D-Thin.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/k2d/./**/K2D-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/k2d/./**/K2D-ThinItalic.ttf")[0]
   end
 
   test do
