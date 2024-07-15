@@ -7,11 +7,11 @@ class FontGnuUnifont < Formula
   sha256 "d275f55f4358750e0f86305b92e87b88eb330aa46c15f553d2edf047fb1c23fa"
 
   def install
-    (share/"fonts").install Dir.glob("./**/unifont-15.1.05/font/precompiled/unifont-15.1.05.otf")[0]
-    (share/"fonts").install Dir.glob("./**/unifont-15.1.05/font/precompiled/unifont_upper-15.1.05.otf")[0]
-    (share/"fonts").install Dir.glob("./**/unifont-15.1.05/font/precompiled/unifont_sample-15.1.05.otf")[0]
-    (share/"fonts").install Dir.glob("./**/unifont-15.1.05/font/precompiled/unifont_jp-15.1.05.otf")[0]
-    (share/"fonts").install Dir.glob("./**/unifont-15.1.05/font/precompiled/unifont_csur-15.1.05.otf")[0]
+    (share/"fonts").install Dir.glob("./**/font/precompiled/unifont-15.1.05.otf")[0]
+    (share/"fonts").install Dir.glob("./**/font/precompiled/unifont_csur-15.1.05.otf")[0]
+    (share/"fonts").install Dir.glob("./**/font/precompiled/unifont_jp-15.1.05.otf")[0]
+    (share/"fonts").install Dir.glob("./**/font/precompiled/unifont_sample-15.1.05.otf")[0]
+    (share/"fonts").install Dir.glob("./**/font/precompiled/unifont_upper-15.1.05.otf")[0]
   end
 
   test do
