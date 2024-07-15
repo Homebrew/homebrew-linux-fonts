@@ -7,8 +7,8 @@ class FontAleo < Formula
        only_path: "ofl/aleo"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/aleo/./**/Aleo-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/aleo/./**/Aleo[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/aleo/./**/Aleo-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/aleo/./**/Aleo?wght?.ttf")[0]
   end
 
   test do
