@@ -4,7 +4,7 @@ class FontConakry < Formula
   head "https://www.evertype.com/fonts/nko/ConakryFont.zip"
 
   def install
-    (share/"fonts").install Dir.glob("./**/ConakryFont/Conakry.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Conakry.ttf")[0]
   end
 
   test do
