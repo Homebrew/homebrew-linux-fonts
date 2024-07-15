@@ -7,7 +7,7 @@ class FontGenshingothic < Formula
   sha256 "b8e00f00a6e2517bfe75ceb2a732b596fe002457b89c05c181d6b71373aada58"
 
   def install
-    (share/"fonts").install Dir.glob("./**/GenShinGothic-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GenShinGothic-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/GenShinGothic-ExtraLight.ttf")[0]
     (share/"fonts").install Dir.glob("./**/GenShinGothic-Heavy.ttf")[0]
     (share/"fonts").install Dir.glob("./**/GenShinGothic-Light.ttf")[0]
@@ -27,7 +27,7 @@ class FontGenshingothic < Formula
     (share/"fonts").install Dir.glob("./**/GenShinGothic-P-Medium.ttf")[0]
     (share/"fonts").install Dir.glob("./**/GenShinGothic-P-Normal.ttf")[0]
     (share/"fonts").install Dir.glob("./**/GenShinGothic-P-Regular.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/GenShinGothic-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GenShinGothic-Regular.ttf")[0]
   end
 
   test do
