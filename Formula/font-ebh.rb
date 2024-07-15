@@ -6,10 +6,10 @@ class FontEbh < Formula
   sha256 "6787471d7766a8be31f2e601620e402ff43bafd183d626a8df75767e91052af3"
 
   def install
-    (share/"fonts").install Dir.glob("./**/EBH-v1.0.0/EBH Alternates.otf")[0]
-    (share/"fonts").install Dir.glob("./**/EBH-v1.0.0/EBH Facsimile.otf")[0]
-    (share/"fonts").install Dir.glob("./**/EBH-v1.0.0/EBH Initials.otf")[0]
-    (share/"fonts").install Dir.glob("./**/EBH-v1.0.0/EBH Runes.otf")[0]
+    (share/"fonts").install Dir.glob("./**/EBH Alternates.otf")[0]
+    (share/"fonts").install Dir.glob("./**/EBH Facsimile.otf")[0]
+    (share/"fonts").install Dir.glob("./**/EBH Initials.otf")[0]
+    (share/"fonts").install Dir.glob("./**/EBH Runes.otf")[0]
   end
 
   test do
