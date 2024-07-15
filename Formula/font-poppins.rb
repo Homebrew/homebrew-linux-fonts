@@ -6,7 +6,7 @@ class FontPoppins < Formula
   sha256 "3a1a58cfc497b3a57a8a6ec51d62800ad42a50b9827b1e3297135bf5e860b1a0"
 
   def install
-    (share/"fonts").install Dir.glob("./**/Poppins-ThinItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Poppins-Black.otf")[0]
     (share/"fonts").install Dir.glob("./**/Poppins-BlackItalic.otf")[0]
     (share/"fonts").install Dir.glob("./**/Poppins-Bold.otf")[0]
     (share/"fonts").install Dir.glob("./**/Poppins-BoldItalic.otf")[0]
@@ -23,7 +23,7 @@ class FontPoppins < Formula
     (share/"fonts").install Dir.glob("./**/Poppins-SemiBold.otf")[0]
     (share/"fonts").install Dir.glob("./**/Poppins-SemiBoldItalic.otf")[0]
     (share/"fonts").install Dir.glob("./**/Poppins-Thin.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Poppins-Black.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Poppins-ThinItalic.otf")[0]
   end
 
   test do
