@@ -5,7 +5,7 @@ class FontNotoSerifDisplay < Formula
        verified: "noto-website-2.storage.googleapis.com/"
 
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSerifDisplay-ThinItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSerifDisplay-Black.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifDisplay-BlackItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifDisplay-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifDisplay-BoldItalic.ttf")[0]
@@ -76,7 +76,7 @@ class FontNotoSerifDisplay < Formula
     (share/"fonts").install Dir.glob("./**/NotoSerifDisplay-SemiCondensedThin.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifDisplay-SemiCondensedThinItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSerifDisplay-Thin.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/NotoSerifDisplay-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSerifDisplay-ThinItalic.ttf")[0]
   end
 
   test do
