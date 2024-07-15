@@ -4,7 +4,7 @@ class FontProfontx < Formula
   head "https://www.faisal.com/software/profontx/ProFontX.zip"
 
   def install
-    (share/"fonts").install Dir.glob("./**/ProFontX/ProFontX")[0]
+    (share/"fonts").install Dir.glob("./**/ProFontX")[0]
   end
 
   test do
