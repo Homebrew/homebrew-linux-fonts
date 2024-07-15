@@ -4,7 +4,7 @@ class FontLigatureSymbols < Formula
   head "https://kudakurage.com/ligature_symbols/LigatureSymbols.zip"
 
   def install
-    (share/"fonts").install Dir.glob("./**/LigatureSymbols/LigatureSymbols-2.11.otf")[0]
+    (share/"fonts").install Dir.glob("./**/LigatureSymbols-2.11.otf")[0]
   end
 
   test do
