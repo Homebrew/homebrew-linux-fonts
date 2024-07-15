@@ -7,8 +7,8 @@ class FontRokkitt < Formula
        only_path: "ofl/rokkitt"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/rokkitt/./**/Rokkitt-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/rokkitt/./**/Rokkitt[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/rokkitt/./**/Rokkitt-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/rokkitt/./**/Rokkitt?wght?.ttf")[0]
   end
 
   test do
