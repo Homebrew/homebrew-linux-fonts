@@ -7,7 +7,7 @@ class FontBeVietnamPro < Formula
        only_path: "ofl/bevietnampro"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/bevietnampro/./**/BeVietnamPro-ThinItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/bevietnampro/./**/BeVietnamPro-Black.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/bevietnampro/./**/BeVietnamPro-BlackItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/bevietnampro/./**/BeVietnamPro-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/bevietnampro/./**/BeVietnamPro-BoldItalic.ttf")[0]
@@ -24,7 +24,7 @@ class FontBeVietnamPro < Formula
     (share/"fonts").install Dir.glob("ofl/bevietnampro/./**/BeVietnamPro-SemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/bevietnampro/./**/BeVietnamPro-SemiBoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/bevietnampro/./**/BeVietnamPro-Thin.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/bevietnampro/./**/BeVietnamPro-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/bevietnampro/./**/BeVietnamPro-ThinItalic.ttf")[0]
   end
 
   test do
