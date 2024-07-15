@@ -7,8 +7,8 @@ class FontExpletusSans < Formula
        only_path: "ofl/expletussans"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/expletussans/./**/ExpletusSans-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/expletussans/./**/ExpletusSans[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/expletussans/./**/ExpletusSans-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/expletussans/./**/ExpletusSans?wght?.ttf")[0]
   end
 
   test do
