@@ -6,7 +6,7 @@ class FontLatinModern < Formula
   sha256 "5b0236051d3728be6616f1b274e3b910473875b5a3ef9382f0ef00384ddb161b"
 
   def install
-    (share/"fonts").install Dir.glob("./**/lmsansquot8-regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/lmmono10-italic.otf")[0]
     (share/"fonts").install Dir.glob("./**/lmmono10-regular.otf")[0]
     (share/"fonts").install Dir.glob("./**/lmmono12-regular.otf")[0]
     (share/"fonts").install Dir.glob("./**/lmmono8-regular.otf")[0]
@@ -77,7 +77,7 @@ class FontLatinModern < Formula
     (share/"fonts").install Dir.glob("./**/lmsansquot8-bold.otf")[0]
     (share/"fonts").install Dir.glob("./**/lmsansquot8-boldoblique.otf")[0]
     (share/"fonts").install Dir.glob("./**/lmsansquot8-oblique.otf")[0]
-    (share/"fonts").install Dir.glob("./**/lmmono10-italic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/lmsansquot8-regular.otf")[0]
   end
 
   test do
