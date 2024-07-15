@@ -6,7 +6,7 @@ class FontGeistMonoNerdFont < Formula
   sha256 "87f9a0a7a585ffcf29a881002b1b5fc5ea091d5bc175b130154dc10a59fb3c76"
 
   def install
-    (share/"fonts").install Dir.glob("./**/GeistMonoNerdFontPropo-UltraLight.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GeistMonoNerdFont-Black.otf")[0]
     (share/"fonts").install Dir.glob("./**/GeistMonoNerdFont-Bold.otf")[0]
     (share/"fonts").install Dir.glob("./**/GeistMonoNerdFont-Light.otf")[0]
     (share/"fonts").install Dir.glob("./**/GeistMonoNerdFont-Medium.otf")[0]
@@ -32,7 +32,7 @@ class FontGeistMonoNerdFont < Formula
     (share/"fonts").install Dir.glob("./**/GeistMonoNerdFontPropo-SemiBold.otf")[0]
     (share/"fonts").install Dir.glob("./**/GeistMonoNerdFontPropo-Thin.otf")[0]
     (share/"fonts").install Dir.glob("./**/GeistMonoNerdFontPropo-UltraBlack.otf")[0]
-    (share/"fonts").install Dir.glob("./**/GeistMonoNerdFont-Black.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GeistMonoNerdFontPropo-UltraLight.otf")[0]
   end
 
   test do
