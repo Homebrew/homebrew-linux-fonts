@@ -6,21 +6,21 @@ class FontChurchSlavonic < Formula
   sha256 "6fd44c6fb4fecc01ecea8dda6efc18bf46646f2e5d997c7d60e0cbae3aa8ff2e"
 
   def install
-    (share/"fonts").install Dir.glob("./**/fonts-churchslavonic/Voskresensky-Regular.otf")[0]
-    (share/"fonts").install Dir.glob("./**/fonts-churchslavonic/CathismaUnicode.otf")[0]
-    (share/"fonts").install Dir.glob("./**/fonts-churchslavonic/FedorovskUnicode.otf")[0]
-    (share/"fonts").install Dir.glob("./**/fonts-churchslavonic/IndictionUnicode.otf")[0]
-    (share/"fonts").install Dir.glob("./**/fonts-churchslavonic/MenaionUnicode.otf")[0]
-    (share/"fonts").install Dir.glob("./**/fonts-churchslavonic/MezenetsUnicode.otf")[0]
-    (share/"fonts").install Dir.glob("./**/fonts-churchslavonic/MonomakhUnicode.otf")[0]
-    (share/"fonts").install Dir.glob("./**/fonts-churchslavonic/OglavieUnicode.otf")[0]
-    (share/"fonts").install Dir.glob("./**/fonts-churchslavonic/PochaevskUnicode.otf")[0]
-    (share/"fonts").install Dir.glob("./**/fonts-churchslavonic/PomorskyUnicode.otf")[0]
-    (share/"fonts").install Dir.glob("./**/fonts-churchslavonic/PonomarUnicode.otf")[0]
-    (share/"fonts").install Dir.glob("./**/fonts-churchslavonic/Shafarik-Regular.otf")[0]
-    (share/"fonts").install Dir.glob("./**/fonts-churchslavonic/TriodionUnicode.otf")[0]
-    (share/"fonts").install Dir.glob("./**/fonts-churchslavonic/VertogradUnicode.otf")[0]
-    (share/"fonts").install Dir.glob("./**/fonts-churchslavonic/Acathist-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Acathist-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CathismaUnicode.otf")[0]
+    (share/"fonts").install Dir.glob("./**/FedorovskUnicode.otf")[0]
+    (share/"fonts").install Dir.glob("./**/IndictionUnicode.otf")[0]
+    (share/"fonts").install Dir.glob("./**/MenaionUnicode.otf")[0]
+    (share/"fonts").install Dir.glob("./**/MezenetsUnicode.otf")[0]
+    (share/"fonts").install Dir.glob("./**/MonomakhUnicode.otf")[0]
+    (share/"fonts").install Dir.glob("./**/OglavieUnicode.otf")[0]
+    (share/"fonts").install Dir.glob("./**/PochaevskUnicode.otf")[0]
+    (share/"fonts").install Dir.glob("./**/PomorskyUnicode.otf")[0]
+    (share/"fonts").install Dir.glob("./**/PonomarUnicode.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Shafarik-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/TriodionUnicode.otf")[0]
+    (share/"fonts").install Dir.glob("./**/VertogradUnicode.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Voskresensky-Regular.otf")[0]
   end
 
   test do
