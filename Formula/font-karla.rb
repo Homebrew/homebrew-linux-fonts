@@ -7,8 +7,8 @@ class FontKarla < Formula
        only_path: "ofl/karla"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/karla/./**/Karla-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/karla/./**/Karla[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/karla/./**/Karla-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/karla/./**/Karla?wght?.ttf")[0]
   end
 
   test do
