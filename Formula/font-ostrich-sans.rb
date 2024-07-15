@@ -5,15 +5,15 @@ class FontOstrichSans < Formula
        verified: "github.com/theleagueof/ostrich-sans/"
 
   def install
-    (share/"fonts").install Dir.glob("./**/ostrich-sans-master/OstrichSansRounded-Medium.otf")[0]
-    (share/"fonts").install Dir.glob("./**/ostrich-sans-master/OstrichSans-Bold.otf")[0]
-    (share/"fonts").install Dir.glob("./**/ostrich-sans-master/OstrichSans-Heavy.otf")[0]
-    (share/"fonts").install Dir.glob("./**/ostrich-sans-master/OstrichSans-Light.otf")[0]
-    (share/"fonts").install Dir.glob("./**/ostrich-sans-master/OstrichSans-Medium.otf")[0]
-    (share/"fonts").install Dir.glob("./**/ostrich-sans-master/OstrichSansDashed-Medium.otf")[0]
-    (share/"fonts").install Dir.glob("./**/ostrich-sans-master/OstrichSansInline-Italic.otf")[0]
-    (share/"fonts").install Dir.glob("./**/ostrich-sans-master/OstrichSansInline-Regular.otf")[0]
-    (share/"fonts").install Dir.glob("./**/ostrich-sans-master/OstrichSans-Black.otf")[0]
+    (share/"fonts").install Dir.glob("./**/OstrichSans-Black.otf")[0]
+    (share/"fonts").install Dir.glob("./**/OstrichSans-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/OstrichSans-Heavy.otf")[0]
+    (share/"fonts").install Dir.glob("./**/OstrichSans-Light.otf")[0]
+    (share/"fonts").install Dir.glob("./**/OstrichSans-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("./**/OstrichSansDashed-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("./**/OstrichSansInline-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/OstrichSansInline-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/OstrichSansRounded-Medium.otf")[0]
   end
 
   test do
