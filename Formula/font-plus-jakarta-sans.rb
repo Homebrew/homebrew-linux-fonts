@@ -7,8 +7,8 @@ class FontPlusJakartaSans < Formula
        only_path: "ofl/plusjakartasans"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/plusjakartasans/./**/PlusJakartaSans-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/plusjakartasans/./**/PlusJakartaSans[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/plusjakartasans/./**/PlusJakartaSans-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/plusjakartasans/./**/PlusJakartaSans?wght?.ttf")[0]
   end
 
   test do
