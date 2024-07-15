@@ -6,7 +6,7 @@ class FontLiberationNerdFont < Formula
   sha256 "7be6c701399ad4c69225f0fa632ad7adb8ba999a2ca5b8a208a9dfd2bc25649f"
 
   def install
-    (share/"fonts").install Dir.glob("./**/LiterationSerifNerdFontPropo-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LiterationMonoNerdFont-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/LiterationMonoNerdFont-BoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/LiterationMonoNerdFont-Italic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/LiterationMonoNerdFont-Regular.ttf")[0]
@@ -33,7 +33,7 @@ class FontLiberationNerdFont < Formula
     (share/"fonts").install Dir.glob("./**/LiterationSerifNerdFontPropo-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/LiterationSerifNerdFontPropo-BoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/LiterationSerifNerdFontPropo-Italic.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/LiterationMonoNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LiterationSerifNerdFontPropo-Regular.ttf")[0]
   end
 
   test do
