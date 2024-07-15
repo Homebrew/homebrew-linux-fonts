@@ -7,8 +7,8 @@ class FontYsabeauInfant < Formula
        only_path: "ofl/ysabeauinfant"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/ysabeauinfant/./**/YsabeauInfant-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/ysabeauinfant/./**/YsabeauInfant[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ysabeauinfant/./**/YsabeauInfant-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/ysabeauinfant/./**/YsabeauInfant?wght?.ttf")[0]
   end
 
   test do
