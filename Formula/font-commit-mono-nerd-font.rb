@@ -6,7 +6,7 @@ class FontCommitMonoNerdFont < Formula
   sha256 "99e3e1b6126191cc0f7e49ede5dc20b65a6b8ca808da0139b5669e412632bf8d"
 
   def install
-    (share/"fonts").install Dir.glob("./**/CommitMonoNerdFontPropo-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CommitMonoNerdFont-Bold.otf")[0]
     (share/"fonts").install Dir.glob("./**/CommitMonoNerdFont-BoldItalic.otf")[0]
     (share/"fonts").install Dir.glob("./**/CommitMonoNerdFont-Italic.otf")[0]
     (share/"fonts").install Dir.glob("./**/CommitMonoNerdFont-Regular.otf")[0]
@@ -17,7 +17,7 @@ class FontCommitMonoNerdFont < Formula
     (share/"fonts").install Dir.glob("./**/CommitMonoNerdFontPropo-Bold.otf")[0]
     (share/"fonts").install Dir.glob("./**/CommitMonoNerdFontPropo-BoldItalic.otf")[0]
     (share/"fonts").install Dir.glob("./**/CommitMonoNerdFontPropo-Italic.otf")[0]
-    (share/"fonts").install Dir.glob("./**/CommitMonoNerdFont-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CommitMonoNerdFontPropo-Regular.otf")[0]
   end
 
   test do
