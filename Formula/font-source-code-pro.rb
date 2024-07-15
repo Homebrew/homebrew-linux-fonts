@@ -7,8 +7,8 @@ class FontSourceCodePro < Formula
        only_path: "ofl/sourcecodepro"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/sourcecodepro/./**/SourceCodePro-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/sourcecodepro/./**/SourceCodePro[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sourcecodepro/./**/SourceCodePro-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/sourcecodepro/./**/SourceCodePro?wght?.ttf")[0]
   end
 
   test do
