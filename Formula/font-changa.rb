@@ -5,7 +5,7 @@ class FontChanga < Formula
        verified: "github.com/google/fonts/"
 
   def install
-    (share/"fonts").install Dir.glob("./**/Changa[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Changa?wght?.ttf")[0]
   end
 
   test do
