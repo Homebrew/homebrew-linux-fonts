@@ -6,10 +6,10 @@ class FontEversonMono < Formula
   sha256 :no_check
 
   def install
-    (share/"fonts").install Dir.glob("./**/evermono-7.0.0/Everson Mono.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/evermono-7.0.0/Everson Mono Bold.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/evermono-7.0.0/Everson Mono Bold Oblique.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/evermono-7.0.0/Everson Mono Oblique.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Everson Mono Bold Oblique.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Everson Mono Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Everson Mono Oblique.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Everson Mono.ttf")[0]
   end
 
   test do
