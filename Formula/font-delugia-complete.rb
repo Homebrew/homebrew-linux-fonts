@@ -6,12 +6,12 @@ class FontDelugiaComplete < Formula
   sha256 "875b244bc584e0eff1d1c88ec6bb0a11803a35b1c02b413b00c3fffc1422894e"
 
   def install
-    (share/"fonts").install Dir.glob("./**/delugia-complete/DelugiaComplete-Bold.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/delugia-complete/DelugiaComplete-BoldItalic.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/delugia-complete/DelugiaComplete-Italic.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/delugia-complete/DelugiaComplete.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/delugia-complete/DelugiaCompleteLight-Italic.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/delugia-complete/DelugiaCompleteLight.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/DelugiaComplete-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/DelugiaComplete-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/DelugiaComplete-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/DelugiaComplete.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/DelugiaCompleteLight-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/DelugiaCompleteLight.ttf")[0]
   end
 
   test do
