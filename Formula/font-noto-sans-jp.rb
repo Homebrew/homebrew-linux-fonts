@@ -5,7 +5,7 @@ class FontNotoSansJp < Formula
        verified: "github.com/google/fonts/"
 
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSansJP[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansJP?wght?.ttf")[0]
   end
 
   test do
