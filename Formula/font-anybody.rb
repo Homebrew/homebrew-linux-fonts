@@ -7,8 +7,8 @@ class FontAnybody < Formula
        only_path: "ofl/anybody"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/anybody/./**/Anybody-Italic[wdth,wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/anybody/./**/Anybody[wdth,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/anybody/./**/Anybody-Italic?wdth,wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/anybody/./**/Anybody?wdth,wght?.ttf")[0]
   end
 
   test do
