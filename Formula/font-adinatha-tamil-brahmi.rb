@@ -4,7 +4,7 @@ class FontAdinathaTamilBrahmi < Formula
   head "http://www.virtualvinodh.com/download/Adinatha-Tamil-Brahmi.zip"
 
   def install
-    (share/"fonts").install Dir.glob("./**/Adinatha-Tamil-Brahmi/Adinatha-Tamil-Brahmi.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Adinatha-Tamil-Brahmi.otf")[0]
   end
 
   test do
