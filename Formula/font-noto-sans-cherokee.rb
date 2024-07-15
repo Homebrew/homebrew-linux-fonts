@@ -5,7 +5,7 @@ class FontNotoSansCherokee < Formula
        verified: "noto-website-2.storage.googleapis.com/"
 
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSansCherokee-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansCherokee-Black.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansCherokee-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansCherokee-ExtraBold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansCherokee-ExtraLight.ttf")[0]
@@ -13,7 +13,7 @@ class FontNotoSansCherokee < Formula
     (share/"fonts").install Dir.glob("./**/NotoSansCherokee-Medium.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansCherokee-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansCherokee-SemiBold.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/NotoSansCherokee-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansCherokee-Thin.ttf")[0]
   end
 
   test do
