@@ -7,8 +7,8 @@ class FontInterTight < Formula
        only_path: "ofl/intertight"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/intertight/./**/InterTight-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/intertight/./**/InterTight[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/intertight/./**/InterTight-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/intertight/./**/InterTight?wght?.ttf")[0]
   end
 
   test do
