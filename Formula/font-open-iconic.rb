@@ -6,7 +6,7 @@ class FontOpenIconic < Formula
   sha256 "846dafa3d3aebef38bcc9b5d7b7613846dbc07f5f06536b42ac682976524b6c4"
 
   def install
-    (share/"fonts").install Dir.glob("./**/open-iconic-1.1.1/font/fonts/open-iconic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/font/fonts/open-iconic.ttf")[0]
   end
 
   test do
