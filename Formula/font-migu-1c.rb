@@ -7,8 +7,8 @@ class FontMigu1c < Formula
   sha256 "de18e4558495ab2860e01a218e43274c49660ab882085f4b803bfd9f0ccde02b"
 
   def install
-    (share/"fonts").install Dir.glob("./**/migu-1c-20200307/migu-1c-bold.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/migu-1c-20200307/migu-1c-regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/migu-1c-bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/migu-1c-regular.ttf")[0]
   end
 
   test do
