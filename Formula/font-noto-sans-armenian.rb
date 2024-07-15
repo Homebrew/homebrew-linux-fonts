@@ -5,7 +5,7 @@ class FontNotoSansArmenian < Formula
        verified: "noto-website-2.storage.googleapis.com/"
 
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSansArmenian-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansArmenian-Black.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansArmenian-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansArmenian-Condensed.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansArmenian-CondensedBlack.ttf")[0]
@@ -40,7 +40,7 @@ class FontNotoSansArmenian < Formula
     (share/"fonts").install Dir.glob("./**/NotoSansArmenian-SemiCondensedMedium.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansArmenian-SemiCondensedSemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansArmenian-SemiCondensedThin.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/NotoSansArmenian-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansArmenian-Thin.ttf")[0]
   end
 
   test do
