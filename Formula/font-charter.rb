@@ -6,10 +6,10 @@ class FontCharter < Formula
   sha256 "b40297f1a615f94594bdad0995848eb2223fb53ccb4ea197cabf24439bd811c9"
 
   def install
-    (share/"fonts").install Dir.glob("./**/Charter 210112/OTF format (best for Mac OS)/Charter/Charter Bold Italic.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Charter 210112/OTF format (best for Mac OS)/Charter/Charter Bold.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Charter 210112/OTF format (best for Mac OS)/Charter/Charter Italic.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Charter 210112/OTF format (best for Mac OS)/Charter/Charter Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/OTF format (best for Mac OS)/Charter/Charter Bold Italic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/OTF format (best for Mac OS)/Charter/Charter Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/OTF format (best for Mac OS)/Charter/Charter Italic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/OTF format (best for Mac OS)/Charter/Charter Regular.otf")[0]
   end
 
   test do
