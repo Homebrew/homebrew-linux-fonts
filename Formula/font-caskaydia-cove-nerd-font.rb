@@ -6,7 +6,7 @@ class FontCaskaydiaCoveNerdFont < Formula
   sha256 "58ce324c5c8400d14586b968c6fea772b4ae09fe108415384b60dc5e063f3658"
 
   def install
-    (share/"fonts").install Dir.glob("./**/CaskaydiaCoveNerdFontPropo-SemiLightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/CaskaydiaCoveNerdFont-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/CaskaydiaCoveNerdFont-BoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/CaskaydiaCoveNerdFont-ExtraLight.ttf")[0]
     (share/"fonts").install Dir.glob("./**/CaskaydiaCoveNerdFont-ExtraLightItalic.ttf")[0]
@@ -41,7 +41,7 @@ class FontCaskaydiaCoveNerdFont < Formula
     (share/"fonts").install Dir.glob("./**/CaskaydiaCoveNerdFontPropo-SemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/CaskaydiaCoveNerdFontPropo-SemiBoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/CaskaydiaCoveNerdFontPropo-SemiLight.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/CaskaydiaCoveNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/CaskaydiaCoveNerdFontPropo-SemiLightItalic.ttf")[0]
   end
 
   test do
