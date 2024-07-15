@@ -6,12 +6,12 @@ class FontLxgwBrightTc < Formula
   sha256 "5a01c41e45b43fc3ca5eb49b147a1103199002895906b8d6436b65226b5257fe"
 
   def install
-    (share/"fonts").install Dir.glob("./**/LXGWBrightTC/LXGWBrightTC-Medium.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/LXGWBrightTC/LXGWBrightTC-MediumItalic.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/LXGWBrightTC/LXGWBrightTC-Regular.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/LXGWBrightTC/LXGWBrightTC-Italic.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/LXGWBrightTC/LXGWBrightTC-SemiLight.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/LXGWBrightTC/LXGWBrightTC-SemiLightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LXGWBrightTC-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LXGWBrightTC-Medium.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LXGWBrightTC-MediumItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LXGWBrightTC-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LXGWBrightTC-SemiLight.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LXGWBrightTC-SemiLightItalic.ttf")[0]
   end
 
   test do
