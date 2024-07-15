@@ -6,7 +6,7 @@ class FontIosevkaTermNerdFont < Formula
   sha256 "4d2c7fc44f215cd762ceab5167aa13285f179e83f36d56a1129c2871b9552080"
 
   def install
-    (share/"fonts").install Dir.glob("./**/IosevkaTermNerdFontPropo-ThinOblique.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/IosevkaTermNerdFont-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/IosevkaTermNerdFont-BoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/IosevkaTermNerdFont-BoldOblique.ttf")[0]
     (share/"fonts").install Dir.glob("./**/IosevkaTermNerdFont-ExtraBold.ttf")[0]
@@ -86,7 +86,7 @@ class FontIosevkaTermNerdFont < Formula
     (share/"fonts").install Dir.glob("./**/IosevkaTermNerdFontPropo-SemiBoldOblique.ttf")[0]
     (share/"fonts").install Dir.glob("./**/IosevkaTermNerdFontPropo-Thin.ttf")[0]
     (share/"fonts").install Dir.glob("./**/IosevkaTermNerdFontPropo-ThinItalic.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/IosevkaTermNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/IosevkaTermNerdFontPropo-ThinOblique.ttf")[0]
   end
 
   test do
