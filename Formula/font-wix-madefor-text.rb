@@ -7,8 +7,8 @@ class FontWixMadeforText < Formula
   sha256 "7fdbd012ca9e245d7c177a341bdbdf789521590e175322a9013c035981138f1c"
 
   def install
-    (share/"fonts").install Dir.glob("./**/wixmadefor-fonts/fonts/variable/WixMadeforText[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("./**/wixmadefor-fonts/fonts/variable/WixMadeforText-Italic[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/fonts/variable/WixMadeforText-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/fonts/variable/WixMadeforText?wght?.ttf")[0]
   end
 
   test do
