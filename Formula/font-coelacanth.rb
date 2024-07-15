@@ -6,7 +6,7 @@ class FontCoelacanth < Formula
   sha256 "77c0d55970b6275a7249bd73a9907b22e6613c1bf3a162a74a41656b1ff81139"
 
   def install
-    (share/"fonts").install Dir.glob("./**/CoelacanthSubhdSemibd.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Coelacanth.otf")[0]
     (share/"fonts").install Dir.glob("./**/CoelacanthBold.otf")[0]
     (share/"fonts").install Dir.glob("./**/CoelacanthCaption.otf")[0]
     (share/"fonts").install Dir.glob("./**/CoelacanthCaptionBold.otf")[0]
@@ -45,7 +45,7 @@ class FontCoelacanth < Formula
     (share/"fonts").install Dir.glob("./**/CoelacanthSubhdExtraLt.otf")[0]
     (share/"fonts").install Dir.glob("./**/CoelacanthSubhdHeavy.otf")[0]
     (share/"fonts").install Dir.glob("./**/CoelacanthSubhdLt.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Coelacanth.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CoelacanthSubhdSemibd.otf")[0]
   end
 
   test do
