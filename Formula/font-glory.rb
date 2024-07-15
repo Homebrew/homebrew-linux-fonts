@@ -7,8 +7,8 @@ class FontGlory < Formula
        only_path: "ofl/glory"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/glory/./**/Glory-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/glory/./**/Glory[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/glory/./**/Glory-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/glory/./**/Glory?wght?.ttf")[0]
   end
 
   test do
