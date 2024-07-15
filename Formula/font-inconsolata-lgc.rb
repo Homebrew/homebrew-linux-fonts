@@ -6,10 +6,10 @@ class FontInconsolataLgc < Formula
   sha256 "009464109b37d32dd568056aafba7369dc4fc84bd91f8645b3184ca3608e30ed"
 
   def install
-    (share/"fonts").install Dir.glob("./**/InconsolataLGC/Inconsolata-LGC.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/InconsolataLGC/Inconsolata-LGC-Bold.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/InconsolataLGC/Inconsolata-LGC-Italic.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/InconsolataLGC/Inconsolata-LGC-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Inconsolata-LGC-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Inconsolata-LGC-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Inconsolata-LGC-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Inconsolata-LGC.ttf")[0]
   end
 
   test do
