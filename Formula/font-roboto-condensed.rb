@@ -7,8 +7,8 @@ class FontRobotoCondensed < Formula
        only_path: "ofl/robotocondensed"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/robotocondensed/./**/RobotoCondensed-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/robotocondensed/./**/RobotoCondensed[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/robotocondensed/./**/RobotoCondensed-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/robotocondensed/./**/RobotoCondensed?wght?.ttf")[0]
   end
 
   test do
