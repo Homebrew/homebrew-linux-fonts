@@ -6,10 +6,10 @@ class FontTerminus < Formula
   sha256 "0ead921d98d99a4590ffe6cd66dc037fc0a2ceea1c735d866ba73fe058257577"
 
   def install
-    (share/"fonts").install Dir.glob("./**/terminus-ttf-4.49.3/TerminusTTF-4.49.3.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/terminus-ttf-4.49.3/TerminusTTF-Bold-4.49.3.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/terminus-ttf-4.49.3/TerminusTTF-Bold-Italic-4.49.3.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/terminus-ttf-4.49.3/TerminusTTF-Italic-4.49.3.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/TerminusTTF-4.49.3.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/TerminusTTF-Bold-4.49.3.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/TerminusTTF-Bold-Italic-4.49.3.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/TerminusTTF-Italic-4.49.3.ttf")[0]
   end
 
   test do
