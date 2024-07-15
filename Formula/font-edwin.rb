@@ -6,10 +6,10 @@ class FontEdwin < Formula
   sha256 "17a073c27aec6842de81da3a05d8eed4e1be448f732a79f8b48012477abacd89"
 
   def install
-    (share/"fonts").install Dir.glob("./**/Edwin-0.54/Edwin-BdIta.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Edwin-0.54/Edwin-Bold.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Edwin-0.54/Edwin-Italic.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Edwin-0.54/Edwin-Roman.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Edwin-BdIta.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Edwin-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Edwin-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Edwin-Roman.otf")[0]
   end
 
   test do
