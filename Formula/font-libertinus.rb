@@ -6,20 +6,20 @@ class FontLibertinus < Formula
   sha256 "7fe9f022722d1c1cc67dc2c28a110b3bb55bae3575196160d2422c89333b3850"
 
   def install
-    (share/"fonts").install Dir.glob("./**/Libertinus-7.040/static/OTF/LibertinusSerifInitials-Regular.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Libertinus-7.040/static/OTF/LibertinusMath-Regular.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Libertinus-7.040/static/OTF/LibertinusMono-Regular.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Libertinus-7.040/static/OTF/LibertinusSans-Bold.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Libertinus-7.040/static/OTF/LibertinusSans-Italic.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Libertinus-7.040/static/OTF/LibertinusSans-Regular.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Libertinus-7.040/static/OTF/LibertinusSerif-Bold.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Libertinus-7.040/static/OTF/LibertinusSerif-BoldItalic.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Libertinus-7.040/static/OTF/LibertinusSerif-Italic.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Libertinus-7.040/static/OTF/LibertinusSerif-Regular.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Libertinus-7.040/static/OTF/LibertinusSerif-Semibold.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Libertinus-7.040/static/OTF/LibertinusSerif-SemiboldItalic.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Libertinus-7.040/static/OTF/LibertinusSerifDisplay-Regular.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Libertinus-7.040/static/OTF/LibertinusKeyboard-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/static/OTF/LibertinusKeyboard-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/static/OTF/LibertinusMath-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/static/OTF/LibertinusMono-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/static/OTF/LibertinusSans-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/static/OTF/LibertinusSans-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/static/OTF/LibertinusSans-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/static/OTF/LibertinusSerif-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/static/OTF/LibertinusSerif-BoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/static/OTF/LibertinusSerif-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/static/OTF/LibertinusSerif-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/static/OTF/LibertinusSerif-Semibold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/static/OTF/LibertinusSerif-SemiboldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/static/OTF/LibertinusSerifDisplay-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/static/OTF/LibertinusSerifInitials-Regular.otf")[0]
   end
 
   test do
