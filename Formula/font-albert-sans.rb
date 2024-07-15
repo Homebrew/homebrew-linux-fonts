@@ -7,8 +7,8 @@ class FontAlbertSans < Formula
        only_path: "ofl/albertsans"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/albertsans/./**/AlbertSans-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/albertsans/./**/AlbertSans[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/albertsans/./**/AlbertSans-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/albertsans/./**/AlbertSans?wght?.ttf")[0]
   end
 
   test do
