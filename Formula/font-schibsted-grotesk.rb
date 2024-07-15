@@ -7,8 +7,8 @@ class FontSchibstedGrotesk < Formula
        only_path: "ofl/schibstedgrotesk"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/schibstedgrotesk/./**/SchibstedGrotesk-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/schibstedgrotesk/./**/SchibstedGrotesk[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/schibstedgrotesk/./**/SchibstedGrotesk-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/schibstedgrotesk/./**/SchibstedGrotesk?wght?.ttf")[0]
   end
 
   test do
