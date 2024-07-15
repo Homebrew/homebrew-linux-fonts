@@ -7,7 +7,7 @@ class FontKodchasan < Formula
        only_path: "ofl/kodchasan"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/kodchasan/./**/Kodchasan-SemiBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/kodchasan/./**/Kodchasan-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/kodchasan/./**/Kodchasan-BoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/kodchasan/./**/Kodchasan-ExtraLight.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/kodchasan/./**/Kodchasan-ExtraLightItalic.ttf")[0]
@@ -18,7 +18,7 @@ class FontKodchasan < Formula
     (share/"fonts").install Dir.glob("ofl/kodchasan/./**/Kodchasan-MediumItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/kodchasan/./**/Kodchasan-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/kodchasan/./**/Kodchasan-SemiBold.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/kodchasan/./**/Kodchasan-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/kodchasan/./**/Kodchasan-SemiBoldItalic.ttf")[0]
   end
 
   test do
