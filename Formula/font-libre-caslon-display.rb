@@ -4,7 +4,7 @@ class FontLibreCaslonDisplay < Formula
   head "https://github.com/impallari/Libre-Caslon-Display/archive/refs/heads/master.tar.gz"
 
   def install
-    (share/"fonts").install Dir.glob("./**/Libre-Caslon-Display-master/fonts/OTF/LibreCaslonDisplay-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/fonts/OTF/LibreCaslonDisplay-Regular.otf")[0]
   end
 
   test do
