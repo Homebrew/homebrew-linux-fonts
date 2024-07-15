@@ -7,8 +7,8 @@ class FontGantari < Formula
        only_path: "ofl/gantari"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/gantari/./**/Gantari-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/gantari/./**/Gantari[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/gantari/./**/Gantari-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/gantari/./**/Gantari?wght?.ttf")[0]
   end
 
   test do
