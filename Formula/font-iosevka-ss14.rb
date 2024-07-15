@@ -6,7 +6,7 @@ class FontIosevkaSs14 < Formula
   sha256 "39f36d8967b9a7e8f2717a5c694995c27e0b2ceb4d2bd1b8737a29ca867a1a21"
 
   def install
-    (share/"fonts").install Dir.glob("./**/IosevkaSS14-Thin.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/IosevkaSS14-Bold.ttc")[0]
     (share/"fonts").install Dir.glob("./**/IosevkaSS14-ExtraBold.ttc")[0]
     (share/"fonts").install Dir.glob("./**/IosevkaSS14-ExtraLight.ttc")[0]
     (share/"fonts").install Dir.glob("./**/IosevkaSS14-Heavy.ttc")[0]
@@ -14,7 +14,7 @@ class FontIosevkaSs14 < Formula
     (share/"fonts").install Dir.glob("./**/IosevkaSS14-Medium.ttc")[0]
     (share/"fonts").install Dir.glob("./**/IosevkaSS14-Regular.ttc")[0]
     (share/"fonts").install Dir.glob("./**/IosevkaSS14-SemiBold.ttc")[0]
-    (share/"fonts").install Dir.glob("./**/IosevkaSS14-Bold.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/IosevkaSS14-Thin.ttc")[0]
   end
 
   test do
