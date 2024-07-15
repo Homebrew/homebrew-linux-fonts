@@ -4,7 +4,7 @@ class FontBitterHt < Formula
   head "https://www.huertatipografica.com/free_download/144"
 
   def install
-    (share/"fonts").install Dir.glob("./**/BitterPro-ThinItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/BitterPro-Black.ttf")[0]
     (share/"fonts").install Dir.glob("./**/BitterPro-BlackItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/BitterPro-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/BitterPro-BoldItalic.ttf")[0]
@@ -21,7 +21,7 @@ class FontBitterHt < Formula
     (share/"fonts").install Dir.glob("./**/BitterPro-SemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/BitterPro-SemiBoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/BitterPro-Thin.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/BitterPro-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/BitterPro-ThinItalic.ttf")[0]
   end
 
   test do
