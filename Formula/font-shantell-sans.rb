@@ -7,8 +7,8 @@ class FontShantellSans < Formula
        only_path: "ofl/shantellsans"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/shantellsans/./**/ShantellSans-Italic[BNCE,INFM,SPAC,wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/shantellsans/./**/ShantellSans[BNCE,INFM,SPAC,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/shantellsans/./**/ShantellSans-Italic?BNCE,INFM,SPAC,wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/shantellsans/./**/ShantellSans?BNCE,INFM,SPAC,wght?.ttf")[0]
   end
 
   test do
