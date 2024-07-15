@@ -6,7 +6,7 @@ class FontFoundrySterling < Formula
   sha256 :no_check
 
   def install
-    (share/"fonts").install Dir.glob("./**/zFoundrySterling-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/FoundrySterling-Book.otf")[0]
     (share/"fonts").install Dir.glob("./**/FoundrySterling-BookItalic.otf")[0]
     (share/"fonts").install Dir.glob("./**/FoundrySterling-Demi.otf")[0]
     (share/"fonts").install Dir.glob("./**/FoundrySterling-ExtraBold.otf")[0]
@@ -26,7 +26,7 @@ class FontFoundrySterling < Formula
     (share/"fonts").install Dir.glob("./**/FoundrySterlingOT3-ExtraBold.otf")[0]
     (share/"fonts").install Dir.glob("./**/FoundrySterlingOT3-Light.otf")[0]
     (share/"fonts").install Dir.glob("./**/FoundrySterlingOT3-Medium.otf")[0]
-    (share/"fonts").install Dir.glob("./**/FoundrySterling-Book.otf")[0]
+    (share/"fonts").install Dir.glob("./**/zFoundrySterling-Bold.otf")[0]
   end
 
   test do
