@@ -7,8 +7,8 @@ class FontAndadaPro < Formula
        only_path: "ofl/andadapro"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/andadapro/./**/AndadaPro-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/andadapro/./**/AndadaPro[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/andadapro/./**/AndadaPro-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/andadapro/./**/AndadaPro?wght?.ttf")[0]
   end
 
   test do
