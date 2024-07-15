@@ -6,8 +6,8 @@ class FontIpaexfont < Formula
   sha256 "bcf8374ab3f9672c421120430dd19a51c99f5265cf06fc340d9a661ddfd7974b"
 
   def install
-    (share/"fonts").install Dir.glob("./**/IPAexfont00401/ipaexg.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/IPAexfont00401/ipaexm.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/ipaexg.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/ipaexm.ttf")[0]
   end
 
   test do
