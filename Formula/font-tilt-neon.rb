@@ -5,7 +5,7 @@ class FontTiltNeon < Formula
        verified: "github.com/google/fonts/"
 
   def install
-    (share/"fonts").install Dir.glob("./**/TiltNeon[XROT,YROT].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/TiltNeon?XROT,YROT?.ttf")[0]
   end
 
   test do
