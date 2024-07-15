@@ -5,7 +5,7 @@ class FontWavefont < Formula
        verified: "github.com/google/fonts/"
 
   def install
-    (share/"fonts").install Dir.glob("./**/Wavefont[ROND,YELA,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Wavefont?ROND,YELA,wght?.ttf")[0]
   end
 
   test do
