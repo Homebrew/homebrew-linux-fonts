@@ -5,7 +5,7 @@ class FontBigShouldersText < Formula
        verified: "github.com/google/fonts/"
 
   def install
-    (share/"fonts").install Dir.glob("./**/BigShouldersText[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/BigShouldersText?wght?.ttf")[0]
   end
 
   test do
