@@ -5,8 +5,8 @@ class FontComicMono < Formula
        verified: "github.com/dtinth/comic-mono-font/"
 
   def install
-    (share/"fonts").install Dir.glob("./**/comic-mono-font-master/ComicMono.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/comic-mono-font-master/ComicMono-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/ComicMono-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/ComicMono.ttf")[0]
   end
 
   test do
