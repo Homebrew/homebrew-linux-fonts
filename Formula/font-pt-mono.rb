@@ -5,8 +5,8 @@ class FontPtMono < Formula
        referer: "https://www.paratype.com/"
 
   def install
-    (share/"fonts").install Dir.glob("./**/PT/PT/PT-Mono/pt-mono_bold.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/PT/PT/PT-Mono/pt-mono_regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/**/PT-Mono/pt-mono_bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/**/PT-Mono/pt-mono_regular.ttf")[0]
   end
 
   test do
