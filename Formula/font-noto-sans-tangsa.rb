@@ -5,7 +5,7 @@ class FontNotoSansTangsa < Formula
        verified: "github.com/google/fonts/"
 
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSansTangsa[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansTangsa?wght?.ttf")[0]
   end
 
   test do
