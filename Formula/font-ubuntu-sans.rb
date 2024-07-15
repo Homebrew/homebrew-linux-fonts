@@ -7,8 +7,8 @@ class FontUbuntuSans < Formula
        only_path: "ufl/ubuntusans"
 
   def install
-    (share/"fonts").install Dir.glob("ufl/ubuntusans/./**/UbuntuSans-Italic[wdth,wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ufl/ubuntusans/./**/UbuntuSans[wdth,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ufl/ubuntusans/./**/UbuntuSans-Italic?wdth,wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ufl/ubuntusans/./**/UbuntuSans?wdth,wght?.ttf")[0]
   end
 
   test do
