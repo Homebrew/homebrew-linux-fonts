@@ -7,10 +7,10 @@ class FontB612 < Formula
   sha256 "bfe4827931a22ecde5576c2bd06b462d467b89fa580b6ded651346f94eba8dd6"
 
   def install
-    (share/"fonts").install Dir.glob("./**/b612-1.008/fonts/ttf/B612-Bold.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/b612-1.008/fonts/ttf/B612-BoldItalic.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/b612-1.008/fonts/ttf/B612-Italic.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/b612-1.008/fonts/ttf/B612-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/fonts/ttf/B612-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/fonts/ttf/B612-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/fonts/ttf/B612-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/fonts/ttf/B612-Regular.ttf")[0]
   end
 
   test do
