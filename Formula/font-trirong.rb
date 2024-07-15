@@ -7,7 +7,7 @@ class FontTrirong < Formula
        only_path: "ofl/trirong"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/trirong/./**/Trirong-ThinItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/trirong/./**/Trirong-Black.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/trirong/./**/Trirong-BlackItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/trirong/./**/Trirong-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/trirong/./**/Trirong-BoldItalic.ttf")[0]
@@ -24,7 +24,7 @@ class FontTrirong < Formula
     (share/"fonts").install Dir.glob("ofl/trirong/./**/Trirong-SemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/trirong/./**/Trirong-SemiBoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/trirong/./**/Trirong-Thin.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/trirong/./**/Trirong-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/trirong/./**/Trirong-ThinItalic.ttf")[0]
   end
 
   test do
