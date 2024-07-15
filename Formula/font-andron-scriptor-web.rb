@@ -6,7 +6,7 @@ class FontAndronScriptorWeb < Formula
   sha256 "19071b0d58e0d53c852d3f8e3b056205046236ccc33d8c185a9d4a0044644930"
 
   def install
-    (share/"fonts").install Dir.glob("./**/AND_SCR_WEB_3.0/Andron Scriptor Web.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Andron Scriptor Web.ttf")[0]
   end
 
   test do
