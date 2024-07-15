@@ -6,8 +6,8 @@ class FontAlumniSansSc < Formula
        only_path: "ofl/alumnisanssc"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/alumnisanssc/./**/AlumniSansSC-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/alumnisanssc/./**/AlumniSansSC[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/alumnisanssc/./**/AlumniSansSC-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/alumnisanssc/./**/AlumniSansSC?wght?.ttf")[0]
   end
 
   test do
