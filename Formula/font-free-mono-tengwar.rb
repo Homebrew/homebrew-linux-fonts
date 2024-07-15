@@ -6,8 +6,8 @@ class FontFreeMonoTengwar < Formula
   sha256 "11a33522a6a7aa43120f0e9f98862d922a89228ed762738809132e3b26784907"
 
   def install
-    (share/"fonts").install Dir.glob("./**/FreeMonoTengwar.2013-07-21/FreeMonoTengwar-embedding.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/FreeMonoTengwar.2013-07-21/FreeMonoTengwar.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/FreeMonoTengwar-embedding.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/FreeMonoTengwar.ttf")[0]
   end
 
   test do
