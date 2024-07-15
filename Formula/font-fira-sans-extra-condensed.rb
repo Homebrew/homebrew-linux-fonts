@@ -7,7 +7,7 @@ class FontFiraSansExtraCondensed < Formula
        only_path: "ofl/firasansextracondensed"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/firasansextracondensed/./**/FiraSansExtraCondensed-ThinItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/firasansextracondensed/./**/FiraSansExtraCondensed-Black.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/firasansextracondensed/./**/FiraSansExtraCondensed-BlackItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/firasansextracondensed/./**/FiraSansExtraCondensed-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/firasansextracondensed/./**/FiraSansExtraCondensed-BoldItalic.ttf")[0]
@@ -24,7 +24,7 @@ class FontFiraSansExtraCondensed < Formula
     (share/"fonts").install Dir.glob("ofl/firasansextracondensed/./**/FiraSansExtraCondensed-SemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/firasansextracondensed/./**/FiraSansExtraCondensed-SemiBoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/firasansextracondensed/./**/FiraSansExtraCondensed-Thin.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/firasansextracondensed/./**/FiraSansExtraCondensed-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/firasansextracondensed/./**/FiraSansExtraCondensed-ThinItalic.ttf")[0]
   end
 
   test do
