@@ -7,8 +7,8 @@ class FontArchivoNarrow < Formula
        only_path: "ofl/archivonarrow"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/archivonarrow/./**/ArchivoNarrow-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/archivonarrow/./**/ArchivoNarrow[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/archivonarrow/./**/ArchivoNarrow-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/archivonarrow/./**/ArchivoNarrow?wght?.ttf")[0]
   end
 
   test do
