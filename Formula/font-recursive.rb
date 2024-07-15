@@ -5,7 +5,7 @@ class FontRecursive < Formula
        verified: "github.com/google/fonts/"
 
   def install
-    (share/"fonts").install Dir.glob("./**/Recursive[CASL,CRSV,MONO,slnt,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive?CASL,CRSV,MONO,slnt,wght?.ttf")[0]
   end
 
   test do
