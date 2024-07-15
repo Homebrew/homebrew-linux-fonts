@@ -7,8 +7,8 @@ class FontRobotoSerif < Formula
        only_path: "ofl/robotoserif"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/robotoserif/./**/RobotoSerif-Italic[GRAD,opsz,wdth,wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/robotoserif/./**/RobotoSerif[GRAD,opsz,wdth,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/robotoserif/./**/RobotoSerif-Italic?GRAD,opsz,wdth,wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/robotoserif/./**/RobotoSerif?GRAD,opsz,wdth,wght?.ttf")[0]
   end
 
   test do
