@@ -6,10 +6,10 @@ class FontSpaceGrotesk < Formula
   sha256 "53b415577d4139248555300710bea0d268c7a5be67b93de53b716a9736cabffd"
 
   def install
-    (share/"fonts").install Dir.glob("./**/SpaceGrotesk-2.0.0/otf/SpaceGrotesk-Bold.otf")[0]
-    (share/"fonts").install Dir.glob("./**/SpaceGrotesk-2.0.0/otf/SpaceGrotesk-Light.otf")[0]
-    (share/"fonts").install Dir.glob("./**/SpaceGrotesk-2.0.0/otf/SpaceGrotesk-Medium.otf")[0]
-    (share/"fonts").install Dir.glob("./**/SpaceGrotesk-2.0.0/otf/SpaceGrotesk-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/otf/SpaceGrotesk-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/otf/SpaceGrotesk-Light.otf")[0]
+    (share/"fonts").install Dir.glob("./**/otf/SpaceGrotesk-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("./**/otf/SpaceGrotesk-Regular.otf")[0]
   end
 
   test do
