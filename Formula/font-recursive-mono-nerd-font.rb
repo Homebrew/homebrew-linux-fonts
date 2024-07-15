@@ -6,7 +6,7 @@ class FontRecursiveMonoNerdFont < Formula
   sha256 "9d6cff7ae4570f4bdd8351723214ca8323f8a99420bd5296dea2aa0b4be984d3"
 
   def install
-    (share/"fonts").install Dir.glob("./**/RecMonoSmCasualNerdFontPropo-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RecMonoCasualNerdFont-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/RecMonoCasualNerdFont-BoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/RecMonoCasualNerdFont-Italic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/RecMonoCasualNerdFont-Regular.ttf")[0]
@@ -53,7 +53,7 @@ class FontRecursiveMonoNerdFont < Formula
     (share/"fonts").install Dir.glob("./**/RecMonoSmCasualNerdFontPropo-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/RecMonoSmCasualNerdFontPropo-BoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/RecMonoSmCasualNerdFontPropo-Italic.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/RecMonoCasualNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/RecMonoSmCasualNerdFontPropo-Regular.ttf")[0]
   end
 
   test do
