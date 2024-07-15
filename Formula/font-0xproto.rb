@@ -6,8 +6,8 @@ class Font0xproto < Formula
   sha256 "3c6fb670f65fde3d5f91301955680c282710d91f55580462152528f3e92849e8"
 
   def install
-    (share/"fonts").install Dir.glob("./**/fonts/0xProto-Regular.otf")[0]
-    (share/"fonts").install Dir.glob("./**/fonts/0xProto-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/0xProto-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/0xProto-Regular.otf")[0]
   end
 
   test do
