@@ -7,8 +7,8 @@ class FontLibreBodoni < Formula
        only_path: "ofl/librebodoni"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/librebodoni/./**/LibreBodoni-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/librebodoni/./**/LibreBodoni[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/librebodoni/./**/LibreBodoni-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/librebodoni/./**/LibreBodoni?wght?.ttf")[0]
   end
 
   test do
