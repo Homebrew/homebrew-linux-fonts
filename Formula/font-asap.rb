@@ -7,8 +7,8 @@ class FontAsap < Formula
        only_path: "ofl/asap"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/asap/./**/Asap-Italic[wdth,wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/asap/./**/Asap[wdth,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/asap/./**/Asap-Italic?wdth,wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/asap/./**/Asap?wdth,wght?.ttf")[0]
   end
 
   test do
