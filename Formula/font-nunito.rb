@@ -7,8 +7,8 @@ class FontNunito < Formula
        only_path: "ofl/nunito"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/nunito/./**/Nunito-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/nunito/./**/Nunito[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/nunito/./**/Nunito-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/nunito/./**/Nunito?wght?.ttf")[0]
   end
 
   test do
