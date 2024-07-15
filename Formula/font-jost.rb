@@ -7,8 +7,8 @@ class FontJost < Formula
        only_path: "ofl/jost"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/jost/./**/Jost-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/jost/./**/Jost[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/jost/./**/Jost-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/jost/./**/Jost?wght?.ttf")[0]
   end
 
   test do
