@@ -6,7 +6,7 @@ class FontMesloLgNerdFont < Formula
   sha256 "c54d6ad2eabaaac59a436b9d37de62f2f8407516e85a31023313f6e91ca12694"
 
   def install
-    (share/"fonts").install Dir.glob("./**/MesloLGSNerdFontPropo-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MesloLGLDZNerdFont-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/MesloLGLDZNerdFont-BoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/MesloLGLDZNerdFont-Italic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/MesloLGLDZNerdFont-Regular.ttf")[0]
@@ -77,7 +77,7 @@ class FontMesloLgNerdFont < Formula
     (share/"fonts").install Dir.glob("./**/MesloLGSNerdFontPropo-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/MesloLGSNerdFontPropo-BoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/MesloLGSNerdFontPropo-Italic.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/MesloLGLDZNerdFont-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/MesloLGSNerdFontPropo-Regular.ttf")[0]
   end
 
   test do
