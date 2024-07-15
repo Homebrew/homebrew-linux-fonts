@@ -8,12 +8,12 @@ class FontXits < Formula
   deprecate! "2023-12-17", because: :discontinued
 
   def install
-    (share/"fonts").install Dir.glob("./**/xits-1.302/xits-bold.otf")[0]
-    (share/"fonts").install Dir.glob("./**/xits-1.302/xits-bolditalic.otf")[0]
-    (share/"fonts").install Dir.glob("./**/xits-1.302/xits-italic.otf")[0]
-    (share/"fonts").install Dir.glob("./**/xits-1.302/xits-regular.otf")[0]
-    (share/"fonts").install Dir.glob("./**/xits-1.302/xitsmath-bold.otf")[0]
-    (share/"fonts").install Dir.glob("./**/xits-1.302/xitsmath-regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/xits-bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/xits-bolditalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/xits-italic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/xits-regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/xitsmath-bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/xitsmath-regular.otf")[0]
   end
 
   test do
