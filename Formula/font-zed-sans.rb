@@ -6,7 +6,7 @@ class FontZedSans < Formula
   sha256 "eb861c35c6f1639a674793f71135b1370ffefc9bd6e69a5ff5fffa2659f150c1"
 
   def install
-    (share/"fonts").install Dir.glob("./**/zed-sans-thinoblique.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/zed-sans-bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/zed-sans-bolditalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/zed-sans-boldoblique.ttf")[0]
     (share/"fonts").install Dir.glob("./**/zed-sans-extended.ttf")[0]
@@ -59,7 +59,7 @@ class FontZedSans < Formula
     (share/"fonts").install Dir.glob("./**/zed-sans-semiboldoblique.ttf")[0]
     (share/"fonts").install Dir.glob("./**/zed-sans-thin.ttf")[0]
     (share/"fonts").install Dir.glob("./**/zed-sans-thinitalic.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/zed-sans-bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/zed-sans-thinoblique.ttf")[0]
   end
 
   test do
