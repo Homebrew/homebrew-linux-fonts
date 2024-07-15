@@ -6,7 +6,7 @@ class FontD2coding < Formula
   sha256 "0f1c9192eac7d56329dddc620f9f1666b707e9c8ed38fe1f988d0ae3e30b24e6"
 
   def install
-    (share/"fonts").install Dir.glob("./**/D2Coding/D2Coding-Ver1.3.2-20180524.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/D2Coding-Ver1.3.2-20180524.ttc")[0]
   end
 
   test do
