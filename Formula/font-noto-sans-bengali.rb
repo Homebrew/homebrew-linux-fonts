@@ -5,7 +5,7 @@ class FontNotoSansBengali < Formula
        verified: "noto-website-2.storage.googleapis.com/"
 
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSansBengaliUI-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansBengali-Black.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansBengali-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansBengali-ExtraBold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansBengali-ExtraLight.ttf")[0]
@@ -22,7 +22,7 @@ class FontNotoSansBengali < Formula
     (share/"fonts").install Dir.glob("./**/NotoSansBengaliUI-Medium.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansBengaliUI-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansBengaliUI-SemiBold.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/NotoSansBengali-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansBengaliUI-Thin.ttf")[0]
   end
 
   test do
