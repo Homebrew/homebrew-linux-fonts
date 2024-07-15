@@ -6,7 +6,7 @@ class FontGohufontNerdFont < Formula
   sha256 "c223119a6ff3e222f266c2c977b3bf22ad27cf55c9d088b21305edfd0aaa0430"
 
   def install
-    (share/"fonts").install Dir.glob("./**/GohuFontuni14NerdFontPropo-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GohuFont11NerdFont-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("./**/GohuFont11NerdFontMono-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("./**/GohuFont11NerdFontPropo-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("./**/GohuFont14NerdFont-Regular.ttf")[0]
@@ -17,7 +17,7 @@ class FontGohufontNerdFont < Formula
     (share/"fonts").install Dir.glob("./**/GohuFontuni11NerdFontPropo-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("./**/GohuFontuni14NerdFont-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("./**/GohuFontuni14NerdFontMono-Regular.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/GohuFont11NerdFont-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/GohuFontuni14NerdFontPropo-Regular.ttf")[0]
   end
 
   test do
