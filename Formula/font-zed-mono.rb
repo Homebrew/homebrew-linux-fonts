@@ -6,7 +6,7 @@ class FontZedMono < Formula
   sha256 "eb673b39528927d21c0b12eaf05e50babc486bc99e724b55c88e529a5dae76c9"
 
   def install
-    (share/"fonts").install Dir.glob("./**/zed-mono-thinoblique.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/zed-mono-bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/zed-mono-bolditalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/zed-mono-boldoblique.ttf")[0]
     (share/"fonts").install Dir.glob("./**/zed-mono-extended.ttf")[0]
@@ -59,7 +59,7 @@ class FontZedMono < Formula
     (share/"fonts").install Dir.glob("./**/zed-mono-semiboldoblique.ttf")[0]
     (share/"fonts").install Dir.glob("./**/zed-mono-thin.ttf")[0]
     (share/"fonts").install Dir.glob("./**/zed-mono-thinitalic.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/zed-mono-bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/zed-mono-thinoblique.ttf")[0]
   end
 
   test do
