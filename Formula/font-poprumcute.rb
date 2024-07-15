@@ -4,7 +4,7 @@ class FontPoprumcute < Formula
   head "https://moji-waku.com/download/poprumcute.zip"
 
   def install
-    (share/"fonts").install Dir.glob("./**/poprumcute/PopRumCute.otf")[0]
+    (share/"fonts").install Dir.glob("./**/PopRumCute.otf")[0]
   end
 
   test do
