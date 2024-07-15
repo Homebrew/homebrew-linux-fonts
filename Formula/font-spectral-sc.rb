@@ -7,7 +7,7 @@ class FontSpectralSc < Formula
        only_path: "ofl/spectralsc"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/spectralsc/./**/SpectralSC-SemiBoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/spectralsc/./**/SpectralSC-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/spectralsc/./**/SpectralSC-BoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/spectralsc/./**/SpectralSC-ExtraBold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/spectralsc/./**/SpectralSC-ExtraBoldItalic.ttf")[0]
@@ -20,7 +20,7 @@ class FontSpectralSc < Formula
     (share/"fonts").install Dir.glob("ofl/spectralsc/./**/SpectralSC-MediumItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/spectralsc/./**/SpectralSC-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/spectralsc/./**/SpectralSC-SemiBold.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/spectralsc/./**/SpectralSC-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/spectralsc/./**/SpectralSC-SemiBoldItalic.ttf")[0]
   end
 
   test do
