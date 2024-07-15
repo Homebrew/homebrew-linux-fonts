@@ -7,8 +7,8 @@ class FontMohave < Formula
        only_path: "ofl/mohave"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/mohave/./**/Mohave-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/mohave/./**/Mohave[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/mohave/./**/Mohave-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/mohave/./**/Mohave?wght?.ttf")[0]
   end
 
   test do
