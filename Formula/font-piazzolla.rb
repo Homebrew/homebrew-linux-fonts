@@ -7,8 +7,8 @@ class FontPiazzolla < Formula
        only_path: "ofl/piazzolla"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/piazzolla/./**/Piazzolla-Italic[opsz,wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/piazzolla/./**/Piazzolla[opsz,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/piazzolla/./**/Piazzolla-Italic?opsz,wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/piazzolla/./**/Piazzolla?opsz,wght?.ttf")[0]
   end
 
   test do
