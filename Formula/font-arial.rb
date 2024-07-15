@@ -4,10 +4,10 @@ class FontArial < Formula
   head "https://downloads.sourceforge.net/corefonts/arial32.exe"
 
   def install
-    (share/"fonts").install Dir.glob("./**/Ariali.TTF")[0]
+    (share/"fonts").install Dir.glob("./**/Arial.TTF")[0]
     (share/"fonts").install Dir.glob("./**/Arialbd.TTF")[0]
     (share/"fonts").install Dir.glob("./**/Arialbi.TTF")[0]
-    (share/"fonts").install Dir.glob("./**/Arial.TTF")[0]
+    (share/"fonts").install Dir.glob("./**/Ariali.TTF")[0]
   end
 
   test do
