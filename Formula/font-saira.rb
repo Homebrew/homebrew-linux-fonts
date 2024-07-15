@@ -7,8 +7,8 @@ class FontSaira < Formula
        only_path: "ofl/saira"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/saira/./**/Saira-Italic[wdth,wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/saira/./**/Saira[wdth,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/saira/./**/Saira-Italic?wdth,wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/saira/./**/Saira?wdth,wght?.ttf")[0]
   end
 
   test do
