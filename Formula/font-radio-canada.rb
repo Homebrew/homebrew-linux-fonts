@@ -7,8 +7,8 @@ class FontRadioCanada < Formula
        only_path: "ofl/radiocanada"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/radiocanada/./**/RadioCanada-Italic[wdth,wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/radiocanada/./**/RadioCanada[wdth,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/radiocanada/./**/RadioCanada-Italic?wdth,wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/radiocanada/./**/RadioCanada?wdth,wght?.ttf")[0]
   end
 
   test do
