@@ -6,7 +6,7 @@ class FontHurmitNerdFont < Formula
   sha256 "81a6b2db8f1897b2639653d3ce81388462dafc6312d5ca70006c0d50283d57a2"
 
   def install
-    (share/"fonts").install Dir.glob("./**/HurmitNerdFontPropo-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/HurmitNerdFont-Bold.otf")[0]
     (share/"fonts").install Dir.glob("./**/HurmitNerdFont-BoldItalic.otf")[0]
     (share/"fonts").install Dir.glob("./**/HurmitNerdFont-Italic.otf")[0]
     (share/"fonts").install Dir.glob("./**/HurmitNerdFont-Light.otf")[0]
@@ -23,7 +23,7 @@ class FontHurmitNerdFont < Formula
     (share/"fonts").install Dir.glob("./**/HurmitNerdFontPropo-Italic.otf")[0]
     (share/"fonts").install Dir.glob("./**/HurmitNerdFontPropo-Light.otf")[0]
     (share/"fonts").install Dir.glob("./**/HurmitNerdFontPropo-LightItalic.otf")[0]
-    (share/"fonts").install Dir.glob("./**/HurmitNerdFont-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/HurmitNerdFontPropo-Regular.otf")[0]
   end
 
   test do
