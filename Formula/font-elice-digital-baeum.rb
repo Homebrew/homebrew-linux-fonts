@@ -4,8 +4,8 @@ class FontEliceDigitalBaeum < Formula
   head "https://font.elice.io/static/downloads/EliceDigitalBaeum_OTF.zip"
 
   def install
-    (share/"fonts").install Dir.glob("./**/EliceDigitalBaeumOTF_Regular.otf")[0]
     (share/"fonts").install Dir.glob("./**/EliceDigitalBaeumOTF_Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/EliceDigitalBaeumOTF_Regular.otf")[0]
   end
 
   test do
