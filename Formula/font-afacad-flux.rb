@@ -4,7 +4,7 @@ class FontAfacadFlux < Formula
   head "https://github.com/google/fonts/raw/main/ofl/afacadflux/AfacadFlux%5Bslnt%2Cwght%5D.ttf"
 
   def install
-    (share/"fonts").install Dir.glob("./**/AfacadFlux[slnt,wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/AfacadFlux?slnt,wght?.ttf")[0]
   end
 
   test do
