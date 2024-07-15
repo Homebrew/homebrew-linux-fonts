@@ -7,8 +7,8 @@ class FontMuseomoderno < Formula
        only_path: "ofl/museomoderno"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/museomoderno/./**/MuseoModerno-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/museomoderno/./**/MuseoModerno[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/museomoderno/./**/MuseoModerno-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/museomoderno/./**/MuseoModerno?wght?.ttf")[0]
   end
 
   test do
