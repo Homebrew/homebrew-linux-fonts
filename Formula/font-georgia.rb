@@ -4,10 +4,10 @@ class FontGeorgia < Formula
   head "https://downloads.sourceforge.net/corefonts/georgi32.exe"
 
   def install
-    (share/"fonts").install Dir.glob("./**/Georgiaz.TTF")[0]
+    (share/"fonts").install Dir.glob("./**/Georgia.TTF")[0]
     (share/"fonts").install Dir.glob("./**/Georgiab.TTF")[0]
     (share/"fonts").install Dir.glob("./**/Georgiai.TTF")[0]
-    (share/"fonts").install Dir.glob("./**/Georgia.TTF")[0]
+    (share/"fonts").install Dir.glob("./**/Georgiaz.TTF")[0]
   end
 
   test do
