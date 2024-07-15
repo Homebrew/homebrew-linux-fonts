@@ -7,8 +7,8 @@ class FontYrsa < Formula
        only_path: "ofl/yrsa"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/yrsa/./**/Yrsa-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/yrsa/./**/Yrsa[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/yrsa/./**/Yrsa-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/yrsa/./**/Yrsa?wght?.ttf")[0]
   end
 
   test do
