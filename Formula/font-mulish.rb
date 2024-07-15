@@ -7,8 +7,8 @@ class FontMulish < Formula
        only_path: "ofl/mulish"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/mulish/./**/Mulish-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/mulish/./**/Mulish[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/mulish/./**/Mulish-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/mulish/./**/Mulish?wght?.ttf")[0]
   end
 
   test do
