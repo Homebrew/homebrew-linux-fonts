@@ -5,7 +5,7 @@ class FontMerienda < Formula
        verified: "github.com/google/fonts/"
 
   def install
-    (share/"fonts").install Dir.glob("./**/Merienda[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Merienda?wght?.ttf")[0]
   end
 
   test do
