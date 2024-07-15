@@ -6,12 +6,12 @@ class FontDelugiaMonoPowerline < Formula
   sha256 "c54d926c288238f2b8804fd48570bf8df309d6a98805ba7215de9d87e096b966"
 
   def install
-    (share/"fonts").install Dir.glob("./**/delugia-mono-powerline/DelugiaMonoPL-Bold.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/delugia-mono-powerline/DelugiaMonoPL-BoldItalic.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/delugia-mono-powerline/DelugiaMonoPL-Italic.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/delugia-mono-powerline/DelugiaMonoPL.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/delugia-mono-powerline/DelugiaMonoPLLight-Italic.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/delugia-mono-powerline/DelugiaMonoPLLight.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/DelugiaMonoPL-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/DelugiaMonoPL-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/DelugiaMonoPL-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/DelugiaMonoPL.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/DelugiaMonoPLLight-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/DelugiaMonoPLLight.ttf")[0]
   end
 
   test do
