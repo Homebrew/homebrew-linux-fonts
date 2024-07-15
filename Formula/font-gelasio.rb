@@ -7,8 +7,8 @@ class FontGelasio < Formula
        only_path: "ofl/gelasio"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/gelasio/./**/Gelasio-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/gelasio/./**/Gelasio[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/gelasio/./**/Gelasio-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/gelasio/./**/Gelasio?wght?.ttf")[0]
   end
 
   test do
