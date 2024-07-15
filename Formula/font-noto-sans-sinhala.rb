@@ -5,7 +5,7 @@ class FontNotoSansSinhala < Formula
        verified: "noto-website-2.storage.googleapis.com/"
 
   def install
-    (share/"fonts").install Dir.glob("./**/NotoSansSinhalaUI-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansSinhala-Black.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansSinhala-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansSinhala-Condensed.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansSinhala-CondensedBlack.ttf")[0]
@@ -76,7 +76,7 @@ class FontNotoSansSinhala < Formula
     (share/"fonts").install Dir.glob("./**/NotoSansSinhalaUI-SemiCondensedMedium.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansSinhalaUI-SemiCondensedSemiBold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/NotoSansSinhalaUI-SemiCondensedThin.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/NotoSansSinhala-Black.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/NotoSansSinhalaUI-Thin.ttf")[0]
   end
 
   test do
