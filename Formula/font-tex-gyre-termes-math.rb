@@ -6,7 +6,7 @@ class FontTexGyreTermesMath < Formula
   sha256 "5875b39d3987cbe4258e5933a2292fbece870177053c5a8f495492769e2d4bb2"
 
   def install
-    (share/"fonts").install Dir.glob("./**/texgyretermes-math-1543/opentype/texgyretermes-math.otf")[0]
+    (share/"fonts").install Dir.glob("./**/opentype/texgyretermes-math.otf")[0]
   end
 
   test do
