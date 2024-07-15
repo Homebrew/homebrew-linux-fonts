@@ -8,14 +8,14 @@ class FontGlowSansJCompressed < Formula
   deprecate! "2024-02-17", because: :discontinued
 
   def install
-    (share/"fonts").install Dir.glob("./**/GlowSansJ-Compressed-Thin.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GlowSansJ-Compressed-Bold.otf")[0]
     (share/"fonts").install Dir.glob("./**/GlowSansJ-Compressed-Book.otf")[0]
     (share/"fonts").install Dir.glob("./**/GlowSansJ-Compressed-ExtraBold.otf")[0]
     (share/"fonts").install Dir.glob("./**/GlowSansJ-Compressed-ExtraLight.otf")[0]
     (share/"fonts").install Dir.glob("./**/GlowSansJ-Compressed-Light.otf")[0]
     (share/"fonts").install Dir.glob("./**/GlowSansJ-Compressed-Medium.otf")[0]
     (share/"fonts").install Dir.glob("./**/GlowSansJ-Compressed-Regular.otf")[0]
-    (share/"fonts").install Dir.glob("./**/GlowSansJ-Compressed-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/GlowSansJ-Compressed-Thin.otf")[0]
   end
 
   test do
