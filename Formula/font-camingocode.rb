@@ -6,10 +6,10 @@ class FontCamingocode < Formula
   sha256 :no_check
 
   def install
-    (share/"fonts").install Dir.glob("./**/TTF/CamingoCode-Bold.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/TTF/CamingoCode-BoldItalic.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/TTF/CamingoCode-Italic.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/TTF/CamingoCode-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/CamingoCode-Bold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/CamingoCode-BoldItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/CamingoCode-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/CamingoCode-Regular.ttf")[0]
   end
 
   test do
