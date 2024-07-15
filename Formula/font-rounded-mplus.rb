@@ -7,7 +7,7 @@ class FontRoundedMplus < Formula
   sha256 "e746736c8ded99fe9a9dd72a241ec59435eaa282a18e7ac33a26dc0578c06ff7"
 
   def install
-    (share/"fonts").install Dir.glob("./**/rounded-mplus-2p-thin.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/rounded-mplus-1c-black.ttf")[0]
     (share/"fonts").install Dir.glob("./**/rounded-mplus-1c-bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/rounded-mplus-1c-heavy.ttf")[0]
     (share/"fonts").install Dir.glob("./**/rounded-mplus-1c-light.ttf")[0]
@@ -49,7 +49,7 @@ class FontRoundedMplus < Formula
     (share/"fonts").install Dir.glob("./**/rounded-mplus-2p-light.ttf")[0]
     (share/"fonts").install Dir.glob("./**/rounded-mplus-2p-medium.ttf")[0]
     (share/"fonts").install Dir.glob("./**/rounded-mplus-2p-regular.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/rounded-mplus-1c-black.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/rounded-mplus-2p-thin.ttf")[0]
   end
 
   test do
