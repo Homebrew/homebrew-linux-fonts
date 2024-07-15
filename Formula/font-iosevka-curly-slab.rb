@@ -6,7 +6,7 @@ class FontIosevkaCurlySlab < Formula
   sha256 "5310bfb763f0e69faab0dc977ec90f889a96ccf91fd25acbe44c5defb7757e05"
 
   def install
-    (share/"fonts").install Dir.glob("./**/IosevkaCurlySlab-Thin.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/IosevkaCurlySlab-Bold.ttc")[0]
     (share/"fonts").install Dir.glob("./**/IosevkaCurlySlab-ExtraBold.ttc")[0]
     (share/"fonts").install Dir.glob("./**/IosevkaCurlySlab-ExtraLight.ttc")[0]
     (share/"fonts").install Dir.glob("./**/IosevkaCurlySlab-Heavy.ttc")[0]
@@ -14,7 +14,7 @@ class FontIosevkaCurlySlab < Formula
     (share/"fonts").install Dir.glob("./**/IosevkaCurlySlab-Medium.ttc")[0]
     (share/"fonts").install Dir.glob("./**/IosevkaCurlySlab-Regular.ttc")[0]
     (share/"fonts").install Dir.glob("./**/IosevkaCurlySlab-SemiBold.ttc")[0]
-    (share/"fonts").install Dir.glob("./**/IosevkaCurlySlab-Bold.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/IosevkaCurlySlab-Thin.ttc")[0]
   end
 
   test do
