@@ -6,10 +6,10 @@ class FontAfricanSans < Formula
   sha256 :no_check
 
   def install
-    (share/"fonts").install Dir.glob("./**/African Sans REGULAR 938.ttf")[0]
     (share/"fonts").install Dir.glob("./**/African Sans BOLD 938.ttf")[0]
     (share/"fonts").install Dir.glob("./**/African Sans BOLD ITALIC 938.ttf")[0]
     (share/"fonts").install Dir.glob("./**/African Sans ITALIC 938.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/African Sans REGULAR 938.ttf")[0]
   end
 
   test do
