@@ -6,13 +6,13 @@ class FontOcr < Formula
   sha256 "58136fccfdee0923cc83a20996a067b98bae054570ee41bf896d7ca8224399bf"
 
   def install
-    (share/"fonts").install Dir.glob("./**/ocr-0.3.1/OCRA.otf")[0]
-    (share/"fonts").install Dir.glob("./**/ocr-0.3.1/OCRB.otf")[0]
-    (share/"fonts").install Dir.glob("./**/ocr-0.3.1/OCRBE.otf")[0]
-    (share/"fonts").install Dir.glob("./**/ocr-0.3.1/OCRBF.otf")[0]
-    (share/"fonts").install Dir.glob("./**/ocr-0.3.1/OCRBL.otf")[0]
-    (share/"fonts").install Dir.glob("./**/ocr-0.3.1/OCRBS.otf")[0]
-    (share/"fonts").install Dir.glob("./**/ocr-0.3.1/OCRBX.otf")[0]
+    (share/"fonts").install Dir.glob("./**/OCRA.otf")[0]
+    (share/"fonts").install Dir.glob("./**/OCRB.otf")[0]
+    (share/"fonts").install Dir.glob("./**/OCRBE.otf")[0]
+    (share/"fonts").install Dir.glob("./**/OCRBF.otf")[0]
+    (share/"fonts").install Dir.glob("./**/OCRBL.otf")[0]
+    (share/"fonts").install Dir.glob("./**/OCRBS.otf")[0]
+    (share/"fonts").install Dir.glob("./**/OCRBX.otf")[0]
   end
 
   test do
