@@ -7,8 +7,8 @@ class FontTeachers < Formula
        only_path: "ofl/teachers"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/teachers/./**/Teachers-Italic[wght].ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/teachers/./**/Teachers[wght].ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/teachers/./**/Teachers-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/teachers/./**/Teachers?wght?.ttf")[0]
   end
 
   test do
