@@ -1,9 +1,9 @@
 class FontIosevkaSs14 < Formula
   desc "Iosevka ss14 font"
   homepage "https://github.com/be5invis/Iosevka/"
-  url "https://github.com/be5invis/Iosevka/releases/download/v30.3.2/PkgTTC-IosevkaSS14-30.3.2.zip"
-  version "30.3.2"
-  sha256 "39f36d8967b9a7e8f2717a5c694995c27e0b2ceb4d2bd1b8737a29ca867a1a21"
+  url "https://github.com/be5invis/Iosevka/releases/download/v30.3.3/PkgTTC-IosevkaSS14-30.3.3.zip"
+  version "30.3.3"
+  sha256 "0f1d60efadf5daee55acde4eefd4d49104745d252495c2a34802a19e1dda9929"
 
   def install
     (share/"fonts").install Dir.glob("./**/IosevkaSS14-Bold.ttc")[0]
