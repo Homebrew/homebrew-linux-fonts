@@ -1,16 +1,16 @@
 class FontGensekigothic < Formula
   desc "Gensekigothic font"
   homepage "https://github.com/ButTaiwan/genseki-font"
-  url "https://github.com/ButTaiwan/genseki-font/releases/download/v1.501/GenSekiGothic.zip"
-  version "1.501"
-  sha256 "d4baad35c36428fe355648615c30bfb5f74bc1d4eca12e88af664a83fb7c7d6a"
+  url "https://github.com/ButTaiwan/genseki-font/releases/download/v2.000/GenSekiGothic2-ttc.zip"
+  version "2.000"
+  sha256 "08b6ef44aac95cae3e58c780c1d75800640eb1e481982c221fa1bf2ec885cb25"
 
   def install
-    (share/"fonts").install Dir.glob("./**/GenSekiGothic-B.ttc")[0]
-    (share/"fonts").install Dir.glob("./**/GenSekiGothic-H.ttc")[0]
-    (share/"fonts").install Dir.glob("./**/GenSekiGothic-L.ttc")[0]
-    (share/"fonts").install Dir.glob("./**/GenSekiGothic-M.ttc")[0]
-    (share/"fonts").install Dir.glob("./**/GenSekiGothic-R.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/GenSekiGothic2-B.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/GenSekiGothic2-H.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/GenSekiGothic2-L.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/GenSekiGothic2-M.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/GenSekiGothic2-R.ttc")[0]
   end
 
   test do
