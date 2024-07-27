@@ -1,18 +1,18 @@
 class FontGenyomin < Formula
   desc "Genyomin font"
   homepage "https://github.com/ButTaiwan/genyo-font"
-  url "https://github.com/ButTaiwan/genyo-font/releases/download/v1.501/GenYoMin.zip"
-  version "1.501"
-  sha256 "6feafd61b261bdeccc4e69eba8661f5f1dd7ec79d8ef3a78b19fb20759cf366f"
+  url "https://github.com/ButTaiwan/genyo-font/releases/download/v2.000/GenYoMin2-ttc.zip"
+  version "2.000"
+  sha256 "555d78284473dc73e22e45f9f727ef8cd794b096b41eada80afd508f5d406bfb"
 
   def install
-    (share/"fonts").install Dir.glob("./**/GenYoMin-B.ttc")[0]
-    (share/"fonts").install Dir.glob("./**/GenYoMin-EL.ttc")[0]
-    (share/"fonts").install Dir.glob("./**/GenYoMin-H.ttc")[0]
-    (share/"fonts").install Dir.glob("./**/GenYoMin-L.ttc")[0]
-    (share/"fonts").install Dir.glob("./**/GenYoMin-M.ttc")[0]
-    (share/"fonts").install Dir.glob("./**/GenYoMin-R.ttc")[0]
-    (share/"fonts").install Dir.glob("./**/GenYoMin-SB.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/GenYoMin2-B.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/GenYoMin2-EL.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/GenYoMin2-H.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/GenYoMin2-L.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/GenYoMin2-M.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/GenYoMin2-R.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/GenYoMin2-SB.ttc")[0]
   end
 
   test do
