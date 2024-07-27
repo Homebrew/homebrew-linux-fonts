@@ -1,18 +1,18 @@
 class FontGenryumin < Formula
   desc "Genryumin font"
   homepage "https://github.com/ButTaiwan/genryu-font"
-  url "https://github.com/ButTaiwan/genryu-font/releases/download/v1.501/GenRyuMin.zip"
-  version "1.501"
-  sha256 "e0ddfef92cd319e829fb968a44ce17301e5b35a727824b3c03e3aa9d946e25cd"
+  url "https://github.com/ButTaiwan/genryu-font/releases/download/v2.000/GenRyuMin2-ttc.zip"
+  version "2.000"
+  sha256 "69aeb4a00d7a8f459968c79b1549b8bc18f8497f2c0801dfdaecd97374198639"
 
   def install
-    (share/"fonts").install Dir.glob("./**/GenRyuMin-B.ttc")[0]
-    (share/"fonts").install Dir.glob("./**/GenRyuMin-EL.ttc")[0]
-    (share/"fonts").install Dir.glob("./**/GenRyuMin-H.ttc")[0]
-    (share/"fonts").install Dir.glob("./**/GenRyuMin-L.ttc")[0]
-    (share/"fonts").install Dir.glob("./**/GenRyuMin-M.ttc")[0]
-    (share/"fonts").install Dir.glob("./**/GenRyuMin-R.ttc")[0]
-    (share/"fonts").install Dir.glob("./**/GenRyuMin-SB.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/GenRyuMin2-B.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/GenRyuMin2-EL.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/GenRyuMin2-H.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/GenRyuMin2-L.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/GenRyuMin2-M.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/GenRyuMin2-R.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/GenRyuMin2-SB.ttc")[0]
   end
 
   test do
