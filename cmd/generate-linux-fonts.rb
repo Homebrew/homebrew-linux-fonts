@@ -90,9 +90,7 @@ module Homebrew
     return "" if value.nil?
 
     if stanza == :sha256 && value == "no_check"
-      <<-EOS
-  #{stanza} :#{value}
-      EOS
+      "" # Drop `sha256` stanza in formula altogether
     elsif [:url, :head].include?(stanza)
       <<-EOS
   #{stanza} #{format_url(value, args)}
