@@ -1,9 +1,9 @@
 class FontNotoSerifCjkJp < Formula
   desc "Noto serif cjk jp font"
   homepage "https://github.com/notofonts/noto-cjk/tree/main/Serif"
-  url "https://github.com/notofonts/noto-cjk/releases/download/Serif2.002/07_NotoSerifCJKjp.zip"
-  version "2.002"
-  sha256 "166a03cc7725f4d52a0533f4137991089e55d1d417b9d7e15197a9d483b41de3"
+  url "https://github.com/notofonts/noto-cjk/releases/download/Serif2.003/07_NotoSerifCJKjp.zip"
+  version "2.003"
+  sha256 "d7e956584f1e9417a0a72de22bfc33103d7dea78c9f84e5876920eb35ef40a13"
 
   def install
     (share/"fonts").install Dir.glob("./**/Japanese/NotoSerifCJKjp-Black.otf")[0]
