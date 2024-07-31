@@ -1,9 +1,9 @@
 class FontNotoSerifCjkSc < Formula
   desc "Noto serif cjk sc font"
   homepage "https://github.com/notofonts/noto-cjk/tree/main/Serif"
-  url "https://github.com/notofonts/noto-cjk/releases/download/Serif2.002/09_NotoSerifCJKsc.zip"
-  version "2.002"
-  sha256 "eeede72f5b88655a3630f18661155028578afc88aa9e67e55db45a8b5be46789"
+  url "https://github.com/notofonts/noto-cjk/releases/download/Serif2.003/09_NotoSerifCJKsc.zip"
+  version "2.003"
+  sha256 "4bcdbff95cedfb6a4c0640403f0de8b69480d869331c24c8eff91f7bb834df04"
 
   def install
     (share/"fonts").install Dir.glob("./**/SimplifiedChinese/NotoSerifCJKsc-Black.otf")[0]
