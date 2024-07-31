@@ -1,9 +1,9 @@
 class FontNotoSerifCjkHk < Formula
   desc "Noto serif cjk hk font"
   homepage "https://github.com/notofonts/noto-cjk/tree/main/Serif"
-  url "https://github.com/notofonts/noto-cjk/releases/download/Serif2.002/11_NotoSerifCJKhk.zip"
-  version "2.002"
-  sha256 "7f02747e29f8aeb1988d3f3a41166bf309d3c1f27ab263d760e48ac9857c37e7"
+  url "https://github.com/notofonts/noto-cjk/releases/download/Serif2.003/11_NotoSerifCJKhk.zip"
+  version "2.003"
+  sha256 "2eaf73871cbc53e72bb1021d760eb64b395955d33fdc560964e15b429a64c288"
 
   def install
     (share/"fonts").install Dir.glob("./**/TraditionalChineseHK/NotoSerifCJKhk-Black.otf")[0]
