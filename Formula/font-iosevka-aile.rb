@@ -1,20 +1,12 @@
 class FontIosevkaAile < Formula
   desc "Iosevka aile font"
   homepage "https://github.com/be5invis/Iosevka/"
-  url "https://github.com/be5invis/Iosevka/releases/download/v31.1.0/PkgTTC-IosevkaAile-31.1.0.zip"
+  url "https://github.com/be5invis/Iosevka/releases/download/v31.1.0/SuperTTC-IosevkaAile-31.1.0.zip"
   version "31.1.0"
-  sha256 "df236325448d064e4c33e46f415a582c8c7ffdffd2bd26f6344e7bb40ad2a575"
+  sha256 "1a187f95a725e408783dab1077008ddf7e97e3048576a337065c096e47115cfc"
 
   def install
-    (share/"fonts").install Dir.glob("./**/IosevkaAile-Bold.ttc")[0]
-    (share/"fonts").install Dir.glob("./**/IosevkaAile-ExtraBold.ttc")[0]
-    (share/"fonts").install Dir.glob("./**/IosevkaAile-ExtraLight.ttc")[0]
-    (share/"fonts").install Dir.glob("./**/IosevkaAile-Heavy.ttc")[0]
-    (share/"fonts").install Dir.glob("./**/IosevkaAile-Light.ttc")[0]
-    (share/"fonts").install Dir.glob("./**/IosevkaAile-Medium.ttc")[0]
-    (share/"fonts").install Dir.glob("./**/IosevkaAile-Regular.ttc")[0]
-    (share/"fonts").install Dir.glob("./**/IosevkaAile-SemiBold.ttc")[0]
-    (share/"fonts").install Dir.glob("./**/IosevkaAile-Thin.ttc")[0]
+    (share/"fonts").install Dir.glob("./**/IosevkaAile.ttc")[0]
   end
 
   test do
