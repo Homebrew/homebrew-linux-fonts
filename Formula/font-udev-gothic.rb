@@ -1,9 +1,9 @@
 class FontUdevGothic < Formula
   desc "Udev gothic font"
   homepage "https://github.com/yuru7/udev-gothic/"
-  url "https://github.com/yuru7/udev-gothic/releases/download/v1.3.1/UDEVGothic_v1.3.1.zip"
-  version "1.3.1"
-  sha256 "13525cc73ea604b3a40a0e9be222cda41d53c217092546a4b178c7e8bf732002"
+  url "https://github.com/yuru7/udev-gothic/releases/download/v2.0.0/UDEVGothic_v2.0.0.zip"
+  version "2.0.0"
+  sha256 "50f04adcae9eaa112aa3d68eb06541ab7502ae976221df2f50195ac7696c74be"
 
   def install
     (share/"fonts").install Dir.glob("./**/UDEVGothic-Bold.ttf")[0]
