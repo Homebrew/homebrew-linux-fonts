@@ -185,6 +185,10 @@ Style/OpenStructUse:
   - Taps/**/*
   - Homebrew/cli/args.rb
   - Homebrew/cli/args.rbi
+Style/OptionalBooleanParameter:
+  AllowedMethods:
+  - respond_to?
+  - respond_to_missing?
 Style/RescueStandardError:
   EnforcedStyle: implicit
 Style/ReturnNil:
