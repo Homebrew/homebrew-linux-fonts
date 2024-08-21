@@ -4,7 +4,6 @@ class FontMonoid < Formula
   url "https://github.com/larsenwork/monoid/blob/release/Monoid.zip?raw=true",
        verified: "github.com/larsenwork/monoid/"
   version "0.61"
-  sha256 :no_check
 
   def install
     (share/"fonts").install Dir.glob("./**/Monoid-Bold.ttf")[0]
