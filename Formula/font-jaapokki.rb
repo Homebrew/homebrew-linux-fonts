@@ -3,7 +3,6 @@ class FontJaapokki < Formula
   homepage "https://type.mikkonuuttila.com/jaapokki/"
   url "https://type.mikkonuuttila.com/fonts/jaapokki.zip"
   version "1.001"
-  sha256 :no_check
 
   def install
     (share/"fonts").install Dir.glob("./**/Jaapokki-Regular.otf")[0]
