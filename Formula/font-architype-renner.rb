@@ -3,7 +3,6 @@ class FontArchitypeRenner < Formula
   homepage "https://fontlot.com/4598/architype-renner/"
   url "https://fontlot.com/wp-content/uploads/2017/08/archityperenner.zip"
   version "001.000"
-  sha256 :no_check
 
   def install
     (share/"fonts").install Dir.glob("./**/ArchitypeRenner-Bold.otf")[0]
