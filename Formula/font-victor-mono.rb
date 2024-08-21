@@ -3,7 +3,6 @@ class FontVictorMono < Formula
   homepage "https://rubjo.github.io/victor-mono/"
   url "https://rubjo.github.io/victor-mono/VictorMonoAll.zip"
   version "1.5.6"
-  sha256 :no_check
 
   def install
     (share/"fonts").install Dir.glob("./**/VictorMono-Bold.otf")[0]
