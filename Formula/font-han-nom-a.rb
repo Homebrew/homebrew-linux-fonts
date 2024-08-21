@@ -3,7 +3,6 @@ class FontHanNomA < Formula
   homepage "https://sourceforge.net/projects/vietunicode/files/hannom/hannom%20v2005/"
   url "https://downloads.sourceforge.net/vietunicode/hannomH.zip"
   version "2005"
-  sha256 :no_check
 
   def install
     (share/"fonts").install Dir.glob("./**/HAN NOM A.ttf")[0]
