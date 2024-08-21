@@ -3,7 +3,6 @@ class FontFoundrySterling < Formula
   homepage "https://fontlot.com/7134/foundry-sterling/"
   url "https://fontlot.com/wp-content/uploads/2017/09/foundrysterling.zip"
   version "001.005"
-  sha256 :no_check
 
   def install
     (share/"fonts").install Dir.glob("./**/FoundrySterling-Book.otf")[0]
