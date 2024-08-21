@@ -3,7 +3,6 @@ class FontTimesNewerRoman < Formula
   homepage "https://timesnewerroman.com/"
   url "https://timesnewerroman.com/assets/TimesNewerRoman.zip"
   version "1.000"
-  sha256 :no_check
 
   def install
     (share/"fonts").install Dir.glob("./**/TimesNewerRoman-Bold.otf")[0]
