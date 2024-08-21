@@ -3,7 +3,6 @@ class FontFaune < Formula
   homepage "http://www.cnap.graphismeenfrance.fr/faune/en.html"
   url "http://www.cnap.graphismeenfrance.fr/faune/Faune_Fonts.zip"
   version "1.000"
-  sha256 :no_check
 
   def install
     (share/"fonts").install Dir.glob("./**/Otf/Faune-DisplayBlack.otf")[0]
