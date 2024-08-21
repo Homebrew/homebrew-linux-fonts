@@ -4,7 +4,6 @@ class FontMonoisome < Formula
   url "https://github.com/larsenwork/monoid/blob/master/Monoisome/Monoisome-Regular.ttf?raw=true",
        verified: "github.com/larsenwork/monoid/"
   version "0.61"
-  sha256 :no_check
 
   def install
     (share/"fonts").install Dir.glob("./**/Monoisome-Regular.ttf")[0]
