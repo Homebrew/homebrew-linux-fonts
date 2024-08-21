@@ -3,7 +3,6 @@ class FontFandol < Formula
   homepage "https://ctan.org/pkg/fandol"
   url "http://mirrors.ctan.org/fonts/fandol.zip"
   version "0.3"
-  sha256 :no_check
 
   def install
     (share/"fonts").install Dir.glob("./**/FandolBraille-Display.otf")[0]
