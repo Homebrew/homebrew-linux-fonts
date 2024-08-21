@@ -3,7 +3,6 @@ class FontAfricanSerif < Formula
   homepage "https://www.languagegeek.com/font/fontdownload.html"
   url "https://www.languagegeek.com/font/AfricanSerif.zip"
   version "9.380"
-  sha256 :no_check
 
   def install
     (share/"fonts").install Dir.glob("./**/African Serif BOLD 938.ttf")[0]
