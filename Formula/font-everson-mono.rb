@@ -3,7 +3,6 @@ class FontEversonMono < Formula
   homepage "https://www.evertype.com/emono/"
   url "https://www.evertype.com/emono/evermono.zip"
   version "7.0.0"
-  sha256 :no_check
 
   def install
     (share/"fonts").install Dir.glob("./**/Everson Mono Bold Oblique.ttf")[0]
