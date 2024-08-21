@@ -3,7 +3,6 @@ class FontAntinoou < Formula
   homepage "https://www.evertype.com/fonts/coptic/"
   url "https://www.evertype.com/fonts/coptic/AntinoouFont.zip"
   version "1.0.6"
-  sha256 :no_check
 
   def install
     (share/"fonts").install Dir.glob("./**/Antinoou.ttf")[0]
