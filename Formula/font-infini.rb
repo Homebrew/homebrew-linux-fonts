@@ -3,7 +3,6 @@ class FontInfini < Formula
   homepage "https://www.cnap.fr/sites/infini/en/"
   url "https://www.cnap.fr/sites/infini/en/download/Infini-cnap-engl_fonts-specimen-v2.zip"
   version "1.003"
-  sha256 :no_check
 
   def install
     (share/"fonts").install Dir.glob("./**/01_Fonts/01_Regular/infini-regular.otf")[0]
