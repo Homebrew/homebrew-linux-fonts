@@ -3,7 +3,6 @@ class FontSatoshi < Formula
   homepage "https://www.fontshare.com/fonts/satoshi"
   url "https://api.fontshare.com/v2/fonts/download/satoshi"
   version "1.0"
-  sha256 :no_check
 
   def install
     (share/"fonts").install Dir.glob("./**/Fonts/OTF/Satoshi-Black.otf")[0]
