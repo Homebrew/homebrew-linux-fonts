@@ -4,7 +4,6 @@ class FontNationalPark < Formula
   url "https://files.cargocollective.com/c1415345/NationalPark-otf.zip",
        verified: "cargocollective.com/"
   version "1.005"
-  sha256 :no_check
 
   def install
     (share/"fonts").install Dir.glob("./**/NationalPark-Bold.otf")[0]
