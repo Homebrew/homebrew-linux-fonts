@@ -3,7 +3,6 @@ class FontCamingocode < Formula
   homepage "https://www.janfromm.de/typefaces/camingomono/camingocode/"
   url "https://janfromm.de/typefaces/camingocode/camingocode.zip"
   version "1.0"
-  sha256 :no_check
 
   def install
     (share/"fonts").install Dir.glob("./**/CamingoCode-Bold.ttf")[0]
