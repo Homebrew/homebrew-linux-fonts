@@ -1,10 +1,11 @@
 class FontLexendDeca < Formula
   desc "Lexend deca font"
-  homepage "https://github.com/ThomasJockin/lexend"
-  head "https://github.com/ThomasJockin/lexend/raw/master/fonts/ttf/LexendDeca-Regular.ttf"
+  homepage "https://fonts.google.com/specimen/Lexend+Deca"
+  head "https://github.com/google/fonts/raw/main/ofl/lexenddeca/LexendDeca%5Bwght%5D.ttf",
+       verified: "github.com/google/fonts/"
 
   def install
-    (share/"fonts").install Dir.glob("./**/LexendDeca-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/LexendDeca?wght?.ttf")[0]
   end
 
   test do
