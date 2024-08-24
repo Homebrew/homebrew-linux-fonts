@@ -1,9 +1,9 @@
 class FontGenryumin < Formula
   desc "Genryumin font"
   homepage "https://github.com/ButTaiwan/genryu-font"
-  url "https://github.com/ButTaiwan/genryu-font/releases/download/v2.000/GenRyuMin2-ttc.zip"
-  version "2.000"
-  sha256 "69aeb4a00d7a8f459968c79b1549b8bc18f8497f2c0801dfdaecd97374198639"
+  url "https://github.com/ButTaiwan/genryu-font/releases/download/v2.100/GenRyuMin2-ttc.zip"
+  version "2.100"
+  sha256 "6416430281c5d4f2b9c992cb560da608d18ed2b9007b8f558c8c3b91eeb5e65d"
 
   def install
     (share/"fonts").install Dir.glob("./**/GenRyuMin2-B.ttc")[0]
