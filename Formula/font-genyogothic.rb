@@ -1,9 +1,9 @@
 class FontGenyogothic < Formula
   desc "Genyogothic font"
   homepage "https://github.com/ButTaiwan/genyog-font"
-  url "https://github.com/ButTaiwan/genyog-font/releases/download/v2.000/GenYoGothic2-ttc.zip"
-  version "2.000"
-  sha256 "e570102fd1c9abb67897b215e6b7f2a0666610f9bb1e2af5fbb3a2db8f67fa93"
+  url "https://github.com/ButTaiwan/genyog-font/releases/download/v2.100/GenYoGothic2-ttc.zip"
+  version "2.100"
+  sha256 "770cff05d612a400f9cc27bb11998d73225d80669bf23d6423545252178a7ffe"
 
   def install
     (share/"fonts").install Dir.glob("./**/GenYoGothic2-B.ttc")[0]
