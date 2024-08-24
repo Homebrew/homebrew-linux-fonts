@@ -1,9 +1,9 @@
 class FontGensenrounded < Formula
   desc "Gensenrounded font"
   homepage "https://github.com/ButTaiwan/gensen-font"
-  url "https://github.com/ButTaiwan/gensen-font/releases/download/v2.000/GenSenRounded2-ttc.zip"
-  version "2.000"
-  sha256 "82c439a688a7083c641164e09515c11dbe3ca23f8d9d4a8874f6bb06a8d028c0"
+  url "https://github.com/ButTaiwan/gensen-font/releases/download/v2.100/GenSenRounded2-ttc.zip"
+  version "2.100"
+  sha256 "01f57ff5eac25143c654cfd37ab06d191703fb67aea94811ec48f101a2f6e203"
 
   def install
     (share/"fonts").install Dir.glob("./**/GenSenRounded2-B.ttc")[0]
