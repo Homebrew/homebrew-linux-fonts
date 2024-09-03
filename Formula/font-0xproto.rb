@@ -1,11 +1,12 @@
 class Font0xproto < Formula
   desc "0xproto font"
   homepage "https://github.com/0xType/0xProto"
-  url "https://github.com/0xType/0xProto/releases/download/2.100/0xProto_2_100.zip"
-  version "2.100"
-  sha256 "3c6fb670f65fde3d5f91301955680c282710d91f55580462152528f3e92849e8"
+  url "https://github.com/0xType/0xProto/releases/download/2.200/0xProto_2_200.zip"
+  version "2.200"
+  sha256 "80c27d825d021178d3788aed41bb2082228fb8227012e8926039d290ce0be8a4"
 
   def install
+    (share/"fonts").install Dir.glob("./**/0xProto-Bold.otf")[0]
     (share/"fonts").install Dir.glob("./**/0xProto-Italic.otf")[0]
     (share/"fonts").install Dir.glob("./**/0xProto-Regular.otf")[0]
   end
