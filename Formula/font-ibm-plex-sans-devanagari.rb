@@ -1,19 +1,19 @@
 class FontIbmPlexSansDevanagari < Formula
   desc "Ibm plex sans devanagari font"
-  homepage "https://fonts.google.com/specimen/IBM+Plex+Sans+Devanagari"
-  head "https://github.com/google/fonts.git",
-       verified:  "github.com/google/fonts",
-       branch:    "main",
-       only_path: "ofl/ibmplexsansdevanagari"
+  homepage "https://github.com/IBM/plex"
+  url "https://github.com/IBM/plex/releases/download/%40ibm%2Fplex-sans-devanagari%401.0.0/ibm-plex-sans-devanagari.zip"
+  version "1.0.0"
+  sha256 "33d7517d3a67968f4db557a369861680c8f93e68c925754a5d7893e371d4c6c8"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/ibmplexsansdevanagari/./**/IBMPlexSansDevanagari-Bold.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/ibmplexsansdevanagari/./**/IBMPlexSansDevanagari-ExtraLight.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/ibmplexsansdevanagari/./**/IBMPlexSansDevanagari-Light.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/ibmplexsansdevanagari/./**/IBMPlexSansDevanagari-Medium.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/ibmplexsansdevanagari/./**/IBMPlexSansDevanagari-Regular.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/ibmplexsansdevanagari/./**/IBMPlexSansDevanagari-SemiBold.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/ibmplexsansdevanagari/./**/IBMPlexSansDevanagari-Thin.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/fonts/complete/otf/IBMPlexSansDevanagari-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/fonts/complete/otf/IBMPlexSansDevanagari-ExtraLight.otf")[0]
+    (share/"fonts").install Dir.glob("./**/fonts/complete/otf/IBMPlexSansDevanagari-Light.otf")[0]
+    (share/"fonts").install Dir.glob("./**/fonts/complete/otf/IBMPlexSansDevanagari-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("./**/fonts/complete/otf/IBMPlexSansDevanagari-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/fonts/complete/otf/IBMPlexSansDevanagari-SemiBold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/fonts/complete/otf/IBMPlexSansDevanagari-Text.otf")[0]
+    (share/"fonts").install Dir.glob("./**/fonts/complete/otf/IBMPlexSansDevanagari-Thin.otf")[0]
   end
 
   test do
