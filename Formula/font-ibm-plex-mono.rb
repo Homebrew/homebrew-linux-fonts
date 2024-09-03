@@ -1,26 +1,27 @@
 class FontIbmPlexMono < Formula
   desc "Ibm plex mono font"
-  homepage "https://fonts.google.com/specimen/IBM+Plex+Mono"
-  head "https://github.com/google/fonts.git",
-       verified:  "github.com/google/fonts",
-       branch:    "main",
-       only_path: "ofl/ibmplexmono"
+  homepage "https://github.com/IBM/plex"
+  url "https://github.com/IBM/plex/releases/download/%40ibm%2Fplex-mono%401.0.0/ibm-plex-mono.zip"
+  version "1.0.0"
+  sha256 "06ef4a7638fe20e96fe8fbea55f6f54a297352298e5cb74479cb1ceb7339fc1a"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/ibmplexmono/./**/IBMPlexMono-Bold.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/ibmplexmono/./**/IBMPlexMono-BoldItalic.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/ibmplexmono/./**/IBMPlexMono-ExtraLight.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/ibmplexmono/./**/IBMPlexMono-ExtraLightItalic.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/ibmplexmono/./**/IBMPlexMono-Italic.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/ibmplexmono/./**/IBMPlexMono-Light.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/ibmplexmono/./**/IBMPlexMono-LightItalic.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/ibmplexmono/./**/IBMPlexMono-Medium.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/ibmplexmono/./**/IBMPlexMono-MediumItalic.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/ibmplexmono/./**/IBMPlexMono-Regular.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/ibmplexmono/./**/IBMPlexMono-SemiBold.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/ibmplexmono/./**/IBMPlexMono-SemiBoldItalic.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/ibmplexmono/./**/IBMPlexMono-Thin.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/ibmplexmono/./**/IBMPlexMono-ThinItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/fonts/complete/otf/IBMPlexMono-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/fonts/complete/otf/IBMPlexMono-BoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/fonts/complete/otf/IBMPlexMono-ExtraLight.otf")[0]
+    (share/"fonts").install Dir.glob("./**/fonts/complete/otf/IBMPlexMono-ExtraLightItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/fonts/complete/otf/IBMPlexMono-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/fonts/complete/otf/IBMPlexMono-Light.otf")[0]
+    (share/"fonts").install Dir.glob("./**/fonts/complete/otf/IBMPlexMono-LightItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/fonts/complete/otf/IBMPlexMono-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("./**/fonts/complete/otf/IBMPlexMono-MediumItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/fonts/complete/otf/IBMPlexMono-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/fonts/complete/otf/IBMPlexMono-SemiBold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/fonts/complete/otf/IBMPlexMono-SemiBoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/fonts/complete/otf/IBMPlexMono-Text.otf")[0]
+    (share/"fonts").install Dir.glob("./**/fonts/complete/otf/IBMPlexMono-TextItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/fonts/complete/otf/IBMPlexMono-Thin.otf")[0]
+    (share/"fonts").install Dir.glob("./**/fonts/complete/otf/IBMPlexMono-ThinItalic.otf")[0]
   end
 
   test do
