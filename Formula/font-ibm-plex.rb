@@ -5,6 +5,8 @@ class FontIbmPlex < Formula
   version "6.4.1"
   sha256 "2a21ec092c988c7e70c0774972fa820a98e81343a436a355f6f59322389c3672"
 
+  deprecate! "2024-09-01", because: :is now distributed with the font variants as individual packages
+
   def install
     (share/"fonts").install Dir.glob("./**/IBM-Plex-Mono/fonts/complete/otf/IBMPlexMono-Bold.otf")[0]
     (share/"fonts").install Dir.glob("./**/IBM-Plex-Mono/fonts/complete/otf/IBMPlexMono-BoldItalic.otf")[0]
