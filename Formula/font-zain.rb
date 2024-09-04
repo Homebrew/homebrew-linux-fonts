@@ -1,7 +1,8 @@
 class FontZain < Formula
   desc "Zain font"
-  homepage "https://github.com/googlefonts/zain"
+  homepage "https://fonts.google.com/specimen/Zain"
   head "https://github.com/google/fonts.git",
+       verified:  "github.com/google/fonts",
        branch:    "main",
        only_path: "ofl/zain"
 
