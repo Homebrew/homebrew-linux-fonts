@@ -1,10 +1,10 @@
 class FontServerMono < Formula
   desc "Programming font designed for ASCII art and CLI tools"
   homepage "https://servermono.com/"
-  url "https://github.com/internet-development/www-server-mono/archive/refs/tags/0.0.3.tar.gz",
+  url "https://github.com/internet-development/www-server-mono/archive/refs/tags/0.0.4.tar.gz",
        verified: "github.com/internet-development/www-server-mono/"
-  version "0.0.3"
-  sha256 "47e17e02f44deefbaa811a3f84a88fb96a203e196fa5e77f7b9f2816b6b4bccd"
+  version "0.0.4"
+  sha256 "677169c9ed971ccafea0d55f4f34f3784e61a3b848784e12247608b344f477c4"
 
   def install
     (share/"fonts").install Dir.glob("./**/fonts/ServerMono-Regular-Italic.otf")[0]
