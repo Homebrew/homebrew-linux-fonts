@@ -1,8 +1,8 @@
 class FontMeltho < Formula
   desc "Meltho fonts font"
-  homepage "https://bethmardutho.org/syriacmac/"
+  homepage "https://bethmardutho.org/meltho/"
   url "https://bethmardutho.org/wp-content/uploads/2018/06/melthofonts-1.zip"
-  version "1.21,2018.06"
+  version "1.21,2018,06"
   sha256 "a22e61b0a48ac6c3e8bbc79d8f4dafcbd7ddb9572cf63b50478b9889cfbfdac4"
 
   def install
