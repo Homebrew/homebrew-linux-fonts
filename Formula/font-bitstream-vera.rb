@@ -1,7 +1,8 @@
 class FontBitstreamVera < Formula
   desc "Bitstream vera font"
-  homepage "https://www.gnome.org/fonts/"
-  url "https://ftp.gnome.org/pub/GNOME/sources/ttf-bitstream-vera/1.10/ttf-bitstream-vera-1.10.zip"
+  homepage "https://web.archive.org/web/20210314185159/https://www.gnome.org/fonts/"
+  url "https://download.gnome.org/sources/ttf-bitstream-vera/1.10/ttf-bitstream-vera-1.10.zip",
+       verified: "download.gnome.org/sources/ttf-bitstream-vera/"
   version "1.10"
   sha256 "1b0ba0f7af2e1d05f64e259d351965a2cb2673104a057ce715a06969c478f6cc"
 
