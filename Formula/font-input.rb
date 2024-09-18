@@ -1,7 +1,8 @@
 class FontInput < Formula
   desc "Input font"
   homepage "https://input.djr.com/"
-  head "https://input.djr.com/build/?basic=1&fontSelection=whole&a=0&g=0&i=0&l=0&zero=0&asterisk=0&lineHeight=1.2&accept=I+do"
+  url "https://input.djr.com/build/?fontSelection=whole&a=0&g=0&i=0&l=0&zero=0&asterisk=0&braces=0&preset=default&line-height=1.2&accept=I+do"
+  version "1.2"
 
   def install
     (share/"fonts").install Dir.glob("./**/InputMono/InputMono/InputMono-Black.ttf")[0]
