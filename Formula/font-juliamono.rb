@@ -1,9 +1,9 @@
 class FontJuliamono < Formula
   desc "Juliamono font"
   homepage "https://github.com/cormullion/juliamono"
-  url "https://github.com/cormullion/juliamono/releases/download/v0.056/JuliaMono.tar.gz"
-  version "0.056"
-  sha256 "4c3ebfe05d5502a7224b969f091a4d11468d096d30dd22118a68a3a4b9d0dba1"
+  url "https://github.com/cormullion/juliamono/releases/download/v0.057/JuliaMono-ttf.tar.gz"
+  version "0.057"
+  sha256 "e397ca1c6b84e6140d2e025fdc310544a519775b98d8f756ef0f5c42aefd4cc0"
 
   def install
     (share/"fonts").install Dir.glob("./**/JuliaMono-Black.ttf")[0]
