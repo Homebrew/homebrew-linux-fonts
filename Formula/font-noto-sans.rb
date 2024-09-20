@@ -1,10 +1,10 @@
 class FontNotoSans < Formula
   desc "Noto sans font"
   homepage "https://notofonts.github.io/"
-  url "https://github.com/notofonts/latin-greek-cyrillic/releases/download/NotoSans-v2.013/NotoSans-v2.013.zip",
+  url "https://github.com/notofonts/latin-greek-cyrillic/releases/download/NotoSans-v2.014/NotoSans-v2.014.zip",
        verified: "github.com/notofonts/"
-  version "2.013"
-  sha256 "9fd595dd701d7ea103a9ba8a9cfdcf0c35c5574ef754fecabe718eadad8bccde"
+  version "2.014"
+  sha256 "1dffbaf31a0a699ee2c57dfb60c1a628010425301dd076cfb485adbe017352c1"
 
   def install
     (share/"fonts").install Dir.glob("./**/unhinted/ttf/NotoSans-Black.ttf")[0]
@@ -79,8 +79,8 @@ class FontNotoSans < Formula
     (share/"fonts").install Dir.glob("./**/unhinted/ttf/NotoSans-SemiCondensedThinItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/unhinted/ttf/NotoSans-Thin.ttf")[0]
     (share/"fonts").install Dir.glob("./**/unhinted/ttf/NotoSans-ThinItalic.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/unhinted/variable/NotoSans-Italic?wdth,wght?.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/unhinted/variable/NotoSans?wdth,wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/unhinted/variable-ttf/NotoSans-Italic?wdth,wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/unhinted/variable-ttf/NotoSans?wdth,wght?.ttf")[0]
   end
 
   test do
