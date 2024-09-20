@@ -1,14 +1,14 @@
 class FontNotoSerif < Formula
   desc "Noto sans font"
   homepage "https://notofonts.github.io/"
-  url "https://github.com/notofonts/latin-greek-cyrillic/releases/download/NotoSerif-v2.013/NotoSerif-v2.013.zip",
+  url "https://github.com/notofonts/latin-greek-cyrillic/releases/download/NotoSerif-v2.014/NotoSerif-v2.014.zip",
        verified: "github.com/notofonts/"
-  version "2.013"
-  sha256 "fb4c6c75f10365f63b5c8ad5a1864ebe46dd0c70c40d0461cb0dc1b1b7c13a35"
+  version "2.014"
+  sha256 "6abce0a80df4ef6d5a944d60c81099364481d6a7015b0721d87bc4c16acc1fd3"
 
   def install
-    (share/"fonts").install Dir.glob("./**/unhinted/variable/NotoSerif-Italic?wdth,wght?.ttf")[0]
-    (share/"fonts").install Dir.glob("./**/unhinted/variable/NotoSerif?wdth,wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/unhinted/variable-ttf/NotoSerif-Italic?wdth,wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/unhinted/variable-ttf/NotoSerif?wdth,wght?.ttf")[0]
   end
 
   test do
