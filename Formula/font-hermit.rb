@@ -1,6 +1,6 @@
 class FontHermit < Formula
   desc "Hermit font"
-  homepage "https://pcaro.es/p/hermit/"
+  homepage "https://pcaro.es/hermit/"
   url "https://pcaro.es/d/otf-hermit-2.0.tar.gz"
   version "2.0"
   sha256 "c04b432b088edabc8ff025049535077722869f842fb6f851864106b7f4f03527"
