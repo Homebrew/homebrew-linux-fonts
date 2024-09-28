@@ -1,9 +1,9 @@
 class FontLibertinus < Formula
   desc "Libertinus font"
   homepage "https://github.com/alerque/libertinus"
-  url "https://github.com/alerque/libertinus/releases/download/v7.050/Libertinus-7.050.tar.zst"
-  version "7.050"
-  sha256 "cbb54c4c482376eb17bb6397494489baacff0755d3864f9b5c772e2f3d43d429"
+  url "https://github.com/alerque/libertinus/releases/download/v7.051/Libertinus-7.051.tar.zst"
+  version "7.051"
+  sha256 "250677c929d3775a30913643594379af264ac2ef2801035aa1dcbe30b9be23a6"
 
   def install
     (share/"fonts").install Dir.glob("./**/static/OTF/LibertinusKeyboard-Regular.otf")[0]
