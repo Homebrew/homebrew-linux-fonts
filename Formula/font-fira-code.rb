@@ -12,6 +12,7 @@ class FontFiraCode < Formula
     (share/"fonts").install Dir.glob("./**/FiraCode-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("./**/FiraCode-Retina.ttf")[0]
     (share/"fonts").install Dir.glob("./**/FiraCode-SemiBold.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/FiraCode-VF.ttf")[0]
   end
 
   test do
