@@ -1,7 +1,8 @@
 class FontSixtyfourConvergence < Formula
   desc "Sixtyfour convergence font"
-  homepage "https://github.com/jenskutilek/homecomputer-fonts"
-  head "https://github.com/google/fonts/raw/main/ofl/sixtyfourconvergence/SixtyfourConvergence%5BBLED%2CSCAN%2CXELA%2CYELA%5D.ttf"
+  homepage "https://fonts.google.com/specimen/Sixtyfour+Convergence"
+  head "https://github.com/google/fonts/raw/main/ofl/sixtyfourconvergence/SixtyfourConvergence%5BBLED%2CSCAN%2CXELA%2CYELA%5D.ttf",
+       verified: "github.com/google/fonts/"
 
   def install
     (share/"fonts").install Dir.glob("./**/SixtyfourConvergence?BLED,SCAN,XELA,YELA?.ttf")[0]
