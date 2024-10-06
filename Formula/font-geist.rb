@@ -4,7 +4,7 @@ class FontGeist < Formula
   url "https://github.com/vercel/geist-font/releases/download/1.4.0/Geist-v1.4.0.zip",
        verified: "github.com/vercel/geist-font/"
   version "1.4.0"
-  sha256 "b2c99487cd205def10ce8ab4b2ca045426c5c0e60f9707ec53c31146c63eb7b2"
+  sha256 "fafb2a4ce068d293bd53c29cef517597cef6437dc5f6eb5ecca8bc40337ec179"
 
   def install
     (share/"fonts").install Dir.glob("./**/otf/Geist-Black.otf")[0]
