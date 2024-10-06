@@ -4,7 +4,7 @@ class FontGeistMono < Formula
   url "https://github.com/vercel/geist-font/releases/download/1.4.0/GeistMono-v1.4.0.zip",
        verified: "github.com/vercel/geist-font/"
   version "1.4.0"
-  sha256 "0ef8aaa0ac16f8a6b8240df45eeb0a31e6c5ffde5b2523611e9c5c0f3c41b1ea"
+  sha256 "70423ceba8d5f768a9a9a9cb56c449a5307d20679d951113acdf38d7107a548b"
 
   def install
     (share/"fonts").install Dir.glob("./**/otf/GeistMono-Black.otf")[0]
