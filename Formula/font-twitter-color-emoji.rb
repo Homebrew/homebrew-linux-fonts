@@ -1,9 +1,9 @@
 class FontTwitterColorEmoji < Formula
   desc "Twitter color emoji font"
   homepage "https://github.com/eosrei/twemoji-color-font/"
-  url "https://github.com/eosrei/twemoji-color-font/releases/download/v15.0.3/TwitterColorEmoji-SVGinOT-15.0.3.zip"
-  version "15.0.3"
-  sha256 "f96d2c9c54b7dc868749e90a2dcb0b060c592de9388763a18ff0a95bee9bbf8c"
+  url "https://github.com/eosrei/twemoji-color-font/releases/download/v15.1.0/TwitterColorEmoji-SVGinOT-15.1.0.zip"
+  version "15.1.0"
+  sha256 "9075de7a1c9dd660782d02b5c5be1c1524e16db13a6d7d4264b9aabbd056b692"
 
   def install
     (share/"fonts").install Dir.glob("./**/TwitterColorEmoji-SVGinOT.ttf")[0]
