@@ -1,9 +1,9 @@
 class FontIosevkaSlab < Formula
   desc "Iosevka slab font"
   homepage "https://github.com/be5invis/Iosevka/"
-  url "https://github.com/be5invis/Iosevka/releases/download/v31.8.0/SuperTTC-IosevkaSlab-31.8.0.zip"
-  version "31.8.0"
-  sha256 "dcb3f5766cb5e71017417e35541172dc260a9ece9e533f7e8d234ee16c708b2d"
+  url "https://github.com/be5invis/Iosevka/releases/download/v31.9.0/SuperTTC-IosevkaSlab-31.9.0.zip"
+  version "31.9.0"
+  sha256 "68406aeb4bd155a883b1f6b9c83561099a5bc736cd3133d7fe6b3491f15731b8"
 
   def install
     (share/"fonts").install Dir.glob("./**/IosevkaSlab.ttc")[0]
