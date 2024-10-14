@@ -1,9 +1,9 @@
 class FontLxgwBrightGb < Formula
   desc "Lxgw bright gb font"
   homepage "https://github.com/lxgw/LxgwBright"
-  url "https://github.com/lxgw/LxgwBright/releases/download/v5.500/LXGWBrightGB.7z"
-  version "5.500"
-  sha256 "8083e54f6e0576191738c3c7cb8e56a05594bf788feb870d5aed6e2a9214fdd0"
+  url "https://github.com/lxgw/LxgwBright/releases/download/v5.501/LXGWBrightGB.7z"
+  version "5.501"
+  sha256 "315b369c7c196b2f2410949883ceabaf26669d4f4bca89bf485e062af84d6299"
 
   def install
     (share/"fonts").install Dir.glob("./**/LXGWBrightGB-Italic.ttf")[0]
