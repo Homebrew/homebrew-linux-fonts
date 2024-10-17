@@ -1,5 +1,5 @@
 class FontServerMono < Formula
-  desc "Programming font designed for ASCII art and CLI tools"
+  desc "Server mono font"
   homepage "https://servermono.com/"
   url "https://github.com/internet-development/www-server-mono/archive/refs/tags/0.0.4.tar.gz",
        verified: "github.com/internet-development/www-server-mono/"
