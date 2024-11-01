@@ -5,6 +5,7 @@ require "pathname"
 require "open-uri"
 require "json"
 require "tempfile"
+require "utils/popen"
 
 module Homebrew
   module_function
