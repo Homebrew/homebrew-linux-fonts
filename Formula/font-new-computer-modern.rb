@@ -1,9 +1,9 @@
 class FontNewComputerModern < Formula
   desc "New computer modern font"
   homepage "https://git.gnu.org.ua/newcm.git/about/"
-  url "https://download.gnu.org.ua/release/newcm/newcm-6.0.0.txz"
-  version "6.0.0"
-  sha256 "1013f36abab243e74ad892c443358896a6bdbc3e295286873e95c04cf8fe13c4"
+  url "https://download.gnu.org.ua/release/newcm/newcm-7.0.0.txz"
+  version "7.0.0"
+  sha256 "607c558ed73ed07df3b4be4a837c394d0cfb4e6206c1570c1064466162a0713e"
 
   def install
     (share/"fonts").install Dir.glob("./**/otf/NewCM08-Book.otf")[0]
