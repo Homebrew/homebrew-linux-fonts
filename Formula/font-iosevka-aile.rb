@@ -1,9 +1,9 @@
 class FontIosevkaAile < Formula
   desc "Iosevka aile font"
   homepage "https://github.com/be5invis/Iosevka/"
-  url "https://github.com/be5invis/Iosevka/releases/download/v31.9.1/SuperTTC-IosevkaAile-31.9.1.zip"
-  version "31.9.1"
-  sha256 "7c2720875cc7e9a0224ffadd4ff17bb2a0e71037479a05ae35bd6115bc369522"
+  url "https://github.com/be5invis/Iosevka/releases/download/v32.0.0/SuperTTC-IosevkaAile-32.0.0.zip"
+  version "32.0.0"
+  sha256 "0cb5de1cccd19c99daa005b67ed4e26e66f0afcff6d3e4e86e8cbaef2d0e702d"
 
   def install
     (share/"fonts").install Dir.glob("./**/IosevkaAile.ttc")[0]
