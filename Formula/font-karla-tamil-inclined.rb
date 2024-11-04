@@ -1,6 +1,6 @@
 class FontKarlaTamilInclined < Formula
   desc "Karla tamil inclined font"
-  homepage "https://fonts.google.com/specimen/Karla"
+  homepage "https://fonts.google.com/specimen/Karla+Tamil+Inclined"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
        branch:    "main",
