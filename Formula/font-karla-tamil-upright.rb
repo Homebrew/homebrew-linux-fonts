@@ -1,6 +1,6 @@
 class FontKarlaTamilUpright < Formula
   desc "Karla tamil upright font"
-  homepage "https://fonts.google.com/specimen/Karla"
+  homepage "https://fonts.google.com/specimen/Karla+Tamil+Upright"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
        branch:    "main",
