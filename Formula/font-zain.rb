@@ -11,7 +11,9 @@ class FontZain < Formula
     (share/"fonts").install Dir.glob("ofl/zain/./**/Zain-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/zain/./**/Zain-ExtraBold.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/zain/./**/Zain-ExtraLight.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/zain/./**/Zain-Italic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/zain/./**/Zain-Light.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/zain/./**/Zain-LightItalic.ttf")[0]
     (share/"fonts").install Dir.glob("ofl/zain/./**/Zain-Regular.ttf")[0]
   end
 
