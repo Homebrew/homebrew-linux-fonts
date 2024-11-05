@@ -1,7 +1,8 @@
 class FontRecursiveCode < Formula
   desc "Recursive code font"
-  homepage "https://github.com/arrowtype/recursive"
-  url "https://github.com/arrowtype/recursive/releases/download/v1.085/ArrowType-Recursive-1.085.zip"
+  homepage "https://www.recursive.design/"
+  url "https://github.com/arrowtype/recursive/releases/download/v1.085/ArrowType-Recursive-1.085.zip",
+       verified: "github.com/arrowtype/recursive/"
   version "1.085"
   sha256 "cbcbdf7a0e181d284a9235e09ed5f3873e527bc5dd1d977df71cdc1ff937da02"
 
