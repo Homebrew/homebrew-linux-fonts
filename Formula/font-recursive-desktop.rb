@@ -1,0 +1,80 @@
+class FontRecursiveDesktop < Formula
+  desc "Recursive desktop font"
+  homepage "https://www.recursive.design/"
+  url "https://github.com/arrowtype/recursive/releases/download/v1.085/ArrowType-Recursive-1.085.zip",
+       verified: "github.com/arrowtype/recursive/"
+  version "1.085"
+  sha256 "cbcbdf7a0e181d284a9235e09ed5f3873e527bc5dd1d977df71cdc1ff937da02"
+
+  def install
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/Recursive_VF_1.085.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveMonoCslSt-BdItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveMonoCslSt-Black.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveMonoCslSt-BlkItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveMonoCslSt-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveMonoCslSt-ExtraBd.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveMonoCslSt-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveMonoCslSt-Light.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveMonoCslSt-LtItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveMonoCslSt-Med.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveMonoCslSt-MedItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveMonoCslSt-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveMonoCslSt-SemiBd.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveMonoCslSt-SmBdItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveMonoCslSt-XBdItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveMonoCslSt-XBlk.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveMonoCslSt-XBlkItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveMonoLnrSt-Black.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveMonoLnrSt-BlackItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveMonoLnrSt-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveMonoLnrSt-BoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveMonoLnrSt-ExBdItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveMonoLnrSt-ExtraBold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveMonoLnrSt-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveMonoLnrSt-Light.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveMonoLnrSt-LightItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveMonoLnrSt-Med.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveMonoLnrSt-MedItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveMonoLnrSt-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveMonoLnrSt-SemiBold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveMonoLnrSt-SmBdItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveMonoLnrSt-XBlk.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveMonoLnrSt-XBlkItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveSansCslSt-BdItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveSansCslSt-Black.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveSansCslSt-BlkItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveSansCslSt-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveSansCslSt-ExtraBd.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveSansCslSt-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveSansCslSt-Light.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveSansCslSt-LtItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveSansCslSt-Med.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveSansCslSt-MedItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveSansCslSt-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveSansCslSt-SemiBd.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveSansCslSt-SmBdItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveSansCslSt-XBdItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveSansCslSt-XBlk.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveSansCslSt-XBlkItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveSansLnrSt-Black.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveSansLnrSt-BlackItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveSansLnrSt-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveSansLnrSt-BoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveSansLnrSt-ExBdItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveSansLnrSt-ExtraBold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveSansLnrSt-Italic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveSansLnrSt-Light.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveSansLnrSt-LightItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveSansLnrSt-Med.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveSansLnrSt-MedItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveSansLnrSt-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveSansLnrSt-SemiBold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveSansLnrSt-SmBdItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveSansLnrSt-XBlk.otf")[0]
+    (share/"fonts").install Dir.glob("./**/Recursive_Desktop/separate_statics/OTF/RecursiveSansLnrSt-XBlkItalic.otf")[0]
+  end
+
+  test do
+    assert_path_exists share/"fonts"
+  end
+end
