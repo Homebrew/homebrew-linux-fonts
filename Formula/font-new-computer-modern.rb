@@ -40,6 +40,7 @@ class FontNewComputerModern < Formula
     (share/"fonts").install Dir.glob("./**/otf/NewCMSans10-BookOblique.otf")[0]
     (share/"fonts").install Dir.glob("./**/otf/NewCMSans10-Oblique.otf")[0]
     (share/"fonts").install Dir.glob("./**/otf/NewCMSans10-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/otf/NewCMSansMath-Regular.otf")[0]
     (share/"fonts").install Dir.glob("./**/otf/NewCMUncial08-Bold.otf")[0]
     (share/"fonts").install Dir.glob("./**/otf/NewCMUncial08-Book.otf")[0]
     (share/"fonts").install Dir.glob("./**/otf/NewCMUncial08-Regular.otf")[0]
