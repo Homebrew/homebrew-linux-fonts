@@ -1,9 +1,9 @@
 class FontChironHeiHk < Formula
   desc "Chiron hei hk font"
   homepage "https://github.com/chiron-fonts/chiron-hei-hk"
-  url "https://github.com/chiron-fonts/chiron-hei-hk/archive/refs/tags/v2.518.tar.gz"
-  version "2.518"
-  sha256 "d883d13d7874c9591890421cbdb37edb6b3f9d6f8038d21284af6ec93a0e4916"
+  url "https://github.com/chiron-fonts/chiron-hei-hk/archive/refs/tags/v2.519.tar.gz"
+  version "2.519"
+  sha256 "4271c6f229ec21f2c4dd1c7976df6ed4724e9a4fb7f948fdec63e1d980cfd16f"
 
   def install
     (share/"fonts").install Dir.glob("./**/VAR/ChironHeiHKItVF.otf")[0]
