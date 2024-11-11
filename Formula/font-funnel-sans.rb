@@ -1,7 +1,8 @@
 class FontFunnelSans < Formula
   desc "Funnel sans font"
-  homepage "https://github.com/Dicotype/Funnel"
+  homepage "https://fonts.google.com/specimen/Funnel+Sans"
   head "https://github.com/google/fonts.git",
+       verified:  "github.com/google/fonts",
        branch:    "main",
        only_path: "ofl/funnelsans"
 
