@@ -1,7 +1,8 @@
 class FontHostGrotesk < Formula
   desc "Host grotesk font"
-  homepage "https://github.com/Element-Type/HostGrotesk"
+  homepage "https://fonts.google.com/specimen/Host+Grotesk"
   head "https://github.com/google/fonts.git",
+       verified:  "github.com/google/fonts",
        branch:    "main",
        only_path: "ofl/hostgrotesk"
 
