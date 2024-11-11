@@ -1,7 +1,8 @@
 class FontFacultyGlyphic < Formula
   desc "Faculty glyphic font"
-  homepage "https://github.com/DylanYoungKoto/FacultyGlyphic"
-  head "https://github.com/google/fonts/raw/main/ofl/facultyglyphic/FacultyGlyphic-Regular.ttf"
+  homepage "https://fonts.google.com/specimen/Faculty+Glyphic"
+  head "https://github.com/google/fonts/raw/main/ofl/facultyglyphic/FacultyGlyphic-Regular.ttf",
+       verified: "github.com/google/fonts/"
 
   def install
     (share/"fonts").install Dir.glob("./**/FacultyGlyphic-Regular.ttf")[0]
