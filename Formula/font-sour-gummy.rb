@@ -1,7 +1,8 @@
 class FontSourGummy < Formula
   desc "Sour gummy font"
-  homepage "https://github.com/eifetx/Sour-Gummy-Fonts"
+  homepage "https://fonts.google.com/specimen/Sour+Gummy"
   head "https://github.com/google/fonts.git",
+       verified:  "github.com/google/fonts",
        branch:    "main",
        only_path: "ofl/sourgummy"
 
