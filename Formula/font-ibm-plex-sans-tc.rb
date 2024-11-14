@@ -1,9 +1,9 @@
 class FontIbmPlexSansTc < Formula
   desc "Ibm plex sans tc font"
   homepage "https://github.com/IBM/plex"
-  url "https://github.com/IBM/plex/releases/download/%40ibm%2Fplex-sans-tc%401.0.0/ibm-plex-sans-tc.zip"
-  version "1.0.0"
-  sha256 "38f4b86e52b5735eb926b6a0a41293ace6708632e41a0280618939d601dd5aaf"
+  url "https://github.com/IBM/plex/releases/download/%40ibm%2Fplex-sans-tc%401.1.0/ibm-plex-sans-tc.zip"
+  version "1.1.0"
+  sha256 "b79600d3c9155fa05c9024eb81cfe2fbdd8cd068503dfafd79405ea577aa9fec"
 
   def install
     (share/"fonts").install Dir.glob("./**/fonts/complete/otf/hinted/IBMPlexSansTC-Bold.otf")[0]
