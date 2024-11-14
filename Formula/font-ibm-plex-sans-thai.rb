@@ -1,9 +1,9 @@
 class FontIbmPlexSansThai < Formula
   desc "Ibm plex sans thai font"
   homepage "https://github.com/IBM/plex"
-  url "https://github.com/IBM/plex/releases/download/%40ibm%2Fplex-sans-thai%401.0.0/ibm-plex-sans-thai.zip"
-  version "1.0.0"
-  sha256 "1a39b37654916260791073046aa811450fd9bea63c2acb4413546636939c43a1"
+  url "https://github.com/IBM/plex/releases/download/%40ibm%2Fplex-sans-thai%401.1.0/ibm-plex-sans-thai.zip"
+  version "1.1.0"
+  sha256 "d7203f43c20f9abd40487f845c48db4077d2056ea18632c8959591c6815d7fb9"
 
   def install
     (share/"fonts").install Dir.glob("./**/fonts/complete/otf/IBMPlexSansThai-Bold.otf")[0]
