@@ -1,9 +1,9 @@
 class FontIbmPlexSansThaiLooped < Formula
   desc "Ibm plex sans thai looped font"
   homepage "https://github.com/IBM/plex"
-  url "https://github.com/IBM/plex/releases/download/%40ibm%2Fplex-sans-thai-looped%401.0.0/ibm-plex-sans-thai-looped.zip"
-  version "1.0.0"
-  sha256 "734b854b745c715123713b283a077d587800c1de0e2d6c84e524862d58a649e6"
+  url "https://github.com/IBM/plex/releases/download/%40ibm%2Fplex-sans-thai-looped%401.1.0/ibm-plex-sans-thai-looped.zip"
+  version "1.1.0"
+  sha256 "26c453e3a4341026e2f5525cd498c5aa214e57bdb9db99bc3816826a36be157f"
 
   def install
     (share/"fonts").install Dir.glob("./**/fonts/complete/otf/IBMPlexSansThaiLooped-Bold.otf")[0]
