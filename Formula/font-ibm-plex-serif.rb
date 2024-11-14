@@ -1,9 +1,9 @@
 class FontIbmPlexSerif < Formula
   desc "Ibm plex serif font"
   homepage "https://github.com/IBM/plex"
-  url "https://github.com/IBM/plex/releases/download/%40ibm%2Fplex-serif%401.0.0/ibm-plex-serif.zip"
-  version "1.0.0"
-  sha256 "bb11f1cfe119d93e4a8d915d2d27e98c57a18f538e6fa88c5e31ea852a41233f"
+  url "https://github.com/IBM/plex/releases/download/%40ibm%2Fplex-serif%401.1.0/ibm-plex-serif.zip"
+  version "1.1.0"
+  sha256 "76f1a272b084d2beedcd22aaaa653bc6f92b71b5689081aef9c5b05d0a470e1b"
 
   def install
     (share/"fonts").install Dir.glob("./**/fonts/complete/otf/IBMPlexSerif-Bold.otf")[0]
