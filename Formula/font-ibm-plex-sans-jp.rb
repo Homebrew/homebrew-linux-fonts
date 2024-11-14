@@ -1,9 +1,9 @@
 class FontIbmPlexSansJp < Formula
   desc "Ibm plex sans jp font"
   homepage "https://github.com/IBM/plex"
-  url "https://github.com/IBM/plex/releases/download/%40ibm%2Fplex-sans-jp%401.0.0/ibm-plex-sans-jp.zip"
-  version "1.0.0"
-  sha256 "6946948f66b511560786fd0ec7d561de985a1f6d8692b0ed44fbf7d880a994fa"
+  url "https://github.com/IBM/plex/releases/download/%40ibm%2Fplex-sans-jp%401.1.0/ibm-plex-sans-jp.zip"
+  version "1.1.0"
+  sha256 "96e7b8af07b5b38fad9c531c11854559c47332b45de7e65c45672b5415f3cd55"
 
   def install
     (share/"fonts").install Dir.glob("./**/fonts/complete/otf/hinted/IBMPlexSansJP-Bold.otf")[0]
