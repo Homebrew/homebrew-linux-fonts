@@ -1,10 +1,10 @@
 class FontInter < Formula
   desc "Inter font"
   homepage "https://rsms.me/inter/"
-  url "https://github.com/rsms/inter/releases/download/v4.0/Inter-4.0.zip",
+  url "https://github.com/rsms/inter/releases/download/v4.1/Inter-4.1.zip",
        verified: "github.com/rsms/inter/"
-  version "4.0"
-  sha256 "ff970a5d4561a04f102a7cb781adbd6ac4e9b6c460914c7a101f15acb7f7d1a4"
+  version "4.1"
+  sha256 "9883fdd4a49d4fb66bd8177ba6625ef9a64aa45899767dde3d36aa425756b11e"
 
   def install
     (share/"fonts").install Dir.glob("./**/InterVariable-Italic.ttf")[0]
