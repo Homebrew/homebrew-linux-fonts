@@ -1,9 +1,9 @@
 class FontLiberationNerdFont < Formula
   desc "Literation nerd font families (liberation mono) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/LiberationMono.zip"
-  version "3.2.1"
-  sha256 "7be6c701399ad4c69225f0fa632ad7adb8ba999a2ca5b8a208a9dfd2bc25649f"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/LiberationMono.zip"
+  version "3.3.0"
+  sha256 "3736516ede5c93c787379f56fc2d0b621acaef140d57de935b2ecbc749e4e9d7"
 
   def install
     (share/"fonts").install Dir.glob("./**/LiterationMonoNerdFont-Bold.ttf")[0]
