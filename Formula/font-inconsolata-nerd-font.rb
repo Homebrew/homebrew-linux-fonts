@@ -1,9 +1,9 @@
 class FontInconsolataNerdFont < Formula
   desc "Inconsolata nerd font (inconsolata) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Inconsolata.zip"
-  version "3.2.1"
-  sha256 "012aa0cac12137786832362022318556a155d2008bbfd198f72944b49cb8a6f8"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Inconsolata.zip"
+  version "3.3.0"
+  sha256 "987bf68289f6d9d87d5a5111a7a47392801f7e5769d410df91a32cda7842a69c"
 
   def install
     (share/"fonts").install Dir.glob("./**/InconsolataNerdFont-Bold.ttf")[0]
