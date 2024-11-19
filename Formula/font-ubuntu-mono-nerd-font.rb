@@ -1,9 +1,9 @@
 class FontUbuntuMonoNerdFont < Formula
   desc "Ubuntumono nerd font (ubuntu mono) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/UbuntuMono.zip"
-  version "3.2.1"
-  sha256 "3631caf3392d1547d4405571c501a8a6f005ba59c02a61f9a715c043444c15b3"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/UbuntuMono.zip"
+  version "3.3.0"
+  sha256 "5791ff219b14000821ff6e3dffcfaa9d29ca9b446c1fc53414d0684eadc8690f"
 
   def install
     (share/"fonts").install Dir.glob("./**/UbuntuMonoNerdFont-Bold.ttf")[0]
