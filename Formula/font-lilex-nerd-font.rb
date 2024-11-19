@@ -1,9 +1,9 @@
 class FontLilexNerdFont < Formula
   desc "Lilex nerd font (lilex) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Lilex.zip"
-  version "3.2.1"
-  sha256 "246c475ddfc9ce70b49470a929443c886e5dcec20ed82c9575ed27c444cf9e23"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Lilex.zip"
+  version "3.3.0"
+  sha256 "cfad2ef0b3867607a988978ea4a74e68bc899f3b9bbd48e32b27b54bb700a82f"
 
   def install
     (share/"fonts").install Dir.glob("./**/LilexNerdFont-Bold.ttf")[0]
