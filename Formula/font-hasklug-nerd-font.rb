@@ -1,9 +1,9 @@
 class FontHasklugNerdFont < Formula
   desc "Hasklug nerd font (hasklig) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Hasklig.zip"
-  version "3.2.1"
-  sha256 "f4fed019c88f7366f4c58fd76732e14cadc7bda0f45bca66d05f919f66afd72f"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Hasklig.zip"
+  version "3.3.0"
+  sha256 "ad81a279d278ed7dc93c97e0e327721c9e742137dcec6a5a1fd2ade6f3fcdefc"
 
   def install
     (share/"fonts").install Dir.glob("./**/HasklugNerdFont-Black.otf")[0]
