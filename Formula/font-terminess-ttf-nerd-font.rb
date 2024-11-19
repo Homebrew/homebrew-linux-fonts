@@ -1,9 +1,9 @@
 class FontTerminessTtfNerdFont < Formula
   desc "Terminess nerd font (terminus) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Terminus.zip"
-  version "3.2.1"
-  sha256 "b850527aa4699ace0efef45012a12f128a26a7a74e1b55d69ccbb5ff4877ced3"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Terminus.zip"
+  version "3.3.0"
+  sha256 "d40b0b46b64718b462341500255dbd6a7c0cc9285d0bed2aaf3f176673aa5857"
 
   def install
     (share/"fonts").install Dir.glob("./**/TerminessNerdFont-Bold.ttf")[0]
