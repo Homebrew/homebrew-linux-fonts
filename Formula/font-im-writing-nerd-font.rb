@@ -1,9 +1,9 @@
 class FontImWritingNerdFont < Formula
   desc "Imwriting nerd font families (ia writer) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/iA-Writer.zip"
-  version "3.2.1"
-  sha256 "6d70576c6cb4b7a8b1ceb66c185dc01b355d269a1ec4e9a2b3bdb40e7cfa9293"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/iA-Writer.zip"
+  version "3.3.0"
+  sha256 "e1005ad388cf4125b62ab52cf22465b8ba22bc7e5805c0d287401cc9a0ec45a1"
 
   def install
     (share/"fonts").install Dir.glob("./**/iMWritingDuoNerdFont-Bold.ttf")[0]
