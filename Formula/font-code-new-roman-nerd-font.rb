@@ -1,9 +1,9 @@
 class FontCodeNewRomanNerdFont < Formula
   desc "Codenewroman nerd font (code new roman) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/CodeNewRoman.zip"
-  version "3.2.1"
-  sha256 "859a283172d71538634104b87b48cea4e36f1bb0824defe7d99a0092d6f5e52d"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/CodeNewRoman.zip"
+  version "3.3.0"
+  sha256 "ce6c40432dd4f78aef1ebd078c281553b635de5e51332a2ae95557a23c04af49"
 
   def install
     (share/"fonts").install Dir.glob("./**/CodeNewRomanNerdFont-Bold.otf")[0]
