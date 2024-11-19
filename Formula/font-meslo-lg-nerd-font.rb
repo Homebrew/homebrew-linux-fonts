@@ -1,9 +1,9 @@
 class FontMesloLgNerdFont < Formula
   desc "Meslolg nerd font families (meslo lg) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Meslo.zip"
-  version "3.2.1"
-  sha256 "c54d6ad2eabaaac59a436b9d37de62f2f8407516e85a31023313f6e91ca12694"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Meslo.zip"
+  version "3.3.0"
+  sha256 "322d3a72da704b75cce5e52a6c3b875cbff3ca5ad01b40d0e2ad2f65be21648e"
 
   def install
     (share/"fonts").install Dir.glob("./**/MesloLGLDZNerdFont-Bold.ttf")[0]
