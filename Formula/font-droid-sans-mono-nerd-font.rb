@@ -1,9 +1,9 @@
 class FontDroidSansMonoNerdFont < Formula
   desc "Droidsansm nerd font (droid sans mono) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/DroidSansMono.zip"
-  version "3.2.1"
-  sha256 "56426e452385e731316f2c0790460a21e4ac688a90d82730732e81d8e93703ea"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/DroidSansMono.zip"
+  version "3.3.0"
+  sha256 "60a93ad45d38a1ee901413aa93dabcf9ed9ea8d954d6f9481e1f2d8733c40ea2"
 
   def install
     (share/"fonts").install Dir.glob("./**/DroidSansMNerdFont-Regular.otf")[0]
