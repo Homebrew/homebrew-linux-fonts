@@ -1,9 +1,9 @@
 class FontNotoNerdFont < Formula
   desc "Noto nerd font families (noto) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Noto.zip"
-  version "3.2.1"
-  sha256 "b8a6e1fcaf557a404be47250d419ee4234ad8930e9d2a405c248fa7f08ab5c04"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Noto.zip"
+  version "3.3.0"
+  sha256 "131c6ebb6420a170ce558227154cd8949f94e7967994d815e81354d58450b692"
 
   def install
     (share/"fonts").install Dir.glob("./**/NotoMonoNerdFont-Regular.ttf")[0]
