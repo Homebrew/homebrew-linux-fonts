@@ -1,9 +1,9 @@
 class FontAnonymiceNerdFont < Formula
   desc "Anonymicepro nerd font (anonymous pro) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/AnonymousPro.zip"
-  version "3.2.1"
-  sha256 "5ee616bdc84158bf7e69fd9e63714c43d84652ec55f68c4f4f8cf75e8ac78bfc"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/AnonymousPro.zip"
+  version "3.3.0"
+  sha256 "7b9fdda66eddc03b6effd75db3bae42a81009918248e4aaca657e5340d5faac0"
 
   def install
     (share/"fonts").install Dir.glob("./**/AnonymiceProNerdFont-Bold.ttf")[0]
