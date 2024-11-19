@@ -1,9 +1,9 @@
 class FontUbuntuSansNerdFont < Formula
   desc "Ubuntusans nerd font families (ubuntu sans) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/UbuntuSans.zip"
-  version "3.2.1"
-  sha256 "4d6a2ee81a394cb2af720a6046e40e1b742a3455ec47b4c987f04fa7a92a432e"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/UbuntuSans.zip"
+  version "3.3.0"
+  sha256 "65d74bd6d3b5d4447fb6abe8da009fcc133a888a29b27be46baec98872f5dee9"
 
   def install
     (share/"fonts").install Dir.glob("./**/UbuntuSansMonoNerdFont-Bold.ttf")[0]
