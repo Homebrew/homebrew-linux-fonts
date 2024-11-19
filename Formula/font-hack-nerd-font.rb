@@ -1,9 +1,9 @@
 class FontHackNerdFont < Formula
   desc "Hack nerd font (hack) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Hack.zip"
-  version "3.2.1"
-  sha256 "70b2c3e2375f99e9d81b1f01c7ad90efc9d72177ea975fc62f2310fea21e2f18"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Hack.zip"
+  version "3.3.0"
+  sha256 "a09e154605eff625b0da3bdf242d64d97cec3d6ee90fb9f91a531064e33c7b8d"
 
   def install
     (share/"fonts").install Dir.glob("./**/HackNerdFont-Bold.ttf")[0]
