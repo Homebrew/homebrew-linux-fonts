@@ -1,9 +1,9 @@
 class FontJetbrainsMonoNerdFont < Formula
   desc "Jetbrainsmono nerd font families (jetbrains mono) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip"
-  version "3.2.1"
-  sha256 "6596922aabaf8876bb657c36a47009ac68c388662db45d4ac05c2536c2f07ade"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/JetBrainsMono.zip"
+  version "3.3.0"
+  sha256 "2d83782a350b604bfa70fce880604a41a7f77c3eec8f922f9cdc3c20952ddbe4"
 
   def install
     (share/"fonts").install Dir.glob("./**/JetBrainsMonoNLNerdFont-Bold.ttf")[0]
