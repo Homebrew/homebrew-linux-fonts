@@ -1,9 +1,9 @@
 class FontHurmitNerdFont < Formula
   desc "Hurmit nerd font (hermit) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Hermit.zip"
-  version "3.2.1"
-  sha256 "81a6b2db8f1897b2639653d3ce81388462dafc6312d5ca70006c0d50283d57a2"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Hermit.zip"
+  version "3.3.0"
+  sha256 "ca1f7aa90464d5f2c795eff508539cf022a0331d78971e05b306bda4e73038b6"
 
   def install
     (share/"fonts").install Dir.glob("./**/HurmitNerdFont-Bold.otf")[0]
