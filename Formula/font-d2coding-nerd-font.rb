@@ -1,9 +1,9 @@
 class FontD2codingNerdFont < Formula
   desc "D2codingligature nerd font (d2coding) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/D2Coding.zip"
-  version "3.2.1"
-  sha256 "d7c2ec38d316583c8af0319068ac05488f0c053cccea842aae6089f3d64d758f"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/D2Coding.zip"
+  version "3.3.0"
+  sha256 "48c4270ffe60e86b236cfa3e7a03facea67f67d0b30440980f0e2be2e6a5c0f4"
 
   def install
     (share/"fonts").install Dir.glob("./**/D2CodingLigatureNerdFont-Bold.ttf")[0]
