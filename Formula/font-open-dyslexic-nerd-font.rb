@@ -1,9 +1,9 @@
 class FontOpenDyslexicNerdFont < Formula
   desc "Opendyslexic nerd font families (opendyslexic) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/OpenDyslexic.zip"
-  version "3.2.1"
-  sha256 "19d58fb14718a4ee59fba2b013a9b7acbb83d68fded55f1847f277468f71fecf"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/OpenDyslexic.zip"
+  version "3.3.0"
+  sha256 "eb9de2921be72ef03f11a533a61faa2d14dac8ca636f64e496d448f97f8c641b"
 
   def install
     (share/"fonts").install Dir.glob("./**/OpenDyslexicAltNerdFont-Bold.otf")[0]
