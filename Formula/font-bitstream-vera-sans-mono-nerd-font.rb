@@ -1,9 +1,9 @@
 class FontBitstreamVeraSansMonoNerdFont < Formula
   desc "Bitstromwera nerd font (bitstream vera sans mono) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/BitstreamVeraSansMono.zip"
-  version "3.2.1"
-  sha256 "6a5d20c72f068a65ebf6e1cf1e168ced5d8c78d703d90b6041a5232db8111205"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/BitstreamVeraSansMono.zip"
+  version "3.3.0"
+  sha256 "20f48559f6ee37ab17703263bd469c3cfc40a4284387b3400a15054fdb0ff6f4"
 
   def install
     (share/"fonts").install Dir.glob("./**/BitstromWeraNerdFont-Bold.ttf")[0]
