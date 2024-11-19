@@ -1,9 +1,9 @@
 class FontDejavuSansMonoNerdFont < Formula
   desc "Dejavusansm nerd font (dejavu sans mono) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/DejaVuSansMono.zip"
-  version "3.2.1"
-  sha256 "cf0f11c7e2e35df79c5a2f3b42073e8becd3597f23cbd4487de89c3546c17e70"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/DejaVuSansMono.zip"
+  version "3.3.0"
+  sha256 "ffe13142bd4d3487b7a5c8a3df451e13cbe7287b7e76d63a7bef3c6a001106c1"
 
   def install
     (share/"fonts").install Dir.glob("./**/DejaVuSansMNerdFont-Bold.ttf")[0]
