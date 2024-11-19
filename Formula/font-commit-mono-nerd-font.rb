@@ -1,9 +1,9 @@
 class FontCommitMonoNerdFont < Formula
   desc "Commitmono nerd font (commit mono) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/CommitMono.zip"
-  version "3.2.1"
-  sha256 "99e3e1b6126191cc0f7e49ede5dc20b65a6b8ca808da0139b5669e412632bf8d"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/CommitMono.zip"
+  version "3.3.0"
+  sha256 "f2055ed25f58d20644028f1648feb74cb21a0702b7a06a2f725a3caa7045b32f"
 
   def install
     (share/"fonts").install Dir.glob("./**/CommitMonoNerdFont-Bold.otf")[0]
