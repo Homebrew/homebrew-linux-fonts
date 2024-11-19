@@ -1,9 +1,9 @@
 class FontFiraCodeNerdFont < Formula
   desc "Firacode nerd font (fira code) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/FiraCode.zip"
-  version "3.2.1"
-  sha256 "4ee8fbafecfc90460399b9828270b8ece30ccbf60b3ab875d64ff77696c6e262"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/FiraCode.zip"
+  version "3.3.0"
+  sha256 "89978e6f870d044286a339161d5ed961569744b1cd2afee62337fa140cd0b397"
 
   def install
     (share/"fonts").install Dir.glob("./**/FiraCodeNerdFont-Bold.ttf")[0]
