@@ -1,9 +1,9 @@
 class FontDaddyTimeMonoNerdFont < Formula
   desc "Daddytimemono nerd font (daddytimemono) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/DaddyTimeMono.zip"
-  version "3.2.1"
-  sha256 "0b6d33e09e9bde5347756283bb4ca500d42e661bd386f69cecacf286423f9a2d"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/DaddyTimeMono.zip"
+  version "3.3.0"
+  sha256 "61504f83ba5e4dc5b8982bf0973db286ce66e795fd36f7075b825aa009a50a3a"
 
   def install
     (share/"fonts").install Dir.glob("./**/DaddyTimeMonoNerdFont-Regular.ttf")[0]
