@@ -1,9 +1,9 @@
 class FontSauceCodeProNerdFont < Formula
   desc "Saucecodepro nerd font (source code pro) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/SourceCodePro.zip"
-  version "3.2.1"
-  sha256 "dcba53be6a360aac5bd1424ac4ab316c5401f7e5a1fa28be4fa626ce07a30c0f"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/SourceCodePro.zip"
+  version "3.3.0"
+  sha256 "51bed1bda04bc557f7d7cb762daa9cdacccc0b6f0681f53933464dd7cbf90ac6"
 
   def install
     (share/"fonts").install Dir.glob("./**/SauceCodeProNerdFont-Black.ttf")[0]
