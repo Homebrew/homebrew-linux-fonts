@@ -1,9 +1,9 @@
 class FontGeistMonoNerdFont < Formula
   desc "Geistmono nerd font (geist mono) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/GeistMono.zip"
-  version "3.2.1"
-  sha256 "87f9a0a7a585ffcf29a881002b1b5fc5ea091d5bc175b130154dc10a59fb3c76"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/GeistMono.zip"
+  version "3.3.0"
+  sha256 "98dd8013eb8d108ba80fd4ff606902916665c51854d0c231748f9af214419e7c"
 
   def install
     (share/"fonts").install Dir.glob("./**/GeistMonoNerdFont-Black.otf")[0]
