@@ -1,9 +1,9 @@
 class FontMonofurNerdFont < Formula
   desc "Monofur nerd font (monofur) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Monofur.zip"
-  version "3.2.1"
-  sha256 "c63786a1ef1a5b2b0bd5cdd80722d9c8ebe81f3830a5a492b54c07db9022fec6"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Monofur.zip"
+  version "3.3.0"
+  sha256 "d397ff7d7c9ca3472afeded1c9318221bd1dfad574d4d223bdbe8fc75eaa49c0"
 
   def install
     (share/"fonts").install Dir.glob("./**/MonofurNerdFont-Bold.ttf")[0]
