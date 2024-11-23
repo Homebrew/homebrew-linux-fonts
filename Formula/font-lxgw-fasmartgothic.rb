@@ -5,6 +5,8 @@ class FontLxgwFasmartgothic < Formula
   version "1.201"
   sha256 "46c06f85c75aa55b4450fa02c37a35f0f8a4efe8058ffcb6e48b9e2eccd764eb"
 
+  deprecate! "2024-11-22", because: :discontinued
+
   def install
     (share/"fonts").install Dir.glob("./**/LXGWFasmartGothic.ttf")[0]
   end
