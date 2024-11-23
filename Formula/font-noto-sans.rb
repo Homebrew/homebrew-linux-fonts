@@ -1,10 +1,10 @@
 class FontNotoSans < Formula
   desc "Noto sans font"
   homepage "https://notofonts.github.io/"
-  url "https://github.com/notofonts/latin-greek-cyrillic/releases/download/NotoSans-v2.014/NotoSans-v2.014.zip",
+  url "https://github.com/notofonts/latin-greek-cyrillic/releases/download/NotoSans-v2.015/NotoSans-v2.015.zip",
        verified: "github.com/notofonts/"
-  version "2.014"
-  sha256 "1dffbaf31a0a699ee2c57dfb60c1a628010425301dd076cfb485adbe017352c1"
+  version "2.015"
+  sha256 "0c34df072a3fa7efbb7cbf34950e1f971a4447cffe365d3a359e2d4089b958f5"
 
   def install
     (share/"fonts").install Dir.glob("./**/unhinted/ttf/NotoSans-Black.ttf")[0]
