@@ -1,9 +1,9 @@
 class FontDreamHanSans < Formula
   desc "Dream han sans font"
   homepage "https://github.com/Pal3love/dream-han-cjk/"
-  url "https://github.com/Pal3love/dream-han-cjk/releases/download/dream-3.01-sans-2.004-serif-2.002/DreamHanSans.zip"
-  version "3.01,2.004,2.002"
-  sha256 "7555b909965c4f32d9d757dfd7397365a4d7b2e8c149de6649c9d34a7bf8ed23"
+  url "https://github.com/Pal3love/dream-han-cjk/releases/download/dream-3.02-sans-2.004-serif-2.003/DreamHanSans.zip"
+  version "3.02,2.004,2.003"
+  sha256 "3c40a9966252220e862f9d36285745b0e87bd0959791d2d2594127153d703ab8"
 
   def install
     (share/"fonts").install Dir.glob("./**/DreamHanSans-W1.ttc")[0]
