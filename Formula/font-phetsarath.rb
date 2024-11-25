@@ -1,6 +1,6 @@
 class FontPhetsarath < Formula
   desc "Phetsarath font"
-  homepage "https://fonts.google.com/earlyaccess"
+  homepage "https://fonts.google.com/specimen/Phetsarath"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
        branch:    "main",
