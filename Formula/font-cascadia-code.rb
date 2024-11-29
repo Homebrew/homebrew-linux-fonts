@@ -1,9 +1,9 @@
 class FontCascadiaCode < Formula
   desc "Cascadia code font"
   homepage "https://github.com/microsoft/cascadia-code"
-  url "https://github.com/microsoft/cascadia-code/releases/download/v2404.23/CascadiaCode-2404.23.zip"
-  version "2404.23"
-  sha256 "a911410626c0e09d03fa3fdda827188fda96607df50fecc3c5fee5906e33251b"
+  url "https://github.com/microsoft/cascadia-code/releases/download/v2407.24/CascadiaCode-2407.24.zip"
+  version "2407.24"
+  sha256 "e67a68ee3386db63f48b9054bd196ea752bc6a4ebb4df35adce6733da50c8474"
 
   def install
     (share/"fonts").install Dir.glob("./**/CascadiaCode.ttf")[0]
