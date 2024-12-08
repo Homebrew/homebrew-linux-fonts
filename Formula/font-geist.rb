@@ -4,19 +4,19 @@ class FontGeist < Formula
   url "https://github.com/vercel/geist-font/releases/download/1.4.01/Geist-v1.4.01.zip",
        verified: "github.com/vercel/geist-font/"
   version "1.4.01"
-  sha256 "b013dce423d16c03238593f6b8e0a281322bafdc2a75b376a91de8721cf18315"
+  sha256 "d12b5e123bdd5a9facbd52ab6a24756587b086d6a76fc629a28456675bfad4e3"
 
   def install
-    (share/"fonts").install Dir.glob("./**/Geist-Black.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Geist-Bold.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Geist-ExtraBold.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Geist-ExtraLight.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Geist-Light.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Geist-Medium.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Geist-Regular.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Geist-SemiBold.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Geist-Thin.otf")[0]
-    (share/"fonts").install Dir.glob("./**/Geist?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/otf/Geist-Black.otf")[0]
+    (share/"fonts").install Dir.glob("./**/otf/Geist-Bold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/otf/Geist-ExtraBold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/otf/Geist-ExtraLight.otf")[0]
+    (share/"fonts").install Dir.glob("./**/otf/Geist-Light.otf")[0]
+    (share/"fonts").install Dir.glob("./**/otf/Geist-Medium.otf")[0]
+    (share/"fonts").install Dir.glob("./**/otf/Geist-Regular.otf")[0]
+    (share/"fonts").install Dir.glob("./**/otf/Geist-SemiBold.otf")[0]
+    (share/"fonts").install Dir.glob("./**/otf/Geist-Thin.otf")[0]
+    (share/"fonts").install Dir.glob("./**/variable/Geist?wght?.ttf")[0]
   end
 
   test do
