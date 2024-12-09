@@ -1,7 +1,8 @@
 class FontHindMysuru < Formula
   desc "Hind mysuru font"
-  homepage "https://github.com/itfoundry/hind-mysuru"
+  homepage "https://fonts.google.com/specimen/Hind+Mysuru"
   head "https://github.com/google/fonts.git",
+       verified:  "github.com/google/fonts",
        branch:    "main",
        only_path: "ofl/hindmysuru"
 
