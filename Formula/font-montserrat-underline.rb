@@ -1,7 +1,8 @@
 class FontMontserratUnderline < Formula
   desc "Montserrat underline font"
-  homepage "https://github.com/JulietaUla/Montserrat"
+  homepage "https://fonts.google.com/specimen/Montserrat+Underline"
   head "https://github.com/google/fonts.git",
+       verified:  "github.com/google/fonts",
        branch:    "main",
        only_path: "ofl/montserratunderline"
 
