@@ -1,9 +1,9 @@
 class FontHackgen < Formula
   desc "Hackgen font"
   homepage "https://github.com/yuru7/HackGen"
-  url "https://github.com/yuru7/HackGen/releases/download/v2.9.0/HackGen_v2.9.0.zip"
-  version "2.9.0"
-  sha256 "123b2179866f5a291c15cf34a83fdce6ac202e2fe6ad27fbd9ddd4f5bff23c65"
+  url "https://github.com/yuru7/HackGen/releases/download/v2.9.1/HackGen_v2.9.1.zip"
+  version "2.9.1"
+  sha256 "66f2f00fb7ae00f098fb1683d0a665373f5900f9aa1447b273d70e86a868ec77"
 
   def install
     (share/"fonts").install Dir.glob("./**/HackGen-Bold.ttf")[0]
