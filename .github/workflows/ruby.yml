@@ -45,4 +45,4 @@ jobs:
       env:
         TOKEN: ${{ secrets.PUSH_TOKEN }}
       run: |
-        git push https://fgborges:${TOKEN}@github.com/Homebrew/homebrew-linux-fonts HEAD:master
+        git push "https://fgborges:${TOKEN}@github.com/Homebrew/homebrew-linux-fonts" HEAD:master
