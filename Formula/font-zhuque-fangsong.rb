@@ -1,9 +1,9 @@
 class FontZhuqueFangsong < Formula
   desc "Zhuque fangsong font"
   homepage "https://github.com/TrionesType/zhuque"
-  url "https://github.com/TrionesType/zhuque/releases/download/v0.108/ZhuqueFangsong-v0.108.zip"
-  version "0.108"
-  sha256 "ff7bab9764b88d58f0f4b18fe197fd1b3eac3a67c10030a240556da8dca0c60a"
+  url "https://github.com/TrionesType/zhuque/releases/download/v0.200/ZhuqueFangsong-v0.200.zip"
+  version "0.200"
+  sha256 "b0fbffc4a8875c5ab41c07f9f2e83b0be7d58d18bdaf4f7f24d3d401682eca8c"
 
   def install
     (share/"fonts").install Dir.glob("./**/ZhuqueFangsong-Regular.ttf")[0]
