@@ -7,10 +7,10 @@ AllCops:
   - "**/*.rbi"
   Exclude:
   - Homebrew/sorbet/rbi/{dsl,gems}/**/*.rbi
-  - Homebrew/sorbet/rbi/parlour.rbi
   - Homebrew/bin/*
   - Homebrew/vendor/**/*
   - Taps/*/*/vendor/**/*
+  - "**/vendor/**/*"
   SuggestExtensions:
     rubocop-minitest: false
 Layout/ArgumentAlignment:
@@ -169,7 +169,7 @@ Style/InvertibleUnlessCondition:
   Enabled: true
   InverseMethods:
     :==: :!=
-    :zero?: 
+    :zero?:
     :blank?: :present?
 Style/MutableConstant:
   EnforcedStyle: strict
@@ -183,12 +183,12 @@ Style/NumericLiterals:
 Style/OpenStructUse:
   Exclude:
   - Taps/**/*
-  - Homebrew/cli/args.rb
-  - Homebrew/cli/args.rbi
 Style/OptionalBooleanParameter:
   AllowedMethods:
   - respond_to?
   - respond_to_missing?
+Style/RedundantLineContinuation:
+  Enabled: false
 Style/RescueStandardError:
   EnforcedStyle: implicit
 Style/ReturnNil:
