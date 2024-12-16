@@ -1,7 +1,8 @@
 class FontNotoSansPhagspa < Formula
   desc "Noto sans phagspa font"
-  homepage "https://github.com/notofonts/phags-pa"
-  head "https://github.com/google/fonts/raw/main/ofl/notosansphagspa/NotoSansPhagsPa-Regular.ttf"
+  homepage "https://fonts.google.com/specimen/Noto+Sans+PhagsPa"
+  head "https://github.com/google/fonts/raw/main/ofl/notosansphagspa/NotoSansPhagsPa-Regular.ttf",
+       verified: "github.com/google/fonts/"
 
   def install
     (share/"fonts").install Dir.glob("./**/NotoSansPhagsPa-Regular.ttf")[0]
