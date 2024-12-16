@@ -1,7 +1,8 @@
 class FontPlaywritePlGuides < Formula
   desc "Playwrite pl guides font"
-  homepage "https://github.com/TypeTogether/Playwrite"
-  head "https://github.com/google/fonts/raw/main/ofl/playwriteplguides/PlaywritePLGuides-Regular.ttf"
+  homepage "https://fonts.google.com/specimen/Playwrite+PL+Guides"
+  head "https://github.com/google/fonts/raw/main/ofl/playwriteplguides/PlaywritePLGuides-Regular.ttf",
+       verified: "github.com/google/fonts/"
 
   def install
     (share/"fonts").install Dir.glob("./**/PlaywritePLGuides-Regular.ttf")[0]
