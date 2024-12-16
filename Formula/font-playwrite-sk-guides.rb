@@ -1,7 +1,8 @@
 class FontPlaywriteSkGuides < Formula
   desc "Playwrite sk guides font"
-  homepage "https://github.com/TypeTogether/Playwrite"
-  head "https://github.com/google/fonts/raw/main/ofl/playwriteskguides/PlaywriteSKGuides-Regular.ttf"
+  homepage "https://fonts.google.com/specimen/Playwrite+SK+Guides"
+  head "https://github.com/google/fonts/raw/main/ofl/playwriteskguides/PlaywriteSKGuides-Regular.ttf",
+       verified: "github.com/google/fonts/"
 
   def install
     (share/"fonts").install Dir.glob("./**/PlaywriteSKGuides-Regular.ttf")[0]
