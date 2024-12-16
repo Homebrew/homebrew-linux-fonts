@@ -1,7 +1,8 @@
 class FontPlaywriteUsModernGuides < Formula
   desc "Playwrite us modern guides font"
-  homepage "https://github.com/TypeTogether/Playwrite"
-  head "https://github.com/google/fonts/raw/main/ofl/playwriteusmodernguides/PlaywriteUSModernGuides-Regular.ttf"
+  homepage "https://fonts.google.com/specimen/Playwrite+US+Modern+Guides"
+  head "https://github.com/google/fonts/raw/main/ofl/playwriteusmodernguides/PlaywriteUSModernGuides-Regular.ttf",
+       verified: "github.com/google/fonts/"
 
   def install
     (share/"fonts").install Dir.glob("./**/PlaywriteUSModernGuides-Regular.ttf")[0]
