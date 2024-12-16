@@ -1,7 +1,8 @@
 class FontAguDisplay < Formula
   desc "Agu display font"
-  homepage "https://github.com/theseunbadejo/Agu-Display"
-  head "https://github.com/google/fonts/raw/main/ofl/agudisplay/AguDisplay%5BMORF%5D.ttf"
+  homepage "https://fonts.google.com/specimen/Agu+Display"
+  head "https://github.com/google/fonts/raw/main/ofl/agudisplay/AguDisplay%5BMORF%5D.ttf",
+       verified: "github.com/google/fonts/"
 
   def install
     (share/"fonts").install Dir.glob("./**/AguDisplay?MORF?.ttf")[0]
