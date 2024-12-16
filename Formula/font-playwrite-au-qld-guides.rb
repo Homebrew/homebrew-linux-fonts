@@ -1,7 +1,8 @@
 class FontPlaywriteAuQldGuides < Formula
   desc "Playwrite au qld guides font"
-  homepage "https://github.com/TypeTogether/Playwrite"
-  head "https://github.com/google/fonts/raw/main/ofl/playwriteauqldguides/PlaywriteAUQLDGuides-Regular.ttf"
+  homepage "https://fonts.google.com/specimen/Playwrite+AU+QLD+Guides"
+  head "https://github.com/google/fonts/raw/main/ofl/playwriteauqldguides/PlaywriteAUQLDGuides-Regular.ttf",
+       verified: "github.com/google/fonts/"
 
   def install
     (share/"fonts").install Dir.glob("./**/PlaywriteAUQLDGuides-Regular.ttf")[0]
