@@ -6,7 +6,7 @@ class FontAmiri < Formula
   version "1.000"
   sha256 "926fe1bd7dfde8e55178281f645258bfced6420c951c6f2fd532fd21691bca30"
 
-  deprecate! "2023-12-17", because: :discontinued
+  disable! "2024-12-16", because: :discontinued
 
   def install
     (share/"fonts").install Dir.glob("./**/Amiri-Bold.ttf")[0]
