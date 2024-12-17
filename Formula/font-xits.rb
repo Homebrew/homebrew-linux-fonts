@@ -5,7 +5,7 @@ class FontXits < Formula
   version "1.302"
   sha256 "a396dfddde7da50ce82cae530775ab522b1d33f87ca8211634535b6325a09c2b"
 
-  deprecate! "2023-12-17", because: :discontinued
+  disable! "2024-12-16", because: :discontinued
 
   def install
     (share/"fonts").install Dir.glob("./**/xits-bold.otf")[0]
