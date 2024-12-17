@@ -5,7 +5,7 @@ class FontClearSans < Formula
        branch:    "main",
        only_path: "TTF"
 
-  deprecate! "2023-12-17", because: :discontinued
+  disable! "2024-12-16", because: :discontinued
 
   def install
     (share/"fonts").install Dir.glob("TTF/./**/ClearSans-Bold.ttf")[0]
