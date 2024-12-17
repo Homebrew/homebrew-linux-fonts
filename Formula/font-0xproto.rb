@@ -3,7 +3,7 @@ class Font0xproto < Formula
   homepage "https://github.com/0xType/0xProto"
   url "https://github.com/0xType/0xProto/releases/download/2.201/0xProto_2_201.zip"
   version "2.201"
-  sha256 "201c9ee7c8f32245c4d97798b46235e2caa3586e930522ec6885c4040d08fa70"
+  sha256 "cc383e1562085438d026ef6c3ad678ca0a12d8349013485adce9791890bf8821"
 
   def install
     (share/"fonts").install Dir.glob("./**/0xProto-Bold.otf")[0]
