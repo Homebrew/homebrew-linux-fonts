@@ -1,5 +1,5 @@
 class FontNotoSerif < Formula
-  desc "Noto sans font"
+  desc "Noto serif font"
   homepage "https://notofonts.github.io/"
   url "https://github.com/notofonts/latin-greek-cyrillic/releases/download/NotoSerif-v2.015/NotoSerif-v2.015.zip",
        verified: "github.com/notofonts/"
