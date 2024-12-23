@@ -1,7 +1,8 @@
 class FontPlaywriteGbJGuides < Formula
   desc "Playwrite gb j guides font"
-  homepage "https://github.com/TypeTogether/Playwrite"
+  homepage "https://fonts.google.com/specimen/Playwrite+GB+J+Guides"
   head "https://github.com/google/fonts.git",
+       verified:  "github.com/google/fonts",
        branch:    "main",
        only_path: "ofl/playwritegbjguides"
 
