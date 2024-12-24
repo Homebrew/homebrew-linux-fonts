@@ -1,12 +1,10 @@
 class FontAmiri < Formula
   desc "Amiri font"
   homepage "https://www.amirifont.org/"
-  url "https://github.com/alif-type/amiri/releases/download/1.000/Amiri-1.000.zip",
+  url "https://github.com/alif-type/amiri/releases/download/1.001/Amiri-1.001.zip",
        verified: "github.com/alif-type/amiri/"
-  version "1.000"
-  sha256 "926fe1bd7dfde8e55178281f645258bfced6420c951c6f2fd532fd21691bca30"
-
-  disable! "2024-12-16", because: :discontinued
+  version "1.001"
+  sha256 "cae999a9fc5638cb69cf0812e8bca1437ef1ebbf094f8b3c5b3f0a3ea2ef8c3a"
 
   def install
     (share/"fonts").install Dir.glob("./**/Amiri-Bold.ttf")[0]
