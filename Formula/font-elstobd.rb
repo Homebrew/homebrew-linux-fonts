@@ -1,9 +1,9 @@
 class FontElstobd < Formula
   desc "Elstobd font"
   homepage "https://github.com/psb1558/Elstob-font"
-  url "https://github.com/psb1558/Elstob-font/releases/download/v3.000/Elstob_3.000.zip"
-  version "3.000"
-  sha256 "f926bd4bb160276827f6c6e682fe5b41cd7c7a90ea800ed1a776d6d3176f3699"
+  url "https://github.com/psb1558/Elstob-font/releases/download/v3.001/Elstob_3.001.zip"
+  version "3.001"
+  sha256 "622a0117e5eabe5e179dac673c8b8027f75a1d7f082a4a248038374091356eb8"
 
   def install
     (share/"fonts").install Dir.glob("./**/variable/Elstob-Italic.ttf")[0]
