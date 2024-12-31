@@ -1,9 +1,9 @@
 class FontPlemolJpNf < Formula
   desc "Plemoljp nf font"
   homepage "https://github.com/yuru7/PlemolJP"
-  url "https://github.com/yuru7/PlemolJP/releases/download/v1.7.1/PlemolJP_NF_v1.7.1.zip"
-  version "1.7.1"
-  sha256 "c81a4c6121afa5d2af4bf22a04feab5c531d4f4011ae1adc9d4243e77a0cccbb"
+  url "https://github.com/yuru7/PlemolJP/releases/download/v2.0.0/PlemolJP_NF_v2.0.0.zip"
+  version "2.0.0"
+  sha256 "d13a584bb958470797d24d4cac12ca7b1dd76a2c5c072970aaf19e81afb07f4a"
 
   def install
     (share/"fonts").install Dir.glob("./**/PlemolJP35Console_NF/PlemolJP35ConsoleNF-Bold.ttf")[0]
