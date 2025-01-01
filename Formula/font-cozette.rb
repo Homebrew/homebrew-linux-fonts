@@ -1,11 +1,13 @@
 class FontCozette < Formula
   desc "Cozette font"
   homepage "https://github.com/slavfox/Cozette"
-  url "https://github.com/slavfox/Cozette/releases/download/v.1.25.2/CozetteFonts-v-1-25-2.zip"
-  version "1.25.2"
-  sha256 "0ee8292f9273b56e64c19e3a4d978d6f5c4b091220ec129083287d99a059cd18"
+  url "https://github.com/slavfox/Cozette/releases/download/v.1.26.0/CozetteFonts-v-1-26-0.zip"
+  version "1.26.0"
+  sha256 "0f1582d475afc685c82184e49a67d78907fa2137a51b73ea99aaa5fb54c27b54"
 
   def install
+    (share/"fonts").install Dir.glob("./**/CozetteCrossedSevenVector.otf")[0]
+    (share/"fonts").install Dir.glob("./**/CozetteCrossedSevenVectorBold.otf")[0]
     (share/"fonts").install Dir.glob("./**/CozetteVector.otf")[0]
     (share/"fonts").install Dir.glob("./**/CozetteVectorBold.otf")[0]
   end
