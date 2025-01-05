@@ -1,6 +1,6 @@
 class FontLinuxLibertine < Formula
   desc "Linux libertine font"
-  homepage "http://linuxlibertine.org/"
+  homepage "https://libertine-fonts.org/"
   url "https://downloads.sourceforge.net/linuxlibertine/LinLibertineTTF_5.3.0_2012_07_02.tgz",
        verified: "downloads.sourceforge.net/linuxlibertine/"
   version "5.3.0,2012_07_02"
