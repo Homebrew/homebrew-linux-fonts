@@ -1,7 +1,8 @@
 class FontCochineal < Formula
   desc "Cochineal font"
   homepage "https://ctan.org/pkg/cochineal"
-  head "http://mirrors.ctan.org/fonts/cochineal.zip"
+  url "https://mirrors.ctan.org/fonts/cochineal.zip"
+  version "1.085"
 
   def install
     (share/"fonts").install Dir.glob("./**/opentype/Cochineal-Bold.otf")[0]
