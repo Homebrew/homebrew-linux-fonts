@@ -1,7 +1,8 @@
 class FontAboriginalSans < Formula
   desc "Languagegeek aboriginal sans serif font"
   homepage "https://www.languagegeek.com/font/fontdownload.html"
-  head "https://www.languagegeek.com/font/AboriginalSans.zip"
+  url "https://www.languagegeek.com/font/AboriginalSans.zip"
+  version "9.602"
 
   def install
     (share/"fonts").install Dir.glob("./**/AboriginalSansBOLD.ttf")[0]
