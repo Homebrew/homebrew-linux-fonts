@@ -1,7 +1,8 @@
 class FontTogalite < Formula
   desc "Togalite font"
   homepage "https://moji-waku.com/togalite/index.html"
-  head "https://moji-waku.com/download/togalite.zip"
+  url "https://moji-waku.com/download/togalite.zip"
+  version "2.0"
 
   def install
     (share/"fonts").install Dir.glob("./**/togalite-black.otf")[0]
