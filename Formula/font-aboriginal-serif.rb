@@ -1,7 +1,8 @@
 class FontAboriginalSerif < Formula
   desc "Aboriginal serif font"
   homepage "https://www.languagegeek.com/font/fontdownload.html"
-  head "https://www.languagegeek.com/font/AboriginalSerif.zip"
+  url "https://www.languagegeek.com/font/AboriginalSerif.zip"
+  version "9.606"
 
   def install
     (share/"fonts").install Dir.glob("./**/AboriginalSerifBOLD.ttf")[0]
