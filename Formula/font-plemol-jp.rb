@@ -1,9 +1,9 @@
 class FontPlemolJp < Formula
   desc "Plemoljp font"
   homepage "https://github.com/yuru7/PlemolJP"
-  url "https://github.com/yuru7/PlemolJP/releases/download/v2.0.0/PlemolJP_v2.0.0.zip"
-  version "2.0.0"
-  sha256 "d5f98cc23dec832c63ce64904e6deec0da40d9ea97a12a9ca2510f39fa8396d7"
+  url "https://github.com/yuru7/PlemolJP/releases/download/v2.0.1/PlemolJP_v2.0.1.zip"
+  version "2.0.1"
+  sha256 "54df13e46a3d9d7f5f6975f7a3c8b290893b854c413499d36495695940e5a369"
 
   def install
     (share/"fonts").install Dir.glob("./**/PlemolJP/PlemolJP-Bold.ttf")[0]
