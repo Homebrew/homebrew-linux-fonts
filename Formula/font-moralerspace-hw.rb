@@ -1,9 +1,9 @@
 class FontMoralerspaceHw < Formula
   desc "Moralerspace hw font"
   homepage "https://github.com/yuru7/moralerspace"
-  url "https://github.com/yuru7/moralerspace/releases/download/v1.0.2/MoralerspaceHW_v1.0.2.zip"
-  version "1.0.2"
-  sha256 "d3c7288f071288e5edadb049211b76b42b7214b5c1a3d43e49848dad9c319b78"
+  url "https://github.com/yuru7/moralerspace/releases/download/v1.1.0/MoralerspaceHW_v1.1.0.zip"
+  version "1.1.0"
+  sha256 "7d7be182d13930ef6710ec1de61adc5bf9740b8d9754cfd5260bca3f4239c8f5"
 
   def install
     (share/"fonts").install Dir.glob("./**/MoralerspaceArgonHW-Bold.ttf")[0]
