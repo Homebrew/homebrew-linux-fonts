@@ -7,8 +7,8 @@ class FontInclusiveSans < Formula
        only_path: "ofl/inclusivesans"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/inclusivesans/./**/InclusiveSans-Italic.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/inclusivesans/./**/InclusiveSans-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/inclusivesans/./**/InclusiveSans-Italic?wght?.ttf")[0]
+    (share/"fonts").install Dir.glob("ofl/inclusivesans/./**/InclusiveSans?wght?.ttf")[0]
   end
 
   test do
