@@ -1,9 +1,9 @@
 class FontMoralerspaceJpdoc < Formula
   desc "Moralerspace jpdoc font"
   homepage "https://github.com/yuru7/moralerspace"
-  url "https://github.com/yuru7/moralerspace/releases/download/v1.0.2/MoralerspaceJPDOC_v1.0.2.zip"
-  version "1.0.2"
-  sha256 "0c22320b9466d5cfb9e66c9ecba1bef6a71afe2a5890e81927efd78ba721261e"
+  url "https://github.com/yuru7/moralerspace/releases/download/v1.1.0/MoralerspaceJPDOC_v1.1.0.zip"
+  version "1.1.0"
+  sha256 "46581e9c3f2f41da4601649a9dacf54e0551b06a35ebea56b8760cb9358dde0f"
 
   def install
     (share/"fonts").install Dir.glob("./**/MoralerspaceArgonJPDOC-Bold.ttf")[0]
