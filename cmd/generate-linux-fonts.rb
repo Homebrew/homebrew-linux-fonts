@@ -5,6 +5,7 @@ require "pathname"
 require "open-uri"
 require "json"
 require "tempfile"
+require "uri"
 require "utils/popen"
 
 module Homebrew
@@ -161,6 +162,11 @@ module Homebrew
     end
 
     formula += format_stanza :head, cask["url"], cask["url_specs"] if cask["version"] == "latest"
+    if cask["url"].end_with?(".exe")
+      formula += <<-EOS
+  depends_on "cabextract" => :build
+      EOS
+    end
 
     paths = get_font_paths(cask)
     if paths.count < 1
@@ -176,7 +182,7 @@ module Homebrew
       else
         "\"#{cask["disable_reason"]}\""
       end
-        
+
       formula += <<-EOS
 
   disable! "#{cask["disable_date"]}", because: #{reason}
@@ -198,6 +204,13 @@ module Homebrew
 
   def install
     EOS
+
+    if cask["url"].end_with?(".exe")
+      file = URI(cask["url"]).path.split('/').last
+      formula += <<-EOS
+    system "cabextract", "#{file}"
+      EOS
+    end
 
     paths.sort.each do |path|
       formula += <<-EOS
