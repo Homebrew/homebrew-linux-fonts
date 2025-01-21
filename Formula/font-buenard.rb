@@ -1,14 +1,11 @@
 class FontBuenard < Formula
   desc "Buenard font"
   homepage "https://fonts.google.com/specimen/Buenard"
-  head "https://github.com/google/fonts.git",
-       verified:  "github.com/google/fonts",
-       branch:    "main",
-       only_path: "ofl/buenard"
+  head "https://github.com/google/fonts/raw/main/ofl/buenard/Buenard%5Bwght%5D.ttf",
+       verified: "github.com/google/fonts/"
 
   def install
-    (share/"fonts").install Dir.glob("ofl/buenard/./**/Buenard-Bold.ttf")[0]
-    (share/"fonts").install Dir.glob("ofl/buenard/./**/Buenard-Regular.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/Buenard?wght?.ttf")[0]
   end
 
   test do
