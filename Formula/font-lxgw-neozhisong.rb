@@ -1,9 +1,9 @@
 class FontLxgwNeozhisong < Formula
   desc "Lxgw neo zhisong font"
   homepage "https://github.com/lxgw/LxgwNeoZhiSong"
-  url "https://github.com/lxgw/LxgwNeoZhiSong/releases/download/v1.022/LXGWNeoZhiSong.ttf"
-  version "1.022"
-  sha256 "8c1e8a4c9b866acf2924cd979d29aaa5d4e5715a0e12d5a7207130a812ef5c4a"
+  url "https://github.com/lxgw/LxgwNeoZhiSong/releases/download/v1.023/LXGWNeoZhiSong.ttf"
+  version "1.023"
+  sha256 "08e7f3d710825dda43b25a8c7300fc670b89256e0fb7499b6d85b06bf7114453"
 
   def install
     (share/"fonts").install Dir.glob("./**/LXGWNeoZhiSong.ttf")[0]
