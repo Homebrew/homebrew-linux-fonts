@@ -1,9 +1,9 @@
 class FontLxgwNeoxihei < Formula
   desc "Lxgw neoxihei font"
   homepage "https://github.com/lxgw/LxgwNeoXiHei"
-  url "https://github.com/lxgw/LxgwNeoXiHei/releases/download/v1.211/LXGWNeoXiHei.ttf"
-  version "1.211"
-  sha256 "c37464d0d0d85cfcf3835246b02eb322faf44a23376731c75bd3701cd0219da3"
+  url "https://github.com/lxgw/LxgwNeoXiHei/releases/download/v1.212/LXGWNeoXiHei.ttf"
+  version "1.212"
+  sha256 "83ae24318ffd9074a5507dabbc3c4acb89e64be4c7fff48d25f0a74171c2e10f"
 
   def install
     (share/"fonts").install Dir.glob("./**/LXGWNeoXiHei.ttf")[0]
