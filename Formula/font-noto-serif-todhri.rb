@@ -1,7 +1,8 @@
 class FontNotoSerifTodhri < Formula
   desc "Noto serif todhri font"
-  homepage "https://github.com/notofonts/todhri"
-  head "https://github.com/google/fonts/raw/main/ofl/notoseriftodhri/NotoSerifTodhri-Regular.ttf"
+  homepage "https://fonts.google.com/specimen/Noto+Serif+Todhri"
+  head "https://github.com/google/fonts/raw/main/ofl/notoseriftodhri/NotoSerifTodhri-Regular.ttf",
+       verified: "github.com/google/fonts/"
 
   def install
     (share/"fonts").install Dir.glob("./**/NotoSerifTodhri-Regular.ttf")[0]
