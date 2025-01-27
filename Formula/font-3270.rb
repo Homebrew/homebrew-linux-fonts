@@ -7,11 +7,8 @@ class Font3270 < Formula
 
   def install
     (share/"fonts").install Dir.glob("./**/3270-Regular.otf")[0]
-    (share/"fonts").install Dir.glob("./**/3270-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("./**/3270Condensed-Regular.otf")[0]
-    (share/"fonts").install Dir.glob("./**/3270Condensed-Regular.ttf")[0]
     (share/"fonts").install Dir.glob("./**/3270SemiCondensed-Regular.otf")[0]
-    (share/"fonts").install Dir.glob("./**/3270SemiCondensed-Regular.ttf")[0]
   end
 
   test do
