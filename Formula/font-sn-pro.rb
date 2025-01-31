@@ -1,10 +1,10 @@
 class FontSnPro < Formula
   desc "Sn pro font family font"
   homepage "https://supernotes.app/open-source/sn-pro"
-  url "https://github.com/supernotes/sn-pro/releases/download/1.3.0/SN-Pro.zip",
+  url "https://github.com/supernotes/sn-pro/releases/download/1.4.0/SN-Pro.zip",
        verified: "github.com/supernotes/sn-pro/"
-  version "1.3.0"
-  sha256 "db163ac2c3689a7490bca084ca992d757d9f861fff1eb1841989d9a1b44f2ac4"
+  version "1.4.0"
+  sha256 "d746f61b0a25d10b159e4a5ac577cf66522fbc7faf66defcce207e8379696a66"
 
   def install
     (share/"fonts").install Dir.glob("./**/SNPro-Black.otf")[0]
