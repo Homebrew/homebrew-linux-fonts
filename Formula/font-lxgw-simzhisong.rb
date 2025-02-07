@@ -1,9 +1,9 @@
 class FontLxgwSimzhisong < Formula
   desc "Lxgw simzhisong font"
   homepage "https://github.com/lxgw/SimXiZhi"
-  url "https://github.com/lxgw/SimXiZhi/releases/download/v1.008.2/SimZhiSong.ttf"
-  version "1.008.2"
-  sha256 "63765a97ab37f6dc74fc55efee4439508397c0afa997f7304ad4651a1a27cd4f"
+  url "https://github.com/lxgw/SimXiZhi/releases/download/v1.009/SimZhiSong.ttf"
+  version "1.009"
+  sha256 "1a0cc70df1e506df092584de52d6dedc050f94d88024214c6bb74e532993d1a5"
 
   def install
     (share/"fonts").install Dir.glob("./**/SimZhiSong.ttf")[0]
