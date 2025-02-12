@@ -1,9 +1,9 @@
 class FontMartianMono < Formula
   desc "Martian mono font"
   homepage "https://github.com/evilmartians/mono"
-  url "https://github.com/evilmartians/mono/releases/download/v1.0.0/martian-mono-1.0.0-otf.zip"
-  version "1.0.0"
-  sha256 "82683f519651fb05e29d47d075f10e8db40ff5328a50e641e5c30f5fa94297b6"
+  url "https://github.com/evilmartians/mono/releases/download/v1.1.0/martian-mono-1.1.0-otf.zip"
+  version "1.1.0"
+  sha256 "2570b4fd6da9d641a6385f092167a21707448274d5b87cd85244411d868d3a80"
 
   def install
     (share/"fonts").install Dir.glob("./**/MartianMono-CnBd.otf")[0]
