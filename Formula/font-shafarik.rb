@@ -1,7 +1,8 @@
 class FontShafarik < Formula
   desc "Shafarik font"
-  homepage "https://github.com/slavonic/shafarik"
-  head "https://github.com/google/fonts/raw/main/ofl/shafarik/Shafarik-Regular.ttf"
+  homepage "https://fonts.google.com/specimen/Shafarik"
+  head "https://github.com/google/fonts/raw/main/ofl/shafarik/Shafarik-Regular.ttf",
+       verified: "github.com/google/fonts/"
 
   def install
     (share/"fonts").install Dir.glob("./**/Shafarik-Regular.ttf")[0]
