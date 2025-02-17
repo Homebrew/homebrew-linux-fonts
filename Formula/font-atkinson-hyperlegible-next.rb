@@ -1,7 +1,8 @@
 class FontAtkinsonHyperlegibleNext < Formula
   desc "Atkinson hyperlegible next font"
-  homepage "https://github.com/googlefonts/atkinson-hyperlegible-next"
+  homepage "https://fonts.google.com/specimen/Atkinson+Hyperlegible+Next"
   head "https://github.com/google/fonts.git",
+       verified:  "github.com/google/fonts",
        branch:    "main",
        only_path: "ofl/atkinsonhyperlegiblenext"
 
