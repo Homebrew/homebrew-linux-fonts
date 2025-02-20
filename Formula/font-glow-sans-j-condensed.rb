@@ -5,7 +5,7 @@ class FontGlowSansJCondensed < Formula
   version "0.93"
   sha256 "3b6d38f707d204a2e8341b06ff0402dd9bb7daa095a6d5ab9da132c1966597b5"
 
-  deprecate! "2024-02-17", because: :discontinued
+  disable! "2025-02-19", because: :discontinued
 
   def install
     (share/"fonts").install Dir.glob("./**/GlowSansJ-Condensed-Bold.otf")[0]
