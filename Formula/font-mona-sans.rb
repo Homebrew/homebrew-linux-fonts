@@ -1,6 +1,6 @@
 class FontMonaSans < Formula
-  desc "Mona-sans font"
-  homepage "https://github.com/github/mona-sans"
+  desc "Mona sans font"
+  homepage "https://github.com/mona-sans"
   url "https://github.com/github/mona-sans/releases/download/v1.0.1/MonaSans.zip"
   version "1.0.1"
   sha256 "c5e44e736b72bbbd47ae7fecfde8f0c149ba2c0a436d27a2f1ec6392ba3ecd0b"
