@@ -4,7 +4,7 @@ class FontDashicons < Formula
   head "https://github.com/WordPress/dashicons/raw/master/icon-font/fonts/dashicons.ttf",
        verified: "github.com/WordPress/dashicons/"
 
-  deprecate! "2024-02-18", because: :discontinued
+  disable! "2025-02-19", because: :discontinued
 
   def install
     (share/"fonts").install Dir.glob("./**/dashicons.ttf")[0]
