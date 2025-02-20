@@ -5,7 +5,7 @@ class FontGlowSansJWide < Formula
   version "0.93"
   sha256 "eb20892d347dce7b53084bf420b3947dad79993cbe54fdebca425273c635e521"
 
-  deprecate! "2024-02-17", because: :discontinued
+  disable! "2025-02-19", because: :discontinued
 
   def install
     (share/"fonts").install Dir.glob("./**/GlowSansJ-Wide-Bold.otf")[0]
