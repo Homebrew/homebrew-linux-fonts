@@ -5,7 +5,7 @@ class FontGlowSansScCondensed < Formula
   version "0.93"
   sha256 "9eb59505b8b6a863f8b61b9941fd2ac4b748e501d5c272987c3408052b0765aa"
 
-  deprecate! "2024-02-17", because: :discontinued
+  disable! "2025-02-19", because: :discontinued
 
   def install
     (share/"fonts").install Dir.glob("./**/GlowSansSC-Condensed-Bold.otf")[0]
