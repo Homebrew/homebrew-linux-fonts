@@ -5,7 +5,7 @@ class FontLxgwZhenkai < Formula
   version "0.600"
   sha256 "457955ce330f2945428f92b4621c72d72435cf9028a82ac138283cfe5e1f553f"
 
-  deprecate! "2024-02-18", because: :discontinued
+  disable! "2025-02-19", because: :discontinued
 
   def install
     (share/"fonts").install Dir.glob("./**/LXGWZhenKai.ttf")[0]
