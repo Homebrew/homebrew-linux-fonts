@@ -5,7 +5,7 @@ class FontGlowSansTcExtended < Formula
   version "0.93"
   sha256 "a1e4745dc320c948875aa38f435886b0c54ab24a4410d3fdba719a854e9b491f"
 
-  deprecate! "2024-02-17", because: :discontinued
+  disable! "2025-02-19", because: :discontinued
 
   def install
     (share/"fonts").install Dir.glob("./**/GlowSansTC-Extended-Bold.otf")[0]
