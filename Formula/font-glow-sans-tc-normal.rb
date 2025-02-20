@@ -5,7 +5,7 @@ class FontGlowSansTcNormal < Formula
   version "0.93"
   sha256 "16e8a28001ab1b29887dbf636fb3623e413178c4b2fcb82604a66bb9d1806547"
 
-  deprecate! "2024-02-17", because: :discontinued
+  disable! "2025-02-19", because: :discontinued
 
   def install
     (share/"fonts").install Dir.glob("./**/GlowSansTC-Normal-Bold.otf")[0]
