@@ -1,5 +1,5 @@
 class FontIntelOneMono < Formula
-  desc "Font-intel-one-mono font"
+  desc "Intel one mono font"
   homepage "https://github.com/intel/intel-one-mono"
   url "https://github.com/intel/intel-one-mono/releases/download/V1.4.0/otf.zip"
   version "1.4.0"
