@@ -5,7 +5,7 @@ class FontIosevkaComfy < Formula
   version "2.1.0"
   sha256 "dbb7cddb1a0f40019ccb8585ad8fe9ba9ea4d32ec90c46e368756eedff0cb109"
 
-  deprecate! "2024-02-19", because: :discontinued
+  deprecate! "2025-02-19", because: :discontinued
 
   def install
     (share/"fonts").install Dir.glob("./**/iosevka-comfy-duo/TTF/iosevka-comfy-duo-normalbolditalic.ttf")[0]
