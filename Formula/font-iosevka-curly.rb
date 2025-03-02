@@ -1,9 +1,9 @@
 class FontIosevkaCurly < Formula
   desc "Iosevka curly font"
   homepage "https://github.com/be5invis/Iosevka/"
-  url "https://github.com/be5invis/Iosevka/releases/download/v32.5.0/SuperTTC-IosevkaCurly-32.5.0.zip"
-  version "32.5.0"
-  sha256 "7ffa612001902d64ca962477ae798f2da1b4483f535609a0104681d11f23f843"
+  url "https://github.com/be5invis/Iosevka/releases/download/v33.0.0/SuperTTC-IosevkaCurly-33.0.0.zip"
+  version "33.0.0"
+  sha256 "774e7443f8094c29a82c887ce6a345ad9ae1e281ad9286e941d1772e9df2f3c3"
 
   def install
     (share/"fonts").install Dir.glob("./**/IosevkaCurly.ttc")[0]
