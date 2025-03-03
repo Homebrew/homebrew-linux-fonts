@@ -1,9 +1,9 @@
 class FontSarasaGothic < Formula
   desc "Sarasa gothic font"
   homepage "https://github.com/be5invis/Sarasa-Gothic"
-  url "https://github.com/be5invis/Sarasa-Gothic/releases/download/v1.0.28/Sarasa-TTC-1.0.28.7z"
-  version "1.0.28"
-  sha256 "4569f7b58731c910da6cab08669c8a6557abc54c0279cbb8232549261b634d55"
+  url "https://github.com/be5invis/Sarasa-Gothic/releases/download/v1.0.29/Sarasa-TTC-1.0.29.7z"
+  version "1.0.29"
+  sha256 "87a30eae1bfd2fdf122ed04b3a906f356a89e3bb57022792b53dd497c7e502f9"
 
   def install
     (share/"fonts").install Dir.glob("./**/Sarasa-Bold.ttc")[0]
