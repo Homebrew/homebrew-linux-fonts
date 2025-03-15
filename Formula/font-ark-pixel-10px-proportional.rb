@@ -1,9 +1,9 @@
 class FontArkPixel10pxProportional < Formula
   desc "Ark pixel 10px proportional font"
   homepage "https://github.com/TakWolf/ark-pixel-font"
-  url "https://github.com/TakWolf/ark-pixel-font/releases/download/2025.01.06/ark-pixel-font-10px-proportional-otf-v2025.01.06.zip"
-  version "2025.01.06"
-  sha256 "d6c15071740beef5d8dc10f1535250e8f71d8c5f78abcf3044de31e16b3146d2"
+  url "https://github.com/TakWolf/ark-pixel-font/releases/download/2025.03.14/ark-pixel-font-10px-proportional-otf-v2025.03.14.zip"
+  version "2025.03.14"
+  sha256 "b1bea9912401562b2bd97ccf13c0d5cc250b73e3341de988039c19076e97bb0f"
 
   def install
     (share/"fonts").install Dir.glob("./**/ark-pixel-10px-proportional-ja.otf")[0]
