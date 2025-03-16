@@ -183,9 +183,15 @@ module Homebrew
         "\"#{cask["disable_reason"]}\""
       end
 
+      replacement = if cask["disable_replacement"]
+        ", replacement: \"#{cask["disable_replacement"]}\""
+      else
+        ""
+      end
+
       formula += <<-EOS
 
-  disable! "#{cask["disable_date"]}", because: #{reason}
+  disable! "#{cask["disable_date"]}", because: #{reason}#{replacement}
       EOS
     elsif cask["deprecation_date"].present?
       reason = if !cask["deprecation_reason"].match?(" ")
@@ -194,9 +200,15 @@ module Homebrew
         "\"#{cask["deprecation_reason"]}\""
       end
 
+      replacement = if cask["deprecation_replacement"]
+        ", replacement: \"#{cask["deprecation_replacement"]}\""
+      else
+        ""
+      end
+
       formula += <<-EOS
 
-  deprecate! "#{cask["deprecation_date"]}", because: :#{cask["deprecation_reason"]}
+  deprecate! "#{cask["deprecation_date"]}", because: #{reason}#{replacement}
       EOS
     end
 
