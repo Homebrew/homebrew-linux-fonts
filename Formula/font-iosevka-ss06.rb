@@ -1,9 +1,9 @@
 class FontIosevkaSs06 < Formula
   desc "Iosevka ss06 font"
   homepage "https://github.com/be5invis/Iosevka/"
-  url "https://github.com/be5invis/Iosevka/releases/download/v33.0.1/SuperTTC-IosevkaSS06-33.0.1.zip"
-  version "33.0.1"
-  sha256 "453b4bb4fd63b6fa5d0c1b4c78dbef62662036a668d01b35ce9b1a4e233dc4e1"
+  url "https://github.com/be5invis/Iosevka/releases/download/v33.1.0/SuperTTC-IosevkaSS06-33.1.0.zip"
+  version "33.1.0"
+  sha256 "18523c6b0234031467173ac446c9df2296a830f8a38eb1baf8417eca3477502e"
 
   def install
     (share/"fonts").install Dir.glob("./**/IosevkaSS06.ttc")[0]
