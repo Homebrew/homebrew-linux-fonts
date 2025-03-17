@@ -1,9 +1,9 @@
 class FontMapleMonoCn < Formula
   desc "Maple mono cn font"
   homepage "https://github.com/subframe7536/Maple-font"
-  url "https://github.com/subframe7536/Maple-font/releases/download/v7.0-beta36/MapleMono-CN-unhinted.zip"
-  version "7.0-beta36"
-  sha256 "08002c0b1a40964b8dcf81a9fe41f35258fa3a148e55d46a4c7266031d2ce666"
+  url "https://github.com/subframe7536/Maple-font/releases/download/v7.0/MapleMono-CN-unhinted.zip"
+  version "7.0"
+  sha256 "2f611ab05112f4462636d3acfc22b0aaa40dce4c40660a014fca8dd5d5a2a417"
 
   def install
     (share/"fonts").install Dir.glob("./**/MapleMono-CN-Bold.ttf")[0]
