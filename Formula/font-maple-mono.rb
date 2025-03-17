@@ -1,9 +1,9 @@
 class FontMapleMono < Formula
   desc "Maple mono font"
   homepage "https://github.com/subframe7536/Maple-font"
-  url "https://github.com/subframe7536/Maple-font/releases/download/v7.0-beta36/MapleMono-TTF.zip"
-  version "7.0-beta36"
-  sha256 "2774a3ac6ab66e46bfaaea98d3cd71bff696eabcb8c103eab7fc7bae461a534c"
+  url "https://github.com/subframe7536/Maple-font/releases/download/v7.0/MapleMono-TTF.zip"
+  version "7.0"
+  sha256 "1609689e46e7a618b09b11a3ed9d28cdf1ccc29263efef7a83a58cb4c7b7ac8a"
 
   def install
     (share/"fonts").install Dir.glob("./**/MapleMono-Bold.ttf")[0]
