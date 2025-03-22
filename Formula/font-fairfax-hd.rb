@@ -1,10 +1,10 @@
 class FontFairfaxHd < Formula
   desc "Fairfax hd font"
   homepage "https://www.kreativekorp.com/software/fonts/fairfaxhd/"
-  url "https://github.com/kreativekorp/open-relay/releases/download/2024-06-01/FairfaxHD.zip",
+  url "https://github.com/kreativekorp/open-relay/releases/download/2025-03-20/FairfaxHD.zip",
        verified: "github.com/kreativekorp/open-relay/"
-  version "2024-06-01"
-  sha256 "755daa19c04df49d351c7193ec49f62cacd9c172c435de258d71db9960bd8c91"
+  version "2025-03-20"
+  sha256 "383c0b3a7584647b69f4b35982eba73f994e7e62faf98a15e0a99c2a1cd23873"
 
   def install
     (share/"fonts").install Dir.glob("./**/FairfaxHD.ttf")[0]
