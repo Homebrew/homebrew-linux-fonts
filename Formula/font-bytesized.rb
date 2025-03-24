@@ -1,7 +1,8 @@
 class FontBytesized < Formula
   desc "Bytesized font"
-  homepage "https://github.com/balt-dev/bytesized-gf"
-  head "https://github.com/google/fonts/raw/main/ofl/bytesized/Bytesized-Regular.ttf"
+  homepage "https://fonts.google.com/specimen/Bytesized"
+  head "https://github.com/google/fonts/raw/main/ofl/bytesized/Bytesized-Regular.ttf",
+       verified: "github.com/google/fonts/"
 
   def install
     (share/"fonts").install Dir.glob("./**/Bytesized-Regular.ttf")[0]
