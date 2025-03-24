@@ -1,7 +1,8 @@
 class FontWinkySans < Formula
   desc "Winky sans font"
-  homepage "https://github.com/typofactur/winkysans"
+  homepage "https://fonts.google.com/specimen/Winky+Sans"
   head "https://github.com/google/fonts.git",
+       verified:  "github.com/google/fonts",
        branch:    "main",
        only_path: "ofl/winkysans"
 
