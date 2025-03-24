@@ -1,7 +1,8 @@
 class FontBoldonse < Formula
   desc "Boldonse font"
-  homepage "https://github.com/googlefonts/boldonse"
-  head "https://github.com/google/fonts/raw/main/ofl/boldonse/Boldonse-Regular.ttf"
+  homepage "https://fonts.google.com/specimen/Boldonse"
+  head "https://github.com/google/fonts/raw/main/ofl/boldonse/Boldonse-Regular.ttf",
+       verified: "github.com/google/fonts/"
 
   def install
     (share/"fonts").install Dir.glob("./**/Boldonse-Regular.ttf")[0]
