@@ -1,9 +1,9 @@
 class FontLxgwSimxihei < Formula
   desc "Lxgw simxihei font"
   homepage "https://github.com/lxgw/SimXiZhi"
-  url "https://github.com/lxgw/SimXiZhi/releases/download/v1.012/SimXiHei.ttf"
-  version "1.012"
-  sha256 "b8fe96460f1c0a2e3d335d988d61e8a0ae04a0312a2973fc35284020c31213d9"
+  url "https://github.com/lxgw/SimXiZhi/releases/download/v1.020/SimXiHei.ttf"
+  version "1.020"
+  sha256 "9c290de6f297dce1d11f35d716e3938e72a0963c4b6115e565f7c9decb14cd5f"
 
   def install
     (share/"fonts").install Dir.glob("./**/SimXiHei.ttf")[0]
