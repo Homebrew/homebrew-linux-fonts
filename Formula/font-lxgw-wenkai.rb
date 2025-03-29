@@ -1,9 +1,9 @@
 class FontLxgwWenkai < Formula
   desc "Lxgw wenkai font"
   homepage "https://github.com/lxgw/LxgwWenKai"
-  url "https://github.com/lxgw/LxgwWenKai/releases/download/v1.510/lxgw-wenkai-v1.510.zip"
-  version "1.510"
-  sha256 "5cd83a8bd400163a64ab846aac16744e9f4da62074c63f29497a7113f8f54d3a"
+  url "https://github.com/lxgw/LxgwWenKai/releases/download/v1.511/lxgw-wenkai-v1.511.zip"
+  version "1.511"
+  sha256 "0611c053032c29f971b2d175268cdcb8ef7923d658221589b47cb6e9fd722af9"
 
   def install
     (share/"fonts").install Dir.glob("./**/LXGWWenKai-Light.ttf")[0]
