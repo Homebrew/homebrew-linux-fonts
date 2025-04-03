@@ -1,15 +1,16 @@
 class FontPlemolJp < Formula
   desc "Plemoljp font"
   homepage "https://github.com/yuru7/PlemolJP"
-  url "https://github.com/yuru7/PlemolJP/releases/download/v2.0.3/PlemolJP_v2.0.3.zip"
-  version "2.0.3"
-  sha256 "9a95404b4dea7adf77e3b487f41d6914e3de594cb38e3abd6547c587a18b6a6b"
+  url "https://github.com/yuru7/PlemolJP/releases/download/v2.0.4/PlemolJP_v2.0.4.zip"
+  version "2.0.4"
+  sha256 "0bf19bd2a242e70582bb8c0be084c878e843f6aeaa9e00210828532285599757"
 
   def install
     (share/"fonts").install Dir.glob("./**/PlemolJP/PlemolJP-Bold.ttf")[0]
     (share/"fonts").install Dir.glob("./**/PlemolJP/PlemolJP-BoldItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/PlemolJP/PlemolJP-ExtraLight.ttf")[0]
     (share/"fonts").install Dir.glob("./**/PlemolJP/PlemolJP-ExtraLightItalic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/PlemolJP/PlemolJP-Italic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/PlemolJP/PlemolJP-Light.ttf")[0]
     (share/"fonts").install Dir.glob("./**/PlemolJP/PlemolJP-LightItalic.ttf")[0]
     (share/"fonts").install Dir.glob("./**/PlemolJP/PlemolJP-Medium.ttf")[0]
