@@ -16,6 +16,8 @@ class FontRedhat < Formula
     (share/"fonts").install Dir.glob("./**/fonts/Mono/otf/RedHatMono-Regular.otf")[0]
     (share/"fonts").install Dir.glob("./**/fonts/Mono/otf/RedHatMono-SemiBold.otf")[0]
     (share/"fonts").install Dir.glob("./**/fonts/Mono/otf/RedHatMono-SemiBoldItalic.otf")[0]
+    (share/"fonts").install Dir.glob("./**/fonts/Mono/variable/RedHatMonoVF-Italic.ttf")[0]
+    (share/"fonts").install Dir.glob("./**/fonts/Mono/variable/RedHatMonoVF.ttf")[0]
     (share/"fonts").install Dir.glob("./**/fonts/Proportional/RedHatDisplay/otf/RedHatDisplay-Black.otf")[0]
     (share/"fonts").install Dir.glob("./**/fonts/Proportional/RedHatDisplay/otf/RedHatDisplay-BlackItalic.otf")[0]
     (share/"fonts").install Dir.glob("./**/fonts/Proportional/RedHatDisplay/otf/RedHatDisplay-Bold.otf")[0]
