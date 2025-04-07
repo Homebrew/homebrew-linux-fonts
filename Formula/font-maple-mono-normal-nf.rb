@@ -1,7 +1,8 @@
 class FontMapleMonoNormalNf < Formula
   desc "Maple mono normal nf font"
-  homepage "https://github.com/subframe7536/Maple-font"
-  url "https://github.com/subframe7536/Maple-font/releases/download/v7.0/MapleMonoNormal-NF-unhinted.zip"
+  homepage "https://font.subf.dev/en/"
+  url "https://github.com/subframe7536/Maple-font/releases/download/v7.0/MapleMonoNormal-NF-unhinted.zip",
+       verified: "github.com/subframe7536/Maple-font/"
   version "7.0"
   sha256 "f4585b0e10671841705f6604d8611ecad788580e73ddbe152705114d6b167f79"
 
