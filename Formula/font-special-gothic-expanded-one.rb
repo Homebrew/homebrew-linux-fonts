@@ -1,7 +1,8 @@
 class FontSpecialGothicExpandedOne < Formula
   desc "Special gothic expanded one font"
-  homepage "https://github.com/AlistairMcCready/Special-Gothic"
-  head "https://github.com/google/fonts/raw/main/ofl/specialgothicexpandedone/SpecialGothicExpandedOne-Regular.ttf"
+  homepage "https://fonts.google.com/specimen/Special+Gothic+Expanded+One"
+  head "https://github.com/google/fonts/raw/main/ofl/specialgothicexpandedone/SpecialGothicExpandedOne-Regular.ttf",
+       verified: "github.com/google/fonts/"
 
   def install
     (share/"fonts").install Dir.glob("./**/SpecialGothicExpandedOne-Regular.ttf")[0]
