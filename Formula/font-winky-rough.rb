@@ -1,7 +1,8 @@
 class FontWinkyRough < Formula
   desc "Winky rough font"
-  homepage "https://github.com/typofactur/winkyrough"
+  homepage "https://fonts.google.com/specimen/Winky+Rough"
   head "https://github.com/google/fonts.git",
+       verified:  "github.com/google/fonts",
        branch:    "main",
        only_path: "ofl/winkyrough"
 
