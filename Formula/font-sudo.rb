@@ -1,10 +1,10 @@
 class FontSudo < Formula
   desc "Sudo font"
   homepage "https://www.kutilek.de/sudo-font/"
-  url "https://github.com/jenskutilek/sudo-font/releases/download/v2.2/sudo.zip",
+  url "https://github.com/jenskutilek/sudo-font/releases/download/v3.0.2/sudo.zip",
        verified: "github.com/jenskutilek/sudo-font/"
-  version "2.2"
-  sha256 "b9a5d14348f4ea01dfe02a75d2c5181136d3cbf10277ae0f0b4115c40763f47b"
+  version "3.0.2"
+  sha256 "e1304c45e4aad086c055c9f14ca77eef2a496af892960c189b111c811adcd6cc"
 
   def install
     (share/"fonts").install Dir.glob("./**/Sudo-Bold.ttf")[0]
