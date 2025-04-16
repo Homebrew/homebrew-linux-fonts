@@ -1,5 +1,9 @@
 # Fonts for Homebrew on Linux
 
+> [!Warning]
+> Since font casks are supported on Linux since [brew 4.4.17](https://github.com/Homebrew/brew/releases/tag/4.4.17), 
+> this repo is now deprecated and will be archived on 2025-08-01
+
 homebrew-linux-fonts is a Homebrew Tap which allows you to use the same friendly Homebrew-style CLI workflow for the administration of binary font files on your Linux.
 It is a fork of [homebrew-cask-fonts](https://github.com/Caskroom/homebrew-cask-fonts), since Homebrew Casks are only for macOS.
 
