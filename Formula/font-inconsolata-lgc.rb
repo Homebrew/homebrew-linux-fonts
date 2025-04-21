@@ -1,9 +1,9 @@
 class FontInconsolataLgc < Formula
   desc "Inconsolata lgc font"
   homepage "https://github.com/MihailJP/Inconsolata-LGC"
-  url "https://github.com/MihailJP/Inconsolata-LGC/releases/download/LGC-1.13.0/InconsolataLGC-1.13.0.tar.xz"
-  version "1.13.0"
-  sha256 "c03abd15b2abd26da2d792dec28104a636b5c7a58af9dba52f00c5c9bc6cf52e"
+  url "https://github.com/MihailJP/Inconsolata-LGC/releases/download/LGC-1.13.1/InconsolataLGC-1.13.1.tar.xz"
+  version "1.13.1"
+  sha256 "86c3ce88e3e8c35a01f824b46bf3eae8d9d8bddcb54ed5b648b9b64f4cd6b445"
 
   def install
     (share/"fonts").install Dir.glob("./**/Inconsolata-LGC-Bold.ttf")[0]
