@@ -1,9 +1,9 @@
 class FontComicShannsMonoNerdFont < Formula
   desc "Comicshannsmono nerd font (comic shanns mono) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/ComicShannsMono.zip"
-  version "3.3.0"
-  sha256 "6076397b5b176c6e16423bea599e1a4f7b24932eeda9d253e68912fb14b6f767"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/ComicShannsMono.zip"
+  version "3.4.0"
+  sha256 "b1d1966f508343c6f4117ab959c323a26fd7e1fa028fcba6d60096bb782e96c1"
 
   def install
     (share/"fonts").install Dir.glob("./**/ComicShannsMonoNerdFont-Bold.otf")[0]
