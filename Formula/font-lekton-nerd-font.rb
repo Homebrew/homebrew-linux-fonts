@@ -1,9 +1,9 @@
 class FontLektonNerdFont < Formula
   desc "Lekton nerd font (lekton) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Lekton.zip"
-  version "3.3.0"
-  sha256 "f06a33458f12bb64996a8be7026f8de6434fb7b52c923cbbf0a9b3ebfa76f2ca"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Lekton.zip"
+  version "3.4.0"
+  sha256 "b76368a4d080b2b4021d241467898bc2fe0afd447159d65c01b74d9c1bc59ec0"
 
   def install
     (share/"fonts").install Dir.glob("./**/LektonNerdFont-Bold.ttf")[0]
