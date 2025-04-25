@@ -1,9 +1,9 @@
 class FontZedMonoNerdFont < Formula
   desc "Zedmono nerd font (zed mono) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/ZedMono.zip"
-  version "3.3.0"
-  sha256 "b30e3c6ed1680bce02efce381517d37d6f6dd78b7e50d958ffe1973624d7816c"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/ZedMono.zip"
+  version "3.4.0"
+  sha256 "14cdf24d017986c8912d3a23a29d532171f31e5800b579bb20b9aa542e8d6b3c"
 
   def install
     (share/"fonts").install Dir.glob("./**/ZedMonoNerdFont-Bold.ttf")[0]
