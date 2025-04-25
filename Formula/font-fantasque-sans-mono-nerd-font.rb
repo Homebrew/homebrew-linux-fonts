@@ -1,9 +1,9 @@
 class FontFantasqueSansMonoNerdFont < Formula
   desc "Fantasquesansm nerd font (fantasque sans mono) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/FantasqueSansMono.zip"
-  version "3.3.0"
-  sha256 "849a660ce68cfba5b63dd8ee9cf90ed572f50579b8a098c2a2218559e6293fe5"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/FantasqueSansMono.zip"
+  version "3.4.0"
+  sha256 "29c6fe2420a61fff58a78c689e27d8b984ccef2990d6ed9c1a7f3661136acd41"
 
   def install
     (share/"fonts").install Dir.glob("./**/FantasqueSansMNerdFont-Bold.ttf")[0]
