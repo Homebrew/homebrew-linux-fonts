@@ -1,9 +1,9 @@
 class FontGohufontNerdFont < Formula
   desc "Gohufont  nerd font families (gohu) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Gohu.zip"
-  version "3.3.0"
-  sha256 "e3af23eb736c224b4a0aaf952c41158e70c423a74cf0958582fda5ce869d3e79"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Gohu.zip"
+  version "3.4.0"
+  sha256 "2619b1989c2c472333d8897866d2c1b9fdb6aec7dcc2d658a9baef0ff2cb7959"
 
   def install
     (share/"fonts").install Dir.glob("./**/GohuFont11NerdFont-Regular.ttf")[0]
