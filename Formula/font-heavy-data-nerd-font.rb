@@ -1,9 +1,9 @@
 class FontHeavyDataNerdFont < Formula
   desc "Heavydata nerd font (heavy data) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/HeavyData.zip"
-  version "3.3.0"
-  sha256 "6815fa66a0404ed951ac2bde4efe3a12f77372a89892f35e9cd71fba465497af"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/HeavyData.zip"
+  version "3.4.0"
+  sha256 "7fbe911ba18864f19afa4f97201dc8ecc4694c6c47b44d2e3dd1c13be3e63574"
 
   def install
     (share/"fonts").install Dir.glob("./**/HeavyDataNerdFont-Regular.ttf")[0]
