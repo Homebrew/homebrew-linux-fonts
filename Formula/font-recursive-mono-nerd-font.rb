@@ -1,9 +1,9 @@
 class FontRecursiveMonoNerdFont < Formula
   desc "Recmono nerd font families (recursive mono) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Recursive.zip"
-  version "3.3.0"
-  sha256 "a052aa4842a1719c6f202696f8096212b06f00e3a89138aae6960e7e9514ee07"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Recursive.zip"
+  version "3.4.0"
+  sha256 "0bd832ed9de2b5955208494808e69528cfc471cc03eea850ecfbf8e3b1ed702f"
 
   def install
     (share/"fonts").install Dir.glob("./**/RecMonoCasualNerdFont-Bold.ttf")[0]
