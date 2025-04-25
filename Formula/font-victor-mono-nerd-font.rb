@@ -1,9 +1,9 @@
 class FontVictorMonoNerdFont < Formula
   desc "Victormono nerd font (victor mono) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/VictorMono.zip"
-  version "3.3.0"
-  sha256 "45e5a9ae1f822bc473f69189f196e73ed7243ff1a9505c7ce0ce4067f96985d0"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/VictorMono.zip"
+  version "3.4.0"
+  sha256 "9b4bd827fc59f60c5bd3306a31c148208522d5d6801b9fb5233c39c503013f2f"
 
   def install
     (share/"fonts").install Dir.glob("./**/VictorMonoNerdFont-Bold.ttf")[0]
