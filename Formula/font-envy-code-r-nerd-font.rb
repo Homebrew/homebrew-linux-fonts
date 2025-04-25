@@ -1,9 +1,9 @@
 class FontEnvyCodeRNerdFont < Formula
   desc "Envycoder nerd font (envy code r) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/EnvyCodeR.zip"
-  version "3.3.0"
-  sha256 "1404d84593f2b9fad926443c4c57f8262e60d7c77f63fa38f950b39a51bc16f7"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/EnvyCodeR.zip"
+  version "3.4.0"
+  sha256 "b2b4b013e40a2a8cb13d9eefa56605483788867cd4502d6c4703dceb282cc123"
 
   def install
     (share/"fonts").install Dir.glob("./**/EnvyCodeRNerdFont-Bold.ttf")[0]
