@@ -1,9 +1,9 @@
 class FontArimoNerdFont < Formula
   desc "Arimo nerd font (arimo) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Arimo.zip"
-  version "3.3.0"
-  sha256 "f04e256bd134115866cf23440c68679fbdece4aa67c1ff34daff04f0c624b46f"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Arimo.zip"
+  version "3.4.0"
+  sha256 "ed6f9667a581d3406063110a330a98cf5b9f618031cce606db798944056604c4"
 
   def install
     (share/"fonts").install Dir.glob("./**/ArimoNerdFont-Bold.ttf")[0]
