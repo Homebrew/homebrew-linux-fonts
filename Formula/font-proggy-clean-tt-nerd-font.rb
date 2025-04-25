@@ -1,9 +1,9 @@
 class FontProggyCleanTtNerdFont < Formula
   desc "Proggyclean nerd font families (proggycleantt) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/ProggyClean.zip"
-  version "3.3.0"
-  sha256 "375625156cfdd330aac49b7dbbbb3023f49339ffa17e596026741ef690068be2"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/ProggyClean.zip"
+  version "3.4.0"
+  sha256 "d82f3a264b97ad0122ef29c442ce76c7f3157056854eb7ee4a41b2ce82f52be9"
 
   def install
     (share/"fonts").install Dir.glob("./**/ProggyCleanCENerdFont-Regular.ttf")[0]
