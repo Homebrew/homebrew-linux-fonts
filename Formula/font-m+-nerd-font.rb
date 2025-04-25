@@ -1,9 +1,9 @@
 class FontM+NerdFont < Formula
   desc "M+ nerd font families (mplus) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/MPlus.zip"
-  version "3.3.0"
-  sha256 "3f85b91067737c45f519c583594eb445d5c3e921a5c0f40cb43c02eba513b952"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/MPlus.zip"
+  version "3.4.0"
+  sha256 "1eb51a672a5d2fc2b8ceb9ff5f238ced6d3e9abea243e9779269bcf17a5552d0"
 
   def install
     (share/"fonts").install Dir.glob("./**/M+1CodeNerdFont-Bold.ttf")[0]
