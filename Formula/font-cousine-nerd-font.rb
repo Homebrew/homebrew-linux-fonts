@@ -1,9 +1,9 @@
 class FontCousineNerdFont < Formula
   desc "Cousine nerd font (cousine) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Cousine.zip"
-  version "3.3.0"
-  sha256 "d1749814db71468ec2f4611093979ddc5f6b518d0d2a25d9c9dd6009748f045f"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Cousine.zip"
+  version "3.4.0"
+  sha256 "a62e0defe6c648d9063e49ae46a4e7d01c71fe154206dc0aeeaa2a9b7f7cfa82"
 
   def install
     (share/"fonts").install Dir.glob("./**/CousineNerdFont-Bold.ttf")[0]
