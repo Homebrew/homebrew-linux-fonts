@@ -1,9 +1,9 @@
 class Font0xprotoNerdFont < Formula
   desc "0xproto nerd font (0xproto) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/0xProto.zip"
-  version "3.3.0"
-  sha256 "99deb8d6b26e8946792f75107761bb46c4b927b5d21e4f9b2e163eb6efd6487b"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/0xProto.zip"
+  version "3.4.0"
+  sha256 "e50e7fec9efbe1eb986b65f01e210098e122a3f495db24e6624bdcbca52da11d"
 
   def install
     (share/"fonts").install Dir.glob("./**/0xProtoNerdFont-Bold.ttf")[0]
