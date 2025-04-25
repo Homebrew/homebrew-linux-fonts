@@ -1,9 +1,9 @@
 class FontMonoidNerdFont < Formula
   desc "Monoid nerd font (monoid) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Monoid.zip"
-  version "3.3.0"
-  sha256 "ff3c9c0aa0f2635967298ba3572f36810883fafa544de0d690f5077c69d62623"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Monoid.zip"
+  version "3.4.0"
+  sha256 "9a1bd33d43c784a7954505fd308d0b54869ce963095de841efce501188ea575b"
 
   def install
     (share/"fonts").install Dir.glob("./**/MonoidNerdFont-Bold.ttf")[0]
