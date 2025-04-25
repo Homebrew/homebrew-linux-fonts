@@ -1,9 +1,9 @@
 class FontMartianMonoNerdFont < Formula
   desc "Martianmono nerd font (martianmono) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/MartianMono.zip"
-  version "3.3.0"
-  sha256 "706e539ce2a3019b306e4f90364b8ff57c7076c8e2f160a486028e4bb3f243b2"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/MartianMono.zip"
+  version "3.4.0"
+  sha256 "76efe59051015cd688d027995c0bca6f365c75438025ba065ac9c744e82c8095"
 
   def install
     (share/"fonts").install Dir.glob("./**/MartianMonoNerdFont-Bold.ttf")[0]
