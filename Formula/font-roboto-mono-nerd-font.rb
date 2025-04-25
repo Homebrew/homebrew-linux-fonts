@@ -1,9 +1,9 @@
 class FontRobotoMonoNerdFont < Formula
   desc "Robotomono nerd font (roboto mono) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/RobotoMono.zip"
-  version "3.3.0"
-  sha256 "c8b6343228f7474b3257f16355bee0064d28ae285ffd634141295d8fc56765aa"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/RobotoMono.zip"
+  version "3.4.0"
+  sha256 "84a4e9d0bc8b5f55c0476d82ab73f36315a16171a4d06bf5270fd604c7103c9f"
 
   def install
     (share/"fonts").install Dir.glob("./**/RobotoMonoNerdFont-Bold.ttf")[0]
