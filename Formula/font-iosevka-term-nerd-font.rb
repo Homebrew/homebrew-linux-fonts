@@ -1,9 +1,9 @@
 class FontIosevkaTermNerdFont < Formula
   desc "Iosevkaterm nerd font (iosevka term) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/IosevkaTerm.zip"
-  version "3.3.0"
-  sha256 "f968542e9b6e7a7648e41cc5b24b979084d0587c0bb6bd8155b6187ba6c05b2e"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/IosevkaTerm.zip"
+  version "3.4.0"
+  sha256 "d4010247459253898a160fc494c6671f523788f8562f23f599cf881b2e3ac241"
 
   def install
     (share/"fonts").install Dir.glob("./**/IosevkaTermNerdFont-Bold.ttf")[0]
