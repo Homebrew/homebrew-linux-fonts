@@ -1,9 +1,9 @@
 class FontFiraMonoNerdFont < Formula
   desc "Firamono nerd font (fira) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/FiraMono.zip"
-  version "3.3.0"
-  sha256 "09046ea03d7302305253c93459252d5e9adc10c4581b70dfe19f7fea3d672a4a"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/FiraMono.zip"
+  version "3.4.0"
+  sha256 "ef37b99164614ad518721a8f3b1a1f654bac060dba820e73fa3b3e4cce8841e4"
 
   def install
     (share/"fonts").install Dir.glob("./**/FiraMonoNerdFont-Bold.otf")[0]
