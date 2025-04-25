@@ -1,9 +1,9 @@
 class FontOverpassNerdFont < Formula
   desc "Overpass nerd font families (overpass) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Overpass.zip"
-  version "3.3.0"
-  sha256 "69cbbb6547f2867ff6f4f720bd2dc316491a33703297802dcfac54720e79b67b"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Overpass.zip"
+  version "3.4.0"
+  sha256 "39e5a4c1ce400486ab6c11724a0997de6257231283923079134272ed4beeb843"
 
   def install
     (share/"fonts").install Dir.glob("./**/OverpassMNerdFont-Bold.otf")[0]
