@@ -1,9 +1,9 @@
 class FontIntoneMonoNerdFont < Formula
   desc "Intonemono nerd font (intel one mono) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/IntelOneMono.zip"
-  version "3.3.0"
-  sha256 "0a935653d90610769e79590343efdec7111531efaa9aabca18262e56046958ce"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/IntelOneMono.zip"
+  version "3.4.0"
+  sha256 "5fcefd22e8cae586559365cb8353a77077dba4b4773fa57538926e31cf4629ce"
 
   def install
     (share/"fonts").install Dir.glob("./**/IntoneMonoNerdFont-Bold.ttf")[0]
