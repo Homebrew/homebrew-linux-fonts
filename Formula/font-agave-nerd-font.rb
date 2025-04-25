@@ -1,9 +1,9 @@
 class FontAgaveNerdFont < Formula
   desc "Agave nerd font (agave) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Agave.zip"
-  version "3.3.0"
-  sha256 "42ec90ea46d0ffdae4051d42638f0bffaf4a75b4ab82a55b4484db48cd7dd85b"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/Agave.zip"
+  version "3.4.0"
+  sha256 "cdd66f1719da8e22f9dcec0981a226bb23b7bf1c93a836f40118665b70982c8d"
 
   def install
     (share/"fonts").install Dir.glob("./**/AgaveNerdFont-Bold.ttf")[0]
