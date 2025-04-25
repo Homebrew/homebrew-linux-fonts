@@ -1,9 +1,9 @@
 class FontCaskaydiaMonoNerdFont < Formula
   desc "Caskaydiamono nerd font (cascadia mono) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/CascadiaMono.zip"
-  version "3.3.0"
-  sha256 "50b54f568224836b976edbda730c274a626384ba5dc69452dab4ddccb4c8ad06"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/CascadiaMono.zip"
+  version "3.4.0"
+  sha256 "95dc4ace16f5a45734fc584925b9ef24c23f46d54a3b66082bac1e3841a41593"
 
   def install
     (share/"fonts").install Dir.glob("./**/CaskaydiaMonoNerdFont-Bold.ttf")[0]
