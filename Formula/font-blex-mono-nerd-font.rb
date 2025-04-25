@@ -1,9 +1,9 @@
 class FontBlexMonoNerdFont < Formula
   desc "Blexmono nerd font (ibm plex mono) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/IBMPlexMono.zip"
-  version "3.3.0"
-  sha256 "1c83e4067ae94bf292be021914901b38543718cd4d7b57fa9d5dcec1a90aeea2"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/IBMPlexMono.zip"
+  version "3.4.0"
+  sha256 "d6e9dc83650d8bd51d99d7c6848f507ac50be3729df8d24d9e5b0530044b1847"
 
   def install
     (share/"fonts").install Dir.glob("./**/BlexMonoNerdFont-Bold.ttf")[0]
