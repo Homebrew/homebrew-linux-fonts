@@ -1,9 +1,9 @@
 class FontShureTechMonoNerdFont < Formula
   desc "Shuretechmono nerd font (share tech mono) font"
   homepage "https://github.com/ryanoasis/nerd-fonts"
-  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/ShareTechMono.zip"
-  version "3.3.0"
-  sha256 "128fa7c0a7dcb711591862279beb5ab113ee84dd3b078da75d93bc8a1edacb26"
+  url "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/ShareTechMono.zip"
+  version "3.4.0"
+  sha256 "d409349fc8b47929d65d99465c18d5206ab6a42b41bce9492252dfffe1b43c32"
 
   def install
     (share/"fonts").install Dir.glob("./**/ShureTechMonoNerdFont-Regular.ttf")[0]
