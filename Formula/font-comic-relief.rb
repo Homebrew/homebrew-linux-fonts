@@ -1,7 +1,8 @@
 class FontComicRelief < Formula
   desc "Comic relief font"
-  homepage "https://github.com/loudifier/Comic-Relief"
+  homepage "https://fonts.google.com/specimen/Comic+Relief"
   head "https://github.com/google/fonts.git",
+       verified:  "github.com/google/fonts",
        branch:    "main",
        only_path: "ofl/comicrelief"
 
