@@ -1,6 +1,6 @@
 class FontTuffy < Formula
   desc "Tuffy font"
-  homepage "http://tulrich.com/fonts/"
+  homepage "https://fonts.google.com/specimen/Tuffy"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
        branch:    "main",
