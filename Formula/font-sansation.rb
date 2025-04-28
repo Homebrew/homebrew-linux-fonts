@@ -1,6 +1,6 @@
 class FontSansation < Formula
   desc "Sansation font"
-  homepage "https://www.fontspace.com/sansation-font-f20328"
+  homepage "https://fonts.google.com/specimen/Sansation"
   head "https://github.com/google/fonts.git",
        verified:  "github.com/google/fonts",
        branch:    "main",
