@@ -1,7 +1,8 @@
 class FontKanchenjunga < Formula
   desc "Kanchenjunga font"
-  homepage "https://github.com/silnrsi/font-kanchenjunga/"
+  homepage "https://fonts.google.com/specimen/Kanchenjunga"
   head "https://github.com/google/fonts.git",
+       verified:  "github.com/google/fonts",
        branch:    "main",
        only_path: "ofl/kanchenjunga"
 
